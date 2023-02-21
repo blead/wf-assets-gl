@@ -1,6 +1,6 @@
 on:
   repository_dispatch:
-    types: [wf-assets-cron]
+    types: [wf-assets-gl-cron]
   workflow_dispatch:
     inputs:
       version:
