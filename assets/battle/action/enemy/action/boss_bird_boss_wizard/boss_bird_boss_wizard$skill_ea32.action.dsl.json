@@ -1,0 +1,1058 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Event",
+        [
+          "Repeat",
+          5,
+          2,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateShockWaveAttack",
+                  "*",
+                  -33,
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  0,
+                  [
+                    "Arc",
+                    1.0471975511965976
+                  ],
+                  [
+                    "ResolveByElement",
+                    "battle/effect/enemy_general/enemy_shot_wave_arc60_fast",
+                    255
+                  ],
+                  [
+                    "BacksideOfCharacter"
+                  ],
+                  3,
+                  0,
+                  1,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          1,
+                          255,
+                          null,
+                          null,
+                          0,
+                          {
+                            "max": 0.5,
+                            "min": 0.5
+                          },
+                          {
+                            "max": 0,
+                            "min": 0
+                          },
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "None"
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          1,
+                          [
+                            [
+                              "ACSkillDamage",
+                              {
+                                "max": 1800,
+                                "min": 1800
+                              },
+                              {
+                                "max": -0.5,
+                                "min": -0.5
+                              },
+                              1
+                            ]
+                          ],
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          1,
+                          [
+                            [
+                              "ACFrozen",
+                              {
+                                "max": 1800,
+                                "min": 1800
+                              },
+                              true
+                            ]
+                          ],
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateShockWaveAttack",
+                  "*",
+                  -33,
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  1.5707963267948966,
+                  [
+                    "Arc",
+                    1.0471975511965976
+                  ],
+                  [
+                    "ResolveByElement",
+                    "battle/effect/enemy_general/enemy_shot_wave_arc60_fast",
+                    255
+                  ],
+                  [
+                    "BacksideOfCharacter"
+                  ],
+                  3,
+                  2,
+                  3,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          3,
+                          255,
+                          null,
+                          null,
+                          0,
+                          {
+                            "max": 0.5,
+                            "min": 0.5
+                          },
+                          {
+                            "max": 0,
+                            "min": 0
+                          },
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "None"
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          3,
+                          [
+                            [
+                              "ACSkillDamage",
+                              {
+                                "max": 1800,
+                                "min": 1800
+                              },
+                              {
+                                "max": -0.5,
+                                "min": -0.5
+                              },
+                              1
+                            ]
+                          ],
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          3,
+                          [
+                            [
+                              "ACFrozen",
+                              {
+                                "max": 1800,
+                                "min": 1800
+                              },
+                              true
+                            ]
+                          ],
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateShockWaveAttack",
+                  "*",
+                  -33,
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  3.141592653589793,
+                  [
+                    "Arc",
+                    1.0471975511965976
+                  ],
+                  [
+                    "ResolveByElement",
+                    "battle/effect/enemy_general/enemy_shot_wave_arc60_fast",
+                    255
+                  ],
+                  [
+                    "BacksideOfCharacter"
+                  ],
+                  3,
+                  4,
+                  5,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          5,
+                          255,
+                          null,
+                          null,
+                          0,
+                          {
+                            "max": 0.5,
+                            "min": 0.5
+                          },
+                          {
+                            "max": 0,
+                            "min": 0
+                          },
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "None"
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          5,
+                          [
+                            [
+                              "ACSkillDamage",
+                              {
+                                "max": 1800,
+                                "min": 1800
+                              },
+                              {
+                                "max": -0.5,
+                                "min": -0.5
+                              },
+                              1
+                            ]
+                          ],
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          5,
+                          [
+                            [
+                              "ACFrozen",
+                              {
+                                "max": 1800,
+                                "min": 1800
+                              },
+                              true
+                            ]
+                          ],
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateShockWaveAttack",
+                  "*",
+                  -33,
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  4.71238898038469,
+                  [
+                    "Arc",
+                    1.0471975511965976
+                  ],
+                  [
+                    "ResolveByElement",
+                    "battle/effect/enemy_general/enemy_shot_wave_arc60_fast",
+                    255
+                  ],
+                  [
+                    "BacksideOfCharacter"
+                  ],
+                  3,
+                  6,
+                  7,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          7,
+                          255,
+                          null,
+                          null,
+                          0,
+                          {
+                            "max": 0.5,
+                            "min": 0.5
+                          },
+                          {
+                            "max": 0,
+                            "min": 0
+                          },
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "None"
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          7,
+                          [
+                            [
+                              "ACSkillDamage",
+                              {
+                                "max": 1800,
+                                "min": 1800
+                              },
+                              {
+                                "max": -0.5,
+                                "min": -0.5
+                              },
+                              1
+                            ]
+                          ],
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          7,
+                          [
+                            [
+                              "ACFrozen",
+                              {
+                                "max": 1800,
+                                "min": 1800
+                              },
+                              true
+                            ]
+                          ],
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          15,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Event",
+                [
+                  "Repeat",
+                  5,
+                  2,
+                  "*",
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateShockWaveAttack",
+                          "*",
+                          -33,
+                          [
+                            "AB"
+                          ],
+                          0,
+                          0,
+                          0.7853981633974483,
+                          [
+                            "Arc",
+                            1.0471975511965976
+                          ],
+                          [
+                            "ResolveByElement",
+                            "battle/effect/enemy_general/enemy_shot_wave_arc60_fast",
+                            255
+                          ],
+                          [
+                            "BacksideOfCharacter"
+                          ],
+                          3,
+                          0,
+                          1,
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateNormalAttack",
+                                  1,
+                                  255,
+                                  null,
+                                  null,
+                                  0,
+                                  {
+                                    "max": 0.5,
+                                    "min": 0.5
+                                  },
+                                  {
+                                    "max": 0,
+                                    "min": 0
+                                  },
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  [
+                                    "None"
+                                  ]
+                                ]
+                              ],
+                              [
+                                "Command",
+                                [
+                                  "CreateCondition",
+                                  1,
+                                  [
+                                    [
+                                      "ACSkillDamage",
+                                      {
+                                        "max": 1800,
+                                        "min": 1800
+                                      },
+                                      {
+                                        "max": -0.5,
+                                        "min": -0.5
+                                      },
+                                      1
+                                    ]
+                                  ],
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  [
+                                    "GenericConditionHitEffect"
+                                  ],
+                                  true,
+                                  false
+                                ]
+                              ],
+                              [
+                                "Command",
+                                [
+                                  "CreateCondition",
+                                  1,
+                                  [
+                                    [
+                                      "ACFrozen",
+                                      {
+                                        "max": 1800,
+                                        "min": 1800
+                                      },
+                                      true
+                                    ]
+                                  ],
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  [
+                                    "GenericConditionHitEffect"
+                                  ],
+                                  true,
+                                  false
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateShockWaveAttack",
+                          "*",
+                          -33,
+                          [
+                            "AB"
+                          ],
+                          0,
+                          0,
+                          2.356194490192345,
+                          [
+                            "Arc",
+                            1.0471975511965976
+                          ],
+                          [
+                            "ResolveByElement",
+                            "battle/effect/enemy_general/enemy_shot_wave_arc60_fast",
+                            255
+                          ],
+                          [
+                            "BacksideOfCharacter"
+                          ],
+                          3,
+                          2,
+                          3,
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateNormalAttack",
+                                  3,
+                                  255,
+                                  null,
+                                  null,
+                                  0,
+                                  {
+                                    "max": 0.5,
+                                    "min": 0.5
+                                  },
+                                  {
+                                    "max": 0,
+                                    "min": 0
+                                  },
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  [
+                                    "None"
+                                  ]
+                                ]
+                              ],
+                              [
+                                "Command",
+                                [
+                                  "CreateCondition",
+                                  3,
+                                  [
+                                    [
+                                      "ACSkillDamage",
+                                      {
+                                        "max": 1800,
+                                        "min": 1800
+                                      },
+                                      {
+                                        "max": -0.5,
+                                        "min": -0.5
+                                      },
+                                      1
+                                    ]
+                                  ],
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  [
+                                    "GenericConditionHitEffect"
+                                  ],
+                                  true,
+                                  false
+                                ]
+                              ],
+                              [
+                                "Command",
+                                [
+                                  "CreateCondition",
+                                  3,
+                                  [
+                                    [
+                                      "ACFrozen",
+                                      {
+                                        "max": 1800,
+                                        "min": 1800
+                                      },
+                                      true
+                                    ]
+                                  ],
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  [
+                                    "GenericConditionHitEffect"
+                                  ],
+                                  true,
+                                  false
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateShockWaveAttack",
+                          "*",
+                          -33,
+                          [
+                            "AB"
+                          ],
+                          0,
+                          0,
+                          3.9269908169872414,
+                          [
+                            "Arc",
+                            1.0471975511965976
+                          ],
+                          [
+                            "ResolveByElement",
+                            "battle/effect/enemy_general/enemy_shot_wave_arc60_fast",
+                            255
+                          ],
+                          [
+                            "BacksideOfCharacter"
+                          ],
+                          3,
+                          4,
+                          5,
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateNormalAttack",
+                                  5,
+                                  255,
+                                  null,
+                                  null,
+                                  0,
+                                  {
+                                    "max": 0.5,
+                                    "min": 0.5
+                                  },
+                                  {
+                                    "max": 0,
+                                    "min": 0
+                                  },
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  [
+                                    "None"
+                                  ]
+                                ]
+                              ],
+                              [
+                                "Command",
+                                [
+                                  "CreateCondition",
+                                  5,
+                                  [
+                                    [
+                                      "ACSkillDamage",
+                                      {
+                                        "max": 1800,
+                                        "min": 1800
+                                      },
+                                      {
+                                        "max": -0.5,
+                                        "min": -0.5
+                                      },
+                                      1
+                                    ]
+                                  ],
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  [
+                                    "GenericConditionHitEffect"
+                                  ],
+                                  true,
+                                  false
+                                ]
+                              ],
+                              [
+                                "Command",
+                                [
+                                  "CreateCondition",
+                                  5,
+                                  [
+                                    [
+                                      "ACFrozen",
+                                      {
+                                        "max": 1800,
+                                        "min": 1800
+                                      },
+                                      true
+                                    ]
+                                  ],
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  [
+                                    "GenericConditionHitEffect"
+                                  ],
+                                  true,
+                                  false
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateShockWaveAttack",
+                          "*",
+                          -33,
+                          [
+                            "AB"
+                          ],
+                          0,
+                          0,
+                          5.497787143782138,
+                          [
+                            "Arc",
+                            1.0471975511965976
+                          ],
+                          [
+                            "ResolveByElement",
+                            "battle/effect/enemy_general/enemy_shot_wave_arc60_fast",
+                            255
+                          ],
+                          [
+                            "BacksideOfCharacter"
+                          ],
+                          3,
+                          6,
+                          7,
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateNormalAttack",
+                                  7,
+                                  255,
+                                  null,
+                                  null,
+                                  0,
+                                  {
+                                    "max": 0.5,
+                                    "min": 0.5
+                                  },
+                                  {
+                                    "max": 0,
+                                    "min": 0
+                                  },
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  [
+                                    "None"
+                                  ]
+                                ]
+                              ],
+                              [
+                                "Command",
+                                [
+                                  "CreateCondition",
+                                  7,
+                                  [
+                                    [
+                                      "ACSkillDamage",
+                                      {
+                                        "max": 1800,
+                                        "min": 1800
+                                      },
+                                      {
+                                        "max": -0.5,
+                                        "min": -0.5
+                                      },
+                                      1
+                                    ]
+                                  ],
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  [
+                                    "GenericConditionHitEffect"
+                                  ],
+                                  true,
+                                  false
+                                ]
+                              ],
+                              [
+                                "Command",
+                                [
+                                  "CreateCondition",
+                                  7,
+                                  [
+                                    [
+                                      "ACFrozen",
+                                      {
+                                        "max": 1800,
+                                        "min": 1800
+                                      },
+                                      true
+                                    ]
+                                  ],
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  [
+                                    "GenericConditionHitEffect"
+                                  ],
+                                  true,
+                                  false
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

@@ -1,0 +1,47 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "StartModifierField",
+          99999999,
+          "Healing disabled!",
+          "The field effect disappeared.",
+          [
+            [
+              "HealRejection"
+            ]
+          ],
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "DeleteCondition",
+          -17,
+          [
+            "DCToleranceOfElement",
+            1
+          ],
+          1,
+          1
+        ]
+      ]
+    ]
+  ]
+]

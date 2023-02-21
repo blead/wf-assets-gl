@@ -1,0 +1,5206 @@
+{
+  "bird_boss_wizard": {
+    "1": {
+      "state1_phase1_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_damage_resist": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral10": [
+        [
+          "state1_phase1_neutral10",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_attack_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_attack_loop10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral20": [
+        [
+          "state1_phase1_neutral20",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_attack_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_attack_loop20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral30": [
+        [
+          "state1_phase1_neutral30",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral40": [
+        [
+          "state1_phase1_neutral40",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_charge30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_attack_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_attack_loop30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral50": [
+        [
+          "state1_phase1_neutral50",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_charge40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_attack_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_attack_loop40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot2_end40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral60": [
+        [
+          "state1_phase1_neutral60",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot1_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot1_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot1_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_shot1_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check70": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral70": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral70": [
+        [
+          "state1_phase1_neutral70",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receive_wait": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_special_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_special_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_special_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_neutral30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_charge30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_attack30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_neutral40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_charge40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_attack40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_shot_end40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_receive_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_receive_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_receive_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_receive_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_receive_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_receive_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_receive_shot_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_receive_shot_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_receive_shot_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_receive_shot_attack_loop10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_receive_shot_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_receive_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_special_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_special_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_special_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_neutral30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_charge30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_attack30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_neutral40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_charge40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_attack40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_shot_end40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_receive_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_neutral05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_shot1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_shot1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_shot1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_shot1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop_receivable_check10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase2_neutral10": [
+        [
+          "state1_phase2_neutral10",
+          "false"
+        ]
+      ],
+      "state1_phase2_shot1_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_shot1_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_shot1_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_shot1_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop_receivable_check20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase2_neutral20": [
+        [
+          "state1_phase2_neutral20",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop_receive_wait": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_shot_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_shot_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_shot_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_shot_attack_loop10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_shot_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_shot_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_shot_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_shot_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_shot_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_receive_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_funnel1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_funnel1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_funnel1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_funnel1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_funnel_check20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral20": [
+        [
+          "state1_phase3_neutral20",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_funnel_check30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral30": [
+        [
+          "state1_phase3_neutral30",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_funnel_check40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral40": [
+        [
+          "state1_phase3_neutral40",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_charge30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_attack30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_funnel_check50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral50": [
+        [
+          "state1_phase3_neutral50",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_charge40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_attack40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_end40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_funnel_check60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral60": [
+        [
+          "state1_phase3_neutral60",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_start50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_charge50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_attack50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_end50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_funnel_check70": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check70": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral70": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral70": [
+        [
+          "state1_phase3_neutral70",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_start60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_charge60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_attack60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_shot1_end60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_funnel_check80": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check80": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral80": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral80": [
+        [
+          "state1_phase3_neutral80",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receive_wait": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_shot_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_shot_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_shot_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_shot_attack_loop10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_shot_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_shot_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_shot_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_shot_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_shot_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_receive_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_special_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_special_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_special_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_neutral30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_charge30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_attack30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_neutral40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_charge40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_attack40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_end40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_neutral50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_start50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_charge50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_attack50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_shot_end50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_receive_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_neutral05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_shot1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_shot1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_shot1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_shot1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop_receivable_check10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase4_neutral10": [
+        [
+          "state1_phase4_neutral10",
+          "false"
+        ]
+      ],
+      "state1_phase4_shot1_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_shot1_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_shot1_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_shot1_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop_receivable_check20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase4_neutral20": [
+        [
+          "state1_phase4_neutral20",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop_receive_wait": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_shot1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_shot1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_shot1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_shot1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_neutral05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_special_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_special_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_special_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_special1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_special1_charge10": [
+        [
+          "(None)",
+          "true"
+        ]
+      ],
+      "state1_phase4_coop1_receive_special1_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_special1_attack_check10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_special1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_special1_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_special1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_neutral25": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_neutral30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_special_move_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_special_move20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_special_move_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_receive_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral05_continue": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_start05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_charge05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_attack05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_end05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_attack_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_attack_loop10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_move20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral70": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral80": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_move30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral90": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral100": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_attack_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_attack_loop20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral110": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_skill1_start5": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_skill1_charge5": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_skill1_attack_start5": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_skill1_attack_loop5": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_skill1_end5": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral115": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_charge30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_attack_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_attack_loop30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral120": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_charge30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_attack30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral130": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_charge40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_attack_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_attack_loop40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_end40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral140": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_charge40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_attack40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_funnel1_end40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral150": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_charge30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_attack30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral160": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_move40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral170": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_charge40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_attack40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot1_end40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral180": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_move50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral190": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_start50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_charge50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_attack_start50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_attack_loop50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_shot2_end50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral200": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_skill1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_skill1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_skill1_attack_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_skill1_attack_loop10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_skill1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral210": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state8_neutral10_continue": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state8_neutral20_continue": [
+        [
+          "(None)",
+          "false"
+        ]
+      ]
+    }
+  },
+  "bird_boss_fighter": {
+    "1": {
+      "state1_phase1_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_damage_resist": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel_check10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral10": [
+        [
+          "state1_phase1_neutral10",
+          "false"
+        ]
+      ],
+      "state1_phase1_fast_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_fast_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_fast_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel_check20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral20": [
+        [
+          "state1_phase1_neutral20",
+          "false"
+        ]
+      ],
+      "state1_phase1_knuckle_shot1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_knuckle_shot1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_knuckle_shot1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_knuckle_shot1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel_check30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral30": [
+        [
+          "state1_phase1_neutral30",
+          "false"
+        ]
+      ],
+      "state1_phase1_target_shot1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_target_shot1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_target_shot1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_target_shot1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel_check40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral40": [
+        [
+          "state1_phase1_neutral40",
+          "false"
+        ]
+      ],
+      "state1_phase1_fast_move_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_fast_move20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_fast_move_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel_check50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral50": [
+        [
+          "state1_phase1_neutral50",
+          "false"
+        ]
+      ],
+      "state1_phase1_explode_shot1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_explode_shot1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_explode_shot1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_explode_shot1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel_check60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral60": [
+        [
+          "state1_phase1_neutral60",
+          "false"
+        ]
+      ],
+      "state1_phase1_fast_move_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_fast_move30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_fast_move_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel_check70": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check70": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral70": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral70": [
+        [
+          "state1_phase1_neutral70",
+          "false"
+        ]
+      ],
+      "state1_phase1_knuckle_shot1_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_knuckle_shot1_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_knuckle_shot1_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_knuckle_shot1_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel_check80": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check80": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral80": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral80": [
+        [
+          "state1_phase1_neutral80",
+          "false"
+        ]
+      ],
+      "state1_phase1_target_shot1_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_target_shot1_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_target_shot1_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_target_shot1_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel_check90": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check90": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral90": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral90": [
+        [
+          "state1_phase1_neutral90",
+          "false"
+        ]
+      ],
+      "state1_phase1_fast_move_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_fast_move40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_fast_move_end40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel_check100": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check100": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral100": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral100": [
+        [
+          "state1_phase1_neutral100",
+          "false"
+        ]
+      ],
+      "state1_phase1_explode_shot1_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_explode_shot1_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_explode_shot1_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_explode_shot1_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_funnel_check110": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_receivable_check110": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_neutral110": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase1_neutral110": [
+        [
+          "state1_phase1_neutral110",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_check1": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_check2": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop_check3": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_move_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_move": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_move_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_neutral": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_shot_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_shot_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_shot_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_shot_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_shot_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_shot_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_shot_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_shot_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_shot_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_shot_charge30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_shot_attack30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_shot_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop1_send_ok_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_move_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_move": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_move_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_neutral": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_attack_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_attack_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_neutral30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_move_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_move30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_move_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_neutral40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_charge30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_attack_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_neutral50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_move_start4": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_move40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_move_end40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_neutral60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_charge40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_attack_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_shot_end40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop2_send_ok_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_move_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_move": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_move_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_neutral": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_shot_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_shot_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_shot_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_shot_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_shot_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_shot_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_shot_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_shot_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_shot_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_shot_charge30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_shot_attack30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_shot_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase1_coop3_send_ok_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_neutral05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_fast_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_fast_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_fast_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_neutral07": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_knuckle_shot1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_knuckle_shot1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_knuckle_shot1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_knuckle_shot1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop_receivable_check10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase2_neutral10": [
+        [
+          "state1_phase2_neutral10",
+          "false"
+        ]
+      ],
+      "state1_phase2_fast_move_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_fast_move20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_fast_move_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_neutral15": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_knuckle_shot1_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_knuckle_shot1_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_knuckle_shot1_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_knuckle_shot1_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop_receivable_check20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase2_neutral20": [
+        [
+          "state1_phase2_neutral20",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop_check1": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_send_ok_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_send_ok_move_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_send_ok_move": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_send_ok_move_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_send_ok_neutral": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_send_ok_shot_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_send_ok_shot_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_send_ok_shot_attack_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_send_ok_shot_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase2_coop1_send_ok_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_fast_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_fast_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_fast_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral10": [
+        [
+          "state1_phase3_neutral10",
+          "false"
+        ]
+      ],
+      "state1_phase3_knuckle_shot1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_knuckle_shot1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_knuckle_shot1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_knuckle_shot1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral20": [
+        [
+          "state1_phase3_neutral20",
+          "false"
+        ]
+      ],
+      "state1_phase3_twice_shot2_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_twice_shot2_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_twice_shot2_attack_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_twice_shot2_attack_loop10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_twice_shot2_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral30": [
+        [
+          "state1_phase3_neutral30",
+          "false"
+        ]
+      ],
+      "state1_phase3_move_shot_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_move_shot10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_move_shot_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral40": [
+        [
+          "state1_phase3_neutral40",
+          "false"
+        ]
+      ],
+      "state1_phase3_move_shot_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_move_shot20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_move_shot_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral50": [
+        [
+          "state1_phase3_neutral50",
+          "false"
+        ]
+      ],
+      "state1_phase3_knuckle_shot1_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_knuckle_shot1_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_knuckle_shot1_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_knuckle_shot1_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral60": [
+        [
+          "state1_phase3_neutral60",
+          "false"
+        ]
+      ],
+      "state1_phase3_twice_shot2_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_twice_shot2_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_twice_shot2_attack_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_twice_shot2_attack_loop20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_twice_shot2_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check70": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral70": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral70": [
+        [
+          "state1_phase3_neutral70",
+          "false"
+        ]
+      ],
+      "state1_phase3_move_shot_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_move_shot30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_move_shot_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_receivable_check80": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_neutral80": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase3_neutral80": [
+        [
+          "state1_phase3_neutral80",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_check1": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop_check2": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_move_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_move": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_move_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_neutral": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_shot_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_shot_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_shot_attack_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_shot_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_move20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_neutral30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_move30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_neutral40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_move40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop1_send_ok_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_send_ok_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_send_ok_move_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_send_ok_move": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_send_ok_move_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_send_ok_neutral": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_send_ok_shot_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_send_ok_shot_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_send_ok_shot_attack_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_send_ok_shot_attack_loop10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_send_ok_shot_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase3_coop2_send_ok_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_neutral05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_fast_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_fast_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_fast_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_neutral07": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_knuckle_shot1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_knuckle_shot1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_knuckle_shot1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_knuckle_shot1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop_receivable_check10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase4_neutral10": [
+        [
+          "state1_phase4_neutral10",
+          "false"
+        ]
+      ],
+      "state1_phase4_fast_move_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_fast_move20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_fast_move_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_neutral15": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_knuckle_shot1_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_knuckle_shot1_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_knuckle_shot1_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_knuckle_shot1_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop_receivable_check20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_receivable_phase4_neutral20": [
+        [
+          "state1_phase4_neutral20",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop_check1": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_start": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_shot1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_shot1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_shot1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_shot1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_neutral05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_special_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_special_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_special_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_special1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_special1_charge10": [
+        [
+          "(None)",
+          "true"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_special1_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_special1_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_special1_attack_check10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_special1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_special1_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_special1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_neutral25": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state1_phase4_coop1_send_ok_end": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral05": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_neutral05_continue": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_fast_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_fast_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_fast_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_skill1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_skill1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_skill1_attack_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_skill1_attack_loop10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_skill1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_neutral30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_funnel1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_funnel1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_funnel1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_funnel1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_neutral40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_attack_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_attack_loop10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_neutral50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_fast_move_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_fast_move20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_fast_move_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_neutral60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_attack_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_attack_loop20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_neutral70": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_fast_move_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_fast_move30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_fast_move_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_neutral80": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_charge30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_attack_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_attack_loop30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_shot2_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_neutral90": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_fast_move_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_fast_move40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_fast_move_end40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_neutral100": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_skill3_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_skill3_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_skill3_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase1_skill3_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_skill1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_skill1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_skill1_attack_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_skill1_attack_loop10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_skill1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_neutral30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_funnel1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_funnel1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_funnel1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_funnel1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_neutral40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_neutral50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_neutral60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move_end40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_neutral70": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move_start50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_fast_move_end50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_neutral80": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_skill3_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_skill3_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_skill3_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase2_skill3_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_neutral10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_fast_move_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_fast_move10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_fast_move_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_neutral20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_skill1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_skill1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_skill1_attack_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_skill1_attack_loop10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_skill1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_neutral30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_funnel1_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_funnel1_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_funnel1_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_funnel1_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_neutral40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_shot3_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_shot3_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_shot3_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_shot3_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_neutral50": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_fast_move_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_fast_move20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_fast_move_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_neutral60": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_shot3_start20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_shot3_charge20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_shot3_attack20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_shot3_end20": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_neutral70": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_fast_move_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_fast_move30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_fast_move_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_neutral80": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_shot3_start30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_shot3_charge30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_shot3_attack30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_shot3_end30": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_neutral90": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_fast_move_start40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_fast_move40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_fast_move_end40": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_neutral100": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_skill3_start10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_skill3_charge10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_skill3_attack10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state5_phase3_skill3_end10": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state8_neutral10_continue": [
+        [
+          "(None)",
+          "false"
+        ]
+      ],
+      "state8_neutral20_continue": [
+        [
+          "(None)",
+          "false"
+        ]
+      ]
+    }
+  }
+}

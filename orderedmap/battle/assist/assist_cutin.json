@@ -1,0 +1,767 @@
+{
+  "dryad": {
+    "1": [
+      [
+        "Challua",
+        "Let me help!",
+        "character/dryad/voice/words/charua_tetsudau"
+      ]
+    ]
+  },
+  "white_tiger": {
+    "1": [
+      [
+        "Hellcat",
+        "Over here!",
+        "character/white_tiger/voice/words/tsuitekoi"
+      ]
+    ],
+    "2": [
+      [
+        "Hellcat",
+        "Don't get in my way!",
+        "character/white_tiger/voice/words/jamanandayo"
+      ]
+    ],
+    "3": [
+      [
+        "Hellcat",
+        "It's OVER!",
+        "character/white_tiger/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "pirates_girl": {
+    "1": [
+      [
+        "Marina",
+        "You're in for it now!",
+        "character/pirates_girl/voice/words/mookotta"
+      ]
+    ],
+    "2": [
+      [
+        "Marina",
+        "Ready to party?",
+        "character/pirates_girl/voice/words/iitokomiseteyone"
+      ]
+    ],
+    "3": [
+      [
+        "Marina",
+        "Yo, ho, ho!",
+        "character/pirates_girl/voice/battle/power_flip_1"
+      ]
+    ],
+    "4": [
+      [
+        "Marina",
+        "Put yer back into it, matey!",
+        "character/pirates_girl/voice/words/kiaiirena"
+      ]
+    ]
+  },
+  "mermaid": {
+    "1": [
+      [
+        "Amelia",
+        "Allow me to help!",
+        "character/mermaid/voice/words/ikkuyo"
+      ]
+    ]
+  },
+  "wolf_swordsman": {
+    "1": [
+      [
+        "Albert",
+        "Enough!",
+        "character/wolf_swordsman/voice/battle/skill_ready"
+      ]
+    ],
+    "2": [
+      [
+        "Albert",
+        "Nothing gets past me!",
+        "character/wolf_swordsman/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "sing_android": {
+    "1": [
+      [
+        "Dia",
+        "Watch your step!",
+        "character/sing_android/voice/battle/power_flip_0"
+      ]
+    ],
+    "2": [
+      [
+        "Dia",
+        "My melody resonates for you!",
+        "character/sing_android/voice/battle/power_flip_1"
+      ]
+    ]
+  },
+  "rec_android": {
+    "1": [
+      [
+        "Regis",
+        "Allow me.",
+        "character/rec_android/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "onmyoji_boy": {
+    "1": [
+      [
+        "Suizen",
+        "Let's go!",
+        "character/onmyoji_boy/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Suizen",
+        "I'll help!",
+        "character/onmyoji_boy/voice/battle/battle_start_1"
+      ]
+    ],
+    "3": [
+      [
+        "Suizen",
+        "I'm on it!",
+        "character/onmyoji_boy/voice/words/yareyare"
+      ]
+    ]
+  },
+  "samurai": {
+    "1": [
+      [
+        "Soushiro",
+        "I appreciate the aid.",
+        "character/samurai/voice/words/katajikenai"
+      ]
+    ],
+    "2": [
+      [
+        "Soushiro",
+        "Not now!",
+        "character/samurai/voice/words/sasemasen"
+      ]
+    ],
+    "3": [
+      [
+        "Soushiro",
+        "I'll help!",
+        "character/samurai/voice/words/ikimasuyo"
+      ]
+    ],
+    "4": [
+      [
+        "Soushiro",
+        "Allow me to help!",
+        "character/samurai/voice/battle/battle_start_0"
+      ]
+    ],
+    "5": [
+      [
+        "Soushiro",
+        "Stay calm and focus!",
+        "character/samurai/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "fox_oracle": {
+    "1": [
+      [
+        "Inaho",
+        "Allow me to help!",
+        "character/fox_oracle/voice/battle/battle_start_0"
+      ]
+    ]
+  },
+  "flame_witch": {
+    "1": [
+      [
+        "Shakari",
+        "Darling, I'll snuff you out.",
+        "character/flame_witch/voice/battle/battle_start_0"
+      ]
+    ]
+  },
+  "ekaki_onmyoji": {
+    "1": [
+      [
+        "Kugui",
+        "I-I'll do what I can!",
+        "character/ekaki_onmyoji/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Kugui",
+        "Time to get to work.",
+        "character/ekaki_onmyoji/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "ekaki_onmyoji_noskill": {
+    "1": [
+      [
+        "Kugui",
+        "I-I'll do what I can!",
+        "character/ekaki_onmyoji_noskill/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Kugui",
+        "Time to get to work.",
+        "character/ekaki_onmyoji_noskill/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "lightbullet_wiz_vt21": {
+    "1": [
+      [
+        "Ellya",
+        "Not gonna be sweet on you.",
+        "character/lightbullet_wiz_vt21/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Ellya",
+        "Hope I've got enough chocolate.",
+        "character/lightbullet_wiz_vt21/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "whitedog_beast_vt21": {
+    "1": [
+      [
+        "Floretta",
+        "I won't run away any longer!",
+        "character/whitedog_beast_vt21/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Floretta",
+        "I'll get my feelings across!",
+        "character/whitedog_beast_vt21/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "monster_cook": {
+    "1": [
+      [
+        "Parfait",
+        "Don't mess with the chef!",
+        "character/monster_cook/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Parfait",
+        "You've got some zest!",
+        "character/monster_cook/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "bigwing_shaman_smr21": {
+    "1": [
+      [
+        "Shywe",
+        "これが精霊と私の怒りです～！！",
+        "character/bigwing_shaman_smr21/voice/words/koregaseireito_watashino"
+      ]
+    ]
+  },
+  "illusionist_smr20": {
+    "1": [
+      [
+        "Illumine",
+        "Ready for my new performance?",
+        "character/illusionist_smr20/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Illumine",
+        "Get ready for a mesmerizing show!",
+        "character/illusionist_smr20/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "dimension_witch_smr20": {
+    "1": [
+      [
+        "Belsidia",
+        "Don't worry, I'll be your chaperone!",
+        "character/dimension_witch_smr20/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Belsidia",
+        "Leave my precious pumpkins alone!",
+        "character/dimension_witch_smr20/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "bishop_girl_smr20": {
+    "1": [
+      [
+        "Liesel",
+        "Let's give it our all!",
+        "character/bishop_girl_smr20/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Liesel",
+        "You can leave the healing to me!",
+        "character/bishop_girl_smr20/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "tiger_treasure_hunter_smr20": {
+    "1": [
+      [
+        "Mia",
+        "Time for a summer treasure hunt!",
+        "character/tiger_treasure_hunter_smr20/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Mia",
+        "I'm sure there's treasure here!",
+        "character/tiger_treasure_hunter_smr20/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "casino_dealer_smr20": {
+    "1": [
+      [
+        "Naska",
+        "Game on!",
+        "character/casino_dealer_smr20/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Naska",
+        "I'm going all-in on this one!",
+        "character/casino_dealer_smr20/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "alice_smr20": {
+    "1": [
+      [
+        "Alice",
+        "Be glad you're not my enemy!",
+        "character/alice_smr20/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Alice",
+        "You can't talk to a lady like that!",
+        "character/alice_smr20/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "unicorn_lancer_smr20": {
+    "1": [
+      [
+        "Gerard",
+        "HARK! A voice cries for help!",
+        "character/unicorn_lancer_smr20/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Gerard",
+        "Chaaarge!",
+        "character/unicorn_lancer_smr20/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "lady_gunner_smr20": {
+    "1": [
+      [
+        "Marguerite",
+        "Time for a BEAUTIFUL battle!",
+        "character/lady_gunner_smr20/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Marguerite",
+        "My search for beauty continues!",
+        "character/lady_gunner_smr20/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "pirates_girl_smr20": {
+    "1": [
+      [
+        "Marina",
+        "Let's have some fun!",
+        "character/pirates_girl_smr20/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Marina",
+        "Show me what you're made of!",
+        "character/pirates_girl_smr20/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "heavenly_two_right": {
+    "1": [
+      [
+        "Beaucy",
+        "Let's start the photo shoot.",
+        "character/heavenly_two/voice/battle/battle_start_0"
+      ]
+    ]
+  },
+  "heavenly_two_left": {
+    "1": [
+      [
+        "Beaucy",
+        "Let's start the photo shoot.",
+        "character/heavenly_two/voice/battle/battle_start_0"
+      ]
+    ]
+  },
+  "timid_kunoichi_ny21": {
+    "1": [
+      [
+        "Suzuka",
+        "I don't want to get my kimono dirty!",
+        "character/timid_kunoichi_ny21/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Suzuka",
+        "Everything will be okay... probably....",
+        "character/timid_kunoichi_ny21/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "urban_soldier_ny21": {
+    "1": [
+      [
+        "Trista",
+        "What a lively start to the New Year!",
+        "character/urban_soldier_ny21/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Trista",
+        "Knowledge is power!",
+        "character/urban_soldier_ny21/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "prince_zero": {
+    "1": [
+      [
+        "Razelt",
+        "En garde!",
+        "character/prince_zero/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Razelt",
+        "I shall be your shield!",
+        "character/prince_zero/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "fake_princess": {
+    "1": [
+      [
+        "Prika",
+        "Bring it on!",
+        "character/fake_princess/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Prika",
+        "You can count on me!",
+        "character/fake_princess/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "ruin_lady_no_piercing": {
+    "1": [
+      [
+        "Sotieth",
+        "Warning. Eliminating threat!",
+        "character/ruin_lady_no_piercing/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Sotieth",
+        "Attention. Neutralizing threat.",
+        "character/ruin_lady_no_piercing/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "desert_commander_no_piercing": {
+    "1": [
+      [
+        "Haridal",
+        "Fine, I'll be your opponent.",
+        "character/desert_commander/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Haridal",
+        "Don't think I'll go down easy!",
+        "character/desert_commander/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "white_tiger_desert_bonds_01": {
+    "1": [
+      [
+        "Nimbus",
+        "Come at me!",
+        "character/white_tiger/voice/words/tsuitekoi"
+      ]
+    ],
+    "2": [
+      [
+        "Nimbus",
+        "Out of the way!",
+        "character/white_tiger/voice/words/jamanandayo"
+      ]
+    ],
+    "3": [
+      [
+        "Nimbus",
+        "I'll show you who's boss!",
+        "character/white_tiger/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "machine_police_girl": {
+    "1": [
+      [
+        "Sera",
+        "Commencing subjugation.",
+        "character/machine_police_girl/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Sera",
+        "Leave it to me!",
+        "character/machine_police_girl/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "lady_android": {
+    "1": [
+      [
+        "Rudy",
+        "Initiating combat operations.",
+        "character/lady_android/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Rudy",
+        "It seems we must fight.",
+        "character/lady_android/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "justice_lady_assist": {
+    "1": [
+      [
+        "Themis",
+        "Commencing execution.",
+        "character/justice_lady/voice/words/shikookaishi"
+      ]
+    ]
+  },
+  "combat_soldier": {
+    "1": [
+      [
+        "Bulleta",
+        "I'll wrap this up ASAP!",
+        "character/combat_soldier/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Bulleta",
+        "Hack and destroy, baby!",
+        "character/combat_soldier/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "resistance_princess_assist_maou": {
+    "1": [
+      [
+        "Lilith",
+        "For a brighter future!",
+        "character/resistance_princess_assist/voice/battle/battle_start_1"
+      ]
+    ]
+  },
+  "devil_leader_assist_maou_multiball": {
+    "1": [
+      [
+        "Adjudicus",
+        "Are you prepared?",
+        "character/devil_leader_assist/voice/words/kakugowaiina"
+      ]
+    ]
+  },
+  "devil_leader_assist": {
+    "1": [
+      [
+        "Adjudicus",
+        "Scatter before me!",
+        "character/devil_leader_assist/voice/words/kechirasuzo"
+      ]
+    ],
+    "2": [
+      [
+        "Adjudicus",
+        "I strike.",
+        "character/devil_leader_assist/voice/words/ikuzo"
+      ]
+    ],
+    "3": [
+      [
+        "Adjudicus",
+        "Break through!",
+        "character/devil_leader_assist/voice/words/toppasuruzo"
+      ]
+    ],
+    "4": [
+      [
+        "Adjudicus",
+        "Are you prepared?",
+        "character/devil_leader_assist/voice/words/kakugowaiina"
+      ]
+    ]
+  },
+  "elf_princess_assist": {
+    "1": [
+      [
+        "Estariel",
+        "You've piqued my interest.",
+        "character/elf_princess_assist/voice/battle/battle_start_0"
+      ]
+    ],
+    "2": [
+      [
+        "Estariel",
+        "Our fates intertwine.",
+        "character/elf_princess_assist/voice/battle/battle_start_1"
+      ]
+    ],
+    "3": [
+      [
+        "Estariel",
+        "I won't back down.",
+        "character/elf_princess_assist/voice/words/koi"
+      ]
+    ]
+  },
+  "resistance_princess_assist": {
+    "1": [
+      [
+        "Lilith",
+        "Onward!",
+        "character/resistance_princess_assist/voice/words/soredeha"
+      ]
+    ],
+    "2": [
+      [
+        "Lilith",
+        "We have to save Stella.",
+        "character/resistance_princess_assist/voice/words/kanojo"
+      ]
+    ],
+    "3": [
+      [
+        "Lilith",
+        "I will take back what is ours!",
+        "character/resistance_princess_assist/voice/words/torimodoshimasho"
+      ]
+    ]
+  },
+  "psychic_yuki_assist": {
+    "1": [
+      [
+        "見嶋ユキ",
+        "今度は、私が助ける番だよ……！",
+        "character/psychic_yuki/voice/words/kondowa_watashiga"
+      ]
+    ]
+  },
+  "psychic_yuki_assist_eye_dragon": {
+    "1": [
+      [
+        "見嶋ユキ",
+        "今度は、私が助ける番だよ……！",
+        "character/psychic_yuki/voice/words/kondowa_watashiga"
+      ]
+    ]
+  },
+  "psychic_shouta_assist": {
+    "1": [
+      [
+        "伊野里ショウタ",
+        "俺だって、やってやるよ……！",
+        "character/psychic_shouta/voice/words/oredatteyatteyaru"
+      ]
+    ]
+  },
+  "psychic_shouta_assist_eye_dragon": {
+    "1": [
+      [
+        "伊野里ショウタ",
+        "俺だって、やってやるよ……！",
+        "character/psychic_shouta/voice/words/oredatteyatteyaru"
+      ]
+    ]
+  },
+  "white_tiger_2anv_assist": {
+    "1": [
+      [
+        "Nimbus",
+        "俺が守る……！",
+        "character/white_tiger_2anv/voice/battle/battle_start_0"
+      ]
+    ]
+  },
+  "ice_witch_2anv_assist": {
+    "1": [
+      [
+        "Cipher",
+        "大魔法使いが、お相手しよう。",
+        "character/ice_witch_2anv/voice/battle/battle_start_0"
+      ]
+    ]
+  }
+}

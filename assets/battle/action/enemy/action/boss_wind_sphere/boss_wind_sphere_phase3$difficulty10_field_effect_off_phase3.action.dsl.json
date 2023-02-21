@@ -1,0 +1,54 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "StopModifierField"
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          300,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "StartModifierField",
+                  999999999,
+                  "Combo limit decreased to 35!",
+                  "The field effect disappeared.",
+                  [
+                    [
+                      "ComboRestriction",
+                      35
+                    ]
+                  ],
+                  [
+                    "None"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

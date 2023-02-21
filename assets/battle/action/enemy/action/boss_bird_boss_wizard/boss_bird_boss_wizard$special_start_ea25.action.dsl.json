@@ -1,0 +1,92 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "bird_boss_fighter_spirit_funnel_right"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            10
+          ],
+          null
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          60,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "SpawnFunnel",
+                  [
+                    "Funnel",
+                    "bird_boss_fighter_spirit_funnel"
+                  ],
+                  1,
+                  [
+                    "FunnelGroup",
+                    6
+                  ],
+                  null
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACToleranceOfDebuff",
+              {
+                "max": 9999999,
+                "min": 9999999
+              },
+              {
+                "max": 1,
+                "min": 1
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "GenericConditionHitEffect"
+          ],
+          false,
+          false
+        ]
+      ]
+    ]
+  ]
+]
