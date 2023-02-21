@@ -1,0 +1,181 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          0,
+          33,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  0,
+                  [
+                    [
+                      "ACAttackPoint",
+                      {
+                        "max": 720,
+                        "min": 720
+                      },
+                      {
+                        "max": 0.1,
+                        "min": 0.1
+                      },
+                      1
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  0,
+                  [
+                    [
+                      "ACDirectDamage",
+                      {
+                        "max": 720,
+                        "min": 720
+                      },
+                      {
+                        "max": 0.1,
+                        "min": 0.1
+                      },
+                      1
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          1,
+          33,
+          null,
+          null,
+          null,
+          [
+            12290
+          ],
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  -17,
+                  [
+                    [
+                      "ACAttackPoint",
+                      {
+                        "max": 240,
+                        "min": 240
+                      },
+                      {
+                        "max": 0.3,
+                        "min": 0.3
+                      },
+                      1
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  -17,
+                  [
+                    [
+                      "ACDirectDamage",
+                      {
+                        "max": 240,
+                        "min": 240
+                      },
+                      {
+                        "max": 0.3,
+                        "min": 0.3
+                      },
+                      1
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

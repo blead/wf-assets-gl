@@ -1,0 +1,239 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACOiuchi",
+              {
+                "max": 900,
+                "min": 900
+              },
+              {
+                "max": 0.3,
+                "min": 0.25
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "GenericConditionHitEffect"
+          ],
+          true,
+          false
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateHitArea",
+          "*",
+          -18,
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          true,
+          false,
+          [
+            "Circle",
+            60
+          ],
+          [
+            "Center"
+          ],
+          [
+            "Center"
+          ],
+          [
+            "Single"
+          ],
+          [
+            "SpecifyHitAreaLifetimeDirectly",
+            600
+          ],
+          [
+            "SpecifyMinHitIntervalDirectly",
+            30
+          ],
+          [
+            "Some",
+            12
+          ],
+          false,
+          true,
+          [
+            "None"
+          ],
+          0,
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "ShowEffect",
+                  "スキルエフェクト",
+                  [
+                    "SpecifyEffectDirectly",
+                    "battle/effect/skill_unique/psycho_reaper/psycho_reaper_player"
+                  ],
+                  -18,
+                  [
+                    "ForesideOfCharacter"
+                  ],
+                  [
+                    "SpecifyEffectLifetimeDirectly",
+                    600
+                  ],
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  0,
+                  true,
+                  false,
+                  [
+                    "Some",
+                    1
+                  ]
+                ]
+              ]
+            ]
+          ],
+          1,
+          2,
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateNormalAttack",
+                  2,
+                  255,
+                  null,
+                  null,
+                  4,
+                  {
+                    "max": 0.6666666666666666,
+                    "min": 0.5625
+                  },
+                  {
+                    "max": 0,
+                    "min": 0
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  {
+                    "max": 0.6666666666666666,
+                    "min": 0.6666666666666666
+                  },
+                  {
+                    "max": 0.3333333333333333,
+                    "min": 0.3333333333333333
+                  },
+                  [
+                    "SpecifyHitEffectDirectly",
+                    [
+                      "SpecifyEffectDirectly",
+                      "battle/effect/skill_unique/psycho_reaper/psycho_reaper_hit"
+                    ],
+                    true
+                  ]
+                ]
+              ],
+              [
+                "Event",
+                [
+                  "Wait",
+                  6,
+                  "*",
+                  [
+                    "Block",
+                    [
+                      [
+                        "Event",
+                        [
+                          "Repeat",
+                          6,
+                          2,
+                          "*",
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateNormalAttack",
+                                  2,
+                                  255,
+                                  null,
+                                  null,
+                                  4,
+                                  {
+                                    "max": 0.6666666666666666,
+                                    "min": 0.5625
+                                  },
+                                  {
+                                    "max": 0,
+                                    "min": 0
+                                  },
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  {
+                                    "max": 0.6666666666666666,
+                                    "min": 0.6666666666666666
+                                  },
+                                  {
+                                    "max": 0.3333333333333333,
+                                    "min": 0.3333333333333333
+                                  },
+                                  [
+                                    "None"
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

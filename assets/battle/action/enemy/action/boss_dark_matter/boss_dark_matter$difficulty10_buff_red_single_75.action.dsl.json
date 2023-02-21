@@ -1,0 +1,47 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_dark_matter_buff_red_single_75"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            1
+          ],
+          [
+            [
+              "ACDamageOfElement",
+              {
+                "max": 9999999,
+                "min": 9999999
+              },
+              254,
+              {
+                "max": 9999999,
+                "min": 9999999
+              },
+              1
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

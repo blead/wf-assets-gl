@@ -1,0 +1,182 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "StopBall",
+          -18,
+          10,
+          [
+            "RestoreToSpeedBeforeActionExecution"
+          ],
+          [
+            "EF"
+          ],
+          0
+        ]
+      ],
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "全体演出",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/alk_1anv/alk_1anv_all"
+          ],
+          -1,
+          [
+            "ForesideOfCharacter"
+          ],
+          [
+            "PlayOnlyFirstSequence"
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          false,
+          false,
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          0,
+          33,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  0,
+                  [
+                    [
+                      "ACAttackPoint",
+                      {
+                        "max": 720,
+                        "min": 720
+                      },
+                      {
+                        "max": 0.3,
+                        "min": 0.3
+                      },
+                      1
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateRatioHeal",
+                  0,
+                  2,
+                  {
+                    "max": 0.06,
+                    "min": 0.06
+                  },
+                  null,
+                  {
+                    "max": 0,
+                    "min": 0
+                  },
+                  [
+                    "GenericHealHitEffect"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -33,
+          [
+            [
+              "ACAttackPoint",
+              {
+                "max": 720,
+                "min": 720
+              },
+              {
+                "max": 0.3,
+                "min": 0.3
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "GenericConditionHitEffect"
+          ],
+          true,
+          false
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateRatioHeal",
+          -33,
+          2,
+          {
+            "max": 0.06,
+            "min": 0.06
+          },
+          null,
+          {
+            "max": 0,
+            "min": 0
+          },
+          [
+            "GenericHealHitEffect"
+          ]
+        ]
+      ]
+    ]
+  ]
+]

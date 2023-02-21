@@ -1,0 +1,133 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "全体演出",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/ruin_girl_smr21/ruin_girl_smr21_all"
+          ],
+          -1,
+          [
+            "SuperForesideOfCharacter"
+          ],
+          [
+            "PlayOnlyFirstSequence"
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          false,
+          false,
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          0,
+          33,
+          [
+            5
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  0,
+                  [
+                    [
+                      "ACAttackPoint",
+                      {
+                        "max": 720,
+                        "min": 720
+                      },
+                      {
+                        "max": 1,
+                        "min": 1
+                      },
+                      1
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACAdditionalDirectAttack",
+              {
+                "max": 720,
+                "min": 720
+              },
+              {
+                "max": 2,
+                "min": 2
+              },
+              {
+                "max": 0.1,
+                "min": 0.1
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "GenericConditionHitEffect"
+          ],
+          true,
+          false
+        ]
+      ]
+    ]
+  ]
+]

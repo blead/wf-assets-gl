@@ -1,0 +1,46 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateSummonsMultiball",
+          1,
+          202001,
+          {
+            "max": 1200,
+            "min": 1200
+          },
+          [
+            "E1",
+            [
+              "SpecifyEffectDirectly",
+              "battle/effect/skill_general/multiball/multiball_general_effect/multiball_general_effect_ready"
+            ]
+          ],
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_general/multiball/multiball_general_effect/multiball_general_effect_appear"
+          ],
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_general/multiball/multiball_general_effect/multiball_general_effect_disappear"
+          ],
+          0,
+          false
+        ]
+      ]
+    ]
+  ]
+]

@@ -1,0 +1,31 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateTornado",
+          -33,
+          0,
+          0,
+          0.7,
+          240,
+          400,
+          "battle/action/enemy/action/boss_lich/tornado1_shot",
+          true
+        ]
+      ]
+    ]
+  ]
+]

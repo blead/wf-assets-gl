@@ -1,0 +1,553 @@
+[
+  "ActionDsl",
+  2,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "StopBall",
+          -18,
+          60,
+          [
+            "Stop"
+          ],
+          [
+            "AB"
+          ],
+          0
+        ]
+      ],
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "攻撃演出",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/brown_fighter_dst21/brown_fighter_dst21_area"
+          ],
+          -18,
+          [
+            "ForesideOfCharacter"
+          ],
+          [
+            "SpecifyEffectLifetimeDirectly",
+            75
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          true,
+          true,
+          [
+            "Some",
+            4
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateHitArea",
+          "*",
+          -18,
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          true,
+          false,
+          [
+            "Circle",
+            200
+          ],
+          [
+            "Center"
+          ],
+          [
+            "Center"
+          ],
+          [
+            "Single"
+          ],
+          [
+            "SpecifyHitAreaLifetimeDirectly",
+            30
+          ],
+          [
+            "CalculatedUsingMaxNumOfHits",
+            3
+          ],
+          [
+            "None"
+          ],
+          false,
+          true,
+          [
+            "None"
+          ],
+          0,
+          [
+            "Block",
+            null
+          ],
+          1,
+          2,
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "ShakeCamera",
+                  1
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateNormalAttack",
+                  2,
+                  255,
+                  null,
+                  null,
+                  7,
+                  {
+                    "max": 0.7083333333333334,
+                    "min": 0.7083333333333334
+                  },
+                  {
+                    "max": 0,
+                    "min": 0
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  {
+                    "max": 0.5416666666666666,
+                    "min": 0.5416666666666666
+                  },
+                  {
+                    "max": 0.625,
+                    "min": 0.625
+                  },
+                  [
+                    "SpecifyHitEffectDirectly",
+                    [
+                      "SpecifyEffectDirectly",
+                      "battle/effect/skill_unique/brown_fighter_dst21/brown_fighter_dst21_slash"
+                    ],
+                    true
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateNormalAttack",
+                  2,
+                  255,
+                  null,
+                  null,
+                  7,
+                  {
+                    "max": 0.7083333333333334,
+                    "min": 0.7083333333333334
+                  },
+                  {
+                    "max": 0,
+                    "min": 0
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  {
+                    "max": 0.5416666666666666,
+                    "min": 0.5416666666666666
+                  },
+                  {
+                    "max": 0.625,
+                    "min": 0.625
+                  },
+                  [
+                    "None"
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateNormalAttack",
+                  2,
+                  255,
+                  null,
+                  null,
+                  7,
+                  {
+                    "max": 0.7083333333333334,
+                    "min": 0.7083333333333334
+                  },
+                  {
+                    "max": 0,
+                    "min": 0
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  {
+                    "max": 0.5416666666666666,
+                    "min": 0.5416666666666666
+                  },
+                  {
+                    "max": 0.625,
+                    "min": 0.625
+                  },
+                  [
+                    "None"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          30,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateHitArea",
+                  "*",
+                  -18,
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  0,
+                  true,
+                  false,
+                  [
+                    "Circle",
+                    200
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Single"
+                  ],
+                  [
+                    "SpecifyHitAreaLifetimeDirectly",
+                    30
+                  ],
+                  [
+                    "CalculatedUsingMaxNumOfHits",
+                    1
+                  ],
+                  [
+                    "None"
+                  ],
+                  false,
+                  true,
+                  [
+                    "None"
+                  ],
+                  3,
+                  [
+                    "Block",
+                    null
+                  ],
+                  4,
+                  5,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "ShowEffect",
+                          "追加演出",
+                          [
+                            "SpecifyEffectDirectly",
+                            "battle/effect/skill_unique/brown_fighter_dst21/brown_fighter_dst21_shine"
+                          ],
+                          5,
+                          [
+                            "ForesideOfCharacter"
+                          ],
+                          [
+                            "PlayOnlyFirstSequence"
+                          ],
+                          [
+                            "AB"
+                          ],
+                          0,
+                          0,
+                          0,
+                          true,
+                          false,
+                          [
+                            "None"
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          45,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateHitArea",
+                  "*",
+                  -18,
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  0,
+                  true,
+                  false,
+                  [
+                    "Circle",
+                    200
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Single"
+                  ],
+                  [
+                    "SpecifyHitAreaLifetimeDirectly",
+                    20
+                  ],
+                  [
+                    "CalculatedUsingMaxNumOfHits",
+                    5
+                  ],
+                  [
+                    "None"
+                  ],
+                  false,
+                  true,
+                  [
+                    "None"
+                  ],
+                  3,
+                  [
+                    "Block",
+                    null
+                  ],
+                  4,
+                  5,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "ShakeCamera",
+                          1
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          5,
+                          255,
+                          null,
+                          null,
+                          7,
+                          {
+                            "max": 0.7083333333333334,
+                            "min": 0.7083333333333334
+                          },
+                          {
+                            "max": 0,
+                            "min": 0
+                          },
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          {
+                            "max": 0.5416666666666666,
+                            "min": 0.5416666666666666
+                          },
+                          {
+                            "max": 0.625,
+                            "min": 0.625
+                          },
+                          [
+                            "SpecifyHitEffectDirectly",
+                            [
+                              "SpecifyEffectDirectly",
+                              "battle/effect/skill_unique/brown_fighter_dst21/brown_fighter_dst21_slash_add"
+                            ],
+                            true
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          5,
+                          255,
+                          null,
+                          null,
+                          7,
+                          {
+                            "max": 0.7083333333333334,
+                            "min": 0.7083333333333334
+                          },
+                          {
+                            "max": 0,
+                            "min": 0
+                          },
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          {
+                            "max": 0.5416666666666666,
+                            "min": 0.5416666666666666
+                          },
+                          {
+                            "max": 0.625,
+                            "min": 0.625
+                          },
+                          [
+                            "None"
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          5,
+                          255,
+                          null,
+                          null,
+                          7,
+                          {
+                            "max": 0.7083333333333334,
+                            "min": 0.7083333333333334
+                          },
+                          {
+                            "max": 0,
+                            "min": 0
+                          },
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          {
+                            "max": 0.5416666666666666,
+                            "min": 0.5416666666666666
+                          },
+                          {
+                            "max": 0.625,
+                            "min": 0.625
+                          },
+                          [
+                            "None"
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACAttackPoint",
+              {
+                "max": 960,
+                "min": 960
+              },
+              {
+                "max": 0.3,
+                "min": 0.3
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "GenericConditionHitEffect"
+          ],
+          true,
+          false
+        ]
+      ]
+    ]
+  ]
+]

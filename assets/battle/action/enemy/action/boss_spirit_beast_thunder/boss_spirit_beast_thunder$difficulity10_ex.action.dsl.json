@@ -1,0 +1,232 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  true,
+  true,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Event",
+        [
+          "Wait",
+          120,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  -17,
+                  [
+                    [
+                      "ACAttackPoint",
+                      {
+                        "max": 99999999,
+                        "min": 99999999
+                      },
+                      {
+                        "max": 0.15,
+                        "min": 0.15
+                      },
+                      1
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          240,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  -17,
+                  [
+                    [
+                      "ACAttackPoint",
+                      {
+                        "max": 99999998,
+                        "min": 99999998
+                      },
+                      {
+                        "max": 0.15,
+                        "min": 0.15
+                      },
+                      1
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          360,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  -17,
+                  [
+                    [
+                      "ACAttackPoint",
+                      {
+                        "max": 99999997,
+                        "min": 99999997
+                      },
+                      {
+                        "max": 0.15,
+                        "min": 0.15
+                      },
+                      1
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          480,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  -17,
+                  [
+                    [
+                      "ACAttackPoint",
+                      {
+                        "max": 99999996,
+                        "min": 99999996
+                      },
+                      {
+                        "max": 0.15,
+                        "min": 0.15
+                      },
+                      1
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          600,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  -17,
+                  [
+                    [
+                      "ACAttackPoint",
+                      {
+                        "max": 99999995,
+                        "min": 99999995
+                      },
+                      {
+                        "max": 0.15,
+                        "min": 0.15
+                      },
+                      1
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

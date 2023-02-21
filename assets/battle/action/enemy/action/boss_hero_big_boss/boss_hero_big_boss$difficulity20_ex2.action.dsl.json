@@ -1,0 +1,85 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  true,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Event",
+        [
+          "Repeat",
+          10,
+          20,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "AddFeverPoint",
+                  {
+                    "max": 5,
+                    "min": 5
+                  }
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Repeat",
+          20,
+          10,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  -17,
+                  [
+                    [
+                      "ACAttackPoint",
+                      {
+                        "max": 9999999,
+                        "min": 9999999
+                      },
+                      {
+                        "max": 0.01,
+                        "min": 0.01
+                      },
+                      99
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  false,
+                  true
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

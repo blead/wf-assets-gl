@@ -1,0 +1,107 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_water_buff_a"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            10
+          ],
+          [
+            [
+              "ACSkillDamageResistance",
+              {
+                "max": 999999,
+                "min": 999999
+              },
+              {
+                "max": -2,
+                "min": -2
+              },
+              1
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_water_buff_b"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            10
+          ],
+          [
+            [
+              "ACSkillDamageResistance",
+              {
+                "max": 999999,
+                "min": 999999
+              },
+              {
+                "max": -2,
+                "min": -2
+              },
+              1
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_water_metal_a"
+          ],
+          3,
+          [
+            "FunnelGroup",
+            9
+          ],
+          null
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_water_metal_b"
+          ],
+          2,
+          [
+            "FunnelGroup",
+            8
+          ],
+          null
+        ]
+      ]
+    ]
+  ]
+]

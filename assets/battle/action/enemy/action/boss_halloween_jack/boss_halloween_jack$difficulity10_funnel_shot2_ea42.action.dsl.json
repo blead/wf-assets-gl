@@ -1,0 +1,33 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "halloween_jack_dead_attack_funnel"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            2
+          ],
+          null
+        ]
+      ]
+    ]
+  ]
+]

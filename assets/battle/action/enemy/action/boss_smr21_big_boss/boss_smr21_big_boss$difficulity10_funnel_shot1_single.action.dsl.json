@@ -1,0 +1,146 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_tentacle"
+          ],
+          3,
+          [
+            "FunnelGroup",
+            1
+          ],
+          null
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          1,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "FindAllSubjects",
+                  0,
+                  52,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  [
+                    "DoNothing"
+                  ],
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          0,
+                          [
+                            [
+                              "ACToleranceOfElement",
+                              {
+                                "max": 9999999,
+                                "min": 9999999
+                              },
+                              254,
+                              {
+                                "max": 1,
+                                "min": 1
+                              },
+                              1
+                            ]
+                          ],
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          false,
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          0,
+                          [
+                            [
+                              "ACPowerFlipDamageResistance",
+                              {
+                                "max": 9999999,
+                                "min": 9999999
+                              },
+                              {
+                                "max": -0.35,
+                                "min": -0.35
+                              },
+                              1
+                            ]
+                          ],
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          false,
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "StartModifierField",
+                  9999999,
+                  "コンボが追加されるようになった",
+                  "フィールド効果が消えた",
+                  [
+                    [
+                      "ComboBoost",
+                      10
+                    ]
+                  ],
+                  [
+                    "None"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

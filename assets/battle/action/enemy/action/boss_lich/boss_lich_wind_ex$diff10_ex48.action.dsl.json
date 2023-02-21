@@ -1,0 +1,48 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACToleranceOfElement",
+              {
+                "max": 100000,
+                "min": 100000
+              },
+              254,
+              {
+                "max": -0.1,
+                "min": -0.1
+              },
+              20
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "GenericConditionHitEffect"
+          ],
+          true,
+          true
+        ]
+      ]
+    ]
+  ]
+]

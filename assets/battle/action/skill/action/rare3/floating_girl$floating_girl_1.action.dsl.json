@@ -1,0 +1,76 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          0,
+          33,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  0,
+                  [
+                    [
+                      "ACFlying",
+                      {
+                        "max": 480,
+                        "min": 480
+                      }
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "DeleteCondition",
+                  0,
+                  [
+                    "DCAll",
+                    3
+                  ],
+                  1,
+                  0
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

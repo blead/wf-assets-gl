@@ -1,0 +1,37 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "EliminateFunnel",
+          [
+            "StandardFunnel",
+            "reine_rouge_funnel_big_bomb"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "EliminateFunnel",
+          [
+            "StandardFunnel",
+            "reine_rouge_funnel_flame_bird"
+          ]
+        ]
+      ]
+    ]
+  ]
+]

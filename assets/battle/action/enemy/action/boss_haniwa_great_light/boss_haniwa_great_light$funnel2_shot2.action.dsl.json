@@ -1,0 +1,58 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_light_weak"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            4
+          ],
+          [
+            [
+              "ACDirectAttackDamageResistance",
+              {
+                "max": 999999,
+                "min": 999999
+              },
+              {
+                "max": -2,
+                "min": -2
+              },
+              1
+            ],
+            [
+              "ACSkillDamageResistance",
+              {
+                "max": 999999,
+                "min": 999999
+              },
+              {
+                "max": -2,
+                "min": -2
+              },
+              1
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

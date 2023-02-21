@@ -1,0 +1,122 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "StartModifierField",
+          999999,
+          "コンボブーストフィールド効果が発動",
+          "フィールド効果が消えた",
+          [
+            [
+              "ComboBoost",
+              1
+            ]
+          ],
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_water_strong2_pf_x"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            4
+          ],
+          [
+            [
+              "ACPowerFlipDamageResistance",
+              {
+                "max": 999999,
+                "min": 999999
+              },
+              {
+                "max": -2,
+                "min": -2
+              },
+              1
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_water_strong2_pf_y"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            4
+          ],
+          [
+            [
+              "ACPowerFlipDamageResistance",
+              {
+                "max": 999999,
+                "min": 999999
+              },
+              {
+                "max": -2,
+                "min": -2
+              },
+              1
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_water_strong2_pf_z"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            4
+          ],
+          [
+            [
+              "ACPowerFlipDamageResistance",
+              {
+                "max": 999999,
+                "min": 999999
+              },
+              {
+                "max": -2,
+                "min": -2
+              },
+              1
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

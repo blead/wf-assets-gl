@@ -1,0 +1,144 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "風の加護の演出",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/wind_oracle/all_wind_oracle"
+          ],
+          -1,
+          [
+            "ForesideOfCharacter"
+          ],
+          [
+            "PlayOnlyFirstSequence"
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          false,
+          false,
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          0,
+          33,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateRatioHeal",
+                  0,
+                  2,
+                  {
+                    "max": 0.06,
+                    "min": 0.06
+                  },
+                  [
+                    4
+                  ],
+                  {
+                    "max": 0.5,
+                    "min": 0.5
+                  },
+                  [
+                    "SpecifyHealEffectDirectly",
+                    [
+                      "SpecifyEffectDirectly",
+                      "battle/effect/skill_unique/wind_oracle/heal_wind_oracle"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  0,
+                  [
+                    [
+                      "ACFlying",
+                      {
+                        "max": 480,
+                        "min": 480
+                      }
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "None"
+                  ],
+                  true,
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateRatioHeal",
+          -33,
+          2,
+          {
+            "max": 0.06,
+            "min": 0.06
+          },
+          [
+            4
+          ],
+          {
+            "max": 0.5,
+            "min": 0.5
+          },
+          [
+            "SpecifyHealEffectDirectly",
+            [
+              "SpecifyEffectDirectly",
+              "battle/effect/skill_unique/wind_oracle/heal_wind_oracle"
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

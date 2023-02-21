@@ -1,0 +1,86 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Event",
+        [
+          "Repeat",
+          15,
+          3,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "SpawnFunnel",
+                  [
+                    "Funnel",
+                    "funnel_white_tiger_ghost_thunder_turret_expert80"
+                  ],
+                  1,
+                  [
+                    "FunnelGroup",
+                    3
+                  ],
+                  [
+                    [
+                      "ACToleranceOfElement",
+                      {
+                        "max": 999999,
+                        "min": 999999
+                      },
+                      254,
+                      {
+                        "max": 99999999,
+                        "min": 99999999
+                      },
+                      1
+                    ],
+                    [
+                      "ACDamageOfElement",
+                      {
+                        "max": 999999,
+                        "min": 999999
+                      },
+                      254,
+                      {
+                        "max": 999999,
+                        "min": 999999
+                      },
+                      1
+                    ],
+                    [
+                      "ACAttackPoint",
+                      {
+                        "max": 999999,
+                        "min": 999999
+                      },
+                      {
+                        "max": 0.0001,
+                        "min": 0.0001
+                      },
+                      1
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

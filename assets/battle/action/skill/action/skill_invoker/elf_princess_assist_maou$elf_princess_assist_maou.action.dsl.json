@@ -1,0 +1,205 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateReferencePoint",
+          -17,
+          [
+            "AB"
+          ],
+          5,
+          -35,
+          0,
+          true,
+          false,
+          [
+            "Single"
+          ],
+          603,
+          0,
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "ShowEffect",
+                  "スキル演出",
+                  [
+                    "SpecifyEffectDirectly",
+                    "battle/effect/skill_unique/elf_princess/elf_princess_player"
+                  ],
+                  0,
+                  [
+                    "ForesideOfCharacter"
+                  ],
+                  [
+                    "SpecifyEffectLifetimeDirectly",
+                    60
+                  ],
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  0,
+                  true,
+                  false,
+                  [
+                    "Some",
+                    6
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "FindAllSubjects",
+                  1,
+                  35,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  [
+                    "DoNothing"
+                  ],
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          1,
+                          [
+                            [
+                              "ACSkillDamage",
+                              {
+                                "max": 9999999,
+                                "min": 9999999
+                              },
+                              {
+                                "max": 3,
+                                "min": 3
+                              },
+                              10
+                            ]
+                          ],
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          1,
+                          [
+                            [
+                              "ACDirectDamage",
+                              {
+                                "max": 9999999,
+                                "min": 9999999
+                              },
+                              {
+                                "max": 3,
+                                "min": 3
+                              },
+                              10
+                            ]
+                          ],
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "FindAllSubjects",
+                  2,
+                  34,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  [
+                    "DoNothing"
+                  ],
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          2,
+                          [
+                            [
+                              "ACPowerFlipDamage",
+                              {
+                                "max": 9999999,
+                                "min": 9999999
+                              },
+                              {
+                                "max": 3,
+                                "min": 3
+                              },
+                              10
+                            ]
+                          ],
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

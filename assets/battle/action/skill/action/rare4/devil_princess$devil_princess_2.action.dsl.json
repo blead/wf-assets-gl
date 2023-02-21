@@ -1,0 +1,66 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateRatioAttack",
+          -17,
+          2,
+          {
+            "max": 0.15,
+            "min": 0.15
+          }
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateSummonsMultiball",
+          1,
+          2610012,
+          {
+            "max": 3600,
+            "min": 3600
+          },
+          [
+            "E2",
+            [
+              "SpecifyEffectDirectly",
+              "battle/effect/skill_unique/devil_princess/multiball_devil_princess_effect_ready_generation"
+            ],
+            [
+              "SpecifyEffectDirectly",
+              "battle/effect/skill_unique/devil_princess/multiball_devil_princess_effect_ready_left"
+            ],
+            [
+              "SpecifyEffectDirectly",
+              "battle/effect/skill_unique/devil_princess/multiball_devil_princess_effect_ready_right"
+            ]
+          ],
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/devil_princess/multiball_devil_princess_effect_appear"
+          ],
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/devil_princess/multiball_devil_princess_effect_disappear"
+          ],
+          0,
+          false
+        ]
+      ]
+    ]
+  ]
+]

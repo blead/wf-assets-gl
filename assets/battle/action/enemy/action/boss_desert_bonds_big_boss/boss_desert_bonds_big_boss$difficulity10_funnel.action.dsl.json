@@ -1,0 +1,46 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_desert_bonds_big_boss_funnel_single"
+          ],
+          2,
+          [
+            "FunnelGroup",
+            3
+          ],
+          [
+            [
+              "ACDirectAttackDamageResistance",
+              {
+                "max": 999999,
+                "min": 999999
+              },
+              {
+                "max": -0.6,
+                "min": -0.6
+              },
+              1
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

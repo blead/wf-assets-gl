@@ -1,0 +1,70 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateShield",
+          180,
+          1.5707963267948966,
+          0,
+          -60,
+          [
+            "Specify",
+            9000
+          ],
+          [
+            "Fixed",
+            3.141592653589793
+          ],
+          [
+            "Normal"
+          ],
+          true
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACToleranceOfElement",
+              {
+                "max": 300,
+                "min": 300
+              },
+              1,
+              {
+                "max": 0.4,
+                "min": 0.2
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "GenericConditionHitEffect"
+          ],
+          true,
+          false
+        ]
+      ]
+    ]
+  ]
+]

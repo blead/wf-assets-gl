@@ -1,0 +1,37 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateGravitationalField",
+          -1,
+          0.8,
+          360,
+          900,
+          350,
+          0,
+          250,
+          [
+            "Center"
+          ],
+          [
+            "Center"
+          ],
+          true
+        ]
+      ]
+    ]
+  ]
+]

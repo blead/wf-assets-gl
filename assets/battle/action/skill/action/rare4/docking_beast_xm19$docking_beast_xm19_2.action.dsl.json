@@ -1,0 +1,53 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "AddFeverPoint",
+          {
+            "max": 50,
+            "min": 40
+          }
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateBombMultiball",
+          6,
+          "character/docking_beast_xm19_multiball/pixelart/pixelart",
+          [
+            "E1",
+            [
+              "SpecifyEffectDirectly",
+              "battle/effect/skill_unique/docking_beast_xm19/multiball_docking_beast_xm19_effect_ready"
+            ]
+          ],
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/docking_beast_xm19/multiball_docking_beast_xm19_effect_appear"
+          ],
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/docking_beast_xm19/docking_beast_xm19"
+          ],
+          "battle/action/skill/action/rare4/docking_beast_xm19_multiball_2",
+          0,
+          false
+        ]
+      ]
+    ]
+  ]
+]

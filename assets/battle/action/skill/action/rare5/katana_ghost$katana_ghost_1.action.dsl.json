@@ -1,0 +1,129 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "HideCharacter",
+          -17,
+          105
+        ]
+      ],
+      [
+        "Command",
+        [
+          "StopBall",
+          -18,
+          105,
+          [
+            "RestoreToSpeedBeforeActionExecution"
+          ],
+          [
+            "EF"
+          ],
+          0
+        ]
+      ],
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "katana_ghostのスキル発動時演出",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/katana_ghost/katana_ghost"
+          ],
+          -17,
+          [
+            "ForesideOfCharacter"
+          ],
+          [
+            "PlayOnlyFirstSequence"
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          true,
+          true,
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACAttackPoint",
+              {
+                "max": 720,
+                "min": 720
+              },
+              {
+                "max": 1.8,
+                "min": 1.8
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "None"
+          ],
+          true,
+          false
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACOiuchi",
+              {
+                "max": 720,
+                "min": 720
+              },
+              {
+                "max": 0.35,
+                "min": 0.35
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "None"
+          ],
+          true,
+          false
+        ]
+      ]
+    ]
+  ]
+]

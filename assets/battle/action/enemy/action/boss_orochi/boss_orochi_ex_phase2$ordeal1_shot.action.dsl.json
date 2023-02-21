@@ -1,0 +1,956 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateShockWaveAttack",
+          "*",
+          -33,
+          [
+            "AB"
+          ],
+          -84,
+          -264,
+          3.141592653589793,
+          [
+            "Donut"
+          ],
+          [
+            "ResolveByElement",
+            "battle/effect/enemy_general/enemy_shot_wave_circle_fast",
+            255
+          ],
+          [
+            "ForesideOfCharacter"
+          ],
+          3,
+          0,
+          1,
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateNormalAttack",
+                  1,
+                  255,
+                  null,
+                  null,
+                  0,
+                  {
+                    "max": 0.65,
+                    "min": 0.65
+                  },
+                  {
+                    "max": 0,
+                    "min": 0
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "None"
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "DeleteCondition",
+                  1,
+                  [
+                    "DCAll",
+                    2
+                  ],
+                  99,
+                  0
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  1,
+                  [
+                    [
+                      "ACHealRejection",
+                      {
+                        "max": 3600,
+                        "min": 3600
+                      }
+                    ]
+                  ],
+                  {
+                    "max": 1,
+                    "min": 1
+                  },
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  false,
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          12,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateShockWaveAttack",
+                  "*",
+                  -33,
+                  [
+                    "AB"
+                  ],
+                  246,
+                  -168,
+                  3.141592653589793,
+                  [
+                    "Donut"
+                  ],
+                  [
+                    "ResolveByElement",
+                    "battle/effect/enemy_general/enemy_shot_wave_circle_fast",
+                    255
+                  ],
+                  [
+                    "ForesideOfCharacter"
+                  ],
+                  3,
+                  2,
+                  3,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          3,
+                          255,
+                          null,
+                          null,
+                          0,
+                          {
+                            "max": 0.65,
+                            "min": 0.65
+                          },
+                          {
+                            "max": 0,
+                            "min": 0
+                          },
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "None"
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "DeleteCondition",
+                          3,
+                          [
+                            "DCAll",
+                            2
+                          ],
+                          99,
+                          0
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          3,
+                          [
+                            [
+                              "ACHealRejection",
+                              {
+                                "max": 3600,
+                                "min": 3600
+                              }
+                            ]
+                          ],
+                          {
+                            "max": 1,
+                            "min": 1
+                          },
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          false,
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "Event",
+                [
+                  "Wait",
+                  12,
+                  "*",
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateShockWaveAttack",
+                          "*",
+                          -33,
+                          [
+                            "AB"
+                          ],
+                          -414,
+                          42,
+                          3.141592653589793,
+                          [
+                            "Donut"
+                          ],
+                          [
+                            "ResolveByElement",
+                            "battle/effect/enemy_general/enemy_shot_wave_circle_fast",
+                            255
+                          ],
+                          [
+                            "ForesideOfCharacter"
+                          ],
+                          3,
+                          4,
+                          5,
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateNormalAttack",
+                                  5,
+                                  255,
+                                  null,
+                                  null,
+                                  0,
+                                  {
+                                    "max": 0.65,
+                                    "min": 0.65
+                                  },
+                                  {
+                                    "max": 0,
+                                    "min": 0
+                                  },
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  [
+                                    "None"
+                                  ]
+                                ]
+                              ],
+                              [
+                                "Command",
+                                [
+                                  "DeleteCondition",
+                                  5,
+                                  [
+                                    "DCAll",
+                                    2
+                                  ],
+                                  99,
+                                  0
+                                ]
+                              ],
+                              [
+                                "Command",
+                                [
+                                  "CreateCondition",
+                                  5,
+                                  [
+                                    [
+                                      "ACHealRejection",
+                                      {
+                                        "max": 3600,
+                                        "min": 3600
+                                      }
+                                    ]
+                                  ],
+                                  {
+                                    "max": 1,
+                                    "min": 1
+                                  },
+                                  [
+                                    "GenericConditionHitEffect"
+                                  ],
+                                  false,
+                                  false
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "Event",
+                        [
+                          "Wait",
+                          12,
+                          "*",
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateShockWaveAttack",
+                                  "*",
+                                  -33,
+                                  [
+                                    "AB"
+                                  ],
+                                  492,
+                                  420,
+                                  3.141592653589793,
+                                  [
+                                    "Donut"
+                                  ],
+                                  [
+                                    "ResolveByElement",
+                                    "battle/effect/enemy_general/enemy_shot_wave_circle_fast",
+                                    255
+                                  ],
+                                  [
+                                    "ForesideOfCharacter"
+                                  ],
+                                  3,
+                                  6,
+                                  7,
+                                  [
+                                    "Block",
+                                    [
+                                      [
+                                        "Command",
+                                        [
+                                          "CreateNormalAttack",
+                                          7,
+                                          255,
+                                          null,
+                                          null,
+                                          0,
+                                          {
+                                            "max": 0.65,
+                                            "min": 0.65
+                                          },
+                                          {
+                                            "max": 0,
+                                            "min": 0
+                                          },
+                                          false,
+                                          false,
+                                          false,
+                                          false,
+                                          false,
+                                          {
+                                            "max": 1,
+                                            "min": 1
+                                          },
+                                          {
+                                            "max": 1,
+                                            "min": 1
+                                          },
+                                          [
+                                            "None"
+                                          ]
+                                        ]
+                                      ],
+                                      [
+                                        "Command",
+                                        [
+                                          "DeleteCondition",
+                                          7,
+                                          [
+                                            "DCAll",
+                                            2
+                                          ],
+                                          99,
+                                          0
+                                        ]
+                                      ],
+                                      [
+                                        "Command",
+                                        [
+                                          "CreateCondition",
+                                          7,
+                                          [
+                                            [
+                                              "ACHealRejection",
+                                              {
+                                                "max": 3600,
+                                                "min": 3600
+                                              }
+                                            ]
+                                          ],
+                                          {
+                                            "max": 1,
+                                            "min": 1
+                                          },
+                                          [
+                                            "GenericConditionHitEffect"
+                                          ],
+                                          false,
+                                          false
+                                        ]
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ],
+                              [
+                                "Event",
+                                [
+                                  "Wait",
+                                  12,
+                                  "*",
+                                  [
+                                    "Block",
+                                    [
+                                      [
+                                        "Command",
+                                        [
+                                          "CreateShockWaveAttack",
+                                          "*",
+                                          -33,
+                                          [
+                                            "AB"
+                                          ],
+                                          -246,
+                                          -168,
+                                          3.141592653589793,
+                                          [
+                                            "Donut"
+                                          ],
+                                          [
+                                            "ResolveByElement",
+                                            "battle/effect/enemy_general/enemy_shot_wave_circle_fast",
+                                            255
+                                          ],
+                                          [
+                                            "ForesideOfCharacter"
+                                          ],
+                                          3,
+                                          8,
+                                          9,
+                                          [
+                                            "Block",
+                                            [
+                                              [
+                                                "Command",
+                                                [
+                                                  "CreateNormalAttack",
+                                                  9,
+                                                  255,
+                                                  null,
+                                                  null,
+                                                  0,
+                                                  {
+                                                    "max": 0.65,
+                                                    "min": 0.65
+                                                  },
+                                                  {
+                                                    "max": 0,
+                                                    "min": 0
+                                                  },
+                                                  false,
+                                                  false,
+                                                  false,
+                                                  false,
+                                                  false,
+                                                  {
+                                                    "max": 1,
+                                                    "min": 1
+                                                  },
+                                                  {
+                                                    "max": 1,
+                                                    "min": 1
+                                                  },
+                                                  [
+                                                    "None"
+                                                  ]
+                                                ]
+                                              ],
+                                              [
+                                                "Command",
+                                                [
+                                                  "DeleteCondition",
+                                                  9,
+                                                  [
+                                                    "DCAll",
+                                                    2
+                                                  ],
+                                                  99,
+                                                  0
+                                                ]
+                                              ],
+                                              [
+                                                "Command",
+                                                [
+                                                  "CreateCondition",
+                                                  9,
+                                                  [
+                                                    [
+                                                      "ACHealRejection",
+                                                      {
+                                                        "max": 3600,
+                                                        "min": 3600
+                                                      }
+                                                    ]
+                                                  ],
+                                                  {
+                                                    "max": 1,
+                                                    "min": 1
+                                                  },
+                                                  [
+                                                    "GenericConditionHitEffect"
+                                                  ],
+                                                  false,
+                                                  false
+                                                ]
+                                              ]
+                                            ]
+                                          ]
+                                        ]
+                                      ],
+                                      [
+                                        "Event",
+                                        [
+                                          "Wait",
+                                          12,
+                                          "*",
+                                          [
+                                            "Block",
+                                            [
+                                              [
+                                                "Command",
+                                                [
+                                                  "CreateShockWaveAttack",
+                                                  "*",
+                                                  -33,
+                                                  [
+                                                    "AB"
+                                                  ],
+                                                  66,
+                                                  -60,
+                                                  3.141592653589793,
+                                                  [
+                                                    "Donut"
+                                                  ],
+                                                  [
+                                                    "ResolveByElement",
+                                                    "battle/effect/enemy_general/enemy_shot_wave_circle_fast",
+                                                    255
+                                                  ],
+                                                  [
+                                                    "ForesideOfCharacter"
+                                                  ],
+                                                  3,
+                                                  10,
+                                                  11,
+                                                  [
+                                                    "Block",
+                                                    [
+                                                      [
+                                                        "Command",
+                                                        [
+                                                          "CreateNormalAttack",
+                                                          11,
+                                                          255,
+                                                          null,
+                                                          null,
+                                                          0,
+                                                          {
+                                                            "max": 0.65,
+                                                            "min": 0.65
+                                                          },
+                                                          {
+                                                            "max": 0,
+                                                            "min": 0
+                                                          },
+                                                          false,
+                                                          false,
+                                                          false,
+                                                          false,
+                                                          false,
+                                                          {
+                                                            "max": 1,
+                                                            "min": 1
+                                                          },
+                                                          {
+                                                            "max": 1,
+                                                            "min": 1
+                                                          },
+                                                          [
+                                                            "None"
+                                                          ]
+                                                        ]
+                                                      ],
+                                                      [
+                                                        "Command",
+                                                        [
+                                                          "DeleteCondition",
+                                                          11,
+                                                          [
+                                                            "DCAll",
+                                                            2
+                                                          ],
+                                                          99,
+                                                          0
+                                                        ]
+                                                      ],
+                                                      [
+                                                        "Command",
+                                                        [
+                                                          "CreateCondition",
+                                                          11,
+                                                          [
+                                                            [
+                                                              "ACHealRejection",
+                                                              {
+                                                                "max": 3600,
+                                                                "min": 3600
+                                                              }
+                                                            ]
+                                                          ],
+                                                          {
+                                                            "max": 1,
+                                                            "min": 1
+                                                          },
+                                                          [
+                                                            "GenericConditionHitEffect"
+                                                          ],
+                                                          false,
+                                                          false
+                                                        ]
+                                                      ]
+                                                    ]
+                                                  ]
+                                                ]
+                                              ],
+                                              [
+                                                "Event",
+                                                [
+                                                  "Wait",
+                                                  12,
+                                                  "*",
+                                                  [
+                                                    "Block",
+                                                    [
+                                                      [
+                                                        "Command",
+                                                        [
+                                                          "CreateShockWaveAttack",
+                                                          "*",
+                                                          -33,
+                                                          [
+                                                            "AB"
+                                                          ],
+                                                          -492,
+                                                          420,
+                                                          3.141592653589793,
+                                                          [
+                                                            "Donut"
+                                                          ],
+                                                          [
+                                                            "ResolveByElement",
+                                                            "battle/effect/enemy_general/enemy_shot_wave_circle_fast",
+                                                            255
+                                                          ],
+                                                          [
+                                                            "ForesideOfCharacter"
+                                                          ],
+                                                          3,
+                                                          12,
+                                                          13,
+                                                          [
+                                                            "Block",
+                                                            [
+                                                              [
+                                                                "Command",
+                                                                [
+                                                                  "CreateNormalAttack",
+                                                                  13,
+                                                                  255,
+                                                                  null,
+                                                                  null,
+                                                                  0,
+                                                                  {
+                                                                    "max": 0.65,
+                                                                    "min": 0.65
+                                                                  },
+                                                                  {
+                                                                    "max": 0,
+                                                                    "min": 0
+                                                                  },
+                                                                  false,
+                                                                  false,
+                                                                  false,
+                                                                  false,
+                                                                  false,
+                                                                  {
+                                                                    "max": 1,
+                                                                    "min": 1
+                                                                  },
+                                                                  {
+                                                                    "max": 1,
+                                                                    "min": 1
+                                                                  },
+                                                                  [
+                                                                    "None"
+                                                                  ]
+                                                                ]
+                                                              ],
+                                                              [
+                                                                "Command",
+                                                                [
+                                                                  "DeleteCondition",
+                                                                  13,
+                                                                  [
+                                                                    "DCAll",
+                                                                    2
+                                                                  ],
+                                                                  99,
+                                                                  0
+                                                                ]
+                                                              ],
+                                                              [
+                                                                "Command",
+                                                                [
+                                                                  "CreateCondition",
+                                                                  13,
+                                                                  [
+                                                                    [
+                                                                      "ACHealRejection",
+                                                                      {
+                                                                        "max": 3600,
+                                                                        "min": 3600
+                                                                      }
+                                                                    ]
+                                                                  ],
+                                                                  {
+                                                                    "max": 1,
+                                                                    "min": 1
+                                                                  },
+                                                                  [
+                                                                    "GenericConditionHitEffect"
+                                                                  ],
+                                                                  false,
+                                                                  false
+                                                                ]
+                                                              ]
+                                                            ]
+                                                          ]
+                                                        ]
+                                                      ],
+                                                      [
+                                                        "Event",
+                                                        [
+                                                          "Wait",
+                                                          12,
+                                                          "*",
+                                                          [
+                                                            "Block",
+                                                            [
+                                                              [
+                                                                "Command",
+                                                                [
+                                                                  "CreateShockWaveAttack",
+                                                                  "*",
+                                                                  -33,
+                                                                  [
+                                                                    "AB"
+                                                                  ],
+                                                                  414,
+                                                                  42,
+                                                                  3.141592653589793,
+                                                                  [
+                                                                    "Donut"
+                                                                  ],
+                                                                  [
+                                                                    "ResolveByElement",
+                                                                    "battle/effect/enemy_general/enemy_shot_wave_circle_fast",
+                                                                    255
+                                                                  ],
+                                                                  [
+                                                                    "ForesideOfCharacter"
+                                                                  ],
+                                                                  3,
+                                                                  14,
+                                                                  15,
+                                                                  [
+                                                                    "Block",
+                                                                    [
+                                                                      [
+                                                                        "Command",
+                                                                        [
+                                                                          "CreateNormalAttack",
+                                                                          15,
+                                                                          255,
+                                                                          null,
+                                                                          null,
+                                                                          0,
+                                                                          {
+                                                                            "max": 0.65,
+                                                                            "min": 0.65
+                                                                          },
+                                                                          {
+                                                                            "max": 0,
+                                                                            "min": 0
+                                                                          },
+                                                                          false,
+                                                                          false,
+                                                                          false,
+                                                                          false,
+                                                                          false,
+                                                                          {
+                                                                            "max": 1,
+                                                                            "min": 1
+                                                                          },
+                                                                          {
+                                                                            "max": 1,
+                                                                            "min": 1
+                                                                          },
+                                                                          [
+                                                                            "None"
+                                                                          ]
+                                                                        ]
+                                                                      ],
+                                                                      [
+                                                                        "Command",
+                                                                        [
+                                                                          "DeleteCondition",
+                                                                          15,
+                                                                          [
+                                                                            "DCAll",
+                                                                            2
+                                                                          ],
+                                                                          99,
+                                                                          0
+                                                                        ]
+                                                                      ],
+                                                                      [
+                                                                        "Command",
+                                                                        [
+                                                                          "CreateCondition",
+                                                                          15,
+                                                                          [
+                                                                            [
+                                                                              "ACHealRejection",
+                                                                              {
+                                                                                "max": 3600,
+                                                                                "min": 3600
+                                                                              }
+                                                                            ]
+                                                                          ],
+                                                                          {
+                                                                            "max": 1,
+                                                                            "min": 1
+                                                                          },
+                                                                          [
+                                                                            "GenericConditionHitEffect"
+                                                                          ],
+                                                                          false,
+                                                                          false
+                                                                        ]
+                                                                      ]
+                                                                    ]
+                                                                  ]
+                                                                ]
+                                                              ]
+                                                            ]
+                                                          ]
+                                                        ]
+                                                      ]
+                                                    ]
+                                                  ]
+                                                ]
+                                              ]
+                                            ]
+                                          ]
+                                        ]
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

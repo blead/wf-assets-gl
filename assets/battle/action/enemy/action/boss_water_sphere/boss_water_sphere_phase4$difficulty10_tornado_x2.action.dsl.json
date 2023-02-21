@@ -1,0 +1,31 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateTornado",
+          -33,
+          0,
+          480,
+          0.6,
+          1200,
+          20000,
+          "battle/action/enemy/action/boss_water_sphere/water_sphere_phase4_tornado1_shot",
+          true
+        ]
+      ]
+    ]
+  ]
+]

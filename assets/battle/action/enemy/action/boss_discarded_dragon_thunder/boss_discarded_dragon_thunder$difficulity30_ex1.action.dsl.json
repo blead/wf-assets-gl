@@ -1,0 +1,139 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACDamageOfElement",
+              {
+                "max": 7200,
+                "min": 7200
+              },
+              254,
+              {
+                "max": 150,
+                "min": 150
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "GenericConditionHitEffect"
+          ],
+          true,
+          false
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACToleranceOfDebuff",
+              {
+                "max": 7200,
+                "min": 7200
+              },
+              {
+                "max": 1,
+                "min": 1
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "None"
+          ],
+          true,
+          false
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACAttackPoint",
+              {
+                "max": 7200,
+                "min": 7200
+              },
+              {
+                "max": 0.2,
+                "min": 0.2
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "None"
+          ],
+          true,
+          false
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACToleranceOfElement",
+              {
+                "max": 7200,
+                "min": 7200
+              },
+              254,
+              {
+                "max": 0.2,
+                "min": 0.2
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "None"
+          ],
+          true,
+          false
+        ]
+      ]
+    ]
+  ]
+]

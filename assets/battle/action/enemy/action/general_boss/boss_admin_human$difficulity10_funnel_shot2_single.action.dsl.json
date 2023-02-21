@@ -1,0 +1,33 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Zako",
+            "security_robot_large"
+          ],
+          2,
+          [
+            "FunnelGroup",
+            10
+          ],
+          null
+        ]
+      ]
+    ]
+  ]
+]

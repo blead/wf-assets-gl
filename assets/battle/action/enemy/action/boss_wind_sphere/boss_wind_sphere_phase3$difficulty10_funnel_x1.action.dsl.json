@@ -1,0 +1,33 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_wind_sphere_phase3"
+          ],
+          3,
+          [
+            "FunnelGroup",
+            3
+          ],
+          null
+        ]
+      ]
+    ]
+  ]
+]

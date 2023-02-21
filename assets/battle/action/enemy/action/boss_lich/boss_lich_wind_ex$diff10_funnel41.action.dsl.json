@@ -1,0 +1,157 @@
+[
+  "ActionDsl",
+  1,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACToleranceOfElement",
+              {
+                "max": 10000000,
+                "min": 10000000
+              },
+              254,
+              {
+                "max": 1,
+                "min": 1
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "None"
+          ],
+          false,
+          false
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACToleranceOfElement",
+              {
+                "max": 10000001,
+                "min": 10000001
+              },
+              254,
+              {
+                "max": 1,
+                "min": 1
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "None"
+          ],
+          false,
+          false
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACToleranceOfElement",
+              {
+                "max": 10000002,
+                "min": 10000002
+              },
+              254,
+              {
+                "max": 1,
+                "min": 1
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "None"
+          ],
+          false,
+          false
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACToleranceOfElement",
+              {
+                "max": 10000003,
+                "min": 10000003
+              },
+              254,
+              {
+                "max": 1,
+                "min": 1
+              },
+              1
+            ]
+          ],
+          {
+            "max": 1,
+            "min": 1
+          },
+          [
+            "None"
+          ],
+          false,
+          false
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_lich_wind_strong_expert"
+          ],
+          2,
+          [
+            "FunnelGroup",
+            10
+          ],
+          null
+        ]
+      ]
+    ]
+  ]
+]
