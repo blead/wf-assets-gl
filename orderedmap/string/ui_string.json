@@ -11104,7 +11104,7 @@
   "comeback_boss_boost_dialog_body": [
     [
       "現在カムバックボーナス中！\nボスブーストポイントが\n通常の5倍になっています！\nボスバトルに挑戦してみましょう！\n\n残り：::remaining_time::",
-      "現在カムバックボーナス中！\nボスブーストポイントが\n通常の5倍になっています！\nボスバトルに挑戦してみましょう！\n\n残り：::remaining_time::",
+      "현재 컴백 보너스 중!\n보스 부스트 포인트가\n통상의 5배가 됩니다!\n보스 배틀에 도전해보세요!\n\n남은 시간: ::remaining_time::",
       "現在カムバックボーナス中！\nボスブーストポイントが\n通常の5倍になっています！\nボスバトルに挑戦してみましょう！\n\n残り：::remaining_time::",
       "現在カムバックボーナス中！\nボスブーストポイントが\n通常の5倍になっています！\nボスバトルに挑戦してみましょう！\n\n残り：::remaining_time::",
       "現在カムバックボーナス中！\nボスブーストポイントが\n通常の5倍になっています！\nボスバトルに挑戦してみましょう！\n\n残り：::remaining_time::",
@@ -11117,7 +11117,7 @@
   "comeback_boss_boost_dialog_last_day_caution": [
     [
       "【本日最終日！！】",
-      "【本日最終日！！】",
+      "[오늘이 최종일!]",
       "【本日最終日！！】",
       "【本日最終日！！】",
       "【本日最終日！！】",
@@ -11130,7 +11130,7 @@
   "comeback_boss_boost_dialog_remaining_time_day": [
     [
       "::day::日と",
-      "::day::日と",
+      "::day::일",
       "::day::日と",
       "::day::日と",
       "::day::日と",
@@ -11143,7 +11143,7 @@
   "comeback_boss_boost_dialog_remaining_time_hour": [
     [
       "::hour::時間",
-      "::hour::時間",
+      "::hour::시간",
       "::hour::時間",
       "::hour::時間",
       "::hour::時間",
@@ -11156,7 +11156,7 @@
   "comeback_boss_boost_dialog_remaining_time_minute": [
     [
       "::minute::分",
-      "::minute::分",
+      "::minute::분",
       "::minute::分",
       "::minute::分",
       "::minute::分",
@@ -11169,7 +11169,7 @@
   "comeback_boss_boost_dialog_title": [
     [
       "カムバックブースト発生中！",
-      "カムバックブースト発生中！",
+      "컴백 부스트 발생중!",
       "カムバックブースト発生中！",
       "カムバックブースト発生中！",
       "カムバックブースト発生中！",
@@ -11585,7 +11585,7 @@
   "conversion_to_exp_impossible_reason_party_participant_raid_event": [
     [
       "このキャラはレイドイベント用パーティに\n編成されているため経験値に変換できません",
-      "このキャラはレイドイベント用パーティに\n編成されているため経験値に変換できません",
+      "이 캐릭터는 레이드이벤트용 파티에 \n편성되어있기 때문에 경험치로 변환 불가능합니다.",
       "このキャラはレイドイベント用パーティに\n編成されているため経験値に変換できません",
       "このキャラはレイドイベント用パーティに\n編成されているため経験値に変換できません",
       "このキャラはレイドイベント用パーティに\n編成されているため経験値に変換できません",
@@ -17019,14 +17019,14 @@
   "gacha_ten_times_per_account_description": [
     [
       "10連ガチャで\n星5キャラが必ず\n1つ以上ゲット！",
-      "10회 뽑기에서\n5성 캐릭터\n1명 이상 확정!",
-      "Do a 10-Pull and get at least one 5-star unit guaranteed!",
-      "Faites un tirage x10 et obtenez au moins une unité 5 étoiles garantie !",
-      "Bei einem 10er-Gacha bekommst du garantiert eine 5-Sterne-Einheit!",
-      "¡Haz una invocación de 10 y conseguirás un personaje de 5 estrellas asegurado!",
+      "앞으로 1회",
+      "1 Left",
+      "1 Left",
+      "1 Left",
+      "1 Left",
       "10連ガチャで\n星5キャラが必ず\n1つ以上ゲット！",
       "10連ガチャで\n星5キャラが必ず\n1つ以上ゲット！",
-      "เมื่อหมุนกาชาครั้งละ 10\nการันตีตัวละคร 5 ดาว\nอย่างน้อย 1 ตัว!"
+      "1 ซ้าย"
     ]
   ],
   "gacha_ten_times_ticket_label": [
@@ -25742,7 +25742,7 @@
   "raid_event_top_now_aggregating": [
     [
       "現在集計中です\n::value::頃更新予定",
-      "현재 집게중입니다.\n::value::에 갱신 예정",
+      "현재 집계중입니다.\n::value::에 갱신 예정",
       "현재 집게중입니다.\n::value::에 갱신 예정",
       "현재 집게중입니다.\n::value::에 갱신 예정",
       "현재 집게중입니다.\n::value::에 갱신 예정",

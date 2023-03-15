@@ -4172,8 +4172,8 @@
   "holy_mother": {
     "1": [
       [
-        "セイント・ライト",
-        "参戦者全員のHPを回復【水属性キャラに対して効果アップ】 ＋ 弱体効果を1つ回復 ／ パーティ全体に攻撃力アップ効果",
+        "Saintly Light",
+        "Restores the HP of all parties (Effect boosted for Water units) + Removes 1 debuff / Increases the attack of all allies",
         "dynamic/skill/heal",
         "true",
         "550",
@@ -4192,8 +4192,8 @@
     ],
     "2": [
       [
-        "セイント・ライト＋",
-        "参戦者全員のHPを回復【水属性キャラに対して効果アップ】 ＋ 弱体効果を1つ回復 ／ パーティ全体に攻撃力アップ効果",
+        "Saintly Light+",
+        "Restores the HP of all parties (Effect boosted for Water units) + Removes 1 debuff / Increases the attack of all allies",
         "dynamic/skill/heal",
         "true",
         "550",
@@ -4214,8 +4214,8 @@
   "rookie_adventurer": {
     "1": [
       [
-        "パーロ・アディオトル",
-        "前方を剣で薙ぎ払い、命中した敵に風ダメージ ／ パーティ全体に攻撃力アップ効果",
+        "Support Sweep",
+        "Swings her sword in front, inflicting Wind damage on hit foes / Increases attack for all allies",
         "dynamic/skill/atk_front",
         "true",
         "460",
@@ -4234,8 +4234,8 @@
     ],
     "2": [
       [
-        "パーロ・アディオトル＋",
-        "前方を剣で薙ぎ払い、命中した敵に風ダメージ ／ パーティ全体に攻撃力アップ効果",
+        "Support Sweep+",
+        "Swings her sword in front, inflicting Wind damage on hit foes / Increases attack for all allies",
         "dynamic/skill/atk_front",
         "true",
         "460",
@@ -4256,8 +4256,8 @@
   "machine_police_girl_smr21": {
     "1": [
       [
-        "パレイディアム・ブラスト",
-        "前方に向けてバイクからミサイルを連射し、その周囲の敵に雷ダメージ ／\n発動時にフィーバー中でない場合、追加でフィーバーゲージ増加\n発動時にフィーバー中の場合、スキルの威力アップ",
+        "Paradigm Blast",
+        "Launches missiles from her water scooter and sends them flying in front, inflicting Thunder damage on nearby foes / If activated outside of Fever state, increases Fever Gauge / If activated during Fever state, increases skill damage",
         "dynamic/skill/atk_front",
         "true",
         "540",
@@ -4276,8 +4276,8 @@
     ],
     "2": [
       [
-        "パレイディアム・ブラスト＋",
-        "前方に向けてバイクからミサイルを連射し、その周囲の敵に雷ダメージ ／\n発動時にフィーバー中でない場合、追加でフィーバーゲージ増加\n発動時にフィーバー中の場合、スキルの威力アップ",
+        "Paradigm Blast+",
+        "Launches missiles from her water scooter and sends them flying in front, inflicting Thunder damage on nearby foes / If activated outside of Fever state, increases Fever Gauge / If activated during Fever state, increases skill damage",
         "dynamic/skill/atk_front",
         "true",
         "540",
@@ -4298,8 +4298,8 @@
   "resistance_princess_smr21": {
     "1": [
       [
-        "アストラルスパーク",
-        "無数のまばゆい光の玉を爆発させ、フィールド全体に光ダメージ ＋ 少しの間、スタン効果 ／ 光属性キャラにアビリティダメージアップ効果",
+        "Astral Sparks",
+        "Summons several blinding balls of light that explode, inflicting Light damage on all foes on the field + paralyzing all foes for a short time / Increases ability damage of Light units",
         "dynamic/skill/atk_field",
         "true",
         "550",
@@ -4318,8 +4318,8 @@
     ],
     "2": [
       [
-        "アストラルスパーク＋",
-        "無数のまばゆい光の玉を爆発させ、フィールド全体に光ダメージ ＋ 少しの間、スタン効果 ／ 光属性キャラにアビリティダメージアップ効果",
+        "Astral Sparks+",
+        "Summons several blinding balls of light that explode, inflicting Light damage on all foes on the field + paralyzing all foes for a short time / Increases ability damage of Light units",
         "dynamic/skill/atk_field",
         "true",
         "550",
@@ -4340,8 +4340,8 @@
   "dragon_slayer_smr21": {
     "1": [
       [
-        "プロミネンス・ブラスト",
-        "最も近い敵の足元に槍を突き刺し、地面の亀裂から発生した爆発でその周囲の敵に火ダメージ【種族「ドラゴン」へのダメージアップ】",
+        "Prominence Blast",
+        "Waves his spear at the nearest foe, with the resulting shockwaves inflicting Fire damage on nearby foes (Inflicts more damage on Dragons)",
         "dynamic/skill/atk_nearest",
         "true",
         "600",
@@ -4360,8 +4360,8 @@
     ],
     "2": [
       [
-        "プロミネンス・ブラスト＋",
-        "最も近い敵の足元に槍を突き刺し、地面の亀裂から発生した爆発でその周囲の敵に火ダメージ【種族「ドラゴン」へのダメージアップ】",
+        "Prominence Blast+",
+        "Waves his spear at the nearest foe, with the resulting shockwaves inflicting Fire damage on nearby foes (Inflicts more damage on Dragons)",
         "dynamic/skill/atk_nearest",
         "true",
         "600",
