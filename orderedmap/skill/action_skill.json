@@ -4004,8 +4004,8 @@
   "bird_master": {
     "1": [
       [
-        "フリューゲル・フライハイト",
-        "前方にカイザーを飛ばし、 最初にぶつかった位置に側面攻撃をしかけさせ、命中した敵に風ダメージ ／ 自身と風属性リーダーの追い打ちダメージアップ効果",
+        "Flying Freedom",
+        "Sends Kaiser in front to perform a flanking attack at the first point of contact, inflicting Wind damage on hit foes / Increases Attrition damage of Lemarque and the Wind party leader",
         "dynamic/skill/atk_front",
         "true",
         "600",
@@ -4024,8 +4024,8 @@
     ],
     "2": [
       [
-        "フリューゲル・フライハイト＋",
-        "前方にカイザーを飛ばし、 最初にぶつかった位置に側面攻撃をしかけさせ、命中した敵に風ダメージ ／ 自身と風属性リーダーの追い打ちダメージアップ効果",
+        "Flying Freedom+",
+        "Sends Kaiser in front to perform a flanking attack at the first point of contact, inflicting Wind damage on hit foes / Increases Attrition damage of Lemarque and the Wind party leader",
         "dynamic/skill/atk_front",
         "true",
         "600",
@@ -4046,8 +4046,8 @@
   "dress_gunner": {
     "1": [
       [
-        "マリタイムバレット",
-        "最も近い敵に向かって貫通する弾丸を発射し、当たった敵に水ダメージ ＋ 強化効果を1つ消去",
+        "Briny Bullet",
+        "Fires a piercing round at the nearest foe, inflicting Water damage on hit foes + Removes 1 buff",
         "dynamic/skill/atk_nearest",
         "true",
         "530",
@@ -4066,8 +4066,8 @@
     ],
     "2": [
       [
-        "マリタイムバレット＋",
-        "最も近い敵に向かって貫通する弾丸を発射し、当たった敵に水ダメージ ＋ 強化効果を1つ消去",
+        "Briny Bullet+",
+        "Fires a piercing round at the nearest foe, inflicting Water damage on hit foes + Removes 1 buff",
         "dynamic/skill/atk_nearest",
         "true",
         "530",
@@ -4088,8 +4088,8 @@
   "bodysuit_trooper_smr21": {
     "1": [
       [
-        "プラチナ・イーリス",
-        "煌めく虹の剣技で前方を横薙ぎし、命中した敵に火ダメージ ／ パワーフリップダメージアップ効果",
+        "Platinum Elysian Blade",
+        "Mows down the area in front of her with her sword, inflicting Fire damage on hit foes / Increases Power Flip damage",
         "dynamic/skill/atk_front",
         "true",
         "470",
@@ -4108,8 +4108,8 @@
     ],
     "2": [
       [
-        "プラチナ・イーリス＋",
-        "煌めく虹の剣技で前方を横薙ぎし、命中した敵に火ダメージ ／ パワーフリップダメージアップ効果",
+        "Platinum Elysian Blade+",
+        "Mows down the area in front of her with her sword, inflicting Fire damage on hit foes / Increases Power Flip damage",
         "dynamic/skill/atk_front",
         "true",
         "470",
@@ -4130,8 +4130,8 @@
   "blackflower_wiz": {
     "1": [
       [
-        "ドゥーム・フルブルーム",
-        "最も近い敵の周囲に生気を奪う花園を作り出し、範囲内の敵に闇ダメージ ＋ 闇属性耐性ダウン効果 ／ 敵にヒットした場合、自身に再生効果",
+        "Doom in Full Bloom",
+        "Drains the life force from the area around the nearest foes and creates a beautiful garden, inflicting Dark damage on foes in the area and reducing Dark resistance / If hit by a foe, grants Recover to self",
         "dynamic/skill/atk_nearest",
         "true",
         "580",
@@ -4150,8 +4150,8 @@
     ],
     "2": [
       [
-        "ドゥーム・フルブルーム＋",
-        "最も近い敵の周囲に生気を奪う花園を作り出し、範囲内の敵に闇ダメージ ＋ 闇属性耐性ダウン効果 ／ 敵にヒットした場合、自身に再生効果",
+        "Doom in Full Bloom+",
+        "Drains the life force from the area around the nearest foes and creates a beautiful garden, inflicting Dark damage on foes in the area and reducing Dark resistance / If hit by a foe, grants Recover to self",
         "dynamic/skill/atk_nearest",
         "true",
         "580",

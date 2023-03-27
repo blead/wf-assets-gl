@@ -4605,7 +4605,7 @@
     [
       "::if has_constraint:: ::constraint::の::end:: ::if (multiball_group == null)::召喚系マルチボール::else:: ::multiball_group:: ::end::が消滅::if once:: ::else::する::end::",
       "::if has_constraint::::constraint::의 ::end::::if (multiball_group == null)::소환계 멀티 볼 ::else::::multiball_group::::end::(이)가 소멸 ::if once::::else::한 ::end::",
-      "::if has_constraint::::constraint::의 ::end::::if (multiball_group == null)::소환계 멀티 볼 ::else::::multiball_group::::end::(이)가 소멸 ::if once::::else::한 ::end::",
+      "::if has_constraint:: ::constraint:: ::end:: ::if (multiball_group == null):: summonable multiball ::else:: ::multiball_group:: ::end:: goes away ::if once:: ::else:: ::end::",
       "::if has_constraint::::constraint::의 ::end::::if (multiball_group == null)::소환계 멀티 볼 ::else::::multiball_group::::end::(이)가 소멸 ::if once::::else::한 ::end::",
       "::if has_constraint::::constraint::의 ::end::::if (multiball_group == null)::소환계 멀티 볼 ::else::::multiball_group::::end::(이)가 소멸 ::if once::::else::한 ::end::",
       "::if has_constraint::::constraint::의 ::end::::if (multiball_group == null)::소환계 멀티 볼 ::else::::multiball_group::::end::(이)가 소멸 ::if once::::else::한 ::end::",
@@ -5853,13 +5853,13 @@
     [
       "（コンボ増加無し）",
       "(콤보 증가 없음)",
+      "(No combo increase)",
       "（コンボ増加無し）",
       "（コンボ増加無し）",
       "（コンボ増加無し）",
       "（コンボ増加無し）",
       "（コンボ増加無し）",
-      "（コンボ増加無し）",
-      "(ไม่เพิ่มคอมโบ)"
+      "(ไม่มีการเพิ่มคอมโบ)"
     ]
   ],
   "ability_disabled_reason_close_quote": [
@@ -7939,7 +7939,7 @@
       "バトルアイテムを所持していません",
       "バトルアイテムを所持していません",
       "バトルアイテムを所持していません",
-      "ไม่มีไอเทมแบทเทิล"
+      "ไม่มีแบทเทิลไอเทม"
     ]
   ],
   "battle_item_select_no_item_info": [
@@ -7965,7 +7965,7 @@
       "同じバトルアイテムです",
       "同じバトルアイテムです",
       "同じバトルアイテムです",
-      "ไอเทมแบทเทิลอันเดียวกัน"
+      "แบทเทิลไอเทมเดียวกัน"
     ]
   ],
   "battle_item_select_select_battle_item": [
@@ -7978,7 +7978,7 @@
       "バトルアイテムを選択",
       "バトルアイテムを選択",
       "バトルアイテムを選択",
-      "เลือกไอเทมแบทเทิล"
+      "เลือกแบทเทิลไอเทม"
     ]
   ],
   "battle_message_disconnected": [
@@ -9376,39 +9376,39 @@
     [
       "相互フォローに公開",
       "상호 팔로우에 공개",
-      "상호 팔로우에 공개",
+      "Open to Mutual Follows",
       "상호 팔로우에 공개",
       "상호 팔로우에 공개",
       "상호 팔로우에 공개",
       "相互フォローに公開",
       "相互フォローに公開",
-      "상호 팔로우에 공개"
+      "เปิดเผยการติดตามร่วมกัน"
     ]
   ],
   "button_label_lounge_start": [
     [
       "開始する",
       "개시한다",
-      "개시한다",
+      "Start",
       "개시한다",
       "개시한다",
       "개시한다",
       "開始する",
       "開始する",
-      "개시한다"
+      "เริ่ม"
     ]
   ],
   "button_label_lounge_wait": [
     [
       "待機中",
       "대기중",
-      "대기중",
+      "Waiting",
       "대기중",
       "대기중",
       "대기중",
       "待機中",
       "待機中",
-      "대기중"
+      "กำลังรอ"
     ]
   ],
   "button_label_multi_room_goto_battle": [
@@ -9798,7 +9798,7 @@
       "Proceed?",
       "よろしいですか？",
       "よろしいですか？",
-      "ท่านแน่ใจหรือไม่?"
+      "คุณแน่ใจหรือไม่?"
     ]
   ],
   "carnival_event_party_select_score_reset_dialog_message": [
@@ -9837,7 +9837,7 @@
       "At least one unit in your party has already\ncleared another Hanifolk Carnival quest.",
       "ハニワカーニバルの他のクエストに\n挑戦済みのキャラが編成されています",
       "ハニワカーニバルの他のクエストに\n挑戦済みのキャラが編成されています",
-      "มีตัวละครซึ่งท้าทายเควสต์อื่นของ\nฮานิวะคาร์นิวัลไปแล้วจัดอยู่ในปาร์ตี้"
+      "มีตัวละครที่ท้าทายไปแล้วอยู่ในปาร์ตี้\nสำหรับเควสต์อื่นในฮานิวะคาร์นิวัล"
     ]
   ],
   "carnival_event_party_select_used_characters_character_name": [
@@ -11105,78 +11105,78 @@
     [
       "現在カムバックボーナス中！\nボスブーストポイントが\n通常の5倍になっています！\nボスバトルに挑戦してみましょう！\n\n残り：::remaining_time::",
       "현재 컴백 보너스 중!\n보스 부스트 포인트가\n통상의 5배가 됩니다!\n보스 배틀에 도전해보세요!\n\n남은 시간: ::remaining_time::",
+      "Welcome Back!\nAs a bonus, you have\n5x the Boss Boosts!\nPick a boss and FIGHT!\n\n：::remaining_time:: Remaining",
       "現在カムバックボーナス中！\nボスブーストポイントが\n通常の5倍になっています！\nボスバトルに挑戦してみましょう！\n\n残り：::remaining_time::",
       "現在カムバックボーナス中！\nボスブーストポイントが\n通常の5倍になっています！\nボスバトルに挑戦してみましょう！\n\n残り：::remaining_time::",
       "現在カムバックボーナス中！\nボスブーストポイントが\n通常の5倍になっています！\nボスバトルに挑戦してみましょう！\n\n残り：::remaining_time::",
       "現在カムバックボーナス中！\nボスブーストポイントが\n通常の5倍になっています！\nボスバトルに挑戦してみましょう！\n\n残り：::remaining_time::",
       "現在カムバックボーナス中！\nボスブーストポイントが\n通常の5倍になっています！\nボスバトルに挑戦してみましょう！\n\n残り：::remaining_time::",
-      "現在カムバックボーナス中！\nボスブーストポイントが\n通常の5倍になっています！\nボスバトルに挑戦してみましょう！\n\n残り：::remaining_time::",
-      "現在カムバックボーナス中！\nボスブーストポイントが\n通常の5倍になっています！\nボスバトルに挑戦してみましょう！\n\n残り：::remaining_time::"
+      "อยู่ในช่วงคัมแบ็กโบนัส!\nบูสต์พอยต์บอส\nเพิ่มขึ้น 5 เท่าจากปกติ!\nไปท้าทายบอสแบทเทิลกันเถอะ!\n\nเวลาที่เหลือ: ::remaining_time::"
     ]
   ],
   "comeback_boss_boost_dialog_last_day_caution": [
     [
       "【本日最終日！！】",
       "[오늘이 최종일!]",
+      "Last Day!",
       "【本日最終日！！】",
       "【本日最終日！！】",
       "【本日最終日！！】",
       "【本日最終日！！】",
       "【本日最終日！！】",
-      "【本日最終日！！】",
-      "【本日最終日！！】"
+      "[วันนี้วันสุดท้าย !!]"
     ]
   ],
   "comeback_boss_boost_dialog_remaining_time_day": [
     [
       "::day::日と",
       "::day::일",
+      "::day:: Days",
       "::day::日と",
       "::day::日と",
       "::day::日と",
       "::day::日と",
       "::day::日と",
-      "::day::日と",
-      "::day::日と"
+      "::day:: วันและ"
     ]
   ],
   "comeback_boss_boost_dialog_remaining_time_hour": [
     [
       "::hour::時間",
       "::hour::시간",
+      "::hour:: Hrs",
       "::hour::時間",
       "::hour::時間",
       "::hour::時間",
       "::hour::時間",
       "::hour::時間",
-      "::hour::時間",
-      "::hour::時間"
+      "::hour:: ชั่วโมง"
     ]
   ],
   "comeback_boss_boost_dialog_remaining_time_minute": [
     [
       "::minute::分",
       "::minute::분",
+      "::minute:: Mins",
       "::minute::分",
       "::minute::分",
       "::minute::分",
       "::minute::分",
       "::minute::分",
-      "::minute::分",
-      "::minute::分"
+      "::minute:: นาที"
     ]
   ],
   "comeback_boss_boost_dialog_title": [
     [
       "カムバックブースト発生中！",
       "컴백 부스트 발생중!",
+      "Welcome Back Boost Active!",
       "カムバックブースト発生中！",
       "カムバックブースト発生中！",
       "カムバックブースト発生中！",
       "カムバックブースト発生中！",
       "カムバックブースト発生中！",
-      "カムバックブースト発生中！",
-      "カムバックブースト発生中！"
+      "คัมแบ็กบูสต์กำลังแสดงผล!"
     ]
   ],
   "comic_number_label": [
@@ -11586,13 +11586,13 @@
     [
       "このキャラはレイドイベント用パーティに\n編成されているため経験値に変換できません",
       "이 캐릭터는 레이드이벤트용 파티에 \n편성되어있기 때문에 경험치로 변환 불가능합니다.",
+      "Unable to convert a unit \nequipped to a raid event party.",
       "このキャラはレイドイベント用パーティに\n編成されているため経験値に変換できません",
       "このキャラはレイドイベント用パーティに\n編成されているため経験値に変換できません",
       "このキャラはレイドイベント用パーティに\n編成されているため経験値に変換できません",
       "このキャラはレイドイベント用パーティに\n編成されているため経験値に変換できません",
       "このキャラはレイドイベント用パーティに\n編成されているため経験値に変換できません",
-      "このキャラはレイドイベント用パーティに\n編成されているため経験値に変換できません",
-      "このキャラはレイドイベント用パーティに\n編成されているため経験値に変換できません"
+      "ไม่สามารถแปลงตัวละครนี้เป็นค่าประสบการณ์\nเนื่องจากถูกจัดให้อยู่ในปาร์ตี้สำหรับเรดอีเวนต์"
     ]
   ],
   "conversion_to_exp_impossible_reason_protected": [
@@ -12470,182 +12470,182 @@
     [
       "絞り込み",
       "상세 검색",
-      "상세 검색",
+      "Sort",
       "상세 검색",
       "상세 검색",
       "상세 검색",
       "絞り込み",
       "絞り込み",
-      "상세 검색"
+      "กรอง"
     ]
   ],
   "encyclopedia_character_list_setting_dialog_filter_button_other": [
     [
       "他",
       "기타",
-      "기타",
+      "Other",
       "기타",
       "기타",
       "기타",
       "他",
       "他",
-      "기타"
+      "อื่น ๆ"
     ]
   ],
   "encyclopedia_character_list_setting_dialog_filter_genter_button_female": [
     [
       "女",
       "여",
-      "여",
+      "Female",
       "여",
       "여",
       "여",
       "女",
       "女",
-      "여"
+      "ผู้หญิง"
     ]
   ],
   "encyclopedia_character_list_setting_dialog_filter_genter_button_male": [
     [
       "男",
       "남",
-      "남",
+      "Male",
       "남",
       "남",
       "남",
       "男",
       "男",
-      "남"
+      "ผู้ชาย"
     ]
   ],
   "encyclopedia_character_list_setting_dialog_filter_genter_button_other": [
     [
       "他",
       "기타",
-      "기타",
+      "Other",
       "기타",
       "기타",
       "기타",
       "他",
       "他",
-      "기타"
+      "อื่น ๆ"
     ]
   ],
   "encyclopedia_character_list_setting_dialog_filter_group_element": [
     [
       "属性",
       "속성",
-      "속성",
+      "Element",
       "속성",
       "속성",
       "속성",
       "属性",
       "属性",
-      "속성"
+      "ธาตุ"
     ]
   ],
   "encyclopedia_character_list_setting_dialog_filter_group_gender": [
     [
       "性別",
       "성별",
-      "성별",
+      "Gender",
       "성별",
       "성별",
       "성별",
       "性別",
       "性別",
-      "성별"
+      "เพศ"
     ]
   ],
   "encyclopedia_character_list_setting_dialog_filter_group_race": [
     [
       "種族",
       "종족",
-      "종족",
+      "Type",
       "종족",
       "종족",
       "종족",
       "種族",
       "種族",
-      "종족"
+      "เผ่า"
     ]
   ],
   "encyclopedia_character_list_setting_dialog_filter_group_rarity": [
     [
       "レア度",
       "레어도",
-      "레어도",
+      "Rarity",
       "레어도",
       "레어도",
       "레어도",
       "レア度",
       "レア度",
-      "레어도"
+      "ความหายาก"
     ]
   ],
   "encyclopedia_character_list_setting_dialog_filter_group_search": [
     [
       "キャラ名検索",
       "캐릭터명 검색",
-      "캐릭터명 검색",
+      "Search by Name",
       "캐릭터명 검색",
       "캐릭터명 검색",
       "캐릭터명 검색",
       "キャラ名検索",
       "キャラ名検索",
-      "캐릭터명 검색"
+      "ค้นหาจากชื่อตัวละคร"
     ]
   ],
   "encyclopedia_character_list_setting_dialog_filter_search_description": [
     [
       "※最低::number::文字まで入力してください",
       "※최저 ::number:: 문자까지 입력해주세요. ",
-      "※최저 ::number:: 문자까지 입력해주세요. ",
+      "Please input at least ::number:: characters.",
       "※최저 ::number:: 문자까지 입력해주세요. ",
       "※최저 ::number:: 문자까지 입력해주세요. ",
       "※최저 ::number:: 문자까지 입력해주세요. ",
       "※最低::number::文字まで入力してください",
       "※最低::number::文字まで入力してください",
-      "※최저 ::number:: 문자까지 입력해주세요. "
+      "*โปรดกรอกอย่างน้อย ::number:: ตัวอักษร"
     ]
   ],
   "encyclopedia_character_list_setting_dialog_filter_search_placeholder": [
     [
       "キャラの名前を入力してください",
       "캐릭터의 이름을 입력해주세요. ",
-      "캐릭터의 이름을 입력해주세요. ",
+      "Enter the unit's name.",
       "캐릭터의 이름을 입력해주세요. ",
       "캐릭터의 이름을 입력해주세요. ",
       "캐릭터의 이름을 입력해주세요. ",
       "キャラの名前を入力してください",
       "キャラの名前を入力してください",
-      "캐릭터의 이름을 입력해주세요. "
+      "โปรดกรอกชื่อตัวละคร"
     ]
   ],
   "encyclopedia_character_list_setting_dialog_title": [
     [
       "絞り込み",
       "상세 검색",
-      "상세 검색",
+      "Sort",
       "상세 검색",
       "상세 검색",
       "상세 검색",
       "絞り込み",
       "絞り込み",
-      "상세 검색"
+      "กรอง"
     ]
   ],
   "encyclopedia_complete_rate": [
     [
       "収集率",
       "수집율",
-      "수집율",
+      "Complete",
       "수집율",
       "수집율",
       "수집율",
       "収集率",
       "収集率",
-      "수집율"
+      "อัตราการรวบรวม"
     ]
   ],
   "encyclopedia_complete_rate_percent": [
@@ -12665,7 +12665,7 @@
     [
       "・::message::",
       "・::message::",
-      "・::message::",
+      "-::message::",
       "・::message::",
       "・::message::",
       "・::message::",
@@ -12678,104 +12678,104 @@
     [
       "::keyword_name::の\nキーワードがアンロックされました",
       "::keyword_name::의\n키워드가 언록되었습니다.",
-      "::keyword_name::의\n키워드가 언록되었습니다.",
+      "::keyword_name:: unlocked.",
       "::keyword_name::의\n키워드가 언록되었습니다.",
       "::keyword_name::의\n키워드가 언록되었습니다.",
       "::keyword_name::의\n키워드가 언록되었습니다.",
       "::keyword_name::の\nキーワードがアンロックされました",
       "::keyword_name::の\nキーワードがアンロックされました",
-      "::keyword_name::의\n키워드가 언록되었습니다."
+      "::keyword_name::\nถูกปลดล็อกคีย์เวิร์ดแล้ว"
     ]
   ],
   "encyclopedia_help": [
     [
       "この星見の図鑑では\nワールドフリッパーの世界を紐解く\nキーワードがゲームの進行と共に\n開示されていきます。\n\nメインストーリーやイベントストーリー、\nキャラごとのエピソードを進め\nキーワードを集めてみましょう！\n\nアイテム「ログキー」を使用する事で、\nまだ開示されていないキーワードを\nアンロックする事も可能です。",
       "별 보는 도감에서는\n월드 플리퍼의 세계를 풀어가는\n키워드가 게임의 진행에 맞춰 \n공개됩니다.\n\n메인 스토리나 이벤트 스토리, \n캐릭터별 에피소드를 진행하며\n키워드를 모아보세요!\n\n아이템 '로그키'를 사용해서 \n아직 개시되지 않은 키워드를\n언록할 수도 있습니다.",
-      "별 보는 도감에서는\n월드 플리퍼의 세계를 풀어가는\n키워드가 게임의 진행에 맞춰 \n공개됩니다.\n\n메인 스토리나 이벤트 스토리, \n캐릭터별 에피소드를 진행하며\n키워드를 모아보세요!\n\n아이템 '로그키'를 사용해서 \n아직 개시되지 않은 키워드를\n언록할 수도 있습니다.",
+      "The Flipperpedia contains passages\nabout the World Flipper universe.\nAs you progress throught the game,\nyou'll unlock more logs.\n\nPlay the Main Quest, story events,\nor watch unit episodes to collect\nmore and more logs!\n\nLog Keys can also be used to\nunlock logs instead.",
       "별 보는 도감에서는\n월드 플리퍼의 세계를 풀어가는\n키워드가 게임의 진행에 맞춰 \n공개됩니다.\n\n메인 스토리나 이벤트 스토리, \n캐릭터별 에피소드를 진행하며\n키워드를 모아보세요!\n\n아이템 '로그키'를 사용해서 \n아직 개시되지 않은 키워드를\n언록할 수도 있습니다.",
       "별 보는 도감에서는\n월드 플리퍼의 세계를 풀어가는\n키워드가 게임의 진행에 맞춰 \n공개됩니다.\n\n메인 스토리나 이벤트 스토리, \n캐릭터별 에피소드를 진행하며\n키워드를 모아보세요!\n\n아이템 '로그키'를 사용해서 \n아직 개시되지 않은 키워드를\n언록할 수도 있습니다.",
       "별 보는 도감에서는\n월드 플리퍼의 세계를 풀어가는\n키워드가 게임의 진행에 맞춰 \n공개됩니다.\n\n메인 스토리나 이벤트 스토리, \n캐릭터별 에피소드를 진행하며\n키워드를 모아보세요!\n\n아이템 '로그키'를 사용해서 \n아직 개시되지 않은 키워드를\n언록할 수도 있습니다.",
       "この星見の図鑑では\nワールドフリッパーの世界を紐解く\nキーワードがゲームの進行と共に\n開示されていきます。\n\nメインストーリーやイベントストーリー、\nキャラごとのエピソードを進め\nキーワードを集めてみましょう！\n\nアイテム「ログキー」を使用する事で、\nまだ開示されていないキーワードを\nアンロックする事も可能です。",
       "この星見の図鑑では\nワールドフリッパーの世界を紐解く\nキーワードがゲームの進行と共に\n開示されていきます。\n\nメインストーリーやイベントストーリー、\nキャラごとのエピソードを進め\nキーワードを集めてみましょう！\n\nアイテム「ログキー」を使用する事で、\nまだ開示されていないキーワードを\nアンロックする事も可能です。",
-      "별 보는 도감에서는\n월드 플리퍼의 세계를 풀어가는\n키워드가 게임의 진행에 맞춰 \n공개됩니다.\n\n메인 스토리나 이벤트 스토리, \n캐릭터별 에피소드를 진행하며\n키워드를 모아보세요!\n\n아이템 '로그키'를 사용해서 \n아직 개시되지 않은 키워드를\n언록할 수도 있습니다."
+      "สารานุกรมเมืองชมดาว\nจะแสดงคีย์เวิร์ดที่เชื่อมโยง\nไปถึงโลกในเวิลด์ฟลิปเปอร์\nไปพร้อมกับความคืบหน้าในเกม\n\nไปเคลียร์เนื้อเรื่องหลัก เนื้อเรื่องอีเวนต์\nและเนื้อเรื่องของตัวละครแต่ละตัว\nแล้วลองสะสมคีย์เวิร์ดกันเถอะ!\n\nและหากใช้ไอเทม \"ล็อกคีย์\"\nก็จะสามารถปลดล็อกคีย์เวิร์ด\nที่ยังไม่ปรากฏได้เช่นกัน"
     ]
   ],
   "encyclopedia_keyword_details_dialog_message_cannot_hear_voice": [
     [
       "キャラを入手していないため\nボイスを聴くことができません",
       "캐릭터를 입수하지 않았기 때문에 \n보이스를 들을 수 없습니다.",
-      "캐릭터를 입수하지 않았기 때문에 \n보이스를 들을 수 없습니다.",
+      "You must obtain this unit to hear their voice.",
       "캐릭터를 입수하지 않았기 때문에 \n보이스를 들을 수 없습니다.",
       "캐릭터를 입수하지 않았기 때문에 \n보이스를 들을 수 없습니다.",
       "캐릭터를 입수하지 않았기 때문에 \n보이스를 들을 수 없습니다.",
       "キャラを入手していないため\nボイスを聴くことができません",
       "キャラを入手していないため\nボイスを聴くことができません",
-      "캐릭터를 입수하지 않았기 때문에 \n보이스를 들을 수 없습니다."
+      "ไม่สามารถฟังเสียงได้\nเนื่องจากยังไม่ได้รับตัวละคร"
     ]
   ],
   "encyclopedia_keyword_details_dialog_message_cannot_watch_episode": [
     [
       "キャラを入手していないため\nエピソードを見ることができません",
       "캐릭터를 입수하지 않았기 때문에 \n에피소드를 볼 수 없습니다.",
-      "캐릭터를 입수하지 않았기 때문에 \n에피소드를 볼 수 없습니다.",
+      "You must obtain this unit to view their unit episodes.",
       "캐릭터를 입수하지 않았기 때문에 \n에피소드를 볼 수 없습니다.",
       "캐릭터를 입수하지 않았기 때문에 \n에피소드를 볼 수 없습니다.",
       "캐릭터를 입수하지 않았기 때문에 \n에피소드를 볼 수 없습니다.",
       "キャラを入手していないため\nエピソードを見ることができません",
       "キャラを入手していないため\nエピソードを見ることができません",
-      "캐릭터를 입수하지 않았기 때문에 \n에피소드를 볼 수 없습니다."
+      "ไม่สามารถดูเนื้อเรื่องตัวละครได้\nเนื่องจากยังไม่ได้รับตัวละคร"
     ]
   ],
   "encyclopedia_keyword_details_grouping_header_info": [
     [
       "情報",
       "정보",
-      "정보",
+      "Notes",
       "정보",
       "정보",
       "정보",
       "情報",
       "情報",
-      "정보"
+      "ข้อมูล"
     ]
   ],
   "encyclopedia_keyword_details_grouping_header_related_character": [
     [
       "関連キャラ",
       "개최 캐릭터",
-      "개최 캐릭터",
+      "Related Units",
       "개최 캐릭터",
       "개최 캐릭터",
       "개최 캐릭터",
       "関連キャラ",
       "関連キャラ",
-      "개최 캐릭터"
+      "ตัวละครที่เกี่ยวข้อง"
     ]
   ],
   "encyclopedia_keyword_details_grouping_header_related_keyword": [
     [
       "関連キーワード",
       "관련 키워드",
-      "관련 키워드",
+      "Related Logs",
       "관련 키워드",
       "관련 키워드",
       "관련 키워드",
       "関連キーワード",
       "関連キーワード",
-      "관련 키워드"
+      "คีย์เวิร์ดที่เกี่ยวข้อง"
     ]
   ],
   "encyclopedia_keyword_details_header_character_label_separator": [
     [
       ": ",
       ": ",
+      ":",
       ": ",
       ": ",
       ": ",
       ": ",
       ": ",
-      ": ",
-      ": "
+      ":"
     ]
   ],
   "encyclopedia_keyword_details_locked_text": [
@@ -12801,33 +12801,33 @@
       "?????",
       "? ? ? ? ? ?",
       "? ? ? ? ? ?",
-      "?????"
+      "??????"
     ]
   ],
   "encyclopedia_keyword_label": [
     [
       "「::keyword_name::」",
       "「::keyword_name::」",
+      "::keyword_name::",
       "「::keyword_name::」",
       "「::keyword_name::」",
       "「::keyword_name::」",
       "「::keyword_name::」",
       "「::keyword_name::」",
-      "「::keyword_name::」",
-      "「::keyword_name::」"
+      "\"::keyword_name::\""
     ]
   ],
   "encyclopedia_keyword_label_with_information_index": [
     [
       "「::keyword_name::」 情報::index::",
       "「::keyword_name::」 정보::index::",
-      "「::keyword_name::」 정보::index::",
+      "::keyword_name:: Note ::index::",
       "「::keyword_name::」 정보::index::",
       "「::keyword_name::」 정보::index::",
       "「::keyword_name::」 정보::index::",
       "「::keyword_name::」 情報::index::",
       "「::keyword_name::」 情報::index::",
-      "「::keyword_name::」 정보::index::"
+      "\"::keyword_name::\" ข้อมูล::index::"
     ]
   ],
   "encyclopedia_list_locked_name": [
@@ -12840,7 +12840,7 @@
       "?????",
       "? ? ? ? ? ?",
       "? ? ? ? ? ?",
-      "?????"
+      "??????"
     ]
   ],
   "encyclopedia_list_locked_text": [
@@ -12860,182 +12860,182 @@
     [
       "条件に合うキーワードが\n見つかりませんでした",
       "조건에 맞는 키워드를\n찾을 수 없습니다.",
-      "조건에 맞는 키워드를\n찾을 수 없습니다.",
+      "No logs matching your\nsearch were found.",
       "조건에 맞는 키워드를\n찾을 수 없습니다.",
       "조건에 맞는 키워드를\n찾을 수 없습니다.",
       "조건에 맞는 키워드를\n찾을 수 없습니다.",
       "条件に合うキーワードが\n見つかりませんでした",
       "条件に合うキーワードが\n見つかりませんでした",
-      "조건에 맞는 키워드를\n찾을 수 없습니다."
+      "ไม่พบคีย์เวิร์ด\nที่ตรงตามเงื่อนไข"
     ]
   ],
   "encyclopedia_list_search_placeholder": [
     [
       "キーワード名",
       "키워드 명",
-      "키워드 명",
+      "Log Name",
       "키워드 명",
       "키워드 명",
       "키워드 명",
       "キーワード名",
       "キーワード名",
-      "키워드 명"
+      "ชื่อคีย์เวิร์ด"
     ]
   ],
   "encyclopedia_unlock_condition_advent_event_quest_clear": [
     [
       "降臨討伐イベント「::event_name::」の「::quest_name::」をクリア",
       "강림토벌 이벤트 「::event_name::」의「::quest_name::」를 클리어",
-      "강림토벌 이벤트 「::event_name::」의「::quest_name::」를 클리어",
+      "Clear \"::quest_name::\" of ::event_name::.",
       "강림토벌 이벤트 「::event_name::」의「::quest_name::」를 클리어",
       "강림토벌 이벤트 「::event_name::」의「::quest_name::」를 클리어",
       "강림토벌 이벤트 「::event_name::」의「::quest_name::」를 클리어",
       "降臨討伐イベント「::event_name::」の「::quest_name::」をクリア",
       "降臨討伐イベント「::event_name::」の「::quest_name::」をクリア",
-      "강림토벌 이벤트 「::event_name::」의「::quest_name::」를 클리어"
+      "เคลียร์ \"::quest_name::\" ในอีเวนต์ปราบบอสจุติ \"::event_name::\""
     ]
   ],
   "encyclopedia_unlock_condition_character_episode_clear": [
     [
       "::target_character_names::のエピソード 「::quest_name::」をクリア",
       "::target_character_names::의 에피소드 「::quest_name::」를 클리어",
-      "::target_character_names::의 에피소드 「::quest_name::」를 클리어",
+      "Read ::target_character_names::'s unit episode \"::quest_name::.\"",
       "::target_character_names::의 에피소드 「::quest_name::」를 클리어",
       "::target_character_names::의 에피소드 「::quest_name::」를 클리어",
       "::target_character_names::의 에피소드 「::quest_name::」를 클리어",
       "::target_character_names::のエピソード 「::quest_name::」をクリア",
       "::target_character_names::のエピソード 「::quest_name::」をクリア",
-      "::target_character_names::의 에피소드 「::quest_name::」를 클리어"
+      "เคลียร์เนื้อเรื่องตัวละคร \"::quest_name::\" ของ::target_character_names::"
     ]
   ],
   "encyclopedia_unlock_condition_main_quest_clear": [
     [
       "メインクエスト ::chapter_id::章 ::stage_node_id::−::quest_id:: をクリア",
       "메인  퀘스트 ::chapter_id::장 ::stage_node_id::−::quest_id:: 를 클리어",
-      "메인  퀘스트 ::chapter_id::장 ::stage_node_id::−::quest_id:: 를 클리어",
+      "Clear Chapter ::chapter_id::, Stage ::stage_node_id::-::quest_id:: of the Main Quest.",
       "메인  퀘스트 ::chapter_id::장 ::stage_node_id::−::quest_id:: 를 클리어",
       "메인  퀘스트 ::chapter_id::장 ::stage_node_id::−::quest_id:: 를 클리어",
       "메인  퀘스트 ::chapter_id::장 ::stage_node_id::−::quest_id:: 를 클리어",
       "メインクエスト ::chapter_id::章 ::stage_node_id::−::quest_id:: をクリア",
       "メインクエスト ::chapter_id::章 ::stage_node_id::−::quest_id:: をクリア",
-      "메인  퀘스트 ::chapter_id::장 ::stage_node_id::−::quest_id:: 를 클리어"
+      "เคลียร์เควสต์หลักบท ::chapter_id:: ::stage_node_id::−::quest_id::"
     ]
   ],
   "encyclopedia_unlock_condition_other_keyword": [
     [
       "キーワード ::keyword_label:: のアンロック",
       "키워드 ::keyword_label:: 의 언록",
-      "키워드 ::keyword_label:: 의 언록",
+      "Unlock the log for ::keyword_label::.",
       "키워드 ::keyword_label:: 의 언록",
       "키워드 ::keyword_label:: 의 언록",
       "키워드 ::keyword_label:: 의 언록",
       "キーワード ::keyword_label:: のアンロック",
       "キーワード ::keyword_label:: のアンロック",
-      "키워드 ::keyword_label:: 의 언록"
+      "คีย์เวิร์ด"
     ]
   ],
   "encyclopedia_unlock_condition_own_character": [
     [
       "【::nickname::】::character_name::を仲間にする",
       "[::nickname::]::character_name::를 동료로 한다",
-      "[::nickname::]::character_name::를 동료로 한다",
+      "Obtain [::nickname::] ::character_name::.",
       "[::nickname::]::character_name::를 동료로 한다",
       "[::nickname::]::character_name::를 동료로 한다",
       "[::nickname::]::character_name::를 동료로 한다",
       "【::nickname::】::character_name::を仲間にする",
       "【::nickname::】::character_name::を仲間にする",
-      "[::nickname::]::character_name::를 동료로 한다"
+      "รับ [::nickname::] ::character_name:: เข้าเป็นพวกพ้อง"
     ]
   ],
   "encyclopedia_unlock_condition_story_event_quest_clear": [
     [
       "ストーリーイベント「::event_name::」の「::quest_name::」をクリア",
       "스토리 이벤트 「::event_name::」의「::quest_name::」를 클리어",
-      "스토리 이벤트 「::event_name::」의「::quest_name::」를 클리어",
+      "Clear \"::quest_name::\" of ::event_name::.",
       "스토리 이벤트 「::event_name::」의「::quest_name::」를 클리어",
       "스토리 이벤트 「::event_name::」의「::quest_name::」를 클리어",
       "스토리 이벤트 「::event_name::」의「::quest_name::」를 클리어",
       "ストーリーイベント「::event_name::」の「::quest_name::」をクリア",
       "ストーリーイベント「::event_name::」の「::quest_name::」をクリア",
-      "스토리 이벤트 「::event_name::」의「::quest_name::」를 클리어"
+      "เคลียร์อีเวนต์เนื้อเรื่อง \"::quest_name::\" ใน \"::event_name::\""
     ]
   ],
   "encyclopedia_unlock_condition_tag_related_quest_clear": [
     [
       "「::tag_label::」の情報に深く関わるいずれかのクエストをクリア",
       "「::tag_label::」의 정보에 깊게  관련된 몇몇 퀘스트를 클리어",
-      "「::tag_label::」의 정보에 깊게  관련된 몇몇 퀘스트를 클리어",
+      "Clear a quest with information on ::tag_label::.",
       "「::tag_label::」의 정보에 깊게  관련된 몇몇 퀘스트를 클리어",
       "「::tag_label::」의 정보에 깊게  관련된 몇몇 퀘스트를 클리어",
       "「::tag_label::」의 정보에 깊게  관련된 몇몇 퀘스트를 클리어",
       "「::tag_label::」の情報に深く関わるいずれかのクエストをクリア",
       "「::tag_label::」の情報に深く関わるいずれかのクエストをクリア",
-      "「::tag_label::」의 정보에 깊게  관련된 몇몇 퀘스트를 클리어"
+      "เคลียร์เควสต์ใด ๆ ที่เกี่ยวข้องกับข้อมูล \"::tag_label::\" อย่างมาก"
     ]
   ],
   "encyclopedia_unlock_keyword_message": [
     [
       "::item_name::を使用してキーワード\n::keyword_label::\nをアンロックしますか？\n\nキーワードは以下の条件を満たす事で\n::item_name::を使用せずに\nアンロックする事もできます。",
       "::item_name::를 사용해서 키워드 \n::keyword_label::\n를 언록합니까?\n\n키워드는 이하 조건을 만족시키면 \n::item_name::를 사용하지 않고\n언록할 수 있습니다.",
-      "::item_name::를 사용해서 키워드 \n::keyword_label::\n를 언록합니까?\n\n키워드는 이하 조건을 만족시키면 \n::item_name::를 사용하지 않고\n언록할 수 있습니다.",
+      "Use ::item_name::(s) to unlock this log?\n\nThis log can also be unlocked by meeting the following criteria.",
       "::item_name::를 사용해서 키워드 \n::keyword_label::\n를 언록합니까?\n\n키워드는 이하 조건을 만족시키면 \n::item_name::를 사용하지 않고\n언록할 수 있습니다.",
       "::item_name::를 사용해서 키워드 \n::keyword_label::\n를 언록합니까?\n\n키워드는 이하 조건을 만족시키면 \n::item_name::를 사용하지 않고\n언록할 수 있습니다.",
       "::item_name::를 사용해서 키워드 \n::keyword_label::\n를 언록합니까?\n\n키워드는 이하 조건을 만족시키면 \n::item_name::를 사용하지 않고\n언록할 수 있습니다.",
       "::item_name::を使用してキーワード\n::keyword_label::\nをアンロックしますか？\n\nキーワードは以下の条件を満たす事で\n::item_name::を使用せずに\nアンロックする事もできます。",
       "::item_name::を使用してキーワード\n::keyword_label::\nをアンロックしますか？\n\nキーワードは以下の条件を満たす事で\n::item_name::を使用せずに\nアンロックする事もできます。",
-      "::item_name::를 사용해서 키워드 \n::keyword_label::\n를 언록합니까?\n\n키워드는 이하 조건을 만족시키면 \n::item_name::를 사용하지 않고\n언록할 수 있습니다."
+      "จะใช้ ::item_name::\nเพื่อปลดล็อกคีย์เวิร์ด\n::keyword_label:: หรือไม่?\n\nสามารถปลดล็อกคีย์เวิร์ด\nโดยไม่ต้องใช้ ::item_name:: ได้\nเมื่อทำตามเงื่อนไขด้านล่างครบถ้วน"
     ]
   ],
   "encyclopedia_unlock_keyword_shortage_message": [
     [
       "::keyword_label::\nのキーワードをアンロックするための\n::item_name::が不足しています。\n\nキーワードは以下の条件を満たす事で\n::item_name::を使用せずに\nアンロックする事もできます",
       "::keyword_label::\n의 키워드를 언록하기 위한\n::item_name::이 부족합니다. \n\n키워드는 이하의 조건을 만족하면 \n::item_name::를 사용하지 않고 \n언록할 수 있습니다. ",
-      "::keyword_label::\n의 키워드를 언록하기 위한\n::item_name::이 부족합니다. \n\n키워드는 이하의 조건을 만족하면 \n::item_name::를 사용하지 않고 \n언록할 수 있습니다. ",
+      "You do not have enough ::item_name::(s) \nto unlock this log.\n\nThis log can also be unlocked \nby meeting the following criteria.",
       "::keyword_label::\n의 키워드를 언록하기 위한\n::item_name::이 부족합니다. \n\n키워드는 이하의 조건을 만족하면 \n::item_name::를 사용하지 않고 \n언록할 수 있습니다. ",
       "::keyword_label::\n의 키워드를 언록하기 위한\n::item_name::이 부족합니다. \n\n키워드는 이하의 조건을 만족하면 \n::item_name::를 사용하지 않고 \n언록할 수 있습니다. ",
       "::keyword_label::\n의 키워드를 언록하기 위한\n::item_name::이 부족합니다. \n\n키워드는 이하의 조건을 만족하면 \n::item_name::를 사용하지 않고 \n언록할 수 있습니다. ",
       "::keyword_label::\nのキーワードをアンロックするための\n::item_name::が不足しています。\n\nキーワードは以下の条件を満たす事で\n::item_name::を使用せずに\nアンロックする事もできます",
       "::keyword_label::\nのキーワードをアンロックするための\n::item_name::が不足しています。\n\nキーワードは以下の条件を満たす事で\n::item_name::を使用せずに\nアンロックする事もできます",
-      "::keyword_label::\n의 키워드를 언록하기 위한\n::item_name::이 부족합니다. \n\n키워드는 이하의 조건을 만족하면 \n::item_name::를 사용하지 않고 \n언록할 수 있습니다. "
+      "มีไอเทม ::item_name::\nสำหรับใช้ปลดล็อกคีย์เวิร์ด\n::keyword_label:: ไม่พอ\n\nสามารถปลดล็อกคีย์เวิร์ด\nโดยไม่ต้องใช้ ::item_name:: ได้\nเมื่อทำตามเงื่อนไขด้านล่างครบถ้วน"
     ]
   ],
   "encyclopedia_update_toast_message_mutiple": [
     [
       "::keyword_count::個のキーワードがアンロックされました！",
       "::keyword_count::개의 키워드가 언록되었습니다!",
-      "::keyword_count::개의 키워드가 언록되었습니다!",
+      "::keyword_count:: log(s) unlocked!",
       "::keyword_count::개의 키워드가 언록되었습니다!",
       "::keyword_count::개의 키워드가 언록되었습니다!",
       "::keyword_count::개의 키워드가 언록되었습니다!",
       "::keyword_count::個のキーワードがアンロックされました！",
       "::keyword_count::個のキーワードがアンロックされました！",
-      "::keyword_count::개의 키워드가 언록되었습니다!"
+      "ปลดล็อกคีย์เวิร์ด ::keyword_count:: คำ!"
     ]
   ],
   "encyclopedia_update_toast_message_unlock": [
     [
       "「::keyword_name::」情報::keyword_index::が\nアンロックされました！",
       "「::keyword_name::」정보 ::keyword_index::이(가)\n언록되었습니다!",
-      "「::keyword_name::」정보 ::keyword_index::이(가)\n언록되었습니다!",
+      "Unlocked Note \n::keyword_index:: for ::keyword_name::!",
       "「::keyword_name::」정보 ::keyword_index::이(가)\n언록되었습니다!",
       "「::keyword_name::」정보 ::keyword_index::이(가)\n언록되었습니다!",
       "「::keyword_name::」정보 ::keyword_index::이(가)\n언록되었습니다!",
       "「::keyword_name::」情報::keyword_index::が\nアンロックされました！",
       "「::keyword_name::」情報::keyword_index::が\nアンロックされました！",
-      "「::keyword_name::」정보 ::keyword_index::이(가)\n언록되었습니다!"
+      "ปลดล็อก \"::keyword_name::\"\nข้อมูล ::keyword_index:: แล้ว!"
     ]
   ],
   "encyclopedia_update_toast_title": [
     [
       "図鑑更新！",
       "도감 갱신!",
-      "도감 갱신!",
+      "New logs available!",
       "도감 갱신!",
       "도감 갱신!",
       "도감 갱신!",
       "図鑑更新！",
       "図鑑更新！",
-      "도감 갱신!"
+      "อัปเดตสารานุกรม!"
     ]
   ],
   "encyclopedia_world_list_locked_text": [
@@ -13055,13 +13055,13 @@
     [
       "既読のストーリーがありませんでした",
       "이미 읽은 스토리가 없었습니다.",
-      "이미 읽은 스토리가 없었습니다.",
+      "No previously read stories found.",
       "이미 읽은 스토리가 없었습니다.",
       "이미 읽은 스토리가 없었습니다.",
       "이미 읽은 스토리가 없었습니다.",
       "既読のストーリーがありませんでした",
       "既読のストーリーがありませんでした",
-      "이미 읽은 스토리가 없었습니다."
+      "ไม่มีเนื้อเรื่องที่เคยอ่าน"
     ]
   ],
   "episode_character_select_empty_state_placeholder": [
@@ -14043,13 +14043,13 @@
     [
       "レイドイベント用パーティで\n装備中の装備アイテムは分解できません",
       "레이드 이벤트용 파티에서 \n장비중인 장비 아이템은 분해할 수 없습니다.",
-      "레이드 이벤트용 파티에서 \n장비중인 장비 아이템은 분해할 수 없습니다.",
+      "Unable to melt down an armament \nequipped to a raid event party.",
       "레이드 이벤트용 파티에서 \n장비중인 장비 아이템은 분해할 수 없습니다.",
       "레이드 이벤트용 파티에서 \n장비중인 장비 아이템은 분해할 수 없습니다.",
       "레이드 이벤트용 파티에서 \n장비중인 장비 아이템은 분해할 수 없습니다.",
       "レイドイベント用パーティで\n装備中の装備アイテムは分解できません",
       "レイドイベント用パーティで\n装備中の装備アイテムは分解できません",
-      "레이드 이벤트용 파티에서 \n장비중인 장비 아이템은 분해할 수 없습니다."
+      "ไม่สามารถแยกส่วนไอเทมอุปกรณ์\nที่กำลังสวมใส่ในปาร์ตี้สำหรับเรดอีเวนต์"
     ]
   ],
   "equipment_list_not_sellable_reason_protected": [
@@ -17137,13 +17137,13 @@
     [
       "歩め、闇の夢人達よ。",
       "걸어라, 어둠의 꿈꾼이들아",
-      "걸어라, 어둠의 꿈꾼이들아",
+      "Driven by Dreams, Guided by Darkness",
       "걸어라, 어둠의 꿈꾼이들아",
       "걸어라, 어둠의 꿈꾼이들아",
       "걸어라, 어둠의 꿈꾼이들아",
       "歩め、闇の夢人達よ。",
       "歩め、闇の夢人達よ。",
-      "걸어라, 어둠의 꿈꾼이들아"
+      "จงเดินต่อ เหล่านักฝันแห่งความมืดมิดเอ๋ย"
     ]
   ],
   "help_event_world_story_event_anv_story_01": [
@@ -17384,13 +17384,13 @@
     [
       "星見の図鑑",
       "별 보는 도감",
-      "별 보는 도감",
+      "Flipperpedia",
       "별 보는 도감",
       "별 보는 도감",
       "별 보는 도감",
       "星見の図鑑",
       "星見の図鑑",
-      "별 보는 도감"
+      "สารานุกรมเมืองชมดาว"
     ]
   ],
   "help_label_event": [
@@ -17553,13 +17553,13 @@
     [
       "降臨討伐 水狂の精霊獣",
       "강림 토벌 수광의 정령수",
-      "강림 토벌 수광의 정령수",
+      "The Descension: Maelstrom Spiritbeast",
       "강림 토벌 수광의 정령수",
       "강림 토벌 수광의 정령수",
       "강림 토벌 수광의 정령수",
       "降臨討伐 水狂の精霊獣",
       "降臨討伐 水狂の精霊獣",
-      "강림 토벌 수광의 정령수"
+      "ปราบบอสจุติ สัตว์ภูตวารีคลั่ง"
     ]
   ],
   "help_label_event_advent_thunder": [
@@ -17722,13 +17722,13 @@
     [
       "みんなでキャラチョイス",
       "모두 함께 캐릭터 초이스",
-      "모두 함께 캐릭터 초이스",
+      "People's Choice Reward",
       "모두 함께 캐릭터 초이스",
       "모두 함께 캐릭터 초이스",
       "모두 함께 캐릭터 초이스",
       "みんなでキャラチョイス",
       "みんなでキャラチョイス",
-      "모두 함께 캐릭터 초이스"
+      "เลือกตัวละครกับทุกคน"
     ]
   ],
   "help_label_event_ny20": [
@@ -17748,26 +17748,26 @@
     [
       "レイドイベント",
       "레이드 이벤트",
-      "레이드 이벤트",
+      "Raid Event",
       "레이드 이벤트",
       "레이드 이벤트",
       "레이드 이벤트",
       "レイドイベント",
       "レイドイベント",
-      "레이드 이벤트"
+      "เรดอีเวนต์"
     ]
   ],
   "help_label_event_side_story": [
     [
       "サイドストーリー",
       "사이드 스토리",
-      "사이드 스토리",
+      "Side Stories",
       "사이드 스토리",
       "사이드 스토리",
       "사이드 스토리",
       "サイドストーリー",
       "サイドストーリー",
-      "사이드 스토리"
+      "ไซด์สตอรี่"
     ]
   ],
   "help_label_event_story_valen20": [
@@ -17813,13 +17813,13 @@
     [
       "タイムアタックバトル 閃火の試練",
       "타임 어택 배틀 섬화의 시련",
-      "타임 어택 배틀 섬화의 시련",
+      "Speed Run: Trial by Fire",
       "타임 어택 배틀 섬화의 시련",
       "타임 어택 배틀 섬화의 시련",
       "타임 어택 배틀 섬화의 시련",
       "タイムアタックバトル 閃火の試練",
       "タイムアタックバトル 閃火の試練",
-      "타임 어택 배틀 섬화의 시련"
+      "ไทม์แอทแทคแบทเทิล บททดสอบแห่งเพลิง"
     ]
   ],
   "help_label_event_time_attack_event_water_01": [
@@ -17865,26 +17865,26 @@
     [
       "宝物域",
       "보물역",
-      "보물역",
+      "The Treasure Zone",
       "보물역",
       "보물역",
       "보물역",
       "宝物域",
       "宝物域",
-      "보물역"
+      "เขตสมบัติ"
     ]
   ],
   "help_label_event_world_story_crown_beasts": [
     [
       "百獣の王冠",
       "백수의 왕관",
-      "백수의 왕관",
+      "Crown of the Beast King",
       "백수의 왕관",
       "백수의 왕관",
       "백수의 왕관",
       "百獣の王冠",
       "百獣の王冠",
-      "백수의 왕관"
+      "มงกุฎราชาแห่งสรรพสัตว์"
     ]
   ],
   "help_label_event_world_story_cyberpunk01": [
@@ -17969,13 +17969,13 @@
     [
       "情熱のラブ★ドリフターズ",
       "정열의 러브★드리프터즈",
-      "정열의 러브★드리프터즈",
+      "Love ★ Adrift",
       "정열의 러브★드리프터즈",
       "정열의 러브★드리프터즈",
       "정열의 러브★드리프터즈",
       "情熱のラブ★ドリフターズ",
       "情熱のラブ★ドリフターズ",
-      "정열의 러브★드리프터즈"
+      "เลิฟ★ดริฟเตอร์สผู้เร่าร้อน"
     ]
   ],
   "help_label_event_world_story_yokai_emaki_01": [
@@ -18001,7 +18001,7 @@
       "The Yokai Anthology",
       "妖怪図鑑編纂記",
       "妖怪図鑑編纂記",
-      "The Yokai Anthology"
+      "บันทึกการรวบรวมสารานุกรมปีศาจ"
     ]
   ],
   "help_label_fixed_party": [
@@ -18073,13 +18073,13 @@
     [
       "カムバックボーナス",
       "컴백 보너스",
-      "컴백 보너스",
+      "Welcome Back Bonuses",
       "컴백 보너스",
       "컴백 보너스",
       "컴백 보너스",
       "カムバックボーナス",
       "カムバックボーナス",
-      "컴백 보너스"
+      "คัมแบ็กโบนัส"
     ]
   ],
   "help_label_player": [
@@ -18937,7 +18937,7 @@
       "<font color='#EA354C'>Estás intentando vender un objeto de 5 estrellas.</font>\n\n¿Continuar?",
       "<font color='#EA354C'>★5のアイテムを\n売却しようとしています</font>\n\n本当に売却しますか？",
       "<font color='#EA354C'>★5のアイテムを\n売却しようとしています</font>\n\n本当に売却しますか？",
-      "\n<font color='#EA354C'>ท่านกำลังจะขาย\nไอเทม 5★</font>\n\nต้องการขายจริงหรือไม่?"
+      "\n<font color='#EA354C'>ท่านกำลังจะขายไอเทม 5★</font>\n\nต้องการขายจริงหรือไม่?"
     ]
   ],
   "item_list_scene_empty_placeholder": [
@@ -20387,26 +20387,26 @@
     [
       "マッチングメンバーがルームから退出したため\n人数が不足しています",
       "매칭 멤버가 룸에서 나갔기 때문에\n사람수가 부족합니다.",
-      "매칭 멤버가 룸에서 나갔기 때문에\n사람수가 부족합니다.",
+      "Not enough players, \nas one or more players have left the room.",
       "매칭 멤버가 룸에서 나갔기 때문에\n사람수가 부족합니다.",
       "매칭 멤버가 룸에서 나갔기 때문에\n사람수가 부족합니다.",
       "매칭 멤버가 룸에서 나갔기 때문에\n사람수가 부족합니다.",
       "マッチングメンバーがルームから退出したため\n人数が不足しています",
       "マッチングメンバーがルームから退出したため\n人数が不足しています",
-      "매칭 멤버가 룸에서 나갔기 때문에\n사람수가 부족합니다."
+      "มีจำนวนคนไม่พอ\nเนื่องจากสมาชิกที่จับคู่ได้ออกไปจากห้อง"
     ]
   ],
   "lounge_wait_for_ready": [
     [
       "ホストが開始するまでお待ち下さい",
       "호스트가 개시할 때까지  기다려주세요",
-      "호스트가 개시할 때까지  기다려주세요",
+      "Please wait until the host hits start.",
       "호스트가 개시할 때까지  기다려주세요",
       "호스트가 개시할 때까지  기다려주세요",
       "호스트가 개시할 때까지  기다려주세요",
       "ホストが開始するまでお待ち下さい",
       "ホストが開始するまでお待ち下さい",
-      "호스트가 개시할 때까지  기다려주세요"
+      "โปรดรอจนกว่าโฮสต์จะเริ่ม"
     ]
   ],
   "mail_detail_already_receive": [
@@ -21011,13 +21011,13 @@
     [
       "星見の図鑑",
       "별 보는 도감",
-      "별 보는 도감",
+      "Flipperpedia",
       "별 보는 도감",
       "별 보는 도감",
       "별 보는 도감",
       "星見の図鑑",
       "星見の図鑑",
-      "별 보는 도감"
+      "สารานุกรมเมืองชมดาว"
     ]
   ],
   "menu_equipment": [
@@ -21622,208 +21622,208 @@
     [
       "キャンペーン開催期間が終了したため\nルームを作成できません",
       "캠페인 개최기간이 종료되었기 때문에 \n룸을 작성할 수 없습니다.",
-      "캠페인 개최기간이 종료되었기 때문에 \n룸을 작성할 수 없습니다.",
+      "Unable to create room \noutside of the promo period.",
       "캠페인 개최기간이 종료되었기 때문에 \n룸을 작성할 수 없습니다.",
       "캠페인 개최기간이 종료되었기 때문에 \n룸을 작성할 수 없습니다.",
       "캠페인 개최기간이 종료되었기 때문에 \n룸을 작성할 수 없습니다.",
       "キャンペーン開催期間が終了したため\nルームを作成できません",
       "キャンペーン開催期間が終了したため\nルームを作成できません",
-      "캠페인 개최기간이 종료되었기 때문에 \n룸을 작성할 수 없습니다."
+      "ไม่สามารถสร้างห้องได้\nเนื่องจากระยะเวลาจัดแคมเปญจบลงแล้ว"
     ]
   ],
   "multi_special_exchange_campaign_create_room_dialog_confirm": [
     [
       "ルームを作成します\n本当によろしいですか？\n\n<font color='#ea354c' size='30px'>※イベント期間中、「みんなで選ぶ」「ひとりで選ぶ」のどちらかを、\n1度しか選ぶことができません\nセットは同じセットが複数選ばれる可能性があります\nまた、マッチングが成立して開始をすると、\nキャラを選択するまでホームに戻れません</font>",
       "룸을 작성합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자서 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다. \n세트는 같은 세트가 복수 선택될 가능성이 있습니다.\n또, 매칭이 성립해서 개시되면\n 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다</font>",
-      "룸을 작성합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자서 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다. \n세트는 같은 세트가 복수 선택될 가능성이 있습니다.\n또, 매칭이 성립해서 개시되면\n 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다</font>",
+      "Are you certain you want to create a room?\n\n<font color='#ea354c' size='30px'>You can only choose either Solo Choice or Co-Op Choice once.\nIt is possible for the same set to be selected multiple times.\n\nOnce matchmaking starts, you will be unable to return to the home screen until all units have been chosen.</font>",
       "룸을 작성합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자서 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다. \n세트는 같은 세트가 복수 선택될 가능성이 있습니다.\n또, 매칭이 성립해서 개시되면\n 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다</font>",
       "룸을 작성합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자서 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다. \n세트는 같은 세트가 복수 선택될 가능성이 있습니다.\n또, 매칭이 성립해서 개시되면\n 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다</font>",
       "룸을 작성합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자서 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다. \n세트는 같은 세트가 복수 선택될 가능성이 있습니다.\n또, 매칭이 성립해서 개시되면\n 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다</font>",
       "ルームを作成します\n本当によろしいですか？\n\n<font color='#ea354c' size='30px'>※イベント期間中、「みんなで選ぶ」「ひとりで選ぶ」のどちらかを、\n1度しか選ぶことができません\nセットは同じセットが複数選ばれる可能性があります\nまた、マッチングが成立して開始をすると、\nキャラを選択するまでホームに戻れません</font>",
       "ルームを作成します\n本当によろしいですか？\n\n<font color='#ea354c' size='30px'>※イベント期間中、「みんなで選ぶ」「ひとりで選ぶ」のどちらかを、\n1度しか選ぶことができません\nセットは同じセットが複数選ばれる可能性があります\nまた、マッチングが成立して開始をすると、\nキャラを選択するまでホームに戻れません</font>",
-      "룸을 작성합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자서 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다. \n세트는 같은 세트가 복수 선택될 가능성이 있습니다.\n또, 매칭이 성립해서 개시되면\n 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다</font>"
+      "จะทำการสร้างห้อง\nท่านแน่ใจหรือไม่?\n\n<font color='#ea354c' size='30px'>* ในช่วงอีเวนต์สามารถเลือก \"เลือกกับทุกคน\" หรือ \"เลือกคนเดียว\" อย่างใดอย่างหนึ่ง\nได้เพียง 1 ครั้งเท่านั้น\nสามารถเลือกเซ็ตเดียวกันได้หลายครั้ง\nและเมื่อจับคู่ได้และเริ่มแล้ว\nจะไม่สามารถกลับมาหน้าโฮมได้จนกว่าจะเลือกตัวละคร</font>"
     ]
   ],
   "multi_special_exchange_campaign_decide_ticket_dialog_message": [
     [
       "あなたは、 ::set_name:: になりました",
       "당신은 ::set_name::이 되었습니다.",
-      "당신은 ::set_name::이 되었습니다.",
+      "::set_name:: has been selected for you.",
       "당신은 ::set_name::이 되었습니다.",
       "당신은 ::set_name::이 되었습니다.",
       "당신은 ::set_name::이 되었습니다.",
       "あなたは、 ::set_name:: になりました",
       "あなたは、 ::set_name:: になりました",
-      "당신은 ::set_name::이 되었습니다."
+      "คุณจะเป็น::set_name::"
     ]
   ],
   "multi_special_exchange_campaign_enter_room_dialog_confirm": [
     [
       "「みんなで選ぶ」のルームに参加します\n本当によろしいですか？\n\n<font color='#ea354c' size='30px'>※イベント期間中、「みんなで選ぶ」「ひとりで選ぶ」のどちらかを\n1度しか選ぶことができません\nセットは同じセットが複数選ばれる可能性があります\nまた、マッチングが成立して開始をすると、キャラを選択するまでホームに戻れません</font>",
       "「모두 함께 선택」の의 룸에 참가합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다.\n세트는 같은 세트가 복수 선택될 가능성이 있습니다.\n또, 매칭이 성립해서 개시되면 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다</font>",
-      "「모두 함께 선택」の의 룸에 참가합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다.\n세트는 같은 세트가 복수 선택될 가능성이 있습니다.\n또, 매칭이 성립해서 개시되면 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다</font>",
+      "Are you sure you want to join a Co-Op Choice room?\n\n<font color='#ea354c' size='30px'>You can only choose either Solo Choice or Co-Op Choice once.\nIt is possible for the same set to be selected multiple times.\nOnce matchmaking starts, you will be unable to return to the home screen until all units have been chosen.</font>",
       "「모두 함께 선택」の의 룸에 참가합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다.\n세트는 같은 세트가 복수 선택될 가능성이 있습니다.\n또, 매칭이 성립해서 개시되면 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다</font>",
       "「모두 함께 선택」の의 룸에 참가합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다.\n세트는 같은 세트가 복수 선택될 가능성이 있습니다.\n또, 매칭이 성립해서 개시되면 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다</font>",
       "「모두 함께 선택」の의 룸에 참가합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다.\n세트는 같은 세트가 복수 선택될 가능성이 있습니다.\n또, 매칭이 성립해서 개시되면 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다</font>",
       "「みんなで選ぶ」のルームに参加します\n本当によろしいですか？\n\n<font color='#ea354c' size='30px'>※イベント期間中、「みんなで選ぶ」「ひとりで選ぶ」のどちらかを\n1度しか選ぶことができません\nセットは同じセットが複数選ばれる可能性があります\nまた、マッチングが成立して開始をすると、キャラを選択するまでホームに戻れません</font>",
       "「みんなで選ぶ」のルームに参加します\n本当によろしいですか？\n\n<font color='#ea354c' size='30px'>※イベント期間中、「みんなで選ぶ」「ひとりで選ぶ」のどちらかを\n1度しか選ぶことができません\nセットは同じセットが複数選ばれる可能性があります\nまた、マッチングが成立して開始をすると、キャラを選択するまでホームに戻れません</font>",
-      "「모두 함께 선택」の의 룸에 참가합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다.\n세트는 같은 세트가 복수 선택될 가능성이 있습니다.\n또, 매칭이 성립해서 개시되면 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다</font>"
+      "จะเข้าร่วมห้อง \"เลือกกับทุกคน\"\nท่านแน่ใจหรือไม่?\n\n<font color='#ea354c' size='30px'>* ในช่วงอีเวนต์สามารถเลือก \"เลือกกับทุกคน\" หรือ \"เลือกคนเดียว\" อย่างใดอย่างหนึ่ง\nได้เพียง 1 ครั้งเท่านั้น\nสามารถเลือกเซ็ตเดียวกันได้หลายครั้ง\nและเมื่อจับคู่ได้และเริ่มแล้วจะไม่สามารถกลับหน้าโฮมได้จนกว่าจะเลือกตัวละคร</font>"
     ]
   ],
   "multi_special_exchange_campaign_exchange_character_confirm_dialog_header": [
     [
       "以下内容で交換します。よろしいですか？",
       "이하 내용을 교환합니다. 괜찮습니까?",
-      "이하 내용을 교환합니다. 괜찮습니까?",
+      "Make the following exchange?",
       "이하 내용을 교환합니다. 괜찮습니까?",
       "이하 내용을 교환합니다. 괜찮습니까?",
       "이하 내용을 교환합니다. 괜찮습니까?",
       "以下内容で交換します。よろしいですか？",
       "以下内容で交換します。よろしいですか？",
-      "이하 내용을 교환합니다. 괜찮습니까?"
+      "จะทำการแลกตามรายละเอียดด้านล่าง ท่านแน่ใจหรือไม่?"
     ]
   ],
   "multi_special_exchange_campaign_exchange_character_confirm_dialog_item": [
     [
       "::name:: × ::number::",
       "::name:: × ::number::",
+      "::name:: x ::number::",
       "::name:: × ::number::",
       "::name:: × ::number::",
       "::name:: × ::number::",
       "::name:: × ::number::",
       "::name:: × ::number::",
-      "::name:: × ::number::",
-      "::name:: × ::number::"
+      "::name:: x ::number::"
     ]
   ],
   "multi_special_exchange_campaign_exchange_character_confirm_dialog_message": [
     [
       "::if (has_nickname)::【::nickname::】::end:: ::characterName::\n::item_list::\nマナ × ::mana_number::\n経験値 × ::exp_number::\n\n<font color='#ea354c' size='24px'>※交換したキャラは直接付与されます</font>\n<font color='#ea354c' size='24px'>※獲得アイテムが所持上限を超過した場合はマナに変換されます</font>",
       "::if (has_nickname)::【::nickname::】::end::::characterName::\n::item_list::\n마나 × ::mana_number::\n경험치 × ::exp_number::\n\n<font color='#ea354c' size='24px'>※교환한 캐릭터를 직접 부여됩니다</font>\n<font color='#ea354c' size='24px'>※획득한 아이템이 소지상한을 초과한 경우는 마나로 변환됩니다</font>",
-      "::if (has_nickname)::【::nickname::】::end::::characterName::\n::item_list::\n마나 × ::mana_number::\n경험치 × ::exp_number::\n\n<font color='#ea354c' size='24px'>※교환한 캐릭터를 직접 부여됩니다</font>\n<font color='#ea354c' size='24px'>※획득한 아이템이 소지상한을 초과한 경우는 마나로 변환됩니다</font>",
+      "::if (has_nickname)::【::nickname::】::end:: ::characterName::\n::item_list::\nMana x ::mana_number::\nEXP x ::exp_number::\n\n<font color='#ea354c' size='24px'>The chosen unit automatically joins you.</font>\n<font color='#ea354c' size='24px'>Any items exceeding max inventory limit are converted into mana.</font>",
       "::if (has_nickname)::【::nickname::】::end::::characterName::\n::item_list::\n마나 × ::mana_number::\n경험치 × ::exp_number::\n\n<font color='#ea354c' size='24px'>※교환한 캐릭터를 직접 부여됩니다</font>\n<font color='#ea354c' size='24px'>※획득한 아이템이 소지상한을 초과한 경우는 마나로 변환됩니다</font>",
       "::if (has_nickname)::【::nickname::】::end::::characterName::\n::item_list::\n마나 × ::mana_number::\n경험치 × ::exp_number::\n\n<font color='#ea354c' size='24px'>※교환한 캐릭터를 직접 부여됩니다</font>\n<font color='#ea354c' size='24px'>※획득한 아이템이 소지상한을 초과한 경우는 마나로 변환됩니다</font>",
       "::if (has_nickname)::【::nickname::】::end::::characterName::\n::item_list::\n마나 × ::mana_number::\n경험치 × ::exp_number::\n\n<font color='#ea354c' size='24px'>※교환한 캐릭터를 직접 부여됩니다</font>\n<font color='#ea354c' size='24px'>※획득한 아이템이 소지상한을 초과한 경우는 마나로 변환됩니다</font>",
       "::if (has_nickname)::【::nickname::】::end:: ::characterName::\n::item_list::\nマナ × ::mana_number::\n経験値 × ::exp_number::\n\n<font color='#ea354c' size='24px'>※交換したキャラは直接付与されます</font>\n<font color='#ea354c' size='24px'>※獲得アイテムが所持上限を超過した場合はマナに変換されます</font>",
       "::if (has_nickname)::【::nickname::】::end:: ::characterName::\n::item_list::\nマナ × ::mana_number::\n経験値 × ::exp_number::\n\n<font color='#ea354c' size='24px'>※交換したキャラは直接付与されます</font>\n<font color='#ea354c' size='24px'>※獲得アイテムが所持上限を超過した場合はマナに変換されます</font>",
-      "::if (has_nickname)::【::nickname::】::end::::characterName::\n::item_list::\n마나 × ::mana_number::\n경험치 × ::exp_number::\n\n<font color='#ea354c' size='24px'>※교환한 캐릭터를 직접 부여됩니다</font>\n<font color='#ea354c' size='24px'>※획득한 아이템이 소지상한을 초과한 경우는 마나로 변환됩니다</font>"
+      "::if (has_nickname)::【::nickname::】::end:: ::characterName::\n::item_list::\nมานา x ::mana_number::\nค่าประสบการณ์ x ::exp_number::\n\n<font color='#ea354c' size='24px'>*ตัวละครที่แลกจะถูกส่งให้โดยตรง</font>\n<font color='#ea354c' size='24px'>*หากไอเทมที่ได้มีเกินขีดจำกัด ไอเทมจะถูกเปลี่ยนเป็นมานา</font>"
     ]
   ],
   "multi_special_exchange_campaign_have_ticket_dialog_message": [
     [
       "みんなでキャラチョイスのキャラ選択がされていません\n\n交換画面へ移動します",
       "모두 함께 캐릭터 초이스의 캐릭터 선택이 되지 않았습니다.\n\n교환화면으로 이동합니다. ",
-      "모두 함께 캐릭터 초이스의 캐릭터 선택이 되지 않았습니다.\n\n교환화면으로 이동합니다. ",
+      "Units have not been chosen by every player.\n\nReturning to exchange page.",
       "모두 함께 캐릭터 초이스의 캐릭터 선택이 되지 않았습니다.\n\n교환화면으로 이동합니다. ",
       "모두 함께 캐릭터 초이스의 캐릭터 선택이 되지 않았습니다.\n\n교환화면으로 이동합니다. ",
       "모두 함께 캐릭터 초이스의 캐릭터 선택이 되지 않았습니다.\n\n교환화면으로 이동합니다. ",
       "みんなでキャラチョイスのキャラ選択がされていません\n\n交換画面へ移動します",
       "みんなでキャラチョイスのキャラ選択がされていません\n\n交換画面へ移動します",
-      "모두 함께 캐릭터 초이스의 캐릭터 선택이 되지 않았습니다.\n\n교환화면으로 이동합니다. "
+      "ยังไม่ได้เลือกตัวละครในการเลือกตัวละครกับทุกคน\n\nไปยังหน้าจอแลกเปลี่ยน"
     ]
   ],
   "multi_special_exchange_campaign_out_of_date_dialog_message": [
     [
       "イベント期間外であるため、ホームに戻ります",
       "이벤트 기간 외이므로, 홈으로 돌아갑니다.",
-      "이벤트 기간 외이므로, 홈으로 돌아갑니다.",
+      "Unavailable outside of event period. Returning to the home screen.",
       "이벤트 기간 외이므로, 홈으로 돌아갑니다.",
       "이벤트 기간 외이므로, 홈으로 돌아갑니다.",
       "이벤트 기간 외이므로, 홈으로 돌아갑니다.",
       "イベント期間外であるため、ホームに戻ります",
       "イベント期間外であるため、ホームに戻ります",
-      "이벤트 기간 외이므로, 홈으로 돌아갑니다."
+      "กลับไปหน้าโฮม เนื่องจากอยู่นอกระยะเวลาอีเวนต์"
     ]
   ],
   "multi_special_exchange_campaign_set_a": [
     [
       "セットA",
       "세트 A",
-      "세트 A",
+      "Set A",
       "세트 A",
       "세트 A",
       "세트 A",
       "セットA",
       "セットA",
-      "세트 A"
+      "เซ็ต A"
     ]
   ],
   "multi_special_exchange_campaign_set_b": [
     [
       "セットB",
       "세트 B",
-      "세트 B",
+      "Set B",
       "세트 B",
       "세트 B",
       "세트 B",
       "セットB",
       "セットB",
-      "세트 B"
+      "เซ็ต B"
     ]
   ],
   "multi_special_exchange_campaign_set_c": [
     [
       "セットC",
       "세트 C",
-      "세트 C",
+      "Set C",
       "세트 C",
       "세트 C",
       "세트 C",
       "セットC",
       "セットC",
-      "세트 C"
+      "เซ็ต C"
     ]
   ],
   "multi_special_exchange_campaign_single_draw_ticket_dialog_confirm": [
     [
       "「ひとりで選ぶ」を始めます\n本当によろしいですか？\n\n<font color='#ea354c' size='30px'>※イベント期間中、「みんなで選ぶ」「ひとりで選ぶ」のどちらかを、\n1度しか選ぶことができません\n選択しなかった残りの2体のキャラはランダムで付与されます\n(※同じキャラが選ばれる可能性があります)\nまた、開始をすると、キャラを選択するまでホームに戻れません</font>",
       "「혼자서 선택」를 시작합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자서 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다. \n\n선택하지 않은 남은 2개의 캐릭터는 랜덤으로 부여됩니다. \n(※동일한 캐릭터가 골라질 가능성이 있습니다)\n또, 한번 개시하면, 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다.</font>",
-      "「혼자서 선택」를 시작합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자서 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다. \n\n선택하지 않은 남은 2개의 캐릭터는 랜덤으로 부여됩니다. \n(※동일한 캐릭터가 골라질 가능성이 있습니다)\n또, 한번 개시하면, 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다.</font>",
+      "Are you sure you want to select Solo Choice?\n\n<font color='#ea354c' size='30px'>You can only choose either Solo Choice or Co-Op Choice once.\nIn addition to the unit you choose, 2 random units will be selected for you. It is possible for the same units to randomly be chosen multiple times.\n\nOnce matchmaking starts, you will be unable to return to the home screen until you choose a unit.</font>",
       "「혼자서 선택」를 시작합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자서 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다. \n\n선택하지 않은 남은 2개의 캐릭터는 랜덤으로 부여됩니다. \n(※동일한 캐릭터가 골라질 가능성이 있습니다)\n또, 한번 개시하면, 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다.</font>",
       "「혼자서 선택」를 시작합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자서 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다. \n\n선택하지 않은 남은 2개의 캐릭터는 랜덤으로 부여됩니다. \n(※동일한 캐릭터가 골라질 가능성이 있습니다)\n또, 한번 개시하면, 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다.</font>",
       "「혼자서 선택」를 시작합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자서 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다. \n\n선택하지 않은 남은 2개의 캐릭터는 랜덤으로 부여됩니다. \n(※동일한 캐릭터가 골라질 가능성이 있습니다)\n또, 한번 개시하면, 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다.</font>",
       "「ひとりで選ぶ」を始めます\n本当によろしいですか？\n\n<font color='#ea354c' size='30px'>※イベント期間中、「みんなで選ぶ」「ひとりで選ぶ」のどちらかを、\n1度しか選ぶことができません\n選択しなかった残りの2体のキャラはランダムで付与されます\n(※同じキャラが選ばれる可能性があります)\nまた、開始をすると、キャラを選択するまでホームに戻れません</font>",
       "「ひとりで選ぶ」を始めます\n本当によろしいですか？\n\n<font color='#ea354c' size='30px'>※イベント期間中、「みんなで選ぶ」「ひとりで選ぶ」のどちらかを、\n1度しか選ぶことができません\n選択しなかった残りの2体のキャラはランダムで付与されます\n(※同じキャラが選ばれる可能性があります)\nまた、開始をすると、キャラを選択するまでホームに戻れません</font>",
-      "「혼자서 선택」를 시작합니다.\n정말로 괜찮습니까? \n\n<font color='#ea354c' size='30px'>※이벤트 개최 중, 「모두 함께 선택」「혼자서 선택」의 어느 쪽이든, \n1번 밖에 선택할 수 없습니다. \n\n선택하지 않은 남은 2개의 캐릭터는 랜덤으로 부여됩니다. \n(※동일한 캐릭터가 골라질 가능성이 있습니다)\n또, 한번 개시하면, 캐릭터를 선택할 때까지 홈으로 돌아갈 수 없습니다.</font>"
+      "จะเริ่มการ \"เลือกคนเดียว\"\nท่านแน่ใจหรือไม่?\n\n<font color='#ea354c' size='30px'>* ในช่วงอีเวนต์สามารถเลือก \"เลือกกับทุกคน\" หรือ \"เลือกคนเดียว\" อย่างใดอย่างหนึ่ง\nได้เพียง 1 ครั้งเท่านั้น\nจะทำการสุ่มส่งตัวละครที่เหลือ 2 ตัวที่ไม่ได้เลือก\n(*มีโอกาสจะเลือกได้ตัวละครเดียวกัน)\nและเมื่อเริ่มแล้วจะไม่สามารถกลับหน้าโฮมได้จนกว่าจะเลือกตัวละคร</font>"
     ]
   ],
   "multi_special_exchange_campaign_ticket_already_drawn_dialog_message": [
     [
       "前回マッチングしたルームがあるため\n交換画面へ移動します",
       "전 회에 매칭된 룸이 있어\n교환 화면으로 이동합니다.",
-      "전 회에 매칭된 룸이 있어\n교환 화면으로 이동합니다.",
+      "Moving to the exchange page, \nas a room has already been made.",
       "전 회에 매칭된 룸이 있어\n교환 화면으로 이동합니다.",
       "전 회에 매칭된 룸이 있어\n교환 화면으로 이동합니다.",
       "전 회에 매칭된 룸이 있어\n교환 화면으로 이동합니다.",
       "前回マッチングしたルームがあるため\n交換画面へ移動します",
       "前回マッチングしたルームがあるため\n交換画面へ移動します",
-      "전 회에 매칭된 룸이 있어\n교환 화면으로 이동합니다."
+      "ไปยังหน้าจอแลกเปลี่ยน\nเนื่องจากมีห้องที่จับคู่ในครั้งที่แล้วอยู่"
     ]
   ],
   "multi_special_exchange_mode_select_multi": [
     [
       "みんなで選ぶ",
       "모두 함께 선택",
-      "모두 함께 선택",
+      "Co-Op Choice",
       "모두 함께 선택",
       "모두 함께 선택",
       "모두 함께 선택",
       "みんなで選ぶ",
       "みんなで選ぶ",
-      "모두 함께 선택"
+      "เลือกกับทุกคน"
     ]
   ],
   "multi_special_exchange_mode_select_single": [
     [
       "ひとりで選ぶ",
       "혼자서 선택",
-      "혼자서 선택",
+      "Solo Choice",
       "혼자서 선택",
       "혼자서 선택",
       "혼자서 선택",
       "ひとりで選ぶ",
       "ひとりで選ぶ",
-      "혼자서 선택"
+      "เลือกคนเดียว"
     ]
   ],
   "multi_stage_label_prefix_limited": [
@@ -22460,7 +22460,7 @@
       "Se ha alcanzado el máximo de copias de este armamento.\n Se ha fundido: ::x_count:: de ::name::.",
       "スタックの上限数を超えたため\n::name:: ::x_count:: が\n自動で分解されました",
       "スタックの上限数を超えたため\n::name:: ::x_count:: が\n自動で分解されました",
-      "::name:: ::x_count:: \nถูกแยกส่วนโดยอัตโนมัติ\nเนื่องจากจำนวนเกินขีดจำกัด"
+      "::name:: ::x_count::\nถูกแยกส่วนโดยอัตโนมัติ\nเนื่องจากจำนวนเกินขีดจำกัด"
     ]
   ],
   "overflow_item_discard": [
@@ -23494,13 +23494,13 @@
     [
       "レイドイベント用のSETから選択してください",
       "레이드 이벤트 용 SET에서 선택해 주시기 바랍니다.",
-      "레이드 이벤트 용 SET에서 선택해 주시기 바랍니다.",
+      "Please choose from your raid event sets.",
       "레이드 이벤트 용 SET에서 선택해 주시기 바랍니다.",
       "레이드 이벤트 용 SET에서 선택해 주시기 바랍니다.",
       "레이드 이벤트 용 SET에서 선택해 주시기 바랍니다.",
       "レイドイベント用のSETから選択してください",
       "レイドイベント用のSETから選択してください",
-      "레이드 이벤트 용 SET에서 선택해 주시기 바랍니다."
+      "กรุณาเลือก SET สำหรับเรดอีเวนต์"
     ]
   ],
   "party_group_edit_tab": [
@@ -23546,13 +23546,13 @@
     [
       "レイドイベント用SET編集",
       "레이드 이벤트 용 SET 편집",
-      "레이드 이벤트 용 SET 편집",
+      "Change raid event SET",
       "레이드 이벤트 용 SET 편집",
       "레이드 이벤트 용 SET 편집",
       "레이드 이벤트 용 SET 편집",
       "レイドイベント用SET編集",
       "レイドイベント用SET編集",
-      "레이드 이벤트 용 SET 편집"
+      "จัดทีม SET สำหรับเรดอีเวนต์"
     ]
   ],
   "party_group_party_rename_dialog_description": [
@@ -24482,26 +24482,26 @@
     [
       "未解放",
       "미해방",
-      "미해방",
+      "Locked",
       "미해방",
       "미해방",
       "미해방",
       "未解放",
       "未解放",
-      "미해방"
+      "ยังไม่ปลดล็อก"
     ]
   ],
   "quest_cell_unlock_cover_detail_use_item": [
     [
       "アイテムを消費して解放できます",
       "아이템을 소비해서 해방할 수 있습니다.",
-      "아이템을 소비해서 해방할 수 있습니다.",
+      "Can be unlocked by using item(s).",
       "아이템을 소비해서 해방할 수 있습니다.",
       "아이템을 소비해서 해방할 수 있습니다.",
       "아이템을 소비해서 해방할 수 있습니다.",
       "アイテムを消費して解放できます",
       "アイテムを消費して解放できます",
-      "아이템을 소비해서 해방할 수 있습니다."
+      "สามารถใช้ไอเทมเพื่อปลดล็อกได้"
     ]
   ],
   "quest_daily_quest_point_cost": [
@@ -24859,52 +24859,52 @@
     [
       "::item_name:: を使用して\n::quest_name:: に挑戦しますか？",
       "::item_name:: 를 사용해서\n::quest_name:: 에 도전합니까?",
-      "::item_name:: 를 사용해서\n::quest_name:: 에 도전합니까?",
+      "Start ::quest_name:: \nby using ::item_name::?",
       "::item_name:: 를 사용해서\n::quest_name:: 에 도전합니까?",
       "::item_name:: 를 사용해서\n::quest_name:: 에 도전합니까?",
       "::item_name:: 를 사용해서\n::quest_name:: 에 도전합니까?",
       "::item_name:: を使用して\n::quest_name:: に挑戦しますか？",
       "::item_name:: を使用して\n::quest_name:: に挑戦しますか？",
-      "::item_name:: 를 사용해서\n::quest_name:: 에 도전합니까?"
+      "ต้องการใช้ ::item_name::\nเพื่อท้าทาย ::quest_name:: ใช่ไหม?"
     ]
   ],
   "quest_start_use_item_confirm_dialog_notice": [
     [
       "<font size='24px' color='#ea354c'>※使用したアイテムはクエストをクリアするまで消費されません</font>",
       "<font size='24px' color='#ea354c'>※사용한 아이템은 퀘스트를 클리어할 때까지 소비되지 않습니다</font>",
-      "<font size='24px' color='#ea354c'>※사용한 아이템은 퀘스트를 클리어할 때까지 소비되지 않습니다</font>",
+      "<font size='24px' color='#ea354c'>The item(s) will only be used up once the quest has been cleared.</font>",
       "<font size='24px' color='#ea354c'>※사용한 아이템은 퀘스트를 클리어할 때까지 소비되지 않습니다</font>",
       "<font size='24px' color='#ea354c'>※사용한 아이템은 퀘스트를 클리어할 때까지 소비되지 않습니다</font>",
       "<font size='24px' color='#ea354c'>※사용한 아이템은 퀘스트를 클리어할 때까지 소비되지 않습니다</font>",
       "<font size='24px' color='#ea354c'>※使用したアイテムはクエストをクリアするまで消費されません</font>",
       "<font size='24px' color='#ea354c'>※使用したアイテムはクエストをクリアするまで消費されません</font>",
-      "<font size='24px' color='#ea354c'>※사용한 아이템은 퀘스트를 클리어할 때까지 소비되지 않습니다</font>"
+      "<font size='24px' color='#ea354c'>*จะไม่ได้รับไอเทมที่ใช้ไปคืน จนกว่าจะเคลียร์เควสต์ได้</font>"
     ]
   ],
   "quest_start_use_item_confirm_dialog_shortage_message": [
     [
       "クエストの挑戦に必要なアイテムを所持していません",
       "퀘스트의 도전에 필요한 아이템을 소지하고 있지 않습니다.",
-      "퀘스트의 도전에 필요한 아이템을 소지하고 있지 않습니다.",
+      "You do not have the necessary item(s) to start this quest.",
       "퀘스트의 도전에 필요한 아이템을 소지하고 있지 않습니다.",
       "퀘스트의 도전에 필요한 아이템을 소지하고 있지 않습니다.",
       "퀘스트의 도전에 필요한 아이템을 소지하고 있지 않습니다.",
       "クエストの挑戦に必要なアイテムを所持していません",
       "クエストの挑戦に必要なアイテムを所持していません",
-      "퀘스트의 도전에 필요한 아이템을 소지하고 있지 않습니다."
+      "ไม่มีไอเทมที่จำเป็นในการท้าทายเควสต์"
     ]
   ],
   "quest_start_use_item_shortage_message": [
     [
       "::item_name:: × ::value:: が不足しています",
       "::item_name:: × ::value:: 가 부족합니다.",
-      "::item_name:: × ::value:: 가 부족합니다.",
+      "You need ::value:: more ::item_name::.",
       "::item_name:: × ::value:: 가 부족합니다.",
       "::item_name:: × ::value:: 가 부족합니다.",
       "::item_name:: × ::value:: 가 부족합니다.",
       "::item_name:: × ::value:: が不足しています",
       "::item_name:: × ::value:: が不足しています",
-      "::item_name:: × ::value:: 가 부족합니다."
+      "ขาด ::item_name:: x ::value:: "
     ]
   ],
   "quest_startable_condition_bullet_symbol": [
@@ -25093,52 +25093,52 @@
     [
       "クエストを解放する",
       "퀘스트를 해방한다",
-      "퀘스트를 해방한다",
+      "Unlock quest",
       "퀘스트를 해방한다",
       "퀘스트를 해방한다",
       "퀘스트를 해방한다",
       "クエストを解放する",
       "クエストを解放する",
-      "퀘스트를 해방한다"
+      "ปลดล็อกเควสต์"
     ]
   ],
   "quest_unlock_confirm_dialog_description": [
     [
       "以下のアイテムを消費して\nクエストを解放します",
       "이하의 아이템을 소비해서\n퀘스트를 해방합니다.",
-      "이하의 아이템을 소비해서\n퀘스트를 해방합니다.",
+      "The following items will be used to unlock the quest.",
       "이하의 아이템을 소비해서\n퀘스트를 해방합니다.",
       "이하의 아이템을 소비해서\n퀘스트를 해방합니다.",
       "이하의 아이템을 소비해서\n퀘스트를 해방합니다.",
       "以下のアイテムを消費して\nクエストを解放します",
       "以下のアイテムを消費して\nクエストを解放します",
-      "이하의 아이템을 소비해서\n퀘스트를 해방합니다."
+      "จะใช้ไอเทมด้านล่างนี้\nเพื่อปลดล็อกเควสต์"
     ]
   ],
   "quest_unlock_confirm_dialog_shortage_message": [
     [
       "クエストの解放に必要なアイテムを所持していません",
       "쿼스트 해방에 필요한 아이템을 소지하고 있지 않습니다.",
-      "쿼스트 해방에 필요한 아이템을 소지하고 있지 않습니다.",
+      "You do not have the necessary item(s) to unlock this quest.",
       "쿼스트 해방에 필요한 아이템을 소지하고 있지 않습니다.",
       "쿼스트 해방에 필요한 아이템을 소지하고 있지 않습니다.",
       "쿼스트 해방에 필요한 아이템을 소지하고 있지 않습니다.",
       "クエストの解放に必要なアイテムを所持していません",
       "クエストの解放に必要なアイテムを所持していません",
-      "쿼스트 해방에 필요한 아이템을 소지하고 있지 않습니다."
+      "ไม่มีไอเทมที่จำเป็นในการปลดล็อกเควสต์"
     ]
   ],
   "quest_unlock_result_dialog_description": [
     [
       "クエストが解放されました！",
       "퀘스트가 해방되었습니다!",
-      "퀘스트가 해방되었습니다!",
+      "Quest unlocked!",
       "퀘스트가 해방되었습니다!",
       "퀘스트가 해방되었습니다!",
       "퀘스트가 해방되었습니다!",
       "クエストが解放されました！",
       "クエストが解放されました！",
-      "퀘스트가 해방되었습니다!"
+      "ปลดล็อกเควสต์แล้ว!"
     ]
   ],
   "quest_unselectable_reason_message_advent_boss_battle_quest_clear": [
@@ -25444,130 +25444,130 @@
     [
       "討伐数",
       "토벌수",
-      "토벌수",
+      "Number defeated",
       "토벌수",
       "토벌수",
       "토벌수",
       "討伐数",
       "討伐数",
-      "토벌수"
+      "จำนวนที่ปราบ"
     ]
   ],
   "raid_event_overall_reward_dialog_kill_count": [
     [
       "::kill_count::<font size=\"-25px\">体</font>",
       "::kill_count::<font size=\"-25px\">마리</font>",
-      "::kill_count::<font size=\"-25px\">마리</font>",
+      "::kill_count::",
       "::kill_count::<font size=\"-25px\">마리</font>",
       "::kill_count::<font size=\"-25px\">마리</font>",
       "::kill_count::<font size=\"-25px\">마리</font>",
       "::kill_count::<font size=\"-25px\">体</font>",
       "::kill_count::<font size=\"-25px\">体</font>",
-      "::kill_count::<font size=\"-25px\">마리</font>"
+      "::kill_count::<font size=\"-25px\">ตัว</font>"
     ]
   ],
   "raid_event_overall_reward_dialog_kill_count_label": [
     [
       "討伐",
       "토벌",
-      "토벌",
+      "Defeated",
       "토벌",
       "토벌",
       "토벌",
       "討伐",
       "討伐",
-      "토벌"
+      "ปราบ"
     ]
   ],
   "raid_event_overall_reward_dialog_title": [
     [
       "レイドボス討伐報酬",
       "레이드 보스 토벌 보상",
-      "레이드 보스 토벌 보상",
+      "Raid Boss Tally Rewards",
       "레이드 보스 토벌 보상",
       "레이드 보스 토벌 보상",
       "레이드 보스 토벌 보상",
       "レイドボス討伐報酬",
       "レイドボス討伐報酬",
-      "레이드 보스 토벌 보상"
+      "รางวัลปราบเรดบอส"
     ]
   ],
   "raid_event_party_main": [
     [
       "メイン",
       "메인",
-      "메인",
+      "Main",
       "메인",
       "메인",
       "메인",
       "メイン",
       "メイン",
-      "메인"
+      "หลัก"
     ]
   ],
   "raid_event_party_select_aggregation_period": [
     [
       "集計中のため挑戦できません",
       "집계 중이므로 도전할 수 없습니다",
-      "집계 중이므로 도전할 수 없습니다",
+      "Unable to start while results are being calculated.",
       "집계 중이므로 도전할 수 없습니다",
       "집계 중이므로 도전할 수 없습니다",
       "집계 중이므로 도전할 수 없습니다",
       "集計中のため挑戦できません",
       "集計中のため挑戦できません",
-      "집계 중이므로 도전할 수 없습니다"
+      "ไม่สามารถท้าทายได้เนื่องจากกำลังคำนวณผลรวม"
     ]
   ],
   "raid_event_party_select_duplicated_characters": [
     [
       "編成済みのキャラがいるため挑戦できません",
       "편성 종료된 캐릭터가 있기 때문에 도전할 수 없습니다.",
-      "편성 종료된 캐릭터가 있기 때문에 도전할 수 없습니다.",
+      "Unable to start while a unit in multiple parties is equipped.",
       "편성 종료된 캐릭터가 있기 때문에 도전할 수 없습니다.",
       "편성 종료된 캐릭터가 있기 때문에 도전할 수 없습니다.",
       "편성 종료된 캐릭터가 있기 때문에 도전할 수 없습니다.",
       "編成済みのキャラがいるため挑戦できません",
       "編成済みのキャラがいるため挑戦できません",
-      "편성 종료된 캐릭터가 있기 때문에 도전할 수 없습니다."
+      "ไม่สามารถท้าทายได้เนื่องจากมีตัวละครที่จัดทีมแล้ว"
     ]
   ],
   "raid_event_party_select_out_of_period": [
     [
       "イベントは終了しました",
       "이벤트가 종료되었습니다.",
-      "이벤트가 종료되었습니다.",
+      "Event finished.",
       "이벤트가 종료되었습니다.",
       "이벤트가 종료되었습니다.",
       "이벤트가 종료되었습니다.",
       "イベントは終了しました",
       "イベントは終了しました",
-      "이벤트가 종료되었습니다."
+      "อีเวนต์ได้จบลงแล้ว"
     ]
   ],
   "raid_event_party_sub": [
     [
       "サブ",
       "서브",
-      "서브",
+      "Sub",
       "서브",
       "서브",
       "서브",
       "サブ",
       "サブ",
-      "서브"
+      "รอง"
     ]
   ],
   "raid_event_play_caution": [
     [
       "<font color='#ea354c'>アプリ終了／画面切替／制限時間超過</font>\n等の操作が行われますと\nスコアが記録されない場合があります",
       "<font color='#ea354c'>앱 종료／화면 전환／제한 시간 초과</font>\n등의 조작이 행해지면 \n스코어가 기록되지 않을 수 있습니다.",
-      "<font color='#ea354c'>앱 종료／화면 전환／제한 시간 초과</font>\n등의 조작이 행해지면 \n스코어가 기록되지 않을 수 있습니다.",
+      "<font color='#ea354c'>If you close the application, switch to another screen, or exceed the time limit,</font> your score might not be recorded.",
       "<font color='#ea354c'>앱 종료／화면 전환／제한 시간 초과</font>\n등의 조작이 행해지면 \n스코어가 기록되지 않을 수 있습니다.",
       "<font color='#ea354c'>앱 종료／화면 전환／제한 시간 초과</font>\n등의 조작이 행해지면 \n스코어가 기록되지 않을 수 있습니다.",
       "<font color='#ea354c'>앱 종료／화면 전환／제한 시간 초과</font>\n등의 조작이 행해지면 \n스코어가 기록되지 않을 수 있습니다.",
       "<font color='#ea354c'>アプリ終了／画面切替／制限時間超過</font>\n等の操作が行われますと\nスコアが記録されない場合があります",
       "<font color='#ea354c'>アプリ終了／画面切替／制限時間超過</font>\n等の操作が行われますと\nスコアが記録されない場合があります",
-      "<font color='#ea354c'>앱 종료／화면 전환／제한 시간 초과</font>\n등의 조작이 행해지면 \n스코어가 기록되지 않을 수 있습니다."
+      "หากท่านทำการ\n<font color='#ea354c'>ปิดแอปพลิเคชั่น สลับหน้าจอ หรือเพิกเฉยเป็นเวลานาน</font>\nอาจจะทำให้คะแนนไม่ถูกบันทึกได้"
     ]
   ],
   "raid_event_ranking_best_score": [
@@ -25587,143 +25587,143 @@
     [
       "討伐数: ::value::",
       "토벌수 ::value::",
-      "토벌수 ::value::",
+      "Number Defeated: ::value::",
       "토벌수 ::value::",
       "토벌수 ::value::",
       "토벌수 ::value::",
       "討伐数: ::value::",
       "討伐数: ::value::",
-      "토벌수 ::value::"
+      "จำนวนที่ปราบ: ::value::"
     ]
   ],
   "raid_event_ranking_note_message": [
     [
       "BEST SCOREはランキングに影響しません",
       "BEST SCORE는 랭킹에 영향이 없습니다.",
-      "BEST SCORE는 랭킹에 영향이 없습니다.",
+      "Your best score does not affect your position in the rankings.",
       "BEST SCORE는 랭킹에 영향이 없습니다.",
       "BEST SCORE는 랭킹에 영향이 없습니다.",
       "BEST SCORE는 랭킹에 영향이 없습니다.",
       "BEST SCOREはランキングに影響しません",
       "BEST SCOREはランキングに影響しません",
-      "BEST SCORE는 랭킹에 영향이 없습니다."
+      "BEST SCORE จะไม่มีผลต่อแรงกิ้ง"
     ]
   ],
   "raid_event_ranking_out_of_ranking": [
     [
       "圏外",
       "순위권 외",
-      "순위권 외",
+      "Outside Rankings",
       "순위권 외",
       "순위권 외",
       "순위권 외",
       "圏外",
       "圏外",
-      "순위권 외"
+      "นอกพื้นที่"
     ]
   ],
   "raid_event_ranking_party_dialog_title": [
     [
       "プレイヤー情報",
       "플레이어 정보",
-      "플레이어 정보",
+      "Player Info",
       "플레이어 정보",
       "플레이어 정보",
       "플레이어 정보",
       "プレイヤー情報",
       "プレイヤー情報",
-      "플레이어 정보"
+      "ข้อมูลผู้เล่น"
     ]
   ],
   "raid_event_ranking_player_rank": [
     [
       "ランク::value::",
       "랭크 ::valut::",
-      "랭크 ::valut::",
+      "Rank ::value::",
       "랭크 ::valut::",
       "랭크 ::valut::",
       "랭크 ::valut::",
       "ランク::value::",
       "ランク::value::",
-      "랭크 ::valut::"
+      "แรงก์ ::value::"
     ]
   ],
   "raid_event_ranking_ranking_rank": [
     [
       "::value::位",
       "::value::위",
-      "::value::위",
+      "::value::",
       "::value::위",
       "::value::위",
       "::value::위",
       "::value::位",
       "::value::位",
-      "::value::위"
+      "อันดับ ::value::"
     ]
   ],
   "raid_event_ranking_reward_dialog_rank": [
     [
       "::rank_start::位～::rank_end::位",
       "::rank_start::위～::rank_end::위",
-      "::rank_start::위～::rank_end::위",
+      "::rank_start:: - ::rank_end::",
       "::rank_start::위～::rank_end::위",
       "::rank_start::위～::rank_end::위",
       "::rank_start::위～::rank_end::위",
       "::rank_start::位～::rank_end::位",
       "::rank_start::位～::rank_end::位",
-      "::rank_start::위～::rank_end::위"
+      "อันดับ ::rank_start:: - อันดับ ::rank_end::"
     ]
   ],
   "raid_event_ranking_reward_dialog_title": [
     [
       "ランキング報酬",
       "랭킹 보상",
-      "랭킹 보상",
+      "Ranking Rewards",
       "랭킹 보상",
       "랭킹 보상",
       "랭킹 보상",
       "ランキング報酬",
       "ランキング報酬",
-      "랭킹 보상"
+      "รางวัลแรงกิ้ง"
     ]
   ],
   "raid_event_ranking_update_time": [
     [
       "::value::更新",
       "::value:: 갱신",
-      "::value:: 갱신",
+      "Updated ::value::",
       "::value:: 갱신",
       "::value:: 갱신",
       "::value:: 갱신",
       "::value::更新",
       "::value::更新",
-      "::value:: 갱신"
+      "อัปเดต ::value::"
     ]
   ],
   "raid_event_received_reward_dialog_title": [
     [
       "獲得報酬",
       "획득 보상",
-      "획득 보상",
+      "Rewards Obtained",
       "획득 보상",
       "획득 보상",
       "획득 보상",
       "獲得報酬",
       "獲得報酬",
-      "획득 보상"
+      "รางวัลที่ได้"
     ]
   ],
   "raid_event_record_invalid_message": [
     [
       "開催期間を過ぎたため\n今回の 討伐数 / スコア は記録されません",
       "개최기간을 지났기 떄문에 \n이번 회의 토벌수 / 스코어는 기록되지 않습니다.",
-      "개최기간을 지났기 떄문에 \n이번 회의 토벌수 / 스코어는 기록되지 않습니다.",
+      "Unable to record bosses defeated/score obtained, \nas the event has finished.",
       "개최기간을 지났기 떄문에 \n이번 회의 토벌수 / 스코어는 기록되지 않습니다.",
       "개최기간을 지났기 떄문에 \n이번 회의 토벌수 / 스코어는 기록되지 않습니다.",
       "개최기간을 지났기 떄문에 \n이번 회의 토벌수 / 스코어는 기록되지 않습니다.",
       "開催期間を過ぎたため\n今回の 討伐数 / スコア は記録されません",
       "開催期間を過ぎたため\n今回の 討伐数 / スコア は記録されません",
-      "개최기간을 지났기 떄문에 \n이번 회의 토벌수 / 스코어는 기록되지 않습니다."
+      "จำนวนที่ปราบและคะแนนในครั้งนี้จะไม่ถูกบันทึก\nเนื่องจากเลยช่วงเวลาจัดแล้ว"
     ]
   ],
   "raid_event_top_boss_hp_percentage": [
@@ -25743,13 +25743,13 @@
     [
       "現在集計中です\n::value::頃更新予定",
       "현재 집계중입니다.\n::value::에 갱신 예정",
-      "현재 집게중입니다.\n::value::에 갱신 예정",
+      "Currently calculating results. \nThey will be updated around ::value::.",
       "현재 집게중입니다.\n::value::에 갱신 예정",
       "현재 집게중입니다.\n::value::에 갱신 예정",
       "현재 집게중입니다.\n::value::에 갱신 예정",
       "現在集計中です\n::value::頃更新予定",
       "現在集計中です\n::value::頃更新予定",
-      "현재 집게중입니다.\n::value::에 갱신 예정"
+      "กำลังคำนวณผลรวม\nจะอัปเดตประมาณ ::value::"
     ]
   ],
   "ranking_aggregation": [
@@ -27901,65 +27901,65 @@
     [
       "皆さんのご活躍の記録\nコチラになりまーす★",
       "여러분의 활약 기록은\n이곳에서 볼 수 있습니다★",
-      "여러분의 활약 기록은\n이곳에서 볼 수 있습니다★",
+      "Here's the record of all your adventures!",
       "여러분의 활약 기록은\n이곳에서 볼 수 있습니다★",
       "여러분의 활약 기록은\n이곳에서 볼 수 있습니다★",
       "여러분의 활약 기록은\n이곳에서 볼 수 있습니다★",
       "皆さんのご活躍の記録\nコチラになりまーす★",
       "皆さんのご活躍の記録\nコチラになりまーす★",
-      "여러분의 활약 기록은\n이곳에서 볼 수 있습니다★"
+      "สถิติการเล่นของทุกคน\nเป็นตามนี้เลยค่า★"
     ]
   ],
   "side_story_event_select_empty_placeholder": [
     [
       "該当するサイドストーリーがありません",
       "해당하는 사이드 스토리가 없습니다.",
-      "해당하는 사이드 스토리가 없습니다.",
+      "Applicable Side Stories not found.",
       "해당하는 사이드 스토리가 없습니다.",
       "해당하는 사이드 스토리가 없습니다.",
       "해당하는 사이드 스토리가 없습니다.",
       "該当するサイドストーリーがありません",
       "該当するサイドストーリーがありません",
-      "해당하는 사이드 스토리가 없습니다."
+      "ไม่มีไซด์สตอรี่ที่เข้าข่าย"
     ]
   ],
   "side_story_event_select_tab_cleared": [
     [
       "クリア済み",
       "클리어 완료",
-      "클리어 완료",
+      "Cleared",
       "클리어 완료",
       "클리어 완료",
       "클리어 완료",
       "クリア済み",
       "クリア済み",
-      "클리어 완료"
+      "เคลียร์แล้ว"
     ]
   ],
   "side_story_event_select_tab_complete": [
     [
       "コンプリート",
       "컴플리트",
-      "컴플리트",
+      "Completed",
       "컴플리트",
       "컴플리트",
       "컴플리트",
       "コンプリート",
       "コンプリート",
-      "컴플리트"
+      "ครบ"
     ]
   ],
   "side_story_event_select_tab_notcleared": [
     [
       "未クリア",
       "미 클리어",
-      "미 클리어",
+      "Uncleared",
       "미 클리어",
       "미 클리어",
       "미 클리어",
       "未クリア",
       "未クリア",
-      "미 클리어"
+      "ยังไม่เคลียร์"
     ]
   ],
   "side_story_event_unreleased_boss": [
@@ -29084,13 +29084,13 @@
     [
       "降臨討伐はメインクエスト\n1 章 8 – 4をクリアすることで\n解放されます",
       "강림토벌은 메인 퀘스트\n1장 8-4를 클리어하면\n해방 됩니다.",
-      "강림토벌은 메인 퀘스트\n1장 8-4를 클리어하면\n해방 됩니다.",
+      "The Descension is unlocked by clearing  the Main Quest Chapter 1: 8-4.",
       "강림토벌은 메인 퀘스트\n1장 8-4를 클리어하면\n해방 됩니다.",
       "강림토벌은 메인 퀘스트\n1장 8-4를 클리어하면\n해방 됩니다.",
       "강림토벌은 메인 퀘스트\n1장 8-4를 클리어하면\n해방 됩니다.",
       "降臨討伐はメインクエスト\n1 章 8 – 4をクリアすることで\n解放されます",
       "降臨討伐はメインクエスト\n1 章 8 – 4をクリアすることで\n解放されます",
-      "강림토벌은 메인 퀘스트\n1장 8-4를 클리어하면\n해방 됩니다."
+      "เคลียร์เควสต์หลัก\nบทที่ 1 ด่าน 8-4\nเพื่อปลดล็อกปราบบอสจุติ"
     ]
   ],
   "system_lock_challenge_dungeon": [
@@ -29188,39 +29188,39 @@
     [
       "セットA",
       "세트 A",
-      "세트 A",
+      "Set A",
       "세트 A",
       "세트 A",
       "세트 A",
       "セットA",
       "セットA",
-      "세트 A"
+      "เซ็ต A"
     ]
   ],
   "tab_label_multi_special_exchange_ticket_b": [
     [
       "セットB",
       "세트 B",
-      "세트 B",
+      "Set B",
       "세트 B",
       "세트 B",
       "세트 B",
       "セットB",
       "セットB",
-      "세트 B"
+      "เซ็ต B"
     ]
   ],
   "tab_label_multi_special_exchange_ticket_c": [
     [
       "セットC",
       "세트 C",
-      "세트 C",
+      "Set C",
       "세트 C",
       "세트 C",
       "세트 C",
       "セットC",
       "セットC",
-      "세트 C"
+      "เซ็ต C"
     ]
   ],
   "take_over_encourage_dialog_description": [
@@ -29487,13 +29487,13 @@
     [
       "サイドストーリーリスト",
       "사이드 스토리 리스트",
-      "사이드 스토리 리스트",
+      "Side Stories List",
       "사이드 스토리 리스트",
       "사이드 스토리 리스트",
       "사이드 스토리 리스트",
       "サイドストーリーリスト",
       "サイドストーリーリスト",
-      "사이드 스토리 리스트"
+      "ลิสต์ไซด์สตอรี่"
     ]
   ],
   "title_special_pack_shop": [
