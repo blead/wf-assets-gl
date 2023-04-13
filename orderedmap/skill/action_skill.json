@@ -3752,8 +3752,8 @@
   "psycho_reaper_smr21": {
     "1": [
       [
-        "パラノイック・ペレジ",
-        "前方に薬瓶を投げつけ、命中した敵に累積光属性耐性ダウン効果 ／ しばらくの間、ぶつかった敵に鎌で斬りつけ光ダメージ",
+        "Paranoic Present",
+        "Tosses a vial in front, inflicting a stackable Light resistance debuff on hit foes / Slashes nearby foes with her scythe for a period of time, inflicting Light damage",
         "dynamic/skill/atk_hit",
         "true",
         "540",
@@ -3772,8 +3772,8 @@
     ],
     "2": [
       [
-        "パラノイック・ペレジ＋",
-        "前方に薬瓶を投げつけ、命中した敵に累積光属性耐性ダウン効果 ／ しばらくの間、ぶつかった敵に鎌で斬りつけ光ダメージ",
+        "Paranoic Present+",
+        "Tosses a vial in front, inflicting a stackable Light resistance debuff on hit foes / Slashes nearby foes with her scythe for a period of time, inflicting Light damage",
         "dynamic/skill/atk_hit",
         "true",
         "540",
@@ -3794,8 +3794,8 @@
   "bigwing_shaman_smr21": {
     "1": [
       [
-        "シルフレイジ・トルネード",
-        "精霊の力を借りて最も近い敵に殲風を巻き起こしその周囲の敵に風ダメージ ＋ 風属性耐性ダウン効果 ／ パワーフリップダメージアップ効果",
+        "Sylpheed Tornado",
+        "Borrows the power of the sprites to blast the nearest foe with powerful winds, inflicting Wind damage on nearby foes and reducing Wind resistance / Increases Power Flip damage",
         "dynamic/skill/atk_nearest",
         "true",
         "560",
@@ -3814,8 +3814,8 @@
     ],
     "2": [
       [
-        "シルフレイジ・トルネード＋",
-        "精霊の力を借りて最も近い敵に殲風を巻き起こしその周囲の敵に風ダメージ ＋ 風属性耐性ダウン効果 ／ パワーフリップダメージアップ効果",
+        "Sylpheed Tornado+",
+        "Borrows the power of the sprites to blast the nearest foe with powerful winds, inflicting Wind damage on nearby foes and reducing Wind resistance / Increases Power Flip damage",
         "dynamic/skill/atk_nearest",
         "true",
         "560",
@@ -3836,8 +3836,8 @@
   "fox_oracle_smr21": {
     "1": [
       [
-        "ナインスターズドリームス",
-        "狐火たちと舞い、パワーフリップダメージアップ効果 ／ リーダーが光属性の時、追加でパワーフリップダメージアップ ＋ コンボブースト効果",
+        "Summer Stars",
+        "Performs a foxflame dance, increasing Power Flip damage / When party leader is Light, increases Power Flip damage further + Gains Combo Boost",
         "dynamic/skill/flip",
         "true",
         "520",
@@ -3856,8 +3856,8 @@
     ],
     "2": [
       [
-        "ナインスターズドリームス＋",
-        "狐火たちと舞い、パワーフリップダメージアップ効果 ／ リーダーが光属性の時、追加でパワーフリップダメージアップ ＋ コンボブースト効果",
+        "Summer Stars+",
+        "Performs a foxflame dance, increasing Power Flip damage / When party leader is Light, increases Power Flip damage further + Gains Combo Boost",
         "dynamic/skill/flip",
         "true",
         "520",
@@ -3878,8 +3878,8 @@
   "tengu_master": {
     "1": [
       [
-        "裂空轟爆掌",
-        "風を切り裂く勢いで剛腕を振るい、前方の敵に風ダメージ",
+        "Skyrend Fists",
+        "Swings his burly arms with the force of a raging tempest, inflicting Wind damage on foes in front",
         "dynamic/skill/atk_front",
         "true",
         "600",
@@ -3898,8 +3898,8 @@
     ],
     "2": [
       [
-        "裂空轟爆掌＋",
-        "風を切り裂く勢いで剛腕を振るい、前方の敵に風ダメージ",
+        "Skyrend Fists+",
+        "Swings his burly arms with the force of a raging tempest, inflicting Wind damage on foes in front",
         "dynamic/skill/atk_front",
         "true",
         "600",
@@ -3920,8 +3920,8 @@
   "fox_companion_smr21": {
     "1": [
       [
-        "九星狐惑繚乱",
-        "妖狐に伝わる秘術で狐火たちが舞い、フィールド全体に累積攻撃力ダウン ＋ 累積水属性耐性ダウン効果",
+        "Foxtrot Burst",
+        "Summons dancing fox bubbles by performing a traditional yokai art, inflicting a stackable attack debuff and a stackable Water resistance debuff on all foes on the field.",
         "dynamic/skill/atk_field",
         "true",
         "510",
@@ -3940,8 +3940,8 @@
     ],
     "2": [
       [
-        "九星狐惑繚乱＋",
-        "妖狐に伝わる秘術で狐火たちが舞い、フィールド全体に累積攻撃力ダウン ＋ 累積水属性耐性ダウン効果",
+        "Foxtrot Burst+",
+        "Summons dancing fox bubbles by performing a traditional yokai art, inflicting a stackable attack debuff and a stackable Water resistance debuff on all foes on the field.",
         "dynamic/skill/atk_field",
         "true",
         "510",
@@ -3962,8 +3962,8 @@
   "assistant_boy": {
     "1": [
       [
-        "名探偵七つ道具",
-        "最も近い敵に向かってスリングショットで弾を飛ばし、命中した敵に闇ダメージ ＋ 強化効果を1つ消去",
+        "Tools of the Trade",
+        "Fires his slingshot at the nearest foe, inflicting Dark damage on hit foes + Removes 1 buff",
         "dynamic/skill/atk_nearest",
         "true",
         "520",
@@ -3982,8 +3982,8 @@
     ],
     "2": [
       [
-        "名探偵七つ道具＋",
-        "最も近い敵に向かってスリングショットで弾を飛ばし、命中した敵に闇ダメージ ＋ 強化効果を1つ消去",
+        "Tools of the Trade+",
+        "Fires his slingshot at the nearest foe, inflicting Dark damage on hit foes + Removes 1 buff",
         "dynamic/skill/atk_nearest",
         "true",
         "520",
