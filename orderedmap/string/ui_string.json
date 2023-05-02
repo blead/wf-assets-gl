@@ -7205,13 +7205,13 @@
     [
       "設定変更",
       "설정 변경",
-      "Change settings",
+      "Settings",
       "Change settings",
       "Change settings",
       "Change settings",
       "設定変更",
       "設定変更",
-      "เปลี่ยนแปลงการตั้งค่า"
+      "ตั้งค่า"
     ]
   ],
   "application_option_asset_download_mode_description": [
@@ -8134,7 +8134,7 @@
       "The Descension",
       "降臨討伐",
       "降臨討伐",
-      "The Descension"
+      "ปราบบอสจุติ"
     ]
   ],
   "boss_battle_group_label_boss_battle": [
@@ -8147,7 +8147,7 @@
       "Boss Battles",
       "ボスバトル",
       "ボスバトル",
-      "Boss Battles"
+      "บอสแบทเทิล"
     ]
   ],
   "boss_battle_mode_select_multi_play_description": [
@@ -8440,7 +8440,7 @@
     [
       "エレメント",
       "엘리먼트",
-      "Elemental Gem",
+      "Elemental \nGem",
       "Elemental Gem",
       "Elemental Gem",
       "Elemental Gem",
@@ -8583,7 +8583,7 @@
     [
       "夢見の紋章",
       "꿈꾸는 문장",
-      "Dreamer's Crest",
+      "Dreamer's \nCrest",
       "Dreamer's Crest",
       "Dreamer's Crest",
       "Dreamer's Crest",
@@ -22454,7 +22454,7 @@
     [
       "スタックの上限数を超えたため\n::name:: ::x_count:: が\n自動で分解されました",
       "스택이 상한 수를 초과해\n::name:: ::x_count:: 이(가)\n자동으로 분해됐습니다",
-      "This armament's Dupe Count is maxed out.\n::name:: x::x_count:: has been melted down.",
+      "This armament's Dupe Count is maxed out.\n::name:: ::x_count:: has been melted down.",
       "Le nombre de copies de cet armement a atteint son maximum.\n::name:: x::x_count:: a été fondu.",
       "Die Duplikat-Anzahl dieser Bewaffnung hat ihr Maximum erreicht.\n::name:: x::x_count:: wurde geschmolzen.",
       "Se ha alcanzado el máximo de copias de este armamento.\n Se ha fundido: ::x_count:: de ::name::.",
@@ -22506,7 +22506,7 @@
     [
       "所持数が一杯で受け取れなかった為\nメールに送付しました\n::name:: ::x_count:: ",
       "보유 수가 가득 차 수령할 수 없어\n메일로 송부했습니다\n::name:: ::x_count:: ",
-      "You can't hold any more, so the following was sent to your mail.\n::name:: x::x_count::",
+      "You can't hold any more, so the following was sent to your mail.\n::name:: ::x_count::",
       "Vous ne pouvez plus détenir cet item. Envoyé sur votre messagerie :\n::name: : x::x_count::",
       "Weitere Aufbewahrung nicht möglich. Versand an deine Nachrichten.\n::name:: x::x_count::",
       "No puedes tener más de este objeto. Se ha enviado a tu buzón: ::name:: ×::x_count::.",
@@ -22545,7 +22545,7 @@
     [
       "所持数が一杯で受け取れなかった為\n::name:: ::x_count:: を売却\nマナ ::mana:: を獲得しました",
       "보유 수가 가득 차 수령할 수 없어\n::name:: ::x_count:: 을(를) 판매해\n마나 ::mana:: 을(를) 획득했습니다",
-      "You can't hold any more, so the following was sold.\n::name:: x::x_count::\n::mana:: mana acquired.",
+      "You can't hold any more, so the following was sold.\n::name:: ::x_count::\n::mana:: mana acquired.",
       "Vous ne pouvez plus détenir cet item. Vendu :\n::name: : x::x_count::\nVous avez acquis ::mana:: mana.",
       "Weitere Aufbewahrung nicht möglich. Folgendes wurde verkauft.\n::name:: x::x_count::\nDu hast ::mana:: mana erworben.",
       "No puedes tener más de este objeto. Se ha destruido: ::name:: ×::x_count::.\nHas conseguido ::mana:: de maná.",
@@ -24657,7 +24657,7 @@
       "S+ Rank",
       "SSランク",
       "SSランク",
-      "แรงก์ SS"
+      "แรงก์ S+"
     ]
   ],
   "quest_detail_startable": [
@@ -25118,7 +25118,7 @@
   "quest_unlock_confirm_dialog_shortage_message": [
     [
       "クエストの解放に必要なアイテムを所持していません",
-      "쿼스트 해방에 필요한 아이템을 소지하고 있지 않습니다.",
+      "퀘스트 해방에 필요한 아이템을 소지하고 있지 않습니다.",
       "You do not have the necessary item(s) to unlock this quest.",
       "쿼스트 해방에 필요한 아이템을 소지하고 있지 않습니다.",
       "쿼스트 해방에 필요한 아이템을 소지하고 있지 않습니다.",
@@ -27881,7 +27881,7 @@
       "Boss Battles Unlocked.",
       "ボスバトルが解放されました",
       "ボスバトルが解放されました",
-      "Boss Battles Unlocked."
+      "ปลดล็อกบอสแบทเทิลแล้ว"
     ]
   ],
   "side_story_event_released_challenge_battle_and_boss": [
@@ -27894,7 +27894,7 @@
       "Solo Boss Challenges and Boss Battles unlocked.",
       "チャレンジシングルバトルと\nボスバトルが解放されました",
       "チャレンジシングルバトルと\nボスバトルが解放されました",
-      "Solo Boss Challenges and Boss Battles unlocked."
+      "ปลดล็อกชาเลนจ์แบทเทิลคนเดียวและบอสแบทเทิลแล้ว"
     ]
   ],
   "side_story_event_select_balloon_speech": [
@@ -27972,7 +27972,7 @@
       "Boss Battles are unlocked by progressing through event quests.",
       "ボスバトルはイベントクエストを\n進行することで解放されます",
       "ボスバトルはイベントクエストを\n進行することで解放されます",
-      "Boss Battles are unlocked by progressing through event quests."
+      "บอสแบทเทิลจะปลดล็อกโดยการดำเนินอีเวนต์เควสต์"
     ]
   ],
   "simple_ability_description_dialog_title": [
@@ -30331,7 +30331,7 @@
   "world_story_expert_single_confirm_dialog_description": [
     [
       " ::name:: に挑戦しますか？\n今日の残り挑戦回数 ::current:: 回",
-      " ::name:: 에게 도전하시겠습니까?\n오늘 남은 도전 횟수 ::current:: 회",
+      " ::name:: 에 도전하시겠습니까?\n오늘 남은 도전 횟수 ::current:: 회",
       "Start ::name::? You have ::current:: attempts left today.",
       "Start ::name::? You have ::current:: attempts left today.",
       "Start ::name::? You have ::current:: attempts left today.",
@@ -30344,7 +30344,7 @@
   "world_story_expert_single_confirm_dialog_description_not_recovery_point": [
     [
       " ::name:: に挑戦しますか？\n残り挑戦回数 ::current:: 回",
-      " ::name:: 에게 도전하시겠습니까?\n남은 도전 횟수 ::current:: 회",
+      " ::name:: 에 도전하시겠습니까?\n남은 도전 횟수 ::current:: 회",
       "Start ::name::? You have ::current:: attempts left.",
       "Start ::name::? You have ::current:: attempts left.",
       "Start ::name::? You have ::current:: attempts left.",

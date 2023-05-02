@@ -3584,8 +3584,8 @@
   "formercorrupt_detective": {
     "1": [
       [
-        "ピンク・フレア",
-        "最も近い敵に向かって煙玉を打ち出し、煙に触れた敵に闇ダメージ ＋ 闇属性耐性ダウン効果 ＋ 強化効果を1つ消去",
+        "Pink Flare",
+        "Shoots a ball of smoke at the nearest foe, removing one buff and inflicting Dark damage and reduced Dark resistance on hit foes",
         "dynamic/skill/atk_nearest",
         "true",
         "480",
@@ -3604,8 +3604,8 @@
     ],
     "2": [
       [
-        "ピンク・フレア＋",
-        "最も近い敵に向かって煙玉を打ち出し、煙に触れた敵に闇ダメージ ＋ 闇属性耐性ダウン効果 ＋ 強化効果を1つ消去",
+        "Pink Flare+",
+        "Shoots a ball of smoke at the nearest foe, removing one buff and inflicting Dark damage and reduced Dark resistance on hit foes",
         "dynamic/skill/atk_nearest",
         "true",
         "480",
@@ -3626,8 +3626,8 @@
   "conjurer_girl": {
     "1": [
       [
-        "ポップ・ハルモ",
-        "しばらくの間自身の周囲に雷球をまとわせ、触れた敵に雷ダメージ ／ パワーフリップダメージアップ効果",
+        "Harmonia Pop",
+        "Encloses self in a ring of lightning for a period of time, inflicting Thunder damage on hit foes / Increases Power Flip damage",
         "dynamic/skill/atk_surround",
         "true",
         "500",
@@ -3646,8 +3646,8 @@
     ],
     "2": [
       [
-        "ポップ・ハルモ＋",
-        "しばらくの間自身の周囲に雷球をまとわせ、触れた敵に雷ダメージ ／ パワーフリップダメージアップ効果",
+        "Harmonia Pop+",
+        "Encloses self in a ring of lightning for a period of time, inflicting Thunder damage on hit foes / Increases Power Flip damage",
         "dynamic/skill/atk_surround",
         "true",
         "500",
@@ -3668,8 +3668,8 @@
   "mercenary_smr21": {
     "1": [
       [
-        "フェイヴァラブル・タイフーン",
-        "前方に嵐の如き風を起こした後、その風に向かって切り払い、命中した敵に風ダメージ ／ 参戦者全員に攻撃力アップ効果",
+        "Fortuitous Typhoon",
+        "Sends forth a gale-force blast and attacks in the direction of the wind, inflicting Wind damage on hit foes / Increases the attack of all parties",
         "dynamic/skill/atk_front",
         "true",
         "560",
@@ -3688,8 +3688,8 @@
     ],
     "2": [
       [
-        "フェイヴァラブル・タイフーン＋",
-        "前方に嵐の如き風を起こした後、その風に向かって切り払い、命中した敵に風ダメージ ／ 参戦者全員に攻撃力アップ効果",
+        "Fortuitous Typhoon+",
+        "Sends forth a gale-force blast and attacks in the direction of the wind, inflicting Wind damage on hit foes / Increases the attack of all parties",
         "dynamic/skill/atk_front",
         "true",
         "560",
@@ -3710,8 +3710,8 @@
   "ruin_girl_smr21": {
     "1": [
       [
-        "シェメウ・レアー",
-        "お祭りの光で周囲を照らして味方を鼓舞し、光属性キャラに攻撃力アップ効果 ／ 自身に連撃効果",
+        "Shemu Ra",
+        "Enthralls her allies with festive lights, increasing attack of Light units / Gains Multihit",
         "dynamic/skill/str_up",
         "true",
         "550",
@@ -3730,8 +3730,8 @@
     ],
     "2": [
       [
-        "シェメウ・レアー＋",
-        "お祭りの光で周囲を照らして味方を鼓舞し、光属性キャラに攻撃力アップ効果 ／ 自身に連撃効果",
+        "Shemu Ra+",
+        "Enthralls her allies with festive lights, increasing attack of Light units / Gains Multihit",
         "dynamic/skill/str_up",
         "true",
         "550",
@@ -4635,7 +4635,7 @@
     "1": [
       [
         "Black Bullet 338",
-        "Fires a piercing round at the nearest foe, inflicting Dark damage on hit foes (Damage increases the nearer Selgir is to his target)",
+        "Fires a piercing round at the nearest foe, inflicting Dark damage on hit foes (Damage increases the farther Selgir is from his target)",
         "dynamic/skill/atk_nearest",
         "true",
         "500",
@@ -4655,7 +4655,7 @@
     "2": [
       [
         "Black Bullet 338+",
-        "Fires a piercing round at the nearest foe, inflicting Dark damage on hit foes (Damage increases the nearer Selgir is to his target)",
+        "Fires a piercing round at the nearest foe, inflicting Dark damage on hit foes (Damage increases the farther Selgir is from his target)",
         "dynamic/skill/atk_nearest",
         "true",
         "500",
@@ -9507,7 +9507,7 @@
     "1": [
       [
         "Black Bullet",
-        "Shoots at the nearest target, inflicting Dark damage on hit foes (Damage increases the nearer Selgir is to his target) + Removes 1 buff",
+        "Shoots at the nearest target, inflicting Dark damage on hit foes (Damage increases the farther Selgir is from his target) + Removes 1 buff",
         "dynamic/skill/atk_nearest",
         "true",
         "490",
@@ -9527,7 +9527,7 @@
     "2": [
       [
         "Black Bullet+",
-        "Shoots at the nearest target, inflicting Dark damage on hit foes (Damage increases the nearer Selgir is to his target) + Removes 1 buff",
+        "Shoots at the nearest target, inflicting Dark damage on hit foes (Damage increases the farther Selgir is from his target) + Removes 1 buff",
         "dynamic/skill/atk_nearest",
         "true",
         "490",
@@ -10264,7 +10264,7 @@
   "psychic_yuki_assist": {
     "1": [
       [
-        "雪花結界",
+        "Dendrite Barrier",
         "psychic_yuki_assist",
         "dynamic/skill/atk_common",
         "true",
@@ -10286,7 +10286,7 @@
   "psychic_shouta_assist": {
     "1": [
       [
-        "重力球",
+        "Gravity Ball",
         "psychic_shouta_assist",
         "dynamic/skill/atk_common",
         "true",
