@@ -12639,13 +12639,13 @@
     [
       "収集率",
       "수집율",
-      "Complete",
+      "Logged",
       "수집율",
       "수집율",
       "수집율",
       "収集率",
       "収集率",
-      "อัตราการรวบรวม"
+      "รวบรวมได้"
     ]
   ],
   "encyclopedia_complete_rate_percent": [
@@ -12885,7 +12885,7 @@
   "encyclopedia_unlock_condition_advent_event_quest_clear": [
     [
       "降臨討伐イベント「::event_name::」の「::quest_name::」をクリア",
-      "강림토벌 이벤트 「::event_name::」의「::quest_name::」를 클리어",
+      "강림토벌 이벤트 「::event_name::」의「::quest_name::」을(를) 클리어",
       "Clear \"::quest_name::\" of ::event_name::.",
       "강림토벌 이벤트 「::event_name::」의「::quest_name::」를 클리어",
       "강림토벌 이벤트 「::event_name::」의「::quest_name::」를 클리어",
@@ -12898,7 +12898,7 @@
   "encyclopedia_unlock_condition_character_episode_clear": [
     [
       "::target_character_names::のエピソード 「::quest_name::」をクリア",
-      "::target_character_names::의 에피소드 「::quest_name::」를 클리어",
+      "::target_character_names::의 에피소드 「::quest_name::」을(를) 클리어",
       "Read ::target_character_names::'s unit episode \"::quest_name::.\"",
       "::target_character_names::의 에피소드 「::quest_name::」를 클리어",
       "::target_character_names::의 에피소드 「::quest_name::」를 클리어",
@@ -12911,7 +12911,7 @@
   "encyclopedia_unlock_condition_main_quest_clear": [
     [
       "メインクエスト ::chapter_id::章 ::stage_node_id::−::quest_id:: をクリア",
-      "메인  퀘스트 ::chapter_id::장 ::stage_node_id::−::quest_id:: 를 클리어",
+      "메인  퀘스트 ::chapter_id::장 ::stage_node_id::−::quest_id:: 을(를) 클리어",
       "Clear Chapter ::chapter_id::, Stage ::stage_node_id::-::quest_id:: of the Main Quest.",
       "메인  퀘스트 ::chapter_id::장 ::stage_node_id::−::quest_id:: 를 클리어",
       "메인  퀘스트 ::chapter_id::장 ::stage_node_id::−::quest_id:: 를 클리어",
@@ -12937,7 +12937,7 @@
   "encyclopedia_unlock_condition_own_character": [
     [
       "【::nickname::】::character_name::を仲間にする",
-      "[::nickname::]::character_name::를 동료로 한다",
+      "[::nickname::]::character_name::을(를) 동료로 한다",
       "Obtain [::nickname::] ::character_name::.",
       "[::nickname::]::character_name::를 동료로 한다",
       "[::nickname::]::character_name::를 동료로 한다",
@@ -12950,7 +12950,7 @@
   "encyclopedia_unlock_condition_story_event_quest_clear": [
     [
       "ストーリーイベント「::event_name::」の「::quest_name::」をクリア",
-      "스토리 이벤트 「::event_name::」의「::quest_name::」를 클리어",
+      "스토리 이벤트 「::event_name::」의「::quest_name::」을(를) 클리어",
       "Clear \"::quest_name::\" of ::event_name::.",
       "스토리 이벤트 「::event_name::」의「::quest_name::」를 클리어",
       "스토리 이벤트 「::event_name::」의「::quest_name::」를 클리어",
@@ -12976,7 +12976,7 @@
   "encyclopedia_unlock_keyword_message": [
     [
       "::item_name::を使用してキーワード\n::keyword_label::\nをアンロックしますか？\n\nキーワードは以下の条件を満たす事で\n::item_name::を使用せずに\nアンロックする事もできます。",
-      "::item_name::를 사용해서 키워드 \n::keyword_label::\n를 언록합니까?\n\n키워드는 이하 조건을 만족시키면 \n::item_name::를 사용하지 않고\n언록할 수 있습니다.",
+      "::item_name::를 사용해서 키워드 \n::keyword_label::\n을(를) 언록합니까?\n\n키워드는 이하 조건을 만족시키면 \n::item_name::를 사용하지 않고\n언록할 수 있습니다.",
       "Use ::item_name:: to unlock this log?\n\nThis log can also be unlocked by meeting the following criteria.",
       "::item_name::를 사용해서 키워드 \n::keyword_label::\n를 언록합니까?\n\n키워드는 이하 조건을 만족시키면 \n::item_name::를 사용하지 않고\n언록할 수 있습니다.",
       "::item_name::를 사용해서 키워드 \n::keyword_label::\n를 언록합니까?\n\n키워드는 이하 조건을 만족시키면 \n::item_name::를 사용하지 않고\n언록할 수 있습니다.",
@@ -22200,7 +22200,7 @@
       "La batalla comienza en ::remaining:: s.",
       "残り::remaining::秒で協力バトルに挑戦します",
       "残り::remaining::秒で協力バトルに挑戦します",
-      "\nอีก ::remaining:: วินาทีจะเริ่มมัลติแบทเทิล"
+      "อีก ::remaining:: วินาทีจะเริ่มมัลติแบทเทิล"
     ]
   ],
   "multibattle_room_start_share_random": [
