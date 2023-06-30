@@ -2450,8 +2450,8 @@
   "psychic_tohru": {
     "1": [
       [
-        "雷撃",
-        "最も近い敵に強烈な雷撃を降り注がせ、命中した敵に雷ダメージ ／ 自身に攻撃力アップ効果",
+        "Bring the Thunder",
+        "Rains lightning upon the nearest foe, inflicting Thunder damage on hit foes / Increases attack",
         "dynamic/skill/atk_nearest",
         "true",
         "560",
@@ -2470,8 +2470,8 @@
     ],
     "2": [
       [
-        "雷撃＋",
-        "最も近い敵に強烈な雷撃を降り注がせ、命中した敵に雷ダメージ ／ 自身に攻撃力アップ効果",
+        "Bring the Thunder+",
+        "Rains lightning upon the nearest foe, inflicting Thunder damage on hit foes / Increases attack",
         "dynamic/skill/atk_nearest",
         "true",
         "560",
@@ -2492,8 +2492,8 @@
   "shadow_redhood": {
     "1": [
       [
-        "シャドウ・ヴェンジェンス",
-        "最も近い敵に向かって貫通弾を発射し、命中した敵に火ダメージ ＋ 火属性耐性ダウン効果 ／ 影犬を呼び出す（既に影犬が居る場合、改めて呼び出し直す）",
+        "The Shadow's Revenge",
+        "Fires a piercing round at the nearest foe, inflicting Fire damage and reduced Fire resistance on hit foes / Summons Rufo (Re-summons Rufo if Rufo is already present)",
         "dynamic/skill/multi_ball",
         "true",
         "580",
@@ -2512,8 +2512,8 @@
     ],
     "2": [
       [
-        "シャドウ・ヴェンジェンス＋",
-        "最も近い敵に向かって貫通弾を発射し、命中した敵に火ダメージ ＋ 火属性耐性ダウン効果 ／ 影犬を呼び出す（既に影犬が居る場合、改めて呼び出し直す）",
+        "The Shadow's Revenge+",
+        "Fires a piercing round at the nearest foe, inflicting Fire damage and reduced Fire resistance on hit foes / Summons Rufo (Re-summons Rufo if Rufo is already present)",
         "dynamic/skill/multi_ball",
         "true",
         "580",
@@ -2534,8 +2534,8 @@
   "navy_officer": {
     "1": [
       [
-        "バヨネット・レフォーム",
-        "最も近い敵に向かって戦艦から砲撃を行い、着弾地点の周囲の敵に水ダメージ ／ 参戦者全員に攻撃力アップ効果",
+        "Battleship Barrage",
+        "Has her warship bombard the nearest foe, inflicting Water damage on hit foes / Increases the attack of all parties ",
         "dynamic/skill/atk_nearest",
         "true",
         "550",
@@ -2554,8 +2554,8 @@
     ],
     "2": [
       [
-        "バヨネット・レフォーム＋",
-        "最も近い敵に向かって戦艦から砲撃を行い、着弾地点の周囲の敵に水ダメージ ／ 参戦者全員に攻撃力アップ効果",
+        "Battleship Barrage+",
+        "Has her warship bombard the nearest foe, inflicting Water damage on hit foes / Increases the attack of all parties ",
         "dynamic/skill/atk_nearest",
         "true",
         "550",
@@ -2576,8 +2576,8 @@
   "psychic_projection": {
     "1": [
       [
-        "憧憬の影",
-        "【影丘リュウイチの竜がいない時】『回復無効効果』を持つ竜を召喚する ／ 闇属性キャラに攻撃力アップ効果\n【影丘リュウイチの竜がいる時】闇の波動を発生させ、フィールド全体に闇ダメージ ／ 闇属性キャラに攻撃力アップ効果",
+        "Yearning Shadow",
+        "(When Ryuichi's Dragonling is not on the field) Summons a Dragonling afflicted with Anti-Healing and increases attack for Dark units / (When Ryuichi's Dragonling is on the field) Sends out a pulse of darkness, inflicting Dark damage on all foes on the field + Increases attack for Dark units",
         "dynamic/skill/multi_ball",
         "true",
         "610",
@@ -2596,8 +2596,8 @@
     ],
     "2": [
       [
-        "憧憬の影＋",
-        "【影丘リュウイチの竜がいない時】『回復無効効果』を持つ竜を召喚する ／ 闇属性キャラに攻撃力アップ効果\n【影丘リュウイチの竜がいる時】闇の波動を発生させ、フィールド全体に闇ダメージ ／ 闇属性キャラに攻撃力アップ効果",
+        "Yearning Shadow+",
+        "(When Ryuichi's Dragonling is not on the field) Summons a Dragonling afflicted with Anti-Healing and increases attack for Dark units / (When Ryuichi's Dragonling is on the field) Sends out a pulse of darkness, inflicting Dark damage on all foes on the field + Increases attack for Dark units",
         "dynamic/skill/multi_ball",
         "true",
         "610",
@@ -2870,8 +2870,8 @@
   "psychic_nao": {
     "1": [
       [
-        "星海領域",
-        "星海の能力で領域を展開し、パーティ全体のHPを回復 ＋ 攻撃力アップ効果 ＋ 弱体効果を1つ回復",
+        "Galactic Dance",
+        "Draws on the power of the stars to create her own field, restoring the HP of all allies + Increases attack + Removes 1 debuff",
         "dynamic/skill/heal",
         "true",
         "600",
@@ -2890,8 +2890,8 @@
     ],
     "2": [
       [
-        "星海領域＋",
-        "星海の能力で領域を展開し、パーティ全体のHPを回復 ＋ 攻撃力アップ効果 ＋ 弱体効果を1つ回復",
+        "Galactic Dance+",
+        "Draws on the power of the stars to create her own field, restoring the HP of all allies + Increases attack + Removes 1 debuff",
         "dynamic/skill/heal",
         "true",
         "600",
@@ -2912,8 +2912,8 @@
   "psychic_yuki": {
     "1": [
       [
-        "雪花結界",
-        "雪の結晶の結界を形成して仲間を包み込み、\n水属性キャラにバリア ＋ 全属性耐性 ＋ スキルダメージアップ効果",
+        "Dendrite Barrier",
+        "Forms a crystallized barrier around friendlies, granting Barrier, all elemental resistance, and increased skill damage to Water units",
         "dynamic/skill/skill_str_up",
         "true",
         "580",
@@ -2932,8 +2932,8 @@
     ],
     "2": [
       [
-        "雪花結界＋",
-        "雪の結晶の結界を形成して仲間を包み込み、\n水属性キャラにバリア ＋ 全属性耐性 ＋ スキルダメージアップ効果",
+        "Dendrite Barrier+",
+        "Forms a crystallized barrier around friendlies, granting Barrier, all elemental resistance, and increased skill damage to Water units",
         "dynamic/skill/skill_str_up",
         "true",
         "580",
@@ -2954,8 +2954,8 @@
   "psychic_shouta": {
     "1": [
       [
-        "ボイドブレイク・バースト",
-        "最も近い敵を中心とした空間を巨大な重力で押しつぶし、その周囲の敵に闇ダメージ ＋ 鈍足効果",
+        "Event Horizon",
+        "Crushes the area around the nearest foe with an immense gravitational force, inflicting Dark damage and Mire on nearby foes ",
         "dynamic/skill/atk_nearest",
         "true",
         "570",
@@ -2974,8 +2974,8 @@
     ],
     "2": [
       [
-        "ボイドブレイク・バースト＋",
-        "最も近い敵を中心とした空間を巨大な重力で押しつぶし、その周囲の敵に闇ダメージ ＋ 鈍足効果",
+        "Event Horizon+",
+        "Crushes the area around the nearest foe with an immense gravitational force, inflicting Dark damage and Mire on nearby foes ",
         "dynamic/skill/atk_nearest",
         "true",
         "570",
@@ -2996,8 +2996,8 @@
   "psychic_tomboygirl": {
     "1": [
       [
-        "呪縛の言霊",
-        "呪縛の言霊で拘束し、フィールド全体の敵に火ダメージ（弱点破壊なし） ＋ 火属性耐性ダウン ＋ しばらくの間、マヒ効果",
+        "Binding Words",
+        "Voices a command with binding words, inflicting Fire damage and reducing Fire resistance on all foes on the field + Paralyzes foes for a period of time",
         "dynamic/skill/atk_field",
         "true",
         "570",
@@ -3016,8 +3016,8 @@
     ],
     "2": [
       [
-        "呪縛の言霊＋",
-        "呪縛の言霊で拘束し、フィールド全体の敵に火ダメージ（弱点破壊なし） ＋ 火属性耐性ダウン ＋ しばらくの間、マヒ効果",
+        "Binding Words+",
+        "Voices a command with binding words, inflicting Fire damage and reducing Fire resistance on all foes on the field + Paralyzes foes for a period of time",
         "dynamic/skill/atk_field",
         "true",
         "570",
@@ -3038,8 +3038,8 @@
   "psychic_seiji": {
     "1": [
       [
-        "ワールドリカバリー",
-        "復元の能力で、参戦者全員のHPを回復【水属性キャラに対して効果アップ】 ／ パーティ全体の弱体効果を1つ回復 ＋ 再生効果",
+        "Back in Business",
+        "Uses his powers to restore the HP of all parties (Effect boosted for Water units) / Removes 1 debuff from all allies + grants Recover",
         "dynamic/skill/heal",
         "true",
         "540",
@@ -3058,8 +3058,8 @@
     ],
     "2": [
       [
-        "ワールドリカバリー＋",
-        "復元の能力で、参戦者全員のHPを回復【水属性キャラに対して効果アップ】 ／ パーティ全体の弱体効果を1つ回復 ＋ 再生効果",
+        "Back in Business+",
+        "Uses his powers to restore the HP of all parties (Effect boosted for Water units) / Removes 1 debuff from all allies + grants Recover",
         "dynamic/skill/heal",
         "true",
         "540",
@@ -3080,8 +3080,8 @@
   "neoviolin_musician_hw21": {
     "1": [
       [
-        "輝く月のキャロル",
-        "音の奔流を前方に発射し、命中した敵に光ダメージ ＋ 累積光属性耐性ダウン効果 ／ パワーフリップダメージアップ効果",
+        "Carol's Moonlight Caprice",
+        "Sends forth a blast of sound, inflicting Light damage and a stackable Light resistance debuff on hit foes / Increases Power Flip damage",
         "dynamic/skill/atk_front",
         "true",
         "510",
@@ -3100,8 +3100,8 @@
     ],
     "2": [
       [
-        "輝く月のキャロル＋",
-        "音の奔流を前方に発射し、命中した敵に光ダメージ ＋ 累積光属性耐性ダウン効果 ／ パワーフリップダメージアップ効果",
+        "Carol's Moonlight Caprice+",
+        "Sends forth a blast of sound, inflicting Light damage and a stackable Light resistance debuff on hit foes / Increases Power Flip damage",
         "dynamic/skill/atk_front",
         "true",
         "510",
@@ -3122,8 +3122,8 @@
   "touyakiren_ceo_hw21": {
     "1": [
       [
-        "自律機構レクイエム",
-        "最も近い敵に向かって突進し、敵に接触した時、もしくは一定時間経過時、自身の周囲を鎌で薙ぎ払って闇ダメージ ／ パーティ全体にスキルダメージアップ効果",
+        "Automatic Requiem",
+        "Charges toward the nearest foe and swings her scythe upon contact or after a set amount of time, inflicting Dark damage on hit foes / Increases skill damage for all allies",
         "dynamic/skill/atk_nearest",
         "true",
         "600",
@@ -3142,8 +3142,8 @@
     ],
     "2": [
       [
-        "自律機構レクイエム＋",
-        "最も近い敵に向かって突進し、敵に接触した時、もしくは一定時間経過時、自身の周囲を鎌で薙ぎ払って闇ダメージ ／ パーティ全体にスキルダメージアップ効果",
+        "Automatic Requiem+",
+        "Charges toward the nearest foe and swings her scythe upon contact or after a set amount of time, inflicting Dark damage on hit foes / Increases skill damage for all allies",
         "dynamic/skill/atk_nearest",
         "true",
         "600",
@@ -3164,8 +3164,8 @@
   "sanctuary_guard_hw21": {
     "1": [
       [
-        "バーンド・ダウン",
-        "最も近い敵に向かって怒涛の槍撃を繰り出し、風ダメージ ／ 味方に貫通効果",
+        "Stabbing Session",
+        "Unleashes a flurry of spear attacks at the nearest foe, inflicting Wind damage on hit foes / Grants Pierce to all allies",
         "dynamic/skill/atk_nearest",
         "true",
         "560",
@@ -3184,8 +3184,8 @@
     ],
     "2": [
       [
-        "バーンド・ダウン＋",
-        "最も近い敵に向かって怒涛の槍撃を繰り出し、風ダメージ ／ 味方に貫通効果",
+        "Stabbing Session+",
+        "Unleashes a flurry of spear attacks at the nearest foe, inflicting Wind damage on hit foes / Grants Pierce to all allies",
         "dynamic/skill/atk_nearest",
         "true",
         "560",
@@ -3206,8 +3206,8 @@
   "spry_sailor_hw21": {
     "1": [
       [
-        "水雷歩法・ハロウィン式",
-        "特殊な歩法で味方に浮遊 ＋ 貫通効果 ／ しばらくの間、ぶつかった敵に水ダメージ（直接攻撃ダメージ依存）",
+        "Spooky Step",
+        "Employs unconventional footwork, granting Levitate and Pierce to all allies / For a period of time, inflicts Water damage on hit foes (Damage based on the direct damage stat)",
         "dynamic/skill/atk_hit",
         "true",
         "510",
@@ -3226,8 +3226,8 @@
     ],
     "2": [
       [
-        "水雷歩法・ハロウィン式＋",
-        "特殊な歩法で味方に浮遊 ＋ 貫通効果 ／ しばらくの間、ぶつかった敵に水ダメージ（直接攻撃ダメージ依存）",
+        "Spooky Step+",
+        "Employs unconventional footwork, granting Levitate and Pierce to all allies / For a period of time, inflicts Water damage on hit foes (Damage based on the direct damage stat)",
         "dynamic/skill/atk_hit",
         "true",
         "510",
