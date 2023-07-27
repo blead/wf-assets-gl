@@ -2198,8 +2198,8 @@
   "nurse_pirate": {
     "1": [
       [
-        "チアフル・スマイル！",
-        "愛用の銃で参戦者全員のHPを回復【火属性キャラに対して効果アップ】 ／ パーティ全体の弱体効果を1つ回復 ＋ 攻撃力アップ効果 ",
+        "Cheerful Smile!",
+        "Uses her favorite gun to restore the HP of all parties (Effect boosted for Fire units) / Removes 1 debuff from all allies + Increases attack",
         "dynamic/skill/heal",
         "true",
         "550",
@@ -2218,8 +2218,8 @@
     ],
     "2": [
       [
-        "チアフル・スマイル！＋",
-        "愛用の銃で参戦者全員のHPを回復【火属性キャラに対して効果アップ】 ／ パーティ全体の弱体効果を1つ回復 ＋ 攻撃力アップ効果 ",
+        "Cheerful Smile!+",
+        "Uses her favorite gun to restore the HP of all parties (Effect boosted for Fire units) / Removes 1 debuff from all allies + Increases attack",
         "dynamic/skill/heal",
         "true",
         "550",
@@ -2240,8 +2240,8 @@
   "white_tiger_2anv": {
     "1": [
       [
-        "飛翔・流星のように",
-        "前方に高速で突撃後、流星のごとく飛翔し自身の周囲の敵に雷ダメージ ／ さらに地面を破砕し、その衝撃で自身の周囲の敵に雷ダメージ ／ 自身に攻撃力アップ効果",
+        "Like a Shooting Star",
+        "Quickly punches forward and charges ahead like a shooting star, inflicting Thunder damage on nearby foes / Afterwards, the earth shatters from the force of his charge, inflicting Thunder damage on nearby foes / Increases attack for himself",
         "dynamic/skill/atk_front",
         "true",
         "560",
@@ -2260,8 +2260,8 @@
     ],
     "2": [
       [
-        "飛翔・流星のように＋",
-        "前方に高速で突撃後、流星のごとく飛翔し自身の周囲の敵に雷ダメージ ／ さらに地面を破砕し、その衝撃で自身の周囲の敵に雷ダメージ ／ 自身に攻撃力アップ効果",
+        "Like a Shooting Star+",
+        "Quickly punches forward and charges ahead like a shooting star, inflicting Thunder damage on nearby foes / Afterwards, the earth shatters from the force of his charge, inflicting Thunder damage on nearby foes / Increases attack for himself",
         "dynamic/skill/atk_front",
         "true",
         "560",
@@ -2282,8 +2282,8 @@
   "ice_witch_2anv": {
     "1": [
       [
-        "フリーズレイ・オーバー",
-        "凍てつく吹雪で巨大な氷塊を創り出し、フィールド全体に水ダメージ ＋ 累積水属性耐性ダウン ＋ 累積攻撃力ダウン効果",
+        "Overloading Freeze Ray ",
+        "Creates a block of ice with a freezing blizzard, inflicting Water damage, a stackable Water resistance debuff, and a stackable attack debuff on all foes on the field",
         "dynamic/skill/atk_field",
         "true",
         "560",
@@ -2302,8 +2302,8 @@
     ],
     "2": [
       [
-        "フリーズレイ・オーバー＋",
-        "凍てつく吹雪で巨大な氷塊を創り出し、フィールド全体に水ダメージ ＋ 累積水属性耐性ダウン ＋ 累積攻撃力ダウン効果",
+        "Overloading Freeze Ray+",
+        "Creates a block of ice with a freezing blizzard, inflicting Water damage, a stackable Water resistance debuff, and a stackable attack debuff on all foes on the field",
         "dynamic/skill/atk_field",
         "true",
         "560",
@@ -2324,8 +2324,8 @@
   "informant_2anv": {
     "1": [
       [
-        "カティオ・ノーティア",
-        "しばらくの間、自身の周囲に近づいた敵に投げナイフを撃ち込み、命中した敵に闇ダメージ ／ 参戦者全員の棺桶カウント減少 ／ 闇属性キャラにスキルダメージアップ効果",
+        "Cathartic Knautia",
+        "Hurls knives at the nearest foes for a period of time, inflicting Dark damage on hit foes / Reduces the coffin count of all allies / Increases skill damage for Dark units",
         "dynamic/skill/atk_hit",
         "true",
         "530",
@@ -2344,8 +2344,8 @@
     ],
     "2": [
       [
-        "カティオ・ノーティア＋",
-        "しばらくの間、自身の周囲に近づいた敵に投げナイフを撃ち込み、命中した敵に闇ダメージ ／ 参戦者全員の棺桶カウント減少 ／ 闇属性キャラにスキルダメージアップ効果",
+        "Cathartic Knautia+",
+        "Hurls knives at the nearest foes for a period of time, inflicting Dark damage on hit foes / Reduces the coffin count of all allies / Increases skill damage for Dark units",
         "dynamic/skill/atk_hit",
         "true",
         "530",
@@ -2366,8 +2366,8 @@
   "pirates_girl_2anv": {
     "1": [
       [
-        "システム・スターウォーカー",
-        "前方にレーザー砲を一斉掃射しつつ爆風諸共斬り払い、命中した敵に火ダメージ ／ 火属性キャラにスキルダメージアップ効果",
+        "Star Walker System",
+        "Launches laser missiles at the foes in front, inflicting Fire damage on hit foes / Increases the skill damage of Fire units",
         "dynamic/skill/atk_front",
         "true",
         "620",
@@ -2386,8 +2386,8 @@
     ],
     "2": [
       [
-        "システム・スターウォーカー＋",
-        "前方にレーザー砲を一斉掃射しつつ爆風諸共斬り払い、命中した敵に火ダメージ ／ 火属性キャラにスキルダメージアップ効果",
+        "Star Walker System+",
+        "Launches laser missiles at the foes in front, inflicting Fire damage on hit foes / Increases the skill damage of Fire units",
         "dynamic/skill/atk_front",
         "true",
         "620",
@@ -2408,8 +2408,8 @@
   "summoner_little_2anv": {
     "1": [
       [
-        "ヴォイド・アンカー",
-        "【コーマ（陰陽）がいない時】『回復無効効果』を持つコーマ（陰陽）を召喚 ／ 最も近い敵を切り裂き、周囲の敵に闇ダメージ\n【コーマ（陰陽）がいる時】深淵の業火を引き寄せ、フィールド全体に闇ダメージ ／ 闇属性キャラに累積攻撃力アップ効果",
+        "Void Anchor",
+        "(When Koma is not on the field) Summons Koma afflicted with Anti-Healing to join her side and attack the nearest foe, inflicting Dark damage on nearby foes \n(When Koma is on the field) Draws in fire from the Abyss, inflicting Dark damage on all foes on the field / Grants a stackable attack buff to Dark units",
         "dynamic/skill/multi_ball",
         "true",
         "650",
@@ -2428,8 +2428,8 @@
     ],
     "2": [
       [
-        "ヴォイド・アンカー＋",
-        "【コーマ（陰陽）がいない時】『回復無効効果』を持つコーマ（陰陽）を召喚 ／ 最も近い敵を切り裂き、周囲の敵に闇ダメージ\n【コーマ（陰陽）がいる時】深淵の業火を引き寄せ、フィールド全体に闇ダメージ ／ 闇属性キャラに累積攻撃力アップ効果",
+        "Void Anchor+",
+        "(When Koma is not on the field) Summons Koma afflicted with Anti-Healing to join her side and attack the nearest foe, inflicting Dark damage on nearby foes \n(When Koma is on the field) Draws in fire from the Abyss, inflicting Dark damage on all foes on the field / Grants a stackable attack buff to Dark units",
         "dynamic/skill/multi_ball",
         "true",
         "650",
@@ -14418,8 +14418,8 @@
   "stella_2anv": {
     "1": [
       [
-        "鎮圧用たる型たのしい爆弾",
-        "前方に爆弾を投げつけ、命中した敵にスタン ＋ 全属性耐性ダウン効果 ／ 参戦者全員に攻撃力アップ効果",
+        "Barrels of Fun",
+        "Tosses explosives forward, inflicting Stun and reduced resistance to all elements on hit foes / Increases attack for all parties",
         "dynamic/skill/atk_front",
         "true",
         "520",
@@ -14438,8 +14438,8 @@
     ],
     "2": [
       [
-        "鎮圧用たる型たのしい爆弾＋",
-        "前方に爆弾を投げつけ、命中した敵にスタン ＋ 全属性耐性ダウン効果 ／ 参戦者全員に攻撃力アップ効果",
+        "Barrels of Fun+",
+        "Tosses explosives forward, inflicting Stun and reduced resistance to all elements on hit foes / Increases attack for all parties",
         "dynamic/skill/atk_front",
         "true",
         "520",
@@ -14460,8 +14460,8 @@
   "white_tiger_2anv_assist": {
     "1": [
       [
-        "임시",
-        "임시",
+        "仮",
+        "仮",
         "dynamic/skill/atk_front",
         "true",
         "550",
@@ -14482,8 +14482,8 @@
   "ice_witch_2anv_assist": {
     "1": [
       [
-        "임시",
-        "임시",
+        "仮",
+        "仮",
         "dynamic/skill/atk_field",
         "true",
         "590",
