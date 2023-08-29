@@ -2915,7 +2915,7 @@
     [
       "::if !omittable:: ::triggerPuller::の::end::アビリティダメージ::sum:: + ::percent:: につき、",
       "::if !omittable::::triggerPuller::의 ::end::어빌리티 대미지가 + ::percent::마다,",
-      "for every +::percent:: ability damage gained by ::if !omittable:: ::triggerPuller::::end::, ",
+      "for every +::percent:: ::sum:: ability damage gained by ::if !omittable:: ::triggerPuller::::end::, ",
       "for every +::percent:: ability damage gained by ::if !omittable::::triggerPuller::::end::, ",
       "for every +::percent:: ability damage gained by ::if !omittable::::triggerPuller::::end::, ",
       "for every +::percent:: ability damage gained by ::if !omittable::::triggerPuller::::end::, ",
@@ -2928,7 +2928,7 @@
     [
       "::if !omittable:: ::triggerPuller::の::end::攻撃力::sum:: + ::percent:: につき、",
       "::if !omittable::::triggerPuller::의 ::end::공격력이 + ::percent:: 마다,",
-      "for every +::percent:: attack power gained by ::if !omittable:: ::triggerPuller::::end::, ",
+      "for every +::percent:: ::sum:: attack power gained by ::if !omittable:: ::triggerPuller::::end::, ",
       "for every +::percent:: attack power gained by ::if !omittable:: ::triggerPuller::::end::, ",
       "for every +::percent:: attack power gained by ::if !omittable:: ::triggerPuller::::end::, ",
       "for every +::percent:: attack power gained by ::if !omittable:: ::triggerPuller::::end::, ",
@@ -2941,7 +2941,7 @@
     [
       "::if !omittable:: ::triggerPuller::の::end::直接攻撃ダメージ::sum:: + ::percent:: につき、",
       "::if !omittable::::triggerPuller::의 ::end::직접공격 대미지가 + ::percent::마다,",
-      "for every +::percent:: Direct Hit damage gained by ::if !omittable:: ::triggerPuller::::end::, ",
+      "for every +::percent:: ::sum:: Direct Hit damage gained by ::if !omittable:: ::triggerPuller::::end::, ",
       "for every +::percent:: Direct Hit damage gained by ::if !omittable::::triggerPuller::::end::, ",
       "for every +::percent:: Direct Hit damage gained by ::if !omittable::::triggerPuller::::end::, ",
       "for every +::percent:: Direct Hit damage gained by ::if !omittable::::triggerPuller::::end::, ",
@@ -2980,7 +2980,7 @@
     [
       "::if !omittable:: ::triggerPuller::の::end::スキルダメージ::sum:: + ::percent:: につき、",
       "::if !omittable::::triggerPuller::의 ::end::스킬 대미지가 + ::percent::마다,",
-      "for every +::percent:: skill gauge gained by ::if !omittable:: ::triggerPuller::::end::, ",
+      "for every +::percent:: ::sum:: skill damage gained by ::if !omittable:: ::triggerPuller::::end::, ",
       "for every +::percent:: skill gauge gained by ::if !omittable:: ::triggerPuller::::end::, ",
       "for every +::percent:: skill gauge gained by ::if !omittable:: ::triggerPuller::::end::, ",
       "for every +::percent:: skill gauge gained by ::if !omittable:: ::triggerPuller::::end::, ",
@@ -9870,7 +9870,7 @@
     [
       "難易度ボーナス(::quest_rank::)",
       "난이도 보너스(::quest_rank::)",
-      "Difficulty Bonus (::quest_rank::)",
+      "Diff. Bonus (::quest_rank::)",
       "Difficulty Bonus (::quest_rank::)",
       "Difficulty Bonus (::quest_rank::)",
       "Difficulty Bonus (::quest_rank::)",
@@ -15954,7 +15954,7 @@
     [
       "解除条件: ::trigger_count:: 回、::if !omittable:: ::triggerPuller::が::end::スキルを発動",
       "해제조건: ::trigger_count:: 회, ::if !omittable::::triggerPuller::(이)가 ::end::스킬 발동",
-      "End Condition: ::if !omittable:: ::triggerPuller:::end:: activate(s) ::trigger_count:: skill(s)",
+      "End Condition: ::if !omittable:: ::triggerPuller::::end:: activate(s) ::trigger_count:: skill(s)",
       "End Condition: ::if !omittable:: ::triggerPuller:::end:: activate(s) ::trigger_count:: skill(s)",
       "End Condition: ::if !omittable:: ::triggerPuller:::end:: activate(s) ::trigger_count:: skill(s)",
       "End Condition: ::if !omittable:: ::triggerPuller:::end:: activate(s) ::trigger_count:: skill(s)",
