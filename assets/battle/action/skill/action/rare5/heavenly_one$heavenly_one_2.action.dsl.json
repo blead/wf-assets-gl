@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -241,25 +244,47 @@
                           [
                             [
                               "ACAttackPoint",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
-                              {
-                                "max": 0.5,
-                                "min": 0.4
-                              },
-                              1
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 0.5,
+                                  "min": 0.4
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
@@ -284,7 +309,7 @@
                 "Command",
                 [
                   "FindAllSubjects",
-                  1,
+                  2,
                   33,
                   null,
                   null,
@@ -306,7 +331,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/heavenly_one/heavenly_one_player_hit"
                           ],
-                          1,
+                          2,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -330,29 +355,51 @@
                         "Command",
                         [
                           "CreateCondition",
-                          1,
+                          2,
                           [
                             [
                               "ACPowerFlipDamage",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
-                              {
-                                "max": 1,
-                                "min": 0.8
-                              },
-                              1
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 0.8
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -360,19 +407,23 @@
                         "Command",
                         [
                           "CreateRatioHeal",
-                          1,
                           2,
-                          {
-                            "max": 0.1,
-                            "min": 0.08
-                          },
+                          2,
+                          [
+                            {
+                              "max": 0.1,
+                              "min": 0.08
+                            }
+                          ],
                           [
                             1
                           ],
-                          {
-                            "max": 0.5,
-                            "min": 0.5
-                          },
+                          [
+                            {
+                              "max": 0.5,
+                              "min": 0.5
+                            }
+                          ],
                           [
                             "None"
                           ]
@@ -388,17 +439,21 @@
                   "CreateRatioHeal",
                   -33,
                   2,
-                  {
-                    "max": 0.1,
-                    "min": 0.08
-                  },
+                  [
+                    {
+                      "max": 0.1,
+                      "min": 0.08
+                    }
+                  ],
                   [
                     1
                   ],
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
                   [
                     "GenericHealHitEffect"
                   ]

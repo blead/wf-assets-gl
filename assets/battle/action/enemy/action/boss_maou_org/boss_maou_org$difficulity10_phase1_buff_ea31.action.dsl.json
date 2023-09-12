@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -20,25 +23,47 @@
           [
             [
               "ACDirectAttackDamageResistance",
-              {
-                "max": 9999999,
-                "min": 9999999
-              },
-              {
-                "max": 0.95,
-                "min": 0.95
-              },
-              1
+              [
+                {
+                  "max": 9999999,
+                  "min": 9999999
+                }
+              ],
+              [
+                {
+                  "max": 0.95,
+                  "min": 0.95
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -50,25 +75,47 @@
           [
             [
               "ACPowerFlipDamageResistance",
-              {
-                "max": 9999999,
-                "min": 9999999
-              },
-              {
-                "max": 0.95,
-                "min": 0.95
-              },
-              1
+              [
+                {
+                  "max": 9999999,
+                  "min": 9999999
+                }
+              ],
+              [
+                {
+                  "max": 0.95,
+                  "min": 0.95
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -80,25 +127,47 @@
           [
             [
               "ACSkillDamageResistance",
-              {
-                "max": 9999999,
-                "min": 9999999
-              },
-              {
-                "max": 0.95,
-                "min": 0.95
-              },
-              1
+              [
+                {
+                  "max": 9999999,
+                  "min": 9999999
+                }
+              ],
+              [
+                {
+                  "max": 0.95,
+                  "min": 0.95
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -110,25 +179,47 @@
           [
             [
               "ACAbilityDamageResistance",
-              {
-                "max": 9999999,
-                "min": 9999999
-              },
-              {
-                "max": 0.95,
-                "min": 0.95
-              },
-              1
+              [
+                {
+                  "max": 9999999,
+                  "min": 9999999
+                }
+              ],
+              [
+                {
+                  "max": 0.95,
+                  "min": 0.95
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -140,25 +231,47 @@
           [
             [
               "ACToleranceOfDebuff",
-              {
-                "max": 9999999,
-                "min": 9999999
-              },
-              {
-                "max": 1,
-                "min": 1
-              },
-              1
+              [
+                {
+                  "max": 9999999,
+                  "min": 9999999
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -170,24 +283,41 @@
           [
             [
               "ACRegeneration",
-              {
-                "max": 9999999,
-                "min": 9999999
-              },
-              {
-                "max": 100000,
-                "min": 100000
-              }
+              [
+                {
+                  "max": 9999999,
+                  "min": 9999999
+                }
+              ],
+              [
+                {
+                  "max": 100000,
+                  "min": 100000
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ]

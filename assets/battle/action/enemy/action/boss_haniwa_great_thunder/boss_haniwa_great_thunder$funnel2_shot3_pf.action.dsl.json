@@ -1,0 +1,96 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_thunder_strong_pf"
+          ],
+          4,
+          [
+            "FunnelGroup",
+            3
+          ],
+          [
+            [
+              "ACPowerFlipDamageResistance",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_thunder_weak_pf"
+          ],
+          2,
+          [
+            "FunnelGroup",
+            4
+          ],
+          [
+            [
+              "ACPowerFlipDamageResistance",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

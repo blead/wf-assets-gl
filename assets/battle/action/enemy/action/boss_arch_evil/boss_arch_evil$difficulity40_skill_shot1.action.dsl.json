@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -45,7 +48,12 @@
           false,
           [
             "Some",
-            1
+            [
+              {
+                "max": 1,
+                "min": 1
+              }
+            ]
           ]
         ]
       ],
@@ -65,8 +73,18 @@
           false,
           [
             "Rectangle",
-            1000,
-            1300
+            [
+              {
+                "max": 1000,
+                "min": 1000
+              }
+            ],
+            [
+              {
+                "max": 1600,
+                "min": 1600
+              }
+            ]
           ],
           [
             "Center"
@@ -87,7 +105,12 @@
           ],
           [
             "Some",
-            1
+            [
+              {
+                "max": 1,
+                "min": 1
+              }
+            ]
           ],
           false,
           true,
@@ -112,25 +135,47 @@
                   [
                     [
                       "ACAttackPoint",
-                      {
-                        "max": 10800,
-                        "min": 10800
-                      },
-                      {
-                        "max": -0.7,
-                        "min": -0.7
-                      },
-                      1
+                      [
+                        {
+                          "max": 10800,
+                          "min": 10800
+                        }
+                      ],
+                      [
+                        {
+                          "max": -0.7,
+                          "min": -0.7
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ],
@@ -142,26 +187,48 @@
                   [
                     [
                       "ACToleranceOfElement",
-                      {
-                        "max": 10800,
-                        "min": 10800
-                      },
+                      [
+                        {
+                          "max": 10800,
+                          "min": 10800
+                        }
+                      ],
                       6,
-                      {
-                        "max": -0.25,
-                        "min": -0.25
-                      },
-                      1
+                      [
+                        {
+                          "max": -0.25,
+                          "min": -0.25
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ],
@@ -173,29 +240,56 @@
                   [
                     [
                       "ACPoison",
-                      {
-                        "max": 370,
-                        "min": 370
-                      },
-                      {
-                        "max": 666,
-                        "min": 666
-                      },
-                      1
+                      [
+                        {
+                          "max": 370,
+                          "min": 370
+                        }
+                      ],
+                      [
+                        {
+                          "max": 666,
+                          "min": 666
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

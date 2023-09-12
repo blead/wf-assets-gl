@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -20,25 +23,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 720,
-                "min": 720
-              },
-              {
-                "max": 1,
-                "min": 1
-              },
-              1
+              [
+                {
+                  "max": 720,
+                  "min": 720
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -67,20 +92,35 @@
                   [
                     [
                       "ACPiercing",
-                      {
-                        "max": 420,
-                        "min": 420
-                      }
+                      [
+                        {
+                          "max": 420,
+                          "min": 420
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]

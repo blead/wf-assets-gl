@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   3,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -105,7 +108,12 @@
                           false,
                           [
                             "Some",
-                            2
+                            [
+                              {
+                                "max": 2,
+                                "min": 2
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -184,7 +192,12 @@
                                           false,
                                           [
                                             "Circle",
-                                            250
+                                            [
+                                              {
+                                                "max": 250,
+                                                "min": 250
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -205,7 +218,12 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
@@ -231,30 +249,39 @@
                                                   null,
                                                   null,
                                                   7,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 0.91
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 0.91
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 6,
-                                                    "min": 6
-                                                  },
-                                                  {
-                                                    "max": 2,
-                                                    "min": 2
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 6,
+                                                      "min": 6
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 2,
+                                                      "min": 2
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -265,27 +292,49 @@
                                                   [
                                                     [
                                                       "ACToleranceOfElement",
-                                                      {
-                                                        "max": 3300,
-                                                        "min": 3300
-                                                      },
+                                                      [
+                                                        {
+                                                          "max": 3300,
+                                                          "min": 3300
+                                                        }
+                                                      ],
                                                       2,
-                                                      {
-                                                        "max": -0.06999999999999999,
-                                                        "min": -0.055
-                                                      },
-                                                      3
+                                                      [
+                                                        {
+                                                          "max": -0.06999999999999999,
+                                                          "min": -0.055
+                                                        }
+                                                      ],
+                                                      [
+                                                        {
+                                                          "max": 3,
+                                                          "min": 3
+                                                        }
+                                                      ]
                                                     ]
                                                   ],
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "GenericConditionHitEffect"
                                                   ],
                                                   true,
-                                                  true
+                                                  true,
+                                                  "",
+                                                  null,
+                                                  false,
+                                                  3,
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  false
                                                 ]
                                               ],
                                               [
@@ -296,26 +345,48 @@
                                                   [
                                                     [
                                                       "ACAttackPoint",
-                                                      {
-                                                        "max": 3300,
-                                                        "min": 3300
-                                                      },
-                                                      {
-                                                        "max": -0.05,
-                                                        "min": -0.04
-                                                      },
-                                                      3
+                                                      [
+                                                        {
+                                                          "max": 3300,
+                                                          "min": 3300
+                                                        }
+                                                      ],
+                                                      [
+                                                        {
+                                                          "max": -0.05,
+                                                          "min": -0.04
+                                                        }
+                                                      ],
+                                                      [
+                                                        {
+                                                          "max": 3,
+                                                          "min": 3
+                                                        }
+                                                      ]
                                                     ]
                                                   ],
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "GenericConditionHitEffect"
                                                   ],
                                                   true,
-                                                  true
+                                                  true,
+                                                  "",
+                                                  null,
+                                                  false,
+                                                  3,
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  false
                                                 ]
                                               ],
                                               [
@@ -487,6 +558,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ]
@@ -551,7 +627,12 @@
                                           false,
                                           [
                                             "Circle",
-                                            200
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -572,14 +653,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          5,
                                           [
                                             "Block",
                                             [
@@ -609,14 +695,19 @@
                                                   false,
                                                   [
                                                     "Some",
-                                                    4
+                                                    [
+                                                      {
+                                                        "max": 4,
+                                                        "min": 4
+                                                      }
+                                                    ]
                                                   ]
                                                 ]
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          6,
+                                          7,
                                           [
                                             "Block",
                                             [
@@ -624,32 +715,40 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  7,
                                                   255,
                                                   null,
                                                   null,
                                                   33,
-                                                  {
-                                                    "max": 5,
-                                                    "min": 4.333333333333333
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 5,
+                                                      "min": 4.333333333333333
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 6,
-                                                    "min": 6
-                                                  },
-                                                  {
-                                                    "max": 2,
-                                                    "min": 2
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 6,
+                                                      "min": 6
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 2,
+                                                      "min": 2
+                                                    }
+                                                  ],
                                                   [
                                                     "SpecifyHitEffectDirectly",
                                                     [
@@ -657,10 +756,16 @@
                                                       "battle/effect/skill_unique/freeze_eye/freeze_eye_hit"
                                                     ],
                                                     true
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -696,7 +801,12 @@
                                                   false,
                                                   [
                                                     "Circle",
-                                                    200
+                                                    [
+                                                      {
+                                                        "max": 200,
+                                                        "min": 200
+                                                      }
+                                                    ]
                                                   ],
                                                   [
                                                     "Center"
@@ -717,14 +827,19 @@
                                                   ],
                                                   [
                                                     "Some",
-                                                    1
+                                                    [
+                                                      {
+                                                        "max": 1,
+                                                        "min": 1
+                                                      }
+                                                    ]
                                                   ],
                                                   false,
                                                   true,
                                                   [
                                                     "None"
                                                   ],
-                                                  5,
+                                                  8,
                                                   [
                                                     "Block",
                                                     [
@@ -754,14 +869,19 @@
                                                           false,
                                                           [
                                                             "Some",
-                                                            4
+                                                            [
+                                                              {
+                                                                "max": 4,
+                                                                "min": 4
+                                                              }
+                                                            ]
                                                           ]
                                                         ]
                                                       ]
                                                     ]
                                                   ],
-                                                  6,
-                                                  7,
+                                                  9,
+                                                  10,
                                                   [
                                                     "Block",
                                                     [
@@ -769,32 +889,40 @@
                                                         "Command",
                                                         [
                                                           "CreateNormalAttack",
-                                                          7,
+                                                          10,
                                                           255,
                                                           null,
                                                           null,
                                                           33,
-                                                          {
-                                                            "max": 5,
-                                                            "min": 4.333333333333333
-                                                          },
-                                                          {
-                                                            "max": 0,
-                                                            "min": 0
-                                                          },
+                                                          [
+                                                            {
+                                                              "max": 5,
+                                                              "min": 4.333333333333333
+                                                            }
+                                                          ],
+                                                          [
+                                                            {
+                                                              "max": 0,
+                                                              "min": 0
+                                                            }
+                                                          ],
                                                           false,
                                                           false,
                                                           false,
                                                           false,
                                                           false,
-                                                          {
-                                                            "max": 6,
-                                                            "min": 6
-                                                          },
-                                                          {
-                                                            "max": 2,
-                                                            "min": 2
-                                                          },
+                                                          [
+                                                            {
+                                                              "max": 6,
+                                                              "min": 6
+                                                            }
+                                                          ],
+                                                          [
+                                                            {
+                                                              "max": 2,
+                                                              "min": 2
+                                                            }
+                                                          ],
                                                           [
                                                             "SpecifyHitEffectDirectly",
                                                             [
@@ -802,10 +930,16 @@
                                                               "battle/effect/skill_unique/freeze_eye/freeze_eye_hit"
                                                             ],
                                                             true
-                                                          ]
+                                                          ],
+                                                          true
                                                         ]
                                                       ]
                                                     ]
+                                                  ],
+                                                  0,
+                                                  0,
+                                                  [
+                                                    "None"
                                                   ]
                                                 ]
                                               ]
@@ -887,7 +1021,12 @@
                                                   false,
                                                   [
                                                     "Circle",
-                                                    225
+                                                    [
+                                                      {
+                                                        "max": 225,
+                                                        "min": 225
+                                                      }
+                                                    ]
                                                   ],
                                                   [
                                                     "Center"
@@ -908,14 +1047,19 @@
                                                   ],
                                                   [
                                                     "Some",
-                                                    1
+                                                    [
+                                                      {
+                                                        "max": 1,
+                                                        "min": 1
+                                                      }
+                                                    ]
                                                   ],
                                                   false,
                                                   true,
                                                   [
                                                     "None"
                                                   ],
-                                                  5,
+                                                  11,
                                                   [
                                                     "Block",
                                                     [
@@ -945,14 +1089,19 @@
                                                           false,
                                                           [
                                                             "Some",
-                                                            4
+                                                            [
+                                                              {
+                                                                "max": 4,
+                                                                "min": 4
+                                                              }
+                                                            ]
                                                           ]
                                                         ]
                                                       ]
                                                     ]
                                                   ],
-                                                  6,
-                                                  7,
+                                                  12,
+                                                  13,
                                                   [
                                                     "Block",
                                                     [
@@ -960,32 +1109,40 @@
                                                         "Command",
                                                         [
                                                           "CreateNormalAttack",
-                                                          7,
+                                                          13,
                                                           255,
                                                           null,
                                                           null,
                                                           33,
-                                                          {
-                                                            "max": 5,
-                                                            "min": 4.333333333333333
-                                                          },
-                                                          {
-                                                            "max": 0,
-                                                            "min": 0
-                                                          },
+                                                          [
+                                                            {
+                                                              "max": 5,
+                                                              "min": 4.333333333333333
+                                                            }
+                                                          ],
+                                                          [
+                                                            {
+                                                              "max": 0,
+                                                              "min": 0
+                                                            }
+                                                          ],
                                                           false,
                                                           false,
                                                           false,
                                                           false,
                                                           false,
-                                                          {
-                                                            "max": 6,
-                                                            "min": 6
-                                                          },
-                                                          {
-                                                            "max": 2,
-                                                            "min": 2
-                                                          },
+                                                          [
+                                                            {
+                                                              "max": 6,
+                                                              "min": 6
+                                                            }
+                                                          ],
+                                                          [
+                                                            {
+                                                              "max": 2,
+                                                              "min": 2
+                                                            }
+                                                          ],
                                                           [
                                                             "SpecifyHitEffectDirectly",
                                                             [
@@ -993,10 +1150,16 @@
                                                               "battle/effect/skill_unique/freeze_eye/freeze_eye_hit"
                                                             ],
                                                             true
-                                                          ]
+                                                          ],
+                                                          true
                                                         ]
                                                       ]
                                                     ]
+                                                  ],
+                                                  0,
+                                                  0,
+                                                  [
+                                                    "None"
                                                   ]
                                                 ]
                                               ]

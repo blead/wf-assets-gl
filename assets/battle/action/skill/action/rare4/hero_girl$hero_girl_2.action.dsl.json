@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   3,
+  [
+    "None"
+  ],
   true,
   false,
   false,
@@ -79,7 +82,12 @@
           false,
           [
             "Circle",
-            30
+            [
+              {
+                "max": 30,
+                "min": 30
+              }
+            ]
           ],
           [
             "Center"
@@ -100,14 +108,19 @@
           ],
           [
             "Some",
-            1
+            [
+              {
+                "max": 1,
+                "min": 1
+              }
+            ]
           ],
           true,
           true,
           [
             "None"
           ],
-          0,
+          1,
           [
             "Block",
             [
@@ -128,7 +141,7 @@
                     "Single"
                   ],
                   60,
-                  3,
+                  4,
                   [
                     "Block",
                     [
@@ -141,7 +154,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hero_girl/hero_girl_charge"
                           ],
-                          3,
+                          4,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -167,8 +180,8 @@
               ]
             ]
           ],
-          1,
           2,
+          3,
           [
             "Block",
             [
@@ -234,48 +247,61 @@
                 "Command",
                 [
                   "DeleteCondition",
-                  2,
+                  3,
                   [
                     "DCAll",
                     2
                   ],
                   1,
-                  0
+                  0,
+                  "",
+                  [
+                    "Default"
+                  ]
                 ]
               ],
               [
                 "Command",
                 [
                   "CreateNormalAttack",
-                  2,
+                  3,
                   255,
                   null,
                   null,
                   20,
-                  {
-                    "max": 3,
-                    "min": 2.6
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 3,
+                      "min": 2.6
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 6,
-                    "min": 6
-                  },
-                  {
-                    "max": 2.6666666666666665,
-                    "min": 2.6666666666666665
-                  },
+                  [
+                    {
+                      "max": 6,
+                      "min": 6
+                    }
+                  ],
+                  [
+                    {
+                      "max": 2.6666666666666665,
+                      "min": 2.6666666666666665
+                    }
+                  ],
                   [
                     "Fine"
-                  ]
+                  ],
+                  true
                 ]
               ],
               [
@@ -303,8 +329,18 @@
                           false,
                           [
                             "Rectangle",
-                            350,
-                            250
+                            [
+                              {
+                                "max": 350,
+                                "min": 350
+                              }
+                            ],
+                            [
+                              {
+                                "max": 250,
+                                "min": 250
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -325,14 +361,19 @@
                           ],
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           false,
                           true,
                           [
                             "None"
                           ],
-                          3,
+                          5,
                           [
                             "Block",
                             [
@@ -345,7 +386,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/hero_girl/hero_girl_slash"
                                   ],
-                                  3,
+                                  5,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -367,8 +408,8 @@
                               ]
                             ]
                           ],
-                          4,
-                          5,
+                          6,
+                          7,
                           [
                             "Block",
                             [
@@ -376,38 +417,52 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  5,
+                                  7,
                                   255,
                                   null,
                                   null,
                                   47,
-                                  {
-                                    "max": 7,
-                                    "min": 6.11
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 7,
+                                      "min": 6.11
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 6,
-                                    "min": 6
-                                  },
-                                  {
-                                    "max": 2.6666666666666665,
-                                    "min": 2.6666666666666665
-                                  },
+                                  [
+                                    {
+                                      "max": 6,
+                                      "min": 6
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 2.6666666666666665,
+                                      "min": 2.6666666666666665
+                                    }
+                                  ],
                                   [
                                     "Fine"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ],
@@ -436,8 +491,18 @@
                                   false,
                                   [
                                     "Rectangle",
-                                    350,
-                                    250
+                                    [
+                                      {
+                                        "max": 350,
+                                        "min": 350
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "max": 250,
+                                        "min": 250
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -458,14 +523,19 @@
                                   ],
                                   [
                                     "Some",
-                                    1
+                                    [
+                                      {
+                                        "max": 1,
+                                        "min": 1
+                                      }
+                                    ]
                                   ],
                                   false,
                                   true,
                                   [
                                     "None"
                                   ],
-                                  6,
+                                  8,
                                   [
                                     "Block",
                                     [
@@ -478,7 +548,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/hero_girl/hero_girl_slash_reverse"
                                           ],
-                                          6,
+                                          8,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -500,8 +570,8 @@
                                       ]
                                     ]
                                   ],
-                                  7,
-                                  8,
+                                  9,
+                                  10,
                                   [
                                     "Block",
                                     [
@@ -509,38 +579,52 @@
                                         "Command",
                                         [
                                           "CreateNormalAttack",
-                                          8,
+                                          10,
                                           255,
                                           null,
                                           null,
                                           73,
-                                          {
-                                            "max": 11,
-                                            "min": 9.49
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 11,
+                                              "min": 9.49
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 6,
-                                            "min": 6
-                                          },
-                                          {
-                                            "max": 2.6666666666666665,
-                                            "min": 2.6666666666666665
-                                          },
+                                          [
+                                            {
+                                              "max": 6,
+                                              "min": 6
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 2.6666666666666665,
+                                              "min": 2.6666666666666665
+                                            }
+                                          ],
                                           [
                                             "Fine"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]
@@ -553,6 +637,11 @@
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

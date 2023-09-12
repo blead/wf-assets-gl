@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -37,25 +40,47 @@
                   [
                     [
                       "ACSkillDamage",
-                      {
-                        "max": 3600,
-                        "min": 3600
-                      },
-                      {
-                        "max": 0.25,
-                        "min": 0.25
-                      },
-                      1
+                      [
+                        {
+                          "max": 3600,
+                          "min": 3600
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.25,
+                          "min": 0.25
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]

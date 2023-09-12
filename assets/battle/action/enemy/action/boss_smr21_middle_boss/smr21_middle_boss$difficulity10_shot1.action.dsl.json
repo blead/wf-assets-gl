@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -28,7 +31,12 @@
           false,
           [
             "Circle",
-            50
+            [
+              {
+                "max": 50,
+                "min": 50
+              }
+            ]
           ],
           [
             "Center"
@@ -134,7 +142,7 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           3,
                           3,
@@ -151,33 +159,45 @@
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.5,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.5,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -201,33 +221,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 5,
-                    "min": 5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 5,
+                      "min": 5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -247,7 +281,12 @@
           false,
           [
             "Circle",
-            50
+            [
+              {
+                "max": 50,
+                "min": 50
+              }
+            ]
           ],
           [
             "Center"
@@ -353,7 +392,7 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           3,
                           8,
@@ -370,33 +409,45 @@
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.5,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.5,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -420,33 +471,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 5,
-                    "min": 5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 5,
+                      "min": 5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -466,7 +531,12 @@
           false,
           [
             "Circle",
-            50
+            [
+              {
+                "max": 50,
+                "min": 50
+              }
+            ]
           ],
           [
             "Center"
@@ -572,7 +642,7 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           3,
                           13,
@@ -589,33 +659,45 @@
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.5,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.5,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -639,33 +721,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 5,
-                    "min": 5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 5,
+                      "min": 5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

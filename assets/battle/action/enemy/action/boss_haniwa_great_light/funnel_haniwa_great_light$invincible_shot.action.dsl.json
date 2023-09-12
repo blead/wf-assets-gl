@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -21,7 +24,11 @@
             "DCInvincible"
           ],
           1,
-          0
+          0,
+          "",
+          [
+            "Default"
+          ]
         ]
       ],
       [
@@ -32,20 +39,35 @@
           [
             [
               "ACInvincible",
-              {
-                "max": 999999,
-                "min": 999999
-              }
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "None"
           ],
           false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ]

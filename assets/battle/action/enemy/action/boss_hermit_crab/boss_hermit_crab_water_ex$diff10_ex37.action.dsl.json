@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -17,10 +20,12 @@
         [
           "CreateBarrier",
           -17,
-          {
-            "max": 0.08,
-            "min": 0.08
-          },
+          [
+            {
+              "max": 0.08,
+              "min": 0.08
+            }
+          ],
           [
             "GenericBarrierHitEffect"
           ]

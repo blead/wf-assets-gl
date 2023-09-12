@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -44,7 +47,7 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   3,
                   0,
@@ -61,30 +64,39 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.5,
-                            "min": 0.5
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.5,
+                              "min": 0.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -95,25 +107,47 @@
                           [
                             [
                               "ACSkillDamage",
-                              {
-                                "max": 1800,
-                                "min": 1800
-                              },
-                              {
-                                "max": -0.5,
-                                "min": -0.5
-                              },
-                              1
+                              [
+                                {
+                                  "max": 1800,
+                                  "min": 1800
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -0.5,
+                                  "min": -0.5
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -125,25 +159,43 @@
                           [
                             [
                               "ACFrozen",
-                              {
-                                "max": 1800,
-                                "min": 1800
-                              },
+                              [
+                                {
+                                  "max": 1800,
+                                  "min": 1800
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -169,7 +221,7 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   3,
                   2,
@@ -186,30 +238,39 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.5,
-                            "min": 0.5
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.5,
+                              "min": 0.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -220,25 +281,47 @@
                           [
                             [
                               "ACSkillDamage",
-                              {
-                                "max": 1800,
-                                "min": 1800
-                              },
-                              {
-                                "max": -0.5,
-                                "min": -0.5
-                              },
-                              1
+                              [
+                                {
+                                  "max": 1800,
+                                  "min": 1800
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -0.5,
+                                  "min": -0.5
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -250,25 +333,43 @@
                           [
                             [
                               "ACFrozen",
-                              {
-                                "max": 1800,
-                                "min": 1800
-                              },
+                              [
+                                {
+                                  "max": 1800,
+                                  "min": 1800
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -294,7 +395,7 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   3,
                   4,
@@ -311,30 +412,39 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.5,
-                            "min": 0.5
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.5,
+                              "min": 0.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -345,25 +455,47 @@
                           [
                             [
                               "ACSkillDamage",
-                              {
-                                "max": 1800,
-                                "min": 1800
-                              },
-                              {
-                                "max": -0.5,
-                                "min": -0.5
-                              },
-                              1
+                              [
+                                {
+                                  "max": 1800,
+                                  "min": 1800
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -0.5,
+                                  "min": -0.5
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -375,25 +507,43 @@
                           [
                             [
                               "ACFrozen",
-                              {
-                                "max": 1800,
-                                "min": 1800
-                              },
+                              [
+                                {
+                                  "max": 1800,
+                                  "min": 1800
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -419,7 +569,7 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   3,
                   6,
@@ -436,30 +586,39 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.5,
-                            "min": 0.5
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.5,
+                              "min": 0.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -470,25 +629,47 @@
                           [
                             [
                               "ACSkillDamage",
-                              {
-                                "max": 1800,
-                                "min": 1800
-                              },
-                              {
-                                "max": -0.5,
-                                "min": -0.5
-                              },
-                              1
+                              [
+                                {
+                                  "max": 1800,
+                                  "min": 1800
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -0.5,
+                                  "min": -0.5
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -500,25 +681,43 @@
                           [
                             [
                               "ACFrozen",
-                              {
-                                "max": 1800,
-                                "min": 1800
-                              },
+                              [
+                                {
+                                  "max": 1800,
+                                  "min": 1800
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -567,11 +766,11 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           3,
-                          0,
-                          1,
+                          8,
+                          9,
                           [
                             "Block",
                             [
@@ -579,64 +778,95 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  1,
+                                  9,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.5,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.5,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  1,
+                                  9,
                                   [
                                     [
                                       "ACSkillDamage",
-                                      {
-                                        "max": 1800,
-                                        "min": 1800
-                                      },
-                                      {
-                                        "max": -0.5,
-                                        "min": -0.5
-                                      },
-                                      1
+                                      [
+                                        {
+                                          "max": 1800,
+                                          "min": 1800
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": -0.5,
+                                          "min": -0.5
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 1,
+                                          "min": 1
+                                        }
+                                      ]
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ],
@@ -644,29 +874,47 @@
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  1,
+                                  9,
                                   [
                                     [
                                       "ACFrozen",
-                                      {
-                                        "max": 1800,
-                                        "min": 1800
-                                      },
+                                      [
+                                        {
+                                          "max": 1800,
+                                          "min": 1800
+                                        }
+                                      ],
                                       true
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ],
@@ -692,11 +940,11 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           3,
-                          2,
-                          3,
+                          10,
+                          11,
                           [
                             "Block",
                             [
@@ -704,64 +952,95 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  3,
+                                  11,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.5,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.5,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  3,
+                                  11,
                                   [
                                     [
                                       "ACSkillDamage",
-                                      {
-                                        "max": 1800,
-                                        "min": 1800
-                                      },
-                                      {
-                                        "max": -0.5,
-                                        "min": -0.5
-                                      },
-                                      1
+                                      [
+                                        {
+                                          "max": 1800,
+                                          "min": 1800
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": -0.5,
+                                          "min": -0.5
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 1,
+                                          "min": 1
+                                        }
+                                      ]
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ],
@@ -769,29 +1048,47 @@
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  3,
+                                  11,
                                   [
                                     [
                                       "ACFrozen",
-                                      {
-                                        "max": 1800,
-                                        "min": 1800
-                                      },
+                                      [
+                                        {
+                                          "max": 1800,
+                                          "min": 1800
+                                        }
+                                      ],
                                       true
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ],
@@ -817,11 +1114,11 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           3,
-                          4,
-                          5,
+                          12,
+                          13,
                           [
                             "Block",
                             [
@@ -829,64 +1126,95 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  5,
+                                  13,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.5,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.5,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  5,
+                                  13,
                                   [
                                     [
                                       "ACSkillDamage",
-                                      {
-                                        "max": 1800,
-                                        "min": 1800
-                                      },
-                                      {
-                                        "max": -0.5,
-                                        "min": -0.5
-                                      },
-                                      1
+                                      [
+                                        {
+                                          "max": 1800,
+                                          "min": 1800
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": -0.5,
+                                          "min": -0.5
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 1,
+                                          "min": 1
+                                        }
+                                      ]
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ],
@@ -894,29 +1222,47 @@
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  5,
+                                  13,
                                   [
                                     [
                                       "ACFrozen",
-                                      {
-                                        "max": 1800,
-                                        "min": 1800
-                                      },
+                                      [
+                                        {
+                                          "max": 1800,
+                                          "min": 1800
+                                        }
+                                      ],
                                       true
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ],
@@ -942,11 +1288,11 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           3,
-                          6,
-                          7,
+                          14,
+                          15,
                           [
                             "Block",
                             [
@@ -954,64 +1300,95 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  7,
+                                  15,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.5,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.5,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  7,
+                                  15,
                                   [
                                     [
                                       "ACSkillDamage",
-                                      {
-                                        "max": 1800,
-                                        "min": 1800
-                                      },
-                                      {
-                                        "max": -0.5,
-                                        "min": -0.5
-                                      },
-                                      1
+                                      [
+                                        {
+                                          "max": 1800,
+                                          "min": 1800
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": -0.5,
+                                          "min": -0.5
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 1,
+                                          "min": 1
+                                        }
+                                      ]
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ],
@@ -1019,29 +1396,47 @@
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  7,
+                                  15,
                                   [
                                     [
                                       "ACFrozen",
-                                      {
-                                        "max": 1800,
-                                        "min": 1800
-                                      },
+                                      [
+                                        {
+                                          "max": 1800,
+                                          "min": 1800
+                                        }
+                                      ],
                                       true
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ]

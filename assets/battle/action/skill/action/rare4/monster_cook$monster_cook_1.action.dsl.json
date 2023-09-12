@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   3,
+  [
+    "None"
+  ],
   true,
   false,
   false,
@@ -79,7 +82,12 @@
           true,
           [
             "Circle",
-            150
+            [
+              {
+                "max": 150,
+                "min": 150
+              }
+            ]
           ],
           [
             "Center"
@@ -106,7 +114,7 @@
           [
             "None"
           ],
-          0,
+          1,
           [
             "Block",
             [
@@ -119,7 +127,7 @@
                     "SpecifyEffectDirectly",
                     "battle/effect/skill_unique/monster_cook/monster_cook_player"
                   ],
-                  0,
+                  1,
                   [
                     "ForesideOfCharacter"
                   ],
@@ -136,14 +144,19 @@
                   true,
                   [
                     "Some",
-                    3
+                    [
+                      {
+                        "max": 3,
+                        "min": 3
+                      }
+                    ]
                   ]
                 ]
               ]
             ]
           ],
-          1,
           2,
+          3,
           [
             "Block",
             [
@@ -151,7 +164,7 @@
                 "Command",
                 [
                   "CreateNormalAttack",
-                  2,
+                  3,
                   255,
                   [
                     8194,
@@ -159,27 +172,35 @@
                   ],
                   null,
                   6,
-                  {
-                    "max": 0.625,
-                    "min": 0.625
-                  },
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
+                  [
+                    {
+                      "max": 0.625,
+                      "min": 0.625
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 0.75,
-                    "min": 0.75
-                  },
-                  {
-                    "max": 0.625,
-                    "min": 0.625
-                  },
+                  [
+                    {
+                      "max": 0.75,
+                      "min": 0.75
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0.625,
+                      "min": 0.625
+                    }
+                  ],
                   [
                     "SpecifyHitEffectDirectly",
                     [
@@ -187,7 +208,8 @@
                       "battle/effect/skill_unique/monster_cook/monster_cook_hit"
                     ],
                     true
-                  ]
+                  ],
+                  true
                 ]
               ],
               [
@@ -198,6 +220,11 @@
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -227,7 +254,7 @@
                     "Single"
                   ],
                   60,
-                  3,
+                  4,
                   [
                     "Block",
                     [
@@ -240,7 +267,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/monster_cook/monster_cook_finish"
                           ],
-                          3,
+                          4,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -257,7 +284,12 @@
                           false,
                           [
                             "Some",
-                            3
+                            [
+                              {
+                                "max": 3,
+                                "min": 3
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -277,7 +309,12 @@
                           false,
                           [
                             "Circle",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -304,13 +341,13 @@
                           [
                             "None"
                           ],
-                          4,
+                          5,
                           [
                             "Block",
                             null
                           ],
-                          5,
                           6,
+                          7,
                           [
                             "Block",
                             [
@@ -318,7 +355,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  3,
+                                  4,
                                   [
                                     "GH",
                                     -18
@@ -343,7 +380,7 @@
                                         "Command",
                                         [
                                           "MoveHitArea",
-                                          3,
+                                          4,
                                           [
                                             "EF"
                                           ],
@@ -359,6 +396,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ],
@@ -376,7 +418,7 @@
                                 [
                                   "CreateHitArea",
                                   "*",
-                                  3,
+                                  4,
                                   [
                                     "EF"
                                   ],
@@ -387,7 +429,12 @@
                                   false,
                                   [
                                     "Circle",
-                                    5
+                                    [
+                                      {
+                                        "max": 5,
+                                        "min": 5
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -414,13 +461,13 @@
                                   [
                                     "None"
                                   ],
-                                  4,
+                                  8,
                                   [
                                     "Block",
                                     null
                                   ],
-                                  5,
-                                  6,
+                                  9,
+                                  10,
                                   [
                                     "Block",
                                     [
@@ -428,7 +475,7 @@
                                         "Command",
                                         [
                                           "CreateNormalAttack",
-                                          6,
+                                          10,
                                           255,
                                           [
                                             8194,
@@ -436,27 +483,35 @@
                                           ],
                                           null,
                                           50,
-                                          {
-                                            "max": 5,
-                                            "min": 5
-                                          },
-                                          {
-                                            "max": 0.5,
-                                            "min": 0.5
-                                          },
+                                          [
+                                            {
+                                              "max": 5,
+                                              "min": 5
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0.5,
+                                              "min": 0.5
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 4,
-                                            "min": 4
-                                          },
-                                          {
-                                            "max": 3,
-                                            "min": 3
-                                          },
+                                          [
+                                            {
+                                              "max": 4,
+                                              "min": 4
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 3,
+                                              "min": 3
+                                            }
+                                          ],
                                           [
                                             "SpecifyHitEffectDirectly",
                                             [
@@ -464,7 +519,8 @@
                                               "battle/effect/skill_unique/monster_cook/monster_cook_hit"
                                             ],
                                             true
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ],
                                       [
@@ -473,23 +529,32 @@
                                           "CreateRatioHeal",
                                           -17,
                                           2,
-                                          {
-                                            "max": 0.06,
-                                            "min": 0.06
-                                          },
+                                          [
+                                            {
+                                              "max": 0.06,
+                                              "min": 0.06
+                                            }
+                                          ],
                                           [
                                             5
                                           ],
-                                          {
-                                            "max": 0.5,
-                                            "min": 0.5
-                                          },
+                                          [
+                                            {
+                                              "max": 0.5,
+                                              "min": 0.5
+                                            }
+                                          ],
                                           [
                                             "GenericHealHitEffect"
                                           ]
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -28,8 +31,18 @@
           false,
           [
             "Rectangle",
-            160,
-            1500
+            [
+              {
+                "max": 160,
+                "min": 160
+              }
+            ],
+            [
+              {
+                "max": 1500,
+                "min": 1500
+              }
+            ]
           ],
           [
             "Center"
@@ -106,33 +119,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 2.6,
-                    "min": 2.6
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 2.6,
+                      "min": 2.6
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -152,8 +179,18 @@
           false,
           [
             "Rectangle",
-            160,
-            1500
+            [
+              {
+                "max": 160,
+                "min": 160
+              }
+            ],
+            [
+              {
+                "max": 1500,
+                "min": 1500
+              }
+            ]
           ],
           [
             "Center"
@@ -230,33 +267,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 2.6,
-                    "min": 2.6
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 2.6,
+                      "min": 2.6
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -285,8 +336,18 @@
                   false,
                   [
                     "Rectangle",
-                    160,
-                    1500
+                    [
+                      {
+                        "max": 160,
+                        "min": 160
+                      }
+                    ],
+                    [
+                      {
+                        "max": 1500,
+                        "min": 1500
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -363,33 +424,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 2.6,
-                            "min": 2.6
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.6,
+                              "min": 2.6
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -422,8 +497,18 @@
                   false,
                   [
                     "Rectangle",
-                    160,
-                    1500
+                    [
+                      {
+                        "max": 160,
+                        "min": 160
+                      }
+                    ],
+                    [
+                      {
+                        "max": 1500,
+                        "min": 1500
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -450,7 +535,7 @@
                   [
                     "None"
                   ],
-                  6,
+                  9,
                   [
                     "Block",
                     [
@@ -464,7 +549,7 @@
                             "battle/effect/enemy_general/enemy_shot_slash_large",
                             255
                           ],
-                          6,
+                          9,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -486,8 +571,8 @@
                       ]
                     ]
                   ],
-                  7,
-                  8,
+                  10,
+                  11,
                   [
                     "Block",
                     [
@@ -495,38 +580,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          8,
+                          11,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 2.6,
-                            "min": 2.6
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.6,
+                              "min": 2.6
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -559,8 +658,18 @@
                   false,
                   [
                     "Rectangle",
-                    160,
-                    1500
+                    [
+                      {
+                        "max": 160,
+                        "min": 160
+                      }
+                    ],
+                    [
+                      {
+                        "max": 1500,
+                        "min": 1500
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -587,7 +696,7 @@
                   [
                     "None"
                   ],
-                  6,
+                  12,
                   [
                     "Block",
                     [
@@ -601,7 +710,7 @@
                             "battle/effect/enemy_general/enemy_shot_slash_large",
                             255
                           ],
-                          6,
+                          12,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -623,8 +732,8 @@
                       ]
                     ]
                   ],
-                  7,
-                  8,
+                  13,
+                  14,
                   [
                     "Block",
                     [
@@ -632,38 +741,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          8,
+                          14,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 2.6,
-                            "min": 2.6
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.6,
+                              "min": 2.6
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -696,8 +819,18 @@
                   false,
                   [
                     "Rectangle",
-                    160,
-                    1500
+                    [
+                      {
+                        "max": 160,
+                        "min": 160
+                      }
+                    ],
+                    [
+                      {
+                        "max": 1500,
+                        "min": 1500
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -724,7 +857,7 @@
                   [
                     "None"
                   ],
-                  6,
+                  15,
                   [
                     "Block",
                     [
@@ -738,7 +871,7 @@
                             "battle/effect/enemy_general/enemy_shot_slash_large",
                             255
                           ],
-                          6,
+                          15,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -760,8 +893,8 @@
                       ]
                     ]
                   ],
-                  7,
-                  8,
+                  16,
+                  17,
                   [
                     "Block",
                     [
@@ -769,38 +902,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          8,
+                          17,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 2.6,
-                            "min": 2.6
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.6,
+                              "min": 2.6
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -833,8 +980,18 @@
                   false,
                   [
                     "Rectangle",
-                    160,
-                    1500
+                    [
+                      {
+                        "max": 160,
+                        "min": 160
+                      }
+                    ],
+                    [
+                      {
+                        "max": 1500,
+                        "min": 1500
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -861,7 +1018,7 @@
                   [
                     "None"
                   ],
-                  6,
+                  18,
                   [
                     "Block",
                     [
@@ -875,7 +1032,7 @@
                             "battle/effect/enemy_general/enemy_shot_slash_large",
                             255
                           ],
-                          6,
+                          18,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -897,8 +1054,8 @@
                       ]
                     ]
                   ],
-                  7,
-                  8,
+                  19,
+                  20,
                   [
                     "Block",
                     [
@@ -906,38 +1063,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          8,
+                          20,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 2.6,
-                            "min": 2.6
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.6,
+                              "min": 2.6
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]

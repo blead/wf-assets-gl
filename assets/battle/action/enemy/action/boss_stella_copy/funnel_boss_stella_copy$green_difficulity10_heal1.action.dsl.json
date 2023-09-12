@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -34,15 +37,19 @@
                 [
                   "CreateNormalHeal",
                   0,
-                  {
-                    "max": 15000,
-                    "min": 15000
-                  },
+                  [
+                    {
+                      "max": 15000,
+                      "min": 15000
+                    }
+                  ],
                   null,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericHealHitEffect"
                   ]

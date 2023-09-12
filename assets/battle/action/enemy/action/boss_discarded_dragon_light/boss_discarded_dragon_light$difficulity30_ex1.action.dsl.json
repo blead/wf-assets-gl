@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -20,25 +23,47 @@
           [
             [
               "ACToleranceOfDebuff",
-              {
-                "max": 7200,
-                "min": 7200
-              },
-              {
-                "max": 1,
-                "min": 1
-              },
-              1
+              [
+                {
+                  "max": 7200,
+                  "min": 7200
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "None"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -50,26 +75,48 @@
           [
             [
               "ACDamageOfElement",
-              {
-                "max": 7200,
-                "min": 7200
-              },
+              [
+                {
+                  "max": 7200,
+                  "min": 7200
+                }
+              ],
               254,
-              {
-                "max": 150,
-                "min": 150
-              },
-              1
+              [
+                {
+                  "max": 150,
+                  "min": 150
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -81,25 +128,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 7200,
-                "min": 7200
-              },
-              {
-                "max": 0.2,
-                "min": 0.2
-              },
-              1
+              [
+                {
+                  "max": 7200,
+                  "min": 7200
+                }
+              ],
+              [
+                {
+                  "max": 0.2,
+                  "min": 0.2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "None"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -111,26 +180,48 @@
           [
             [
               "ACToleranceOfElement",
-              {
-                "max": 7200,
-                "min": 7200
-              },
+              [
+                {
+                  "max": 7200,
+                  "min": 7200
+                }
+              ],
               254,
-              {
-                "max": 0.2,
-                "min": 0.2
-              },
-              1
+              [
+                {
+                  "max": 0.2,
+                  "min": 0.2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "None"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ]

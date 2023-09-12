@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -20,26 +23,48 @@
           [
             [
               "ACToleranceOfElement",
-              {
-                "max": 9999999,
-                "min": 9999999
-              },
+              [
+                {
+                  "max": 9999999,
+                  "min": 9999999
+                }
+              ],
               2,
-              {
-                "max": -0.1,
-                "min": -0.1
-              },
-              1
+              [
+                {
+                  "max": -0.1,
+                  "min": -0.1
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -51,25 +76,47 @@
           [
             [
               "ACDirectAttackDamageResistance",
-              {
-                "max": 9999999,
-                "min": 9999999
-              },
-              {
-                "max": -4,
-                "min": -4
-              },
-              1
+              [
+                {
+                  "max": 9999999,
+                  "min": 9999999
+                }
+              ],
+              [
+                {
+                  "max": -4,
+                  "min": -4
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ]

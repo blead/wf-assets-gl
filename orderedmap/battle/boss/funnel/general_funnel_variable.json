@@ -75,6 +75,34 @@
       ]
     }
   },
+  "funnel_strong1_rush": {
+    "100": {
+      "skill_charge_a1": [
+        [
+          "200"
+        ]
+      ],
+      "skill_charge_a2": [
+        [
+          "180"
+        ]
+      ]
+    }
+  },
+  "funnel_strong2_rush": {
+    "100": {
+      "skill_charge_b1": [
+        [
+          "200"
+        ]
+      ],
+      "skill_charge_b2": [
+        [
+          "180"
+        ]
+      ]
+    }
+  },
   "funnel_strong1_single": {
     "79": {
       "skill_charge_a1": [
@@ -779,6 +807,62 @@
       ]
     }
   },
+  "funnel_middle_boss_dragon_smr20_raid1": {
+    "49": {
+      "neutral": [
+        [
+          "90"
+        ]
+      ],
+      "charge": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_middle_boss_dragon_smr20_raid2": {
+    "69": {
+      "neutral": [
+        [
+          "90"
+        ]
+      ],
+      "charge": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_middle_boss_dragon_smr20_raid3": {
+    "89": {
+      "neutral": [
+        [
+          "90"
+        ]
+      ],
+      "charge": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_middle_boss_dragon_smr20_raid4": {
+    "100": {
+      "neutral": [
+        [
+          "90"
+        ]
+      ],
+      "charge": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
   "funnel_middle_boss_dragon_smr20": {
     "49": {
       "neutral": [
@@ -813,6 +897,62 @@
       "charge": [
         [
           "120"
+        ]
+      ]
+    }
+  },
+  "funnel_middle_boss_dragon_anv1_raid1": {
+    "49": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "charge": [
+        [
+          "180"
+        ]
+      ]
+    }
+  },
+  "funnel_middle_boss_dragon_anv1_raid2": {
+    "79": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "charge": [
+        [
+          "180"
+        ]
+      ]
+    }
+  },
+  "funnel_middle_boss_dragon_anv1_raid3": {
+    "89": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "charge": [
+        [
+          "180"
+        ]
+      ]
+    }
+  },
+  "funnel_middle_boss_dragon_anv1_raid4": {
+    "100": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "charge": [
+        [
+          "180"
         ]
       ]
     }
@@ -1077,6 +1217,296 @@
       ]
     }
   },
+  "hungry_dragon_funnel_mini1": {
+    "100": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "skill_wait": [
+        [
+          "30"
+        ]
+      ],
+      "skill_dash_1": [
+        [
+          "10"
+        ]
+      ],
+      "skill_dash_2": [
+        [
+          "12"
+        ]
+      ],
+      "skill_dash_3": [
+        [
+          "14"
+        ]
+      ]
+    }
+  },
+  "hungry_dragon_funnel_mini2": {
+    "100": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "skill_wait": [
+        [
+          "45"
+        ]
+      ],
+      "skill_dash_1": [
+        [
+          "10"
+        ]
+      ],
+      "skill_dash_2": [
+        [
+          "12"
+        ]
+      ],
+      "skill_dash_3": [
+        [
+          "14"
+        ]
+      ]
+    }
+  },
+  "hungry_dragon_funnel_mini3": {
+    "100": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "skill_wait": [
+        [
+          "45"
+        ]
+      ],
+      "skill_dash_1": [
+        [
+          "10"
+        ]
+      ],
+      "skill_dash_2": [
+        [
+          "12"
+        ]
+      ],
+      "skill_dash_3": [
+        [
+          "14"
+        ]
+      ]
+    }
+  },
+  "hungry_dragon_funnel_mini4": {
+    "100": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "skill_wait": [
+        [
+          "30"
+        ]
+      ],
+      "skill_dash_1": [
+        [
+          "10"
+        ]
+      ],
+      "skill_dash_2": [
+        [
+          "12"
+        ]
+      ],
+      "skill_dash_3": [
+        [
+          "14"
+        ]
+      ]
+    }
+  },
+  "hungry_dragon_funnel_mini5": {
+    "100": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "skill_wait": [
+        [
+          "30"
+        ]
+      ],
+      "skill_dash_1": [
+        [
+          "10"
+        ]
+      ],
+      "skill_dash_2": [
+        [
+          "12"
+        ]
+      ],
+      "skill_dash_3": [
+        [
+          "14"
+        ]
+      ]
+    }
+  },
+  "hungry_dragon_funnel_mini6": {
+    "100": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "skill_wait": [
+        [
+          "45"
+        ]
+      ],
+      "skill_dash_1": [
+        [
+          "10"
+        ]
+      ],
+      "skill_dash_2": [
+        [
+          "12"
+        ]
+      ],
+      "skill_dash_3": [
+        [
+          "14"
+        ]
+      ]
+    }
+  },
+  "hungry_dragon_funnel_mini7": {
+    "100": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "skill_wait": [
+        [
+          "45"
+        ]
+      ],
+      "skill_dash_1": [
+        [
+          "10"
+        ]
+      ],
+      "skill_dash_2": [
+        [
+          "12"
+        ]
+      ],
+      "skill_dash_3": [
+        [
+          "14"
+        ]
+      ]
+    }
+  },
+  "hungry_dragon_funnel_mini8": {
+    "100": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "skill_wait": [
+        [
+          "90"
+        ]
+      ],
+      "skill_dash_1": [
+        [
+          "8"
+        ]
+      ],
+      "skill_dash_2": [
+        [
+          "10"
+        ]
+      ],
+      "skill_dash_3": [
+        [
+          "16"
+        ]
+      ]
+    }
+  },
+  "hungry_dragon_funnel_big9": {
+    "100": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "skill_wait": [
+        [
+          "30"
+        ]
+      ],
+      "skill_dash_1": [
+        [
+          "10"
+        ]
+      ],
+      "skill_dash_2": [
+        [
+          "12"
+        ]
+      ],
+      "skill_dash_3": [
+        [
+          "14"
+        ]
+      ]
+    }
+  },
+  "hungry_dragon_funnel_big10": {
+    "100": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "skill_wait": [
+        [
+          "45"
+        ]
+      ],
+      "skill_dash_1": [
+        [
+          "10"
+        ]
+      ],
+      "skill_dash_2": [
+        [
+          "12"
+        ]
+      ],
+      "skill_dash_3": [
+        [
+          "14"
+        ]
+      ]
+    }
+  },
   "funnel_hero_middle_boss_story": {
     "100": {
       "neutral": [
@@ -1234,6 +1664,63 @@
       ]
     }
   },
+  "funnel_haniwa_great_wind_bomb_skill": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "charge1": [
+        [
+          "120"
+        ]
+      ],
+      "charge2": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_haniwa_great_wind_bomb_pf": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "charge1": [
+        [
+          "120"
+        ]
+      ],
+      "charge2": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_haniwa_great_wind_bomb_direct": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "charge1": [
+        [
+          "120"
+        ]
+      ],
+      "charge2": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
   "funnel_haniwa_great_water_bomb": {
     "100": {
       "neutral": [
@@ -1311,6 +1798,63 @@
     }
   },
   "funnel_haniwa_great_thunder_bomb": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "charge1": [
+        [
+          "120"
+        ]
+      ],
+      "charge2": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_haniwa_great_thunder_bomb_skill": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "charge1": [
+        [
+          "120"
+        ]
+      ],
+      "charge2": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_haniwa_great_thunder_bomb_pf": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "charge1": [
+        [
+          "120"
+        ]
+      ],
+      "charge2": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_haniwa_great_thunder_bomb_direct": {
     "100": {
       "neutral": [
         [
@@ -1425,6 +1969,63 @@
     }
   },
   "funnel_haniwa_great_dark_bomb": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "charge1": [
+        [
+          "120"
+        ]
+      ],
+      "charge2": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_haniwa_great_dark_bomb_skill": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "charge1": [
+        [
+          "120"
+        ]
+      ],
+      "charge2": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_haniwa_great_dark_bomb_pf": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "charge1": [
+        [
+          "120"
+        ]
+      ],
+      "charge2": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_haniwa_great_dark_bomb_direct": {
     "100": {
       "neutral": [
         [
@@ -2409,6 +3010,15 @@
       "charge": [
         [
           "60"
+        ]
+      ]
+    }
+  },
+  "funnel_devil_commander_evil_envy_80": {
+    "100": {
+      "neutral": [
+        [
+          "150"
         ]
       ]
     }

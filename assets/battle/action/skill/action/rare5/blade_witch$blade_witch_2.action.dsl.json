@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   3,
+  [
+    "None"
+  ],
   true,
   false,
   false,
@@ -79,8 +82,18 @@
           true,
           [
             "Rectangle",
-            240,
-            480
+            [
+              {
+                "max": 240,
+                "min": 240
+              }
+            ],
+            [
+              {
+                "max": 480,
+                "min": 480
+              }
+            ]
           ],
           [
             "Center"
@@ -107,7 +120,7 @@
           [
             "None"
           ],
-          0,
+          1,
           [
             "Block",
             [
@@ -120,7 +133,7 @@
                     "SpecifyEffectDirectly",
                     "battle/effect/skill_unique/blade_witch/blade_witch_start"
                   ],
-                  0,
+                  1,
                   [
                     "ForesideOfCharacter"
                   ],
@@ -138,14 +151,19 @@
                   true,
                   [
                     "Some",
-                    6
+                    [
+                      {
+                        "max": 6,
+                        "min": 6
+                      }
+                    ]
                   ]
                 ]
               ]
             ]
           ],
-          1,
           2,
+          3,
           [
             "Block",
             [
@@ -153,32 +171,40 @@
                 "Command",
                 [
                   "CreateNormalAttack",
-                  2,
+                  3,
                   255,
                   null,
                   null,
                   7,
-                  {
-                    "max": 1.1111111111111112,
-                    "min": 0.9444444444444444
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.1111111111111112,
+                      "min": 0.9444444444444444
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 0.4444444444444444,
-                    "min": 0.4444444444444444
-                  },
-                  {
-                    "max": 0.8888888888888888,
-                    "min": 0.8888888888888888
-                  },
+                  [
+                    {
+                      "max": 0.4444444444444444,
+                      "min": 0.4444444444444444
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0.8888888888888888,
+                      "min": 0.8888888888888888
+                    }
+                  ],
                   [
                     "SpecifyHitEffectDirectly",
                     [
@@ -186,7 +212,8 @@
                       "battle/effect/skill_unique/blade_witch/blade_witch_hit"
                     ],
                     true
-                  ]
+                  ],
+                  true
                 ]
               ],
               [
@@ -197,6 +224,11 @@
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -236,7 +268,12 @@
                   true,
                   [
                     "Some",
-                    6
+                    [
+                      {
+                        "max": 6,
+                        "min": 6
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -293,7 +330,12 @@
                           true,
                           [
                             "Circle",
-                            300
+                            [
+                              {
+                                "max": 300,
+                                "min": 300
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -320,13 +362,13 @@
                           [
                             "None"
                           ],
-                          3,
+                          4,
                           [
                             "Block",
                             null
                           ],
-                          4,
                           5,
+                          6,
                           [
                             "Block",
                             [
@@ -334,35 +376,44 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  5,
+                                  6,
                                   255,
                                   null,
                                   null,
                                   80,
-                                  {
-                                    "max": 12,
-                                    "min": 10.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 12,
+                                      "min": 10.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 4,
-                                    "min": 4
-                                  },
-                                  {
-                                    "max": 8,
-                                    "min": 8
-                                  },
+                                  [
+                                    {
+                                      "max": 4,
+                                      "min": 4
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 8,
+                                      "min": 8
+                                    }
+                                  ],
                                   [
                                     "Coarse"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
@@ -373,11 +424,77 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
                     ]
                   ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          7,
+          33,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  7,
+                  [
+                    [
+                      "ACPiercing",
+                      [
+                        {
+                          "max": 600,
+                          "min": 480
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
                 ]
               ]
             ]

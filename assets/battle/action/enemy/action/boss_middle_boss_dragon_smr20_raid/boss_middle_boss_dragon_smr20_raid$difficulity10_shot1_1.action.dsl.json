@@ -1,0 +1,299 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateShockWaveAttack",
+          "*",
+          -33,
+          [
+            "AB"
+          ],
+          0,
+          0,
+          3.752457891787808,
+          [
+            "Arc",
+            1.0471975511965976
+          ],
+          [
+            "ResolveByElement",
+            "battle/effect/enemy_general/enemy_shot_wave_arc60_slow",
+            255
+          ],
+          [
+            "ForesideOfCharacter"
+          ],
+          1,
+          0,
+          1,
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateNormalAttack",
+                  1,
+                  255,
+                  null,
+                  null,
+                  0,
+                  [
+                    {
+                      "max": 0.6,
+                      "min": 0.6
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "None"
+                  ],
+                  true
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  1,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 3000,
+                          "min": 3000
+                        }
+                      ],
+                      [
+                        {
+                          "max": -0.25,
+                          "min": -0.25
+                        }
+                      ],
+                      [
+                        {
+                          "max": 10,
+                          "min": 10
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ],
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          20,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateShockWaveAttack",
+                  "*",
+                  -33,
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  2.5307274153917776,
+                  [
+                    "Arc",
+                    1.0471975511965976
+                  ],
+                  [
+                    "ResolveByElement",
+                    "battle/effect/enemy_general/enemy_shot_wave_arc60_slow",
+                    255
+                  ],
+                  [
+                    "ForesideOfCharacter"
+                  ],
+                  1,
+                  2,
+                  3,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          3,
+                          255,
+                          null,
+                          null,
+                          0,
+                          [
+                            {
+                              "max": 0.6,
+                              "min": 0.6
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "None"
+                          ],
+                          true
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          3,
+                          [
+                            [
+                              "ACAttackPoint",
+                              [
+                                {
+                                  "max": 3000,
+                                  "min": 3000
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -0.25,
+                                  "min": -0.25
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 10,
+                                  "min": 10
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "None"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

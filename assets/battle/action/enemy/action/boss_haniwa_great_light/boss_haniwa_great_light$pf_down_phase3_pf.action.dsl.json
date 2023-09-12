@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -37,25 +40,47 @@
                   [
                     [
                       "ACPowerFlipDamageResistance",
-                      {
-                        "max": 999999,
-                        "min": 999999
-                      },
-                      {
-                        "max": -2,
-                        "min": -2
-                      },
-                      1
+                      [
+                        {
+                          "max": 999999,
+                          "min": 999999
+                        }
+                      ],
+                      [
+                        {
+                          "max": -2,
+                          "min": -2
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ],
@@ -67,25 +92,47 @@
                   [
                     [
                       "ACAttackPoint",
-                      {
-                        "max": 999999,
-                        "min": 999999
-                      },
-                      {
-                        "max": 0.5,
-                        "min": 0.5
-                      },
-                      1
+                      [
+                        {
+                          "max": 999999,
+                          "min": 999999
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.5,
+                          "min": 0.5
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
                   ],
                   false,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]

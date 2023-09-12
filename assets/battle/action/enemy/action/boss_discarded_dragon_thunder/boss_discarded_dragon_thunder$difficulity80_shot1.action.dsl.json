@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -37,7 +40,12 @@
                   false,
                   [
                     "Circle",
-                    50
+                    [
+                      {
+                        "max": 50,
+                        "min": 50
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -129,30 +137,39 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -163,25 +180,45 @@
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 420,
-                                "min": 420
-                              },
+                              [
+                                {
+                                  "max": 420,
+                                  "min": 420
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -214,7 +251,12 @@
                   false,
                   [
                     "Circle",
-                    50
+                    [
+                      {
+                        "max": 50,
+                        "min": 50
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -241,7 +283,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  3,
                   [
                     "Block",
                     [
@@ -255,7 +297,7 @@
                             "battle/effect/enemy_general/enemy_shot_burst_middle_cannon",
                             255
                           ],
-                          0,
+                          3,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -279,7 +321,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          3,
                           [
                             "CD"
                           ],
@@ -292,8 +334,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  4,
+                  5,
                   [
                     "Block",
                     [
@@ -301,64 +343,93 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          5,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          5,
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 420,
-                                "min": 420
-                              },
+                              [
+                                {
+                                  "max": 420,
+                                  "min": 420
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -391,7 +462,12 @@
                   false,
                   [
                     "Circle",
-                    50
+                    [
+                      {
+                        "max": 50,
+                        "min": 50
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -418,7 +494,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  6,
                   [
                     "Block",
                     [
@@ -432,7 +508,7 @@
                             "battle/effect/enemy_general/enemy_shot_burst_middle_cannon",
                             255
                           ],
-                          0,
+                          6,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -456,7 +532,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          6,
                           [
                             "CD"
                           ],
@@ -469,8 +545,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  7,
+                  8,
                   [
                     "Block",
                     [
@@ -478,64 +554,93 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          8,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          8,
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 420,
-                                "min": 420
-                              },
+                              [
+                                {
+                                  "max": 420,
+                                  "min": 420
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -568,7 +673,12 @@
                   false,
                   [
                     "Circle",
-                    50
+                    [
+                      {
+                        "max": 50,
+                        "min": 50
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -595,7 +705,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  9,
                   [
                     "Block",
                     [
@@ -609,7 +719,7 @@
                             "battle/effect/enemy_general/enemy_shot_burst_middle_cannon",
                             255
                           ],
-                          0,
+                          9,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -633,7 +743,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          9,
                           [
                             "CD"
                           ],
@@ -646,8 +756,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  10,
+                  11,
                   [
                     "Block",
                     [
@@ -655,64 +765,93 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          11,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          11,
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 420,
-                                "min": 420
-                              },
+                              [
+                                {
+                                  "max": 420,
+                                  "min": 420
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -745,7 +884,12 @@
                   false,
                   [
                     "Circle",
-                    50
+                    [
+                      {
+                        "max": 50,
+                        "min": 50
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -772,7 +916,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  12,
                   [
                     "Block",
                     [
@@ -786,7 +930,7 @@
                             "battle/effect/enemy_general/enemy_shot_burst_middle_cannon",
                             255
                           ],
-                          0,
+                          12,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -810,7 +954,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          12,
                           [
                             "CD"
                           ],
@@ -823,8 +967,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  13,
+                  14,
                   [
                     "Block",
                     [
@@ -832,64 +976,93 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          14,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          14,
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 420,
-                                "min": 420
-                              },
+                              [
+                                {
+                                  "max": 420,
+                                  "min": 420
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -931,7 +1104,12 @@
                           false,
                           [
                             "Circle",
-                            50
+                            [
+                              {
+                                "max": 50,
+                                "min": 50
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -958,7 +1136,7 @@
                           [
                             "None"
                           ],
-                          0,
+                          15,
                           [
                             "Block",
                             [
@@ -972,7 +1150,7 @@
                                     "battle/effect/enemy_general/enemy_shot_burst_middle_cannon",
                                     255
                                   ],
-                                  0,
+                                  15,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -996,7 +1174,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  0,
+                                  15,
                                   [
                                     "CD"
                                   ],
@@ -1009,8 +1187,8 @@
                               ]
                             ]
                           ],
-                          1,
-                          2,
+                          16,
+                          17,
                           [
                             "Block",
                             [
@@ -1018,64 +1196,93 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  2,
+                                  17,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 2,
-                                    "min": 2
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 2,
+                                      "min": 2
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  2,
+                                  17,
                                   [
                                     [
                                       "ACParalysis",
-                                      {
-                                        "max": 420,
-                                        "min": 420
-                                      },
+                                      [
+                                        {
+                                          "max": 420,
+                                          "min": 420
+                                        }
+                                      ],
                                       true
                                     ]
                                   ],
-                                  {
-                                    "max": 0.2,
-                                    "min": 0.2
-                                  },
+                                  [
+                                    {
+                                      "max": 0.2,
+                                      "min": 0.2
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -1108,7 +1315,12 @@
                           false,
                           [
                             "Circle",
-                            50
+                            [
+                              {
+                                "max": 50,
+                                "min": 50
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -1135,7 +1347,7 @@
                           [
                             "None"
                           ],
-                          0,
+                          18,
                           [
                             "Block",
                             [
@@ -1149,7 +1361,7 @@
                                     "battle/effect/enemy_general/enemy_shot_burst_middle_cannon",
                                     255
                                   ],
-                                  0,
+                                  18,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -1173,7 +1385,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  0,
+                                  18,
                                   [
                                     "CD"
                                   ],
@@ -1186,8 +1398,8 @@
                               ]
                             ]
                           ],
-                          1,
-                          2,
+                          19,
+                          20,
                           [
                             "Block",
                             [
@@ -1195,64 +1407,93 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  2,
+                                  20,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 2,
-                                    "min": 2
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 2,
+                                      "min": 2
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  2,
+                                  20,
                                   [
                                     [
                                       "ACParalysis",
-                                      {
-                                        "max": 420,
-                                        "min": 420
-                                      },
+                                      [
+                                        {
+                                          "max": 420,
+                                          "min": 420
+                                        }
+                                      ],
                                       true
                                     ]
                                   ],
-                                  {
-                                    "max": 0.2,
-                                    "min": 0.2
-                                  },
+                                  [
+                                    {
+                                      "max": 0.2,
+                                      "min": 0.2
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -1285,7 +1526,12 @@
                           false,
                           [
                             "Circle",
-                            50
+                            [
+                              {
+                                "max": 50,
+                                "min": 50
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -1312,7 +1558,7 @@
                           [
                             "None"
                           ],
-                          0,
+                          21,
                           [
                             "Block",
                             [
@@ -1326,7 +1572,7 @@
                                     "battle/effect/enemy_general/enemy_shot_burst_middle_cannon",
                                     255
                                   ],
-                                  0,
+                                  21,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -1350,7 +1596,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  0,
+                                  21,
                                   [
                                     "CD"
                                   ],
@@ -1363,8 +1609,8 @@
                               ]
                             ]
                           ],
-                          1,
-                          2,
+                          22,
+                          23,
                           [
                             "Block",
                             [
@@ -1372,64 +1618,93 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  2,
+                                  23,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 2,
-                                    "min": 2
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 2,
+                                      "min": 2
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  2,
+                                  23,
                                   [
                                     [
                                       "ACParalysis",
-                                      {
-                                        "max": 420,
-                                        "min": 420
-                                      },
+                                      [
+                                        {
+                                          "max": 420,
+                                          "min": 420
+                                        }
+                                      ],
                                       true
                                     ]
                                   ],
-                                  {
-                                    "max": 0.2,
-                                    "min": 0.2
-                                  },
+                                  [
+                                    {
+                                      "max": 0.2,
+                                      "min": 0.2
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -1462,7 +1737,12 @@
                           false,
                           [
                             "Circle",
-                            50
+                            [
+                              {
+                                "max": 50,
+                                "min": 50
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -1489,7 +1769,7 @@
                           [
                             "None"
                           ],
-                          0,
+                          24,
                           [
                             "Block",
                             [
@@ -1503,7 +1783,7 @@
                                     "battle/effect/enemy_general/enemy_shot_burst_middle_cannon",
                                     255
                                   ],
-                                  0,
+                                  24,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -1527,7 +1807,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  0,
+                                  24,
                                   [
                                     "CD"
                                   ],
@@ -1540,8 +1820,8 @@
                               ]
                             ]
                           ],
-                          1,
-                          2,
+                          25,
+                          26,
                           [
                             "Block",
                             [
@@ -1549,64 +1829,93 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  2,
+                                  26,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 2,
-                                    "min": 2
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 2,
+                                      "min": 2
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  2,
+                                  26,
                                   [
                                     [
                                       "ACParalysis",
-                                      {
-                                        "max": 420,
-                                        "min": 420
-                                      },
+                                      [
+                                        {
+                                          "max": 420,
+                                          "min": 420
+                                        }
+                                      ],
                                       true
                                     ]
                                   ],
-                                  {
-                                    "max": 0.2,
-                                    "min": 0.2
-                                  },
+                                  [
+                                    {
+                                      "max": 0.2,
+                                      "min": 0.2
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -1639,7 +1948,12 @@
                           false,
                           [
                             "Circle",
-                            50
+                            [
+                              {
+                                "max": 50,
+                                "min": 50
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -1666,7 +1980,7 @@
                           [
                             "None"
                           ],
-                          0,
+                          27,
                           [
                             "Block",
                             [
@@ -1680,7 +1994,7 @@
                                     "battle/effect/enemy_general/enemy_shot_burst_middle_cannon",
                                     255
                                   ],
-                                  0,
+                                  27,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -1704,7 +2018,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  0,
+                                  27,
                                   [
                                     "CD"
                                   ],
@@ -1717,8 +2031,8 @@
                               ]
                             ]
                           ],
-                          1,
-                          2,
+                          28,
+                          29,
                           [
                             "Block",
                             [
@@ -1726,64 +2040,93 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  2,
+                                  29,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 2,
-                                    "min": 2
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 2,
+                                      "min": 2
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  2,
+                                  29,
                                   [
                                     [
                                       "ACParalysis",
-                                      {
-                                        "max": 420,
-                                        "min": 420
-                                      },
+                                      [
+                                        {
+                                          "max": 420,
+                                          "min": 420
+                                        }
+                                      ],
                                       true
                                     ]
                                   ],
-                                  {
-                                    "max": 0.2,
-                                    "min": 0.2
-                                  },
+                                  [
+                                    {
+                                      "max": 0.2,
+                                      "min": 0.2
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]

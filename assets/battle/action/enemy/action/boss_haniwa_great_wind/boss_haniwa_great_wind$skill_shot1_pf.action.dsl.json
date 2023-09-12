@@ -1,0 +1,114 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Event",
+        [
+          "Repeat",
+          6,
+          6,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateShockWaveAttack",
+                  "*",
+                  -33,
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  3.141592653589793,
+                  [
+                    "Donut"
+                  ],
+                  [
+                    "ResolveByElement",
+                    "battle/effect/enemy_general/enemy_shot_wave_circle_fast",
+                    255
+                  ],
+                  [
+                    "ForesideOfCharacter"
+                  ],
+                  3,
+                  0,
+                  1,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          1,
+                          255,
+                          null,
+                          null,
+                          0,
+                          [
+                            {
+                              "max": 0.45,
+                              "min": 0.45
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "None"
+                          ],
+                          true
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "None"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

@@ -1,0 +1,207 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          0,
+          33,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  0,
+                  [
+                    [
+                      "ACComboRestriction",
+                      [
+                        {
+                          "max": 9999999,
+                          "min": 9999999
+                        }
+                      ],
+                      [
+                        {
+                          "max": 40,
+                          "min": 40
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  false,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_wind_turretA_direct"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            1
+          ],
+          [
+            [
+              "ACDirectAttackDamageResistance",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -9,
+                  "min": -9
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ],
+            [
+              "ACToleranceOfElement",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              1,
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_wind_turretB_direct"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            2
+          ],
+          [
+            [
+              "ACDirectAttackDamageResistance",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -9,
+                  "min": -9
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ],
+            [
+              "ACToleranceOfElement",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              1,
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

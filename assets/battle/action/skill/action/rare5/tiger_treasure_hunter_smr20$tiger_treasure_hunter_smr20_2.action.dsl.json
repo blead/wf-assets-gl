@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   3,
+  [
+    "None"
+  ],
   true,
   false,
   false,
@@ -79,7 +82,12 @@
           false,
           [
             "Circle",
-            30
+            [
+              {
+                "max": 30,
+                "min": 30
+              }
+            ]
           ],
           [
             "Center"
@@ -100,20 +108,25 @@
           ],
           [
             "Some",
-            1
+            [
+              {
+                "max": 1,
+                "min": 1
+              }
+            ]
           ],
           true,
           true,
           [
             "None"
           ],
-          0,
+          1,
           [
             "Block",
             null
           ],
-          1,
           2,
+          3,
           [
             "Block",
             [
@@ -153,7 +166,7 @@
                             "CreateImaginaryTarget",
                             -1000000
                           ],
-                          3,
+                          4,
                           [
                             "Block",
                             [
@@ -164,7 +177,7 @@
                                   -18,
                                   [
                                     "GH",
-                                    3
+                                    4
                                   ],
                                   0,
                                   1,
@@ -199,8 +212,18 @@
                   true,
                   [
                     "Rectangle",
-                    250,
-                    250
+                    [
+                      {
+                        "max": 250,
+                        "min": 250
+                      }
+                    ],
+                    [
+                      {
+                        "max": 250,
+                        "min": 250
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -217,7 +240,7 @@
                   ],
                   [
                     "CalculatedUsingMaxNumOfHits",
-                    10
+                    6
                   ],
                   [
                     "None"
@@ -227,7 +250,7 @@
                   [
                     "None"
                   ],
-                  3,
+                  5,
                   [
                     "Block",
                     [
@@ -240,7 +263,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/tiger_treasure_hunter_smr20/tiger_treasure_hunter_smr20"
                           ],
-                          3,
+                          5,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -257,14 +280,19 @@
                           true,
                           [
                             "Some",
-                            2.5
+                            [
+                              {
+                                "max": 2.5,
+                                "min": 2.5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  4,
-                  5,
+                  6,
+                  7,
                   [
                     "Block",
                     [
@@ -272,32 +300,291 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          5,
+                          7,
                           255,
                           null,
                           null,
-                          6,
-                          {
-                            "max": 1,
-                            "min": 0.86
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          7,
+                          [
+                            {
+                              "max": 1.1666666666666667,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 0.5,
-                            "min": 0.5
-                          },
+                          [
+                            {
+                              "max": 1.6666666666666667,
+                              "min": 1.6666666666666667
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0.8333333333333334,
+                              "min": 0.8333333333333334
+                            }
+                          ],
+                          [
+                            "None"
+                          ],
+                          true
+                        ]
+                      ]
+                    ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
+                  ]
+                ]
+              ],
+              [
+                "Event",
+                [
+                  "Wait",
+                  48,
+                  "*",
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "StopBall",
+                          -18,
+                          10,
+                          [
+                            "Stop"
+                          ],
+                          [
+                            "AB"
+                          ],
+                          0
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "Event",
+                [
+                  "Wait",
+                  57,
+                  "*",
+                  [
+                    "Block",
+                    [
+                      [
+                        "Event",
+                        [
+                          "Repeat",
+                          1,
+                          38,
+                          "*",
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "FindNearSubjects",
+                                  -18,
+                                  1,
+                                  49,
+                                  [
+                                    "CreateImaginaryTarget",
+                                    -1000000
+                                  ],
+                                  8,
+                                  [
+                                    "Block",
+                                    [
+                                      [
+                                        "Command",
+                                        [
+                                          "MoveBall",
+                                          -18,
+                                          [
+                                            "GH",
+                                            8
+                                          ],
+                                          0,
+                                          1,
+                                          10,
+                                          [
+                                            "Stop"
+                                          ],
+                                          true
+                                        ]
+                                      ]
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateHitArea",
+                          "*",
+                          -18,
+                          [
+                            "EF"
+                          ],
+                          0,
+                          -200,
+                          0,
+                          true,
+                          true,
+                          [
+                            "Rectangle",
+                            [
+                              {
+                                "max": 300,
+                                "min": 300
+                              }
+                            ],
+                            [
+                              {
+                                "max": 350,
+                                "min": 350
+                              }
+                            ]
+                          ],
+                          [
+                            "Center"
+                          ],
+                          [
+                            "Center"
+                          ],
+                          [
+                            "Single"
+                          ],
+                          [
+                            "SpecifyHitAreaLifetimeDirectly",
+                            38
+                          ],
+                          [
+                            "CalculatedUsingMaxNumOfHits",
+                            6
+                          ],
+                          [
+                            "None"
+                          ],
+                          false,
+                          true,
+                          [
+                            "None"
+                          ],
+                          9,
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "ShowEffect",
+                                  "追加斬撃演出",
+                                  [
+                                    "SpecifyEffectDirectly",
+                                    "battle/effect/skill_unique/tiger_treasure_hunter_smr20/tiger_treasure_hunter_smr20_combo"
+                                  ],
+                                  9,
+                                  [
+                                    "ForesideOfCharacter"
+                                  ],
+                                  [
+                                    "UntilTargetTerminates"
+                                  ],
+                                  [
+                                    "CD"
+                                  ],
+                                  0,
+                                  0,
+                                  0,
+                                  true,
+                                  true,
+                                  [
+                                    "Some",
+                                    [
+                                      {
+                                        "max": 3,
+                                        "min": 3
+                                      }
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ],
+                          10,
+                          11,
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateNormalAttack",
+                                  11,
+                                  255,
+                                  null,
+                                  null,
+                                  9,
+                                  [
+                                    {
+                                      "max": 1.3333333333333333,
+                                      "min": 1.1333333333333333
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  [
+                                    {
+                                      "max": 1.3333333333333333,
+                                      "min": 1.3333333333333333
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0.6666666666666666,
+                                      "min": 0.6666666666666666
+                                    }
+                                  ],
+                                  [
+                                    "None"
+                                  ],
+                                  true
+                                ]
+                              ]
+                            ]
+                          ],
+                          0,
+                          0,
                           [
                             "None"
                           ]
@@ -306,240 +593,13 @@
                     ]
                   ]
                 ]
-              ],
-              [
-                "Command",
-                [
-                  "ConditionalsCombo",
-                  20,
-                  [
-                    "Block",
-                    [
-                      [
-                        "Event",
-                        [
-                          "Wait",
-                          48,
-                          "*",
-                          [
-                            "Block",
-                            [
-                              [
-                                "Command",
-                                [
-                                  "StopBall",
-                                  -18,
-                                  10,
-                                  [
-                                    "Stop"
-                                  ],
-                                  [
-                                    "AB"
-                                  ],
-                                  0
-                                ]
-                              ]
-                            ]
-                          ]
-                        ]
-                      ],
-                      [
-                        "Event",
-                        [
-                          "Wait",
-                          57,
-                          "*",
-                          [
-                            "Block",
-                            [
-                              [
-                                "Event",
-                                [
-                                  "Repeat",
-                                  1,
-                                  38,
-                                  "*",
-                                  [
-                                    "Block",
-                                    [
-                                      [
-                                        "Command",
-                                        [
-                                          "FindNearSubjects",
-                                          -18,
-                                          1,
-                                          49,
-                                          [
-                                            "CreateImaginaryTarget",
-                                            -1000000
-                                          ],
-                                          6,
-                                          [
-                                            "Block",
-                                            [
-                                              [
-                                                "Command",
-                                                [
-                                                  "MoveBall",
-                                                  -18,
-                                                  [
-                                                    "GH",
-                                                    6
-                                                  ],
-                                                  0,
-                                                  1,
-                                                  10,
-                                                  [
-                                                    "Stop"
-                                                  ],
-                                                  true
-                                                ]
-                                              ]
-                                            ]
-                                          ]
-                                        ]
-                                      ]
-                                    ]
-                                  ]
-                                ]
-                              ],
-                              [
-                                "Command",
-                                [
-                                  "CreateHitArea",
-                                  "*",
-                                  -18,
-                                  [
-                                    "EF"
-                                  ],
-                                  0,
-                                  -200,
-                                  0,
-                                  true,
-                                  true,
-                                  [
-                                    "Rectangle",
-                                    300,
-                                    350
-                                  ],
-                                  [
-                                    "Center"
-                                  ],
-                                  [
-                                    "Center"
-                                  ],
-                                  [
-                                    "Single"
-                                  ],
-                                  [
-                                    "SpecifyHitAreaLifetimeDirectly",
-                                    38
-                                  ],
-                                  [
-                                    "CalculatedUsingMaxNumOfHits",
-                                    8
-                                  ],
-                                  [
-                                    "None"
-                                  ],
-                                  false,
-                                  true,
-                                  [
-                                    "None"
-                                  ],
-                                  6,
-                                  [
-                                    "Block",
-                                    [
-                                      [
-                                        "Command",
-                                        [
-                                          "ShowEffect",
-                                          "追加斬撃演出",
-                                          [
-                                            "SpecifyEffectDirectly",
-                                            "battle/effect/skill_unique/tiger_treasure_hunter_smr20/tiger_treasure_hunter_smr20_combo"
-                                          ],
-                                          6,
-                                          [
-                                            "ForesideOfCharacter"
-                                          ],
-                                          [
-                                            "UntilTargetTerminates"
-                                          ],
-                                          [
-                                            "CD"
-                                          ],
-                                          0,
-                                          0,
-                                          0,
-                                          true,
-                                          true,
-                                          [
-                                            "Some",
-                                            3
-                                          ]
-                                        ]
-                                      ]
-                                    ]
-                                  ],
-                                  7,
-                                  8,
-                                  [
-                                    "Block",
-                                    [
-                                      [
-                                        "Command",
-                                        [
-                                          "CreateNormalAttack",
-                                          8,
-                                          255,
-                                          null,
-                                          null,
-                                          6,
-                                          {
-                                            "max": 1,
-                                            "min": 0.85
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          false,
-                                          {
-                                            "max": 1,
-                                            "min": 1
-                                          },
-                                          {
-                                            "max": 0.5,
-                                            "min": 0.5
-                                          },
-                                          [
-                                            "None"
-                                          ]
-                                        ]
-                                      ]
-                                    ]
-                                  ]
-                                ]
-                              ]
-                            ]
-                          ]
-                        ]
-                      ]
-                    ]
-                  ],
-                  [
-                    "Block",
-                    null
-                  ]
-                ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

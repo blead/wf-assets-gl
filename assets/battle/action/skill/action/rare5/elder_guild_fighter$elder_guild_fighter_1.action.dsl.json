@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   3,
+  [
+    "None"
+  ],
   true,
   false,
   false,
@@ -54,8 +57,18 @@
                   false,
                   [
                     "Rectangle",
-                    450,
-                    400
+                    [
+                      {
+                        "max": 450,
+                        "min": 450
+                      }
+                    ],
+                    [
+                      {
+                        "max": 400,
+                        "min": 400
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -76,7 +89,12 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
@@ -113,7 +131,12 @@
                           false,
                           [
                             "Some",
-                            5
+                            [
+                              {
+                                "max": 5,
+                                "min": 5
+                              }
+                            ]
                           ]
                         ]
                       ]
@@ -140,33 +163,47 @@
                           null,
                           null,
                           15,
-                          {
-                            "max": 1.5583333333333331,
-                            "min": 1.5583333333333331
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.5583333333333331,
+                              "min": 1.5583333333333331
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -199,8 +236,18 @@
                   false,
                   [
                     "Rectangle",
-                    450,
-                    400
+                    [
+                      {
+                        "max": 450,
+                        "min": 450
+                      }
+                    ],
+                    [
+                      {
+                        "max": 400,
+                        "min": 400
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -221,14 +268,19 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
                   [
                     "None"
                   ],
-                  0,
+                  3,
                   [
                     "Block",
                     [
@@ -241,7 +293,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/elder_guild_fighter/elder_guild_fighter_slash_reverse"
                           ],
-                          0,
+                          3,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -258,14 +310,19 @@
                           false,
                           [
                             "Some",
-                            5
+                            [
+                              {
+                                "max": 5,
+                                "min": 5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  4,
+                  5,
                   [
                     "Block",
                     [
@@ -280,38 +337,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          5,
                           255,
                           null,
                           null,
                           15,
-                          {
-                            "max": 1.5583333333333331,
-                            "min": 1.5583333333333331
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.5583333333333331,
+                              "min": 1.5583333333333331
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -344,8 +415,18 @@
                   false,
                   [
                     "Rectangle",
-                    450,
-                    400
+                    [
+                      {
+                        "max": 450,
+                        "min": 450
+                      }
+                    ],
+                    [
+                      {
+                        "max": 400,
+                        "min": 400
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -366,14 +447,19 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
                   [
                     "None"
                   ],
-                  0,
+                  6,
                   [
                     "Block",
                     [
@@ -386,7 +472,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/elder_guild_fighter/elder_guild_fighter_slash"
                           ],
-                          0,
+                          6,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -403,14 +489,19 @@
                           false,
                           [
                             "Some",
-                            5
+                            [
+                              {
+                                "max": 5,
+                                "min": 5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  7,
+                  8,
                   [
                     "Block",
                     [
@@ -425,38 +516,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          8,
                           255,
                           null,
                           null,
                           15,
-                          {
-                            "max": 1.5583333333333331,
-                            "min": 1.5583333333333331
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.5583333333333331,
+                              "min": 1.5583333333333331
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -489,8 +594,18 @@
                   false,
                   [
                     "Rectangle",
-                    450,
-                    400
+                    [
+                      {
+                        "max": 450,
+                        "min": 450
+                      }
+                    ],
+                    [
+                      {
+                        "max": 400,
+                        "min": 400
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -511,14 +626,19 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
                   [
                     "None"
                   ],
-                  0,
+                  9,
                   [
                     "Block",
                     [
@@ -531,7 +651,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/elder_guild_fighter/elder_guild_fighter_slash_reverse"
                           ],
-                          0,
+                          9,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -548,14 +668,19 @@
                           false,
                           [
                             "Some",
-                            5
+                            [
+                              {
+                                "max": 5,
+                                "min": 5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  10,
+                  11,
                   [
                     "Block",
                     [
@@ -570,38 +695,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          11,
                           255,
                           null,
                           null,
                           15,
-                          {
-                            "max": 1.5583333333333331,
-                            "min": 1.5583333333333331
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.5583333333333331,
+                              "min": 1.5583333333333331
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -634,8 +773,18 @@
                   false,
                   [
                     "Rectangle",
-                    450,
-                    400
+                    [
+                      {
+                        "max": 450,
+                        "min": 450
+                      }
+                    ],
+                    [
+                      {
+                        "max": 400,
+                        "min": 400
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -656,14 +805,19 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
                   [
                     "None"
                   ],
-                  0,
+                  12,
                   [
                     "Block",
                     [
@@ -676,7 +830,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/elder_guild_fighter/elder_guild_fighter_slash"
                           ],
-                          0,
+                          12,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -693,14 +847,19 @@
                           false,
                           [
                             "Some",
-                            5
+                            [
+                              {
+                                "max": 5,
+                                "min": 5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  13,
+                  14,
                   [
                     "Block",
                     [
@@ -715,38 +874,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          14,
                           255,
                           null,
                           null,
                           15,
-                          {
-                            "max": 1.5583333333333331,
-                            "min": 1.5583333333333331
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.5583333333333331,
+                              "min": 1.5583333333333331
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -779,8 +952,18 @@
                   false,
                   [
                     "Rectangle",
-                    450,
-                    400
+                    [
+                      {
+                        "max": 450,
+                        "min": 450
+                      }
+                    ],
+                    [
+                      {
+                        "max": 400,
+                        "min": 400
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -801,14 +984,19 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
                   [
                     "None"
                   ],
-                  0,
+                  15,
                   [
                     "Block",
                     [
@@ -821,7 +1009,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/elder_guild_fighter/elder_guild_fighter_slash_reverse"
                           ],
-                          0,
+                          15,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -838,14 +1026,19 @@
                           false,
                           [
                             "Some",
-                            5
+                            [
+                              {
+                                "max": 5,
+                                "min": 5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  16,
+                  17,
                   [
                     "Block",
                     [
@@ -860,38 +1053,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          17,
                           255,
                           null,
                           null,
                           15,
-                          {
-                            "max": 1.5583333333333331,
-                            "min": 1.5583333333333331
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.5583333333333331,
+                              "min": 1.5583333333333331
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -924,8 +1131,18 @@
                   false,
                   [
                     "Rectangle",
-                    450,
-                    400
+                    [
+                      {
+                        "max": 450,
+                        "min": 450
+                      }
+                    ],
+                    [
+                      {
+                        "max": 400,
+                        "min": 400
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -946,14 +1163,19 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
                   [
                     "None"
                   ],
-                  0,
+                  18,
                   [
                     "Block",
                     [
@@ -966,7 +1188,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/elder_guild_fighter/elder_guild_fighter_slash"
                           ],
-                          0,
+                          18,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -983,14 +1205,19 @@
                           false,
                           [
                             "Some",
-                            5
+                            [
+                              {
+                                "max": 5,
+                                "min": 5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  19,
+                  20,
                   [
                     "Block",
                     [
@@ -1005,38 +1232,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          20,
                           255,
                           null,
                           null,
                           15,
-                          {
-                            "max": 1.5583333333333331,
-                            "min": 1.5583333333333331
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.5583333333333331,
+                              "min": 1.5583333333333331
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1069,8 +1310,18 @@
                   false,
                   [
                     "Rectangle",
-                    450,
-                    400
+                    [
+                      {
+                        "max": 450,
+                        "min": 450
+                      }
+                    ],
+                    [
+                      {
+                        "max": 400,
+                        "min": 400
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1091,14 +1342,19 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
                   [
                     "None"
                   ],
-                  0,
+                  21,
                   [
                     "Block",
                     [
@@ -1111,7 +1367,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/elder_guild_fighter/elder_guild_fighter_slash_reverse"
                           ],
-                          0,
+                          21,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1128,14 +1384,19 @@
                           false,
                           [
                             "Some",
-                            5
+                            [
+                              {
+                                "max": 5,
+                                "min": 5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  22,
+                  23,
                   [
                     "Block",
                     [
@@ -1150,38 +1411,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          23,
                           255,
                           null,
                           null,
                           15,
-                          {
-                            "max": 1.5583333333333331,
-                            "min": 1.5583333333333331
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.5583333333333331,
+                              "min": 1.5583333333333331
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1214,8 +1489,18 @@
                   false,
                   [
                     "Rectangle",
-                    450,
-                    400
+                    [
+                      {
+                        "max": 450,
+                        "min": 450
+                      }
+                    ],
+                    [
+                      {
+                        "max": 400,
+                        "min": 400
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1236,14 +1521,19 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
                   [
                     "None"
                   ],
-                  0,
+                  24,
                   [
                     "Block",
                     [
@@ -1256,7 +1546,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/elder_guild_fighter/elder_guild_fighter_slash"
                           ],
-                          0,
+                          24,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1273,14 +1563,19 @@
                           false,
                           [
                             "Some",
-                            5
+                            [
+                              {
+                                "max": 5,
+                                "min": 5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  25,
+                  26,
                   [
                     "Block",
                     [
@@ -1295,38 +1590,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          26,
                           255,
                           null,
                           null,
                           15,
-                          {
-                            "max": 1.5583333333333331,
-                            "min": 1.5583333333333331
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.5583333333333331,
+                              "min": 1.5583333333333331
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1359,8 +1668,18 @@
                   false,
                   [
                     "Rectangle",
-                    450,
-                    400
+                    [
+                      {
+                        "max": 450,
+                        "min": 450
+                      }
+                    ],
+                    [
+                      {
+                        "max": 400,
+                        "min": 400
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1381,14 +1700,19 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
                   [
                     "None"
                   ],
-                  0,
+                  27,
                   [
                     "Block",
                     [
@@ -1401,7 +1725,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/elder_guild_fighter/elder_guild_fighter_slash_reverse"
                           ],
-                          0,
+                          27,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1418,14 +1742,19 @@
                           false,
                           [
                             "Some",
-                            5
+                            [
+                              {
+                                "max": 5,
+                                "min": 5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  28,
+                  29,
                   [
                     "Block",
                     [
@@ -1440,38 +1769,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          29,
                           255,
                           null,
                           null,
                           15,
-                          {
-                            "max": 1.5583333333333331,
-                            "min": 1.5583333333333331
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.5583333333333331,
+                              "min": 1.5583333333333331
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1504,8 +1847,18 @@
                   false,
                   [
                     "Rectangle",
-                    450,
-                    400
+                    [
+                      {
+                        "max": 450,
+                        "min": 450
+                      }
+                    ],
+                    [
+                      {
+                        "max": 400,
+                        "min": 400
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1526,14 +1879,19 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
                   [
                     "None"
                   ],
-                  0,
+                  30,
                   [
                     "Block",
                     [
@@ -1546,7 +1904,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/elder_guild_fighter/elder_guild_fighter_slash"
                           ],
-                          0,
+                          30,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1563,14 +1921,19 @@
                           false,
                           [
                             "Some",
-                            5
+                            [
+                              {
+                                "max": 5,
+                                "min": 5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  31,
+                  32,
                   [
                     "Block",
                     [
@@ -1585,38 +1948,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          32,
                           255,
                           null,
                           null,
                           15,
-                          {
-                            "max": 1.5583333333333331,
-                            "min": 1.5583333333333331
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.5583333333333331,
+                              "min": 1.5583333333333331
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1649,8 +2026,18 @@
                   false,
                   [
                     "Rectangle",
-                    450,
-                    400
+                    [
+                      {
+                        "max": 450,
+                        "min": 450
+                      }
+                    ],
+                    [
+                      {
+                        "max": 400,
+                        "min": 400
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1671,14 +2058,19 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
                   [
                     "None"
                   ],
-                  0,
+                  33,
                   [
                     "Block",
                     [
@@ -1691,7 +2083,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/elder_guild_fighter/elder_guild_fighter_slash_reverse"
                           ],
-                          0,
+                          33,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1708,14 +2100,19 @@
                           false,
                           [
                             "Some",
-                            5
+                            [
+                              {
+                                "max": 5,
+                                "min": 5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  34,
+                  35,
                   [
                     "Block",
                     [
@@ -1730,38 +2127,52 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          35,
                           255,
                           null,
                           null,
                           15,
-                          {
-                            "max": 1.5583333333333331,
-                            "min": 1.5583333333333331
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.5583333333333331,
+                              "min": 1.5583333333333331
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]

@@ -1,0 +1,273 @@
+{
+  "aa": [
+    "Human",
+    "Beast",
+    "Undead"
+  ],
+  "ab": 3,
+  "ac": "Unknown",
+  "ae": [
+    "T1",
+    "*spawn-point*"
+  ],
+  "ah": 100000,
+  "ar": "battle/boss/white_tiger_ghost/white_tiger_ghost_another_wind_ex/white_tiger_ghost_another_wind_funnel_ex",
+  "as": "battle/boss/white_tiger_ghost/white_tiger_ghost_another_wind_ex/white_tiger_ghost_another_wind_funnel_ex",
+  "at": "battle/boss/white_tiger_ghost/white_tiger_ghost_another_wind_ex/white_tiger_ghost_another_wind_funnel_ex_shadow",
+  "au": [
+    {
+      "a": 0,
+      "b": 0,
+      "bq": [
+        "T1"
+      ],
+      "c": [
+        "T1",
+        "*spawn-point*"
+      ],
+      "d": [
+        "T1",
+        20000000
+      ],
+      "g": [
+        {
+          "a": 0,
+          "b": [
+            "T2",
+            [
+              "T1",
+              [
+                "T1",
+                [
+                  1
+                ]
+              ]
+            ]
+          ],
+          "bA": 1,
+          "bB": false,
+          "bJ": false,
+          "bK": false,
+          "bL": false,
+          "bM": false,
+          "bO": 1,
+          "bf": false,
+          "c": [
+            "T2",
+            [
+              "T1",
+              [
+                "T1",
+                [
+                  1
+                ]
+              ]
+            ]
+          ],
+          "d": [
+            "T1",
+            [
+              "T2",
+              1
+            ]
+          ],
+          "e": 0,
+          "f": null,
+          "g": null,
+          "h": null,
+          "i": null,
+          "k": null
+        },
+        {
+          "a": 1,
+          "b": [
+            "T2",
+            [
+              "T1",
+              [
+                "T1",
+                [
+                  1
+                ]
+              ]
+            ]
+          ],
+          "bA": 1,
+          "bB": false,
+          "bJ": false,
+          "bK": false,
+          "bL": false,
+          "bM": false,
+          "bO": 1,
+          "bf": false,
+          "c": [
+            "T2",
+            [
+              "T1",
+              [
+                "T1",
+                [
+                  1
+                ]
+              ]
+            ]
+          ],
+          "d": [
+            "T1",
+            [
+              "T2",
+              1
+            ]
+          ],
+          "e": 1,
+          "f": null,
+          "g": [
+            "待機中"
+          ],
+          "h": null,
+          "i": null,
+          "k": null
+        },
+        {
+          "a": 2,
+          "b": [
+            "T2",
+            [
+              "T1",
+              [
+                "T1",
+                [
+                  1
+                ]
+              ]
+            ]
+          ],
+          "bA": 1,
+          "bB": false,
+          "bJ": false,
+          "bK": false,
+          "bL": false,
+          "bM": false,
+          "bO": 1,
+          "bf": false,
+          "c": [
+            "T2",
+            [
+              "T1",
+              [
+                "T1",
+                [
+                  1
+                ]
+              ]
+            ]
+          ],
+          "d": [
+            "T1",
+            [
+              "T2",
+              1
+            ]
+          ],
+          "e": 1,
+          "f": null,
+          "g": null,
+          "h": null,
+          "i": [
+            {
+              "a": [
+                "T1"
+              ],
+              "b": "orb_shot4",
+              "c": 0,
+              "d": 0
+            }
+          ],
+          "k": null
+        }
+      ],
+      "h": [
+        {
+          "a": [
+            "T3",
+            1,
+            "white_tiger_ghost_another_wind_ex"
+          ],
+          "b": [
+            "T2",
+            [
+              "待機中"
+            ]
+          ],
+          "c": [
+            "T2",
+            [
+              "虎魂バフ連携用"
+            ]
+          ],
+          "d": [
+            "T1"
+          ],
+          "e": 1,
+          "f": [
+            "T3"
+          ],
+          "g": true,
+          "h": true,
+          "i": [
+            "T1",
+            [
+              2
+            ],
+            false
+          ],
+          "j": true
+        }
+      ],
+      "i": null,
+      "j": null,
+      "k": null,
+      "l": null,
+      "m": null,
+      "n": null
+    }
+  ],
+  "av": null,
+  "aw": [
+    "start",
+    "neutral"
+  ],
+  "bC": false,
+  "bD": false,
+  "bE": false,
+  "bF": [
+    "T1"
+  ],
+  "bG": "white_tiger_ghost_another_wind_ex",
+  "bH": "battle/action/enemy/action/boss_white_tiger_ghost_another_wind_ex/boss_white_tiger_ghost_another_wind_ex$",
+  "bI": [
+    "T1"
+  ],
+  "bJ": false,
+  "ba": 500,
+  "bg": true,
+  "bh": false,
+  "bi": false,
+  "bj": false,
+  "bx": [
+    "T2",
+    {
+      "a": true,
+      "b": false,
+      "c": true,
+      "d": false,
+      "e": true,
+      "f": true,
+      "g": 2,
+      "h": [
+        "T1"
+      ],
+      "k": false
+    }
+  ]
+}

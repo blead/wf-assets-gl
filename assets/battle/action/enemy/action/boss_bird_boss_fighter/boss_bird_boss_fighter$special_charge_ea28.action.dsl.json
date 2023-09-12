@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   true,
   false,
@@ -28,8 +31,18 @@
           true,
           [
             "Rectangle",
-            1,
-            1
+            [
+              {
+                "max": 1,
+                "min": 1
+              }
+            ],
+            [
+              {
+                "max": 1,
+                "min": 1
+              }
+            ]
           ],
           [
             "Center"
@@ -95,6 +108,11 @@
           [
             "Block",
             null
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

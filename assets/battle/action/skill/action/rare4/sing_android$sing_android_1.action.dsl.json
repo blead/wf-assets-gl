@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -103,25 +106,47 @@
                   [
                     [
                       "ACAttackPoint",
-                      {
-                        "max": 960,
-                        "min": 960
-                      },
-                      {
-                        "max": 0.5,
-                        "min": 0.5
-                      },
-                      1
+                      [
+                        {
+                          "max": 960,
+                          "min": 960
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.5,
+                          "min": 0.5
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]
@@ -137,25 +162,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 960,
-                "min": 960
-              },
-              {
-                "max": 0.5,
-                "min": 0.5
-              },
-              1
+              [
+                {
+                  "max": 960,
+                  "min": 960
+                }
+              ],
+              [
+                {
+                  "max": 0.5,
+                  "min": 0.5
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "None"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -163,10 +210,12 @@
         "Command",
         [
           "AddFeverPoint",
-          {
-            "max": 50,
-            "min": 50
-          }
+          [
+            {
+              "max": 50,
+              "min": 50
+            }
+          ]
         ]
       ]
     ]

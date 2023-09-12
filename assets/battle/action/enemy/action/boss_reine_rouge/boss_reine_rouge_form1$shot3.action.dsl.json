@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -34,7 +37,7 @@
             255
           ],
           [
-            "BacksideOfCharacter"
+            "ForesideOfCharacter"
           ],
           3,
           0,
@@ -51,33 +54,45 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          [
+            "None"
           ]
         ]
       ],
@@ -103,7 +118,7 @@
             255
           ],
           [
-            "BacksideOfCharacter"
+            "ForesideOfCharacter"
           ],
           3,
           2,
@@ -120,33 +135,45 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          [
+            "None"
           ]
         ]
       ],
@@ -172,7 +199,7 @@
             255
           ],
           [
-            "BacksideOfCharacter"
+            "ForesideOfCharacter"
           ],
           3,
           4,
@@ -189,33 +216,45 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          [
+            "None"
           ]
         ]
       ],
@@ -241,7 +280,7 @@
             255
           ],
           [
-            "BacksideOfCharacter"
+            "ForesideOfCharacter"
           ],
           3,
           6,
@@ -258,33 +297,45 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          [
+            "None"
           ]
         ]
       ],
@@ -319,7 +370,7 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   3,
                   8,
@@ -336,33 +387,45 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.5,
-                            "min": 0.5
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.5,
+                              "min": 0.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -388,7 +451,7 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   3,
                   10,
@@ -405,33 +468,45 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.5,
-                            "min": 0.5
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.5,
+                              "min": 0.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -457,7 +532,7 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   3,
                   12,
@@ -474,33 +549,45 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.5,
-                            "min": 0.5
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.5,
+                              "min": 0.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -526,7 +613,7 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   3,
                   14,
@@ -543,33 +630,45 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.5,
-                            "min": 0.5
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.5,
+                              "min": 0.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -613,7 +712,7 @@
                                     255
                                   ],
                                   [
-                                    "BacksideOfCharacter"
+                                    "ForesideOfCharacter"
                                   ],
                                   3,
                                   16,
@@ -630,33 +729,45 @@
                                           null,
                                           null,
                                           0,
-                                          {
-                                            "max": 0.5,
-                                            "min": 0.5
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 0.5,
+                                              "min": 0.5
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 1,
-                                            "min": 1
-                                          },
-                                          {
-                                            "max": 1,
-                                            "min": 1
-                                          },
+                                          [
+                                            {
+                                              "max": 1,
+                                              "min": 1
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 1,
+                                              "min": 1
+                                            }
+                                          ],
                                           [
                                             "None"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -35,17 +38,21 @@
                   "CreateRatioHeal",
                   0,
                   2,
-                  {
-                    "max": 0.06,
-                    "min": 0.05
-                  },
+                  [
+                    {
+                      "max": 0.06,
+                      "min": 0.05
+                    }
+                  ],
                   [
                     1
                   ],
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
                   [
                     "GenericHealHitEffect"
                   ]
@@ -61,17 +68,21 @@
           "CreateRatioHeal",
           -33,
           2,
-          {
-            "max": 0.06,
-            "min": 0.05
-          },
+          [
+            {
+              "max": 0.06,
+              "min": 0.05
+            }
+          ],
           [
             1
           ],
-          {
-            "max": 0.5,
-            "min": 0.5
-          },
+          [
+            {
+              "max": 0.5,
+              "min": 0.5
+            }
+          ],
           [
             "GenericHealHitEffect"
           ]

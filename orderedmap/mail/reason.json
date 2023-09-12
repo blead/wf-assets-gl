@@ -179,6 +179,18 @@
       "::item:: joined you!"
     ]
   ],
+  "187": [
+    [
+      "限定込み★4以上ガチャ（1回）",
+      "::item:: が仲間になった"
+    ]
+  ],
+  "188": [
+    [
+      "限定込み★4以上ガチャ（10回）",
+      "::item:: が仲間になった"
+    ]
+  ],
   "10029": [
     [
       "Rank Rewards",
@@ -449,208 +461,286 @@
       "A reward for obtaining a G rank in Speed Run: Trial by Wind\n::item::"
     ]
   ],
+  "70001": [
+    [
+      "Start Dash Exchange",
+      "You received ::item::"
+    ]
+  ],
+  "50001": [
+    [
+      "Star Speck Exchange",
+      "You received ::item::"
+    ]
+  ],
+  "60001": [
+    [
+      "スペシャルキャラ交換",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "15007": [
+    [
+      "ボーダー更新報酬",
+      "「極時の試練」6分台のタイムボーダー更新で獲得した ::item:: です"
+    ]
+  ],
+  "15006": [
+    [
+      "ボーダー更新報酬",
+      "「極時の試練」5分台のタイムボーダー更新で獲得した ::item:: です"
+    ]
+  ],
+  "15005": [
+    [
+      "ボーダー更新報酬",
+      "「極時の試練」4分台のタイムボーダー更新で獲得した ::item:: です"
+    ]
+  ],
+  "15004": [
+    [
+      "ボーダー更新報酬",
+      "「極時の試練」3分台のタイムボーダー更新で獲得した ::item:: です"
+    ]
+  ],
+  "15003": [
+    [
+      "ボーダー更新報酬",
+      "「極時の試練」2分台のタイムボーダー更新で獲得した ::item:: です"
+    ]
+  ],
+  "15002": [
+    [
+      "ボーダー更新報酬",
+      "「極時の試練」1分台のタイムボーダー更新で獲得した ::item:: です"
+    ]
+  ],
+  "15001": [
+    [
+      "ボーダー更新報酬",
+      "「極時の試練」1分以内タイムボーダー更新で獲得した ::item:: です"
+    ]
+  ],
   "9001": [
     [
-      "Rank Achievement Pack Reward",
-      "A Rank Achievement Pack Reward\n::item::"
+      "RANK 달성 패키지 보상",
+      "RANK 달성 패키지 보상입니다\n::item::"
     ]
   ],
   "9002": [
     [
-      "Monthly Pack Reward",
-      "A Monthly Pack Reward\n::item::"
+      "월정액 패키지 보상",
+      "월정액 패키지 일일 보상입니다\n::item::"
     ]
   ],
   "9020": [
     [
-      "Compensation for Inconvenience",
-      "We apologize for the inconvenience.\n::item::"
+      "게임 이용 불편 보상",
+      "게임 이용에 불편을 드려 죄송합니다\n::item::"
     ]
   ],
   "9021": [
     [
-      "World Flipper Reward",
-      "This is a gift from the World Flipper team.\n::item::"
+      "월드 플리퍼 보상",
+      "월드 플리퍼 보상입니다\n::item::"
     ]
   ],
   "9022": [
     [
-      "Maintenance Reward",
-      "Thank you for your patience throughout the maintenance.\n::item::"
+      "점검 보상",
+      "점검을 기다려 주셔서 감사합니다.\n::item::"
     ]
   ],
   "9023": [
     [
-      "Update Reward",
-      "Enjoy the new update!\n::item::"
+      "업데이트 보상",
+      "새로운 업데이트를 즐겨보세요!\n::item::"
     ]
   ],
   "9024": [
     [
       "World Flipper Team",
-      "We will strive to provide a better World Flipper experience.\n::item::"
+      "월드 플리퍼 팀에서 선물을 보내드립니다\n::item::"
     ]
   ],
   "9025": [
     [
-      "Pre-Registration Reward",
-      "Your pre-registration reward is here!\n::item::"
+      "사전예약 보상",
+      "사전예약 보상이 도착했습니다!\n::item::"
     ]
   ],
   "9026": [
     [
-      "Coupon Reward",
-      "Your coupon reward is here.\n::item::"
+      "쿠폰 보상",
+      "쿠폰 보상이 도착했습니다.\n::item::"
     ]
   ],
   "9027": [
     [
-      "Event Reward",
-      "Your event reward is here.\n::item::"
+      "이벤트 보상",
+      "이벤트 보상이 도착했습니다.\n::item::"
     ]
   ],
   "9028": [
     [
-      "World Flipper Gift",
-      "We will strive to provide a better World Flipper experience.\n::item::"
+      "월드 플리퍼의 선물",
+      "더욱 노력하는 월드 플리퍼가 되겠습니다.\n::item::"
     ]
   ],
   "9029": [
     [
-      "Sorry, Adventurer.",
-      "This is a gift to express our sincere apology.\n::item::"
+      "모험자님 죄송합니다",
+      "죄송한 마음을 담아 선물을 드립니다.\n::item::"
     ]
   ],
   "9030": [
     [
-      "Thank you, Adventurer.",
-      "This is a gift to express our gratitude.\n::item::"
+      "모험자님 감사합니다",
+      "감사의 마음을 담아 선물을 드립니다.\n::item::"
     ]
   ],
   "9031": [
     [
-      "Surprise Gift",
-      "Your surprise gift is here!\n::item::"
+      "깜짝 선물",
+      "깜짝 선물이 도착했습니다!\n::item::"
     ]
   ],
   "9032": [
     [
-      "Attendance Reward",
-      "Your attendance reward is here.\n::item::"
+      "출석 선물",
+      "출석 선물이 도착했습니다.\n::item::"
     ]
   ],
   "9033": [
     [
-      "Paid Product Arrived",
-      "Here is the product you purchased.\n::item::"
+      "결제 상품 지급",
+      "지급되지 않은 결제 상품을 지급해 드립니다.\n::item::"
     ]
   ],
   "9034": [
     [
-      "Replacement Product Arrived",
-      "Here is a replacement for the product which could not be refunded.\n::item::"
+      "대체 상품 지급",
+      "환불이 불가능한 결제 상품의 대체 상품을 지급해 드립니다.\n::item::"
     ]
   ],
   "9035": [
     [
-      "Language Warning",
-      "This is a warning for your use of inappropriate language.\nYou may be restricted from the game if you continue to use inappropriate language.\n::item::"
+      "불건전 언어 경고",
+      "모험자님께서는 불건전 언어를 사용하여 경고 조치되었습니다.\n지속 사용 시 이용 제한이 발생할 수 있습니다.\n::item::"
     ]
   ],
   "9036": [
     [
-      "Recovered Item",
-      "We recovered your item per your request. \nPlease check our response to your query for the details.\n::item::"
+      "복구 아이템 지급",
+      "접수한 문의에 따라 아이템을 복구해 드립니다\n상세 내용은 문의 답변을 참고해 주세요\n::item::"
     ]
   ],
   "9037": [
     [
-      "Community Event Gift",
-      "Here is your Community Event gift!\n::item::"
+      "커뮤니티 이벤트 선물",
+      "커뮤니티 이벤트 당첨자 선물을 보내드립니다!\n::item::"
     ]
   ],
   "9038": [
     [
-      "Direct Query Request",
-      "We have We would like to ask you to submit a direct query to our customer support for some details we would like to inform you about.\n::item::"
+      "1:1 문의 접수 안내",
+      "모험자님께 안내해 드릴 사항이 있어 \n1:1 문의 접수를 요청드립니다\n::item::"
     ]
   ],
   "9003": [
     [
-      "90-Day Monthly Pack Reward",
-      "90-Day Monthly Pack daily reward\n::item::"
+      "90일 월정액 패키지 보상",
+      "90일 월정액 패키지 일일 보상입니다\n::item::"
     ]
   ],
   "9004": [
     [
-      "Staminade Monthly Pack Reward",
-      "A Staminade Monthly Pack daily reward\n::item::"
+      "스태미너 월정액 패키지 보상",
+      "스태미너 월정액 패키지 일일 보상입니다\n::item::"
     ]
   ],
   "9005": [
     [
-      "Kaleido Boost Monthly Pack Reward",
-      "A Kaleido Boost Monthly Pack daily reward\n::item::"
+      "미궁 부스트 월정액 패키지 보상",
+      "미궁 부스트 월정액 패키지 일일 보상입니다\n::item::"
     ]
   ],
   "9006": [
     [
-      "Boss Boost Monthly Pack Reward",
-      "A Boss Boost Monthly Pack daily reward\n::item::"
+      "보스 부스트 월정액 패키지 보상",
+      "보스 부스트 월정액 패키지 일일 보상입니다\n::item::"
     ]
   ],
   "9007": [
     [
-      "Holiday Attendance Pack Reward",
-      "Holiday Attendance Pack daily reward\n::item::"
+      "홀리데이 7일 출석 패키지 보상",
+      "홀리데이 7일 출석 패키지 일일 보상입니다\n ::item::"
     ]
   ],
   "9008": [
     [
-      "Rank Achievement Pack II Reward",
-      "A Rank Achievement Pack II Reward\n ::item::"
+      "RANK 달성 패키지 Ⅱ 보상",
+      "RANK 달성 패키지 Ⅱ 보상입니다\n::item::"
     ]
   ],
   "9009": [
     [
-      "Rank Achievement Pack III Reward",
-      "A Rank Achievement Pack III Reward\n ::item::"
+      "RANK 달성 패키지 Ⅲ 보상",
+      "RANK 달성 패키지 Ⅲ 보상입니다\n::item::"
     ]
   ],
   "9010": [
     [
-      "Rank Achievement Pack IV Reward",
-      "A Rank Achievement Pack IV Reward\n ::item::"
+      "RANK 달성 패키지 Ⅳ 보상",
+      "RANK 달성 패키지 Ⅳ 보상입니다\n::item::"
     ]
   ],
   "9039": [
     [
-      "Abnormal Activity Warning",
-      "This is a warning for abnormal gameplay. You may be restricted from the game if you continue to play the game abnormally."
+      "비정상 플레이 경고",
+      "모험자님께서는 비정상 게임 이용으로 경고 조치되었습니다.\n지속해서 적발 시 이용 제한이 발생할 수 있습니다."
     ]
   ],
   "9040": [
     [
-      "Repayment Provision",
-      "The difference arising from your repayment due to an earlier  canceled purchase will be provided as Paid Lodestar Beads."
+      "재결제 상품 차액 지급",
+      "임의 취소로 인해 재결제한 상품의 차액을 \n유료 성도석으로 지급해 드립니다."
     ]
   ],
   "9041": [
     [
-      "Challenge Battles Boost Pack Reward",
-      "A Challenge Battles Boost Pack Daily Reward\n::item::"
+      "챌린지 싱글 배틀 부스트 패키지 보상",
+      "챌린지 싱글 배틀 부스트 패키지 일일 보상입니다\n::item::"
     ]
   ],
   "9042": [
     [
-      "1.5 Flipperversary Bead Pack A Reward",
-      "1.5 Flipperversary Bead Pack A Reward\n ::item::"
+      "1.5주년 기념 성도석 세트 A 보상",
+      "1.5주년 기념 성도석 세트 A 보상입니다.\n::item::"
     ]
   ],
   "9043": [
     [
-      "1.5 Flipperversary Bead Pack B Reward",
-      "1.5 Flipperversary Bead Pack B Reward\n ::item::"
+      "1.5주년 기념 성도석 세트 B 보상",
+      "1.5주년 기념 성도석 세트 B 보상입니다.\n::item::"
+    ]
+  ],
+  "14001": [
+    [
+      "コンバットダイバー ランキング報酬",
+      "「コンバットダイバー」エンドレスバトル ランキング １０００位入賞の報酬です\n::item::"
+    ]
+  ],
+  "14002": [
+    [
+      "コンバットダイバー ランキング報酬",
+      "「コンバットダイバー」エンドレスバトル ランキング ３０００位入賞の報酬です\n::item::"
+    ]
+  ],
+  "14003": [
+    [
+      "コンバットダイバー ランキング報酬",
+      "「コンバットダイバー」エンドレスバトル ランキング ６０００位入賞の報酬です\n::item::"
     ]
   ],
   "20000": [
@@ -689,6 +779,66 @@
       "A reward from entering a code during the #2ndFlipperversaryPromo.\n::item::"
     ]
   ],
+  "20015": [
+    [
+      "#祝ワーフリ2.5周年CPシェア報酬",
+      "#祝ワーフリ2.5周年CPのシェア報酬です \n::item::"
+    ]
+  ],
+  "20016": [
+    [
+      "#祝ワーフリ2.5周年CPシェア報酬ボーナス",
+      "#祝ワーフリ2.5周年CPのシェア報酬ボーナスです \n::item::"
+    ]
+  ],
+  "20017": [
+    [
+      "#祝ワーフリ2.5周年CP報酬",
+      "#祝ワーフリ2.5周年CPのポイント交換報酬です \n::item::"
+    ]
+  ],
+  "20018": [
+    [
+      "#祝ワーフリ2.5周年CP登録報酬",
+      "#祝ワーフリ2.5周年CPの登録報酬です  \n::item::"
+    ]
+  ],
+  "20019": [
+    [
+      "#祝ワーフリ2.5周年CP入力報酬",
+      "#祝ワーフリ2.5周年CPの入力報酬です \n::item::"
+    ]
+  ],
+  "20020": [
+    [
+      "#祝ワーフリ3周年CPシェア報酬",
+      "#祝ワーフリ3周年CPのシェア報酬です \n::item::"
+    ]
+  ],
+  "20021": [
+    [
+      "#祝ワーフリ3周年CPシェア報酬ボーナス",
+      "#祝ワーフリ3周年CPのシェア報酬ボーナスです \n::item::"
+    ]
+  ],
+  "20022": [
+    [
+      "#祝ワーフリ3周年CP報酬",
+      "#祝ワーフリ3周年CPのポイント交換報酬です \n::item::"
+    ]
+  ],
+  "20023": [
+    [
+      "#祝ワーフリ3周年CP登録報酬",
+      "#祝ワーフリ3周年CPの登録報酬です  \n::item::"
+    ]
+  ],
+  "20024": [
+    [
+      "#祝ワーフリ3周年CP入力報酬",
+      "#祝ワーフリ3周年CPの入力報酬です \n::item::"
+    ]
+  ],
   "114": [
     [
       "Returning Units Spotlight (1 Pull)",
@@ -699,6 +849,12 @@
     [
       "Returning Units Spotlight (10 Pulls)",
       "::item:: joined you!"
+    ]
+  ],
+  "302": [
+    [
+      "100万円プレゼントキャンペーン達成報酬",
+      "100万円プレゼントキャンペーンのミッションクリアの報酬です\n::item::"
     ]
   ],
   "13001": [
@@ -781,32 +937,104 @@
   ],
   "13014": [
     [
-      "Sagas of Conquest Global Tally Reward",
-      "A reward for all players defeating 1 boss in the Raid Event: Sagas of Conquest"
+      "戦陣の宴 討伐全体報酬",
+      "「レイドイベント 戦陣の宴」ボス50体討伐の全体報酬です\n::item::"
     ]
   ],
   "13015": [
     [
-      "Sagas of Conquest Global Tally Reward",
-      "A reward for all players defeating 2 bosses in the Raid Event: Sagas of Conquest"
+      "戦陣の宴 討伐全体報酬",
+      "「レイドイベント 戦陣の宴」ボス100体討伐の全体報酬です\n::item::"
     ]
   ],
   "13016": [
     [
-      "Sagas of Conquest Global Tally Reward",
-      "A reward for all players defeating 3 bosses in the Raid Event: Sagas of Conquest"
+      "戦陣の宴 討伐全体報酬",
+      "「レイドイベント 戦陣の宴」ボス150体討伐の全体報酬です\n::item::"
     ]
   ],
   "13017": [
     [
-      "Sagas of Conquest Global Tally Reward",
-      "A reward for all players defeating 5 bosses in the Raid Event: Sagas of Conquest"
+      "戦陣の宴 討伐全体報酬",
+      "「レイドイベント 戦陣の宴」ボス200体討伐の全体報酬です\n::item::"
+    ]
+  ],
+  "13018": [
+    [
+      "戦陣の宴 討伐全体報酬",
+      "「レイドイベント 戦陣の宴」ボス250体討伐の全体報酬です\n::item::"
+    ]
+  ],
+  "13019": [
+    [
+      "戦陣の宴 討伐全体報酬",
+      "「レイドイベント 戦陣の宴」ボス300体討伐の全体報酬です\n::item::"
+    ]
+  ],
+  "13020": [
+    [
+      "戦陣の宴 討伐全体報酬",
+      "「レイドイベント 戦陣の宴」ボス400体討伐の全体報酬です\n::item::"
+    ]
+  ],
+  "13021": [
+    [
+      "戦陣の宴 討伐全体報酬",
+      "「レイドイベント 戦陣の宴」ボス500体討伐の全体報酬です\n::item::"
+    ]
+  ],
+  "13022": [
+    [
+      "戦陣の宴 討伐全体報酬",
+      "「レイドイベント 戦陣の宴」ボス600体討伐の全体報酬です\n::item::"
+    ]
+  ],
+  "13023": [
+    [
+      "戦陣の宴 討伐全体報酬",
+      "「レイドイベント 戦陣の宴」ボス700体討伐の全体報酬です\n::item::"
+    ]
+  ],
+  "13024": [
+    [
+      "戦陣の宴 討伐全体報酬",
+      "「レイドイベント 戦陣の宴」ボス800体討伐の全体報酬です\n::item::"
+    ]
+  ],
+  "13025": [
+    [
+      "戦陣の宴 討伐全体報酬",
+      "「レイドイベント 戦陣の宴」ボス900体討伐の全体報酬です\n::item::"
+    ]
+  ],
+  "13026": [
+    [
+      "戦陣の宴 討伐全体報酬",
+      "「レイドイベント 戦陣の宴」ボス1000体討伐の全体報酬です\n::item::"
+    ]
+  ],
+  "500": [
+    [
+      "Daily Lodestar Beads Bundle Login Bonus",
+      "Daily Lodestar Beads Bundle Reward: ::item::"
+    ]
+  ],
+  "501": [
+    [
+      "Daily Lodestar Beads Bundle Rewards",
+      "Unclaimed Daily Lodestar Beads Bundle Reward: ::item::"
     ]
   ],
   "30001": [
     [
       "People's Choice Bonus",
       "A bonus selected from the People's Choice Reward. \n::item::"
+    ]
+  ],
+  "30002": [
+    [
+      "みんなでキャラチョイス",
+      "::item:: を手に入れた"
     ]
   ],
   "20001": [
@@ -819,6 +1047,30 @@
     [
       "Special Rank Rewards",
       "Please accept this Hanifolk Carnival special rank reward! ::item::"
+    ]
+  ],
+  "40001": [
+    [
+      "Unit Exchange",
+      "You received ::item::"
+    ]
+  ],
+  "200": [
+    [
+      "セットアイテム購入特典",
+      "2023年福袋セットを購入した特典です\n::item::"
+    ]
+  ],
+  "124": [
+    [
+      "Bundle Purchase Bonus",
+      "A bonus for purchasing a 2022 Grab Bag Bundle ::item::"
+    ]
+  ],
+  "126": [
+    [
+      "Bundle Purchase Bonus",
+      "A bonus for purchasing a 2022 Grab Bag Bundle ::item::"
     ]
   ],
   "116": [
@@ -839,6 +1091,12 @@
       "A bonus for purchasing a 2023 Grab Bag Bundle ::item::"
     ]
   ],
+  "999999": [
+    [
+      "Auto-Mail",
+      "Auto-Mail"
+    ]
+  ],
   "104": [
     [
       "Armament Spotlight Portal (1 Pull)",
@@ -848,6 +1106,90 @@
   "105": [
     [
       "Armament Spotlight Portal (10 Pulls)",
+      "You received ::item::"
+    ]
+  ],
+  "127": [
+    [
+      "Armament Portal Spotlight (Water Boosted) (1 Pull)",
+      "You received ::item::"
+    ]
+  ],
+  "128": [
+    [
+      "Armament Portal Spotlight (Water Boosted) (10 Pulls)",
+      "You received ::item::"
+    ]
+  ],
+  "129": [
+    [
+      "風属性装備ピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "130": [
+    [
+      "風属性装備ピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "178": [
+    [
+      "光属性装備ピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "179": [
+    [
+      "光属性装備ピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "180": [
+    [
+      "本装備ピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "181": [
+    [
+      "本装備ピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "182": [
+    [
+      "闇属性装備ピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "183": [
+    [
+      "闇属性装備ピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "191": [
+    [
+      "火属性装備ピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "192": [
+    [
+      "火属性装備ピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "301": [
+    [
+      "コンテンツガイド達成報酬",
+      "コンテンツガイドの課題を達成した報酬です\n::item::"
+    ]
+  ],
+  "80001": [
+    [
+      "Unit Stacks via Mail",
       "You received ::item::"
     ]
   ],
@@ -885,6 +1227,318 @@
     [
       "Bundle Bonus",
       "A bonus for purchasing The Start Dash Bundle ::item::"
+    ]
+  ],
+  "303": [
+    [
+      "編成プレゼントキャンペーン",
+      "パーティ編成プレゼントCPのプレゼントです\n::item::"
+    ]
+  ],
+  "131": [
+    [
+      "リリース記念ガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "132": [
+    [
+      "リリース記念ガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "133": [
+    [
+      "崩壊域攻略ピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "134": [
+    [
+      "崩壊域攻略ピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "135": [
+    [
+      "聖夜祭ピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "136": [
+    [
+      "聖夜祭ピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "137": [
+    [
+      "黒雷の廃竜ピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "138": [
+    [
+      "黒雷の廃竜ピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "139": [
+    [
+      "謹賀新年ピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "140": [
+    [
+      "謹賀新年ピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "141": [
+    [
+      "2020年福袋ガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "142": [
+    [
+      "新キャラピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "143": [
+    [
+      "新キャラピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "144": [
+    [
+      "スターヒーローズガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "145": [
+    [
+      "ピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "146": [
+    [
+      "ピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "147": [
+    [
+      "新キャラピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "148": [
+    [
+      "新キャラピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "149": [
+    [
+      "女性キャラピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "150": [
+    [
+      "女性キャラピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "151": [
+    [
+      "雷属性ピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "152": [
+    [
+      "雷属性ピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "153": [
+    [
+      "闇属性ピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "154": [
+    [
+      "闇属性ピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "155": [
+    [
+      "光属性ピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "156": [
+    [
+      "光属性ピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "157": [
+    [
+      "ワーフリガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "158": [
+    [
+      "ワーフリガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "159": [
+    [
+      "風属性ピックアップガチャ（1回)",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "160": [
+    [
+      "風属性ピックアップガチャ（10回)",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "161": [
+    [
+      "火属性ピックアップガチャ（1回)",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "162": [
+    [
+      "火属性ピックアップガチャ（10回)",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "163": [
+    [
+      "水属性ピックアップガチャ（1回)",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "164": [
+    [
+      "水属性ピックアップガチャ（10回)",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "165": [
+    [
+      "ピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "166": [
+    [
+      "ピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "167": [
+    [
+      "復刻キャラピックアップガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "168": [
+    [
+      "復刻キャラピックアップガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "169": [
+    [
+      "2021年福袋ガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "170": [
+    [
+      "2021年福袋ガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "171": [
+    [
+      "カムバックガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "172": [
+    [
+      "カムバックガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "173": [
+    [
+      "ボーナスガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "174": [
+    [
+      "★4以上確定ガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "175": [
+    [
+      "★4以上確定ガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "176": [
+    [
+      "★5確定ガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "177": [
+    [
+      "★5確定ガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "189": [
+    [
+      "限定込み★4以上ガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "190": [
+    [
+      "限定込み★4以上ガチャ（10回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "198": [
+    [
+      "流星祭ガチャ（1回）",
+      "::item:: を手に入れた"
+    ]
+  ],
+  "199": [
+    [
+      "流星祭ガチャ（10回）",
+      "::item:: を手に入れた"
     ]
   ],
   "88": [
@@ -969,6 +1623,18 @@
     [
       "The Necropolis: Conquest Spotlight Portal (10 Pulls)",
       "::item:: joined you!"
+    ]
+  ],
+  "196": [
+    [
+      "流星祭ガチャ（1回）",
+      "::item:: が仲間になった"
+    ]
+  ],
+  "197": [
+    [
+      "流星祭ガチャ（10回）",
+      "::item:: が仲間になった"
     ]
   ],
   "300": [
@@ -1169,16 +1835,58 @@
       "::item:: joined you!"
     ]
   ],
+  "193": [
+    [
+      "セットアイテム購入特典",
+      "3周年アニバーサリー記念星導石セットAを購入した特典です\n::item::"
+    ]
+  ],
+  "194": [
+    [
+      "セットアイテム購入特典",
+      "3周年アニバーサリー記念星導石セットBを購入した特典です\n::item::"
+    ]
+  ],
+  "195": [
+    [
+      "セットアイテム購入特典",
+      "3周年アニバーサリー記念星導石セットCを購入した特典です\n::item::"
+    ]
+  ],
+  "184": [
+    [
+      "セットアイテム購入特典",
+      "2.5周年アニバーサリー記念星導石セットAを購入した特典です\n::item::"
+    ]
+  ],
+  "185": [
+    [
+      "セットアイテム購入特典",
+      "2.5周年アニバーサリー記念星導石セットBを購入した特典です\n::item::"
+    ]
+  ],
+  "186": [
+    [
+      "セットアイテム購入特典",
+      "2.5周年アニバーサリー記念星導石セットCを購入した特典です\n::item::"
+    ]
+  ],
   "120": [
     [
-      "Bundle Item Bonus",
+      "Bundle Bonus",
       "A bonus received from purchasing the 2nd Flipperversary Bundle A.\n::item::"
     ]
   ],
   "121": [
     [
-      "Bundle Item Bonus",
+      "Bundle Bonus",
       "A bonus received from purchasing the 2nd Flipperversary Bundle B.\n::item::"
+    ]
+  ],
+  "21001": [
+    [
+      "100万円キャンペーン報酬",
+      "100万円キャンペーン報酬です \n::item::"
     ]
   ]
 }

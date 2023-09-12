@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   true,
   true,
@@ -96,7 +99,7 @@
                     true
                   ],
                   1,
-                  0,
+                  1,
                   [
                     "Block",
                     [
@@ -104,7 +107,7 @@
                         "Command",
                         [
                           "CreateTargetAttack",
-                          0,
+                          1,
                           0,
                           0,
                           [
@@ -151,7 +154,7 @@
                     true
                   ],
                   1,
-                  0,
+                  2,
                   [
                     "Block",
                     [
@@ -159,7 +162,7 @@
                         "Command",
                         [
                           "CreateTargetAttack",
-                          0,
+                          2,
                           0,
                           0,
                           [

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -87,7 +90,12 @@
                           false,
                           [
                             "Circle",
-                            300
+                            [
+                              {
+                                "max": 300,
+                                "min": 300
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -170,33 +178,47 @@
                                   null,
                                   null,
                                   190,
-                                  {
-                                    "max": 19,
-                                    "min": 19
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 19,
+                                      "min": 19
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 16,
-                                    "min": 16
-                                  },
-                                  {
-                                    "max": 5,
-                                    "min": 5
-                                  },
+                                  [
+                                    {
+                                      "max": 16,
+                                      "min": 16
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 5,
+                                      "min": 5
+                                    }
+                                  ],
                                   [
                                     "Splash"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]

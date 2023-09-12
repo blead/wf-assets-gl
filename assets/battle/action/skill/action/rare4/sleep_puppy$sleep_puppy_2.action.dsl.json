@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -63,21 +66,36 @@
                   [
                     [
                       "ACFrozen",
-                      {
-                        "max": 1200,
-                        "min": 1050
-                      },
+                      [
+                        {
+                          "max": 1200,
+                          "min": 1050
+                        }
+                      ],
                       true
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ],
@@ -137,17 +155,21 @@
                   "CreateRatioHeal",
                   1,
                   2,
-                  {
-                    "max": 0.08,
-                    "min": 0.056
-                  },
+                  [
+                    {
+                      "max": 0.08,
+                      "min": 0.056
+                    }
+                  ],
                   [
                     5
                   ],
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
                   [
                     "GenericHealHitEffect"
                   ]
@@ -163,17 +185,21 @@
           "CreateRatioHeal",
           -33,
           2,
-          {
-            "max": 0.08,
-            "min": 0.056
-          },
+          [
+            {
+              "max": 0.08,
+              "min": 0.056
+            }
+          ],
           [
             5
           ],
-          {
-            "max": 0.5,
-            "min": 0.5
-          },
+          [
+            {
+              "max": 0.5,
+              "min": 0.5
+            }
+          ],
           [
             "GenericHealHitEffect"
           ]

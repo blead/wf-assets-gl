@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -160,8 +163,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -182,7 +195,12 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
@@ -253,30 +271,39 @@
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -309,6 +336,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -372,8 +404,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -394,14 +436,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          5,
                                           [
                                             "Block",
                                             [
@@ -414,7 +461,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_bullet"
                                                   ],
-                                                  2,
+                                                  5,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -438,7 +485,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  2,
+                                                  5,
                                                   [
                                                     "CD"
                                                   ],
@@ -451,8 +498,8 @@
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          6,
+                                          7,
                                           [
                                             "Block",
                                             [
@@ -460,35 +507,44 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  7,
                                                   255,
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -500,7 +556,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_hit"
                                                   ],
-                                                  3,
+                                                  6,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -521,6 +577,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -584,8 +645,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -606,14 +677,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          8,
                                           [
                                             "Block",
                                             [
@@ -626,7 +702,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_bullet"
                                                   ],
-                                                  2,
+                                                  8,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -650,7 +726,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  2,
+                                                  8,
                                                   [
                                                     "CD"
                                                   ],
@@ -663,8 +739,8 @@
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          9,
+                                          10,
                                           [
                                             "Block",
                                             [
@@ -672,35 +748,44 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  10,
                                                   255,
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -712,7 +797,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_hit"
                                                   ],
-                                                  3,
+                                                  9,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -733,6 +818,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -796,8 +886,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -818,14 +918,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          11,
                                           [
                                             "Block",
                                             [
@@ -838,7 +943,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_bullet"
                                                   ],
-                                                  2,
+                                                  11,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -862,7 +967,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  2,
+                                                  11,
                                                   [
                                                     "CD"
                                                   ],
@@ -875,8 +980,8 @@
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          12,
+                                          13,
                                           [
                                             "Block",
                                             [
@@ -884,35 +989,44 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  13,
                                                   255,
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -924,7 +1038,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_hit"
                                                   ],
-                                                  3,
+                                                  12,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -945,6 +1059,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -1008,8 +1127,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -1030,14 +1159,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          14,
                                           [
                                             "Block",
                                             [
@@ -1050,7 +1184,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_bullet"
                                                   ],
-                                                  2,
+                                                  14,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -1074,7 +1208,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  2,
+                                                  14,
                                                   [
                                                     "CD"
                                                   ],
@@ -1087,8 +1221,8 @@
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          15,
+                                          16,
                                           [
                                             "Block",
                                             [
@@ -1096,35 +1230,44 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  16,
                                                   255,
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -1136,7 +1279,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_hit"
                                                   ],
-                                                  3,
+                                                  15,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -1157,6 +1300,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -1220,8 +1368,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -1242,14 +1400,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          17,
                                           [
                                             "Block",
                                             [
@@ -1262,7 +1425,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_bullet"
                                                   ],
-                                                  2,
+                                                  17,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -1286,7 +1449,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  2,
+                                                  17,
                                                   [
                                                     "CD"
                                                   ],
@@ -1299,8 +1462,8 @@
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          18,
+                                          19,
                                           [
                                             "Block",
                                             [
@@ -1308,35 +1471,44 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  19,
                                                   255,
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -1348,7 +1520,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_hit"
                                                   ],
-                                                  3,
+                                                  18,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -1369,6 +1541,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -1432,8 +1609,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -1454,14 +1641,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          20,
                                           [
                                             "Block",
                                             [
@@ -1474,7 +1666,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_bullet"
                                                   ],
-                                                  2,
+                                                  20,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -1498,7 +1690,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  2,
+                                                  20,
                                                   [
                                                     "CD"
                                                   ],
@@ -1511,8 +1703,8 @@
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          21,
+                                          22,
                                           [
                                             "Block",
                                             [
@@ -1520,35 +1712,44 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  22,
                                                   255,
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -1560,7 +1761,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_hit"
                                                   ],
-                                                  3,
+                                                  21,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -1581,6 +1782,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -1644,8 +1850,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -1666,14 +1882,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          23,
                                           [
                                             "Block",
                                             [
@@ -1686,7 +1907,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_bullet"
                                                   ],
-                                                  2,
+                                                  23,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -1710,7 +1931,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  2,
+                                                  23,
                                                   [
                                                     "CD"
                                                   ],
@@ -1723,8 +1944,8 @@
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          24,
+                                          25,
                                           [
                                             "Block",
                                             [
@@ -1732,35 +1953,44 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  25,
                                                   255,
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -1772,7 +2002,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_hit"
                                                   ],
-                                                  3,
+                                                  24,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -1793,6 +2023,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -1856,8 +2091,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -1878,14 +2123,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          26,
                                           [
                                             "Block",
                                             [
@@ -1898,7 +2148,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_bullet"
                                                   ],
-                                                  2,
+                                                  26,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -1922,7 +2172,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  2,
+                                                  26,
                                                   [
                                                     "CD"
                                                   ],
@@ -1935,8 +2185,8 @@
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          27,
+                                          28,
                                           [
                                             "Block",
                                             [
@@ -1944,35 +2194,44 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  28,
                                                   255,
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -1984,7 +2243,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_hit"
                                                   ],
-                                                  3,
+                                                  27,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -2005,6 +2264,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -2068,8 +2332,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -2090,14 +2364,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          29,
                                           [
                                             "Block",
                                             [
@@ -2110,7 +2389,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_bullet"
                                                   ],
-                                                  2,
+                                                  29,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -2134,7 +2413,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  2,
+                                                  29,
                                                   [
                                                     "CD"
                                                   ],
@@ -2147,8 +2426,8 @@
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          30,
+                                          31,
                                           [
                                             "Block",
                                             [
@@ -2156,35 +2435,44 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  31,
                                                   255,
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -2196,7 +2484,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_hit"
                                                   ],
-                                                  3,
+                                                  30,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -2217,6 +2505,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -2280,8 +2573,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -2302,14 +2605,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          32,
                                           [
                                             "Block",
                                             [
@@ -2322,7 +2630,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_bullet"
                                                   ],
-                                                  2,
+                                                  32,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -2346,7 +2654,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  2,
+                                                  32,
                                                   [
                                                     "CD"
                                                   ],
@@ -2359,8 +2667,8 @@
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          33,
+                                          34,
                                           [
                                             "Block",
                                             [
@@ -2368,35 +2676,44 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  34,
                                                   255,
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -2408,7 +2725,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_hit"
                                                   ],
-                                                  3,
+                                                  33,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -2429,6 +2746,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -2492,8 +2814,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -2514,14 +2846,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          35,
                                           [
                                             "Block",
                                             [
@@ -2534,7 +2871,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_bullet"
                                                   ],
-                                                  2,
+                                                  35,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -2558,7 +2895,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  2,
+                                                  35,
                                                   [
                                                     "CD"
                                                   ],
@@ -2571,8 +2908,8 @@
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          36,
+                                          37,
                                           [
                                             "Block",
                                             [
@@ -2580,35 +2917,44 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  37,
                                                   255,
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -2620,7 +2966,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_hit"
                                                   ],
-                                                  3,
+                                                  36,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -2641,6 +2987,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -2704,8 +3055,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -2726,14 +3087,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          38,
                                           [
                                             "Block",
                                             [
@@ -2746,7 +3112,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_bullet"
                                                   ],
-                                                  2,
+                                                  38,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -2770,7 +3136,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  2,
+                                                  38,
                                                   [
                                                     "CD"
                                                   ],
@@ -2783,8 +3149,8 @@
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          39,
+                                          40,
                                           [
                                             "Block",
                                             [
@@ -2792,35 +3158,44 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  40,
                                                   255,
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -2832,7 +3207,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_hit"
                                                   ],
-                                                  3,
+                                                  39,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -2853,6 +3228,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -2916,8 +3296,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -2938,14 +3328,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          41,
                                           [
                                             "Block",
                                             [
@@ -2958,7 +3353,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_bullet"
                                                   ],
-                                                  2,
+                                                  41,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -2982,7 +3377,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  2,
+                                                  41,
                                                   [
                                                     "CD"
                                                   ],
@@ -2995,8 +3390,8 @@
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          42,
+                                          43,
                                           [
                                             "Block",
                                             [
@@ -3004,35 +3399,44 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  43,
                                                   255,
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -3044,7 +3448,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_hit"
                                                   ],
-                                                  3,
+                                                  42,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -3065,6 +3469,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -3128,8 +3537,18 @@
                                           false,
                                           [
                                             "Rectangle",
-                                            100,
-                                            200
+                                            [
+                                              {
+                                                "max": 100,
+                                                "min": 100
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -3150,14 +3569,19 @@
                                           ],
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
                                           [
                                             "None"
                                           ],
-                                          2,
+                                          44,
                                           [
                                             "Block",
                                             [
@@ -3170,7 +3594,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_bullet"
                                                   ],
-                                                  2,
+                                                  44,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -3194,7 +3618,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  2,
+                                                  44,
                                                   [
                                                     "CD"
                                                   ],
@@ -3207,8 +3631,8 @@
                                               ]
                                             ]
                                           ],
-                                          3,
-                                          4,
+                                          45,
+                                          46,
                                           [
                                             "Block",
                                             [
@@ -3216,35 +3640,44 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  4,
+                                                  46,
                                                   255,
                                                   null,
                                                   null,
                                                   10,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -3256,7 +3689,7 @@
                                                     "SpecifyEffectDirectly",
                                                     "battle/effect/skill_unique/mermaid_1halfanv/mermaid_1halfanv_hit"
                                                   ],
-                                                  3,
+                                                  45,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -3277,6 +3710,11 @@
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -3330,7 +3768,7 @@
         "Command",
         [
           "FindAllSubjects",
-          1,
+          47,
           33,
           null,
           null,
@@ -3347,29 +3785,51 @@
                 "Command",
                 [
                   "CreateCondition",
-                  1,
+                  47,
                   [
                     [
                       "ACPowerFlipDamage",
-                      {
-                        "max": 960,
-                        "min": 960
-                      },
-                      {
-                        "max": 0.65,
-                        "min": 0.65
-                      },
-                      1
+                      [
+                        {
+                          "max": 960,
+                          "min": 960
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.65,
+                          "min": 0.65
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]

@@ -1,0 +1,1104 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateHitArea",
+          "ENEMY_SHOT_CRAW_LARGE",
+          -33,
+          [
+            "AB"
+          ],
+          -200,
+          800,
+          5.934119456780721,
+          false,
+          false,
+          [
+            "Rectangle",
+            [
+              {
+                "max": 2040,
+                "min": 2040
+              }
+            ],
+            [
+              {
+                "max": 650,
+                "min": 650
+              }
+            ]
+          ],
+          [
+            "Center"
+          ],
+          [
+            "Bottom"
+          ],
+          [
+            "Single"
+          ],
+          [
+            "SpecifyHitAreaLifetimeDirectly",
+            16
+          ],
+          [
+            "SpecifyMinHitIntervalDirectly",
+            18
+          ],
+          [
+            "None"
+          ],
+          false,
+          true,
+          [
+            "None"
+          ],
+          0,
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "ShowEffect",
+                  "弾",
+                  [
+                    "ResolveByElement",
+                    "battle/effect/enemy_general/enemy_shot_craw_large",
+                    255
+                  ],
+                  0,
+                  [
+                    "ForesideOfCharacter"
+                  ],
+                  [
+                    "UntilTargetTerminates"
+                  ],
+                  [
+                    "CD"
+                  ],
+                  0,
+                  0,
+                  3.141592653589793,
+                  true,
+                  true,
+                  [
+                    "Some",
+                    [
+                      {
+                        "max": 1.85,
+                        "min": 1.85
+                      }
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ],
+          1,
+          2,
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateNormalAttack",
+                  2,
+                  255,
+                  null,
+                  null,
+                  0,
+                  [
+                    {
+                      "max": 5,
+                      "min": 5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "None"
+                  ],
+                  true
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  2,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 9999999,
+                          "min": 9999999
+                        }
+                      ],
+                      [
+                        {
+                          "max": -0.2,
+                          "min": -0.2
+                        }
+                      ],
+                      [
+                        {
+                          "max": 99,
+                          "min": 99
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 0.2,
+                      "min": 0.2
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  2,
+                  [
+                    [
+                      "ACToleranceOfElement",
+                      [
+                        {
+                          "max": 9999999,
+                          "min": 9999999
+                        }
+                      ],
+                      254,
+                      [
+                        {
+                          "max": -0.05,
+                          "min": -0.05
+                        }
+                      ],
+                      [
+                        {
+                          "max": 99,
+                          "min": 99
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ],
+          0,
+          0,
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          2,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateHitArea",
+                  "ENEMY_SHOT_EXPLOSION_LARGE",
+                  -33,
+                  [
+                    "AB"
+                  ],
+                  350,
+                  350,
+                  3.141592653589793,
+                  false,
+                  false,
+                  [
+                    "Circle",
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Single"
+                  ],
+                  [
+                    "SpecifyHitAreaLifetimeDirectly",
+                    30
+                  ],
+                  [
+                    "SpecifyMinHitIntervalDirectly",
+                    40
+                  ],
+                  [
+                    "None"
+                  ],
+                  false,
+                  true,
+                  [
+                    "None"
+                  ],
+                  3,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "ShowEffect",
+                          "弾",
+                          [
+                            "ResolveByElement",
+                            "battle/effect/enemy_general/enemy_shot_explosion_large",
+                            255
+                          ],
+                          3,
+                          [
+                            "ForesideOfCharacter"
+                          ],
+                          [
+                            "UntilTargetTerminates"
+                          ],
+                          [
+                            "CD"
+                          ],
+                          0,
+                          0,
+                          0,
+                          true,
+                          true,
+                          [
+                            "None"
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "MoveHitArea",
+                          3,
+                          [
+                            "CD"
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  4,
+                  5,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          5,
+                          255,
+                          null,
+                          null,
+                          0,
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "None"
+                          ],
+                          true
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          5,
+                          [
+                            [
+                              "ACAttackPoint",
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -0.2,
+                                  "min": -0.2
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 99,
+                                  "min": 99
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          5,
+                          [
+                            [
+                              "ACToleranceOfElement",
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              254,
+                              [
+                                {
+                                  "max": -0.05,
+                                  "min": -0.05
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 99,
+                                  "min": 99
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ]
+                    ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          5,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateHitArea",
+                  "ENEMY_SHOT_EXPLOSION_LARGE",
+                  -33,
+                  [
+                    "AB"
+                  ],
+                  -100,
+                  450,
+                  3.141592653589793,
+                  false,
+                  false,
+                  [
+                    "Circle",
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Single"
+                  ],
+                  [
+                    "SpecifyHitAreaLifetimeDirectly",
+                    30
+                  ],
+                  [
+                    "SpecifyMinHitIntervalDirectly",
+                    40
+                  ],
+                  [
+                    "None"
+                  ],
+                  false,
+                  true,
+                  [
+                    "None"
+                  ],
+                  6,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "ShowEffect",
+                          "弾",
+                          [
+                            "ResolveByElement",
+                            "battle/effect/enemy_general/enemy_shot_explosion_large",
+                            255
+                          ],
+                          6,
+                          [
+                            "ForesideOfCharacter"
+                          ],
+                          [
+                            "UntilTargetTerminates"
+                          ],
+                          [
+                            "CD"
+                          ],
+                          0,
+                          0,
+                          0,
+                          true,
+                          true,
+                          [
+                            "None"
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "MoveHitArea",
+                          6,
+                          [
+                            "CD"
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  7,
+                  8,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          8,
+                          255,
+                          null,
+                          null,
+                          0,
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "None"
+                          ],
+                          true
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          8,
+                          [
+                            [
+                              "ACAttackPoint",
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -0.2,
+                                  "min": -0.2
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 99,
+                                  "min": 99
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          8,
+                          [
+                            [
+                              "ACToleranceOfElement",
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              254,
+                              [
+                                {
+                                  "max": -0.05,
+                                  "min": -0.05
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 99,
+                                  "min": 99
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ]
+                    ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          8,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateHitArea",
+                  "ENEMY_SHOT_EXPLOSION_LARGE",
+                  -33,
+                  [
+                    "AB"
+                  ],
+                  -450,
+                  550,
+                  3.141592653589793,
+                  false,
+                  false,
+                  [
+                    "Circle",
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Single"
+                  ],
+                  [
+                    "SpecifyHitAreaLifetimeDirectly",
+                    30
+                  ],
+                  [
+                    "SpecifyMinHitIntervalDirectly",
+                    40
+                  ],
+                  [
+                    "None"
+                  ],
+                  false,
+                  true,
+                  [
+                    "None"
+                  ],
+                  9,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "ShowEffect",
+                          "弾",
+                          [
+                            "ResolveByElement",
+                            "battle/effect/enemy_general/enemy_shot_explosion_large",
+                            255
+                          ],
+                          9,
+                          [
+                            "ForesideOfCharacter"
+                          ],
+                          [
+                            "UntilTargetTerminates"
+                          ],
+                          [
+                            "CD"
+                          ],
+                          0,
+                          0,
+                          0,
+                          true,
+                          true,
+                          [
+                            "None"
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "MoveHitArea",
+                          9,
+                          [
+                            "CD"
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  10,
+                  11,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          11,
+                          255,
+                          null,
+                          null,
+                          0,
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "None"
+                          ],
+                          true
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          11,
+                          [
+                            [
+                              "ACAttackPoint",
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -0.2,
+                                  "min": -0.2
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 99,
+                                  "min": 99
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          11,
+                          [
+                            [
+                              "ACToleranceOfElement",
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              254,
+                              [
+                                {
+                                  "max": -0.05,
+                                  "min": -0.05
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 99,
+                                  "min": 99
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ]
+                    ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

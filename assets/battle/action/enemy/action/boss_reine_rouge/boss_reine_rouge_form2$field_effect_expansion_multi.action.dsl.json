@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -17,11 +20,9 @@
         [
           "StartModifierField",
           9999999,
-          "Taking damage over time...",
-          "The field effect disappeared.",
           [
             [
-              "Poison",
+              "Slip",
               50
             ]
           ],
@@ -49,7 +50,11 @@
             3
           ],
           1,
-          1
+          1,
+          "",
+          [
+            "Default"
+          ]
         ]
       ]
     ]

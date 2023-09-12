@@ -1,0 +1,216 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACDirectAttackDamageResistance",
+              [
+                {
+                  "max": 1200,
+                  "min": 1200
+                }
+              ],
+              [
+                {
+                  "max": -0.25,
+                  "min": -0.25
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ],
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
+          [
+            "GenericConditionHitEffect"
+          ],
+          false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
+          false
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          0,
+          33,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  0,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 1800,
+                          "min": 1800
+                        }
+                      ],
+                      [
+                        {
+                          "max": 2.5,
+                          "min": 2.5
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "StartModifierField",
+          9999999,
+          [
+            [
+              "Speedup",
+              0.15
+            ]
+          ],
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          1,
+          49,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "DeleteCondition",
+                  1,
+                  [
+                    "DCAttackPoint",
+                    2
+                  ],
+                  1,
+                  1,
+                  "",
+                  [
+                    "Default"
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "DeleteCondition",
+                  1,
+                  [
+                    "DCToleranceOfElement",
+                    2
+                  ],
+                  1,
+                  1,
+                  "",
+                  [
+                    "Default"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

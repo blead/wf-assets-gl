@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -60,7 +63,12 @@
                   false,
                   [
                     "Circle",
-                    30
+                    [
+                      {
+                        "max": 30,
+                        "min": 30
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -188,30 +196,39 @@
                           null,
                           null,
                           60,
-                          {
-                            "max": 6,
-                            "min": 6
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 6,
+                              "min": 6
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 15,
-                            "min": 15
-                          },
-                          {
-                            "max": 10,
-                            "min": 10
-                          },
+                          [
+                            {
+                              "max": 15,
+                              "min": 15
+                            }
+                          ],
+                          [
+                            {
+                              "max": 10,
+                              "min": 10
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -222,26 +239,48 @@
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1500,
-                                "min": 1500
-                              },
+                              [
+                                {
+                                  "max": 1500,
+                                  "min": 1500
+                                }
+                              ],
                               1,
-                              {
-                                "max": -0.09,
-                                "min": -0.09
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.09,
+                                  "min": -0.09
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -304,6 +343,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -319,6 +363,7 @@
             1110811,
             1110812
           ],
+          null,
           1,
           [
             "Block",
@@ -348,10 +393,12 @@
           "CreateSummonsMultiball",
           1,
           1110811,
-          {
-            "max": 1800,
-            "min": 1800
-          },
+          [
+            {
+              "max": 1800,
+              "min": 1800
+            }
+          ],
           [
             "E2",
             [
@@ -376,7 +423,12 @@
             "battle/effect/skill_unique/shadow_redhood/shadow_redhood_multiball_disappear"
           ],
           0,
-          false
+          false,
+          "*",
+          4,
+          5,
+          null,
+          null
         ]
       ]
     ]

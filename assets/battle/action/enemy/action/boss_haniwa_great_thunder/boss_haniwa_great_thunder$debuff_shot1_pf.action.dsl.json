@@ -1,0 +1,134 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          0,
+          83,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "ShowEffect",
+                  "落雷",
+                  [
+                    "SpecifyEffectDirectly",
+                    "battle/effect/enemy_unique/enemy_shot_thunderbolt_small_yellow/enemy_shot_thunderbolt_small_yellow"
+                  ],
+                  0,
+                  [
+                    "ForesideOfCharacter"
+                  ],
+                  [
+                    "SpecifyEffectLifetimeDirectly",
+                    60
+                  ],
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  0,
+                  true,
+                  true,
+                  [
+                    "Some",
+                    [
+                      {
+                        "max": 6,
+                        "min": 6
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  0,
+                  [
+                    [
+                      "ACParalysis",
+                      [
+                        {
+                          "max": 3600,
+                          "min": 3600
+                        }
+                      ],
+                      true
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  false,
+                  true,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateFixedAttack",
+                  0,
+                  [
+                    {
+                      "max": 56,
+                      "min": 56
+                    }
+                  ],
+                  [
+                    "Generic"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

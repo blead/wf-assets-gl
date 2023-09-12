@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -81,7 +84,12 @@
                   false,
                   [
                     "Circle",
-                    100
+                    [
+                      {
+                        "max": 100,
+                        "min": 100
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -138,7 +146,12 @@
                           false,
                           [
                             "Some",
-                            2
+                            [
+                              {
+                                "max": 2,
+                                "min": 2
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -241,7 +254,12 @@
                                   false,
                                   [
                                     "Some",
-                                    3
+                                    [
+                                      {
+                                        "max": 3,
+                                        "min": 3
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -261,7 +279,12 @@
                                   false,
                                   [
                                     "Circle",
-                                    150
+                                    [
+                                      {
+                                        "max": 150,
+                                        "min": 150
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -282,7 +305,12 @@
                                   ],
                                   [
                                     "Some",
-                                    1
+                                    [
+                                      {
+                                        "max": 1,
+                                        "min": 1
+                                      }
+                                    ]
                                   ],
                                   false,
                                   true,
@@ -308,27 +336,35 @@
                                           null,
                                           null,
                                           20,
-                                          {
-                                            "max": 2,
-                                            "min": 2
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 2,
+                                              "min": 2
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 8,
-                                            "min": 8
-                                          },
-                                          {
-                                            "max": 2,
-                                            "min": 2
-                                          },
+                                          [
+                                            {
+                                              "max": 8,
+                                              "min": 8
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 2,
+                                              "min": 2
+                                            }
+                                          ],
                                           [
                                             "SpecifyHitEffectDirectly",
                                             [
@@ -336,10 +372,16 @@
                                               "battle/effect/skill_unique/desert_caravans/desert_caravans_hit"
                                             ],
                                             false
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ],
@@ -368,7 +410,12 @@
                                           false,
                                           [
                                             "Circle",
-                                            150
+                                            [
+                                              {
+                                                "max": 150,
+                                                "min": 150
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -389,7 +436,12 @@
                                           ],
                                           [
                                             "Some",
-                                            15
+                                            [
+                                              {
+                                                "max": 15,
+                                                "min": 15
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
@@ -415,27 +467,35 @@
                                                   null,
                                                   null,
                                                   4,
-                                                  {
-                                                    "max": 0.4,
-                                                    "min": 0.4
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 0.4,
+                                                      "min": 0.4
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 0.2,
-                                                    "min": 0.2
-                                                  },
-                                                  {
-                                                    "max": 0.5,
-                                                    "min": 0.5
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 0.2,
+                                                      "min": 0.2
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0.5,
+                                                      "min": 0.5
+                                                    }
+                                                  ],
                                                   [
                                                     "SpecifyHitEffectDirectly",
                                                     [
@@ -443,10 +503,16 @@
                                                       "battle/effect/skill_unique/desert_caravans/desert_caravans_hit"
                                                     ],
                                                     false
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ]
@@ -459,6 +525,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -470,7 +541,7 @@
         "Command",
         [
           "FindAllSubjects",
-          0,
+          10,
           33,
           null,
           null,
@@ -487,29 +558,51 @@
                 "Command",
                 [
                   "CreateCondition",
-                  0,
+                  10,
                   [
                     [
                       "ACPowerFlipDamage",
-                      {
-                        "max": 720,
-                        "min": 720
-                      },
-                      {
-                        "max": 0.6,
-                        "min": 0.6
-                      },
-                      1
+                      [
+                        {
+                          "max": 720,
+                          "min": 720
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.6,
+                          "min": 0.6
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]

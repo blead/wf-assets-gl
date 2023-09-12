@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -38,8 +41,18 @@
                   false,
                   [
                     "Rectangle",
-                    380,
-                    130
+                    [
+                      {
+                        "max": 380,
+                        "min": 380
+                      }
+                    ],
+                    [
+                      {
+                        "max": 130,
+                        "min": 130
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -96,7 +109,12 @@
                           true,
                           [
                             "Some",
-                            4
+                            [
+                              {
+                                "max": 4,
+                                "min": 4
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -131,33 +149,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.3,
-                            "min": 0.3
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.3,
+                              "min": 0.3
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -186,8 +218,18 @@
                           false,
                           [
                             "Rectangle",
-                            380,
-                            130
+                            [
+                              {
+                                "max": 380,
+                                "min": 380
+                              }
+                            ],
+                            [
+                              {
+                                "max": 130,
+                                "min": 130
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -244,7 +286,12 @@
                                   true,
                                   [
                                     "Some",
-                                    4
+                                    [
+                                      {
+                                        "max": 4,
+                                        "min": 4
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -279,33 +326,47 @@
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.3,
-                                    "min": 0.3
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.3,
+                                      "min": 0.3
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -338,8 +399,18 @@
                           false,
                           [
                             "Rectangle",
-                            380,
-                            130
+                            [
+                              {
+                                "max": 380,
+                                "min": 380
+                              }
+                            ],
+                            [
+                              {
+                                "max": 130,
+                                "min": 130
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -366,7 +437,7 @@
                           [
                             "None"
                           ],
-                          3,
+                          6,
                           [
                             "Block",
                             [
@@ -379,7 +450,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_desert_bonds_middle_boss/enemy_shot_desert_bonds_middle_boss"
                                   ],
-                                  3,
+                                  6,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -396,7 +467,12 @@
                                   true,
                                   [
                                     "Some",
-                                    4
+                                    [
+                                      {
+                                        "max": 4,
+                                        "min": 4
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -404,7 +480,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  3,
+                                  6,
                                   [
                                     "CD"
                                   ],
@@ -417,8 +493,8 @@
                               ]
                             ]
                           ],
-                          4,
-                          5,
+                          7,
+                          8,
                           [
                             "Block",
                             [
@@ -426,38 +502,52 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  5,
+                                  8,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.3,
-                                    "min": 0.3
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.3,
+                                      "min": 0.3
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -490,8 +580,18 @@
                           false,
                           [
                             "Rectangle",
-                            380,
-                            130
+                            [
+                              {
+                                "max": 380,
+                                "min": 380
+                              }
+                            ],
+                            [
+                              {
+                                "max": 130,
+                                "min": 130
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -518,7 +618,7 @@
                           [
                             "None"
                           ],
-                          3,
+                          9,
                           [
                             "Block",
                             [
@@ -531,7 +631,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_desert_bonds_middle_boss/enemy_shot_desert_bonds_middle_boss"
                                   ],
-                                  3,
+                                  9,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -548,7 +648,12 @@
                                   true,
                                   [
                                     "Some",
-                                    4
+                                    [
+                                      {
+                                        "max": 4,
+                                        "min": 4
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -556,7 +661,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  3,
+                                  9,
                                   [
                                     "CD"
                                   ],
@@ -569,8 +674,8 @@
                               ]
                             ]
                           ],
-                          4,
-                          5,
+                          10,
+                          11,
                           [
                             "Block",
                             [
@@ -578,38 +683,52 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  5,
+                                  11,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.3,
-                                    "min": 0.3
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.3,
+                                      "min": 0.3
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -642,8 +761,18 @@
                           false,
                           [
                             "Rectangle",
-                            380,
-                            130
+                            [
+                              {
+                                "max": 380,
+                                "min": 380
+                              }
+                            ],
+                            [
+                              {
+                                "max": 130,
+                                "min": 130
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -670,7 +799,7 @@
                           [
                             "None"
                           ],
-                          3,
+                          12,
                           [
                             "Block",
                             [
@@ -683,7 +812,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_desert_bonds_middle_boss/enemy_shot_desert_bonds_middle_boss"
                                   ],
-                                  3,
+                                  12,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -700,7 +829,12 @@
                                   true,
                                   [
                                     "Some",
-                                    4
+                                    [
+                                      {
+                                        "max": 4,
+                                        "min": 4
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -708,7 +842,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  3,
+                                  12,
                                   [
                                     "CD"
                                   ],
@@ -721,8 +855,8 @@
                               ]
                             ]
                           ],
-                          4,
-                          5,
+                          13,
+                          14,
                           [
                             "Block",
                             [
@@ -730,38 +864,52 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  5,
+                                  14,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.3,
-                                    "min": 0.3
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.3,
+                                      "min": 0.3
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -794,8 +942,18 @@
                           false,
                           [
                             "Rectangle",
-                            380,
-                            130
+                            [
+                              {
+                                "max": 380,
+                                "min": 380
+                              }
+                            ],
+                            [
+                              {
+                                "max": 130,
+                                "min": 130
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -822,7 +980,7 @@
                           [
                             "None"
                           ],
-                          3,
+                          15,
                           [
                             "Block",
                             [
@@ -835,7 +993,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_desert_bonds_middle_boss/enemy_shot_desert_bonds_middle_boss"
                                   ],
-                                  3,
+                                  15,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -852,7 +1010,12 @@
                                   true,
                                   [
                                     "Some",
-                                    4
+                                    [
+                                      {
+                                        "max": 4,
+                                        "min": 4
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -860,7 +1023,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  3,
+                                  15,
                                   [
                                     "CD"
                                   ],
@@ -873,8 +1036,8 @@
                               ]
                             ]
                           ],
-                          4,
-                          5,
+                          16,
+                          17,
                           [
                             "Block",
                             [
@@ -882,38 +1045,52 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  5,
+                                  17,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.3,
-                                    "min": 0.3
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.3,
+                                      "min": 0.3
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -946,8 +1123,18 @@
                           false,
                           [
                             "Rectangle",
-                            380,
-                            130
+                            [
+                              {
+                                "max": 380,
+                                "min": 380
+                              }
+                            ],
+                            [
+                              {
+                                "max": 130,
+                                "min": 130
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -974,7 +1161,7 @@
                           [
                             "None"
                           ],
-                          3,
+                          18,
                           [
                             "Block",
                             [
@@ -987,7 +1174,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_desert_bonds_middle_boss/enemy_shot_desert_bonds_middle_boss"
                                   ],
-                                  3,
+                                  18,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -1004,7 +1191,12 @@
                                   true,
                                   [
                                     "Some",
-                                    4
+                                    [
+                                      {
+                                        "max": 4,
+                                        "min": 4
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -1012,7 +1204,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  3,
+                                  18,
                                   [
                                     "CD"
                                   ],
@@ -1025,8 +1217,8 @@
                               ]
                             ]
                           ],
-                          4,
-                          5,
+                          19,
+                          20,
                           [
                             "Block",
                             [
@@ -1034,38 +1226,52 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  5,
+                                  20,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.3,
-                                    "min": 0.3
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.3,
+                                      "min": 0.3
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -1098,8 +1304,18 @@
                           false,
                           [
                             "Rectangle",
-                            380,
-                            130
+                            [
+                              {
+                                "max": 380,
+                                "min": 380
+                              }
+                            ],
+                            [
+                              {
+                                "max": 130,
+                                "min": 130
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -1126,7 +1342,7 @@
                           [
                             "None"
                           ],
-                          3,
+                          21,
                           [
                             "Block",
                             [
@@ -1139,7 +1355,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_desert_bonds_middle_boss/enemy_shot_desert_bonds_middle_boss"
                                   ],
-                                  3,
+                                  21,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -1156,7 +1372,12 @@
                                   true,
                                   [
                                     "Some",
-                                    4
+                                    [
+                                      {
+                                        "max": 4,
+                                        "min": 4
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -1164,7 +1385,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  3,
+                                  21,
                                   [
                                     "CD"
                                   ],
@@ -1177,8 +1398,8 @@
                               ]
                             ]
                           ],
-                          4,
-                          5,
+                          22,
+                          23,
                           [
                             "Block",
                             [
@@ -1186,38 +1407,52 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  5,
+                                  23,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.3,
-                                    "min": 0.3
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.3,
+                                      "min": 0.3
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]

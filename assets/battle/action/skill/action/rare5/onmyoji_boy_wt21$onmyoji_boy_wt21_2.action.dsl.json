@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -91,10 +94,12 @@
           "CreateSummonsMultiball",
           1,
           1110392,
-          {
-            "max": 1500,
-            "min": 1500
-          },
+          [
+            {
+              "max": 1500,
+              "min": 1500
+            }
+          ],
           [
             "E2",
             [
@@ -119,7 +124,12 @@
             "battle/effect/skill_unique/onmyoji_boy_wt21/onmyoji_boy_wt21_black_disappear"
           ],
           0,
-          false
+          false,
+          "*",
+          0,
+          1,
+          null,
+          null
         ]
       ],
       [
@@ -128,10 +138,12 @@
           "CreateSummonsMultiball",
           1,
           1110394,
-          {
-            "max": 1500,
-            "min": 1500
-          },
+          [
+            {
+              "max": 1500,
+              "min": 1500
+            }
+          ],
           [
             "E2",
             [
@@ -156,7 +168,12 @@
             "battle/effect/skill_unique/onmyoji_boy_wt21/onmyoji_boy_wt21_white_disappear"
           ],
           0,
-          false
+          false,
+          "*",
+          2,
+          3,
+          null,
+          null
         ]
       ],
       [
@@ -172,7 +189,7 @@
                 "Command",
                 [
                   "FindAllSubjects",
-                  0,
+                  4,
                   33,
                   null,
                   null,
@@ -189,29 +206,51 @@
                         "Command",
                         [
                           "CreateCondition",
-                          0,
+                          4,
                           [
                             [
                               "ACAttackPoint",
-                              {
-                                "max": 900,
-                                "min": 900
-                              },
-                              {
-                                "max": 0.75,
-                                "min": 0.65
-                              },
-                              1
+                              [
+                                {
+                                  "max": 900,
+                                  "min": 900
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 0.75,
+                                  "min": 0.65
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]

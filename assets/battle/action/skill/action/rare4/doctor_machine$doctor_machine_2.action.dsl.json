@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -111,7 +114,12 @@
                   true,
                   [
                     "Circle",
-                    30
+                    [
+                      {
+                        "max": 30,
+                        "min": 30
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -132,7 +140,12 @@
                   ],
                   [
                     "Some",
-                    6
+                    [
+                      {
+                        "max": 6,
+                        "min": 6
+                      }
+                    ]
                   ],
                   false,
                   true,
@@ -158,30 +171,39 @@
                           null,
                           null,
                           13,
-                          {
-                            "max": 2,
-                            "min": 1.7225
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 1.7225
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2.5,
-                            "min": 2.5
-                          },
-                          {
-                            "max": 5,
-                            "min": 5
-                          },
+                          [
+                            {
+                              "max": 2.5,
+                              "min": 2.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 5,
+                              "min": 5
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -210,7 +232,12 @@
                           false,
                           [
                             "Some",
-                            1.5
+                            [
+                              {
+                                "max": 1.5,
+                                "min": 1.5
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -222,6 +249,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -235,17 +267,21 @@
           "CreateRatioHeal",
           -33,
           2,
-          {
-            "max": 0.08,
-            "min": 0.056
-          },
+          [
+            {
+              "max": 0.08,
+              "min": 0.056
+            }
+          ],
           [
             5
           ],
-          {
-            "max": 0.5,
-            "min": 0.5
-          },
+          [
+            {
+              "max": 0.5,
+              "min": 0.5
+            }
+          ],
           [
             "GenericHealHitEffect"
           ]
@@ -255,7 +291,7 @@
         "Command",
         [
           "FindAllSubjects",
-          0,
+          3,
           33,
           null,
           null,
@@ -272,19 +308,23 @@
                 "Command",
                 [
                   "CreateRatioHeal",
-                  0,
+                  3,
                   2,
-                  {
-                    "max": 0.08,
-                    "min": 0.056
-                  },
+                  [
+                    {
+                      "max": 0.08,
+                      "min": 0.056
+                    }
+                  ],
                   [
                     5
                   ],
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
                   [
                     "GenericHealHitEffect"
                   ]
@@ -294,28 +334,45 @@
                 "Command",
                 [
                   "CreateCondition",
-                  0,
+                  3,
                   [
                     [
                       "ACRegeneration",
-                      {
-                        "max": 360,
-                        "min": 360
-                      },
-                      {
-                        "max": 200,
-                        "min": 150
-                      }
+                      [
+                        {
+                          "max": 360,
+                          "min": 360
+                        }
+                      ],
+                      [
+                        {
+                          "max": 200,
+                          "min": 150
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]

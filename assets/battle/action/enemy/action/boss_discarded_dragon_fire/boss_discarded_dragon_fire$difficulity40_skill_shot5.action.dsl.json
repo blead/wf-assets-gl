@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -49,7 +52,12 @@
                   false,
                   [
                     "Circle",
-                    100
+                    [
+                      {
+                        "max": 100,
+                        "min": 100
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -154,30 +162,39 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1,
-                            "min": 0.5
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 0.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Fire"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -188,30 +205,57 @@
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1800,
-                                "min": 900
-                              },
+                              [
+                                {
+                                  "max": 1800,
+                                  "min": 900
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.05,
-                                "min": -0.05
-                              },
-                              8
+                              [
+                                {
+                                  "max": -0.05,
+                                  "min": -0.05
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 8,
+                                  "min": 8
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -241,7 +285,7 @@
                             "Single"
                           ],
                           100,
-                          1,
+                          4,
                           [
                             "Block",
                             [
@@ -250,7 +294,7 @@
                                 [
                                   "CreateHitArea",
                                   "溶岩柱の累積デバフ用",
-                                  1,
+                                  4,
                                   [
                                     "AB"
                                   ],
@@ -261,7 +305,12 @@
                                   false,
                                   [
                                     "Circle",
-                                    100
+                                    [
+                                      {
+                                        "max": 100,
+                                        "min": 100
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -288,7 +337,7 @@
                                   [
                                     "None"
                                   ],
-                                  2,
+                                  5,
                                   [
                                     "Block",
                                     [
@@ -301,7 +350,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/enemy_unique/enemy_shot_magma_eruption/discarded_dragon_fire_magma_eruption"
                                           ],
-                                          2,
+                                          5,
                                           [
                                             "SameAsCharacter"
                                           ],
@@ -330,7 +379,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/enemy_unique/enemy_shot_magma_setup/discarded_dragon_fire_magma_setup"
                                           ],
-                                          2,
+                                          5,
                                           [
                                             "BacksideOfCharacter"
                                           ],
@@ -352,8 +401,8 @@
                                       ]
                                     ]
                                   ],
-                                  3,
-                                  4,
+                                  6,
+                                  7,
                                   [
                                     "Block",
                                     [
@@ -361,69 +410,105 @@
                                         "Command",
                                         [
                                           "CreateNormalAttack",
-                                          4,
+                                          7,
                                           1,
                                           null,
                                           null,
                                           0,
-                                          {
-                                            "max": 1,
-                                            "min": 0.5
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 1,
+                                              "min": 0.5
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 1,
-                                            "min": 1
-                                          },
-                                          {
-                                            "max": 1,
-                                            "min": 1
-                                          },
+                                          [
+                                            {
+                                              "max": 1,
+                                              "min": 1
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 1,
+                                              "min": 1
+                                            }
+                                          ],
                                           [
                                             "Fire"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ],
                                       [
                                         "Command",
                                         [
                                           "CreateCondition",
-                                          4,
+                                          7,
                                           [
                                             [
                                               "ACToleranceOfElement",
-                                              {
-                                                "max": 1800,
-                                                "min": 900
-                                              },
+                                              [
+                                                {
+                                                  "max": 1800,
+                                                  "min": 900
+                                                }
+                                              ],
                                               255,
-                                              {
-                                                "max": -0.05,
-                                                "min": -0.05
-                                              },
-                                              8
+                                              [
+                                                {
+                                                  "max": -0.05,
+                                                  "min": -0.05
+                                                }
+                                              ],
+                                              [
+                                                {
+                                                  "max": 8,
+                                                  "min": 8
+                                                }
+                                              ]
                                             ]
                                           ],
-                                          {
-                                            "max": 1,
-                                            "min": 1
-                                          },
+                                          [
+                                            {
+                                              "max": 1,
+                                              "min": 1
+                                            }
+                                          ],
                                           [
                                             "GenericConditionHitEffect"
                                           ],
                                           true,
+                                          false,
+                                          "",
+                                          null,
+                                          false,
+                                          3,
+                                          [
+                                            {
+                                              "max": 1,
+                                              "min": 1
+                                            }
+                                          ],
                                           false
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]

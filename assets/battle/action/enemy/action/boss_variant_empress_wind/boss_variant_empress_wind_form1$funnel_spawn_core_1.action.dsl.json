@@ -1,0 +1,195 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "StandardFunnel",
+            "variant_empress_wind_funnel_core"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            10
+          ],
+          null
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          1,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "FindAllSubjects",
+                  0,
+                  52,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  [
+                    "DoNothing"
+                  ],
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "IfThisCharacterIsSpecificFunnel",
+                          0,
+                          [
+                            "StandardFunnel",
+                            "variant_empress_wind_funnel_core"
+                          ],
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateCondition",
+                                  0,
+                                  [
+                                    [
+                                      "ACDamageOfElement",
+                                      [
+                                        {
+                                          "max": 9999999,
+                                          "min": 9999999
+                                        }
+                                      ],
+                                      254,
+                                      [
+                                        {
+                                          "max": 10000,
+                                          "min": 10000
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 1,
+                                          "min": 1
+                                        }
+                                      ]
+                                    ]
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    "None"
+                                  ],
+                                  false,
+                                  true,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  false
+                                ]
+                              ],
+                              [
+                                "Command",
+                                [
+                                  "CreateCondition",
+                                  0,
+                                  [
+                                    [
+                                      "ACToleranceOfDebuff",
+                                      [
+                                        {
+                                          "max": 9999999,
+                                          "min": 9999999
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 1,
+                                          "min": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 1,
+                                          "min": 1
+                                        }
+                                      ]
+                                    ]
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    "None"
+                                  ],
+                                  false,
+                                  true,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  false
+                                ]
+                              ]
+                            ]
+                          ],
+                          [
+                            "Block",
+                            null
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

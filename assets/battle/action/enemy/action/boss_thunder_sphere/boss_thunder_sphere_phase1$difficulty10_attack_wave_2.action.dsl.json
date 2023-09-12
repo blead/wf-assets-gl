@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   true,
@@ -43,7 +46,7 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   2,
                   0,
@@ -60,33 +63,45 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.05,
-                            "min": 0.05
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.05,
+                              "min": 0.05
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -121,7 +136,7 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           2,
                           2,
@@ -138,33 +153,45 @@
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.05,
-                                    "min": 0.05
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.05,
+                                      "min": 0.05
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -203,11 +230,11 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           2,
-                          2,
-                          3,
+                          4,
+                          5,
                           [
                             "Block",
                             [
@@ -215,38 +242,50 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  3,
+                                  5,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.05,
-                                    "min": 0.05
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.05,
+                                      "min": 0.05
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -289,11 +328,11 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   2,
-                  0,
-                  1,
+                  6,
+                  7,
                   [
                     "Block",
                     [
@@ -301,38 +340,50 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          1,
+                          7,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.05,
-                            "min": 0.05
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.05,
+                              "min": 0.05
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -367,11 +418,11 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           2,
-                          2,
-                          3,
+                          8,
+                          9,
                           [
                             "Block",
                             [
@@ -379,38 +430,50 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  3,
+                                  9,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.05,
-                                    "min": 0.05
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.05,
+                                      "min": 0.05
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -449,11 +512,11 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           2,
-                          2,
-                          3,
+                          10,
+                          11,
                           [
                             "Block",
                             [
@@ -461,38 +524,50 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  3,
+                                  11,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.05,
-                                    "min": 0.05
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.05,
+                                      "min": 0.05
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -535,11 +610,11 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   2,
-                  0,
-                  1,
+                  12,
+                  13,
                   [
                     "Block",
                     [
@@ -547,38 +622,50 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          1,
+                          13,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.05,
-                            "min": 0.05
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.05,
+                              "min": 0.05
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -613,11 +700,11 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           2,
-                          2,
-                          3,
+                          14,
+                          15,
                           [
                             "Block",
                             [
@@ -625,38 +712,50 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  3,
+                                  15,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.05,
-                                    "min": 0.05
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.05,
+                                      "min": 0.05
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -695,11 +794,11 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           2,
-                          2,
-                          3,
+                          16,
+                          17,
                           [
                             "Block",
                             [
@@ -707,38 +806,50 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  3,
+                                  17,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.05,
-                                    "min": 0.05
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.05,
+                                      "min": 0.05
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -781,11 +892,11 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   2,
-                  0,
-                  1,
+                  18,
+                  19,
                   [
                     "Block",
                     [
@@ -793,38 +904,50 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          1,
+                          19,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.05,
-                            "min": 0.05
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.05,
+                              "min": 0.05
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -859,11 +982,11 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           2,
-                          2,
-                          3,
+                          20,
+                          21,
                           [
                             "Block",
                             [
@@ -871,38 +994,50 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  3,
+                                  21,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.05,
-                                    "min": 0.05
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.05,
+                                      "min": 0.05
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -941,11 +1076,11 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           2,
-                          2,
-                          3,
+                          22,
+                          23,
                           [
                             "Block",
                             [
@@ -953,38 +1088,50 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  3,
+                                  23,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.05,
-                                    "min": 0.05
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.05,
+                                      "min": 0.05
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -1026,11 +1173,11 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   3,
-                  0,
-                  1,
+                  24,
+                  25,
                   [
                     "Block",
                     [
@@ -1038,38 +1185,50 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          1,
+                          25,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.05,
-                            "min": 0.05
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.05,
+                              "min": 0.05
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -1094,11 +1253,11 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   2,
-                  2,
-                  3,
+                  26,
+                  27,
                   [
                     "Block",
                     [
@@ -1106,38 +1265,50 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          3,
+                          27,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.05,
-                            "min": 0.05
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.05,
+                              "min": 0.05
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ]

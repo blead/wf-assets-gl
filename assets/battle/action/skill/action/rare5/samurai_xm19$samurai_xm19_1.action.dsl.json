@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -30,16 +33,6 @@
       [
         "Command",
         [
-          "AddFeverPoint",
-          {
-            "max": 50,
-            "min": 50
-          }
-        ]
-      ],
-      [
-        "Command",
-        [
           "ShowEffect",
           "チャージ演出",
           [
@@ -63,7 +56,12 @@
           false,
           [
             "Some",
-            8
+            [
+              {
+                "max": 8,
+                "min": 8
+              }
+            ]
           ]
         ]
       ],
@@ -92,7 +90,12 @@
                   false,
                   [
                     "Circle",
-                    350
+                    [
+                      {
+                        "max": 350,
+                        "min": 350
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -113,7 +116,12 @@
                   ],
                   [
                     "Some",
-                    5
+                    [
+                      {
+                        "max": 5,
+                        "min": 5
+                      }
+                    ]
                   ],
                   false,
                   true,
@@ -139,30 +147,39 @@
                           null,
                           null,
                           24,
-                          {
-                            "max": 2.4,
-                            "min": 2.4
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.4,
+                              "min": 2.4
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           true,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2,
-                            "min": 2
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Coarse"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -173,11 +190,68 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
             ]
           ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACSkillDamage",
+              [
+                {
+                  "max": 480,
+                  "min": 480
+                }
+              ],
+              [
+                {
+                  "max": 0.65,
+                  "min": 0.65
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ],
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
+          [
+            "GenericConditionHitEffect"
+          ],
+          true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
+          false
         ]
       ]
     ]

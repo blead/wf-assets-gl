@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -76,30 +79,39 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 5,
-                            "min": 5
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 5,
+                              "min": 5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
@@ -136,7 +148,7 @@
                     "Single"
                   ],
                   60,
-                  0,
+                  1,
                   [
                     "Block",
                     [
@@ -145,7 +157,7 @@
                         [
                           "CreateHitArea",
                           "溶岩柱の累積デバフ用",
-                          0,
+                          1,
                           [
                             "AB"
                           ],
@@ -156,7 +168,12 @@
                           false,
                           [
                             "Circle",
-                            100
+                            [
+                              {
+                                "max": 100,
+                                "min": 100
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -183,7 +200,7 @@
                           [
                             "None"
                           ],
-                          1,
+                          2,
                           [
                             "Block",
                             [
@@ -196,7 +213,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_eruption/discarded_dragon_fire_magma_eruption"
                                   ],
-                                  1,
+                                  2,
                                   [
                                     "SameAsCharacter"
                                   ],
@@ -225,7 +242,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_setup/discarded_dragon_fire_magma_setup"
                                   ],
-                                  1,
+                                  2,
                                   [
                                     "BacksideOfCharacter"
                                   ],
@@ -247,8 +264,8 @@
                               ]
                             ]
                           ],
-                          2,
                           3,
+                          4,
                           [
                             "Block",
                             [
@@ -256,38 +273,52 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  3,
+                                  4,
                                   1,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 1,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "Fire"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -325,7 +356,7 @@
                     "Single"
                   ],
                   100,
-                  0,
+                  5,
                   [
                     "Block",
                     [
@@ -334,7 +365,7 @@
                         [
                           "CreateHitArea",
                           "溶岩柱の累積デバフ用",
-                          0,
+                          5,
                           [
                             "AB"
                           ],
@@ -345,7 +376,12 @@
                           false,
                           [
                             "Circle",
-                            100
+                            [
+                              {
+                                "max": 100,
+                                "min": 100
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -372,7 +408,7 @@
                           [
                             "None"
                           ],
-                          1,
+                          6,
                           [
                             "Block",
                             [
@@ -385,7 +421,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_eruption/discarded_dragon_fire_magma_eruption"
                                   ],
-                                  1,
+                                  6,
                                   [
                                     "SameAsCharacter"
                                   ],
@@ -414,7 +450,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_setup/discarded_dragon_fire_magma_setup"
                                   ],
-                                  1,
+                                  6,
                                   [
                                     "BacksideOfCharacter"
                                   ],
@@ -436,8 +472,8 @@
                               ]
                             ]
                           ],
-                          2,
-                          3,
+                          7,
+                          8,
                           [
                             "Block",
                             [
@@ -445,38 +481,52 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  3,
+                                  8,
                                   1,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 1,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "Fire"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -514,7 +564,7 @@
                     "Single"
                   ],
                   100,
-                  0,
+                  9,
                   [
                     "Block",
                     [
@@ -523,7 +573,7 @@
                         [
                           "CreateHitArea",
                           "溶岩柱の累積デバフ用",
-                          0,
+                          9,
                           [
                             "AB"
                           ],
@@ -534,7 +584,12 @@
                           false,
                           [
                             "Circle",
-                            100
+                            [
+                              {
+                                "max": 100,
+                                "min": 100
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -561,7 +616,7 @@
                           [
                             "None"
                           ],
-                          1,
+                          10,
                           [
                             "Block",
                             [
@@ -574,7 +629,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_eruption/discarded_dragon_fire_magma_eruption"
                                   ],
-                                  1,
+                                  10,
                                   [
                                     "SameAsCharacter"
                                   ],
@@ -603,7 +658,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_setup/discarded_dragon_fire_magma_setup"
                                   ],
-                                  1,
+                                  10,
                                   [
                                     "BacksideOfCharacter"
                                   ],
@@ -625,8 +680,8 @@
                               ]
                             ]
                           ],
-                          2,
-                          3,
+                          11,
+                          12,
                           [
                             "Block",
                             [
@@ -634,38 +689,52 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  3,
+                                  12,
                                   1,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 1,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "Fire"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]

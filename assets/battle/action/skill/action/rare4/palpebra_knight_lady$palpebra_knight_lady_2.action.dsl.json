@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   3,
+  [
+    "None"
+  ],
   true,
   false,
   false,
@@ -71,7 +74,12 @@
                   true,
                   [
                     "Some",
-                    1.5
+                    [
+                      {
+                        "max": 1.5,
+                        "min": 1.5
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -132,8 +140,18 @@
                           true,
                           [
                             "Rectangle",
-                            100,
-                            300
+                            [
+                              {
+                                "max": 100,
+                                "min": 100
+                              }
+                            ],
+                            [
+                              {
+                                "max": 300,
+                                "min": 300
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -191,7 +209,12 @@
                                   true,
                                   [
                                     "Some",
-                                    1
+                                    [
+                                      {
+                                        "max": 1,
+                                        "min": 1
+                                      }
+                                    ]
                                   ]
                                 ]
                               ]
@@ -211,27 +234,35 @@
                                   null,
                                   null,
                                   12,
-                                  {
-                                    "max": 1.9,
-                                    "min": 1.6
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1.9,
+                                      "min": 1.6
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   true,
                                   false,
                                   false,
-                                  {
-                                    "max": 1.5,
-                                    "min": 1.5
-                                  },
-                                  {
-                                    "max": 1.5,
-                                    "min": 1.5
-                                  },
+                                  [
+                                    {
+                                      "max": 1.5,
+                                      "min": 1.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1.5,
+                                      "min": 1.5
+                                    }
+                                  ],
                                   [
                                     "SpecifyHitEffectDirectly",
                                     [
@@ -239,7 +270,8 @@
                                       "battle/effect/skill_unique/palpebra_knight_lady/palpebra_knight_lady_hit"
                                     ],
                                     true
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
@@ -250,6 +282,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]

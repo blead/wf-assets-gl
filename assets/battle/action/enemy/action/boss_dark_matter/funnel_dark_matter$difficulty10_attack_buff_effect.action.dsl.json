@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -37,25 +40,47 @@
                   [
                     [
                       "ACAttackPoint",
-                      {
-                        "max": 420,
-                        "min": 420
-                      },
-                      {
-                        "max": 0.3,
-                        "min": 0.3
-                      },
-                      1
+                      [
+                        {
+                          "max": 420,
+                          "min": 420
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.3,
+                          "min": 0.3
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   false,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -74,7 +77,12 @@
                   false,
                   [
                     "Some",
-                    6
+                    [
+                      {
+                        "max": 6,
+                        "min": 6
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -132,7 +140,12 @@
                           false,
                           [
                             "Circle",
-                            250
+                            [
+                              {
+                                "max": 250,
+                                "min": 250
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -185,33 +198,47 @@
                                   null,
                                   null,
                                   33,
-                                  {
-                                    "max": 3.34,
-                                    "min": 3.34
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 3.34,
+                                      "min": 3.34
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 2,
-                                    "min": 2
-                                  },
-                                  {
-                                    "max": 2.5,
-                                    "min": 2.5
-                                  },
+                                  [
+                                    {
+                                      "max": 2,
+                                      "min": 2
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 2.5,
+                                      "min": 2.5
+                                    }
+                                  ],
                                   [
                                     "Fine"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -244,7 +271,12 @@
                           false,
                           [
                             "Circle",
-                            250
+                            [
+                              {
+                                "max": 250,
+                                "min": 250
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -297,33 +329,47 @@
                                   null,
                                   null,
                                   33,
-                                  {
-                                    "max": 3.3,
-                                    "min": 3.3
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 3.3,
+                                      "min": 3.3
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 3,
-                                    "min": 3
-                                  },
-                                  {
-                                    "max": 2.5,
-                                    "min": 2.5
-                                  },
+                                  [
+                                    {
+                                      "max": 3,
+                                      "min": 3
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 2.5,
+                                      "min": 2.5
+                                    }
+                                  ],
                                   [
                                     "Fine"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -357,31 +403,124 @@
               [
                 "Command",
                 [
-                  "CreateCondition",
-                  7,
+                  "ConditionalsChangeSkillFlag",
+                  1,
                   [
+                    "Block",
                     [
-                      "ACSkillDamage",
-                      {
-                        "max": 480,
-                        "min": 480
-                      },
-                      {
-                        "max": 0.5,
-                        "min": 0.5
-                      },
-                      1
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          7,
+                          [
+                            [
+                              "ACSkillDamage",
+                              [
+                                {
+                                  "max": 480,
+                                  "min": 480
+                                }
+                              ],
+                              [
+                                {
+                                  "alv_max": 0.25,
+                                  "alv_min": 0.125,
+                                  "max": 0.5,
+                                  "min": 0.5
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
                   [
-                    "GenericConditionHitEffect"
-                  ],
-                  true,
-                  false
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          7,
+                          [
+                            [
+                              "ACSkillDamage",
+                              [
+                                {
+                                  "max": 480,
+                                  "min": 480
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 0.5,
+                                  "min": 0.5
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
                 ]
               ]
             ]

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   true,
   true,
@@ -26,10 +29,12 @@
                 "Command",
                 [
                   "AddFeverPoint",
-                  {
-                    "max": 100,
-                    "min": 100
-                  }
+                  [
+                    {
+                      "max": 100,
+                      "min": 100
+                    }
+                  ]
                 ]
               ]
             ]

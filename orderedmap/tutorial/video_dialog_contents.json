@@ -33,12 +33,6 @@
       "tutorial/movie/fever/fever"
     ]
   ],
-  "expod_injection": [
-    [
-      "1",
-      "tutorial/movie/expod/expod"
-    ]
-  ],
   "equipment_select": [
     [
       "1",
@@ -127,6 +121,16 @@
       "dynamic/how_to/expert_single_event/expert_single_event_how_to_02"
     ]
   ],
+  "expert_single_event_02": [
+    [
+      "0",
+      "dynamic/how_to/expert_single_side_story/expert_single_side_story_how_to_01"
+    ],
+    [
+      "0",
+      "dynamic/how_to/expert_single_side_story/expert_single_side_story_how_to_02"
+    ]
+  ],
   "yokai_emaki_01_re01_how_to_play": [
     [
       "0",
@@ -163,6 +167,24 @@
       "dynamic/world_story_event_tutorial/yokai_emaki_01/tutorial_expert_single"
     ]
   ],
+  "vt22_how_to_play": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/vt22/tutorial_plot"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/tutorial_token_gacha"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/vt22/tutorial_multi"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/vt22/tutorial_expert_single"
+    ]
+  ],
   "valen21_how_to_play": [
     [
       "0",
@@ -171,6 +193,12 @@
     [
       "0",
       "dynamic/story_event_tutorial/valen21/tutorial_02"
+    ]
+  ],
+  "advent_u_collabo_event": [
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_u_collab_event/tutorial_01"
     ]
   ],
   "treasure_cave_quest": [
@@ -249,6 +277,38 @@
       "dynamic/time_attack_event_tutorial/water_sphere01/tutorial_03"
     ]
   ],
+  "summer_2022_how_to_play": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/summer_2022/tutorial_plot"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/summer_2022/tutorial_multi_reward"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/summer_2022/tutorial_expert_single"
+    ]
+  ],
+  "summer_2021_re01_how_to_play": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/summer_2021/tutorial_plot"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/tutorial_token_gacha"
+    ],
+    [
+      "1",
+      "dynamic_fla/world_story_event_tutorial/summer_2021/tutorial_multi_reward/tutorial_multi_reward"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/summer_2021/tutorial_expert_single"
+    ]
+  ],
   "summer_2021_how_to_play": [
     [
       "0",
@@ -315,16 +375,46 @@
       "dynamic/world_story_event_tutorial/summer_2020/tutorial_divided"
     ]
   ],
+  "solo_time_attack_how_to_play": [
+    [
+      "0",
+      "dynamic/solo_time_attack_event_tutorial/howto01"
+    ],
+    [
+      "0",
+      "dynamic/solo_time_attack_event_tutorial/howto02"
+    ],
+    [
+      "0",
+      "dynamic/solo_time_attack_event_tutorial/howto03"
+    ]
+  ],
   "cyberpunk01_side_story_event_outline": [
     [
       "0",
       "dynamic/world_story_event_tutorial/cyberpunk01_re01/tutorial_plot_01"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/cyberpunk01_re01/tutorial_plot_02"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/cyberpunk01_re01/tutorial_plot_03"
     ]
   ],
   "fakeprincess01_side_story_event_outline": [
     [
       "0",
       "dynamic/world_story_event_tutorial/fakeprincess01_re01/tutorial_plot"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/fakeprincess01_re01/tutorial_plot_02"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/fakeprincess01_re01/tutorial_plot_03"
     ]
   ],
   "summer_2020_side_story_event_outline": [
@@ -335,12 +425,28 @@
     [
       "0",
       "dynamic/world_story_event_tutorial/summer_2020_re01/tutorial_plot_02"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/summer_2020_re01/tutorial_plot_03"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/summer_2020_re01/tutorial_plot_04"
     ]
   ],
   "yokai_emaki_01_side_story_event_outline": [
     [
       "0",
       "dynamic/world_story_event_tutorial/yokai_emaki_01/tutorial_plot_01"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/yokai_emaki_01/tutorial_plot_02"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/yokai_emaki_01/tutorial_plot_03"
     ]
   ],
   "anv_story_01_side_story_event_outline": [
@@ -351,9 +457,227 @@
     [
       "0",
       "dynamic/world_story_event_tutorial/anv_story_01/tutorial_plot_02"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/anv_story_01/tutorial_plot_03"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/anv_story_01/tutorial_plot_04"
+    ]
+  ],
+  "valen20_side_story_event_outline": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/vt20/tutorial_plot_01"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/vt20/tutorial_plot_02"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/vt20/tutorial_plot_03"
+    ]
+  ],
+  "desert_bonds_01_side_story_event_outline": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/desert_bonds_01/tutorial_plot_01"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/desert_bonds_01/tutorial_plot_02"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/desert_bonds_01/tutorial_plot_03"
+    ]
+  ],
+  "cyberpunk02_side_story_event_outline": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/cyberpunk02_hero/tutorial_plot"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/cyberpunk02_hero/tutorial_plot_02"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/cyberpunk02_hero/tutorial_plot_03"
+    ]
+  ],
+  "summer_2021_side_story_event_outline": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/summer_2021/tutorial_plot"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/summer_2021/tutorial_plot_02"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/summer_2021/tutorial_plot_03"
+    ]
+  ],
+  "side_story_event_top_outline": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/side_story_event_top/tutorial_plot"
+    ]
+  ],
+  "crown_beasts_side_story_event_outline": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/crown_beasts/tutorial_plot"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/crown_beasts/tutorial_plot_02"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/crown_beasts/tutorial_plot_03"
+    ]
+  ],
+  "anv2_side_story_event_outline": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/anv2/tutorial_plot"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/anv2/tutorial_plot_02"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/anv2/tutorial_plot_03"
+    ]
+  ],
+  "combat_diver_01": [
+    [
+      "0",
+      "dynamic/how_to/rush_event/combat_diver_01/howto_01"
+    ],
+    [
+      "0",
+      "dynamic/how_to/rush_event/combat_diver_01/howto_02"
+    ],
+    [
+      "0",
+      "dynamic/how_to/rush_event/combat_diver_01/howto_03"
+    ],
+    [
+      "0",
+      "dynamic/how_to/rush_event/combat_diver_01/howto_04"
+    ],
+    [
+      "0",
+      "dynamic/how_to/rush_event/combat_diver_01/howto_05"
+    ]
+  ],
+  "combat_diver_02": [
+    [
+      "0",
+      "dynamic/how_to/rush_event/combat_diver_01/howto_01"
+    ],
+    [
+      "0",
+      "dynamic/how_to/rush_event/combat_diver_01/howto_02"
+    ],
+    [
+      "0",
+      "dynamic/how_to/rush_event/combat_diver_01/howto_03"
+    ],
+    [
+      "0",
+      "dynamic/how_to/rush_event/combat_diver_01/howto_04"
+    ],
+    [
+      "0",
+      "dynamic/how_to/rush_event/combat_diver_01/howto_05"
+    ]
+  ],
+  "real_incentive_01": [
+    [
+      "0",
+      "dynamic/how_to/real_incentive/real_incentive_01/howto_01"
+    ],
+    [
+      "0",
+      "dynamic/how_to/real_incentive/real_incentive_01/howto_02"
     ]
   ],
   "raid_event_01": [
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_01"
+    ],
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_02"
+    ],
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_03"
+    ],
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_04"
+    ],
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_05"
+    ]
+  ],
+  "raid_event_02": [
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_01"
+    ],
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_02"
+    ],
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_03"
+    ],
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_04"
+    ],
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_05"
+    ]
+  ],
+  "raid_event_03": [
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_01"
+    ],
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_02"
+    ],
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_03"
+    ],
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_04"
+    ],
+    [
+      "0",
+      "dynamic/how_to/raid_event/raid_event_01/howto_05"
+    ]
+  ],
+  "raid_event_04": [
     [
       "0",
       "dynamic/how_to/raid_event/raid_event_01/howto_01"
@@ -391,6 +715,42 @@
     [
       "0",
       "dynamic/how_to/multi_special_exchange/how_to_04"
+    ]
+  ],
+  "multi_special_exchange_02": [
+    [
+      "0",
+      "dynamic/how_to/multi_special_exchange/how_to_01"
+    ],
+    [
+      "0",
+      "dynamic/how_to/multi_special_exchange/how_to_03"
+    ],
+    [
+      "0",
+      "dynamic/how_to/multi_special_exchange/how_to_04"
+    ]
+  ],
+  "hard_multi_steam_robot_fire": [
+    [
+      "0",
+      "dynamic/hard_multi_tutorial/hard_multi_steam_robot_fire/tutorial_01"
+    ],
+    [
+      "0",
+      "dynamic/hard_multi_tutorial/hard_multi_steam_robot_fire/tutorial_02"
+    ],
+    [
+      "0",
+      "dynamic/hard_multi_tutorial/hard_multi_steam_robot_fire/tutorial_03"
+    ],
+    [
+      "0",
+      "dynamic/hard_multi_tutorial/hard_multi_steam_robot_fire/tutorial_04"
+    ],
+    [
+      "0",
+      "dynamic/hard_multi_tutorial/hard_multi_steam_robot_fire/tutorial_05"
     ]
   ],
   "haniwa_carnival_01": [
@@ -497,6 +857,96 @@
       "dynamic/how_to/haniwa_carnival/haniwa_carnival_04/howto_07"
     ]
   ],
+  "haniwa_carnival_05": [
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_05/howto_01"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_05/howto_02"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_05/howto_03"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_05/howto_04"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_05/howto_05"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_05/howto_06"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_05/howto_07"
+    ]
+  ],
+  "haniwa_carnival_06": [
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_06/howto_01"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_06/howto_02"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_06/howto_03"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_06/howto_04"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_06/howto_05"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_06/howto_06"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_06/howto_07"
+    ]
+  ],
+  "haniwa_carnival_07": [
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_07/howto_01"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_07/howto_02"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_07/howto_03"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_07/howto_04"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_07/howto_05"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_07/howto_06"
+    ],
+    [
+      "0",
+      "dynamic/how_to/haniwa_carnival/haniwa_carnival_07/howto_07"
+    ]
+  ],
   "gacha_play_no_rarity_up_movie_off": [
     [
       "1",
@@ -539,6 +989,78 @@
       "dynamic/world_story_event_tutorial/fakeprincess01/tutorial_divided"
     ]
   ],
+  "expod_injection": [
+    [
+      "1",
+      "tutorial/movie/expod/expod"
+    ]
+  ],
+  "expod_ex_boost": [
+    [
+      "0",
+      "dynamic/how_to/expod/ex_boost/ex_boost_1"
+    ],
+    [
+      "0",
+      "dynamic/how_to/expod/ex_boost/ex_boost_2"
+    ],
+    [
+      "0",
+      "dynamic/how_to/expod/ex_boost/ex_boost_3"
+    ],
+    [
+      "0",
+      "dynamic/how_to/expod/ex_boost/ex_boost_4"
+    ],
+    [
+      "0",
+      "dynamic/how_to/expod/ex_boost/ex_boost_5"
+    ],
+    [
+      "0",
+      "dynamic/how_to/expod/ex_boost/ex_boost_6"
+    ]
+  ],
+  "expod_over_limit": [
+    [
+      "0",
+      "dynamic/how_to/expod/over_limit/over_limit_1"
+    ],
+    [
+      "0",
+      "dynamic/how_to/expod/over_limit/over_limit_2"
+    ],
+    [
+      "0",
+      "dynamic/how_to/expod/over_limit/over_limit_3"
+    ]
+  ],
+  "equipment_enhancement_anamnesis_weapon_how_to_play": [
+    [
+      "0",
+      "dynamic/equipment_enhancement/howto01"
+    ],
+    [
+      "0",
+      "dynamic/equipment_enhancement/howto02"
+    ]
+  ],
+  "equipment_enhancement_epuration_weapon_how_to_play": [
+    [
+      "0",
+      "dynamic/equipment_enhancement/epuration_weapon_howto_01"
+    ]
+  ],
+  "equipment_enhancement_steam_robot_weapon_how_to_play": [
+    [
+      "0",
+      "dynamic/equipment_enhancement/steam_robot_weapon_howto_01"
+    ],
+    [
+      "0",
+      "dynamic/equipment_enhancement/steam_robot_weapon_howto_02"
+    ]
+  ],
   "desert_bonds_01_how_to_play": [
     [
       "0",
@@ -555,6 +1077,24 @@
     [
       "0",
       "dynamic/world_story_event_tutorial/desert_bonds_01/tutorial_expert_single"
+    ]
+  ],
+  "cyberpunk02_re01_how_to_play": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/cyberpunk02_hero/tutorial_plot"
+    ],
+    [
+      "1",
+      "dynamic_fla/world_story_event_tutorial/cyberpunk02_hero/tutorial_token_gacha/tutorial_token_gacha"
+    ],
+    [
+      "1",
+      "dynamic_fla/world_story_event_tutorial/cyberpunk02_hero/tutorial_multi_reward/tutorial_multi_reward"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/cyberpunk02_hero/tutorial_expert_single"
     ]
   ],
   "cyberpunk02_hero_how_to_play": [
@@ -615,10 +1155,44 @@
       "dynamic/world_story_event_tutorial/cyberpunk01/tutorial_divided"
     ]
   ],
+  "crown_beasts_re01": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/crown_beasts/tutorial_plot"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/tutorial_token_gacha"
+    ],
+    [
+      "1",
+      "dynamic_fla/world_story_event_tutorial/crown_beasts/tutorial_multi_reward/tutorial_multi_reward"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/crown_beasts/tutorial_expert_single"
+    ]
+  ],
+  "contents_guide_navi01": [
+    [
+      "0",
+      "dynamic/active_mission/dialog_img/contents_guide_navi01"
+    ]
+  ],
   "box_gacha": [
     [
       "0",
       "dynamic/world_story_event_tutorial/tutorial_token_gacha"
+    ]
+  ],
+  "boss_epuration_event_01": [
+    [
+      "0",
+      "dynamic/advent_event_tutorial/boss_epuration_event/tutorial_01"
+    ],
+    [
+      "0",
+      "dynamic/advent_event_tutorial/boss_epuration_event/tutorial_02"
     ]
   ],
   "boss_coin_shop_select_campaign_empress_01": [
@@ -629,6 +1203,26 @@
     [
       "0",
       "dynamic/how_to/boss_coin_shop_select_campaign/empress_01/tutorial_02"
+    ]
+  ],
+  "boss_coin_shop_select_campaign_empress_02": [
+    [
+      "0",
+      "dynamic/how_to/boss_coin_shop_select_campaign/empress_02/tutorial_01"
+    ],
+    [
+      "0",
+      "dynamic/how_to/boss_coin_shop_select_campaign/empress_02/tutorial_02"
+    ]
+  ],
+  "boss_coin_shop_select_campaign_empress_03": [
+    [
+      "0",
+      "dynamic/how_to/boss_coin_shop_select_campaign/empress_03/tutorial_01"
+    ],
+    [
+      "0",
+      "dynamic/how_to/boss_coin_shop_select_campaign/empress_03/tutorial_02"
     ]
   ],
   "beast_how_to_play": [
@@ -671,6 +1265,42 @@
       "dynamic/world_story_event_tutorial/anv_story_01/tutorial_expert_single"
     ]
   ],
+  "anv3": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/anv3/tutorial_plot"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/tutorial_token_gacha"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/anv3/tutorial_multi"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/anv3/tutorial_expert_single"
+    ]
+  ],
+  "anv2_re01": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/anv2/tutorial_plot"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/tutorial_token_gacha"
+    ],
+    [
+      "1",
+      "dynamic_fla/world_story_event_tutorial/anv2/tutorial_multi_reward/tutorial_multi_reward"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/anv2/tutorial_expert_single"
+    ]
+  ],
   "anv2_how_to_play": [
     [
       "0",
@@ -687,6 +1317,38 @@
     [
       "0",
       "dynamic/world_story_event_tutorial/anv2/tutorial_expert_single"
+    ]
+  ],
+  "advent_xm22": [
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_xm22/tutorial_01"
+    ]
+  ],
+  "advent_spirit_beast_water2": [
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_spirit_beast_water/tutorial_01"
+    ],
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_spirit_beast_water/tutorial_02"
+    ]
+  ],
+  "advent_spirit_beast_dark2": [
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_spirit_beast_dark/tutorial_01"
+    ],
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_spirit_beast_dark/tutorial_02"
+    ]
+  ],
+  "advent_event_hw20": [
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_hw20/tutorial_01"
     ]
   ],
   "advent_dragon_fire": [
@@ -783,6 +1445,10 @@
     [
       "0",
       "dynamic/advent_event_tutorial/advent_event_spirit_beast_thunder/tutorial_01"
+    ],
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_spirit_beast_thunder/tutorial_02"
     ]
   ],
   "advent_spirit_beast_water": [
@@ -799,6 +1465,66 @@
     [
       "0",
       "dynamic/advent_event_tutorial/advent_event_xm21/tutorial_01"
+    ]
+  ],
+  "advent_revival_Rcollab_event": [
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_revival_Rcollab_event/tutorial_01"
+    ]
+  ],
+  "advent_spirit_beast_fire": [
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_spirit_beast_fire/tutorial_01"
+    ],
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_spirit_beast_fire/tutorial_02"
+    ]
+  ],
+  "advent_spirit_beast_light": [
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_spirit_beast_light/tutorial_01"
+    ],
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_spirit_beast_light/tutorial_02"
+    ]
+  ],
+  "advent_spirit_beast_storm": [
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_spirit_beast_storm/tutorial_01"
+    ],
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_spirit_beast_storm/tutorial_02"
+    ]
+  ],
+  "advent_spirit_beast_dark": [
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_spirit_beast_dark/tutorial_01"
+    ],
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_spirit_beast_dark/tutorial_02"
+    ]
+  ],
+  "advent_steam_robot_fire": [
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_steam_robot_fire/tutorial_01"
+    ],
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_steam_robot_fire/tutorial_02"
+    ],
+    [
+      "0",
+      "dynamic/advent_event_tutorial/advent_event_steam_robot_fire/tutorial_03"
     ]
   ],
   "abyss_beast": [
@@ -845,6 +1571,24 @@
     [
       "1",
       "tutorial/movie/auto_play/auto_play_unlock"
+    ]
+  ],
+  "how_to_play_2halfanv": [
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/2halfanv/tutorial_plot"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/tutorial_token_gacha"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/2halfanv/tutorial_multi"
+    ],
+    [
+      "0",
+      "dynamic/world_story_event_tutorial/2halfanv/tutorial_expert_single"
     ]
   ]
 }

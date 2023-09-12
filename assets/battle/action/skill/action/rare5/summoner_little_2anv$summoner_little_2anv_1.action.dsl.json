@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -35,6 +38,7 @@
             1610871,
             1610872
           ],
+          null,
           1,
           [
             "Block",
@@ -66,25 +70,47 @@
                           [
                             [
                               "ACAttackPoint",
-                              {
-                                "max": 9999999,
-                                "min": 9999999
-                              },
-                              {
-                                "max": 0.1,
-                                "min": 0.1
-                              },
-                              3
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 0.1,
+                                  "min": 0.1
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 3,
+                                  "min": 3
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
@@ -146,8 +172,18 @@
                           false,
                           [
                             "Rectangle",
-                            1500,
-                            2000
+                            [
+                              {
+                                "max": 1500,
+                                "min": 1500
+                              }
+                            ],
+                            [
+                              {
+                                "max": 2000,
+                                "min": 2000
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -201,33 +237,47 @@
                                   null,
                                   null,
                                   200,
-                                  {
-                                    "max": 20,
-                                    "min": 20
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 20,
+                                      "min": 20
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 25,
-                                    "min": 25
-                                  },
-                                  {
-                                    "max": 10,
-                                    "min": 10
-                                  },
+                                  [
+                                    {
+                                      "max": 25,
+                                      "min": 25
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 10,
+                                      "min": 10
+                                    }
+                                  ],
                                   [
                                     "Coarse"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -246,10 +296,12 @@
                   "CreateSummonsMultiball",
                   1,
                   1610871,
-                  {
-                    "max": 9000,
-                    "min": 9000
-                  },
+                  [
+                    {
+                      "max": 9000,
+                      "min": 9000
+                    }
+                  ],
                   [
                     "E2",
                     [
@@ -274,7 +326,12 @@
                     "battle/effect/skill_unique/summoner_little_2anv/summoner_little_2anv_multiball_disappear"
                   ],
                   65,
-                  true
+                  true,
+                  "*",
+                  4,
+                  5,
+                  null,
+                  null
                 ]
               ],
               [
@@ -288,7 +345,7 @@
                     "CreateImaginaryTarget",
                     -100
                   ],
-                  0,
+                  6,
                   [
                     "Block",
                     [
@@ -296,7 +353,7 @@
                         "Command",
                         [
                           "CreateReferencePoint",
-                          0,
+                          6,
                           [
                             "AB"
                           ],
@@ -309,7 +366,7 @@
                             "Single"
                           ],
                           75,
-                          1,
+                          7,
                           [
                             "Block",
                             [
@@ -322,7 +379,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/summoner_little_2anv/summoner_little_2anv_claw_multiball"
                                   ],
-                                  1,
+                                  7,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -360,7 +417,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/summoner_little_2anv/summoner_little_2anv_claw"
                                           ],
-                                          1,
+                                          7,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -394,7 +451,7 @@
                                                 [
                                                   "CreateHitArea",
                                                   "*",
-                                                  1,
+                                                  7,
                                                   [
                                                     "AB"
                                                   ],
@@ -405,7 +462,12 @@
                                                   false,
                                                   [
                                                     "Circle",
-                                                    100
+                                                    [
+                                                      {
+                                                        "max": 100,
+                                                        "min": 100
+                                                      }
+                                                    ]
                                                   ],
                                                   [
                                                     "Center"
@@ -432,13 +494,13 @@
                                                   [
                                                     "None"
                                                   ],
-                                                  2,
+                                                  8,
                                                   [
                                                     "Block",
                                                     null
                                                   ],
-                                                  3,
-                                                  4,
+                                                  9,
+                                                  10,
                                                   [
                                                     "Block",
                                                     [
@@ -453,38 +515,52 @@
                                                         "Command",
                                                         [
                                                           "CreateNormalAttack",
-                                                          4,
+                                                          10,
                                                           255,
                                                           null,
                                                           null,
                                                           67,
-                                                          {
-                                                            "max": 6.7,
-                                                            "min": 6.7
-                                                          },
-                                                          {
-                                                            "max": 0,
-                                                            "min": 0
-                                                          },
+                                                          [
+                                                            {
+                                                              "max": 6.7,
+                                                              "min": 6.7
+                                                            }
+                                                          ],
+                                                          [
+                                                            {
+                                                              "max": 0,
+                                                              "min": 0
+                                                            }
+                                                          ],
                                                           false,
                                                           false,
                                                           false,
                                                           false,
                                                           false,
-                                                          {
-                                                            "max": 13,
-                                                            "min": 13
-                                                          },
-                                                          {
-                                                            "max": 10,
-                                                            "min": 10
-                                                          },
+                                                          [
+                                                            {
+                                                              "max": 13,
+                                                              "min": 13
+                                                            }
+                                                          ],
+                                                          [
+                                                            {
+                                                              "max": 10,
+                                                              "min": 10
+                                                            }
+                                                          ],
                                                           [
                                                             "Coarse"
-                                                          ]
+                                                          ],
+                                                          true
                                                         ]
                                                       ]
                                                     ]
+                                                  ],
+                                                  0,
+                                                  0,
+                                                  [
+                                                    "None"
                                                   ]
                                                 ]
                                               ]

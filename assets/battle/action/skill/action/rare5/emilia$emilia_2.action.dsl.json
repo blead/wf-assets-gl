@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -140,8 +143,18 @@
                   false,
                   [
                     "Rectangle",
-                    320,
-                    240
+                    [
+                      {
+                        "max": 320,
+                        "min": 320
+                      }
+                    ],
+                    [
+                      {
+                        "max": 240,
+                        "min": 240
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -162,7 +175,12 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
@@ -199,7 +217,12 @@
                           false,
                           [
                             "Some",
-                            0.8
+                            [
+                              {
+                                "max": 0.8,
+                                "min": 0.8
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -234,30 +257,39 @@
                           null,
                           null,
                           8,
-                          {
-                            "max": 1.2,
-                            "min": 1.04
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.04
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 0.6666666666666666,
-                            "min": 0.6666666666666666
-                          },
-                          {
-                            "max": 0.6666666666666666,
-                            "min": 0.6666666666666666
-                          },
+                          [
+                            {
+                              "max": 0.6666666666666666,
+                              "min": 0.6666666666666666
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0.6666666666666666,
+                              "min": 0.6666666666666666
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -297,6 +329,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -354,8 +391,18 @@
                           false,
                           [
                             "Rectangle",
-                            320,
-                            240
+                            [
+                              {
+                                "max": 320,
+                                "min": 320
+                              }
+                            ],
+                            [
+                              {
+                                "max": 240,
+                                "min": 240
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -376,7 +423,12 @@
                           ],
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           false,
                           true,
@@ -413,7 +465,12 @@
                                   false,
                                   [
                                     "Some",
-                                    0.8
+                                    [
+                                      {
+                                        "max": 0.8,
+                                        "min": 0.8
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -448,30 +505,39 @@
                                   null,
                                   null,
                                   8,
-                                  {
-                                    "max": 1.2,
-                                    "min": 1.04
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1.2,
+                                      "min": 1.04
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 0.6666666666666666,
-                                    "min": 0.6666666666666666
-                                  },
-                                  {
-                                    "max": 0.6666666666666666,
-                                    "min": 0.6666666666666666
-                                  },
+                                  [
+                                    {
+                                      "max": 0.6666666666666666,
+                                      "min": 0.6666666666666666
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0.6666666666666666,
+                                      "min": 0.6666666666666666
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
@@ -511,6 +577,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -572,8 +643,18 @@
                           false,
                           [
                             "Rectangle",
-                            320,
-                            240
+                            [
+                              {
+                                "max": 320,
+                                "min": 320
+                              }
+                            ],
+                            [
+                              {
+                                "max": 240,
+                                "min": 240
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -594,14 +675,19 @@
                           ],
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           false,
                           true,
                           [
                             "None"
                           ],
-                          3,
+                          6,
                           [
                             "Block",
                             [
@@ -614,7 +700,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/emilia/emilia_shot"
                                   ],
-                                  3,
+                                  6,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -631,7 +717,12 @@
                                   false,
                                   [
                                     "Some",
-                                    0.8
+                                    [
+                                      {
+                                        "max": 0.8,
+                                        "min": 0.8
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -639,7 +730,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  3,
+                                  6,
                                   [
                                     "AB"
                                   ],
@@ -652,8 +743,8 @@
                               ]
                             ]
                           ],
-                          4,
-                          5,
+                          7,
+                          8,
                           [
                             "Block",
                             [
@@ -661,35 +752,44 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  5,
+                                  8,
                                   255,
                                   null,
                                   null,
                                   8,
-                                  {
-                                    "max": 1.2,
-                                    "min": 1.04
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1.2,
+                                      "min": 1.04
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 0.6666666666666666,
-                                    "min": 0.6666666666666666
-                                  },
-                                  {
-                                    "max": 0.6666666666666666,
-                                    "min": 0.6666666666666666
-                                  },
+                                  [
+                                    {
+                                      "max": 0.6666666666666666,
+                                      "min": 0.6666666666666666
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0.6666666666666666,
+                                      "min": 0.6666666666666666
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
@@ -701,7 +801,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/emilia/emilia_crystal_ver1"
                                   ],
-                                  5,
+                                  8,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -729,6 +829,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -790,8 +895,18 @@
                           false,
                           [
                             "Rectangle",
-                            320,
-                            240
+                            [
+                              {
+                                "max": 320,
+                                "min": 320
+                              }
+                            ],
+                            [
+                              {
+                                "max": 240,
+                                "min": 240
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -812,14 +927,19 @@
                           ],
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           false,
                           true,
                           [
                             "None"
                           ],
-                          3,
+                          9,
                           [
                             "Block",
                             [
@@ -832,7 +952,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/emilia/emilia_shot"
                                   ],
-                                  3,
+                                  9,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -849,7 +969,12 @@
                                   false,
                                   [
                                     "Some",
-                                    0.8
+                                    [
+                                      {
+                                        "max": 0.8,
+                                        "min": 0.8
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -857,7 +982,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  3,
+                                  9,
                                   [
                                     "AB"
                                   ],
@@ -870,8 +995,8 @@
                               ]
                             ]
                           ],
-                          4,
-                          5,
+                          10,
+                          11,
                           [
                             "Block",
                             [
@@ -879,35 +1004,44 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  5,
+                                  11,
                                   255,
                                   null,
                                   null,
                                   8,
-                                  {
-                                    "max": 1.2,
-                                    "min": 1.04
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1.2,
+                                      "min": 1.04
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 0.6666666666666666,
-                                    "min": 0.6666666666666666
-                                  },
-                                  {
-                                    "max": 0.6666666666666666,
-                                    "min": 0.6666666666666666
-                                  },
+                                  [
+                                    {
+                                      "max": 0.6666666666666666,
+                                      "min": 0.6666666666666666
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0.6666666666666666,
+                                      "min": 0.6666666666666666
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
@@ -919,7 +1053,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/emilia/emilia_crystal_ver2"
                                   ],
-                                  5,
+                                  11,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -947,6 +1081,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ],
@@ -1004,8 +1143,18 @@
                                   false,
                                   [
                                     "Rectangle",
-                                    320,
-                                    240
+                                    [
+                                      {
+                                        "max": 320,
+                                        "min": 320
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "max": 240,
+                                        "min": 240
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -1026,14 +1175,19 @@
                                   ],
                                   [
                                     "Some",
-                                    1
+                                    [
+                                      {
+                                        "max": 1,
+                                        "min": 1
+                                      }
+                                    ]
                                   ],
                                   false,
                                   true,
                                   [
                                     "None"
                                   ],
-                                  6,
+                                  12,
                                   [
                                     "Block",
                                     [
@@ -1046,7 +1200,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_shot"
                                           ],
-                                          6,
+                                          12,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -1063,7 +1217,12 @@
                                           false,
                                           [
                                             "Some",
-                                            0.8
+                                            [
+                                              {
+                                                "max": 0.8,
+                                                "min": 0.8
+                                              }
+                                            ]
                                           ]
                                         ]
                                       ],
@@ -1071,7 +1230,7 @@
                                         "Command",
                                         [
                                           "MoveHitArea",
-                                          6,
+                                          12,
                                           [
                                             "AB"
                                           ],
@@ -1084,8 +1243,8 @@
                                       ]
                                     ]
                                   ],
-                                  7,
-                                  8,
+                                  13,
+                                  14,
                                   [
                                     "Block",
                                     [
@@ -1093,35 +1252,44 @@
                                         "Command",
                                         [
                                           "CreateNormalAttack",
-                                          8,
+                                          14,
                                           255,
                                           null,
                                           null,
                                           8,
-                                          {
-                                            "max": 1.2,
-                                            "min": 1.04
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 1.2,
+                                              "min": 1.04
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
                                           [
                                             "None"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ],
                                       [
@@ -1133,7 +1301,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_crystal_ver1"
                                           ],
-                                          8,
+                                          14,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -1161,6 +1329,11 @@
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]
@@ -1222,8 +1395,18 @@
                                   false,
                                   [
                                     "Rectangle",
-                                    320,
-                                    240
+                                    [
+                                      {
+                                        "max": 320,
+                                        "min": 320
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "max": 240,
+                                        "min": 240
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -1244,14 +1427,19 @@
                                   ],
                                   [
                                     "Some",
-                                    1
+                                    [
+                                      {
+                                        "max": 1,
+                                        "min": 1
+                                      }
+                                    ]
                                   ],
                                   false,
                                   true,
                                   [
                                     "None"
                                   ],
-                                  6,
+                                  15,
                                   [
                                     "Block",
                                     [
@@ -1264,7 +1452,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_shot"
                                           ],
-                                          6,
+                                          15,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -1281,7 +1469,12 @@
                                           false,
                                           [
                                             "Some",
-                                            0.8
+                                            [
+                                              {
+                                                "max": 0.8,
+                                                "min": 0.8
+                                              }
+                                            ]
                                           ]
                                         ]
                                       ],
@@ -1289,7 +1482,7 @@
                                         "Command",
                                         [
                                           "MoveHitArea",
-                                          6,
+                                          15,
                                           [
                                             "AB"
                                           ],
@@ -1302,8 +1495,8 @@
                                       ]
                                     ]
                                   ],
-                                  7,
-                                  8,
+                                  16,
+                                  17,
                                   [
                                     "Block",
                                     [
@@ -1311,35 +1504,44 @@
                                         "Command",
                                         [
                                           "CreateNormalAttack",
-                                          8,
+                                          17,
                                           255,
                                           null,
                                           null,
                                           8,
-                                          {
-                                            "max": 1.2,
-                                            "min": 1.04
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 1.2,
+                                              "min": 1.04
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
                                           [
                                             "None"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ],
                                       [
@@ -1351,7 +1553,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_crystal_ver2"
                                           ],
-                                          8,
+                                          17,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -1379,6 +1581,11 @@
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]
@@ -1444,8 +1651,18 @@
                           false,
                           [
                             "Rectangle",
-                            320,
-                            240
+                            [
+                              {
+                                "max": 320,
+                                "min": 320
+                              }
+                            ],
+                            [
+                              {
+                                "max": 240,
+                                "min": 240
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -1466,14 +1683,19 @@
                           ],
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           false,
                           true,
                           [
                             "None"
                           ],
-                          3,
+                          18,
                           [
                             "Block",
                             [
@@ -1486,7 +1708,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/emilia/emilia_shot"
                                   ],
-                                  3,
+                                  18,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -1503,7 +1725,12 @@
                                   false,
                                   [
                                     "Some",
-                                    0.8
+                                    [
+                                      {
+                                        "max": 0.8,
+                                        "min": 0.8
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -1511,7 +1738,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  3,
+                                  18,
                                   [
                                     "AB"
                                   ],
@@ -1524,8 +1751,8 @@
                               ]
                             ]
                           ],
-                          4,
-                          5,
+                          19,
+                          20,
                           [
                             "Block",
                             [
@@ -1533,35 +1760,44 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  5,
+                                  20,
                                   255,
                                   null,
                                   null,
                                   8,
-                                  {
-                                    "max": 1.2,
-                                    "min": 1.04
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1.2,
+                                      "min": 1.04
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 0.6666666666666666,
-                                    "min": 0.6666666666666666
-                                  },
-                                  {
-                                    "max": 0.6666666666666666,
-                                    "min": 0.6666666666666666
-                                  },
+                                  [
+                                    {
+                                      "max": 0.6666666666666666,
+                                      "min": 0.6666666666666666
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0.6666666666666666,
+                                      "min": 0.6666666666666666
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
@@ -1573,7 +1809,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/emilia/emilia_crystal_ver1"
                                   ],
-                                  5,
+                                  20,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -1601,6 +1837,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ],
@@ -1658,8 +1899,18 @@
                                   false,
                                   [
                                     "Rectangle",
-                                    320,
-                                    240
+                                    [
+                                      {
+                                        "max": 320,
+                                        "min": 320
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "max": 240,
+                                        "min": 240
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -1680,14 +1931,19 @@
                                   ],
                                   [
                                     "Some",
-                                    1
+                                    [
+                                      {
+                                        "max": 1,
+                                        "min": 1
+                                      }
+                                    ]
                                   ],
                                   false,
                                   true,
                                   [
                                     "None"
                                   ],
-                                  6,
+                                  21,
                                   [
                                     "Block",
                                     [
@@ -1700,7 +1956,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_shot"
                                           ],
-                                          6,
+                                          21,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -1717,7 +1973,12 @@
                                           false,
                                           [
                                             "Some",
-                                            0.8
+                                            [
+                                              {
+                                                "max": 0.8,
+                                                "min": 0.8
+                                              }
+                                            ]
                                           ]
                                         ]
                                       ],
@@ -1725,7 +1986,7 @@
                                         "Command",
                                         [
                                           "MoveHitArea",
-                                          6,
+                                          21,
                                           [
                                             "AB"
                                           ],
@@ -1738,8 +1999,8 @@
                                       ]
                                     ]
                                   ],
-                                  7,
-                                  8,
+                                  22,
+                                  23,
                                   [
                                     "Block",
                                     [
@@ -1747,35 +2008,44 @@
                                         "Command",
                                         [
                                           "CreateNormalAttack",
-                                          8,
+                                          23,
                                           255,
                                           null,
                                           null,
                                           8,
-                                          {
-                                            "max": 1.2,
-                                            "min": 1.04
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 1.2,
+                                              "min": 1.04
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
                                           [
                                             "None"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ],
                                       [
@@ -1787,7 +2057,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_crystal_ver2"
                                           ],
-                                          8,
+                                          23,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -1815,6 +2085,11 @@
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]
@@ -1876,8 +2151,18 @@
                                   false,
                                   [
                                     "Rectangle",
-                                    320,
-                                    240
+                                    [
+                                      {
+                                        "max": 320,
+                                        "min": 320
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "max": 240,
+                                        "min": 240
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -1898,14 +2183,19 @@
                                   ],
                                   [
                                     "Some",
-                                    1
+                                    [
+                                      {
+                                        "max": 1,
+                                        "min": 1
+                                      }
+                                    ]
                                   ],
                                   false,
                                   true,
                                   [
                                     "None"
                                   ],
-                                  6,
+                                  24,
                                   [
                                     "Block",
                                     [
@@ -1918,7 +2208,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_shot"
                                           ],
-                                          6,
+                                          24,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -1935,7 +2225,12 @@
                                           false,
                                           [
                                             "Some",
-                                            0.8
+                                            [
+                                              {
+                                                "max": 0.8,
+                                                "min": 0.8
+                                              }
+                                            ]
                                           ]
                                         ]
                                       ],
@@ -1943,7 +2238,7 @@
                                         "Command",
                                         [
                                           "MoveHitArea",
-                                          6,
+                                          24,
                                           [
                                             "AB"
                                           ],
@@ -1956,8 +2251,8 @@
                                       ]
                                     ]
                                   ],
-                                  7,
-                                  8,
+                                  25,
+                                  26,
                                   [
                                     "Block",
                                     [
@@ -1965,35 +2260,44 @@
                                         "Command",
                                         [
                                           "CreateNormalAttack",
-                                          8,
+                                          26,
                                           255,
                                           null,
                                           null,
                                           8,
-                                          {
-                                            "max": 1.2,
-                                            "min": 1.04
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 1.2,
+                                              "min": 1.04
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
                                           [
                                             "None"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ],
                                       [
@@ -2005,7 +2309,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_crystal_ver1"
                                           ],
-                                          8,
+                                          26,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -2033,6 +2337,11 @@
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]
@@ -2098,8 +2407,18 @@
                           false,
                           [
                             "Rectangle",
-                            320,
-                            240
+                            [
+                              {
+                                "max": 320,
+                                "min": 320
+                              }
+                            ],
+                            [
+                              {
+                                "max": 240,
+                                "min": 240
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -2120,14 +2439,19 @@
                           ],
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           false,
                           true,
                           [
                             "None"
                           ],
-                          3,
+                          27,
                           [
                             "Block",
                             [
@@ -2140,7 +2464,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/emilia/emilia_shot"
                                   ],
-                                  3,
+                                  27,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -2157,7 +2481,12 @@
                                   false,
                                   [
                                     "Some",
-                                    0.8
+                                    [
+                                      {
+                                        "max": 0.8,
+                                        "min": 0.8
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -2165,7 +2494,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  3,
+                                  27,
                                   [
                                     "AB"
                                   ],
@@ -2178,8 +2507,8 @@
                               ]
                             ]
                           ],
-                          4,
-                          5,
+                          28,
+                          29,
                           [
                             "Block",
                             [
@@ -2187,35 +2516,44 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  5,
+                                  29,
                                   255,
                                   null,
                                   null,
                                   8,
-                                  {
-                                    "max": 1.2,
-                                    "min": 1.04
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1.2,
+                                      "min": 1.04
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 0.6666666666666666,
-                                    "min": 0.6666666666666666
-                                  },
-                                  {
-                                    "max": 0.6666666666666666,
-                                    "min": 0.6666666666666666
-                                  },
+                                  [
+                                    {
+                                      "max": 0.6666666666666666,
+                                      "min": 0.6666666666666666
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0.6666666666666666,
+                                      "min": 0.6666666666666666
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
@@ -2227,7 +2565,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/emilia/emilia_crystal_ver2"
                                   ],
-                                  5,
+                                  29,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -2255,6 +2593,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ],
@@ -2312,8 +2655,18 @@
                                   false,
                                   [
                                     "Rectangle",
-                                    320,
-                                    240
+                                    [
+                                      {
+                                        "max": 320,
+                                        "min": 320
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "max": 240,
+                                        "min": 240
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -2334,14 +2687,19 @@
                                   ],
                                   [
                                     "Some",
-                                    1
+                                    [
+                                      {
+                                        "max": 1,
+                                        "min": 1
+                                      }
+                                    ]
                                   ],
                                   false,
                                   true,
                                   [
                                     "None"
                                   ],
-                                  6,
+                                  30,
                                   [
                                     "Block",
                                     [
@@ -2354,7 +2712,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_shot"
                                           ],
-                                          6,
+                                          30,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -2371,7 +2729,12 @@
                                           false,
                                           [
                                             "Some",
-                                            0.8
+                                            [
+                                              {
+                                                "max": 0.8,
+                                                "min": 0.8
+                                              }
+                                            ]
                                           ]
                                         ]
                                       ],
@@ -2379,7 +2742,7 @@
                                         "Command",
                                         [
                                           "MoveHitArea",
-                                          6,
+                                          30,
                                           [
                                             "AB"
                                           ],
@@ -2392,8 +2755,8 @@
                                       ]
                                     ]
                                   ],
-                                  7,
-                                  8,
+                                  31,
+                                  32,
                                   [
                                     "Block",
                                     [
@@ -2401,35 +2764,44 @@
                                         "Command",
                                         [
                                           "CreateNormalAttack",
-                                          8,
+                                          32,
                                           255,
                                           null,
                                           null,
                                           8,
-                                          {
-                                            "max": 1.2,
-                                            "min": 1.04
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 1.2,
+                                              "min": 1.04
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
                                           [
                                             "None"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ],
                                       [
@@ -2441,7 +2813,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_crystal_ver1"
                                           ],
-                                          8,
+                                          32,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -2469,6 +2841,11 @@
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]
@@ -2530,8 +2907,18 @@
                                   false,
                                   [
                                     "Rectangle",
-                                    320,
-                                    240
+                                    [
+                                      {
+                                        "max": 320,
+                                        "min": 320
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "max": 240,
+                                        "min": 240
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -2552,14 +2939,19 @@
                                   ],
                                   [
                                     "Some",
-                                    1
+                                    [
+                                      {
+                                        "max": 1,
+                                        "min": 1
+                                      }
+                                    ]
                                   ],
                                   false,
                                   true,
                                   [
                                     "None"
                                   ],
-                                  6,
+                                  33,
                                   [
                                     "Block",
                                     [
@@ -2572,7 +2964,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_shot"
                                           ],
-                                          6,
+                                          33,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -2589,7 +2981,12 @@
                                           false,
                                           [
                                             "Some",
-                                            0.8
+                                            [
+                                              {
+                                                "max": 0.8,
+                                                "min": 0.8
+                                              }
+                                            ]
                                           ]
                                         ]
                                       ],
@@ -2597,7 +2994,7 @@
                                         "Command",
                                         [
                                           "MoveHitArea",
-                                          6,
+                                          33,
                                           [
                                             "AB"
                                           ],
@@ -2610,8 +3007,8 @@
                                       ]
                                     ]
                                   ],
-                                  7,
-                                  8,
+                                  34,
+                                  35,
                                   [
                                     "Block",
                                     [
@@ -2619,35 +3016,44 @@
                                         "Command",
                                         [
                                           "CreateNormalAttack",
-                                          8,
+                                          35,
                                           255,
                                           null,
                                           null,
                                           8,
-                                          {
-                                            "max": 1.2,
-                                            "min": 1.04
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 1.2,
+                                              "min": 1.04
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
                                           [
                                             "None"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ],
                                       [
@@ -2659,7 +3065,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_crystal_ver2"
                                           ],
-                                          8,
+                                          35,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -2687,6 +3093,11 @@
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]
@@ -2752,8 +3163,18 @@
                           false,
                           [
                             "Rectangle",
-                            320,
-                            240
+                            [
+                              {
+                                "max": 320,
+                                "min": 320
+                              }
+                            ],
+                            [
+                              {
+                                "max": 240,
+                                "min": 240
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -2774,14 +3195,19 @@
                           ],
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           false,
                           true,
                           [
                             "None"
                           ],
-                          3,
+                          36,
                           [
                             "Block",
                             [
@@ -2794,7 +3220,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/emilia/emilia_shot"
                                   ],
-                                  3,
+                                  36,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -2811,7 +3237,12 @@
                                   false,
                                   [
                                     "Some",
-                                    0.8
+                                    [
+                                      {
+                                        "max": 0.8,
+                                        "min": 0.8
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -2819,7 +3250,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  3,
+                                  36,
                                   [
                                     "AB"
                                   ],
@@ -2832,8 +3263,8 @@
                               ]
                             ]
                           ],
-                          4,
-                          5,
+                          37,
+                          38,
                           [
                             "Block",
                             [
@@ -2841,35 +3272,44 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  5,
+                                  38,
                                   255,
                                   null,
                                   null,
                                   8,
-                                  {
-                                    "max": 1.2,
-                                    "min": 1.04
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1.2,
+                                      "min": 1.04
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 0.6666666666666666,
-                                    "min": 0.6666666666666666
-                                  },
-                                  {
-                                    "max": 0.6666666666666666,
-                                    "min": 0.6666666666666666
-                                  },
+                                  [
+                                    {
+                                      "max": 0.6666666666666666,
+                                      "min": 0.6666666666666666
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0.6666666666666666,
+                                      "min": 0.6666666666666666
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
@@ -2881,7 +3321,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/emilia/emilia_crystal_ver1"
                                   ],
-                                  5,
+                                  38,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -2909,6 +3349,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ],
@@ -2966,8 +3411,18 @@
                                   false,
                                   [
                                     "Rectangle",
-                                    320,
-                                    240
+                                    [
+                                      {
+                                        "max": 320,
+                                        "min": 320
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "max": 240,
+                                        "min": 240
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -2988,14 +3443,19 @@
                                   ],
                                   [
                                     "Some",
-                                    1
+                                    [
+                                      {
+                                        "max": 1,
+                                        "min": 1
+                                      }
+                                    ]
                                   ],
                                   false,
                                   true,
                                   [
                                     "None"
                                   ],
-                                  6,
+                                  39,
                                   [
                                     "Block",
                                     [
@@ -3008,7 +3468,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_shot"
                                           ],
-                                          6,
+                                          39,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -3025,7 +3485,12 @@
                                           false,
                                           [
                                             "Some",
-                                            0.8
+                                            [
+                                              {
+                                                "max": 0.8,
+                                                "min": 0.8
+                                              }
+                                            ]
                                           ]
                                         ]
                                       ],
@@ -3033,7 +3498,7 @@
                                         "Command",
                                         [
                                           "MoveHitArea",
-                                          6,
+                                          39,
                                           [
                                             "AB"
                                           ],
@@ -3046,8 +3511,8 @@
                                       ]
                                     ]
                                   ],
-                                  7,
-                                  8,
+                                  40,
+                                  41,
                                   [
                                     "Block",
                                     [
@@ -3055,35 +3520,44 @@
                                         "Command",
                                         [
                                           "CreateNormalAttack",
-                                          8,
+                                          41,
                                           255,
                                           null,
                                           null,
                                           8,
-                                          {
-                                            "max": 1.2,
-                                            "min": 1.04
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 1.2,
+                                              "min": 1.04
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
                                           [
                                             "None"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ],
                                       [
@@ -3095,7 +3569,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_crystal_ver2"
                                           ],
-                                          8,
+                                          41,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -3123,6 +3597,11 @@
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]
@@ -3184,8 +3663,18 @@
                                   false,
                                   [
                                     "Rectangle",
-                                    320,
-                                    240
+                                    [
+                                      {
+                                        "max": 320,
+                                        "min": 320
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "max": 240,
+                                        "min": 240
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -3206,14 +3695,19 @@
                                   ],
                                   [
                                     "Some",
-                                    1
+                                    [
+                                      {
+                                        "max": 1,
+                                        "min": 1
+                                      }
+                                    ]
                                   ],
                                   false,
                                   true,
                                   [
                                     "None"
                                   ],
-                                  6,
+                                  42,
                                   [
                                     "Block",
                                     [
@@ -3226,7 +3720,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_shot"
                                           ],
-                                          6,
+                                          42,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -3243,7 +3737,12 @@
                                           false,
                                           [
                                             "Some",
-                                            0.8
+                                            [
+                                              {
+                                                "max": 0.8,
+                                                "min": 0.8
+                                              }
+                                            ]
                                           ]
                                         ]
                                       ],
@@ -3251,7 +3750,7 @@
                                         "Command",
                                         [
                                           "MoveHitArea",
-                                          6,
+                                          42,
                                           [
                                             "AB"
                                           ],
@@ -3264,8 +3763,8 @@
                                       ]
                                     ]
                                   ],
-                                  7,
-                                  8,
+                                  43,
+                                  44,
                                   [
                                     "Block",
                                     [
@@ -3273,35 +3772,44 @@
                                         "Command",
                                         [
                                           "CreateNormalAttack",
-                                          8,
+                                          44,
                                           255,
                                           null,
                                           null,
                                           8,
-                                          {
-                                            "max": 1.2,
-                                            "min": 1.04
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 1.2,
+                                              "min": 1.04
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
-                                          {
-                                            "max": 0.6666666666666666,
-                                            "min": 0.6666666666666666
-                                          },
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0.6666666666666666,
+                                              "min": 0.6666666666666666
+                                            }
+                                          ],
                                           [
                                             "None"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ],
                                       [
@@ -3313,7 +3821,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/emilia/emilia_crystal_ver1"
                                           ],
-                                          8,
+                                          44,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -3341,6 +3849,11 @@
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]
@@ -3360,7 +3873,7 @@
         "Command",
         [
           "FindAllSubjects",
-          0,
+          45,
           33,
           null,
           null,
@@ -3377,29 +3890,51 @@
                 "Command",
                 [
                   "CreateCondition",
-                  0,
+                  45,
                   [
                     [
                       "ACSkillDamage",
-                      {
-                        "max": 1200,
-                        "min": 1200
-                      },
-                      {
-                        "max": 0.8,
-                        "min": 0.7
-                      },
-                      1
+                      [
+                        {
+                          "max": 1200,
+                          "min": 1200
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.8,
+                          "min": 0.7
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]

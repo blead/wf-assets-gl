@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -28,7 +31,12 @@
           false,
           [
             "Circle",
-            55
+            [
+              {
+                "max": 55,
+                "min": 55
+              }
+            ]
           ],
           [
             "Center"
@@ -120,33 +128,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 1.725,
-                    "min": 1.725
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.725,
+                      "min": 1.725
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -166,7 +188,12 @@
           false,
           [
             "Circle",
-            24
+            [
+              {
+                "max": 24,
+                "min": 24
+              }
+            ]
           ],
           [
             "Center"
@@ -258,33 +285,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 1.5,
-                    "min": 1.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.5,
+                      "min": 1.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -304,7 +345,12 @@
           false,
           [
             "Circle",
-            55
+            [
+              {
+                "max": 55,
+                "min": 55
+              }
+            ]
           ],
           [
             "Center"
@@ -396,33 +442,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 1.725,
-                    "min": 1.725
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.725,
+                      "min": 1.725
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -442,7 +502,12 @@
           false,
           [
             "Circle",
-            24
+            [
+              {
+                "max": 24,
+                "min": 24
+              }
+            ]
           ],
           [
             "Center"
@@ -534,33 +599,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 1.5,
-                    "min": 1.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.5,
+                      "min": 1.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -580,7 +659,12 @@
           false,
           [
             "Circle",
-            55
+            [
+              {
+                "max": 55,
+                "min": 55
+              }
+            ]
           ],
           [
             "Center"
@@ -672,33 +756,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 1.725,
-                    "min": 1.725
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.725,
+                      "min": 1.725
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -718,7 +816,12 @@
           false,
           [
             "Circle",
-            24
+            [
+              {
+                "max": 24,
+                "min": 24
+              }
+            ]
           ],
           [
             "Center"
@@ -810,33 +913,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 1.5,
-                    "min": 1.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.5,
+                      "min": 1.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -856,7 +973,12 @@
           false,
           [
             "Circle",
-            55
+            [
+              {
+                "max": 55,
+                "min": 55
+              }
+            ]
           ],
           [
             "Center"
@@ -948,33 +1070,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 1.725,
-                    "min": 1.725
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.725,
+                      "min": 1.725
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -994,7 +1130,12 @@
           false,
           [
             "Circle",
-            24
+            [
+              {
+                "max": 24,
+                "min": 24
+              }
+            ]
           ],
           [
             "Center"
@@ -1086,33 +1227,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 1.5,
-                    "min": 1.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.5,
+                      "min": 1.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -1132,7 +1287,12 @@
           false,
           [
             "Circle",
-            55
+            [
+              {
+                "max": 55,
+                "min": 55
+              }
+            ]
           ],
           [
             "Center"
@@ -1224,33 +1384,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 1.725,
-                    "min": 1.725
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.725,
+                      "min": 1.725
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -1270,7 +1444,12 @@
           false,
           [
             "Circle",
-            24
+            [
+              {
+                "max": 24,
+                "min": 24
+              }
+            ]
           ],
           [
             "Center"
@@ -1362,33 +1541,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 1.5,
-                    "min": 1.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.5,
+                      "min": 1.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -1408,7 +1601,12 @@
           false,
           [
             "Circle",
-            55
+            [
+              {
+                "max": 55,
+                "min": 55
+              }
+            ]
           ],
           [
             "Center"
@@ -1500,33 +1698,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 1.725,
-                    "min": 1.725
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.725,
+                      "min": 1.725
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -1546,7 +1758,12 @@
           false,
           [
             "Circle",
-            24
+            [
+              {
+                "max": 24,
+                "min": 24
+              }
+            ]
           ],
           [
             "Center"
@@ -1638,33 +1855,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 1.5,
-                    "min": 1.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.5,
+                      "min": 1.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -1684,7 +1915,12 @@
           false,
           [
             "Circle",
-            55
+            [
+              {
+                "max": 55,
+                "min": 55
+              }
+            ]
           ],
           [
             "Center"
@@ -1776,33 +2012,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 1.725,
-                    "min": 1.725
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.725,
+                      "min": 1.725
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -1822,7 +2072,12 @@
           false,
           [
             "Circle",
-            24
+            [
+              {
+                "max": 24,
+                "min": 24
+              }
+            ]
           ],
           [
             "Center"
@@ -1914,33 +2169,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 1.5,
-                    "min": 1.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.5,
+                      "min": 1.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -1969,7 +2238,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -2065,33 +2339,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -2111,7 +2399,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -2205,33 +2498,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -2251,7 +2558,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -2347,33 +2659,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -2393,7 +2719,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -2487,33 +2818,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -2533,7 +2878,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -2629,33 +2979,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -2675,7 +3039,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -2769,33 +3138,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -2815,7 +3198,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -2911,33 +3299,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -2957,7 +3359,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -3051,33 +3458,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -3097,7 +3518,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -3193,33 +3619,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -3239,7 +3679,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -3333,33 +3778,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -3379,7 +3838,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -3475,33 +3939,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -3521,7 +3999,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -3615,33 +4098,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -3661,7 +4158,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -3757,33 +4259,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -3803,7 +4319,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -3897,33 +4418,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -3943,7 +4478,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -4039,33 +4579,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -4085,7 +4639,12 @@
                   false,
                   [
                     "Circle",
-                    24
+                    [
+                      {
+                        "max": 24,
+                        "min": 24
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -4179,33 +4738,47 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.65,
-                            "min": 1.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.65,
+                              "min": 1.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]

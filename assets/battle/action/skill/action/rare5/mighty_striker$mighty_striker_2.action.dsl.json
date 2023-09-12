@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -43,25 +46,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 900,
-                "min": 900
-              },
-              {
-                "max": 0.5,
-                "min": 0.4
-              },
-              1
+              [
+                {
+                  "max": 900,
+                  "min": 900
+                }
+              ],
+              [
+                {
+                  "max": 0.5,
+                  "min": 0.4
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -109,25 +134,47 @@
                           [
                             [
                               "ACPowerFlipDamage",
-                              {
-                                "max": 900,
-                                "min": 900
-                              },
-                              {
-                                "max": 1,
-                                "min": 0.8
-                              },
-                              1
+                              [
+                                {
+                                  "max": 900,
+                                  "min": 900
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 0.8
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
@@ -156,7 +203,7 @@
             "Single"
           ],
           600,
-          1,
+          2,
           [
             "Block",
             [
@@ -169,7 +216,7 @@
                     "SpecifyEffectDirectly",
                     "battle/effect/skill_unique/mighty_striker/mighty_striker_character_rush"
                   ],
-                  1,
+                  2,
                   [
                     "ForesideOfCharacter"
                   ],
@@ -205,7 +252,7 @@
                         [
                           "CreateHitArea",
                           "*",
-                          1,
+                          2,
                           [
                             "AB"
                           ],
@@ -216,8 +263,18 @@
                           false,
                           [
                             "Rectangle",
-                            150,
-                            350
+                            [
+                              {
+                                "max": 150,
+                                "min": 150
+                              }
+                            ],
+                            [
+                              {
+                                "max": 350,
+                                "min": 350
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -244,7 +301,7 @@
                           [
                             "None"
                           ],
-                          2,
+                          3,
                           [
                             "Block",
                             [
@@ -257,7 +314,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/mighty_striker/mighty_striker_dot_punch_right"
                                   ],
-                                  2,
+                                  3,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -274,7 +331,12 @@
                                   false,
                                   [
                                     "Some",
-                                    6
+                                    [
+                                      {
+                                        "max": 6,
+                                        "min": 6
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -287,7 +349,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/mighty_striker/mighty_striker_area_punch_right"
                                   ],
-                                  2,
+                                  3,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -304,14 +366,19 @@
                                   false,
                                   [
                                     "Some",
-                                    2
+                                    [
+                                      {
+                                        "max": 2,
+                                        "min": 2
+                                      }
+                                    ]
                                   ]
                                 ]
                               ]
                             ]
                           ],
-                          3,
                           4,
+                          5,
                           [
                             "Block",
                             [
@@ -319,35 +386,44 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  4,
+                                  5,
                                   255,
                                   null,
                                   null,
                                   8,
-                                  {
-                                    "max": 1.3125,
-                                    "min": 1.125
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1.3125,
+                                      "min": 1.125
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 0.875,
-                                    "min": 0.875
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0.875,
+                                      "min": 0.875
+                                    }
+                                  ],
                                   [
                                     "Fine"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
@@ -358,6 +434,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ],
@@ -375,7 +456,7 @@
                                 [
                                   "CreateHitArea",
                                   "*",
-                                  1,
+                                  2,
                                   [
                                     "AB"
                                   ],
@@ -386,8 +467,18 @@
                                   false,
                                   [
                                     "Rectangle",
-                                    150,
-                                    350
+                                    [
+                                      {
+                                        "max": 150,
+                                        "min": 150
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "max": 350,
+                                        "min": 350
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -414,7 +505,7 @@
                                   [
                                     "None"
                                   ],
-                                  5,
+                                  6,
                                   [
                                     "Block",
                                     [
@@ -427,7 +518,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/mighty_striker/mighty_striker_dot_punch_left"
                                           ],
-                                          5,
+                                          6,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -444,7 +535,12 @@
                                           false,
                                           [
                                             "Some",
-                                            6
+                                            [
+                                              {
+                                                "max": 6,
+                                                "min": 6
+                                              }
+                                            ]
                                           ]
                                         ]
                                       ],
@@ -457,7 +553,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/mighty_striker/mighty_striker_area_punch_right"
                                           ],
-                                          5,
+                                          6,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -474,14 +570,19 @@
                                           false,
                                           [
                                             "Some",
-                                            2
+                                            [
+                                              {
+                                                "max": 2,
+                                                "min": 2
+                                              }
+                                            ]
                                           ]
                                         ]
                                       ]
                                     ]
                                   ],
-                                  6,
                                   7,
+                                  8,
                                   [
                                     "Block",
                                     [
@@ -489,35 +590,44 @@
                                         "Command",
                                         [
                                           "CreateNormalAttack",
-                                          7,
+                                          8,
                                           255,
                                           null,
                                           null,
                                           8,
-                                          {
-                                            "max": 1.3125,
-                                            "min": 1.125
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 1.3125,
+                                              "min": 1.125
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 1,
-                                            "min": 1
-                                          },
-                                          {
-                                            "max": 0.875,
-                                            "min": 0.875
-                                          },
+                                          [
+                                            {
+                                              "max": 1,
+                                              "min": 1
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0.875,
+                                              "min": 0.875
+                                            }
+                                          ],
                                           [
                                             "Fine"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ],
                                       [
@@ -528,6 +638,11 @@
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]
@@ -557,7 +672,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/mighty_striker/mighty_striker_character_slam_smoke"
                           ],
-                          1,
+                          2,
                           [
                             "BacksideOfCharacter"
                           ],
@@ -586,7 +701,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/mighty_striker/mighty_striker_character_slam"
                           ],
-                          1,
+                          2,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -619,7 +734,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  1,
+                                  2,
                                   [
                                     "AB"
                                   ],
@@ -647,7 +762,7 @@
                                         "Command",
                                         [
                                           "MoveHitArea",
-                                          1,
+                                          2,
                                           [
                                             "AB"
                                           ],
@@ -680,7 +795,7 @@
                                 [
                                   "CreateHitArea",
                                   "*",
-                                  1,
+                                  2,
                                   [
                                     "AB"
                                   ],
@@ -691,7 +806,12 @@
                                   false,
                                   [
                                     "Circle",
-                                    220
+                                    [
+                                      {
+                                        "max": 220,
+                                        "min": 220
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -718,7 +838,7 @@
                                   [
                                     "None"
                                   ],
-                                  8,
+                                  9,
                                   [
                                     "Block",
                                     [
@@ -731,7 +851,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/mighty_striker/mighty_striker_area_slam"
                                           ],
-                                          8,
+                                          9,
                                           [
                                             "BacksideOfCharacter"
                                           ],
@@ -748,14 +868,19 @@
                                           false,
                                           [
                                             "Some",
-                                            4
+                                            [
+                                              {
+                                                "max": 4,
+                                                "min": 4
+                                              }
+                                            ]
                                           ]
                                         ]
                                       ]
                                     ]
                                   ],
-                                  9,
                                   10,
+                                  11,
                                   [
                                     "Block",
                                     [
@@ -763,35 +888,44 @@
                                         "Command",
                                         [
                                           "CreateNormalAttack",
-                                          10,
+                                          11,
                                           255,
                                           null,
                                           null,
                                           7,
-                                          {
-                                            "max": 1.0714285714285714,
-                                            "min": 0.9285714285714286
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 1.0714285714285714,
+                                              "min": 0.9285714285714286
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 0.7142857142857143,
-                                            "min": 0.7142857142857143
-                                          },
-                                          {
-                                            "max": 0.5714285714285714,
-                                            "min": 0.5714285714285714
-                                          },
+                                          [
+                                            {
+                                              "max": 0.7142857142857143,
+                                              "min": 0.7142857142857143
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0.5714285714285714,
+                                              "min": 0.5714285714285714
+                                            }
+                                          ],
                                           [
                                             "Fine"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ],
                                       [
@@ -802,6 +936,11 @@
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]

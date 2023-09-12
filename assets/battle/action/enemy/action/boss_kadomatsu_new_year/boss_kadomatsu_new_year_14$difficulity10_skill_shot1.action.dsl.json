@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   true,
   true,
@@ -28,8 +31,18 @@
           false,
           [
             "Rectangle",
-            490,
-            2000
+            [
+              {
+                "max": 490,
+                "min": 490
+              }
+            ],
+            [
+              {
+                "max": 2000,
+                "min": 2000
+              }
+            ]
           ],
           [
             "Center"
@@ -103,13 +116,20 @@
                   "CreateRatioAttack",
                   2,
                   1,
-                  {
-                    "max": 0.03,
-                    "min": 0.03
-                  }
+                  [
+                    {
+                      "max": 0.03,
+                      "min": 0.03
+                    }
+                  ]
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

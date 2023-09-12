@@ -1,0 +1,96 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_wind_turretC_skill"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            1
+          ],
+          [
+            [
+              "ACSkillDamageResistance",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_wind_turretD_skill"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            2
+          ],
+          [
+            [
+              "ACSkillDamageResistance",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

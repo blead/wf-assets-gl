@@ -9,6 +9,7 @@
       "1",
       "1",
       "1001001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_1_owl",
       "quest/boss_battle/background/boss_battle_owl",
       "",
@@ -25,9 +26,10 @@
       "2",
       "1",
       "1002001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_2_treant",
       "quest/boss_battle/background/boss_battle_treant",
-      "9,11",
+      "9,11,15,10000010",
       "false"
     ]
   ],
@@ -41,9 +43,10 @@
       "3",
       "1",
       "1003001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_3_lich",
       "quest/boss_battle/background/boss_battle_lich",
-      "1,3,6,8,10,11,13,14",
+      "1,3,6,8,10,11,13,14,15,17,10000008,10000011,16",
       "false"
     ]
   ],
@@ -57,9 +60,10 @@
       "5",
       "1",
       "1005001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_5_gurdian_totem",
       "quest/boss_battle/background/boss_battle_gurdian_totem",
-      "7,9",
+      "7,9,15,10000004",
       "false"
     ]
   ],
@@ -73,9 +77,10 @@
       "6",
       "1",
       "1006001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_6_gurdian_golem",
       "quest/boss_battle/background/boss_battle_gurdian_golem",
-      "1,4,5,6,8,9,13,14",
+      "1,4,5,6,8,9,13,14,15,10000004,10000008,10000011,16",
       "false"
     ]
   ],
@@ -89,9 +94,10 @@
       "9",
       "1",
       "1009001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_9_kraken",
       "quest/boss_battle/background/boss_battle_kraken",
-      "2",
+      "2,15,10000004",
       "false"
     ]
   ],
@@ -105,9 +111,10 @@
       "10",
       "1",
       "1010001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_10_harmit_crab",
       "quest/boss_battle/background/boss_battle_harmit_crab",
-      "1,4,6,8,10,13,14",
+      "1,4,6,8,10,13,14,15,17,10000004,16",
       "false"
     ]
   ],
@@ -121,9 +128,10 @@
       "12",
       "1",
       "1012001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_12_arch_evil",
       "quest/boss_battle/background/boss_battle_arch_evil",
-      "1,3,5,6,7,8,13,14",
+      "1,3,5,6,7,8,13,14,15,17,10000004,10000010",
       "false"
     ]
   ],
@@ -137,9 +145,10 @@
       "13",
       "1",
       "1013001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_13_boar_rider",
       "quest/boss_battle/background/boss_battle_boar_rider",
-      "9,14",
+      "9,14,15,17,10000008,10000011,16",
       "false"
     ]
   ],
@@ -153,9 +162,10 @@
       "14",
       "1",
       "1014001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_14_white_tiger_ghost",
       "quest/boss_battle/background/boss_battle_white_tiger_ghost",
-      "1,3,4,6,8,10,11,13,14",
+      "1,3,4,6,8,10,11,13,14,15,17,10000010",
       "false"
     ]
   ],
@@ -169,9 +179,10 @@
       "16",
       "1",
       "1016001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_16_security_armor",
       "quest/boss_battle/background/boss_battle_security_armor",
-      "2,12,14",
+      "2,12,14,15,17,10000004,10000010",
       "false"
     ]
   ],
@@ -185,9 +196,10 @@
       "17",
       "1",
       "1017001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_17_administrator",
       "quest/boss_battle/background/boss_battle_administrator",
-      "1,2,5,6,7,8,13,14",
+      "1,2,5,6,7,8,13,14,15,17,10000004,10000010",
       "false"
     ]
   ],
@@ -201,9 +213,10 @@
       "19",
       "1",
       "1019001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_19_ghost_fox",
       "quest/boss_battle/background/boss_battle_ghost_fox",
-      "7,12,14",
+      "7,12,14,15,17,10000010",
       "false"
     ]
   ],
@@ -217,9 +230,10 @@
       "20",
       "1",
       "1020001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_20_orochi",
       "quest/boss_battle/background/boss_battle_orochi",
-      "2,8,10,14",
+      "2,8,10,14,15,17,10000008,16",
       "false"
     ]
   ],
@@ -233,6 +247,7 @@
       "22",
       "1",
       "1022001",
+      "2023-05-08 20:59:59",
       "quest/boss_battle/banner/boss_battle_22_empress_01",
       "quest/boss_battle/background/boss_battle_empress_01",
       "11,12,13",
@@ -249,9 +264,10 @@
       "23",
       "1",
       "1023001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_23_dorsal_brothers",
       "quest/boss_battle/background/boss_battle_dorsal_brothers",
-      "14",
+      "14,15,17,10000004,16",
       "false"
     ]
   ],
@@ -265,9 +281,10 @@
       "25",
       "1",
       "1025001",
+      "(None)",
       "quest/event/banner/advent_event/advent_event_banner_01",
       "quest/boss_battle/background/boss_battle_discarded_dragon_thunder",
-      "",
+      "18,10000012",
       "false"
     ]
   ],
@@ -281,9 +298,10 @@
       "26",
       "1",
       "1026001",
+      "(None)",
       "quest/event/banner/advent_event/advent_event_banner_02",
       "quest/boss_battle/background/boss_battle_discarded_dragon_fire",
-      "",
+      "18,10000012",
       "false"
     ]
   ],
@@ -297,9 +315,10 @@
       "27",
       "1",
       "1027001",
+      "(None)",
       "quest/event/banner/advent_event/advent_event_banner_05",
       "quest/boss_battle/background/boss_battle_discarded_dragon_water",
-      "",
+      "18,10000012",
       "false"
     ]
   ],
@@ -313,9 +332,10 @@
       "24",
       "1",
       "1024001",
+      "(None)",
       "quest/boss_battle/banner/boss_battle_24_grizzly_fire",
       "quest/boss_battle/background/boss_battle_grizzly_fire",
-      "14",
+      "14,15,10000004,10000008,10000011,16",
       "false"
     ]
   ],
@@ -323,15 +343,16 @@
     [
       "discarded_dragon_wind_revival_bossbattle",
       "1997",
-      "2",
+      "3",
       "2",
       "1",
       "28",
       "1",
       "1028001",
+      "(None)",
       "quest/event/banner/advent_event/advent_event_banner_08",
       "quest/boss_battle/background/boss_battle_discarded_dragon_wind",
-      "",
+      "18,10000012",
       "false"
     ]
   ],
@@ -339,15 +360,16 @@
     [
       "discarded_dragon_light_revival_bossbattle",
       "1996",
-      "0",
+      "4",
       "2",
       "1",
       "29",
       "1",
       "1029001",
+      "(None)",
       "quest/event/banner/advent_event/advent_event_banner_03",
       "quest/boss_battle/background/boss_battle_discarded_dragon_light",
-      "",
+      "18,10000012",
       "false"
     ]
   ],
@@ -355,15 +377,16 @@
     [
       "discarded_dragon_dark_revival_bossbattle",
       "1995",
-      "1",
+      "5",
       "2",
       "1",
       "30",
       "1",
       "1030001",
+      "(None)",
       "quest/event/banner/advent_event/advent_event_banner_07",
       "quest/boss_battle/background/boss_battle_discarded_dragon_dark",
-      "",
+      "18,10000012",
       "false"
     ]
   ],
@@ -377,9 +400,61 @@
       "31",
       "1",
       "1031001",
+      "2023-09-22 20:59:59",
       "quest/boss_battle/banner/boss_battle_31_empress_01",
       "quest/boss_battle/background/boss_battle_empress_02",
-      "14",
+      "14,15,17",
+      "true"
+    ]
+  ],
+  "31": [
+    [
+      "Pcollab_02",
+      "998",
+      "(None)",
+      "2",
+      "1",
+      "32",
+      "1",
+      "1032001",
+      "2023-10-11 20:59:59",
+      "quest/boss_battle/banner/boss_battle_32_Pcollab_02",
+      "quest/boss_battle/background/boss_battle_Pcollab_02",
+      "16",
+      "true"
+    ]
+  ],
+  "32": [
+    [
+      "evil_envy",
+      "2984",
+      "5",
+      "2",
+      "1",
+      "33",
+      "1",
+      "1033001",
+      "(None)",
+      "quest/boss_battle/banner/boss_battle_33_evil_envy",
+      "quest/boss_battle/background/boss_battle_evil_envy",
+      "17,10000004,10000010",
+      "false"
+    ]
+  ],
+  "33": [
+    [
+      "empress_03",
+      "999",
+      "3",
+      "2",
+      "1",
+      "34",
+      "1",
+      "1034001",
+      "2024-07-31 04:59:59",
+      "quest/boss_battle/banner/boss_battle_34_empress_01",
+      "quest/boss_battle/background/boss_battle_empress_03",
+      "10000004,10000011",
       "true"
     ]
   ]

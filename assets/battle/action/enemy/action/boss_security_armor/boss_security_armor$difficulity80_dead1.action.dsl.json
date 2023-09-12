@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -65,10 +68,12 @@
                   "CreateRatioAttack",
                   0,
                   2,
-                  {
-                    "max": 0.101,
-                    "min": 0.101
-                  }
+                  [
+                    {
+                      "max": 0.101,
+                      "min": 0.101
+                    }
+                  ]
                 ]
               ]
             ]

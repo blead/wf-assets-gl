@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   3,
+  [
+    "None"
+  ],
   true,
   false,
   false,
@@ -79,8 +82,18 @@
           true,
           [
             "Rectangle",
-            400,
-            400
+            [
+              {
+                "max": 400,
+                "min": 400
+              }
+            ],
+            [
+              {
+                "max": 400,
+                "min": 400
+              }
+            ]
           ],
           [
             "Center"
@@ -107,7 +120,7 @@
           [
             "None"
           ],
-          0,
+          1,
           [
             "Block",
             [
@@ -120,7 +133,7 @@
                     "SpecifyEffectDirectly",
                     "battle/effect/skill_unique/shapely_soldier/shapely_soldier"
                   ],
-                  0,
+                  1,
                   [
                     "ForesideOfCharacter"
                   ],
@@ -137,14 +150,19 @@
                   true,
                   [
                     "Some",
-                    4
+                    [
+                      {
+                        "max": 4,
+                        "min": 4
+                      }
+                    ]
                   ]
                 ]
               ]
             ]
           ],
-          1,
           2,
+          3,
           [
             "Block",
             [
@@ -152,35 +170,44 @@
                 "Command",
                 [
                   "CreateNormalAttack",
-                  2,
+                  3,
                   255,
                   null,
                   null,
                   6,
-                  {
-                    "max": 0.6666666666666666,
-                    "min": 0.6666666666666666
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 0.6666666666666666,
+                      "min": 0.6666666666666666
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   true,
                   false,
                   false,
-                  {
-                    "max": 0.4,
-                    "min": 0.4
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 0.4,
+                      "min": 0.4
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "Fine"
-                  ]
+                  ],
+                  true
                 ]
               ],
               [
@@ -191,6 +218,11 @@
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -18,10 +21,12 @@
           "CreateSummonsMultiball",
           1,
           1110061,
-          {
-            "max": 1800,
-            "min": 1800
-          },
+          [
+            {
+              "max": 1800,
+              "min": 1800
+            }
+          ],
           [
             "E2",
             [
@@ -46,7 +51,12 @@
             "battle/effect/skill_unique/compliment_oiran/compliment_oiran_multiball_disappear_compliment_oiran_redball"
           ],
           0,
-          false
+          false,
+          "*",
+          0,
+          1,
+          null,
+          null
         ]
       ],
       [
@@ -55,10 +65,12 @@
           "CreateSummonsMultiball",
           1,
           1110063,
-          {
-            "max": 1800,
-            "min": 1800
-          },
+          [
+            {
+              "max": 1800,
+              "min": 1800
+            }
+          ],
           [
             "E2",
             [
@@ -83,14 +95,19 @@
             "battle/effect/skill_unique/compliment_oiran/compliment_oiran_multiball_disappear_compliment_oiran_blueball"
           ],
           0,
-          false
+          false,
+          "*",
+          2,
+          3,
+          null,
+          null
         ]
       ],
       [
         "Command",
         [
           "FindAllSubjects",
-          0,
+          4,
           33,
           null,
           null,

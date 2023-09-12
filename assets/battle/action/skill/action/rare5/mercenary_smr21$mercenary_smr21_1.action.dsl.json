@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -64,7 +67,12 @@
                   true,
                   [
                     "Circle",
-                    200
+                    [
+                      {
+                        "max": 200,
+                        "min": 200
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -121,7 +129,12 @@
                           false,
                           [
                             "Some",
-                            4.5
+                            [
+                              {
+                                "max": 4.5,
+                                "min": 4.5
+                              }
+                            ]
                           ]
                         ]
                       ]
@@ -148,27 +161,35 @@
                           null,
                           null,
                           5,
-                          {
-                            "max": 0.5349999999999999,
-                            "min": 0.5349999999999999
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.5349999999999999,
+                              "min": 0.5349999999999999
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "SpecifyHitEffectDirectly",
                             [
@@ -176,10 +197,16 @@
                               "battle/effect/skill_unique/mercenary_smr21/mercenary_smr21_hit"
                             ],
                             true
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -312,8 +339,18 @@
                           false,
                           [
                             "Rectangle",
-                            400,
-                            80
+                            [
+                              {
+                                "max": 400,
+                                "min": 400
+                              }
+                            ],
+                            [
+                              {
+                                "max": 80,
+                                "min": 80
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -340,7 +377,7 @@
                           [
                             "None"
                           ],
-                          1,
+                          4,
                           [
                             "Block",
                             [
@@ -353,7 +390,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/mercenary_smr21/mercenary_smr21_slash"
                                   ],
-                                  1,
+                                  4,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -370,7 +407,12 @@
                                   true,
                                   [
                                     "Some",
-                                    4
+                                    [
+                                      {
+                                        "max": 4,
+                                        "min": 4
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -378,7 +420,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  1,
+                                  4,
                                   [
                                     "CD"
                                   ],
@@ -391,8 +433,8 @@
                               ]
                             ]
                           ],
-                          2,
-                          3,
+                          5,
+                          6,
                           [
                             "Block",
                             [
@@ -407,32 +449,40 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  3,
+                                  6,
                                   4,
                                   null,
                                   null,
                                   53,
-                                  {
-                                    "max": 5.3,
-                                    "min": 5.3
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 5.3,
+                                      "min": 5.3
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 10,
-                                    "min": 10
-                                  },
-                                  {
-                                    "max": 2,
-                                    "min": 2
-                                  },
+                                  [
+                                    {
+                                      "max": 10,
+                                      "min": 10
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 2,
+                                      "min": 2
+                                    }
+                                  ],
                                   [
                                     "SpecifyHitEffectDirectly",
                                     [
@@ -440,10 +490,16 @@
                                       "battle/effect/skill_unique/mercenary_smr21/mercenary_smr21_hit"
                                     ],
                                     true
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -459,7 +515,7 @@
         "Command",
         [
           "FindAllSubjects",
-          4,
+          7,
           33,
           null,
           null,
@@ -475,65 +531,280 @@
               [
                 "Command",
                 [
-                  "CreateCondition",
-                  4,
+                  "ConditionalsChangeSkillFlag",
+                  1,
                   [
+                    "Block",
                     [
-                      "ACAttackPoint",
-                      {
-                        "max": 720,
-                        "min": 720
-                      },
-                      {
-                        "max": 0.5,
-                        "min": 0.5
-                      },
-                      1
+                      [
+                        "Command",
+                        [
+                          "FindAllSubjects",
+                          8,
+                          33,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          [
+                            "DoNothing"
+                          ],
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateCondition",
+                                  8,
+                                  [
+                                    [
+                                      "ACAttackPoint",
+                                      [
+                                        {
+                                          "max": 720,
+                                          "min": 720
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "alv_max": 0.3,
+                                          "alv_min": 0.15,
+                                          "max": 0.5,
+                                          "min": 0.5
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 1,
+                                          "min": 1
+                                        }
+                                      ]
+                                    ]
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    "GenericConditionHitEffect"
+                                  ],
+                                  true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  false
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          -33,
+                          [
+                            [
+                              "ACAttackPoint",
+                              [
+                                {
+                                  "max": 720,
+                                  "min": 720
+                                }
+                              ],
+                              [
+                                {
+                                  "alv_max": 0.3,
+                                  "alv_min": 0.15,
+                                  "max": 0.5,
+                                  "min": 0.5
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
                   [
-                    "GenericConditionHitEffect"
-                  ],
-                  true,
-                  false
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "FindAllSubjects",
+                          9,
+                          33,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          [
+                            "DoNothing"
+                          ],
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateCondition",
+                                  9,
+                                  [
+                                    [
+                                      "ACAttackPoint",
+                                      [
+                                        {
+                                          "max": 720,
+                                          "min": 720
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "alv_max": 0,
+                                          "alv_min": 0,
+                                          "max": 0.5,
+                                          "min": 0.5
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 1,
+                                          "min": 1
+                                        }
+                                      ]
+                                    ]
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    "GenericConditionHitEffect"
+                                  ],
+                                  true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  false
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          -33,
+                          [
+                            [
+                              "ACAttackPoint",
+                              [
+                                {
+                                  "max": 720,
+                                  "min": 720
+                                }
+                              ],
+                              [
+                                {
+                                  "alv_max": 0,
+                                  "alv_min": 0,
+                                  "max": 0.5,
+                                  "min": 0.5
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
                 ]
               ]
             ]
           ]
-        ]
-      ],
-      [
-        "Command",
-        [
-          "CreateCondition",
-          -33,
-          [
-            [
-              "ACAttackPoint",
-              {
-                "max": 720,
-                "min": 720
-              },
-              {
-                "max": 0.5,
-                "min": 0.5
-              },
-              1
-            ]
-          ],
-          {
-            "max": 1,
-            "min": 1
-          },
-          [
-            "GenericConditionHitEffect"
-          ],
-          true,
-          false
         ]
       ]
     ]

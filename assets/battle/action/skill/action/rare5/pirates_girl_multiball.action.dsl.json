@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -18,10 +21,12 @@
           "CreateSummonsMultiball",
           3,
           1110021,
-          {
-            "max": 1800,
-            "min": 1800
-          },
+          [
+            {
+              "max": 1800,
+              "min": 1800
+            }
+          ],
           [
             "E2",
             [
@@ -46,7 +51,12 @@
             "battle/effect/skill_unique/pirates_girl/multiball_pirates_girl_effect_disappear"
           ],
           0,
-          false
+          false,
+          "*",
+          0,
+          1,
+          null,
+          null
         ]
       ]
     ]

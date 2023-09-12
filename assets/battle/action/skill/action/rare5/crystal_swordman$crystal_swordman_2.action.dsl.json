@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -54,7 +57,12 @@
           false,
           [
             "Some",
-            2.5
+            [
+              {
+                "max": 2.5,
+                "min": 2.5
+              }
+            ]
           ]
         ]
       ],
@@ -122,8 +130,18 @@
                           false,
                           [
                             "Rectangle",
-                            300,
-                            2000
+                            [
+                              {
+                                "max": 300,
+                                "min": 300
+                              }
+                            ],
+                            [
+                              {
+                                "max": 2000,
+                                "min": 2000
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -144,7 +162,12 @@
                           ],
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           false,
                           true,
@@ -177,27 +200,35 @@
                                   null,
                                   null,
                                   16,
-                                  {
-                                    "max": 2.5,
-                                    "min": 2.1666666666666665
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 2.5,
+                                      "min": 2.1666666666666665
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 4.166666666666667,
-                                    "min": 4.166666666666667
-                                  },
-                                  {
-                                    "max": 1.6666666666666667,
-                                    "min": 1.6666666666666667
-                                  },
+                                  [
+                                    {
+                                      "max": 4.166666666666667,
+                                      "min": 4.166666666666667
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1.6666666666666667,
+                                      "min": 1.6666666666666667
+                                    }
+                                  ],
                                   [
                                     "SpecifyHitEffectDirectly",
                                     [
@@ -205,10 +236,16 @@
                                       "battle/effect/skill_unique/crystal_swordman/crystal_swordman_hit"
                                     ],
                                     false
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -241,8 +278,18 @@
                           false,
                           [
                             "Rectangle",
-                            300,
-                            2000
+                            [
+                              {
+                                "max": 300,
+                                "min": 300
+                              }
+                            ],
+                            [
+                              {
+                                "max": 2000,
+                                "min": 2000
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -263,20 +310,25 @@
                           ],
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           false,
                           true,
                           [
                             "None"
                           ],
-                          0,
+                          3,
                           [
                             "Block",
                             null
                           ],
-                          1,
-                          2,
+                          4,
+                          5,
                           [
                             "Block",
                             [
@@ -291,32 +343,40 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  2,
+                                  5,
                                   255,
                                   null,
                                   null,
                                   16,
-                                  {
-                                    "max": 2.5,
-                                    "min": 2.1666666666666665
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 2.5,
+                                      "min": 2.1666666666666665
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 4.166666666666667,
-                                    "min": 4.166666666666667
-                                  },
-                                  {
-                                    "max": 1.6666666666666667,
-                                    "min": 1.6666666666666667
-                                  },
+                                  [
+                                    {
+                                      "max": 4.166666666666667,
+                                      "min": 4.166666666666667
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1.6666666666666667,
+                                      "min": 1.6666666666666667
+                                    }
+                                  ],
                                   [
                                     "SpecifyHitEffectDirectly",
                                     [
@@ -324,10 +384,16 @@
                                       "battle/effect/skill_unique/crystal_swordman/crystal_swordman_hit_reverse"
                                     ],
                                     false
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -360,8 +426,18 @@
                           false,
                           [
                             "Rectangle",
-                            300,
-                            2000
+                            [
+                              {
+                                "max": 300,
+                                "min": 300
+                              }
+                            ],
+                            [
+                              {
+                                "max": 2000,
+                                "min": 2000
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -382,20 +458,25 @@
                           ],
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           false,
                           true,
                           [
                             "None"
                           ],
-                          0,
+                          6,
                           [
                             "Block",
                             null
                           ],
-                          1,
-                          2,
+                          7,
+                          8,
                           [
                             "Block",
                             [
@@ -410,32 +491,40 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  2,
+                                  8,
                                   255,
                                   null,
                                   null,
                                   16,
-                                  {
-                                    "max": 2.5,
-                                    "min": 2.1666666666666665
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 2.5,
+                                      "min": 2.1666666666666665
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 4.166666666666667,
-                                    "min": 4.166666666666667
-                                  },
-                                  {
-                                    "max": 1.6666666666666667,
-                                    "min": 1.6666666666666667
-                                  },
+                                  [
+                                    {
+                                      "max": 4.166666666666667,
+                                      "min": 4.166666666666667
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1.6666666666666667,
+                                      "min": 1.6666666666666667
+                                    }
+                                  ],
                                   [
                                     "SpecifyHitEffectDirectly",
                                     [
@@ -443,10 +532,16 @@
                                       "battle/effect/skill_unique/crystal_swordman/crystal_swordman_hit"
                                     ],
                                     false
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -479,8 +574,18 @@
                           false,
                           [
                             "Rectangle",
-                            300,
-                            2000
+                            [
+                              {
+                                "max": 300,
+                                "min": 300
+                              }
+                            ],
+                            [
+                              {
+                                "max": 2000,
+                                "min": 2000
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -501,20 +606,25 @@
                           ],
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           false,
                           true,
                           [
                             "None"
                           ],
-                          0,
+                          9,
                           [
                             "Block",
                             null
                           ],
-                          1,
-                          2,
+                          10,
+                          11,
                           [
                             "Block",
                             [
@@ -529,32 +639,40 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  2,
+                                  11,
                                   255,
                                   null,
                                   null,
                                   16,
-                                  {
-                                    "max": 2.5,
-                                    "min": 2.1666666666666665
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 2.5,
+                                      "min": 2.1666666666666665
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 4.166666666666667,
-                                    "min": 4.166666666666667
-                                  },
-                                  {
-                                    "max": 1.6666666666666667,
-                                    "min": 1.6666666666666667
-                                  },
+                                  [
+                                    {
+                                      "max": 4.166666666666667,
+                                      "min": 4.166666666666667
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1.6666666666666667,
+                                      "min": 1.6666666666666667
+                                    }
+                                  ],
                                   [
                                     "SpecifyHitEffectDirectly",
                                     [
@@ -562,10 +680,16 @@
                                       "battle/effect/skill_unique/crystal_swordman/crystal_swordman_hit_reverse"
                                     ],
                                     false
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -598,8 +722,18 @@
                           false,
                           [
                             "Rectangle",
-                            300,
-                            2000
+                            [
+                              {
+                                "max": 300,
+                                "min": 300
+                              }
+                            ],
+                            [
+                              {
+                                "max": 2000,
+                                "min": 2000
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -620,20 +754,25 @@
                           ],
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           false,
                           true,
                           [
                             "None"
                           ],
-                          0,
+                          12,
                           [
                             "Block",
                             null
                           ],
-                          1,
-                          2,
+                          13,
+                          14,
                           [
                             "Block",
                             [
@@ -648,32 +787,40 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  2,
+                                  14,
                                   255,
                                   null,
                                   null,
                                   16,
-                                  {
-                                    "max": 2.5,
-                                    "min": 2.1666666666666665
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 2.5,
+                                      "min": 2.1666666666666665
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 4.166666666666667,
-                                    "min": 4.166666666666667
-                                  },
-                                  {
-                                    "max": 1.6666666666666667,
-                                    "min": 1.6666666666666667
-                                  },
+                                  [
+                                    {
+                                      "max": 4.166666666666667,
+                                      "min": 4.166666666666667
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1.6666666666666667,
+                                      "min": 1.6666666666666667
+                                    }
+                                  ],
                                   [
                                     "SpecifyHitEffectDirectly",
                                     [
@@ -681,10 +828,16 @@
                                       "battle/effect/skill_unique/crystal_swordman/crystal_swordman_hit"
                                     ],
                                     false
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -717,8 +870,18 @@
                           false,
                           [
                             "Rectangle",
-                            300,
-                            2000
+                            [
+                              {
+                                "max": 300,
+                                "min": 300
+                              }
+                            ],
+                            [
+                              {
+                                "max": 2000,
+                                "min": 2000
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -739,20 +902,25 @@
                           ],
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           false,
                           true,
                           [
                             "None"
                           ],
-                          0,
+                          15,
                           [
                             "Block",
                             null
                           ],
-                          1,
-                          2,
+                          16,
+                          17,
                           [
                             "Block",
                             [
@@ -767,32 +935,40 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  2,
+                                  17,
                                   255,
                                   null,
                                   null,
                                   16,
-                                  {
-                                    "max": 2.5,
-                                    "min": 2.1666666666666665
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 2.5,
+                                      "min": 2.1666666666666665
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 4.166666666666667,
-                                    "min": 4.166666666666667
-                                  },
-                                  {
-                                    "max": 1.6666666666666667,
-                                    "min": 1.6666666666666667
-                                  },
+                                  [
+                                    {
+                                      "max": 4.166666666666667,
+                                      "min": 4.166666666666667
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1.6666666666666667,
+                                      "min": 1.6666666666666667
+                                    }
+                                  ],
                                   [
                                     "SpecifyHitEffectDirectly",
                                     [
@@ -800,10 +976,16 @@
                                       "battle/effect/skill_unique/crystal_swordman/crystal_swordman_hit_reverse"
                                     ],
                                     false
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -823,25 +1005,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 1200,
-                "min": 1200
-              },
-              {
-                "max": 0.5,
-                "min": 0.4
-              },
-              1
+              [
+                {
+                  "max": 1200,
+                  "min": 1200
+                }
+              ],
+              [
+                {
+                  "max": 0.5,
+                  "min": 0.4
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -853,25 +1057,47 @@
           [
             [
               "ACAbilityDamage",
-              {
-                "max": 1200,
-                "min": 1200
-              },
-              {
-                "max": 0.4,
-                "min": 0.3
-              },
-              1
+              [
+                {
+                  "max": 1200,
+                  "min": 1200
+                }
+              ],
+              [
+                {
+                  "max": 0.4,
+                  "min": 0.3
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ]

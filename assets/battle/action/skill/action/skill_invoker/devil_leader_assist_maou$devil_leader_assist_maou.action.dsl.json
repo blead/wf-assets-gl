@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -38,7 +41,12 @@
           false,
           [
             "Some",
-            2
+            [
+              {
+                "max": 2,
+                "min": 2
+              }
+            ]
           ]
         ]
       ],
@@ -67,8 +75,18 @@
                   false,
                   [
                     "Rectangle",
-                    200,
-                    1000
+                    [
+                      {
+                        "max": 200,
+                        "min": 200
+                      }
+                    ],
+                    [
+                      {
+                        "max": 1000,
+                        "min": 1000
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -91,7 +109,12 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
@@ -146,33 +169,47 @@
                           null,
                           null,
                           160,
-                          {
-                            "max": 500,
-                            "min": 500
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 500,
+                              "min": 500
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           true,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 25,
-                            "min": 25
-                          },
-                          {
-                            "max": 5,
-                            "min": 5
-                          },
+                          [
+                            {
+                              "max": 25,
+                              "min": 25
+                            }
+                          ],
+                          [
+                            {
+                              "max": 5,
+                              "min": 5
+                            }
+                          ],
                           [
                             "Coarse"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],

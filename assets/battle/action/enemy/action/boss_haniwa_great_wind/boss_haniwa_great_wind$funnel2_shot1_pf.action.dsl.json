@@ -1,0 +1,152 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_wind_strong_pf_a"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            4
+          ],
+          [
+            [
+              "ACPowerFlipDamageResistance",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_wind_strong_pf_b"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            3
+          ],
+          [
+            [
+              "ACPowerFlipDamageResistance",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ],
+            [
+              "ACInvincible",
+              [
+                {
+                  "max": 10000000,
+                  "min": 10000000
+                }
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_wind_strong_pf_c"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            3
+          ],
+          [
+            [
+              "ACPowerFlipDamageResistance",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ],
+            [
+              "ACInvincible",
+              [
+                {
+                  "max": 10000000,
+                  "min": 10000000
+                }
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -35,8 +38,18 @@
           false,
           [
             "Rectangle",
-            1500,
-            2000
+            [
+              {
+                "max": 1500,
+                "min": 1500
+              }
+            ],
+            [
+              {
+                "max": 2000,
+                "min": 2000
+              }
+            ]
           ],
           [
             "Center"
@@ -111,25 +124,45 @@
                   [
                     [
                       "ACParalysis",
-                      {
-                        "max": 600,
-                        "min": 480
-                      },
+                      [
+                        {
+                          "max": 600,
+                          "min": 480
+                        }
+                      ],
                       true
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -158,8 +191,18 @@
                   false,
                   [
                     "Rectangle",
-                    1500,
-                    2000
+                    [
+                      {
+                        "max": 1500,
+                        "min": 1500
+                      }
+                    ],
+                    [
+                      {
+                        "max": 2000,
+                        "min": 2000
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -205,27 +248,35 @@
                           null,
                           null,
                           120,
-                          {
-                            "max": 18,
-                            "min": 15.5
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 18,
+                              "min": 15.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 20,
-                            "min": 20
-                          },
-                          {
-                            "max": 5,
-                            "min": 5
-                          },
+                          [
+                            {
+                              "max": 20,
+                              "min": 20
+                            }
+                          ],
+                          [
+                            {
+                              "max": 5,
+                              "min": 5
+                            }
+                          ],
                           [
                             "SpecifyHitEffectDirectly",
                             [
@@ -233,10 +284,16 @@
                               "battle/effect/skill_unique/fox_oracle/fox_oracle_hit"
                             ],
                             false
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]

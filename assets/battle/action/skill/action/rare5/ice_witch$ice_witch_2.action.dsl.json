@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -90,7 +93,12 @@
           false,
           [
             "Some",
-            6
+            [
+              {
+                "max": 6,
+                "min": 6
+              }
+            ]
           ]
         ]
       ],
@@ -119,8 +127,18 @@
                   false,
                   [
                     "Rectangle",
-                    1500,
-                    2000
+                    [
+                      {
+                        "max": 1500,
+                        "min": 1500
+                      }
+                    ],
+                    [
+                      {
+                        "max": 2000,
+                        "min": 2000
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -166,27 +184,35 @@
                           null,
                           null,
                           80,
-                          {
-                            "max": 12,
-                            "min": 10.5
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 12,
+                              "min": 10.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 10,
-                            "min": 10
-                          },
-                          {
-                            "max": 5,
-                            "min": 5
-                          },
+                          [
+                            {
+                              "max": 10,
+                              "min": 10
+                            }
+                          ],
+                          [
+                            {
+                              "max": 5,
+                              "min": 5
+                            }
+                          ],
                           [
                             "SpecifyHitEffectDirectly",
                             [
@@ -194,7 +220,8 @@
                               "battle/effect/skill_unique/ice_witch/ice_witch_hit_light"
                             ],
                             false
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -205,21 +232,36 @@
                           [
                             [
                               "ACFrozen",
-                              {
-                                "max": 1200,
-                                "min": 1050
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1050
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -231,30 +273,57 @@
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 1050
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1050
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.2,
-                                "min": -0.16
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.2,
+                                  "min": -0.16
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]

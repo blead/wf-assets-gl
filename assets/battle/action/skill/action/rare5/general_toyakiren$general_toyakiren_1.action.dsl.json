@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -54,7 +57,12 @@
           false,
           [
             "Some",
-            2.25
+            [
+              {
+                "max": 2.25,
+                "min": 2.25
+              }
+            ]
           ]
         ]
       ],
@@ -74,8 +82,18 @@
           false,
           [
             "Rectangle",
-            180,
-            300
+            [
+              {
+                "max": 180,
+                "min": 180
+              }
+            ],
+            [
+              {
+                "max": 300,
+                "min": 300
+              }
+            ]
           ],
           [
             "Center"
@@ -96,7 +114,12 @@
           ],
           [
             "Some",
-            20
+            [
+              {
+                "max": 20,
+                "min": 20
+              }
+            ]
           ],
           false,
           true,
@@ -122,27 +145,35 @@
                   null,
                   null,
                   2,
-                  {
-                    "max": 0.25,
-                    "min": 0.25
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 0.25,
+                      "min": 0.25
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 0.45,
-                    "min": 0.45
-                  },
-                  {
-                    "max": 0.6,
-                    "min": 0.6
-                  },
+                  [
+                    {
+                      "max": 0.45,
+                      "min": 0.45
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0.6,
+                      "min": 0.6
+                    }
+                  ],
                   [
                     "SpecifyHitEffectDirectly",
                     [
@@ -150,10 +181,16 @@
                       "battle/effect/skill_unique/general_toyakiren/general_toyakiren_cutting_hit"
                     ],
                     true
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -192,7 +229,12 @@
                   false,
                   [
                     "Some",
-                    4.5
+                    [
+                      {
+                        "max": 4.5,
+                        "min": 4.5
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -212,7 +254,12 @@
                   true,
                   [
                     "Circle",
-                    175
+                    [
+                      {
+                        "max": 175,
+                        "min": 175
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -233,7 +280,12 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
@@ -259,27 +311,35 @@
                           null,
                           null,
                           120,
-                          {
-                            "max": 12,
-                            "min": 12
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 12,
+                              "min": 12
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 3,
-                            "min": 3
-                          },
-                          {
-                            "max": 3,
-                            "min": 3
-                          },
+                          [
+                            {
+                              "max": 3,
+                              "min": 3
+                            }
+                          ],
+                          [
+                            {
+                              "max": 3,
+                              "min": 3
+                            }
+                          ],
                           [
                             "SpecifyHitEffectDirectly",
                             [
@@ -287,10 +347,16 @@
                               "battle/effect/skill_unique/general_toyakiren/general_toyakiren_slash_hit"
                             ],
                             false
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -306,25 +372,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 720,
-                "min": 720
-              },
-              {
-                "max": 0.8,
-                "min": 0.8
-              },
-              1
+              [
+                {
+                  "max": 720,
+                  "min": 720
+                }
+              ],
+              [
+                {
+                  "max": 0.8,
+                  "min": 0.8
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ]

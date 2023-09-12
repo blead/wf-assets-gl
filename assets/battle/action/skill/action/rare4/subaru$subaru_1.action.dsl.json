@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -62,10 +65,12 @@
           "CreateRatioAttack",
           -17,
           2,
-          {
-            "max": 0.3,
-            "min": 0.3
-          }
+          [
+            {
+              "max": 0.3,
+              "min": 0.3
+            }
+          ]
         ]
       ],
       [
@@ -93,25 +98,47 @@
                   [
                     [
                       "ACSkillDamage",
-                      {
-                        "max": 720,
-                        "min": 720
-                      },
-                      {
-                        "max": 0.65,
-                        "min": 0.65
-                      },
-                      1
+                      [
+                        {
+                          "max": 720,
+                          "min": 720
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.65,
+                          "min": 0.65
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]

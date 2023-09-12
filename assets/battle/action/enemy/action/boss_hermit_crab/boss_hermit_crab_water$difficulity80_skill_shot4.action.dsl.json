@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -37,7 +40,12 @@
                   false,
                   [
                     "Circle",
-                    210
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -131,30 +139,39 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.2,
-                            "min": 1.2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -165,30 +182,57 @@
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.4,
-                                "min": -0.4
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.4,
+                                  "min": -0.4
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -221,7 +265,12 @@
                   false,
                   [
                     "Circle",
-                    210
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -250,7 +299,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  3,
                   [
                     "Block",
                     [
@@ -264,7 +313,7 @@
                             "battle/effect/enemy_general/enemy_shot_explosion_large",
                             255
                           ],
-                          0,
+                          3,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -288,7 +337,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          3,
                           [
                             "CD"
                           ],
@@ -301,8 +350,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  4,
+                  5,
                   [
                     "Block",
                     [
@@ -310,69 +359,105 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          5,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.2,
-                            "min": 1.2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          5,
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.4,
-                                "min": -0.4
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.4,
+                                  "min": -0.4
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -405,7 +490,12 @@
                   false,
                   [
                     "Circle",
-                    210
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -434,7 +524,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  6,
                   [
                     "Block",
                     [
@@ -448,7 +538,7 @@
                             "battle/effect/enemy_general/enemy_shot_explosion_large",
                             255
                           ],
-                          0,
+                          6,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -472,7 +562,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          6,
                           [
                             "CD"
                           ],
@@ -485,8 +575,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  7,
+                  8,
                   [
                     "Block",
                     [
@@ -494,69 +584,105 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          8,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.2,
-                            "min": 1.2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          8,
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.4,
-                                "min": -0.4
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.4,
+                                  "min": -0.4
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -589,7 +715,12 @@
                   false,
                   [
                     "Circle",
-                    210
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -618,7 +749,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  9,
                   [
                     "Block",
                     [
@@ -632,7 +763,7 @@
                             "battle/effect/enemy_general/enemy_shot_explosion_large",
                             255
                           ],
-                          0,
+                          9,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -656,7 +787,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          9,
                           [
                             "CD"
                           ],
@@ -669,8 +800,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  10,
+                  11,
                   [
                     "Block",
                     [
@@ -678,69 +809,105 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          11,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.2,
-                            "min": 1.2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          11,
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.4,
-                                "min": -0.4
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.4,
+                                  "min": -0.4
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -773,7 +940,12 @@
                   false,
                   [
                     "Circle",
-                    210
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -802,7 +974,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  12,
                   [
                     "Block",
                     [
@@ -816,7 +988,7 @@
                             "battle/effect/enemy_general/enemy_shot_explosion_large",
                             255
                           ],
-                          0,
+                          12,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -840,7 +1012,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          12,
                           [
                             "CD"
                           ],
@@ -853,8 +1025,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  13,
+                  14,
                   [
                     "Block",
                     [
@@ -862,69 +1034,105 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          14,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.2,
-                            "min": 1.2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          14,
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.4,
-                                "min": -0.4
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.4,
+                                  "min": -0.4
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -957,7 +1165,12 @@
                   false,
                   [
                     "Circle",
-                    210
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -986,7 +1199,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  15,
                   [
                     "Block",
                     [
@@ -1000,7 +1213,7 @@
                             "battle/effect/enemy_general/enemy_shot_explosion_large",
                             255
                           ],
-                          0,
+                          15,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1024,7 +1237,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          15,
                           [
                             "CD"
                           ],
@@ -1037,8 +1250,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  16,
+                  17,
                   [
                     "Block",
                     [
@@ -1046,69 +1259,105 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          17,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.2,
-                            "min": 1.2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          17,
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.4,
-                                "min": -0.4
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.4,
+                                  "min": -0.4
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1141,7 +1390,12 @@
                   false,
                   [
                     "Circle",
-                    210
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1170,7 +1424,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  18,
                   [
                     "Block",
                     [
@@ -1184,7 +1438,7 @@
                             "battle/effect/enemy_general/enemy_shot_explosion_large",
                             255
                           ],
-                          0,
+                          18,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1208,7 +1462,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          18,
                           [
                             "CD"
                           ],
@@ -1221,8 +1475,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  19,
+                  20,
                   [
                     "Block",
                     [
@@ -1230,69 +1484,105 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          20,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.2,
-                            "min": 1.2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          20,
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.4,
-                                "min": -0.4
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.4,
+                                  "min": -0.4
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1325,7 +1615,12 @@
                   false,
                   [
                     "Circle",
-                    210
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1354,7 +1649,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  21,
                   [
                     "Block",
                     [
@@ -1368,7 +1663,7 @@
                             "battle/effect/enemy_general/enemy_shot_explosion_large",
                             255
                           ],
-                          0,
+                          21,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1392,7 +1687,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          21,
                           [
                             "CD"
                           ],
@@ -1405,8 +1700,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  22,
+                  23,
                   [
                     "Block",
                     [
@@ -1414,69 +1709,105 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          23,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.2,
-                            "min": 1.2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          23,
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.4,
-                                "min": -0.4
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.4,
+                                  "min": -0.4
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1509,7 +1840,12 @@
                   false,
                   [
                     "Circle",
-                    210
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1538,7 +1874,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  24,
                   [
                     "Block",
                     [
@@ -1552,7 +1888,7 @@
                             "battle/effect/enemy_general/enemy_shot_explosion_large",
                             255
                           ],
-                          0,
+                          24,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1576,7 +1912,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          24,
                           [
                             "CD"
                           ],
@@ -1589,8 +1925,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  25,
+                  26,
                   [
                     "Block",
                     [
@@ -1598,69 +1934,105 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          26,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.2,
-                            "min": 1.2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          26,
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.4,
-                                "min": -0.4
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.4,
+                                  "min": -0.4
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1693,7 +2065,12 @@
                   false,
                   [
                     "Circle",
-                    210
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1722,7 +2099,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  27,
                   [
                     "Block",
                     [
@@ -1736,7 +2113,7 @@
                             "battle/effect/enemy_general/enemy_shot_explosion_large",
                             255
                           ],
-                          0,
+                          27,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1760,7 +2137,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          27,
                           [
                             "CD"
                           ],
@@ -1773,8 +2150,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  28,
+                  29,
                   [
                     "Block",
                     [
@@ -1782,69 +2159,105 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          29,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.2,
-                            "min": 1.2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          29,
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.4,
-                                "min": -0.4
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.4,
+                                  "min": -0.4
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1877,7 +2290,12 @@
                   false,
                   [
                     "Circle",
-                    210
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1906,7 +2324,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  30,
                   [
                     "Block",
                     [
@@ -1920,7 +2338,7 @@
                             "battle/effect/enemy_general/enemy_shot_explosion_large",
                             255
                           ],
-                          0,
+                          30,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1944,7 +2362,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          30,
                           [
                             "CD"
                           ],
@@ -1957,8 +2375,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  31,
+                  32,
                   [
                     "Block",
                     [
@@ -1966,69 +2384,105 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          32,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.2,
-                            "min": 1.2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          32,
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.4,
-                                "min": -0.4
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.4,
+                                  "min": -0.4
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -2061,7 +2515,12 @@
                   false,
                   [
                     "Circle",
-                    210
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -2090,7 +2549,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  33,
                   [
                     "Block",
                     [
@@ -2104,7 +2563,7 @@
                             "battle/effect/enemy_general/enemy_shot_explosion_large",
                             255
                           ],
-                          0,
+                          33,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -2128,7 +2587,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          33,
                           [
                             "CD"
                           ],
@@ -2141,8 +2600,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  34,
+                  35,
                   [
                     "Block",
                     [
@@ -2150,69 +2609,105 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          35,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.2,
-                            "min": 1.2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          35,
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.4,
-                                "min": -0.4
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.4,
+                                  "min": -0.4
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -2245,7 +2740,12 @@
                   false,
                   [
                     "Circle",
-                    210
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -2274,7 +2774,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  36,
                   [
                     "Block",
                     [
@@ -2288,7 +2788,7 @@
                             "battle/effect/enemy_general/enemy_shot_explosion_large",
                             255
                           ],
-                          0,
+                          36,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -2312,7 +2812,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          36,
                           [
                             "CD"
                           ],
@@ -2325,8 +2825,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  37,
+                  38,
                   [
                     "Block",
                     [
@@ -2334,69 +2834,105 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          38,
                           255,
                           null,
                           null,
                           0,
-                          {
-                            "max": 1.2,
-                            "min": 1.2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          38,
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.4,
-                                "min": -0.4
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.4,
+                                  "min": -0.4
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]

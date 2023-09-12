@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -53,7 +56,12 @@
           false,
           [
             "Some",
-            1
+            [
+              {
+                "max": 1,
+                "min": 1
+              }
+            ]
           ]
         ]
       ],
@@ -85,7 +93,12 @@
           false,
           [
             "Some",
-            1
+            [
+              {
+                "max": 1,
+                "min": 1
+              }
+            ]
           ]
         ]
       ],
@@ -114,7 +127,12 @@
                   false,
                   [
                     "Circle",
-                    210
+                    [
+                      {
+                        "max": 210,
+                        "min": 210
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -135,7 +153,12 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
@@ -161,33 +184,47 @@
                           null,
                           null,
                           255,
-                          {
-                            "max": 25.5,
-                            "min": 25.5
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 25.5,
+                              "min": 25.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 30,
-                            "min": 30
-                          },
-                          {
-                            "max": 10,
-                            "min": 10
-                          },
+                          [
+                            {
+                              "max": 30,
+                              "min": 30
+                            }
+                          ],
+                          [
+                            {
+                              "max": 10,
+                              "min": 10
+                            }
+                          ],
                           [
                             "Fire"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],

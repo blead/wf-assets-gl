@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -28,7 +31,12 @@
           false,
           [
             "Circle",
-            27
+            [
+              {
+                "max": 27,
+                "min": 27
+              }
+            ]
           ],
           [
             "Center"
@@ -118,13 +126,20 @@
                   "CreateRatioAttack",
                   2,
                   1,
-                  {
-                    "max": 0.03,
-                    "min": 0.03
-                  }
+                  [
+                    {
+                      "max": 0.03,
+                      "min": 0.03
+                    }
+                  ]
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

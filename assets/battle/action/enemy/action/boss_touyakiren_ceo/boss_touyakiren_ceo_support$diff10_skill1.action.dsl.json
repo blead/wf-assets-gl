@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   true,
   false,
@@ -20,25 +23,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 999999,
-                "min": 999999
-              },
-              {
-                "max": 0.5,
-                "min": 0.25
-              },
-              1
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": 0.5,
+                  "min": 0.25
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -50,26 +75,48 @@
           [
             [
               "ACToleranceOfElement",
-              {
-                "max": 999999,
-                "min": 999999
-              },
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
               254,
-              {
-                "max": 0.3,
-                "min": 0.15
-              },
-              1
+              [
+                {
+                  "max": 0.3,
+                  "min": 0.15
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -89,15 +136,19 @@
                   "CreateRatioHeal",
                   -17,
                   2,
-                  {
-                    "max": 0.01,
-                    "min": 0.002
-                  },
+                  [
+                    {
+                      "max": 0.01,
+                      "min": 0.002
+                    }
+                  ],
                   null,
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   [
                     "GenericHealHitEffect"
                   ]

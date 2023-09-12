@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   true,
   true,
@@ -28,8 +31,18 @@
           false,
           [
             "Rectangle",
-            72,
-            10000
+            [
+              {
+                "max": 72,
+                "min": 72
+              }
+            ],
+            [
+              {
+                "max": 10000,
+                "min": 10000
+              }
+            ]
           ],
           [
             "Center"
@@ -106,33 +119,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -152,8 +179,18 @@
           false,
           [
             "Rectangle",
-            72,
-            10000
+            [
+              {
+                "max": 72,
+                "min": 72
+              }
+            ],
+            [
+              {
+                "max": 10000,
+                "min": 10000
+              }
+            ]
           ],
           [
             "Center"
@@ -230,33 +267,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -276,8 +327,18 @@
           false,
           [
             "Rectangle",
-            72,
-            10000
+            [
+              {
+                "max": 72,
+                "min": 72
+              }
+            ],
+            [
+              {
+                "max": 10000,
+                "min": 10000
+              }
+            ]
           ],
           [
             "Center"
@@ -354,33 +415,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -400,8 +475,18 @@
           false,
           [
             "Rectangle",
-            72,
-            10000
+            [
+              {
+                "max": 72,
+                "min": 72
+              }
+            ],
+            [
+              {
+                "max": 10000,
+                "min": 10000
+              }
+            ]
           ],
           [
             "Center"
@@ -478,33 +563,47 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

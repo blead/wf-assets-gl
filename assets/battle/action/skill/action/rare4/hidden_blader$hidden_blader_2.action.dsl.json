@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -47,7 +50,12 @@
                   false,
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -67,8 +75,18 @@
                   false,
                   [
                     "Rectangle",
-                    100,
-                    170
+                    [
+                      {
+                        "max": 100,
+                        "min": 100
+                      }
+                    ],
+                    [
+                      {
+                        "max": 170,
+                        "min": 170
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -125,7 +143,12 @@
                           true,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -160,30 +183,39 @@
                           null,
                           null,
                           10,
-                          {
-                            "max": 2.3333333333333335,
-                            "min": 2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.3333333333333335,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1.6666666666666667,
-                            "min": 1.6666666666666667
-                          },
-                          {
-                            "max": 3,
-                            "min": 3
-                          },
+                          [
+                            {
+                              "max": 1.6666666666666667,
+                              "min": 1.6666666666666667
+                            }
+                          ],
+                          [
+                            {
+                              "max": 3,
+                              "min": 3
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -212,7 +244,12 @@
                           false,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -224,21 +261,36 @@
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 480,
-                                "min": 420
-                              },
+                              [
+                                {
+                                  "max": 480,
+                                  "min": 420
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -250,6 +302,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -292,7 +349,12 @@
                   false,
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -312,8 +374,18 @@
                   false,
                   [
                     "Rectangle",
-                    100,
-                    170
+                    [
+                      {
+                        "max": 100,
+                        "min": 100
+                      }
+                    ],
+                    [
+                      {
+                        "max": 170,
+                        "min": 170
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -340,7 +412,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  3,
                   [
                     "Block",
                     [
@@ -353,7 +425,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_knife"
                           ],
-                          0,
+                          3,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -370,7 +442,12 @@
                           true,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -378,7 +455,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          3,
                           [
                             "AB"
                           ],
@@ -391,8 +468,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  4,
+                  5,
                   [
                     "Block",
                     [
@@ -400,35 +477,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          5,
                           255,
                           null,
                           null,
                           10,
-                          {
-                            "max": 2.3333333333333335,
-                            "min": 2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.3333333333333335,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1.6666666666666667,
-                            "min": 1.6666666666666667
-                          },
-                          {
-                            "max": 3,
-                            "min": 3
-                          },
+                          [
+                            {
+                              "max": 1.6666666666666667,
+                              "min": 1.6666666666666667
+                            }
+                          ],
+                          [
+                            {
+                              "max": 3,
+                              "min": 3
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -440,7 +526,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_hit"
                           ],
-                          2,
+                          5,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -457,7 +543,12 @@
                           false,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -465,25 +556,40 @@
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          5,
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 480,
-                                "min": 420
-                              },
+                              [
+                                {
+                                  "max": 480,
+                                  "min": 420
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -495,6 +601,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -537,7 +648,12 @@
                   false,
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -557,8 +673,18 @@
                   false,
                   [
                     "Rectangle",
-                    100,
-                    170
+                    [
+                      {
+                        "max": 100,
+                        "min": 100
+                      }
+                    ],
+                    [
+                      {
+                        "max": 170,
+                        "min": 170
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -585,7 +711,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  6,
                   [
                     "Block",
                     [
@@ -598,7 +724,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_knife"
                           ],
-                          0,
+                          6,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -615,7 +741,12 @@
                           true,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -623,7 +754,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          6,
                           [
                             "AB"
                           ],
@@ -636,8 +767,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  7,
+                  8,
                   [
                     "Block",
                     [
@@ -645,35 +776,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          8,
                           255,
                           null,
                           null,
                           10,
-                          {
-                            "max": 2.3333333333333335,
-                            "min": 2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.3333333333333335,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1.6666666666666667,
-                            "min": 1.6666666666666667
-                          },
-                          {
-                            "max": 3,
-                            "min": 3
-                          },
+                          [
+                            {
+                              "max": 1.6666666666666667,
+                              "min": 1.6666666666666667
+                            }
+                          ],
+                          [
+                            {
+                              "max": 3,
+                              "min": 3
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -685,7 +825,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_hit"
                           ],
-                          2,
+                          8,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -702,7 +842,12 @@
                           false,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -710,25 +855,40 @@
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          8,
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 480,
-                                "min": 420
-                              },
+                              [
+                                {
+                                  "max": 480,
+                                  "min": 420
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -740,6 +900,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -782,7 +947,12 @@
                   false,
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -802,8 +972,18 @@
                   false,
                   [
                     "Rectangle",
-                    100,
-                    170
+                    [
+                      {
+                        "max": 100,
+                        "min": 100
+                      }
+                    ],
+                    [
+                      {
+                        "max": 170,
+                        "min": 170
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -830,7 +1010,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  9,
                   [
                     "Block",
                     [
@@ -843,7 +1023,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_knife"
                           ],
-                          0,
+                          9,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -860,7 +1040,12 @@
                           true,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -868,7 +1053,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          9,
                           [
                             "AB"
                           ],
@@ -881,8 +1066,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  10,
+                  11,
                   [
                     "Block",
                     [
@@ -890,35 +1075,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          11,
                           255,
                           null,
                           null,
                           10,
-                          {
-                            "max": 2.3333333333333335,
-                            "min": 2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.3333333333333335,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1.6666666666666667,
-                            "min": 1.6666666666666667
-                          },
-                          {
-                            "max": 3,
-                            "min": 3
-                          },
+                          [
+                            {
+                              "max": 1.6666666666666667,
+                              "min": 1.6666666666666667
+                            }
+                          ],
+                          [
+                            {
+                              "max": 3,
+                              "min": 3
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -930,7 +1124,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_hit"
                           ],
-                          2,
+                          11,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -947,7 +1141,12 @@
                           false,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -955,25 +1154,40 @@
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          11,
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 480,
-                                "min": 420
-                              },
+                              [
+                                {
+                                  "max": 480,
+                                  "min": 420
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -985,6 +1199,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1027,7 +1246,12 @@
                   false,
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -1047,8 +1271,18 @@
                   false,
                   [
                     "Rectangle",
-                    100,
-                    170
+                    [
+                      {
+                        "max": 100,
+                        "min": 100
+                      }
+                    ],
+                    [
+                      {
+                        "max": 170,
+                        "min": 170
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1075,7 +1309,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  12,
                   [
                     "Block",
                     [
@@ -1088,7 +1322,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_knife"
                           ],
-                          0,
+                          12,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1105,7 +1339,12 @@
                           true,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -1113,7 +1352,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          12,
                           [
                             "AB"
                           ],
@@ -1126,8 +1365,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  13,
+                  14,
                   [
                     "Block",
                     [
@@ -1135,35 +1374,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          14,
                           255,
                           null,
                           null,
                           10,
-                          {
-                            "max": 2.3333333333333335,
-                            "min": 2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.3333333333333335,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1.6666666666666667,
-                            "min": 1.6666666666666667
-                          },
-                          {
-                            "max": 3,
-                            "min": 3
-                          },
+                          [
+                            {
+                              "max": 1.6666666666666667,
+                              "min": 1.6666666666666667
+                            }
+                          ],
+                          [
+                            {
+                              "max": 3,
+                              "min": 3
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -1175,7 +1423,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_hit"
                           ],
-                          2,
+                          14,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1192,7 +1440,12 @@
                           false,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -1200,25 +1453,40 @@
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          14,
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 480,
-                                "min": 420
-                              },
+                              [
+                                {
+                                  "max": 480,
+                                  "min": 420
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -1230,6 +1498,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1272,7 +1545,12 @@
                   false,
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -1292,8 +1570,18 @@
                   false,
                   [
                     "Rectangle",
-                    100,
-                    170
+                    [
+                      {
+                        "max": 100,
+                        "min": 100
+                      }
+                    ],
+                    [
+                      {
+                        "max": 170,
+                        "min": 170
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1320,7 +1608,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  15,
                   [
                     "Block",
                     [
@@ -1333,7 +1621,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_knife"
                           ],
-                          0,
+                          15,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1350,7 +1638,12 @@
                           true,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -1358,7 +1651,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          15,
                           [
                             "AB"
                           ],
@@ -1371,8 +1664,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  16,
+                  17,
                   [
                     "Block",
                     [
@@ -1380,35 +1673,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          17,
                           255,
                           null,
                           null,
                           10,
-                          {
-                            "max": 2.3333333333333335,
-                            "min": 2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.3333333333333335,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1.6666666666666667,
-                            "min": 1.6666666666666667
-                          },
-                          {
-                            "max": 3,
-                            "min": 3
-                          },
+                          [
+                            {
+                              "max": 1.6666666666666667,
+                              "min": 1.6666666666666667
+                            }
+                          ],
+                          [
+                            {
+                              "max": 3,
+                              "min": 3
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -1420,7 +1722,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_hit"
                           ],
-                          2,
+                          17,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1437,7 +1739,12 @@
                           false,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -1445,25 +1752,40 @@
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          17,
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 480,
-                                "min": 420
-                              },
+                              [
+                                {
+                                  "max": 480,
+                                  "min": 420
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -1475,6 +1797,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1517,7 +1844,12 @@
                   false,
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -1537,8 +1869,18 @@
                   false,
                   [
                     "Rectangle",
-                    100,
-                    170
+                    [
+                      {
+                        "max": 100,
+                        "min": 100
+                      }
+                    ],
+                    [
+                      {
+                        "max": 170,
+                        "min": 170
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1565,7 +1907,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  18,
                   [
                     "Block",
                     [
@@ -1578,7 +1920,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_knife"
                           ],
-                          0,
+                          18,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1595,7 +1937,12 @@
                           true,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -1603,7 +1950,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          18,
                           [
                             "AB"
                           ],
@@ -1616,8 +1963,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  19,
+                  20,
                   [
                     "Block",
                     [
@@ -1625,35 +1972,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          20,
                           255,
                           null,
                           null,
                           10,
-                          {
-                            "max": 2.3333333333333335,
-                            "min": 2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.3333333333333335,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1.6666666666666667,
-                            "min": 1.6666666666666667
-                          },
-                          {
-                            "max": 3,
-                            "min": 3
-                          },
+                          [
+                            {
+                              "max": 1.6666666666666667,
+                              "min": 1.6666666666666667
+                            }
+                          ],
+                          [
+                            {
+                              "max": 3,
+                              "min": 3
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -1665,7 +2021,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_hit"
                           ],
-                          2,
+                          20,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1682,7 +2038,12 @@
                           false,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -1690,25 +2051,40 @@
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          20,
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 480,
-                                "min": 420
-                              },
+                              [
+                                {
+                                  "max": 480,
+                                  "min": 420
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -1720,6 +2096,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1762,7 +2143,12 @@
                   false,
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -1782,8 +2168,18 @@
                   false,
                   [
                     "Rectangle",
-                    100,
-                    170
+                    [
+                      {
+                        "max": 100,
+                        "min": 100
+                      }
+                    ],
+                    [
+                      {
+                        "max": 170,
+                        "min": 170
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1810,7 +2206,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  21,
                   [
                     "Block",
                     [
@@ -1823,7 +2219,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_knife"
                           ],
-                          0,
+                          21,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1840,7 +2236,12 @@
                           true,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -1848,7 +2249,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          21,
                           [
                             "AB"
                           ],
@@ -1861,8 +2262,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  22,
+                  23,
                   [
                     "Block",
                     [
@@ -1870,35 +2271,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          23,
                           255,
                           null,
                           null,
                           10,
-                          {
-                            "max": 2.3333333333333335,
-                            "min": 2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.3333333333333335,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1.6666666666666667,
-                            "min": 1.6666666666666667
-                          },
-                          {
-                            "max": 3,
-                            "min": 3
-                          },
+                          [
+                            {
+                              "max": 1.6666666666666667,
+                              "min": 1.6666666666666667
+                            }
+                          ],
+                          [
+                            {
+                              "max": 3,
+                              "min": 3
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -1910,7 +2320,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_hit"
                           ],
-                          2,
+                          23,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1927,7 +2337,12 @@
                           false,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -1935,25 +2350,40 @@
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          23,
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 480,
-                                "min": 420
-                              },
+                              [
+                                {
+                                  "max": 480,
+                                  "min": 420
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -1965,6 +2395,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -2007,7 +2442,12 @@
                   false,
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -2027,8 +2467,18 @@
                   false,
                   [
                     "Rectangle",
-                    100,
-                    170
+                    [
+                      {
+                        "max": 100,
+                        "min": 100
+                      }
+                    ],
+                    [
+                      {
+                        "max": 170,
+                        "min": 170
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -2055,7 +2505,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  24,
                   [
                     "Block",
                     [
@@ -2068,7 +2518,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_knife"
                           ],
-                          0,
+                          24,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -2085,7 +2535,12 @@
                           true,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -2093,7 +2548,7 @@
                         "Command",
                         [
                           "MoveHitArea",
-                          0,
+                          24,
                           [
                             "AB"
                           ],
@@ -2106,8 +2561,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  25,
+                  26,
                   [
                     "Block",
                     [
@@ -2115,35 +2570,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          26,
                           255,
                           null,
                           null,
                           10,
-                          {
-                            "max": 2.3333333333333335,
-                            "min": 2
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 2.3333333333333335,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1.6666666666666667,
-                            "min": 1.6666666666666667
-                          },
-                          {
-                            "max": 3,
-                            "min": 3
-                          },
+                          [
+                            {
+                              "max": 1.6666666666666667,
+                              "min": 1.6666666666666667
+                            }
+                          ],
+                          [
+                            {
+                              "max": 3,
+                              "min": 3
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -2155,7 +2619,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/hidden_blader/hidden_blader_hit"
                           ],
-                          2,
+                          26,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -2172,7 +2636,12 @@
                           false,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -2180,25 +2649,40 @@
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          26,
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 480,
-                                "min": 420
-                              },
+                              [
+                                {
+                                  "max": 480,
+                                  "min": 420
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -2210,6 +2694,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]

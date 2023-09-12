@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -18,10 +21,12 @@
           "CreateSummonsMultiball",
           2,
           2510061,
-          {
-            "max": 900,
-            "min": 900
-          },
+          [
+            {
+              "max": 900,
+              "min": 900
+            }
+          ],
           [
             "E2",
             [
@@ -46,7 +51,12 @@
             "battle/effect/skill_unique/unyielding_adventurer/unyielding_adventurer_disappear"
           ],
           0,
-          false
+          false,
+          "*",
+          0,
+          1,
+          null,
+          null
         ]
       ],
       [
@@ -84,7 +94,12 @@
           true,
           [
             "Some",
-            1
+            [
+              {
+                "max": 1,
+                "min": 1
+              }
+            ]
           ]
         ]
       ]

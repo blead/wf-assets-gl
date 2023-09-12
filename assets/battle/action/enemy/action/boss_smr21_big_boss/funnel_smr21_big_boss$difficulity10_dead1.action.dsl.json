@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -37,25 +40,47 @@
                   [
                     [
                       "ACPowerFlipDamageResistance",
-                      {
-                        "max": 9999999,
-                        "min": 9999999
-                      },
-                      {
-                        "max": -0.1,
-                        "min": -0.1
-                      },
-                      3
+                      [
+                        {
+                          "max": 9999999,
+                          "min": 9999999
+                        }
+                      ],
+                      [
+                        {
+                          "max": -0.1,
+                          "min": -0.1
+                        }
+                      ],
+                      [
+                        {
+                          "max": 3,
+                          "min": 3
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   false,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ],
@@ -67,26 +92,48 @@
                   [
                     [
                       "ACToleranceOfElement",
-                      {
-                        "max": 9999999,
-                        "min": 9999999
-                      },
+                      [
+                        {
+                          "max": 9999999,
+                          "min": 9999999
+                        }
+                      ],
                       4,
-                      {
-                        "max": -0.1,
-                        "min": -0.1
-                      },
-                      3
+                      [
+                        {
+                          "max": -0.1,
+                          "min": -0.1
+                        }
+                      ],
+                      [
+                        {
+                          "max": 3,
+                          "min": 3
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   false,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -43,7 +46,12 @@
           false,
           [
             "Circle",
-            200
+            [
+              {
+                "max": 200,
+                "min": 200
+              }
+            ]
           ],
           [
             "Center"
@@ -101,7 +109,12 @@
                   false,
                   [
                     "Some",
-                    4
+                    [
+                      {
+                        "max": 4,
+                        "min": 4
+                      }
+                    ]
                   ]
                 ]
               ]
@@ -121,27 +134,35 @@
                   null,
                   null,
                   2,
-                  {
-                    "max": 0.625,
-                    "min": 0.5
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 0.625,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "SpecifyHitEffectDirectly",
                     [
@@ -149,7 +170,8 @@
                       "battle/effect/skill_unique/swallow_knight_ny20/swallow_knight_ny20_hit"
                     ],
                     true
-                  ]
+                  ],
+                  true
                 ]
               ],
               [
@@ -160,29 +182,56 @@
                   [
                     [
                       "ACPoison",
-                      {
-                        "max": 1200,
-                        "min": 1200
-                      },
-                      {
-                        "max": 6000,
-                        "min": 3000
-                      },
-                      1
+                      [
+                        {
+                          "max": 1200,
+                          "min": 1200
+                        }
+                      ],
+                      [
+                        {
+                          "max": 6000,
+                          "min": 3000
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -211,7 +260,12 @@
                   false,
                   [
                     "Circle",
-                    200
+                    [
+                      {
+                        "max": 200,
+                        "min": 200
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -257,27 +311,35 @@
                           null,
                           null,
                           80,
-                          {
-                            "max": 10,
-                            "min": 9
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 10,
+                              "min": 9
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 5,
-                            "min": 5
-                          },
-                          {
-                            "max": 4,
-                            "min": 4
-                          },
+                          [
+                            {
+                              "max": 5,
+                              "min": 5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 4,
+                              "min": 4
+                            }
+                          ],
                           [
                             "SpecifyHitEffectDirectly",
                             [
@@ -285,7 +347,8 @@
                               "battle/effect/skill_unique/swallow_knight_ny20/swallow_knight_ny20_hit_last"
                             ],
                             false
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -296,25 +359,47 @@
                           [
                             [
                               "ACPoison",
-                              {
-                                "max": 1200,
-                                "min": 1200
-                              },
-                              {
-                                "max": 6000,
-                                "min": 3000
-                              },
-                              1
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 6000,
+                                  "min": 3000
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -326,6 +411,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -337,7 +427,7 @@
         "Command",
         [
           "FindAllSubjects",
-          3,
+          6,
           33,
           null,
           null,
@@ -354,29 +444,51 @@
                 "Command",
                 [
                   "CreateCondition",
-                  3,
+                  6,
                   [
                     [
                       "ACAttackPoint",
-                      {
-                        "max": 900,
-                        "min": 900
-                      },
-                      {
-                        "max": 0.5,
-                        "min": 0.4
-                      },
-                      1
+                      [
+                        {
+                          "max": 900,
+                          "min": 900
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.5,
+                          "min": 0.4
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]

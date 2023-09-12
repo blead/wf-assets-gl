@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -17,8 +20,6 @@
         [
           "StartModifierField",
           999999,
-          "Field Effect: Combo boost!",
-          "The field effect disappeared.",
           [
             [
               "ComboBoost",
@@ -46,15 +47,24 @@
           [
             [
               "ACPowerFlipDamageResistance",
-              {
-                "max": 999999,
-                "min": 999999
-              },
-              {
-                "max": -2,
-                "min": -2
-              },
-              1
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ]
         ]
@@ -75,15 +85,24 @@
           [
             [
               "ACPowerFlipDamageResistance",
-              {
-                "max": 999999,
-                "min": 999999
-              },
-              {
-                "max": -2,
-                "min": -2
-              },
-              1
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ]
         ]
@@ -104,15 +123,24 @@
           [
             [
               "ACPowerFlipDamageResistance",
-              {
-                "max": 999999,
-                "min": 999999
-              },
-              {
-                "max": -2,
-                "min": -2
-              },
-              1
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ]
         ]

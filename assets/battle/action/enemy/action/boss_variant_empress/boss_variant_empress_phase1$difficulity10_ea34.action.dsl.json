@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -20,25 +23,47 @@
           [
             [
               "ACToleranceOfDebuff",
-              {
-                "max": 9999999,
-                "min": 9999999
-              },
-              {
-                "max": 1,
-                "min": 1
-              },
-              1
+              [
+                {
+                  "max": 9999999,
+                  "min": 9999999
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -50,26 +75,48 @@
           [
             [
               "ACToleranceOfElement",
-              {
-                "max": 9999999,
-                "min": 9999999
-              },
+              [
+                {
+                  "max": 9999999,
+                  "min": 9999999
+                }
+              ],
               254,
-              {
-                "max": 0.2,
-                "min": 0.2
-              },
-              1
+              [
+                {
+                  "max": 0.2,
+                  "min": 0.2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -81,25 +128,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 9999999,
-                "min": 9999999
-              },
-              {
-                "max": 0.2,
-                "min": 0.2
-              },
-              1
+              [
+                {
+                  "max": 9999999,
+                  "min": 9999999
+                }
+              ],
+              [
+                {
+                  "max": 0.2,
+                  "min": 0.2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ]

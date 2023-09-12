@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -56,10 +59,12 @@
           "CreateSummonsMultiball",
           1,
           2630031,
-          {
-            "max": 1500,
-            "min": 1500
-          },
+          [
+            {
+              "max": 1500,
+              "min": 1500
+            }
+          ],
           [
             "E2",
             [
@@ -84,7 +89,12 @@
             "battle/effect/skill_unique/yamada_tae/multiball_yamada_tae_effect_disappear"
           ],
           0,
-          false
+          false,
+          "*",
+          0,
+          1,
+          null,
+          null
         ]
       ]
     ]

@@ -9,8 +9,10 @@
       "(None)",
       "(None)",
       "false",
+      "false",
       "0",
-      "0"
+      "0",
+      "true"
     ]
   ],
   "2": [
@@ -19,12 +21,14 @@
       "Electrify",
       "battle/common/unique_condition/unique_girl_and_mecha",
       "99999999",
-      "3",
+      "6",
       "(None)",
       "(None)",
       "false",
+      "false",
       "0",
-      "0"
+      "0",
+      "true"
     ]
   ],
   "3": [
@@ -37,8 +41,10 @@
       "(None)",
       "(None)",
       "false",
+      "false",
       "1",
-      "1"
+      "1",
+      "true"
     ]
   ],
   "4": [
@@ -51,8 +57,10 @@
       "(None)",
       "(None)",
       "true",
+      "false",
       "1",
-      "0"
+      "0",
+      "true"
     ]
   ],
   "5": [
@@ -65,8 +73,10 @@
       "(None)",
       "(None)",
       "true",
+      "false",
       "1",
-      "0"
+      "0",
+      "true"
     ]
   ],
   "6": [
@@ -79,8 +89,10 @@
       "(None)",
       "(None)",
       "false",
+      "false",
       "0",
-      "0"
+      "0",
+      "true"
     ]
   ],
   "7": [
@@ -93,8 +105,74 @@
       "(None)",
       "(None)",
       "false",
+      "false",
       "0",
-      "0"
+      "0",
+      "true"
+    ]
+  ],
+  "8": [
+    [
+      "unique_ice_dragon",
+      "Freezing Agony",
+      "battle/common/unique_condition/unique_ice_dragon",
+      "1200",
+      "1",
+      "(None)",
+      "(None)",
+      "true",
+      "false",
+      "1",
+      "1",
+      "true"
+    ]
+  ],
+  "10": [
+    [
+      "unique_combat_soldier_smr22",
+      "Limit Break",
+      "battle/common/unique_condition/unique_combat_soldier_smr22",
+      "99999999",
+      "2",
+      "(None)",
+      "(None)",
+      "false",
+      "false",
+      "0",
+      "0",
+      "true"
+    ]
+  ],
+  "11": [
+    [
+      "unique_blackflower_wiz_smr22",
+      "Energy Drain",
+      "battle/common/unique_condition/unique_blackflower_wiz_smr22",
+      "99999999",
+      "10",
+      "(None)",
+      "(None)",
+      "false",
+      "false",
+      "0",
+      "0",
+      "false"
+    ]
+  ],
+  "12": [
+    [
+      "unique_heavenly_four",
+      "CRT13",
+      "battle/common/unique_condition/unique_heavenly_four",
+      "99999999",
+      "6",
+      "(None)",
+      "(None)",
+      "false",
+      "true",
+      "0",
+      "0",
+      "true"
     ]
   ]
 }

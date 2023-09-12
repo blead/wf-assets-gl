@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -35,6 +38,7 @@
             1610391,
             1610392
           ],
+          null,
           1,
           [
             "Block",
@@ -134,8 +138,18 @@
                   true,
                   [
                     "Rectangle",
-                    1500,
-                    2000
+                    [
+                      {
+                        "max": 1500,
+                        "min": 1500
+                      }
+                    ],
+                    [
+                      {
+                        "max": 2000,
+                        "min": 2000
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -156,7 +170,12 @@
                   ],
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ],
                   false,
                   true,
@@ -248,33 +267,47 @@
                           null,
                           null,
                           200,
-                          {
-                            "max": 30,
-                            "min": 26
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 30,
+                              "min": 26
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 13,
-                            "min": 13
-                          },
-                          {
-                            "max": 15,
-                            "min": 15
-                          },
+                          [
+                            {
+                              "max": 13,
+                              "min": 13
+                            }
+                          ],
+                          [
+                            {
+                              "max": 15,
+                              "min": 15
+                            }
+                          ],
                           [
                             "Coarse"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -289,10 +322,12 @@
                   "CreateSummonsMultiball",
                   1,
                   1610392,
-                  {
-                    "max": 9000,
-                    "min": 9000
-                  },
+                  [
+                    {
+                      "max": 9000,
+                      "min": 9000
+                    }
+                  ],
                   [
                     "E2",
                     [
@@ -317,7 +352,12 @@
                     "battle/effect/skill_unique/summoner_little/summoner_little_multiball_disappear"
                   ],
                   0,
-                  false
+                  false,
+                  "*",
+                  4,
+                  5,
+                  null,
+                  null
                 ]
               ]
             ]

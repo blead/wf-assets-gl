@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -80,8 +83,18 @@
           false,
           [
             "Rectangle",
-            300,
-            600
+            [
+              {
+                "max": 300,
+                "min": 300
+              }
+            ],
+            [
+              {
+                "max": 600,
+                "min": 600
+              }
+            ]
           ],
           [
             "Center"
@@ -138,7 +151,12 @@
                   true,
                   [
                     "Some",
-                    2
+                    [
+                      {
+                        "max": 2,
+                        "min": 2
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -168,7 +186,12 @@
                   true,
                   [
                     "Some",
-                    2
+                    [
+                      {
+                        "max": 2,
+                        "min": 2
+                      }
+                    ]
                   ]
                 ]
               ]
@@ -188,30 +211,39 @@
                   null,
                   null,
                   48,
-                  {
-                    "max": 3,
-                    "min": 2.6666666666666665
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 3,
+                      "min": 2.6666666666666665
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 5.333333333333333,
-                    "min": 5.333333333333333
-                  },
-                  {
-                    "max": 3.3333333333333335,
-                    "min": 3.3333333333333335
-                  },
+                  [
+                    {
+                      "max": 5.333333333333333,
+                      "min": 5.333333333333333
+                    }
+                  ],
+                  [
+                    {
+                      "max": 3.3333333333333335,
+                      "min": 3.3333333333333335
+                    }
+                  ],
                   [
                     "Fine"
-                  ]
+                  ],
+                  true
                 ]
               ],
               [
@@ -222,6 +254,11 @@
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -250,7 +287,12 @@
                   false,
                   [
                     "Circle",
-                    300
+                    [
+                      {
+                        "max": 300,
+                        "min": 300
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -307,7 +349,12 @@
                           true,
                           [
                             "Some",
-                            2
+                            [
+                              {
+                                "max": 2,
+                                "min": 2
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -337,7 +384,12 @@
                           true,
                           [
                             "Some",
-                            2
+                            [
+                              {
+                                "max": 2,
+                                "min": 2
+                              }
+                            ]
                           ]
                         ]
                       ]
@@ -357,30 +409,39 @@
                           null,
                           null,
                           48,
-                          {
-                            "max": 3,
-                            "min": 2.6666666666666665
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 3,
+                              "min": 2.6666666666666665
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 5.333333333333333,
-                            "min": 5.333333333333333
-                          },
-                          {
-                            "max": 3.3333333333333335,
-                            "min": 3.3333333333333335
-                          },
+                          [
+                            {
+                              "max": 5.333333333333333,
+                              "min": 5.333333333333333
+                            }
+                          ],
+                          [
+                            {
+                              "max": 3.3333333333333335,
+                              "min": 3.3333333333333335
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -391,6 +452,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -419,8 +485,18 @@
                           false,
                           [
                             "Rectangle",
-                            600,
-                            300
+                            [
+                              {
+                                "max": 600,
+                                "min": 600
+                              }
+                            ],
+                            [
+                              {
+                                "max": 300,
+                                "min": 300
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -477,7 +553,12 @@
                                   true,
                                   [
                                     "Some",
-                                    2
+                                    [
+                                      {
+                                        "max": 2,
+                                        "min": 2
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -507,7 +588,12 @@
                                   true,
                                   [
                                     "Some",
-                                    2
+                                    [
+                                      {
+                                        "max": 2,
+                                        "min": 2
+                                      }
+                                    ]
                                   ]
                                 ]
                               ]
@@ -527,30 +613,39 @@
                                   null,
                                   null,
                                   48,
-                                  {
-                                    "max": 3,
-                                    "min": 2.6666666666666665
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 3,
+                                      "min": 2.6666666666666665
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 5.333333333333333,
-                                    "min": 5.333333333333333
-                                  },
-                                  {
-                                    "max": 3.3333333333333335,
-                                    "min": 3.3333333333333335
-                                  },
+                                  [
+                                    {
+                                      "max": 5.333333333333333,
+                                      "min": 5.333333333333333
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 3.3333333333333335,
+                                      "min": 3.3333333333333335
+                                    }
+                                  ],
                                   [
                                     "Fine"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
@@ -561,6 +656,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -597,7 +697,12 @@
                   false,
                   [
                     "Circle",
-                    350
+                    [
+                      {
+                        "max": 350,
+                        "min": 350
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -624,7 +729,7 @@
                   [
                     "None"
                   ],
-                  3,
+                  9,
                   [
                     "Block",
                     [
@@ -637,7 +742,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/sword_beauty/sword_beauty_slash"
                           ],
-                          3,
+                          9,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -654,7 +759,12 @@
                           true,
                           [
                             "Some",
-                            2.5
+                            [
+                              {
+                                "max": 2.5,
+                                "min": 2.5
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -667,7 +777,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/sword_beauty/sword_beauty_touche"
                           ],
-                          3,
+                          9,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -684,7 +794,12 @@
                           true,
                           [
                             "Some",
-                            2.5
+                            [
+                              {
+                                "max": 2.5,
+                                "min": 2.5
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -697,7 +812,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/sword_beauty/sword_beauty_slash"
                           ],
-                          3,
+                          9,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -714,7 +829,12 @@
                           true,
                           [
                             "Some",
-                            2.5
+                            [
+                              {
+                                "max": 2.5,
+                                "min": 2.5
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -727,7 +847,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/sword_beauty/sword_beauty_touche"
                           ],
-                          3,
+                          9,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -744,7 +864,12 @@
                           true,
                           [
                             "Some",
-                            2.5
+                            [
+                              {
+                                "max": 2.5,
+                                "min": 2.5
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -757,7 +882,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/sword_beauty/sword_beauty_slash"
                           ],
-                          3,
+                          9,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -774,7 +899,12 @@
                           true,
                           [
                             "Some",
-                            2.5
+                            [
+                              {
+                                "max": 2.5,
+                                "min": 2.5
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -787,7 +917,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/sword_beauty/sword_beauty_touche"
                           ],
-                          3,
+                          9,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -804,14 +934,19 @@
                           true,
                           [
                             "Some",
-                            2.5
+                            [
+                              {
+                                "max": 2.5,
+                                "min": 2.5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  4,
-                  5,
+                  10,
+                  11,
                   [
                     "Block",
                     [
@@ -819,35 +954,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          5,
+                          11,
                           255,
                           null,
                           null,
                           85,
-                          {
-                            "max": 13,
-                            "min": 11
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 13,
+                              "min": 11
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 8,
-                            "min": 8
-                          },
-                          {
-                            "max": 5,
-                            "min": 5
-                          },
+                          [
+                            {
+                              "max": 8,
+                              "min": 8
+                            }
+                          ],
+                          [
+                            {
+                              "max": 5,
+                              "min": 5
+                            }
+                          ],
                           [
                             "Coarse"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -858,6 +1002,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]

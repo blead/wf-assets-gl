@@ -1,0 +1,159 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateShockWaveAttack",
+          "*",
+          -33,
+          [
+            "AB"
+          ],
+          0,
+          0,
+          3.141592653589793,
+          [
+            "Donut"
+          ],
+          [
+            "ResolveByElement",
+            "battle/effect/enemy_general/enemy_shot_guard_wave_circle_middle",
+            255
+          ],
+          [
+            "ForesideOfCharacter"
+          ],
+          2,
+          0,
+          1,
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateNormalAttack",
+                  1,
+                  255,
+                  null,
+                  null,
+                  0,
+                  [
+                    {
+                      "max": 8,
+                      "min": 8
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "None"
+                  ],
+                  true
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  1,
+                  [
+                    [
+                      "ACToleranceOfElement",
+                      [
+                        {
+                          "max": 9999999,
+                          "min": 9999999
+                        }
+                      ],
+                      255,
+                      [
+                        {
+                          "max": -0.3,
+                          "min": -0.3
+                        }
+                      ],
+                      [
+                        {
+                          "max": 10,
+                          "min": 10
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  false,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ],
+          [
+            "Suppress",
+            2,
+            3,
+            [
+              "Block",
+              null
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

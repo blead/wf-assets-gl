@@ -31,11 +31,14 @@
         {
           "a": 0,
           "b": [
-            "T1",
+            "T2",
             [
               "T1",
               [
-                1
+                "T1",
+                [
+                  1
+                ]
               ]
             ]
           ],
@@ -45,13 +48,17 @@
           "bK": false,
           "bL": false,
           "bM": false,
+          "bO": 1,
           "bf": false,
           "c": [
-            "T1",
+            "T2",
             [
               "T1",
               [
-                1
+                "T1",
+                [
+                  1
+                ]
               ]
             ]
           ],
@@ -81,11 +88,14 @@
         {
           "a": 1,
           "b": [
-            "T1",
+            "T2",
             [
               "T1",
               [
-                1
+                "T1",
+                [
+                  1
+                ]
               ]
             ]
           ],
@@ -95,13 +105,17 @@
           "bK": false,
           "bL": false,
           "bM": false,
+          "bO": 1,
           "bf": false,
           "c": [
-            "T1",
+            "T2",
             [
               "T1",
               [
-                1
+                "T1",
+                [
+                  1
+                ]
               ]
             ]
           ],
@@ -141,6 +155,10 @@
     "T1"
   ],
   "bH": "battle/action/enemy/action/boss_discarded_dragon_light/funnel_discarded_dragon_light$",
+  "bI": [
+    "T1"
+  ],
+  "bJ": false,
   "ba": 1,
   "bg": true,
   "bh": false,
@@ -156,9 +174,10 @@
       "e": false,
       "f": true,
       "g": 2,
-      "h": false,
-      "i": false,
-      "j": false
+      "h": [
+        "T1"
+      ],
+      "k": false
     }
   ]
 }

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -20,25 +23,47 @@
           [
             [
               "ACDirectAttackDamageResistance",
-              {
-                "max": 99999999,
-                "min": 99999999
-              },
-              {
-                "max": -1,
-                "min": -1
-              },
-              1
+              [
+                {
+                  "max": 99999999,
+                  "min": 99999999
+                }
+              ],
+              [
+                {
+                  "max": -1,
+                  "min": -1
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "None"
           ],
           false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -50,25 +75,47 @@
           [
             [
               "ACDirectAttackDamageResistance",
-              {
-                "max": 99999998,
-                "min": 99999998
-              },
-              {
-                "max": -1,
-                "min": -1
-              },
-              1
+              [
+                {
+                  "max": 99999998,
+                  "min": 99999998
+                }
+              ],
+              [
+                {
+                  "max": -1,
+                  "min": -1
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "None"
           ],
           false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -80,25 +127,47 @@
           [
             [
               "ACDirectAttackDamageResistance",
-              {
-                "max": 99999997,
-                "min": 99999997
-              },
-              {
-                "max": -1,
-                "min": -1
-              },
-              1
+              [
+                {
+                  "max": 99999997,
+                  "min": 99999997
+                }
+              ],
+              [
+                {
+                  "max": -1,
+                  "min": -1
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ]

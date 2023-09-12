@@ -1,0 +1,50 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateRatioAttack",
+          -17,
+          2,
+          [
+            {
+              "max": 0.05,
+              "min": 0.05
+            }
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "DeleteCondition",
+          -17,
+          [
+            "DCDamageOfElement"
+          ],
+          1,
+          1,
+          "",
+          [
+            "Default"
+          ]
+        ]
+      ]
+    ]
+  ]
+]

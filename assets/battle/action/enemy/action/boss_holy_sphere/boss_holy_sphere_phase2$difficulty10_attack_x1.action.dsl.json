@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -73,10 +76,12 @@
                           "CreateRatioAttack",
                           0,
                           1,
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          }
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ]
                         ]
                       ]
                     ]
@@ -102,15 +107,19 @@
                   "CreateRatioHeal",
                   -17,
                   2,
-                  {
-                    "max": 0.01,
-                    "min": 0.01
-                  },
+                  [
+                    {
+                      "max": 0.01,
+                      "min": 0.01
+                    }
+                  ],
                   null,
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   [
                     "GenericHealHitEffect"
                   ]

@@ -1,0 +1,244 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "StopBall",
+          -18,
+          10,
+          [
+            "RestoreToSpeedBeforeActionExecution"
+          ],
+          [
+            "EF"
+          ],
+          0
+        ]
+      ],
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "マルボスタート",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/golemclub_captain/golemclub_captain_start"
+          ],
+          -18,
+          [
+            "ForesideOfCharacter"
+          ],
+          [
+            "PlayOnlyFirstSequence"
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          false,
+          false,
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateSummonsMultiball",
+          1,
+          1111352,
+          [
+            {
+              "max": 1800,
+              "min": 1800
+            }
+          ],
+          [
+            "E1",
+            [
+              "SpecifyEffectDirectly",
+              "battle/effect/skill_unique/golemclub_captain/golemclub_captain_multiball_ready"
+            ]
+          ],
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/golemclub_captain/golemclub_captain_multiball_appear"
+          ],
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/golemclub_captain/golemclub_captain_multiball_disappear"
+          ],
+          0,
+          false,
+          "*",
+          0,
+          1,
+          null,
+          null
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          120,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "FindAllSubjects",
+                  2,
+                  145,
+                  [
+                    1
+                  ],
+                  null,
+                  null,
+                  null,
+                  null,
+                  [
+                    "DoNothing"
+                  ],
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          2,
+                          [
+                            [
+                              "ACAttackPoint",
+                              [
+                                {
+                                  "alv_max": 300,
+                                  "alv_min": 150,
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 0.85
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          1,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          2,
+                          [
+                            [
+                              "ACDirectDamage",
+                              [
+                                {
+                                  "alv_max": 300,
+                                  "alv_min": 150,
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 0.8,
+                                  "min": 0.7
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          1,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

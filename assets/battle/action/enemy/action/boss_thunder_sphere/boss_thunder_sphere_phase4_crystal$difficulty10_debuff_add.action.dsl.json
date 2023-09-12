@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -58,25 +61,47 @@
                           [
                             [
                               "ACPowerFlipDamageResistance",
-                              {
-                                "max": 9999999,
-                                "min": 9999999
-                              },
-                              {
-                                "max": -1.5,
-                                "min": -1.5
-                              },
-                              1
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -1.5,
+                                  "min": -1.5
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           false,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
@@ -92,7 +117,7 @@
         "Command",
         [
           "FindAllSubjects",
-          1,
+          2,
           51,
           null,
           [
@@ -111,7 +136,7 @@
                 "Command",
                 [
                   "FindAllSubjects",
-                  2,
+                  3,
                   51,
                   null,
                   [
@@ -134,25 +159,47 @@
                           [
                             [
                               "ACSkillDamageResistance",
-                              {
-                                "max": 9999999,
-                                "min": 9999999
-                              },
-                              {
-                                "max": -1.5,
-                                "min": -1.5
-                              },
-                              1
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -1.5,
+                                  "min": -1.5
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           false,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
@@ -168,7 +215,7 @@
         "Command",
         [
           "FindAllSubjects",
-          2,
+          4,
           51,
           null,
           [
@@ -187,7 +234,7 @@
                 "Command",
                 [
                   "FindAllSubjects",
-                  3,
+                  5,
                   51,
                   null,
                   [
@@ -210,25 +257,47 @@
                           [
                             [
                               "ACDirectAttackDamageResistance",
-                              {
-                                "max": 9999999,
-                                "min": 9999999
-                              },
-                              {
-                                "max": -1.5,
-                                "min": -1.5
-                              },
-                              1
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -1.5,
+                                  "min": -1.5
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           false,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]

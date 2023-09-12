@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -39,7 +42,11 @@
                     3
                   ],
                   999,
-                  0
+                  0,
+                  "",
+                  [
+                    "Default"
+                  ]
                 ]
               ]
             ]
@@ -71,24 +78,41 @@
                   [
                     [
                       "ACRegeneration",
-                      {
-                        "max": 600,
-                        "min": 600
-                      },
-                      {
-                        "max": 60,
-                        "min": 40
-                      }
+                      [
+                        {
+                          "max": 600,
+                          "min": 600
+                        }
+                      ],
+                      [
+                        {
+                          "max": 60,
+                          "min": 40
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ],
@@ -100,26 +124,48 @@
                   [
                     [
                       "ACToleranceOfElement",
-                      {
-                        "max": 1200,
-                        "min": 1200
-                      },
+                      [
+                        {
+                          "max": 1200,
+                          "min": 1200
+                        }
+                      ],
                       5,
-                      {
-                        "max": 0.35,
-                        "min": 0.3
-                      },
-                      1
+                      [
+                        {
+                          "max": 0.35,
+                          "min": 0.3
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ],
@@ -129,10 +175,12 @@
                   "CreateRatioAttack",
                   1,
                   2,
-                  {
-                    "max": 0.2,
-                    "min": 0.2
-                  }
+                  [
+                    {
+                      "max": 0.2,
+                      "min": 0.2
+                    }
+                  ]
                 ]
               ]
             ]

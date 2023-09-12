@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -55,7 +58,12 @@
           false,
           [
             "Some",
-            2
+            [
+              {
+                "max": 2,
+                "min": 2
+              }
+            ]
           ]
         ]
       ],
@@ -116,7 +124,12 @@
                           true,
                           [
                             "Some",
-                            2
+                            [
+                              {
+                                "max": 2,
+                                "min": 2
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -145,7 +158,12 @@
                                   false,
                                   [
                                     "Circle",
-                                    200
+                                    [
+                                      {
+                                        "max": 200,
+                                        "min": 200
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -210,7 +228,12 @@
                                           true,
                                           [
                                             "Some",
-                                            4
+                                            [
+                                              {
+                                                "max": 4,
+                                                "min": 4
+                                              }
+                                            ]
                                           ]
                                         ]
                                       ]
@@ -230,33 +253,47 @@
                                           null,
                                           null,
                                           240,
-                                          {
-                                            "max": 24,
-                                            "min": 24
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 24,
+                                              "min": 24
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 25,
-                                            "min": 25
-                                          },
-                                          {
-                                            "max": 5,
-                                            "min": 5
-                                          },
+                                          [
+                                            {
+                                              "max": 25,
+                                              "min": 25
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 5,
+                                              "min": 5
+                                            }
+                                          ],
                                           [
                                             "ThunderLight"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]

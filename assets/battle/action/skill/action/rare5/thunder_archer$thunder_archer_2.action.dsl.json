@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -89,7 +92,12 @@
                           false,
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -128,7 +136,12 @@
                                   false,
                                   [
                                     "Some",
-                                    1
+                                    [
+                                      {
+                                        "max": 1,
+                                        "min": 1
+                                      }
+                                    ]
                                   ]
                                 ]
                               ],
@@ -174,7 +187,12 @@
                                           false,
                                           [
                                             "Some",
-                                            1
+                                            [
+                                              {
+                                                "max": 1,
+                                                "min": 1
+                                              }
+                                            ]
                                           ]
                                         ]
                                       ],
@@ -194,7 +212,12 @@
                                           false,
                                           [
                                             "Circle",
-                                            200
+                                            [
+                                              {
+                                                "max": 200,
+                                                "min": 200
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -215,7 +238,12 @@
                                           ],
                                           [
                                             "Some",
-                                            5
+                                            [
+                                              {
+                                                "max": 5,
+                                                "min": 5
+                                              }
+                                            ]
                                           ],
                                           false,
                                           true,
@@ -245,27 +273,35 @@
                                                     ]
                                                   ],
                                                   32,
-                                                  {
-                                                    "max": 4.8,
-                                                    "min": 4.2
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 4.8,
+                                                      "min": 4.2
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 3.6,
-                                                    "min": 3.6
-                                                  },
-                                                  {
-                                                    "max": 1.8,
-                                                    "min": 1.8
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 3.6,
+                                                      "min": 3.6
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1.8,
+                                                      "min": 1.8
+                                                    }
+                                                  ],
                                                   [
                                                     "SpecifyHitEffectDirectly",
                                                     [
@@ -273,10 +309,16 @@
                                                       "battle/effect/skill_unique/thunder_archer/thunder_archer_hit"
                                                     ],
                                                     false
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ]

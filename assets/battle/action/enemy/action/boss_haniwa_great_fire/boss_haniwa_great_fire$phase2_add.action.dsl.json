@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -37,20 +40,35 @@
                   [
                     [
                       "ACInvincible",
-                      {
-                        "max": 999999,
-                        "min": 999999
-                      }
+                      [
+                        {
+                          "max": 999999,
+                          "min": 999999
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
                   ],
                   false,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ],
@@ -62,25 +80,47 @@
                   [
                     [
                       "ACToleranceOfDebuff",
-                      {
-                        "max": 999999,
-                        "min": 999999
-                      },
-                      {
-                        "max": 1,
-                        "min": 1
-                      },
-                      1
+                      [
+                        {
+                          "max": 999999,
+                          "min": 999999
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
                   ],
                   false,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]

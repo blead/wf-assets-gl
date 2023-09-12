@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -28,7 +31,12 @@
           false,
           [
             "Circle",
-            200
+            [
+              {
+                "max": 200,
+                "min": 200
+              }
+            ]
           ],
           [
             "Center"
@@ -123,10 +131,12 @@
                                 [
                                   "CreateFixedAttack",
                                   3,
-                                  {
-                                    "max": 9999,
-                                    "min": 9999
-                                  },
+                                  [
+                                    {
+                                      "max": 9999,
+                                      "min": 9999
+                                    }
+                                  ],
                                   [
                                     "Generic"
                                   ]
@@ -141,6 +151,11 @@
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

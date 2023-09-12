@@ -1,0 +1,154 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_wind_strong_skill"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            3
+          ],
+          [
+            [
+              "ACSkillDamageResistance",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ],
+            [
+              "ACToleranceOfElement",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              254,
+              [
+                {
+                  "max": 2,
+                  "min": 2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Repeat",
+          20,
+          4,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "SpawnFunnel",
+                  [
+                    "Funnel",
+                    "funnel_haniwa_great_wind_weak_skill"
+                  ],
+                  1,
+                  [
+                    "FunnelGroup",
+                    4
+                  ],
+                  [
+                    [
+                      "ACSkillDamageResistance",
+                      [
+                        {
+                          "max": 999999,
+                          "min": 999999
+                        }
+                      ],
+                      [
+                        {
+                          "max": -2,
+                          "min": -2
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ],
+                    [
+                      "ACToleranceOfElement",
+                      [
+                        {
+                          "max": 999999,
+                          "min": 999999
+                        }
+                      ],
+                      254,
+                      [
+                        {
+                          "max": 2,
+                          "min": 2
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

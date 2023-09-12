@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -18,10 +21,12 @@
           "CreateSummonsMultiball",
           1,
           202001,
-          {
-            "max": 2400,
-            "min": 2400
-          },
+          [
+            {
+              "max": 2400,
+              "min": 2400
+            }
+          ],
           [
             "E1",
             [
@@ -38,7 +43,12 @@
             "battle/effect/skill_general/multiball/multiball_general_effect/multiball_general_effect_disappear"
           ],
           0,
-          false
+          false,
+          "*",
+          0,
+          1,
+          null,
+          null
         ]
       ]
     ]

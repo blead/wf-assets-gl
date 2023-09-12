@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   3,
+  [
+    "None"
+  ],
   true,
   false,
   false,
@@ -129,7 +132,7 @@
         "Command",
         [
           "FindAllSubjects",
-          0,
+          1,
           33,
           null,
           null,
@@ -146,24 +149,39 @@
                 "Command",
                 [
                   "CreateCondition",
-                  0,
+                  1,
                   [
                     [
                       "ACFlying",
-                      {
-                        "max": 480,
-                        "min": 420
-                      }
+                      [
+                        {
+                          "max": 480,
+                          "min": 420
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]
@@ -187,7 +205,12 @@
           true,
           [
             "Circle",
-            30
+            [
+              {
+                "max": 30,
+                "min": 30
+              }
+            ]
           ],
           [
             "Center"
@@ -214,13 +237,13 @@
           [
             "None"
           ],
-          1,
+          2,
           [
             "Block",
             null
           ],
-          2,
           3,
+          4,
           [
             "Block",
             [
@@ -276,7 +299,7 @@
                           -18,
                           [
                             "GH",
-                            3
+                            4
                           ],
                           3.141592653589793,
                           2,
@@ -301,7 +324,7 @@
                     "battle/effect/skill_general/area/air_blast",
                     5
                   ],
-                  2,
+                  3,
                   [
                     "ForesideOfCharacter"
                   ],
@@ -318,7 +341,12 @@
                   false,
                   [
                     "Some",
-                    3
+                    [
+                      {
+                        "max": 3,
+                        "min": 3
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -334,7 +362,7 @@
                 [
                   "CreateHitArea",
                   "*",
-                  2,
+                  3,
                   [
                     "AB"
                   ],
@@ -345,7 +373,12 @@
                   false,
                   [
                     "Circle",
-                    100
+                    [
+                      {
+                        "max": 100,
+                        "min": 100
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -372,13 +405,13 @@
                   [
                     "None"
                   ],
-                  4,
+                  5,
                   [
                     "Block",
                     null
                   ],
-                  5,
                   6,
+                  7,
                   [
                     "Block",
                     [
@@ -386,42 +419,61 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          6,
+                          7,
                           255,
                           null,
                           null,
                           10,
-                          {
-                            "max": 1.625,
-                            "min": 1.4137499999999998
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1.625,
+                              "min": 1.4137499999999998
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1.625,
-                            "min": 1.625
-                          },
-                          {
-                            "max": 1.875,
-                            "min": 1.875
-                          },
+                          [
+                            {
+                              "max": 1.625,
+                              "min": 1.625
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1.875,
+                              "min": 1.875
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

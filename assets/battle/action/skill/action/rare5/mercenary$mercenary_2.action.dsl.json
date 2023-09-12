@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -81,7 +84,12 @@
                   false,
                   [
                     "Circle",
-                    150
+                    [
+                      {
+                        "max": 150,
+                        "min": 150
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -172,30 +180,39 @@
                           null,
                           null,
                           36,
-                          {
-                            "max": 5.4,
-                            "min": 4.7
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 5.4,
+                              "min": 4.7
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 2.4,
-                            "min": 2.4
-                          },
-                          {
-                            "max": 1.2,
-                            "min": 1.2
-                          },
+                          [
+                            {
+                              "max": 2.4,
+                              "min": 2.4
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1.2,
+                              "min": 1.2
+                            }
+                          ],
                           [
                             "Tornado"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -206,6 +223,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -217,7 +239,7 @@
         "Command",
         [
           "FindAllSubjects",
-          0,
+          3,
           33,
           null,
           null,
@@ -234,29 +256,51 @@
                 "Command",
                 [
                   "CreateCondition",
-                  0,
+                  3,
                   [
                     [
                       "ACAttackPoint",
-                      {
-                        "max": 900,
-                        "min": 900
-                      },
-                      {
-                        "max": 0.6,
-                        "min": 0.5
-                      },
-                      1
+                      [
+                        {
+                          "max": 900,
+                          "min": 900
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.6,
+                          "min": 0.5
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]
@@ -272,25 +316,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 900,
-                "min": 900
-              },
-              {
-                "max": 0.6,
-                "min": 0.5
-              },
-              1
+              [
+                {
+                  "max": 900,
+                  "min": 900
+                }
+              ],
+              [
+                {
+                  "max": 0.6,
+                  "min": 0.5
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ]

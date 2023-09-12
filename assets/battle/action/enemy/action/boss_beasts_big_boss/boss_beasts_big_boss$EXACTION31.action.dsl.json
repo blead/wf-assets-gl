@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -20,25 +23,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 9999999,
-                "min": 9999999
-              },
-              {
-                "max": 0.25,
-                "min": 0.25
-              },
-              1
+              [
+                {
+                  "max": 9999999,
+                  "min": 9999999
+                }
+              ],
+              [
+                {
+                  "max": 0.25,
+                  "min": 0.25
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -50,25 +75,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 99999991,
-                "min": 99999991
-              },
-              {
-                "max": 0.25,
-                "min": 0.25
-              },
-              1
+              [
+                {
+                  "max": 99999991,
+                  "min": 99999991
+                }
+              ],
+              [
+                {
+                  "max": 0.25,
+                  "min": 0.25
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -80,25 +127,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 99999992,
-                "min": 99999992
-              },
-              {
-                "max": 0.25,
-                "min": 0.25
-              },
-              1
+              [
+                {
+                  "max": 99999992,
+                  "min": 99999992
+                }
+              ],
+              [
+                {
+                  "max": 0.25,
+                  "min": 0.25
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -110,25 +179,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 99999993,
-                "min": 99999993
-              },
-              {
-                "max": 0.25,
-                "min": 0.25
-              },
-              1
+              [
+                {
+                  "max": 99999993,
+                  "min": 99999993
+                }
+              ],
+              [
+                {
+                  "max": 0.25,
+                  "min": 0.25
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -157,25 +248,47 @@
                   [
                     [
                       "ACAttackPoint",
-                      {
-                        "max": 9999999,
-                        "min": 9999999
-                      },
-                      {
-                        "max": 0.25,
-                        "min": 0.25
-                      },
-                      1
+                      [
+                        {
+                          "max": 9999999,
+                          "min": 9999999
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.25,
+                          "min": 0.25
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]
@@ -208,25 +321,47 @@
                   [
                     [
                       "ACAttackPoint",
-                      {
-                        "max": 99999991,
-                        "min": 99999991
-                      },
-                      {
-                        "max": 0.25,
-                        "min": 0.25
-                      },
-                      1
+                      [
+                        {
+                          "max": 99999991,
+                          "min": 99999991
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.25,
+                          "min": 0.25
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]
@@ -259,25 +394,47 @@
                   [
                     [
                       "ACAttackPoint",
-                      {
-                        "max": 99999992,
-                        "min": 99999992
-                      },
-                      {
-                        "max": 0.25,
-                        "min": 0.25
-                      },
-                      1
+                      [
+                        {
+                          "max": 99999992,
+                          "min": 99999992
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.25,
+                          "min": 0.25
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]
@@ -310,25 +467,47 @@
                   [
                     [
                       "ACAttackPoint",
-                      {
-                        "max": 99999993,
-                        "min": 99999993
-                      },
-                      {
-                        "max": 0.25,
-                        "min": 0.25
-                      },
-                      1
+                      [
+                        {
+                          "max": 99999993,
+                          "min": 99999993
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.25,
+                          "min": 0.25
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]

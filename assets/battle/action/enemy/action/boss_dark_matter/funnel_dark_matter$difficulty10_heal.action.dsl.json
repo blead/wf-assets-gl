@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -37,26 +40,48 @@
                   [
                     [
                       "ACToleranceOfElement",
-                      {
-                        "max": 420,
-                        "min": 420
-                      },
+                      [
+                        {
+                          "max": 420,
+                          "min": 420
+                        }
+                      ],
                       254,
-                      {
-                        "max": 0.3,
-                        "min": 0.3
-                      },
-                      1
+                      [
+                        {
+                          "max": 0.3,
+                          "min": 0.3
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
                   ],
                   false,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ],
@@ -70,7 +95,11 @@
                     3
                   ],
                   10,
-                  0
+                  0,
+                  "",
+                  [
+                    "Default"
+                  ]
                 ]
               ]
             ]

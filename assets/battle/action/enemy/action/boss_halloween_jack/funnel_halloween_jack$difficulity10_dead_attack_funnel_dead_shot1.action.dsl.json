@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -47,7 +50,12 @@
                   false,
                   [
                     "Circle",
-                    50
+                    [
+                      {
+                        "max": 50,
+                        "min": 50
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -206,7 +214,12 @@
                                   false,
                                   [
                                     "Circle",
-                                    65
+                                    [
+                                      {
+                                        "max": 65,
+                                        "min": 65
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -233,7 +246,7 @@
                                   [
                                     "None"
                                   ],
-                                  4,
+                                  5,
                                   [
                                     "Block",
                                     [
@@ -247,7 +260,7 @@
                                             "battle/effect/enemy_general/enemy_shot_explosion_small",
                                             6
                                           ],
-                                          4,
+                                          5,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -271,7 +284,7 @@
                                         "Command",
                                         [
                                           "MoveHitArea",
-                                          4,
+                                          5,
                                           [
                                             "CD"
                                           ],
@@ -286,7 +299,7 @@
                                         "Command",
                                         [
                                           "FindAllSubjects",
-                                          7,
+                                          8,
                                           51,
                                           null,
                                           null,
@@ -303,41 +316,65 @@
                                                 "Command",
                                                 [
                                                   "CreateRatioAttack",
-                                                  7,
+                                                  8,
                                                   2,
-                                                  {
-                                                    "max": 0.001,
-                                                    "min": 0.001
-                                                  }
+                                                  [
+                                                    {
+                                                      "max": 0.001,
+                                                      "min": 0.001
+                                                    }
+                                                  ]
                                                 ]
                                               ],
                                               [
                                                 "Command",
                                                 [
                                                   "CreateCondition",
-                                                  7,
+                                                  8,
                                                   [
                                                     [
                                                       "ACAttackPoint",
-                                                      {
-                                                        "max": 999999,
-                                                        "min": 999999
-                                                      },
-                                                      {
-                                                        "max": -0.005,
-                                                        "min": -0.005
-                                                      },
-                                                      50
+                                                      [
+                                                        {
+                                                          "max": 999999,
+                                                          "min": 999999
+                                                        }
+                                                      ],
+                                                      [
+                                                        {
+                                                          "max": -0.005,
+                                                          "min": -0.005
+                                                        }
+                                                      ],
+                                                      [
+                                                        {
+                                                          "max": 50,
+                                                          "min": 50
+                                                        }
+                                                      ]
                                                     ]
                                                   ],
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "GenericConditionHitEffect"
                                                   ],
                                                   true,
+                                                  false,
+                                                  "",
+                                                  null,
+                                                  false,
+                                                  3,
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   false
                                                 ]
                                               ]
@@ -347,11 +384,16 @@
                                       ]
                                     ]
                                   ],
-                                  5,
                                   6,
+                                  7,
                                   [
                                     "Block",
                                     null
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]
@@ -366,6 +408,11 @@
                   [
                     "Block",
                     null
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]

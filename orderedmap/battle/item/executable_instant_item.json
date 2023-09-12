@@ -41,12 +41,6 @@
       "battle/action/item/action/hp_recovery_large"
     ]
   ],
-  "attack_power_up": [
-    [
-      "battle/field_object/common/yakumono/instant_item/attack_power_up/attack_power_up",
-      "battle/action/item/action/attack_power_up"
-    ]
-  ],
   "damage_cut": [
     [
       "battle/field_object/common/yakumono/instant_item/damage_cut/damage_cut",
@@ -77,22 +71,34 @@
       "battle/action/item/action/condition_speedup"
     ]
   ],
-  "accumulation_attack_power_up_low": [
+  "accumulation_attack_power_up_summer22_helicopter": [
     [
       "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
-      "battle/action/item/action/accumulation_attack_power_up_low"
+      "battle/action/item/action/accumulation_attack_power_up_summer22_helicopter"
     ]
   ],
-  "attack_power_up_long": [
-    [
-      "battle/field_object/common/yakumono/instant_item/attack_power_up/attack_power_up",
-      "battle/action/item/action/attack_power_up_long"
-    ]
-  ],
-  "attack_power_up_accumulation": [
+  "attack_power_up_accumulation_spirit_beast_light": [
     [
       "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
-      "battle/action/item/action/attack_power_up_spirit_beast_thunder"
+      "battle/action/item/action/attack_power_up_spirit_beast_light"
+    ]
+  ],
+  "additional_direct_attack_spirit_beast_light": [
+    [
+      "battle/field_object/common/yakumono/instant_item/condition_additional_direct_attack/condition_additional_direct_attack",
+      "battle/action/item/action/additional_direct_attack_spirit_beast_light"
+    ]
+  ],
+  "speedup_spirit_beast_light": [
+    [
+      "battle/field_object/common/yakumono/instant_item/condition_speedup/condition_speedup",
+      "battle/action/item/action/speedup_spirit_beast_light"
+    ]
+  ],
+  "condition_speedup_20_15": [
+    [
+      "battle/field_object/common/yakumono/instant_item/condition_speedup/condition_speedup",
+      "battle/action/item/action/condition_speedup_20_15"
     ]
   ],
   "skill_power_up": [
@@ -101,28 +107,10 @@
       "battle/action/item/action/skill_power_up"
     ]
   ],
-  "accumulation_attack_power_up_shark": [
-    [
-      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
-      "battle/action/item/action/accumulation_attack_power_up_shark"
-    ]
-  ],
-  "accumulation_attack_power_up_raid": [
-    [
-      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
-      "battle/action/item/action/accumulation_attack_power_up_raid"
-    ]
-  ],
-  "attack_power_up_orochi_ex": [
+  "attack_power_up": [
     [
       "battle/field_object/common/yakumono/instant_item/attack_power_up/attack_power_up",
-      "battle/action/item/action/attack_power_up_orochi_ex"
-    ]
-  ],
-  "accumulation_attack_power_up": [
-    [
-      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
-      "battle/action/item/action/accumulation_attack_power_up"
+      "battle/action/item/action/attack_power_up"
     ]
   ],
   "attack_power_up_grizzly": [
@@ -131,10 +119,22 @@
       "battle/action/item/action/attack_power_up_grizzly"
     ]
   ],
-  "attack_power_up_ghost_fox_ex": [
+  "attack_power_up_long": [
     [
-      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
-      "battle/action/item/action/attack_power_up_ghost_fox_ex"
+      "battle/field_object/common/yakumono/instant_item/attack_power_up/attack_power_up",
+      "battle/action/item/action/attack_power_up_long"
+    ]
+  ],
+  "attack_power_up_hungry_dragon": [
+    [
+      "battle/field_object/common/yakumono/instant_item/attack_power_up/attack_power_up",
+      "battle/action/item/action/attack_power_up_hungry_dragon"
+    ]
+  ],
+  "attack_power_up_orochi_ex": [
+    [
+      "battle/field_object/common/yakumono/instant_item/attack_power_up/attack_power_up",
+      "battle/action/item/action/attack_power_up_orochi_ex"
     ]
   ],
   "accumulation_attack_power_up2": [
@@ -143,10 +143,82 @@
       "battle/action/item/action/accumulation_attack_power_up2"
     ]
   ],
+  "accumulation_attack_power_up_25_500": [
+    [
+      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
+      "battle/action/item/action/accumulation_attack_power_up_25_500"
+    ]
+  ],
+  "attack_power_up_ghost_fox_ex": [
+    [
+      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
+      "battle/action/item/action/attack_power_up_ghost_fox_ex"
+    ]
+  ],
+  "accumulation_attack_power_up": [
+    [
+      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
+      "battle/action/item/action/accumulation_attack_power_up"
+    ]
+  ],
+  "accumulation_attack_power_up_haniwa_dark": [
+    [
+      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
+      "battle/action/item/action/accumulation_attack_power_up_haniwa_dark"
+    ]
+  ],
+  "accumulation_attack_power_up_haniwa_thunder": [
+    [
+      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
+      "battle/action/item/action/accumulation_attack_power_up_haniwa_thunder"
+    ]
+  ],
+  "attack_power_up_25_250": [
+    [
+      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
+      "battle/action/item/action/attack_power_up_25_250"
+    ]
+  ],
+  "accumulation_attack_power_up_raid": [
+    [
+      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
+      "battle/action/item/action/accumulation_attack_power_up_raid"
+    ]
+  ],
+  "accumulation_attack_power_up_shark": [
+    [
+      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
+      "battle/action/item/action/accumulation_attack_power_up_shark"
+    ]
+  ],
+  "attack_power_up_accumulation": [
+    [
+      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
+      "battle/action/item/action/attack_power_up_spirit_beast_thunder"
+    ]
+  ],
+  "accumulation_attack_power_up_low": [
+    [
+      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
+      "battle/action/item/action/accumulation_attack_power_up_low"
+    ]
+  ],
+  "general_accumulation_attack_buff_25_500": [
+    [
+      "battle/field_object/common/yakumono/instant_item/accumulation_attack_power_up/accumulation_attack_power_up",
+      "battle/action/item/action/accumulation_attack_power_up_25_500"
+    ]
+  ],
   "condition_additional_direct_attack": [
     [
       "battle/field_object/common/yakumono/instant_item/condition_additional_direct_attack/condition_additional_direct_attack",
       "battle/action/item/action/condition_additional_direct_attack"
+    ]
+  ],
+  "accumulation_direct_attack_power_up_u_collabo": [
+    [
+      "battle/field_object/common/yakumono/instant_item/direct_attack_power_up/direct_attack_power_up",
+      "battle/action/item/action/accumulation_direct_attack_power_up_u_collabo"
     ]
   ]
 }

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -67,8 +70,18 @@
                   true,
                   [
                     "Rectangle",
-                    2000,
-                    2000
+                    [
+                      {
+                        "max": 2000,
+                        "min": 2000
+                      }
+                    ],
+                    [
+                      {
+                        "max": 2000,
+                        "min": 2000
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -111,13 +124,20 @@
                           "CreateRatioAttack",
                           2,
                           2,
-                          {
-                            "max": 0.015,
-                            "min": 0.015
-                          }
+                          [
+                            {
+                              "max": 0.015,
+                              "min": 0.015
+                            }
+                          ]
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -150,8 +170,18 @@
                   true,
                   [
                     "Rectangle",
-                    2000,
-                    2000
+                    [
+                      {
+                        "max": 2000,
+                        "min": 2000
+                      }
+                    ],
+                    [
+                      {
+                        "max": 2000,
+                        "min": 2000
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -178,7 +208,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  3,
                   [
                     "Block",
                     [
@@ -191,7 +221,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/enemy_unique/enemy_shot_maou_org/enemy_shot_maou_last_meteo_break_attack_end"
                           ],
-                          0,
+                          3,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -213,8 +243,8 @@
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  4,
+                  5,
                   [
                     "Block",
                     [
@@ -222,15 +252,22 @@
                         "Command",
                         [
                           "CreateRatioAttack",
+                          5,
                           2,
-                          2,
-                          {
-                            "max": 0.015,
-                            "min": 0.015
-                          }
+                          [
+                            {
+                              "max": 0.015,
+                              "min": 0.015
+                            }
+                          ]
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]

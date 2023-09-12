@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -39,7 +42,12 @@
           true,
           [
             "Some",
-            1
+            [
+              {
+                "max": 1,
+                "min": 1
+              }
+            ]
           ]
         ]
       ],
@@ -68,20 +76,35 @@
                   [
                     [
                       "ACPiercing",
-                      {
-                        "max": 720,
-                        "min": 660
-                      }
+                      [
+                        {
+                          "max": 720,
+                          "min": 660
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]
@@ -105,7 +128,12 @@
           true,
           [
             "Circle",
-            120
+            [
+              {
+                "max": 120,
+                "min": 120
+              }
+            ]
           ],
           [
             "Center"
@@ -126,7 +154,12 @@
           ],
           [
             "Some",
-            12
+            [
+              {
+                "max": 12,
+                "min": 12
+              }
+            ]
           ],
           false,
           true,
@@ -152,27 +185,35 @@
                   null,
                   null,
                   8,
-                  {
-                    "max": 1.3125,
-                    "min": 1.125
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.3125,
+                      "min": 1.125
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1.75,
-                    "min": 1.75
-                  },
-                  {
-                    "max": 1.5,
-                    "min": 1.5
-                  },
+                  [
+                    {
+                      "max": 1.75,
+                      "min": 1.75
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1.5,
+                      "min": 1.5
+                    }
+                  ],
                   [
                     "SpecifyHitEffectDirectly",
                     [
@@ -180,7 +221,8 @@
                       "battle/effect/skill_unique/cursed_girl/cursed_girl_hit_droplet"
                     ],
                     true
-                  ]
+                  ],
+                  true
                 ]
               ],
               [
@@ -191,25 +233,47 @@
                   [
                     [
                       "ACPoison",
-                      {
-                        "max": 1800,
-                        "min": 1800
-                      },
-                      {
-                        "max": 5000,
-                        "min": 2000
-                      },
-                      1
+                      [
+                        {
+                          "max": 1800,
+                          "min": 1800
+                        }
+                      ],
+                      [
+                        {
+                          "max": 5000,
+                          "min": 2000
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ],
@@ -239,7 +303,12 @@
                   true,
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -251,6 +320,11 @@
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

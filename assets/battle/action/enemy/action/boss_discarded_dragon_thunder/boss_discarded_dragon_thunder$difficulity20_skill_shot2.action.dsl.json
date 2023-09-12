@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -76,30 +79,39 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 12,
-                            "min": 12
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 12,
+                              "min": 12
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -110,21 +122,36 @@
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 600,
-                                "min": 600
-                              },
+                              [
+                                {
+                                  "max": 600,
+                                  "min": 600
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 0.4,
-                            "min": 0.2
-                          },
+                          [
+                            {
+                              "max": 0.4,
+                              "min": 0.2
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]

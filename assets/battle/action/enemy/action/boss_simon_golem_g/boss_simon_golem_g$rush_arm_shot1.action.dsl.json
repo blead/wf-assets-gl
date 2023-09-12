@@ -1,0 +1,36 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_arm_rush"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            5
+          ],
+          null
+        ]
+      ]
+    ]
+  ]
+]

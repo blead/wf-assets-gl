@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -17,8 +20,6 @@
         [
           "StartModifierField",
           999999,
-          "Field Effect: Attack decreased!",
-          "The field effect disappeared.",
           [
             [
               "Attack",
@@ -39,26 +40,48 @@
           [
             [
               "ACToleranceOfElement",
-              {
-                "max": 999999,
-                "min": 999999
-              },
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
               254,
-              {
-                "max": 2,
-                "min": 2
-              },
-              1
+              [
+                {
+                  "max": 2,
+                  "min": 2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           false,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ]

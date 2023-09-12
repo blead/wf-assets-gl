@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -20,25 +23,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 900,
-                "min": 900
-              },
-              {
-                "max": 1,
-                "min": 1
-              },
-              1
+              [
+                {
+                  "max": 900,
+                  "min": 900
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ],
@@ -58,7 +83,12 @@
           true,
           [
             "Circle",
-            30
+            [
+              {
+                "max": 30,
+                "min": 30
+              }
+            ]
           ],
           [
             "Center"
@@ -79,7 +109,12 @@
           ],
           [
             "Some",
-            12
+            [
+              {
+                "max": 12,
+                "min": 12
+              }
+            ]
           ],
           false,
           true,
@@ -118,7 +153,12 @@
                   true,
                   [
                     "Some",
-                    2
+                    [
+                      {
+                        "max": 2,
+                        "min": 2
+                      }
+                    ]
                   ]
                 ]
               ]
@@ -141,11 +181,22 @@
                       [
                         "Command",
                         [
-                          "CreateHitArea",
-                          "*",
+                          "ShowEffect",
+                          "爪攻撃",
+                          [
+                            "ResolveByElement",
+                            "battle/effect/skill_general/area/claw_vertical",
+                            3
+                          ],
                           2,
                           [
-                            "EF"
+                            "ForesideOfCharacter"
+                          ],
+                          [
+                            "PlayOnlyFirstSequence"
+                          ],
+                          [
+                            "AB"
                           ],
                           -40,
                           50,
@@ -153,125 +204,69 @@
                           false,
                           false,
                           [
-                            "Rectangle",
-                            30,
-                            30
-                          ],
-                          [
-                            "Center"
-                          ],
-                          [
-                            "Center"
-                          ],
-                          [
-                            "Single"
-                          ],
-                          [
-                            "SpecifyHitAreaLifetimeDirectly",
-                            30
-                          ],
-                          [
-                            "CalculatedUsingMaxNumOfHits",
-                            1
-                          ],
-                          [
-                            "None"
-                          ],
-                          false,
-                          true,
-                          [
-                            "None"
-                          ],
-                          3,
-                          [
-                            "Block",
+                            "Some",
                             [
-                              [
-                                "Command",
-                                [
-                                  "ShowEffect",
-                                  "爪攻撃",
-                                  [
-                                    "ResolveByElement",
-                                    "battle/effect/skill_general/area/claw_vertical",
-                                    3
-                                  ],
-                                  3,
-                                  [
-                                    "ForesideOfCharacter"
-                                  ],
-                                  [
-                                    "PlayOnlyFirstSequence"
-                                  ],
-                                  [
-                                    "AB"
-                                  ],
-                                  0,
-                                  0,
-                                  0.5235987755982988,
-                                  true,
-                                  true,
-                                  [
-                                    "Some",
-                                    2.5
-                                  ]
-                                ]
-                              ]
-                            ]
-                          ],
-                          4,
-                          5,
-                          [
-                            "Block",
-                            [
-                              [
-                                "Command",
-                                [
-                                  "CreateNormalAttack",
-                                  5,
-                                  255,
-                                  null,
-                                  [
-                                    [
-                                      "DCParalysis"
-                                    ]
-                                  ],
-                                  7,
-                                  {
-                                    "max": 0.45,
-                                    "min": 0.45
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
-                                  false,
-                                  false,
-                                  false,
-                                  false,
-                                  false,
-                                  {
-                                    "max": 0.625,
-                                    "min": 0.625
-                                  },
-                                  {
-                                    "max": 0.625,
-                                    "min": 0.625
-                                  },
-                                  [
-                                    "Fine"
-                                  ]
-                                ]
-                              ],
-                              [
-                                "Command",
-                                [
-                                  "ShakeCamera",
-                                  1
-                                ]
-                              ]
+                              {
+                                "max": 2.5,
+                                "min": 2.5
+                              }
                             ]
                           ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          2,
+                          255,
+                          null,
+                          [
+                            [
+                              "DCParalysis"
+                            ]
+                          ],
+                          7,
+                          [
+                            {
+                              "max": 0.45,
+                              "min": 0.45
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          [
+                            {
+                              "max": 0.625,
+                              "min": 0.625
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0.625,
+                              "min": 0.625
+                            }
+                          ],
+                          [
+                            "Fine"
+                          ],
+                          true
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "ShakeCamera",
+                          1
                         ]
                       ]
                     ]
@@ -290,11 +285,22 @@
                       [
                         "Command",
                         [
-                          "CreateHitArea",
-                          "*",
+                          "ShowEffect",
+                          "爪攻撃",
+                          [
+                            "ResolveByElement",
+                            "battle/effect/skill_general/area/claw_vertical",
+                            3
+                          ],
                           2,
                           [
-                            "EF"
+                            "ForesideOfCharacter"
+                          ],
+                          [
+                            "PlayOnlyFirstSequence"
+                          ],
+                          [
+                            "AB"
                           ],
                           40,
                           -50,
@@ -302,125 +308,69 @@
                           false,
                           false,
                           [
-                            "Rectangle",
-                            30,
-                            30
-                          ],
-                          [
-                            "Center"
-                          ],
-                          [
-                            "Center"
-                          ],
-                          [
-                            "Single"
-                          ],
-                          [
-                            "SpecifyHitAreaLifetimeDirectly",
-                            30
-                          ],
-                          [
-                            "CalculatedUsingMaxNumOfHits",
-                            1
-                          ],
-                          [
-                            "None"
-                          ],
-                          false,
-                          true,
-                          [
-                            "None"
-                          ],
-                          6,
-                          [
-                            "Block",
+                            "Some",
                             [
-                              [
-                                "Command",
-                                [
-                                  "ShowEffect",
-                                  "爪攻撃",
-                                  [
-                                    "ResolveByElement",
-                                    "battle/effect/skill_general/area/claw_vertical",
-                                    3
-                                  ],
-                                  6,
-                                  [
-                                    "ForesideOfCharacter"
-                                  ],
-                                  [
-                                    "PlayOnlyFirstSequence"
-                                  ],
-                                  [
-                                    "AB"
-                                  ],
-                                  0,
-                                  0,
-                                  3.665191429188092,
-                                  true,
-                                  true,
-                                  [
-                                    "Some",
-                                    2.5
-                                  ]
-                                ]
-                              ]
+                              {
+                                "max": 2.5,
+                                "min": 2.5
+                              }
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          2,
+                          255,
+                          null,
+                          [
+                            [
+                              "DCParalysis"
                             ]
                           ],
                           7,
-                          8,
                           [
-                            "Block",
-                            [
-                              [
-                                "Command",
-                                [
-                                  "CreateNormalAttack",
-                                  8,
-                                  255,
-                                  null,
-                                  [
-                                    [
-                                      "DCParalysis"
-                                    ]
-                                  ],
-                                  7,
-                                  {
-                                    "max": 0.45,
-                                    "min": 0.45
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
-                                  false,
-                                  false,
-                                  false,
-                                  false,
-                                  false,
-                                  {
-                                    "max": 0.625,
-                                    "min": 0.625
-                                  },
-                                  {
-                                    "max": 0.625,
-                                    "min": 0.625
-                                  },
-                                  [
-                                    "Fine"
-                                  ]
-                                ]
-                              ],
-                              [
-                                "Command",
-                                [
-                                  "ShakeCamera",
-                                  1
-                                ]
-                              ]
-                            ]
-                          ]
+                            {
+                              "max": 0.45,
+                              "min": 0.45
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          [
+                            {
+                              "max": 0.625,
+                              "min": 0.625
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0.625,
+                              "min": 0.625
+                            }
+                          ],
+                          [
+                            "Fine"
+                          ],
+                          true
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "ShakeCamera",
+                          1
                         ]
                       ]
                     ]
@@ -428,6 +378,11 @@
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

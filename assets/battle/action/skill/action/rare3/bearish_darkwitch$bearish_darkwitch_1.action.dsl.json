@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -28,7 +31,12 @@
           true,
           [
             "Circle",
-            200
+            [
+              {
+                "max": 200,
+                "min": 200
+              }
+            ]
           ],
           [
             "Center"
@@ -93,7 +101,12 @@
                   true,
                   [
                     "Some",
-                    4
+                    [
+                      {
+                        "max": 4,
+                        "min": 4
+                      }
+                    ]
                   ]
                 ]
               ]
@@ -112,26 +125,48 @@
                   [
                     [
                       "ACToleranceOfElement",
-                      {
-                        "max": 720,
-                        "min": 720
-                      },
+                      [
+                        {
+                          "max": 720,
+                          "min": 720
+                        }
+                      ],
                       255,
-                      {
-                        "max": -0.12,
-                        "min": -0.12
-                      },
-                      1
+                      [
+                        {
+                          "max": -0.12,
+                          "min": -0.12
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ],
@@ -143,25 +178,45 @@
                   [
                     [
                       "ACFrozen",
-                      {
-                        "max": 480,
-                        "min": 480
-                      },
+                      [
+                        {
+                          "max": 480,
+                          "min": 480
+                        }
+                      ],
                       true
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -187,10 +242,12 @@
                 [
                   "AddSkillPoint",
                   3,
-                  {
-                    "max": 0.1,
-                    "min": 0.1
-                  }
+                  [
+                    {
+                      "max": 0.1,
+                      "min": 0.1
+                    }
+                  ]
                 ]
               ]
             ]

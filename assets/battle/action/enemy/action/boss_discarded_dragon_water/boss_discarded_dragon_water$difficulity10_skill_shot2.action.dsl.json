@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -43,7 +46,7 @@
                     255
                   ],
                   [
-                    "BacksideOfCharacter"
+                    "ForesideOfCharacter"
                   ],
                   2,
                   0,
@@ -60,30 +63,39 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.3,
-                            "min": 0.3
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.3,
+                              "min": 0.3
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -94,30 +106,55 @@
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1200,
-                                "min": 820
-                              },
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 820
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.4,
-                                "min": -0.25
-                              },
-                              1
+                              [
+                                {
+                                  "max": -0.4,
+                                  "min": -0.25
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -165,11 +202,11 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           2,
-                          0,
-                          1,
+                          2,
+                          3,
                           [
                             "Block",
                             [
@@ -177,69 +214,103 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  1,
+                                  3,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.3,
-                                    "min": 0.3
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.3,
+                                      "min": 0.3
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  1,
+                                  3,
                                   [
                                     [
                                       "ACToleranceOfElement",
-                                      {
-                                        "max": 1200,
-                                        "min": 820
-                                      },
+                                      [
+                                        {
+                                          "max": 1200,
+                                          "min": 820
+                                        }
+                                      ],
                                       255,
-                                      {
-                                        "max": -0.4,
-                                        "min": -0.25
-                                      },
-                                      1
+                                      [
+                                        {
+                                          "max": -0.4,
+                                          "min": -0.25
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 1,
+                                          "min": 1
+                                        }
+                                      ]
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -291,11 +362,11 @@
                             255
                           ],
                           [
-                            "BacksideOfCharacter"
+                            "ForesideOfCharacter"
                           ],
                           2,
-                          0,
-                          1,
+                          4,
+                          5,
                           [
                             "Block",
                             [
@@ -303,69 +374,103 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  1,
+                                  5,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.3,
-                                    "min": 0.3
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.3,
+                                      "min": 0.3
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  1,
+                                  5,
                                   [
                                     [
                                       "ACToleranceOfElement",
-                                      {
-                                        "max": 1200,
-                                        "min": 820
-                                      },
+                                      [
+                                        {
+                                          "max": 1200,
+                                          "min": 820
+                                        }
+                                      ],
                                       255,
-                                      {
-                                        "max": -0.4,
-                                        "min": -0.25
-                                      },
-                                      1
+                                      [
+                                        {
+                                          "max": -0.4,
+                                          "min": -0.25
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 1,
+                                          "min": 1
+                                        }
+                                      ]
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ]

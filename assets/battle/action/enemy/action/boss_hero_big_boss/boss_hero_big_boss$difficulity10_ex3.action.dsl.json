@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -22,7 +25,11 @@
             2
           ],
           3,
-          2
+          2,
+          "",
+          [
+            "Default"
+          ]
         ]
       ],
       [
@@ -42,25 +49,47 @@
                   [
                     [
                       "ACPowerFlipDamageResistance",
-                      {
-                        "max": 9999999,
-                        "min": 9999999
-                      },
-                      {
-                        "max": -0.5,
-                        "min": -0.5
-                      },
-                      1
+                      [
+                        {
+                          "max": 9999999,
+                          "min": 9999999
+                        }
+                      ],
+                      [
+                        {
+                          "max": -0.5,
+                          "min": -0.5
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ],
@@ -72,26 +101,48 @@
                   [
                     [
                       "ACToleranceOfElement",
-                      {
-                        "max": 9999999,
-                        "min": 9999999
-                      },
+                      [
+                        {
+                          "max": 9999999,
+                          "min": 9999999
+                        }
+                      ],
                       2,
-                      {
-                        "max": -1.5,
-                        "min": -1.5
-                      },
-                      1
+                      [
+                        {
+                          "max": -1.5,
+                          "min": -1.5
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -53,7 +56,12 @@
           false,
           [
             "Some",
-            3.5
+            [
+              {
+                "max": 3.5,
+                "min": 3.5
+              }
+            ]
           ]
         ]
       ],
@@ -92,7 +100,12 @@
                   false,
                   [
                     "Some",
-                    3
+                    [
+                      {
+                        "max": 3,
+                        "min": 3
+                      }
+                    ]
                   ]
                 ]
               ]
@@ -135,7 +148,12 @@
                   false,
                   [
                     "Some",
-                    3
+                    [
+                      {
+                        "max": 3,
+                        "min": 3
+                      }
+                    ]
                   ]
                 ]
               ]
@@ -178,7 +196,12 @@
                   false,
                   [
                     "Some",
-                    3
+                    [
+                      {
+                        "max": 3,
+                        "min": 3
+                      }
+                    ]
                   ]
                 ]
               ]
@@ -221,7 +244,12 @@
                   false,
                   [
                     "Some",
-                    3
+                    [
+                      {
+                        "max": 3,
+                        "min": 3
+                      }
+                    ]
                   ]
                 ]
               ]
@@ -264,7 +292,12 @@
                   false,
                   [
                     "Some",
-                    3
+                    [
+                      {
+                        "max": 3,
+                        "min": 3
+                      }
+                    ]
                   ]
                 ]
               ]
@@ -307,7 +340,12 @@
                   false,
                   [
                     "Some",
-                    3
+                    [
+                      {
+                        "max": 3,
+                        "min": 3
+                      }
+                    ]
                   ]
                 ]
               ]
@@ -350,7 +388,12 @@
                   false,
                   [
                     "Some",
-                    3
+                    [
+                      {
+                        "max": 3,
+                        "min": 3
+                      }
+                    ]
                   ]
                 ]
               ]
@@ -393,7 +436,12 @@
                   false,
                   [
                     "Some",
-                    3
+                    [
+                      {
+                        "max": 3,
+                        "min": 3
+                      }
+                    ]
                   ]
                 ]
               ]
@@ -436,7 +484,12 @@
                   false,
                   [
                     "Some",
-                    3
+                    [
+                      {
+                        "max": 3,
+                        "min": 3
+                      }
+                    ]
                   ]
                 ]
               ]
@@ -502,7 +555,12 @@
           false,
           [
             "Circle",
-            220
+            [
+              {
+                "max": 220,
+                "min": 220
+              }
+            ]
           ],
           [
             "Center"
@@ -523,7 +581,12 @@
           ],
           [
             "Some",
-            8
+            [
+              {
+                "max": 8,
+                "min": 8
+              }
+            ]
           ],
           false,
           true,
@@ -556,27 +619,35 @@
                   null,
                   null,
                   22,
-                  {
-                    "max": 3.375,
-                    "min": 2.9250000000000003
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 3.375,
+                      "min": 2.9250000000000003
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 2,
-                    "min": 2
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 2,
+                      "min": 2
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "SpecifyHitEffectDirectly",
                     [
@@ -584,10 +655,16 @@
                       "battle/effect/skill_unique/tsundere_bountyhunter/tsundere_bountyhunter_hit"
                     ],
                     true
-                  ]
+                  ],
+                  true
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -599,25 +676,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 600,
-                "min": 600
-              },
-              {
-                "max": 1,
-                "min": 0.85
-              },
-              1
+              [
+                {
+                  "max": 600,
+                  "min": 600
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 0.85
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "None"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ]

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   3,
+  [
+    "None"
+  ],
   true,
   false,
   false,
@@ -83,7 +86,7 @@
                     "CreateImaginaryTarget",
                     -1000000
                   ],
-                  0,
+                  1,
                   [
                     "Block",
                     [
@@ -94,7 +97,7 @@
                           -18,
                           [
                             "GH",
-                            0
+                            1
                           ],
                           0,
                           2,
@@ -129,7 +132,12 @@
           true,
           [
             "Circle",
-            150
+            [
+              {
+                "max": 150,
+                "min": 150
+              }
+            ]
           ],
           [
             "Center"
@@ -156,7 +164,7 @@
           [
             "None"
           ],
-          0,
+          2,
           [
             "Block",
             [
@@ -169,7 +177,7 @@
                     "SpecifyEffectDirectly",
                     "battle/effect/skill_unique/white_tiger_xm20/white_tiger_xm20_area"
                   ],
-                  0,
+                  2,
                   [
                     "ForesideOfCharacter"
                   ],
@@ -187,7 +195,12 @@
                   true,
                   [
                     "Some",
-                    3
+                    [
+                      {
+                        "max": 3,
+                        "min": 3
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -200,7 +213,7 @@
                     "SpecifyEffectDirectly",
                     "battle/effect/skill_unique/white_tiger_xm20/white_tiger_xm20_throw"
                   ],
-                  0,
+                  2,
                   [
                     "ForesideOfCharacter"
                   ],
@@ -218,14 +231,19 @@
                   true,
                   [
                     "Some",
-                    1
+                    [
+                      {
+                        "max": 1,
+                        "min": 1
+                      }
+                    ]
                   ]
                 ]
               ]
             ]
           ],
-          1,
-          2,
+          3,
+          4,
           [
             "Block",
             [
@@ -233,35 +251,44 @@
                 "Command",
                 [
                   "CreateNormalAttack",
-                  2,
+                  4,
                   255,
                   null,
                   null,
                   11,
-                  {
-                    "max": 1.75,
-                    "min": 1.5112500000000002
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.75,
+                      "min": 1.5112500000000002
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 0.625,
-                    "min": 0.625
-                  },
-                  {
-                    "max": 0.625,
-                    "min": 0.625
-                  },
+                  [
+                    {
+                      "max": 0.625,
+                      "min": 0.625
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0.625,
+                      "min": 0.625
+                    }
+                  ],
                   [
                     "Fine"
-                  ]
+                  ],
+                  true
                 ]
               ],
               [
@@ -272,6 +299,11 @@
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ],
@@ -321,7 +353,7 @@
         "Command",
         [
           "FindAllSubjects",
-          3,
+          5,
           33,
           null,
           null,
@@ -338,29 +370,51 @@
                 "Command",
                 [
                   "CreateCondition",
-                  3,
+                  5,
                   [
                     [
                       "ACAttackPoint",
-                      {
-                        "max": 900,
-                        "min": 900
-                      },
-                      {
-                        "max": 0.5,
-                        "min": 0.4
-                      },
-                      1
+                      [
+                        {
+                          "max": 900,
+                          "min": 900
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.5,
+                          "min": 0.4
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ],
@@ -368,24 +422,39 @@
                 "Command",
                 [
                   "CreateCondition",
-                  3,
+                  5,
                   [
                     [
                       "ACPiercing",
-                      {
-                        "max": 600,
-                        "min": 480
-                      }
+                      [
+                        {
+                          "max": 600,
+                          "min": 480
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]
@@ -401,25 +470,47 @@
           [
             [
               "ACAttackPoint",
-              {
-                "max": 900,
-                "min": 900
-              },
-              {
-                "max": 0.5,
-                "min": 0.4
-              },
-              1
+              [
+                {
+                  "max": 900,
+                  "min": 900
+                }
+              ],
+              [
+                {
+                  "max": 0.5,
+                  "min": 0.4
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
             ]
           ],
-          {
-            "max": 1,
-            "min": 1
-          },
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           [
             "GenericConditionHitEffect"
           ],
           true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
           false
         ]
       ]

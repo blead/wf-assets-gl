@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -107,10 +110,12 @@
                 "Command",
                 [
                   "AddFeverPoint",
-                  {
-                    "max": 65,
-                    "min": 65
-                  }
+                  [
+                    {
+                      "max": 65,
+                      "min": 65
+                    }
+                  ]
                 ]
               ],
               [
@@ -136,17 +141,21 @@
                           "CreateRatioHeal",
                           0,
                           2,
-                          {
-                            "max": 0.06,
-                            "min": 0.06
-                          },
+                          [
+                            {
+                              "max": 0.06,
+                              "min": 0.06
+                            }
+                          ],
                           [
                             5
                           ],
-                          {
-                            "max": 0.5,
-                            "min": 0.5
-                          },
+                          [
+                            {
+                              "max": 0.5,
+                              "min": 0.5
+                            }
+                          ],
                           [
                             "SpecifyHealEffectDirectly",
                             [
@@ -166,17 +175,21 @@
                   "CreateRatioHeal",
                   -33,
                   2,
-                  {
-                    "max": 0.06,
-                    "min": 0.06
-                  },
+                  [
+                    {
+                      "max": 0.06,
+                      "min": 0.06
+                    }
+                  ],
                   [
                     5
                   ],
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
                   [
                     "SpecifyHealEffectDirectly",
                     [

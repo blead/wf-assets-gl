@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -33,17 +36,21 @@
           "CreateRatioHeal",
           -17,
           2,
-          {
-            "max": 0.06,
-            "min": 0.05
-          },
+          [
+            {
+              "max": 0.06,
+              "min": 0.05
+            }
+          ],
           [
             3
           ],
-          {
-            "max": 0.5,
-            "min": 0.5
-          },
+          [
+            {
+              "max": 0.5,
+              "min": 0.5
+            }
+          ],
           [
             "GenericHealHitEffect"
           ]
@@ -74,25 +81,47 @@
                   [
                     [
                       "ACPowerFlipDamage",
-                      {
-                        "max": 600,
-                        "min": 600
-                      },
-                      {
-                        "max": 0.75,
-                        "min": 0.65
-                      },
-                      1
+                      [
+                        {
+                          "max": 600,
+                          "min": 600
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.75,
+                          "min": 0.65
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]
@@ -148,7 +177,12 @@
                   true,
                   [
                     "Some",
-                    4
+                    [
+                      {
+                        "max": 4,
+                        "min": 4
+                      }
+                    ]
                   ]
                 ]
               ],
@@ -177,8 +211,18 @@
                           false,
                           [
                             "Rectangle",
-                            100,
-                            600
+                            [
+                              {
+                                "max": 100,
+                                "min": 100
+                              }
+                            ],
+                            [
+                              {
+                                "max": 600,
+                                "min": 600
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -224,30 +268,39 @@
                                   null,
                                   null,
                                   120,
-                                  {
-                                    "max": 18,
-                                    "min": 15.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 18,
+                                      "min": 15.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 15,
-                                    "min": 15
-                                  },
-                                  {
-                                    "max": 5,
-                                    "min": 5
-                                  },
+                                  [
+                                    {
+                                      "max": 15,
+                                      "min": 15
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 5,
+                                      "min": 5
+                                    }
+                                  ],
                                   [
                                     "ThunderLight"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
@@ -258,6 +311,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]

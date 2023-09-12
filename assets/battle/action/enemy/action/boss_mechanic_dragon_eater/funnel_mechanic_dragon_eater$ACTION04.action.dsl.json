@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -44,10 +47,12 @@
                         [
                           "AddSkillPoint",
                           0,
-                          {
-                            "max": 0.04,
-                            "min": 0.04
-                          }
+                          [
+                            {
+                              "max": 0.04,
+                              "min": 0.04
+                            }
+                          ]
                         ]
                       ]
                     ]

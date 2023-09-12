@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -40,7 +43,12 @@
           true,
           [
             "Some",
-            2
+            [
+              {
+                "max": 2,
+                "min": 2
+              }
+            ]
           ]
         ]
       ],
@@ -60,7 +68,12 @@
           true,
           [
             "Circle",
-            30
+            [
+              {
+                "max": 30,
+                "min": 30
+              }
+            ]
           ],
           [
             "Center"
@@ -81,7 +94,12 @@
           ],
           [
             "Some",
-            5
+            [
+              {
+                "max": 5,
+                "min": 5
+              }
+            ]
           ],
           false,
           true,
@@ -117,30 +135,39 @@
                           null,
                           null,
                           6,
-                          {
-                            "max": 0.6666666666666666,
-                            "min": 0.6666666666666666
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.6666666666666666,
+                              "min": 0.6666666666666666
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 0.5,
-                            "min": 0.5
-                          },
-                          {
-                            "max": 1.25,
-                            "min": 1.25
-                          },
+                          [
+                            {
+                              "max": 0.5,
+                              "min": 0.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1.25,
+                              "min": 1.25
+                            }
+                          ],
                           [
                             "Slash"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -158,21 +185,36 @@
                           [
                             [
                               "ACParalysis",
-                              {
-                                "max": 240,
-                                "min": 240
-                              },
+                              [
+                                {
+                                  "max": 240,
+                                  "min": 240
+                                }
+                              ],
                               true
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
@@ -181,6 +223,11 @@
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -49,7 +52,12 @@
                   false,
                   [
                     "Circle",
-                    100
+                    [
+                      {
+                        "max": 100,
+                        "min": 100
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -154,30 +162,39 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 1,
-                            "min": 0.5
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 0.5
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "Fire"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -188,30 +205,57 @@
                           [
                             [
                               "ACToleranceOfElement",
-                              {
-                                "max": 1800,
-                                "min": 900
-                              },
+                              [
+                                {
+                                  "max": 1800,
+                                  "min": 900
+                                }
+                              ],
                               255,
-                              {
-                                "max": -0.05,
-                                "min": -0.05
-                              },
-                              8
+                              [
+                                {
+                                  "max": -0.05,
+                                  "min": -0.05
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 8,
+                                  "min": 8
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -265,7 +309,12 @@
                           false,
                           [
                             "Circle",
-                            100
+                            [
+                              {
+                                "max": 100,
+                                "min": 100
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -370,30 +419,39 @@
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 1,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "Fire"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
@@ -404,30 +462,57 @@
                                   [
                                     [
                                       "ACToleranceOfElement",
-                                      {
-                                        "max": 1800,
-                                        "min": 900
-                                      },
+                                      [
+                                        {
+                                          "max": 1800,
+                                          "min": 900
+                                        }
+                                      ],
                                       255,
-                                      {
-                                        "max": -0.05,
-                                        "min": -0.05
-                                      },
-                                      8
+                                      [
+                                        {
+                                          "max": -0.05,
+                                          "min": -0.05
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 8,
+                                          "min": 8
+                                        }
+                                      ]
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -465,7 +550,7 @@
                     "Single"
                   ],
                   60,
-                  4,
+                  8,
                   [
                     "Block",
                     [
@@ -474,7 +559,7 @@
                         [
                           "CreateHitArea",
                           "溶岩柱の累積デバフ用",
-                          4,
+                          8,
                           [
                             "AB"
                           ],
@@ -485,7 +570,12 @@
                           false,
                           [
                             "Circle",
-                            100
+                            [
+                              {
+                                "max": 100,
+                                "min": 100
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -512,7 +602,7 @@
                           [
                             "None"
                           ],
-                          5,
+                          9,
                           [
                             "Block",
                             [
@@ -525,7 +615,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_eruption/discarded_dragon_fire_magma_eruption"
                                   ],
-                                  5,
+                                  9,
                                   [
                                     "SameAsCharacter"
                                   ],
@@ -554,7 +644,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_setup/discarded_dragon_fire_magma_setup"
                                   ],
-                                  5,
+                                  9,
                                   [
                                     "BacksideOfCharacter"
                                   ],
@@ -576,8 +666,8 @@
                               ]
                             ]
                           ],
-                          6,
-                          7,
+                          10,
+                          11,
                           [
                             "Block",
                             [
@@ -585,69 +675,105 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  7,
+                                  11,
                                   1,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 1,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "Fire"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  7,
+                                  11,
                                   [
                                     [
                                       "ACToleranceOfElement",
-                                      {
-                                        "max": 1800,
-                                        "min": 900
-                                      },
+                                      [
+                                        {
+                                          "max": 1800,
+                                          "min": 900
+                                        }
+                                      ],
                                       255,
-                                      {
-                                        "max": -0.05,
-                                        "min": -0.05
-                                      },
-                                      8
+                                      [
+                                        {
+                                          "max": -0.05,
+                                          "min": -0.05
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 8,
+                                          "min": 8
+                                        }
+                                      ]
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -685,7 +811,7 @@
                     "Single"
                   ],
                   60,
-                  4,
+                  12,
                   [
                     "Block",
                     [
@@ -694,7 +820,7 @@
                         [
                           "CreateHitArea",
                           "溶岩柱の累積デバフ用",
-                          4,
+                          12,
                           [
                             "AB"
                           ],
@@ -705,7 +831,12 @@
                           false,
                           [
                             "Circle",
-                            100
+                            [
+                              {
+                                "max": 100,
+                                "min": 100
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -732,7 +863,7 @@
                           [
                             "None"
                           ],
-                          5,
+                          13,
                           [
                             "Block",
                             [
@@ -745,7 +876,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_eruption/discarded_dragon_fire_magma_eruption"
                                   ],
-                                  5,
+                                  13,
                                   [
                                     "SameAsCharacter"
                                   ],
@@ -774,7 +905,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_setup/discarded_dragon_fire_magma_setup"
                                   ],
-                                  5,
+                                  13,
                                   [
                                     "BacksideOfCharacter"
                                   ],
@@ -796,8 +927,8 @@
                               ]
                             ]
                           ],
-                          6,
-                          7,
+                          14,
+                          15,
                           [
                             "Block",
                             [
@@ -805,69 +936,105 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  7,
+                                  15,
                                   1,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 1,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "Fire"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  7,
+                                  15,
                                   [
                                     [
                                       "ACToleranceOfElement",
-                                      {
-                                        "max": 1800,
-                                        "min": 900
-                                      },
+                                      [
+                                        {
+                                          "max": 1800,
+                                          "min": 900
+                                        }
+                                      ],
                                       255,
-                                      {
-                                        "max": -0.05,
-                                        "min": -0.05
-                                      },
-                                      8
+                                      [
+                                        {
+                                          "max": -0.05,
+                                          "min": -0.05
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 8,
+                                          "min": 8
+                                        }
+                                      ]
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -905,7 +1072,7 @@
                     "Single"
                   ],
                   60,
-                  4,
+                  16,
                   [
                     "Block",
                     [
@@ -914,7 +1081,7 @@
                         [
                           "CreateHitArea",
                           "溶岩柱の累積デバフ用",
-                          4,
+                          16,
                           [
                             "AB"
                           ],
@@ -925,7 +1092,12 @@
                           false,
                           [
                             "Circle",
-                            100
+                            [
+                              {
+                                "max": 100,
+                                "min": 100
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -952,7 +1124,7 @@
                           [
                             "None"
                           ],
-                          5,
+                          17,
                           [
                             "Block",
                             [
@@ -965,7 +1137,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_eruption/discarded_dragon_fire_magma_eruption"
                                   ],
-                                  5,
+                                  17,
                                   [
                                     "SameAsCharacter"
                                   ],
@@ -994,7 +1166,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_setup/discarded_dragon_fire_magma_setup"
                                   ],
-                                  5,
+                                  17,
                                   [
                                     "BacksideOfCharacter"
                                   ],
@@ -1016,8 +1188,8 @@
                               ]
                             ]
                           ],
-                          6,
-                          7,
+                          18,
+                          19,
                           [
                             "Block",
                             [
@@ -1025,69 +1197,105 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  7,
+                                  19,
                                   1,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 1,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "Fire"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  7,
+                                  19,
                                   [
                                     [
                                       "ACToleranceOfElement",
-                                      {
-                                        "max": 1800,
-                                        "min": 900
-                                      },
+                                      [
+                                        {
+                                          "max": 1800,
+                                          "min": 900
+                                        }
+                                      ],
                                       255,
-                                      {
-                                        "max": -0.05,
-                                        "min": -0.05
-                                      },
-                                      8
+                                      [
+                                        {
+                                          "max": -0.05,
+                                          "min": -0.05
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 8,
+                                          "min": 8
+                                        }
+                                      ]
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -1125,7 +1333,7 @@
                     "Single"
                   ],
                   60,
-                  4,
+                  20,
                   [
                     "Block",
                     [
@@ -1134,7 +1342,7 @@
                         [
                           "CreateHitArea",
                           "溶岩柱の累積デバフ用",
-                          4,
+                          20,
                           [
                             "AB"
                           ],
@@ -1145,7 +1353,12 @@
                           false,
                           [
                             "Circle",
-                            100
+                            [
+                              {
+                                "max": 100,
+                                "min": 100
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -1172,7 +1385,7 @@
                           [
                             "None"
                           ],
-                          5,
+                          21,
                           [
                             "Block",
                             [
@@ -1185,7 +1398,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_eruption/discarded_dragon_fire_magma_eruption"
                                   ],
-                                  5,
+                                  21,
                                   [
                                     "SameAsCharacter"
                                   ],
@@ -1214,7 +1427,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_setup/discarded_dragon_fire_magma_setup"
                                   ],
-                                  5,
+                                  21,
                                   [
                                     "BacksideOfCharacter"
                                   ],
@@ -1236,8 +1449,8 @@
                               ]
                             ]
                           ],
-                          6,
-                          7,
+                          22,
+                          23,
                           [
                             "Block",
                             [
@@ -1245,69 +1458,105 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  7,
+                                  23,
                                   1,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 1,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "Fire"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  7,
+                                  23,
                                   [
                                     [
                                       "ACToleranceOfElement",
-                                      {
-                                        "max": 1800,
-                                        "min": 900
-                                      },
+                                      [
+                                        {
+                                          "max": 1800,
+                                          "min": 900
+                                        }
+                                      ],
                                       255,
-                                      {
-                                        "max": -0.05,
-                                        "min": -0.05
-                                      },
-                                      8
+                                      [
+                                        {
+                                          "max": -0.05,
+                                          "min": -0.05
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 8,
+                                          "min": 8
+                                        }
+                                      ]
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -1345,7 +1594,7 @@
                     "Single"
                   ],
                   60,
-                  4,
+                  24,
                   [
                     "Block",
                     [
@@ -1354,7 +1603,7 @@
                         [
                           "CreateHitArea",
                           "溶岩柱の累積デバフ用",
-                          4,
+                          24,
                           [
                             "AB"
                           ],
@@ -1365,7 +1614,12 @@
                           false,
                           [
                             "Circle",
-                            100
+                            [
+                              {
+                                "max": 100,
+                                "min": 100
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -1392,7 +1646,7 @@
                           [
                             "None"
                           ],
-                          5,
+                          25,
                           [
                             "Block",
                             [
@@ -1405,7 +1659,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_eruption/discarded_dragon_fire_magma_eruption"
                                   ],
-                                  5,
+                                  25,
                                   [
                                     "SameAsCharacter"
                                   ],
@@ -1434,7 +1688,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/enemy_unique/enemy_shot_magma_setup/discarded_dragon_fire_magma_setup"
                                   ],
-                                  5,
+                                  25,
                                   [
                                     "BacksideOfCharacter"
                                   ],
@@ -1456,8 +1710,8 @@
                               ]
                             ]
                           ],
-                          6,
-                          7,
+                          26,
+                          27,
                           [
                             "Block",
                             [
@@ -1465,69 +1719,105 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  7,
+                                  27,
                                   1,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 1,
-                                    "min": 0.5
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "Fire"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  7,
+                                  27,
                                   [
                                     [
                                       "ACToleranceOfElement",
-                                      {
-                                        "max": 1800,
-                                        "min": 900
-                                      },
+                                      [
+                                        {
+                                          "max": 1800,
+                                          "min": 900
+                                        }
+                                      ],
                                       255,
-                                      {
-                                        "max": -0.05,
-                                        "min": -0.05
-                                      },
-                                      8
+                                      [
+                                        {
+                                          "max": -0.05,
+                                          "min": -0.05
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 8,
+                                          "min": 8
+                                        }
+                                      ]
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]

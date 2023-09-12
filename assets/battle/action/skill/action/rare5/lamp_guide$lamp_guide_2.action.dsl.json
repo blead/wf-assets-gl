@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -86,10 +89,12 @@
                 [
                   "CreateBarrier",
                   0,
-                  {
-                    "max": 0.05,
-                    "min": 0.04
-                  },
+                  [
+                    {
+                      "max": 0.05,
+                      "min": 0.04
+                    }
+                  ],
                   [
                     "GenericBarrierHitEffect"
                   ]
@@ -114,17 +119,21 @@
                   "CreateRatioHeal",
                   -33,
                   2,
-                  {
-                    "max": 0.08,
-                    "min": 0.06
-                  },
+                  [
+                    {
+                      "max": 0.08,
+                      "min": 0.06
+                    }
+                  ],
                   [
                     5
                   ],
-                  {
-                    "max": 0.5,
-                    "min": 0.5
-                  },
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
                   [
                     "GenericHealHitEffect"
                   ]
@@ -153,17 +162,21 @@
                           "CreateRatioHeal",
                           1,
                           2,
-                          {
-                            "max": 0.08,
-                            "min": 0.06
-                          },
+                          [
+                            {
+                              "max": 0.08,
+                              "min": 0.06
+                            }
+                          ],
                           [
                             5
                           ],
-                          {
-                            "max": 0.5,
-                            "min": 0.5
-                          },
+                          [
+                            {
+                              "max": 0.5,
+                              "min": 0.5
+                            }
+                          ],
                           [
                             "GenericHealHitEffect"
                           ]
@@ -179,7 +192,11 @@
                             3
                           ],
                           2,
-                          0
+                          0,
+                          "",
+                          [
+                            "Default"
+                          ]
                         ]
                       ]
                     ]

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -88,7 +91,12 @@
           false,
           [
             "Circle",
-            100
+            [
+              {
+                "max": 100,
+                "min": 100
+              }
+            ]
           ],
           [
             "Center"
@@ -109,7 +117,12 @@
           ],
           [
             "Some",
-            12
+            [
+              {
+                "max": 12,
+                "min": 12
+              }
+            ]
           ],
           false,
           true,
@@ -142,30 +155,39 @@
                   null,
                   null,
                   13,
-                  {
-                    "max": 1.3375,
-                    "min": 1.3375
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 1.3375,
+                      "min": 1.3375
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1.625,
-                    "min": 1.625
-                  },
-                  {
-                    "max": 1.875,
-                    "min": 1.875
-                  },
+                  [
+                    {
+                      "max": 1.625,
+                      "min": 1.625
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1.875,
+                      "min": 1.875
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ],
               [
@@ -206,29 +228,56 @@
                   [
                     [
                       "ACAttackPoint",
-                      {
-                        "max": 1680,
-                        "min": 1680
-                      },
-                      {
-                        "max": 0.065,
-                        "min": 0.065
-                      },
-                      20
+                      [
+                        {
+                          "max": 1680,
+                          "min": 1680
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.065,
+                          "min": 0.065
+                        }
+                      ],
+                      [
+                        {
+                          "max": 20,
+                          "min": 20
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   true,
-                  true
+                  true,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
                 ]
               ]
             ]
+          ],
+          0,
+          0,
+          [
+            "None"
           ]
         ]
       ]

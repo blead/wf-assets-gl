@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -20,6 +23,7 @@
             1610511,
             1610512
           ],
+          null,
           1,
           [
             "Block",
@@ -105,7 +109,12 @@
                           false,
                           [
                             "Some",
-                            2.5
+                            [
+                              {
+                                "max": 2.5,
+                                "min": 2.5
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -125,8 +134,18 @@
                           false,
                           [
                             "Rectangle",
-                            300,
-                            2000
+                            [
+                              {
+                                "max": 300,
+                                "min": 300
+                              }
+                            ],
+                            [
+                              {
+                                "max": 2000,
+                                "min": 2000
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -172,33 +191,47 @@
                                   null,
                                   null,
                                   13,
-                                  {
-                                    "max": 1.3916666666666666,
-                                    "min": 1.3916666666666666
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1.3916666666666666,
+                                      "min": 1.3916666666666666
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1.0833333333333333,
-                                    "min": 1.0833333333333333
-                                  },
-                                  {
-                                    "max": 1.25,
-                                    "min": 1.25
-                                  },
+                                  [
+                                    {
+                                      "max": 1.0833333333333333,
+                                      "min": 1.0833333333333333
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1.25,
+                                      "min": 1.25
+                                    }
+                                  ],
                                   [
                                     "Fine"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -239,7 +272,7 @@
                 "Command",
                 [
                   "FindAllSubjects",
-                  0,
+                  3,
                   81,
                   null,
                   null,
@@ -261,7 +294,7 @@
                             "SpecifyEffectDirectly",
                             "battle/effect/skill_unique/dark_psygirl_dst21/dark_psygirl_dst21_charge"
                           ],
-                          0,
+                          3,
                           [
                             "BacksideOfCharacter"
                           ],
@@ -289,7 +322,7 @@
                 "Command",
                 [
                   "FindAllSubjects",
-                  1,
+                  4,
                   33,
                   null,
                   null,
@@ -306,29 +339,51 @@
                         "Command",
                         [
                           "CreateCondition",
-                          1,
+                          4,
                           [
                             [
                               "ACAttackPoint",
-                              {
-                                "max": 9999999,
-                                "min": 9999999
-                              },
-                              {
-                                "max": 0.1,
-                                "min": 0.1
-                              },
-                              3
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 0.1,
+                                  "min": 0.1
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 3,
+                                  "min": 3
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
@@ -422,7 +477,12 @@
                           false,
                           [
                             "Some",
-                            1.5
+                            [
+                              {
+                                "max": 1.5,
+                                "min": 1.5
+                              }
+                            ]
                           ]
                         ]
                       ],
@@ -442,8 +502,18 @@
                           false,
                           [
                             "Rectangle",
-                            150,
-                            2000
+                            [
+                              {
+                                "max": 150,
+                                "min": 150
+                              }
+                            ],
+                            [
+                              {
+                                "max": 2000,
+                                "min": 2000
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -470,13 +540,13 @@
                           [
                             "None"
                           ],
-                          0,
+                          5,
                           [
                             "Block",
                             null
                           ],
-                          1,
-                          2,
+                          6,
+                          7,
                           [
                             "Block",
                             [
@@ -484,38 +554,52 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  2,
+                                  7,
                                   255,
                                   null,
                                   null,
                                   5,
-                                  {
-                                    "max": 0.5583333333333333,
-                                    "min": 0.5583333333333333
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.5583333333333333,
+                                      "min": 0.5583333333333333
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1.0833333333333333,
-                                    "min": 1.0833333333333333
-                                  },
-                                  {
-                                    "max": 1.25,
-                                    "min": 1.25
-                                  },
+                                  [
+                                    {
+                                      "max": 1.0833333333333333,
+                                      "min": 1.0833333333333333
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1.25,
+                                      "min": 1.25
+                                    }
+                                  ],
                                   [
                                     "Fine"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -529,10 +613,12 @@
                   "CreateSummonsMultiball",
                   1,
                   1610511,
-                  {
-                    "max": 9000,
-                    "min": 9000
-                  },
+                  [
+                    {
+                      "max": 9000,
+                      "min": 9000
+                    }
+                  ],
                   [
                     "E2",
                     [
@@ -557,7 +643,12 @@
                     "battle/effect/skill_unique/dark_psygirl_dst21/dark_psygirl_dst21_multiball_disappear"
                   ],
                   0,
-                  false
+                  false,
+                  "*",
+                  8,
+                  9,
+                  null,
+                  null
                 ]
               ]
             ]

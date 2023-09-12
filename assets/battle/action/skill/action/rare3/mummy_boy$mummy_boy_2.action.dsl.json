@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   2,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -90,8 +93,18 @@
                                   false,
                                   [
                                     "Rectangle",
-                                    150,
-                                    500
+                                    [
+                                      {
+                                        "max": 150,
+                                        "min": 150
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "max": 500,
+                                        "min": 500
+                                      }
+                                    ]
                                   ],
                                   [
                                     "Center"
@@ -150,7 +163,12 @@
                                           false,
                                           [
                                             "Some",
-                                            8
+                                            [
+                                              {
+                                                "max": 8,
+                                                "min": 8
+                                              }
+                                            ]
                                           ]
                                         ]
                                       ]
@@ -170,33 +188,47 @@
                                           null,
                                           null,
                                           11,
-                                          {
-                                            "max": 1.6666666666666667,
-                                            "min": 1.4516666666666669
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 1.6666666666666667,
+                                              "min": 1.4516666666666669
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           true,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 2.5,
-                                            "min": 2.5
-                                          },
-                                          {
-                                            "max": 2,
-                                            "min": 2
-                                          },
+                                          [
+                                            {
+                                              "max": 2.5,
+                                              "min": 2.5
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 2,
+                                              "min": 2
+                                            }
+                                          ],
                                           [
                                             "Fine"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ]
@@ -221,8 +253,18 @@
                           false,
                           [
                             "Rectangle",
-                            150,
-                            500
+                            [
+                              {
+                                "max": 150,
+                                "min": 150
+                              }
+                            ],
+                            [
+                              {
+                                "max": 500,
+                                "min": 500
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -243,20 +285,25 @@
                           ],
                           [
                             "Some",
-                            1
+                            [
+                              {
+                                "max": 1,
+                                "min": 1
+                              }
+                            ]
                           ],
                           false,
                           true,
                           [
                             "None"
                           ],
-                          2,
+                          5,
                           [
                             "Block",
                             null
                           ],
-                          3,
-                          4,
+                          6,
+                          7,
                           [
                             "Block",
                             [
@@ -264,33 +311,60 @@
                                 "Command",
                                 [
                                   "CreateCondition",
-                                  4,
+                                  7,
                                   [
                                     [
                                       "ACAttackPoint",
-                                      {
-                                        "max": 1200,
-                                        "min": 1200
-                                      },
-                                      {
-                                        "max": -0.2,
-                                        "min": -0.175
-                                      },
-                                      1
+                                      [
+                                        {
+                                          "max": 1200,
+                                          "min": 1200
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": -0.2,
+                                          "min": -0.175
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 1,
+                                          "min": 1
+                                        }
+                                      ]
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   true,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]

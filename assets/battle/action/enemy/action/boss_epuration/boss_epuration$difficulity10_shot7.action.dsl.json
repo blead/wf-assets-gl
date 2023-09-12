@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   true,
   true,
@@ -47,7 +50,12 @@
                           false,
                           [
                             "Circle",
-                            27
+                            [
+                              {
+                                "max": 27,
+                                "min": 27
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -150,7 +158,12 @@
                                           false,
                                           [
                                             "Circle",
-                                            65
+                                            [
+                                              {
+                                                "max": 65,
+                                                "min": 65
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -242,33 +255,47 @@
                                                   null,
                                                   null,
                                                   0,
-                                                  {
-                                                    "max": 0.5,
-                                                    "min": 0.5
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 0.5,
+                                                      "min": 0.5
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ]
@@ -292,33 +319,47 @@
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 1.35,
-                                    "min": 1.35
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1.35,
+                                      "min": 1.35
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -351,7 +392,12 @@
                           false,
                           [
                             "Circle",
-                            27
+                            [
+                              {
+                                "max": 27,
+                                "min": 27
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -380,7 +426,7 @@
                           [
                             "None"
                           ],
-                          0,
+                          6,
                           [
                             "Block",
                             [
@@ -394,7 +440,7 @@
                                     "battle/effect/enemy_general/enemy_shot_burst_cannon",
                                     255
                                   ],
-                                  0,
+                                  6,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -418,7 +464,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  0,
+                                  6,
                                   [
                                     "CD"
                                   ],
@@ -443,7 +489,7 @@
                                         [
                                           "CreateHitArea",
                                           "ENEMY_SHOT_EXPLOSION_SMALL",
-                                          0,
+                                          6,
                                           [
                                             "AB"
                                           ],
@@ -454,7 +500,12 @@
                                           false,
                                           [
                                             "Circle",
-                                            65
+                                            [
+                                              {
+                                                "max": 65,
+                                                "min": 65
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -481,7 +532,7 @@
                                           [
                                             "None"
                                           ],
-                                          3,
+                                          9,
                                           [
                                             "Block",
                                             [
@@ -495,7 +546,7 @@
                                                     "battle/effect/enemy_general/enemy_shot_explosion_small",
                                                     255
                                                   ],
-                                                  3,
+                                                  9,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -519,7 +570,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  3,
+                                                  9,
                                                   [
                                                     "CD"
                                                   ],
@@ -532,8 +583,8 @@
                                               ]
                                             ]
                                           ],
-                                          4,
-                                          5,
+                                          10,
+                                          11,
                                           [
                                             "Block",
                                             [
@@ -541,38 +592,52 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  5,
+                                                  11,
                                                   255,
                                                   null,
                                                   null,
                                                   0,
-                                                  {
-                                                    "max": 0.5,
-                                                    "min": 0.5
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 0.5,
+                                                      "min": 0.5
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ]
@@ -582,8 +647,8 @@
                               ]
                             ]
                           ],
-                          1,
-                          2,
+                          7,
+                          8,
                           [
                             "Block",
                             [
@@ -591,38 +656,52 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  2,
+                                  8,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 1.35,
-                                    "min": 1.35
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1.35,
+                                      "min": 1.35
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -655,7 +734,12 @@
                           false,
                           [
                             "Circle",
-                            27
+                            [
+                              {
+                                "max": 27,
+                                "min": 27
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -684,7 +768,7 @@
                           [
                             "None"
                           ],
-                          0,
+                          12,
                           [
                             "Block",
                             [
@@ -698,7 +782,7 @@
                                     "battle/effect/enemy_general/enemy_shot_burst_cannon",
                                     255
                                   ],
-                                  0,
+                                  12,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -722,7 +806,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  0,
+                                  12,
                                   [
                                     "CD"
                                   ],
@@ -747,7 +831,7 @@
                                         [
                                           "CreateHitArea",
                                           "ENEMY_SHOT_EXPLOSION_SMALL",
-                                          0,
+                                          12,
                                           [
                                             "AB"
                                           ],
@@ -758,7 +842,12 @@
                                           false,
                                           [
                                             "Circle",
-                                            65
+                                            [
+                                              {
+                                                "max": 65,
+                                                "min": 65
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -785,7 +874,7 @@
                                           [
                                             "None"
                                           ],
-                                          3,
+                                          15,
                                           [
                                             "Block",
                                             [
@@ -799,7 +888,7 @@
                                                     "battle/effect/enemy_general/enemy_shot_explosion_small",
                                                     255
                                                   ],
-                                                  3,
+                                                  15,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -823,7 +912,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  3,
+                                                  15,
                                                   [
                                                     "CD"
                                                   ],
@@ -836,8 +925,8 @@
                                               ]
                                             ]
                                           ],
-                                          4,
-                                          5,
+                                          16,
+                                          17,
                                           [
                                             "Block",
                                             [
@@ -845,38 +934,52 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  5,
+                                                  17,
                                                   255,
                                                   null,
                                                   null,
                                                   0,
-                                                  {
-                                                    "max": 0.5,
-                                                    "min": 0.5
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 0.5,
+                                                      "min": 0.5
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ]
@@ -886,8 +989,8 @@
                               ]
                             ]
                           ],
-                          1,
-                          2,
+                          13,
+                          14,
                           [
                             "Block",
                             [
@@ -895,38 +998,52 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  2,
+                                  14,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 1.35,
-                                    "min": 1.35
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1.35,
+                                      "min": 1.35
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -959,7 +1076,12 @@
                           false,
                           [
                             "Circle",
-                            27
+                            [
+                              {
+                                "max": 27,
+                                "min": 27
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -986,7 +1108,7 @@
                           [
                             "None"
                           ],
-                          0,
+                          18,
                           [
                             "Block",
                             [
@@ -1000,7 +1122,7 @@
                                     "battle/effect/enemy_general/enemy_shot_burst_cannon",
                                     255
                                   ],
-                                  0,
+                                  18,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -1024,7 +1146,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  0,
+                                  18,
                                   [
                                     "CD"
                                   ],
@@ -1049,7 +1171,7 @@
                                         [
                                           "CreateHitArea",
                                           "ENEMY_SHOT_EXPLOSION_SMALL",
-                                          0,
+                                          18,
                                           [
                                             "AB"
                                           ],
@@ -1060,7 +1182,12 @@
                                           false,
                                           [
                                             "Circle",
-                                            65
+                                            [
+                                              {
+                                                "max": 65,
+                                                "min": 65
+                                              }
+                                            ]
                                           ],
                                           [
                                             "Center"
@@ -1087,7 +1214,7 @@
                                           [
                                             "None"
                                           ],
-                                          3,
+                                          21,
                                           [
                                             "Block",
                                             [
@@ -1101,7 +1228,7 @@
                                                     "battle/effect/enemy_general/enemy_shot_explosion_small",
                                                     255
                                                   ],
-                                                  3,
+                                                  21,
                                                   [
                                                     "ForesideOfCharacter"
                                                   ],
@@ -1125,7 +1252,7 @@
                                                 "Command",
                                                 [
                                                   "MoveHitArea",
-                                                  3,
+                                                  21,
                                                   [
                                                     "CD"
                                                   ],
@@ -1138,8 +1265,8 @@
                                               ]
                                             ]
                                           ],
-                                          4,
-                                          5,
+                                          22,
+                                          23,
                                           [
                                             "Block",
                                             [
@@ -1147,38 +1274,52 @@
                                                 "Command",
                                                 [
                                                   "CreateNormalAttack",
-                                                  5,
+                                                  23,
                                                   255,
                                                   null,
                                                   null,
                                                   0,
-                                                  {
-                                                    "max": 0.5,
-                                                    "min": 0.5
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 0.5,
+                                                      "min": 0.5
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          0,
+                                          0,
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ]
@@ -1188,8 +1329,8 @@
                               ]
                             ]
                           ],
-                          1,
-                          2,
+                          19,
+                          20,
                           [
                             "Block",
                             [
@@ -1197,38 +1338,52 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  2,
+                                  20,
                                   255,
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 1.35,
-                                    "min": 1.35
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 1.35,
+                                      "min": 1.35
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]

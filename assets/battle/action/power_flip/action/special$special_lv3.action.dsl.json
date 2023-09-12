@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -46,7 +49,12 @@
           true,
           [
             "Some",
-            1
+            [
+              {
+                "max": 2,
+                "min": 2
+              }
+            ]
           ]
         ]
       ],
@@ -78,8 +86,7 @@
               [
                 "Command",
                 [
-                  "CreateHitArea",
-                  "*",
+                  "CreateReferencePoint",
                   -18,
                   [
                     "AB"
@@ -90,34 +97,9 @@
                   false,
                   false,
                   [
-                    "Circle",
-                    350
-                  ],
-                  [
-                    "Center"
-                  ],
-                  [
-                    "Center"
-                  ],
-                  [
                     "Single"
                   ],
-                  [
-                    "SpecifyHitAreaLifetimeDirectly",
-                    30
-                  ],
-                  [
-                    "CalculatedUsingMaxNumOfHits",
-                    1
-                  ],
-                  [
-                    "None"
-                  ],
-                  false,
-                  true,
-                  [
-                    "None"
-                  ],
+                  30,
                   1,
                   [
                     "Block",
@@ -136,10 +118,11 @@
                             "ForesideOfCharacter"
                           ],
                           [
-                            "UntilTargetTerminates"
+                            "SpecifyEffectLifetimeDirectly",
+                            30
                           ],
                           [
-                            "CD"
+                            "AB"
                           ],
                           0,
                           0,
@@ -148,57 +131,262 @@
                           true,
                           [
                             "Some",
-                            7
-                          ]
-                        ]
-                      ]
-                    ]
-                  ],
-                  2,
-                  3,
-                  [
-                    "Block",
-                    [
-                      [
-                        "Command",
-                        [
-                          "CreateNormalAttack",
-                          3,
-                          255,
-                          null,
-                          null,
-                          0,
-                          {
-                            "max": 13,
-                            "min": 13
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
-                          false,
-                          false,
-                          false,
-                          false,
-                          false,
-                          {
-                            "max": 25,
-                            "min": 25
-                          },
-                          {
-                            "max": 8,
-                            "min": 8
-                          },
-                          [
-                            "Fine"
+                            [
+                              {
+                                "max": 7,
+                                "min": 7
+                              }
+                            ]
                           ]
                         ]
                       ],
                       [
                         "Command",
                         [
-                          "ShakeCamera",
-                          1
+                          "CreateHitArea",
+                          "*",
+                          1,
+                          [
+                            "AB"
+                          ],
+                          0,
+                          0,
+                          0,
+                          false,
+                          false,
+                          [
+                            "Circle",
+                            [
+                              {
+                                "max": 350,
+                                "min": 350
+                              }
+                            ]
+                          ],
+                          [
+                            "Center"
+                          ],
+                          [
+                            "Center"
+                          ],
+                          [
+                            "Single"
+                          ],
+                          [
+                            "SpecifyHitAreaLifetimeDirectly",
+                            22
+                          ],
+                          [
+                            "CalculatedUsingMaxNumOfHits",
+                            3
+                          ],
+                          [
+                            "None"
+                          ],
+                          false,
+                          true,
+                          [
+                            "None"
+                          ],
+                          2,
+                          [
+                            "Block",
+                            null
+                          ],
+                          3,
+                          4,
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateNormalAttack",
+                                  4,
+                                  255,
+                                  null,
+                                  null,
+                                  0,
+                                  [
+                                    {
+                                      "max": 4,
+                                      "min": 4
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  false,
+                                  [
+                                    {
+                                      "max": 6.25,
+                                      "min": 6.25
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 4.4,
+                                      "min": 4.4
+                                    }
+                                  ],
+                                  [
+                                    "Fine"
+                                  ],
+                                  true
+                                ]
+                              ],
+                              [
+                                "Command",
+                                [
+                                  "ShakeCamera",
+                                  1
+                                ]
+                              ]
+                            ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
+                          ]
+                        ]
+                      ],
+                      [
+                        "Event",
+                        [
+                          "Wait",
+                          22,
+                          "*",
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateHitArea",
+                                  "*",
+                                  1,
+                                  [
+                                    "AB"
+                                  ],
+                                  0,
+                                  0,
+                                  0,
+                                  false,
+                                  false,
+                                  [
+                                    "Circle",
+                                    [
+                                      {
+                                        "max": 350,
+                                        "min": 350
+                                      }
+                                    ]
+                                  ],
+                                  [
+                                    "Center"
+                                  ],
+                                  [
+                                    "Center"
+                                  ],
+                                  [
+                                    "Single"
+                                  ],
+                                  [
+                                    "SpecifyHitAreaLifetimeDirectly",
+                                    7
+                                  ],
+                                  [
+                                    "CalculatedUsingMaxNumOfHits",
+                                    1
+                                  ],
+                                  [
+                                    "None"
+                                  ],
+                                  false,
+                                  true,
+                                  [
+                                    "None"
+                                  ],
+                                  5,
+                                  [
+                                    "Block",
+                                    null
+                                  ],
+                                  6,
+                                  7,
+                                  [
+                                    "Block",
+                                    [
+                                      [
+                                        "Command",
+                                        [
+                                          "CreateNormalAttack",
+                                          7,
+                                          255,
+                                          null,
+                                          null,
+                                          0,
+                                          [
+                                            {
+                                              "max": 9,
+                                              "min": 9
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
+                                          false,
+                                          false,
+                                          false,
+                                          false,
+                                          false,
+                                          [
+                                            {
+                                              "max": 6.25,
+                                              "min": 6.25
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 4.4,
+                                              "min": 4.4
+                                            }
+                                          ],
+                                          [
+                                            "Fine"
+                                          ],
+                                          true
+                                        ]
+                                      ],
+                                      [
+                                        "Command",
+                                        [
+                                          "ShakeCamera",
+                                          1
+                                        ]
+                                      ]
+                                    ]
+                                  ],
+                                  0,
+                                  0,
+                                  [
+                                    "None"
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
                         ]
                       ]
                     ]

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   3,
+  [
+    "None"
+  ],
   true,
   false,
   false,
@@ -88,8 +91,18 @@
                   false,
                   [
                     "Rectangle",
-                    300,
-                    120
+                    [
+                      {
+                        "max": 300,
+                        "min": 300
+                      }
+                    ],
+                    [
+                      {
+                        "max": 120,
+                        "min": 120
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -116,7 +129,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  1,
                   [
                     "Block",
                     [
@@ -130,7 +143,7 @@
                             "battle/effect/skill_general/area/claw_horizontal",
                             255
                           ],
-                          0,
+                          1,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -147,14 +160,19 @@
                           true,
                           [
                             "Some",
-                            1.5
+                            [
+                              {
+                                "max": 1.5,
+                                "min": 1.5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
                   2,
+                  3,
                   [
                     "Block",
                     [
@@ -162,35 +180,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          3,
                           255,
                           null,
                           null,
                           1,
-                          {
-                            "max": 0.2,
-                            "min": 0.15
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.15
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
-                          {
-                            "max": 0.6666666666666667,
-                            "min": 0.6666666666666667
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0.6666666666666667,
+                              "min": 0.6666666666666667
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -201,6 +228,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -233,8 +265,18 @@
                   false,
                   [
                     "Rectangle",
-                    120,
-                    300
+                    [
+                      {
+                        "max": 120,
+                        "min": 120
+                      }
+                    ],
+                    [
+                      {
+                        "max": 300,
+                        "min": 300
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -261,7 +303,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  4,
                   [
                     "Block",
                     [
@@ -275,7 +317,7 @@
                             "battle/effect/skill_general/area/claw_vertical",
                             255
                           ],
-                          0,
+                          4,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -292,14 +334,19 @@
                           true,
                           [
                             "Some",
-                            1.5
+                            [
+                              {
+                                "max": 1.5,
+                                "min": 1.5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  5,
+                  6,
                   [
                     "Block",
                     [
@@ -307,35 +354,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          6,
                           255,
                           null,
                           null,
                           1,
-                          {
-                            "max": 0.2,
-                            "min": 0.15
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.15
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
-                          {
-                            "max": 0.6666666666666667,
-                            "min": 0.6666666666666667
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0.6666666666666667,
+                              "min": 0.6666666666666667
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -346,6 +402,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -378,8 +439,18 @@
                   false,
                   [
                     "Rectangle",
-                    300,
-                    120
+                    [
+                      {
+                        "max": 300,
+                        "min": 300
+                      }
+                    ],
+                    [
+                      {
+                        "max": 120,
+                        "min": 120
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -406,7 +477,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  7,
                   [
                     "Block",
                     [
@@ -420,7 +491,7 @@
                             "battle/effect/skill_general/area/claw_horizontal",
                             255
                           ],
-                          0,
+                          7,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -437,14 +508,19 @@
                           true,
                           [
                             "Some",
-                            1.5
+                            [
+                              {
+                                "max": 1.5,
+                                "min": 1.5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  8,
+                  9,
                   [
                     "Block",
                     [
@@ -452,35 +528,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          9,
                           255,
                           null,
                           null,
                           1,
-                          {
-                            "max": 0.2,
-                            "min": 0.15
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.15
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
-                          {
-                            "max": 0.6666666666666667,
-                            "min": 0.6666666666666667
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0.6666666666666667,
+                              "min": 0.6666666666666667
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -491,6 +576,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -523,8 +613,18 @@
                   false,
                   [
                     "Rectangle",
-                    120,
-                    300
+                    [
+                      {
+                        "max": 120,
+                        "min": 120
+                      }
+                    ],
+                    [
+                      {
+                        "max": 300,
+                        "min": 300
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -551,7 +651,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  10,
                   [
                     "Block",
                     [
@@ -565,7 +665,7 @@
                             "battle/effect/skill_general/area/claw_vertical",
                             255
                           ],
-                          0,
+                          10,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -582,14 +682,19 @@
                           true,
                           [
                             "Some",
-                            1.5
+                            [
+                              {
+                                "max": 1.5,
+                                "min": 1.5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  11,
+                  12,
                   [
                     "Block",
                     [
@@ -597,35 +702,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          12,
                           255,
                           null,
                           null,
                           1,
-                          {
-                            "max": 0.2,
-                            "min": 0.15
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.15
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
-                          {
-                            "max": 0.6666666666666667,
-                            "min": 0.6666666666666667
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0.6666666666666667,
+                              "min": 0.6666666666666667
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -636,6 +750,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -668,8 +787,18 @@
                   false,
                   [
                     "Rectangle",
-                    300,
-                    120
+                    [
+                      {
+                        "max": 300,
+                        "min": 300
+                      }
+                    ],
+                    [
+                      {
+                        "max": 120,
+                        "min": 120
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -696,7 +825,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  13,
                   [
                     "Block",
                     [
@@ -710,7 +839,7 @@
                             "battle/effect/skill_general/area/claw_horizontal",
                             255
                           ],
-                          0,
+                          13,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -727,14 +856,19 @@
                           true,
                           [
                             "Some",
-                            1.5
+                            [
+                              {
+                                "max": 1.5,
+                                "min": 1.5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  14,
+                  15,
                   [
                     "Block",
                     [
@@ -742,35 +876,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          15,
                           255,
                           null,
                           null,
                           1,
-                          {
-                            "max": 0.2,
-                            "min": 0.15
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.15
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
-                          {
-                            "max": 0.6666666666666667,
-                            "min": 0.6666666666666667
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0.6666666666666667,
+                              "min": 0.6666666666666667
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -781,6 +924,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -813,8 +961,18 @@
                   false,
                   [
                     "Rectangle",
-                    120,
-                    300
+                    [
+                      {
+                        "max": 120,
+                        "min": 120
+                      }
+                    ],
+                    [
+                      {
+                        "max": 300,
+                        "min": 300
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -841,7 +999,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  16,
                   [
                     "Block",
                     [
@@ -855,7 +1013,7 @@
                             "battle/effect/skill_general/area/claw_vertical",
                             255
                           ],
-                          0,
+                          16,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -872,14 +1030,19 @@
                           true,
                           [
                             "Some",
-                            1.5
+                            [
+                              {
+                                "max": 1.5,
+                                "min": 1.5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  17,
+                  18,
                   [
                     "Block",
                     [
@@ -887,35 +1050,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          18,
                           255,
                           null,
                           null,
                           1,
-                          {
-                            "max": 0.2,
-                            "min": 0.15
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.15
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
-                          {
-                            "max": 0.6666666666666667,
-                            "min": 0.6666666666666667
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0.6666666666666667,
+                              "min": 0.6666666666666667
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -926,6 +1098,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -958,8 +1135,18 @@
                   false,
                   [
                     "Rectangle",
-                    300,
-                    120
+                    [
+                      {
+                        "max": 300,
+                        "min": 300
+                      }
+                    ],
+                    [
+                      {
+                        "max": 120,
+                        "min": 120
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -986,7 +1173,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  19,
                   [
                     "Block",
                     [
@@ -1000,7 +1187,7 @@
                             "battle/effect/skill_general/area/claw_horizontal",
                             255
                           ],
-                          0,
+                          19,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1017,14 +1204,19 @@
                           true,
                           [
                             "Some",
-                            1.5
+                            [
+                              {
+                                "max": 1.5,
+                                "min": 1.5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  20,
+                  21,
                   [
                     "Block",
                     [
@@ -1032,35 +1224,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          21,
                           255,
                           null,
                           null,
                           1,
-                          {
-                            "max": 0.2,
-                            "min": 0.15
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.15
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
-                          {
-                            "max": 0.6666666666666667,
-                            "min": 0.6666666666666667
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0.6666666666666667,
+                              "min": 0.6666666666666667
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -1071,6 +1272,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1103,8 +1309,18 @@
                   false,
                   [
                     "Rectangle",
-                    120,
-                    300
+                    [
+                      {
+                        "max": 120,
+                        "min": 120
+                      }
+                    ],
+                    [
+                      {
+                        "max": 300,
+                        "min": 300
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1131,7 +1347,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  22,
                   [
                     "Block",
                     [
@@ -1145,7 +1361,7 @@
                             "battle/effect/skill_general/area/claw_vertical",
                             255
                           ],
-                          0,
+                          22,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1162,14 +1378,19 @@
                           true,
                           [
                             "Some",
-                            1.5
+                            [
+                              {
+                                "max": 1.5,
+                                "min": 1.5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  23,
+                  24,
                   [
                     "Block",
                     [
@@ -1177,35 +1398,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          24,
                           255,
                           null,
                           null,
                           1,
-                          {
-                            "max": 0.2,
-                            "min": 0.15
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.15
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
-                          {
-                            "max": 0.6666666666666667,
-                            "min": 0.6666666666666667
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0.6666666666666667,
+                              "min": 0.6666666666666667
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -1216,6 +1446,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1248,8 +1483,18 @@
                   false,
                   [
                     "Rectangle",
-                    300,
-                    120
+                    [
+                      {
+                        "max": 300,
+                        "min": 300
+                      }
+                    ],
+                    [
+                      {
+                        "max": 120,
+                        "min": 120
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1276,7 +1521,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  25,
                   [
                     "Block",
                     [
@@ -1290,7 +1535,7 @@
                             "battle/effect/skill_general/area/claw_horizontal",
                             255
                           ],
-                          0,
+                          25,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1307,14 +1552,19 @@
                           true,
                           [
                             "Some",
-                            1.5
+                            [
+                              {
+                                "max": 1.5,
+                                "min": 1.5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  26,
+                  27,
                   [
                     "Block",
                     [
@@ -1322,35 +1572,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          27,
                           255,
                           null,
                           null,
                           1,
-                          {
-                            "max": 0.2,
-                            "min": 0.15
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.15
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
-                          {
-                            "max": 0.6666666666666667,
-                            "min": 0.6666666666666667
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0.6666666666666667,
+                              "min": 0.6666666666666667
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -1361,6 +1620,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]
@@ -1393,8 +1657,18 @@
                   false,
                   [
                     "Rectangle",
-                    120,
-                    300
+                    [
+                      {
+                        "max": 120,
+                        "min": 120
+                      }
+                    ],
+                    [
+                      {
+                        "max": 300,
+                        "min": 300
+                      }
+                    ]
                   ],
                   [
                     "Center"
@@ -1421,7 +1695,7 @@
                   [
                     "None"
                   ],
-                  0,
+                  28,
                   [
                     "Block",
                     [
@@ -1435,7 +1709,7 @@
                             "battle/effect/skill_general/area/claw_vertical",
                             255
                           ],
-                          0,
+                          28,
                           [
                             "ForesideOfCharacter"
                           ],
@@ -1452,14 +1726,19 @@
                           true,
                           [
                             "Some",
-                            1.5
+                            [
+                              {
+                                "max": 1.5,
+                                "min": 1.5
+                              }
+                            ]
                           ]
                         ]
                       ]
                     ]
                   ],
-                  1,
-                  2,
+                  29,
+                  30,
                   [
                     "Block",
                     [
@@ -1467,35 +1746,44 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          2,
+                          30,
                           255,
                           null,
                           null,
                           1,
-                          {
-                            "max": 0.2,
-                            "min": 0.15
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.15
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 0.2,
-                            "min": 0.2
-                          },
-                          {
-                            "max": 0.6666666666666667,
-                            "min": 0.6666666666666667
-                          },
+                          [
+                            {
+                              "max": 0.2,
+                              "min": 0.2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0.6666666666666667,
+                              "min": 0.6666666666666667
+                            }
+                          ],
                           [
                             "Fine"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -1506,6 +1794,11 @@
                         ]
                       ]
                     ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
                   ]
                 ]
               ]

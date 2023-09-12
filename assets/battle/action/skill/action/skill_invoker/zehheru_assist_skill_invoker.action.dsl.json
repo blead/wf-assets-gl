@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -51,7 +54,12 @@
                           true,
                           [
                             "Circle",
-                            10
+                            [
+                              {
+                                "max": 10,
+                                "min": 10
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -108,7 +116,12 @@
                                   true,
                                   [
                                     "Some",
-                                    12
+                                    [
+                                      {
+                                        "max": 12,
+                                        "min": 12
+                                      }
+                                    ]
                                   ]
                                 ]
                               ]
@@ -125,10 +138,12 @@
                                   "CreateRatioAttack",
                                   3,
                                   2,
-                                  {
-                                    "max": 0.05,
-                                    "min": 0.05
-                                  }
+                                  [
+                                    {
+                                      "max": 0.05,
+                                      "min": 0.05
+                                    }
+                                  ]
                                 ]
                               ],
                               [
@@ -139,6 +154,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -169,7 +189,7 @@
                   [
                     "DoNothing"
                   ],
-                  0,
+                  4,
                   [
                     "Block",
                     [
@@ -178,7 +198,7 @@
                         [
                           "CreateHitArea",
                           "*",
-                          0,
+                          4,
                           [
                             "AB"
                           ],
@@ -189,7 +209,12 @@
                           true,
                           [
                             "Circle",
-                            10
+                            [
+                              {
+                                "max": 10,
+                                "min": 10
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -216,7 +241,7 @@
                           [
                             "None"
                           ],
-                          1,
+                          5,
                           [
                             "Block",
                             [
@@ -229,7 +254,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/guildknight_leader/assist_skill"
                                   ],
-                                  1,
+                                  5,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -246,14 +271,19 @@
                                   true,
                                   [
                                     "Some",
-                                    12
+                                    [
+                                      {
+                                        "max": 12,
+                                        "min": 12
+                                      }
+                                    ]
                                   ]
                                 ]
                               ]
                             ]
                           ],
-                          2,
-                          3,
+                          6,
+                          7,
                           [
                             "Block",
                             [
@@ -261,12 +291,14 @@
                                 "Command",
                                 [
                                   "CreateRatioAttack",
-                                  3,
+                                  7,
                                   2,
-                                  {
-                                    "max": 0.05,
-                                    "min": 0.05
-                                  }
+                                  [
+                                    {
+                                      "max": 0.05,
+                                      "min": 0.05
+                                    }
+                                  ]
                                 ]
                               ],
                               [
@@ -277,6 +309,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -307,7 +344,7 @@
                   [
                     "DoNothing"
                   ],
-                  0,
+                  8,
                   [
                     "Block",
                     [
@@ -316,7 +353,7 @@
                         [
                           "CreateHitArea",
                           "*",
-                          0,
+                          8,
                           [
                             "AB"
                           ],
@@ -327,7 +364,12 @@
                           true,
                           [
                             "Circle",
-                            10
+                            [
+                              {
+                                "max": 10,
+                                "min": 10
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -354,7 +396,7 @@
                           [
                             "None"
                           ],
-                          1,
+                          9,
                           [
                             "Block",
                             [
@@ -367,7 +409,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/guildknight_leader/assist_skill"
                                   ],
-                                  1,
+                                  9,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -384,14 +426,19 @@
                                   true,
                                   [
                                     "Some",
-                                    12
+                                    [
+                                      {
+                                        "max": 12,
+                                        "min": 12
+                                      }
+                                    ]
                                   ]
                                 ]
                               ]
                             ]
                           ],
-                          2,
-                          3,
+                          10,
+                          11,
                           [
                             "Block",
                             [
@@ -399,12 +446,14 @@
                                 "Command",
                                 [
                                   "CreateRatioAttack",
-                                  3,
+                                  11,
                                   2,
-                                  {
-                                    "max": 0.05,
-                                    "min": 0.05
-                                  }
+                                  [
+                                    {
+                                      "max": 0.05,
+                                      "min": 0.05
+                                    }
+                                  ]
                                 ]
                               ],
                               [
@@ -415,6 +464,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -445,7 +499,7 @@
                   [
                     "DoNothing"
                   ],
-                  0,
+                  12,
                   [
                     "Block",
                     [
@@ -454,7 +508,7 @@
                         [
                           "CreateHitArea",
                           "*",
-                          0,
+                          12,
                           [
                             "AB"
                           ],
@@ -465,7 +519,12 @@
                           true,
                           [
                             "Circle",
-                            10
+                            [
+                              {
+                                "max": 10,
+                                "min": 10
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -492,7 +551,7 @@
                           [
                             "None"
                           ],
-                          1,
+                          13,
                           [
                             "Block",
                             [
@@ -505,7 +564,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/guildknight_leader/assist_skill"
                                   ],
-                                  1,
+                                  13,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -522,14 +581,19 @@
                                   true,
                                   [
                                     "Some",
-                                    12
+                                    [
+                                      {
+                                        "max": 12,
+                                        "min": 12
+                                      }
+                                    ]
                                   ]
                                 ]
                               ]
                             ]
                           ],
-                          2,
-                          3,
+                          14,
+                          15,
                           [
                             "Block",
                             [
@@ -537,12 +601,14 @@
                                 "Command",
                                 [
                                   "CreateRatioAttack",
-                                  3,
+                                  15,
                                   2,
-                                  {
-                                    "max": 0.05,
-                                    "min": 0.05
-                                  }
+                                  [
+                                    {
+                                      "max": 0.05,
+                                      "min": 0.05
+                                    }
+                                  ]
                                 ]
                               ],
                               [
@@ -553,6 +619,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]
@@ -583,7 +654,7 @@
                   [
                     "DoNothing"
                   ],
-                  0,
+                  16,
                   [
                     "Block",
                     [
@@ -592,7 +663,7 @@
                         [
                           "CreateHitArea",
                           "*",
-                          0,
+                          16,
                           [
                             "AB"
                           ],
@@ -603,7 +674,12 @@
                           true,
                           [
                             "Circle",
-                            10
+                            [
+                              {
+                                "max": 10,
+                                "min": 10
+                              }
+                            ]
                           ],
                           [
                             "Center"
@@ -630,7 +706,7 @@
                           [
                             "None"
                           ],
-                          1,
+                          17,
                           [
                             "Block",
                             [
@@ -643,7 +719,7 @@
                                     "SpecifyEffectDirectly",
                                     "battle/effect/skill_unique/guildknight_leader/assist_skill"
                                   ],
-                                  1,
+                                  17,
                                   [
                                     "ForesideOfCharacter"
                                   ],
@@ -660,14 +736,19 @@
                                   true,
                                   [
                                     "Some",
-                                    12
+                                    [
+                                      {
+                                        "max": 12,
+                                        "min": 12
+                                      }
+                                    ]
                                   ]
                                 ]
                               ]
                             ]
                           ],
-                          2,
-                          3,
+                          18,
+                          19,
                           [
                             "Block",
                             [
@@ -675,12 +756,14 @@
                                 "Command",
                                 [
                                   "CreateRatioAttack",
-                                  3,
+                                  19,
                                   2,
-                                  {
-                                    "max": 0.05,
-                                    "min": 0.05
-                                  }
+                                  [
+                                    {
+                                      "max": 0.05,
+                                      "min": 0.05
+                                    }
+                                  ]
                                 ]
                               ],
                               [
@@ -691,6 +774,11 @@
                                 ]
                               ]
                             ]
+                          ],
+                          0,
+                          0,
+                          [
+                            "None"
                           ]
                         ]
                       ]

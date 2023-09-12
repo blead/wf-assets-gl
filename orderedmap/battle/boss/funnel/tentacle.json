@@ -11,7 +11,10 @@
         "battle/funnel/kraken_funnel/kraken_light_funnel/kraken_light_funnel_left",
         "battle/funnel/kraken_funnel/kraken_dark_funnel/kraken_dark_funnel_left",
         "battle/funnel/kraken_funnel/kraken_funnel_left_marker",
-        "battle/funnel/kraken_funnel/kraken_funnel_shadow"
+        "battle/funnel/kraken_funnel/kraken_funnel_shadow",
+        "false",
+        "false",
+        "false"
       ]
     ]
   },
@@ -27,7 +30,10 @@
         "battle/funnel/kraken_funnel/kraken_light_funnel/kraken_light_funnel_right",
         "battle/funnel/kraken_funnel/kraken_dark_funnel/kraken_dark_funnel_right",
         "battle/funnel/kraken_funnel/kraken_funnel_right_marker",
-        "battle/funnel/kraken_funnel/kraken_funnel_shadow"
+        "battle/funnel/kraken_funnel/kraken_funnel_shadow",
+        "false",
+        "false",
+        "false"
       ]
     ]
   },
@@ -43,7 +49,10 @@
         "battle/funnel/kraken_funnel/kraken_light_funnel/kraken_light_funnel_left",
         "battle/funnel/kraken_funnel/kraken_dark_funnel/kraken_dark_funnel_left",
         "battle/funnel/kraken_funnel/kraken_funnel_left_marker",
-        "battle/funnel/kraken_funnel/kraken_funnel_shadow"
+        "battle/funnel/kraken_funnel/kraken_funnel_shadow",
+        "false",
+        "false",
+        "false"
       ]
     ]
   },
@@ -59,7 +68,82 @@
         "battle/funnel/kraken_funnel/kraken_light_funnel/kraken_light_funnel_right",
         "battle/funnel/kraken_funnel/kraken_dark_funnel/kraken_dark_funnel_right",
         "battle/funnel/kraken_funnel/kraken_funnel_right_marker",
-        "battle/funnel/kraken_funnel/kraken_funnel_shadow"
+        "battle/funnel/kraken_funnel/kraken_funnel_shadow",
+        "false",
+        "false",
+        "false"
+      ]
+    ]
+  },
+  "tentacle_left_rush": {
+    "79": [
+      [
+        "0",
+        "",
+        "battle/funnel/kraken_funnel/kraken_fire_funnel/kraken_fire_funnel_left",
+        "battle/funnel/kraken_funnel/kraken_funnel_left",
+        "battle/funnel/kraken_funnel/kraken_thunder_funnel/kraken_thunder_funnel_left",
+        "battle/funnel/kraken_funnel/kraken_wind_funnel/kraken_wind_funnel_left",
+        "battle/funnel/kraken_funnel/kraken_light_funnel/kraken_light_funnel_left",
+        "battle/funnel/kraken_funnel/kraken_dark_funnel/kraken_dark_funnel_left",
+        "battle/funnel/kraken_funnel/kraken_funnel_left_marker",
+        "battle/funnel/kraken_funnel/kraken_funnel_shadow",
+        "false",
+        "false",
+        "false"
+      ]
+    ],
+    "100": [
+      [
+        "0",
+        "",
+        "battle/funnel/kraken_funnel/kraken_fire_funnel/kraken_fire_funnel_left",
+        "battle/funnel/kraken_funnel/kraken_funnel_left",
+        "battle/funnel/kraken_funnel/kraken_thunder_funnel/kraken_thunder_funnel_left",
+        "battle/funnel/kraken_funnel/kraken_wind_funnel/kraken_wind_funnel_left",
+        "battle/funnel/kraken_funnel/kraken_light_funnel/kraken_light_funnel_left",
+        "battle/funnel/kraken_funnel/kraken_dark_funnel/kraken_dark_funnel_left",
+        "battle/funnel/kraken_funnel/kraken_funnel_left_marker",
+        "battle/funnel/kraken_funnel/kraken_funnel_shadow",
+        "true",
+        "true",
+        "true"
+      ]
+    ]
+  },
+  "tentacle_right_rush": {
+    "79": [
+      [
+        "0",
+        "",
+        "battle/funnel/kraken_funnel/kraken_fire_funnel/kraken_fire_funnel_right",
+        "battle/funnel/kraken_funnel/kraken_funnel_right",
+        "battle/funnel/kraken_funnel/kraken_thunder_funnel/kraken_thunder_funnel_right",
+        "battle/funnel/kraken_funnel/kraken_wind_funnel/kraken_wind_funnel_right",
+        "battle/funnel/kraken_funnel/kraken_light_funnel/kraken_light_funnel_right",
+        "battle/funnel/kraken_funnel/kraken_dark_funnel/kraken_dark_funnel_right",
+        "battle/funnel/kraken_funnel/kraken_funnel_right_marker",
+        "battle/funnel/kraken_funnel/kraken_funnel_shadow",
+        "false",
+        "false",
+        "false"
+      ]
+    ],
+    "100": [
+      [
+        "0",
+        "",
+        "battle/funnel/kraken_funnel/kraken_fire_funnel/kraken_fire_funnel_right",
+        "battle/funnel/kraken_funnel/kraken_funnel_right",
+        "battle/funnel/kraken_funnel/kraken_thunder_funnel/kraken_thunder_funnel_right",
+        "battle/funnel/kraken_funnel/kraken_wind_funnel/kraken_wind_funnel_right",
+        "battle/funnel/kraken_funnel/kraken_light_funnel/kraken_light_funnel_right",
+        "battle/funnel/kraken_funnel/kraken_dark_funnel/kraken_dark_funnel_right",
+        "battle/funnel/kraken_funnel/kraken_funnel_right_marker",
+        "battle/funnel/kraken_funnel/kraken_funnel_shadow",
+        "true",
+        "true",
+        "true"
       ]
     ]
   }

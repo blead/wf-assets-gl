@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -85,25 +88,47 @@
                           [
                             [
                               "ACPowerFlipDamage",
-                              {
-                                "max": 720,
-                                "min": 720
-                              },
-                              {
-                                "max": 0.5,
-                                "min": 0.5
-                              },
-                              1
+                              [
+                                {
+                                  "max": 720,
+                                  "min": 720
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 0.5,
+                                  "min": 0.5
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ],
@@ -115,25 +140,47 @@
                           [
                             [
                               "ACSkillDamage",
-                              {
-                                "max": 720,
-                                "min": 720
-                              },
-                              {
-                                "max": 0.5,
-                                "min": 0.5
-                              },
-                              1
+                              [
+                                {
+                                  "max": 720,
+                                  "min": 720
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 0.5,
+                                  "min": 0.5
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
@@ -149,10 +196,12 @@
         "Command",
         [
           "AddFeverPoint",
-          {
-            "max": 60,
-            "min": 60
-          }
+          [
+            {
+              "max": 60,
+              "min": 60
+            }
+          ]
         ]
       ]
     ]

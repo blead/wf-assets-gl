@@ -1,0 +1,36 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "StandardFunnel",
+            "epuration_boss_highest_funnel_single"
+          ],
+          6,
+          [
+            "FunnelGroup",
+            1
+          ],
+          null
+        ]
+      ]
+    ]
+  ]
+]

@@ -1,6 +1,9 @@
 [
   "ActionDsl",
   1,
+  [
+    "None"
+  ],
   false,
   false,
   false,
@@ -50,30 +53,39 @@
                   null,
                   null,
                   0,
-                  {
-                    "max": 0.65,
-                    "min": 0.65
-                  },
-                  {
-                    "max": 0,
-                    "min": 0
-                  },
+                  [
+                    {
+                      "max": 0.65,
+                      "min": 0.65
+                    }
+                  ],
+                  [
+                    {
+                      "max": 0,
+                      "min": 0
+                    }
+                  ],
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "None"
-                  ]
+                  ],
+                  true
                 ]
               ],
               [
@@ -86,7 +98,11 @@
                     2
                   ],
                   99,
-                  0
+                  0,
+                  "",
+                  [
+                    "Default"
+                  ]
                 ]
               ],
               [
@@ -97,24 +113,42 @@
                   [
                     [
                       "ACHealRejection",
-                      {
-                        "max": 3600,
-                        "min": 3600
-                      }
+                      [
+                        {
+                          "max": 3600,
+                          "min": 3600
+                        }
+                      ]
                     ]
                   ],
-                  {
-                    "max": 1,
-                    "min": 1
-                  },
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   [
                     "GenericConditionHitEffect"
                   ],
                   false,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
                   false
                 ]
               ]
             ]
+          ],
+          [
+            "None"
           ]
         ]
       ],
@@ -165,30 +199,39 @@
                           null,
                           null,
                           0,
-                          {
-                            "max": 0.65,
-                            "min": 0.65
-                          },
-                          {
-                            "max": 0,
-                            "min": 0
-                          },
+                          [
+                            {
+                              "max": 0.65,
+                              "min": 0.65
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
                           false,
                           false,
                           false,
                           false,
                           false,
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "None"
-                          ]
+                          ],
+                          true
                         ]
                       ],
                       [
@@ -201,7 +244,11 @@
                             2
                           ],
                           99,
-                          0
+                          0,
+                          "",
+                          [
+                            "Default"
+                          ]
                         ]
                       ],
                       [
@@ -212,24 +259,42 @@
                           [
                             [
                               "ACHealRejection",
-                              {
-                                "max": 3600,
-                                "min": 3600
-                              }
+                              [
+                                {
+                                  "max": 3600,
+                                  "min": 3600
+                                }
+                              ]
                             ]
                           ],
-                          {
-                            "max": 1,
-                            "min": 1
-                          },
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           [
                             "GenericConditionHitEffect"
                           ],
                           false,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
                           false
                         ]
                       ]
                     ]
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ],
@@ -280,30 +345,39 @@
                                   null,
                                   null,
                                   0,
-                                  {
-                                    "max": 0.65,
-                                    "min": 0.65
-                                  },
-                                  {
-                                    "max": 0,
-                                    "min": 0
-                                  },
+                                  [
+                                    {
+                                      "max": 0.65,
+                                      "min": 0.65
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 0,
+                                      "min": 0
+                                    }
+                                  ],
                                   false,
                                   false,
                                   false,
                                   false,
                                   false,
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "None"
-                                  ]
+                                  ],
+                                  true
                                 ]
                               ],
                               [
@@ -316,7 +390,11 @@
                                     2
                                   ],
                                   99,
-                                  0
+                                  0,
+                                  "",
+                                  [
+                                    "Default"
+                                  ]
                                 ]
                               ],
                               [
@@ -327,24 +405,42 @@
                                   [
                                     [
                                       "ACHealRejection",
-                                      {
-                                        "max": 3600,
-                                        "min": 3600
-                                      }
+                                      [
+                                        {
+                                          "max": 3600,
+                                          "min": 3600
+                                        }
+                                      ]
                                     ]
                                   ],
-                                  {
-                                    "max": 1,
-                                    "min": 1
-                                  },
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   [
                                     "GenericConditionHitEffect"
                                   ],
                                   false,
+                                  false,
+                                  "",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
                                   false
                                 ]
                               ]
                             ]
+                          ],
+                          [
+                            "None"
                           ]
                         ]
                       ],
@@ -395,30 +491,39 @@
                                           null,
                                           null,
                                           0,
-                                          {
-                                            "max": 0.65,
-                                            "min": 0.65
-                                          },
-                                          {
-                                            "max": 0,
-                                            "min": 0
-                                          },
+                                          [
+                                            {
+                                              "max": 0.65,
+                                              "min": 0.65
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 0,
+                                              "min": 0
+                                            }
+                                          ],
                                           false,
                                           false,
                                           false,
                                           false,
                                           false,
-                                          {
-                                            "max": 1,
-                                            "min": 1
-                                          },
-                                          {
-                                            "max": 1,
-                                            "min": 1
-                                          },
+                                          [
+                                            {
+                                              "max": 1,
+                                              "min": 1
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "max": 1,
+                                              "min": 1
+                                            }
+                                          ],
                                           [
                                             "None"
-                                          ]
+                                          ],
+                                          true
                                         ]
                                       ],
                                       [
@@ -431,7 +536,11 @@
                                             2
                                           ],
                                           99,
-                                          0
+                                          0,
+                                          "",
+                                          [
+                                            "Default"
+                                          ]
                                         ]
                                       ],
                                       [
@@ -442,24 +551,42 @@
                                           [
                                             [
                                               "ACHealRejection",
-                                              {
-                                                "max": 3600,
-                                                "min": 3600
-                                              }
+                                              [
+                                                {
+                                                  "max": 3600,
+                                                  "min": 3600
+                                                }
+                                              ]
                                             ]
                                           ],
-                                          {
-                                            "max": 1,
-                                            "min": 1
-                                          },
+                                          [
+                                            {
+                                              "max": 1,
+                                              "min": 1
+                                            }
+                                          ],
                                           [
                                             "GenericConditionHitEffect"
                                           ],
                                           false,
+                                          false,
+                                          "",
+                                          null,
+                                          false,
+                                          3,
+                                          [
+                                            {
+                                              "max": 1,
+                                              "min": 1
+                                            }
+                                          ],
                                           false
                                         ]
                                       ]
                                     ]
+                                  ],
+                                  [
+                                    "None"
                                   ]
                                 ]
                               ],
@@ -510,30 +637,39 @@
                                                   null,
                                                   null,
                                                   0,
-                                                  {
-                                                    "max": 0.65,
-                                                    "min": 0.65
-                                                  },
-                                                  {
-                                                    "max": 0,
-                                                    "min": 0
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 0.65,
+                                                      "min": 0.65
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 0,
+                                                      "min": 0
+                                                    }
+                                                  ],
                                                   false,
                                                   false,
                                                   false,
                                                   false,
                                                   false,
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "None"
-                                                  ]
+                                                  ],
+                                                  true
                                                 ]
                                               ],
                                               [
@@ -546,7 +682,11 @@
                                                     2
                                                   ],
                                                   99,
-                                                  0
+                                                  0,
+                                                  "",
+                                                  [
+                                                    "Default"
+                                                  ]
                                                 ]
                                               ],
                                               [
@@ -557,24 +697,42 @@
                                                   [
                                                     [
                                                       "ACHealRejection",
-                                                      {
-                                                        "max": 3600,
-                                                        "min": 3600
-                                                      }
+                                                      [
+                                                        {
+                                                          "max": 3600,
+                                                          "min": 3600
+                                                        }
+                                                      ]
                                                     ]
                                                   ],
-                                                  {
-                                                    "max": 1,
-                                                    "min": 1
-                                                  },
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   [
                                                     "GenericConditionHitEffect"
                                                   ],
                                                   false,
+                                                  false,
+                                                  "",
+                                                  null,
+                                                  false,
+                                                  3,
+                                                  [
+                                                    {
+                                                      "max": 1,
+                                                      "min": 1
+                                                    }
+                                                  ],
                                                   false
                                                 ]
                                               ]
                                             ]
+                                          ],
+                                          [
+                                            "None"
                                           ]
                                         ]
                                       ],
@@ -625,30 +783,39 @@
                                                           null,
                                                           null,
                                                           0,
-                                                          {
-                                                            "max": 0.65,
-                                                            "min": 0.65
-                                                          },
-                                                          {
-                                                            "max": 0,
-                                                            "min": 0
-                                                          },
+                                                          [
+                                                            {
+                                                              "max": 0.65,
+                                                              "min": 0.65
+                                                            }
+                                                          ],
+                                                          [
+                                                            {
+                                                              "max": 0,
+                                                              "min": 0
+                                                            }
+                                                          ],
                                                           false,
                                                           false,
                                                           false,
                                                           false,
                                                           false,
-                                                          {
-                                                            "max": 1,
-                                                            "min": 1
-                                                          },
-                                                          {
-                                                            "max": 1,
-                                                            "min": 1
-                                                          },
+                                                          [
+                                                            {
+                                                              "max": 1,
+                                                              "min": 1
+                                                            }
+                                                          ],
+                                                          [
+                                                            {
+                                                              "max": 1,
+                                                              "min": 1
+                                                            }
+                                                          ],
                                                           [
                                                             "None"
-                                                          ]
+                                                          ],
+                                                          true
                                                         ]
                                                       ],
                                                       [
@@ -661,7 +828,11 @@
                                                             2
                                                           ],
                                                           99,
-                                                          0
+                                                          0,
+                                                          "",
+                                                          [
+                                                            "Default"
+                                                          ]
                                                         ]
                                                       ],
                                                       [
@@ -672,24 +843,42 @@
                                                           [
                                                             [
                                                               "ACHealRejection",
-                                                              {
-                                                                "max": 3600,
-                                                                "min": 3600
-                                                              }
+                                                              [
+                                                                {
+                                                                  "max": 3600,
+                                                                  "min": 3600
+                                                                }
+                                                              ]
                                                             ]
                                                           ],
-                                                          {
-                                                            "max": 1,
-                                                            "min": 1
-                                                          },
+                                                          [
+                                                            {
+                                                              "max": 1,
+                                                              "min": 1
+                                                            }
+                                                          ],
                                                           [
                                                             "GenericConditionHitEffect"
                                                           ],
                                                           false,
+                                                          false,
+                                                          "",
+                                                          null,
+                                                          false,
+                                                          3,
+                                                          [
+                                                            {
+                                                              "max": 1,
+                                                              "min": 1
+                                                            }
+                                                          ],
                                                           false
                                                         ]
                                                       ]
                                                     ]
+                                                  ],
+                                                  [
+                                                    "None"
                                                   ]
                                                 ]
                                               ],
@@ -740,30 +929,39 @@
                                                                   null,
                                                                   null,
                                                                   0,
-                                                                  {
-                                                                    "max": 0.65,
-                                                                    "min": 0.65
-                                                                  },
-                                                                  {
-                                                                    "max": 0,
-                                                                    "min": 0
-                                                                  },
+                                                                  [
+                                                                    {
+                                                                      "max": 0.65,
+                                                                      "min": 0.65
+                                                                    }
+                                                                  ],
+                                                                  [
+                                                                    {
+                                                                      "max": 0,
+                                                                      "min": 0
+                                                                    }
+                                                                  ],
                                                                   false,
                                                                   false,
                                                                   false,
                                                                   false,
                                                                   false,
-                                                                  {
-                                                                    "max": 1,
-                                                                    "min": 1
-                                                                  },
-                                                                  {
-                                                                    "max": 1,
-                                                                    "min": 1
-                                                                  },
+                                                                  [
+                                                                    {
+                                                                      "max": 1,
+                                                                      "min": 1
+                                                                    }
+                                                                  ],
+                                                                  [
+                                                                    {
+                                                                      "max": 1,
+                                                                      "min": 1
+                                                                    }
+                                                                  ],
                                                                   [
                                                                     "None"
-                                                                  ]
+                                                                  ],
+                                                                  true
                                                                 ]
                                                               ],
                                                               [
@@ -776,7 +974,11 @@
                                                                     2
                                                                   ],
                                                                   99,
-                                                                  0
+                                                                  0,
+                                                                  "",
+                                                                  [
+                                                                    "Default"
+                                                                  ]
                                                                 ]
                                                               ],
                                                               [
@@ -787,24 +989,42 @@
                                                                   [
                                                                     [
                                                                       "ACHealRejection",
-                                                                      {
-                                                                        "max": 3600,
-                                                                        "min": 3600
-                                                                      }
+                                                                      [
+                                                                        {
+                                                                          "max": 3600,
+                                                                          "min": 3600
+                                                                        }
+                                                                      ]
                                                                     ]
                                                                   ],
-                                                                  {
-                                                                    "max": 1,
-                                                                    "min": 1
-                                                                  },
+                                                                  [
+                                                                    {
+                                                                      "max": 1,
+                                                                      "min": 1
+                                                                    }
+                                                                  ],
                                                                   [
                                                                     "GenericConditionHitEffect"
                                                                   ],
                                                                   false,
+                                                                  false,
+                                                                  "",
+                                                                  null,
+                                                                  false,
+                                                                  3,
+                                                                  [
+                                                                    {
+                                                                      "max": 1,
+                                                                      "min": 1
+                                                                    }
+                                                                  ],
                                                                   false
                                                                 ]
                                                               ]
                                                             ]
+                                                          ],
+                                                          [
+                                                            "None"
                                                           ]
                                                         ]
                                                       ],
@@ -855,30 +1075,39 @@
                                                                           null,
                                                                           null,
                                                                           0,
-                                                                          {
-                                                                            "max": 0.65,
-                                                                            "min": 0.65
-                                                                          },
-                                                                          {
-                                                                            "max": 0,
-                                                                            "min": 0
-                                                                          },
+                                                                          [
+                                                                            {
+                                                                              "max": 0.65,
+                                                                              "min": 0.65
+                                                                            }
+                                                                          ],
+                                                                          [
+                                                                            {
+                                                                              "max": 0,
+                                                                              "min": 0
+                                                                            }
+                                                                          ],
                                                                           false,
                                                                           false,
                                                                           false,
                                                                           false,
                                                                           false,
-                                                                          {
-                                                                            "max": 1,
-                                                                            "min": 1
-                                                                          },
-                                                                          {
-                                                                            "max": 1,
-                                                                            "min": 1
-                                                                          },
+                                                                          [
+                                                                            {
+                                                                              "max": 1,
+                                                                              "min": 1
+                                                                            }
+                                                                          ],
+                                                                          [
+                                                                            {
+                                                                              "max": 1,
+                                                                              "min": 1
+                                                                            }
+                                                                          ],
                                                                           [
                                                                             "None"
-                                                                          ]
+                                                                          ],
+                                                                          true
                                                                         ]
                                                                       ],
                                                                       [
@@ -891,7 +1120,11 @@
                                                                             2
                                                                           ],
                                                                           99,
-                                                                          0
+                                                                          0,
+                                                                          "",
+                                                                          [
+                                                                            "Default"
+                                                                          ]
                                                                         ]
                                                                       ],
                                                                       [
@@ -902,24 +1135,42 @@
                                                                           [
                                                                             [
                                                                               "ACHealRejection",
-                                                                              {
-                                                                                "max": 3600,
-                                                                                "min": 3600
-                                                                              }
+                                                                              [
+                                                                                {
+                                                                                  "max": 3600,
+                                                                                  "min": 3600
+                                                                                }
+                                                                              ]
                                                                             ]
                                                                           ],
-                                                                          {
-                                                                            "max": 1,
-                                                                            "min": 1
-                                                                          },
+                                                                          [
+                                                                            {
+                                                                              "max": 1,
+                                                                              "min": 1
+                                                                            }
+                                                                          ],
                                                                           [
                                                                             "GenericConditionHitEffect"
                                                                           ],
                                                                           false,
+                                                                          false,
+                                                                          "",
+                                                                          null,
+                                                                          false,
+                                                                          3,
+                                                                          [
+                                                                            {
+                                                                              "max": 1,
+                                                                              "min": 1
+                                                                            }
+                                                                          ],
                                                                           false
                                                                         ]
                                                                       ]
                                                                     ]
+                                                                  ],
+                                                                  [
+                                                                    "None"
                                                                   ]
                                                                 ]
                                                               ]
