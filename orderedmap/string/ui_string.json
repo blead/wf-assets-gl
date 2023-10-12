@@ -8010,7 +8010,7 @@
   "ability_description_common_content_second_skill_gauge": [
     [
       "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down:: ",
-      "::target:: 의 스킬 게이지 최대치 ::percent_up_down:: ",
+      "::target::의 스킬 게이지 최대치 ::percent_up_down:: ",
       "::percent_up_down:: to Skill Gauge max (::target::)",
       "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down:: ",
       "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down:: ",
@@ -12041,7 +12041,7 @@
     [
       "※上書きしない場合でもアイテムは消費されます",
       "※ 덮어쓰기 하지 않는 경우에도 아이템은 소비됩니다",
-      "*Whether or not the previous EX Boost is overwritten, items used to acquire the new EX Boost have already been used up.",
+      "*Whether or not the previous EX Boost is overwritten, \nitems used to acquire the new EX Boost have already been used up.",
       "※上書きしない場合でもアイテムは消費されます",
       "※上書きしない場合でもアイテムは消費されます",
       "※上書きしない場合でもアイテムは消費されます",
@@ -30865,7 +30865,7 @@
     [
       "<font color='#ea354c'>アプリ終了／画面切替／制限時間超過</font>\n等の操作が行われますと\n成績が記録されない場合があります",
       "<font color='#ea354c'>앱 종료／화면 전환／제한 시간 초과</font>\n등의 조작이 이루어지면\n성적이 기록되지 않을 수 있습니다",
-      "Results may not be calculated correctly if any interruptions occur, such as <font color='#ea354c'>the game being closed, switching to another screen, or going over the time limit.</font>",
+      "Results may not be calculated correctly \nif any interruptions occur, such as \n<font color='#ea354c'>the game being closed, switching \nto another screen, or going over the time limit.</font>",
       "<font color='#ea354c'>アプリ終了／画面切替／制限時間超過</font>\n等の操作が行われますと\n成績が記録されない場合があります",
       "<font color='#ea354c'>アプリ終了／画面切替／制限時間超過</font>\n等の操作が行われますと\n成績が記録されない場合があります",
       "<font color='#ea354c'>アプリ終了／画面切替／制限時間超過</font>\n等の操作が行われますと\n成績が記録されない場合があります",
@@ -31293,7 +31293,7 @@
   "raid_event_ranking_player_rank": [
     [
       "ランク::value::",
-      "랭크 ::valut::",
+      "랭크 ::value::",
       "Rank ::value::",
       "ランク::value::",
       "ランク::value::",
@@ -31541,7 +31541,7 @@
     [
       "BEST RECORD: ::value::戦",
       "BEST RECORD: ::value::전",
-      "Best Record: ::value:: rounds",
+      "BEST RECORD: ::value:: rounds",
       "BEST RECORD: ::value::戦",
       "BEST RECORD: ::value::戦",
       "BEST RECORD: ::value::戦",
@@ -31554,7 +31554,7 @@
     [
       "TIME: ::value::",
       "TIME: ::value::",
-      "Time: ::value::",
+      "TIME: ::value::",
       "TIME: ::value::",
       "TIME: ::value::",
       "TIME: ::value::",
@@ -31605,7 +31605,7 @@
   "rush_event_ranking_party_list_round_number": [
     [
       "::value::戦目で使ったパーティ",
-      "::value::번째 전투에서 사용한 파티",
+      "제 ::value:: 전투에서 사용한 파티",
       "Party used in round ::value::",
       "::value::戦目で使ったパーティ",
       "::value::戦目で使ったパーティ",
@@ -31735,7 +31735,7 @@
   "rush_event_ranking_party_endless_reset_round_number": [
     [
       "- ::number::戦目",
-      "- ::number::번째 전투",
+      "- 제 ::number:: 전투",
       "- Round ::number::",
       "- ::number::戦目",
       "- ::number::戦目",
@@ -31839,7 +31839,7 @@
   "rush_event_quest_result_endless_battle_round": [
     [
       "::round::戦目",
-      "::round::번째 전투",
+      "제 ::round:: 전",
       "Round ::round::",
       "::round::戦目",
       "::round::戦目",
@@ -31852,7 +31852,7 @@
   "rush_event_party_select_endless_battle_round": [
     [
       "::round::戦目",
-      "::round::번째 전투",
+      "제 ::round:: 전",
       "Round ::round::",
       "::round::戦目",
       "::round::戦目",
@@ -31865,7 +31865,7 @@
   "rush_event_auto_start_battle_round": [
     [
       "::round::戦目",
-      "::round::번째 전투",
+      "제 ::round:: 전",
       "Round ::round::",
       "::round::戦目",
       "::round::戦目",
@@ -36519,7 +36519,7 @@
   "party_select_notify_single_auto_play_stop_interruption": [
     [
       "シングルバトルが中断された為、\n連戦機能を停止しました",
-      "싱글 배틀이 중단되아,\n연전 기능을 정지했습니다",
+      "싱글 배틀이 중단되어,\n연전 기능을 정지했습니다",
       "Auto-Battle stopped \ndue to solo battle interruption.",
       "シングルバトルが中断された為、\n連戦機能を停止しました",
       "シングルバトルが中断された為、\n連戦機能を停止しました",
