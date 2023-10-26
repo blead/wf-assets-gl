@@ -15661,7 +15661,7 @@
       "戦陣の宴\nボス討伐数",
       "戦陣の宴\nボス討伐数",
       "戦陣の宴\nボス討伐数",
-      "งานเลี้ยงสนามรบ\nจำนวนบอสที่ปราบได้"
+      "งานเลี้ยงสนามรบ\nบอสที่ปราบได้"
     ]
   ],
   "home_raid_boss_total_unit": [
@@ -25262,7 +25262,7 @@
     [
       "演出",
       "연출",
-      "Animations",
+      "Animation",
       "演出",
       "演出",
       "演出",
@@ -31229,7 +31229,7 @@
     [
       "討伐数",
       "토벌수",
-      "Number defeated",
+      "Defeated",
       "討伐数",
       "討伐数",
       "討伐数",
@@ -31307,7 +31307,7 @@
     [
       "討伐数: ::value::",
       "토벌수 ::value::",
-      "Number Defeated: ::value::",
+      "Defeated: ::value::",
       "討伐数: ::value::",
       "討伐数: ::value::",
       "討伐数: ::value::",
@@ -35570,7 +35570,7 @@
   "help_label_event_material_trader": [
     [
       "マテリアルトレーダー",
-      "마테리얼 트레이더",
+      "매터리얼 트레이더",
       "Material Trader",
       "マテリアルトレーダー",
       "マテリアルトレーダー",
@@ -36396,7 +36396,7 @@
       "今日の残り回数",
       "今日の残り回数",
       "今日の残り回数",
-      "จำนวนครั้งที่เหลือสำหรับวันนี้"
+      "จำนวนครั้งที่เหลือ"
     ]
   ],
   "party_select_remaining_challenge_point_title_not_recovery_point": [
@@ -37593,6 +37593,45 @@
       "・::prize_name::　(::prize_odds::%)<br/>",
       "・::prize_name::　(::prize_odds::%)<br/>",
       "・::prize_name::　(::prize_odds::%)<br/>"
+    ]
+  ],
+  "material_trader_title_how_to_play": [
+    [
+      "マテリアルトレーダー",
+      "매터리얼 트레이더",
+      "Material Trader",
+      "マテリアルトレーダー",
+      "マテリアルトレーダー",
+      "マテリアルトレーダー",
+      "マテリアルトレーダー",
+      "マテリアルトレーダー",
+      "แลกวัตถุดิบ"
+    ]
+  ],
+  "warning_payment_dialog_title": [
+    [
+      "상품 구입 시의 주의 사항",
+      "상품 구입 시의 주의 사항",
+      "Precautions When Purchasing a Product",
+      "Precautions When Purchasing a Product",
+      "Precautions When Purchasing a Product",
+      "Precautions When Purchasing a Product",
+      "Precautions When Purchasing a Product",
+      "Precautions When Purchasing a Product",
+      "ข้อควรระวังเมื่อซื้อสินค้า"
+    ]
+  ],
+  "warning_payment_dialog_message": [
+    [
+      "월드 플리퍼는 현재 서비스 종료 시점을 검토 중에 있습니다.\n결제 상품 구입 전 신중하게 검토하시기를 권장드립니다.",
+      "월드 플리퍼는 현재 서비스 종료 시점을 검토 중에 있습니다.\n결제 상품 구입 전 신중하게 검토하시기를 권장드립니다.",
+      "World Flipper is currently reviewing the End of Service schedule.\nWe recommend to take your time to consider before purchasing a product.",
+      "World Flipper is currently reviewing the End of Service schedule.",
+      "World Flipper is currently reviewing the End of Service schedule.",
+      "World Flipper is currently reviewing the End of Service schedule.",
+      "World Flipper is currently reviewing the End of Service schedule.",
+      "World Flipper is currently reviewing the End of Service schedule.",
+      "ขณะนี้เวิลด์ฟลิปเปอร์กำลังพิจารณากำหนดการสิ้นสุดการให้บริการ\nเราจึงขอแนะนำให้พิจารณาอย่างรอบคอบก่อนที่จะซื้อและชำระสินค้า"
     ]
   ],
   "help_label_event_advent_u_collabo": [
