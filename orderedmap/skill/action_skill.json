@@ -5516,8 +5516,8 @@
   "estateguild_leader": {
     "1": [
       [
-        "亡き戦士達に捧ぐ",
-        "トランクの中から霊魂を召喚し、自身の周囲の敵に闇ダメージ ／ 闇属性キャラと闇属性マルチボールにスキルダメージアップ効果【闇属性キャラの棺桶復帰回数に応じて効果アップ】",
+        "Tribute to the Fallen",
+        "Summons spirits from her suitcase, inflicting Dark damage on foes around her / Increases skill damage for Dark units and Dark multiballs (Effect boosted based on Coffin revive count of Dark units) ",
         "dynamic/skill/atk_surround",
         "true",
         "570",
@@ -5544,8 +5544,8 @@
     ],
     "2": [
       [
-        "亡き戦士達に捧ぐ+",
-        "トランクの中から霊魂を召喚し、自身の周囲の敵に闇ダメージ ／ 闇属性キャラと闇属性マルチボールにスキルダメージアップ効果【闇属性キャラの棺桶復帰回数に応じて効果アップ】",
+        "Tribute to the Fallen+",
+        "Summons spirits from her suitcase, inflicting Dark damage on foes around her / Increases skill damage for Dark units and Dark multiballs (Effect boosted based on Coffin revive count of Dark units) ",
         "dynamic/skill/atk_surround",
         "true",
         "570",
@@ -5574,8 +5574,8 @@
   "anger_investigator": {
     "1": [
       [
-        "ドレッドフル・バースト",
-        "しばらくの間自身の周辺に銃を乱射し、近づいた敵に火ダメージ ＋ 火属性耐性ダウン効果",
+        "Burst of Dread",
+        "Unleashes a barrage around himself for a period of time, inflicting Fire damage and reduced Fire resistance on hit foes",
         "dynamic/skill/atk_surround",
         "true",
         "480",
@@ -5602,8 +5602,8 @@
     ],
     "2": [
       [
-        "ドレッドフル・バースト+",
-        "しばらくの間自身の周辺に銃を乱射し、近づいた敵に火ダメージ ＋ 火属性耐性ダウン効果",
+        "Burst of Dread+",
+        "Unleashes a barrage around himself for a period of time, inflicting Fire damage and reduced Fire resistance on hit foes",
         "dynamic/skill/atk_surround",
         "true",
         "480",
@@ -5632,8 +5632,8 @@
   "scissor_ratgirl": {
     "1": [
       [
-        "コレクト・スケーリング",
-        "最も近い敵に向かって大きなハサミで切り刻み、命中した敵に雷ダメージ ／ パーティキャラとマルチボールに水属性耐性アップ ＋ 攻撃力アップ効果",
+        "Shear Force",
+        "Uses her large pair of scissors to slash at the nearest foe, inflicting Thunder damage on hit foes / Increases Water resistance and attack for all units and multiballs in your party",
         "dynamic/skill/atk_nearest",
         "true",
         "570",
@@ -5660,8 +5660,8 @@
     ],
     "2": [
       [
-        "コレクト・スケーリング+",
-        "最も近い敵に向かって大きなハサミで切り刻み、命中した敵に雷ダメージ ／ パーティキャラとマルチボールに水属性耐性アップ ＋ 攻撃力アップ効果",
+        "Shear Force+",
+        "Uses her large pair of scissors to slash at the nearest foe, inflicting Thunder damage on hit foes / Increases Water resistance and attack for all units and multiballs in your party",
         "dynamic/skill/atk_nearest",
         "true",
         "570",
@@ -5691,7 +5691,7 @@
     "1": [
       [
         "JUSTICE-EXE",
-        "最も近い敵に向かって飛びかかり、ブレードによる連続攻撃で自身の周囲の敵に水ダメージ ／ 自身に攻撃力アップ効果",
+        "Leaps at the nearest foe and swings her blade multiple times, inflicting Water damage on nearby foes / Increases attack for self",
         "dynamic/skill/atk_nearest",
         "true",
         "500",
@@ -5719,7 +5719,7 @@
     "2": [
       [
         "JUSTICE-EXE+",
-        "最も近い敵に向かって飛びかかり、ブレードによる連続攻撃で自身の周囲の敵に水ダメージ ／ 自身に攻撃力アップ効果",
+        "Leaps at the nearest foe and swings her blade multiple times, inflicting Water damage on nearby foes / Increases attack for self",
         "dynamic/skill/atk_nearest",
         "true",
         "500",
@@ -5748,8 +5748,8 @@
   "still_obstinator": {
     "1": [
       [
-        "システム・オートマタ",
-        "呼び寄せた下僕達が自身の前方に一斉にレーザーを放ち、その周囲の敵に光ダメージ",
+        "Automata System",
+        "Summons her servants in front to fire their lasers, inflicting Light damage on nearby foes",
         "dynamic/skill/atk_front",
         "true",
         "650",
@@ -5776,8 +5776,8 @@
     ],
     "2": [
       [
-        "システム・オートマタ+",
-        "呼び寄せた下僕達が自身の前方に一斉にレーザーを放ち、その周囲の敵に光ダメージ",
+        "Automata System+",
+        "Summons her servants in front to fire their lasers, inflicting Light damage on nearby foes",
         "dynamic/skill/atk_front",
         "true",
         "650",
@@ -5806,8 +5806,8 @@
   "pbc_operator": {
     "1": [
       [
-        "ペネトレート・オーバード",
-        "ハッキングにより、光属性キャラと光属性マルチボールに再生 ＋ 攻撃力アップ効果 ／ フィーバーゲージ増加",
+        "Data Exploit",
+        "Hacks into the system, reviving and increasing the attack of Light units and multiballs / Increases Fever Gauge",
         "dynamic/skill/regene",
         "true",
         "550",
@@ -5834,8 +5834,8 @@
     ],
     "2": [
       [
-        "ペネトレート・オーバード+",
-        "ハッキングにより、光属性キャラと光属性マルチボールに再生 ＋ 攻撃力アップ効果 ／ フィーバーゲージ増加",
+        "Data Exploit+",
+        "Hacks into the system, reviving and increasing the attack of Light units and multiballs / Increases Fever Gauge",
         "dynamic/skill/regene",
         "true",
         "550",
