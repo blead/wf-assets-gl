@@ -5168,8 +5168,8 @@
   "spider_ninja": {
     "1": [
       [
-        "天網紫糸・雷",
-        "前方に鉄糸付きクナイを投げ命中した敵に雷ダメージ ／ 紫電が流れ命中した敵に雷ダメージ ＋ 強化効果を1つ消去\n【HP50%以上】さらに自身のHPと引き換えに自身のスキルゲージ増加\n【HP50%未満】さらに命中した敵にマヒ ＋ 雷属性耐性ダウン効果",
+        "Deadly Ensnarement",
+        "Throws out webbed kunai in front, inflicting Thunder damage on hit foes / Releases purple lightning, inflicting Thunder damage on hit foes and removing one buff\nWhen at 50% HP or more: Sacrifice HP to increase Skill Gauge for self\nWhen under 50% HP: Paralyzes and reduces Thunder resistance of hit foes",
         "dynamic/skill/atk_front",
         "true",
         "540",
@@ -5196,8 +5196,8 @@
     ],
     "2": [
       [
-        "天網紫糸・雷+",
-        "前方に鉄糸付きクナイを投げ命中した敵に雷ダメージ ／ 紫電が流れ命中した敵に雷ダメージ ＋ 強化効果を1つ消去\n【HP50%以上】さらに自身のHPと引き換えに自身のスキルゲージ増加\n【HP50%未満】さらに命中した敵にマヒ ＋ 雷属性耐性ダウン効果",
+        "Deadly Ensnarement+",
+        "Throws out webbed kunai in front, inflicting Thunder damage on hit foes / Releases purple lightning, inflicting Thunder damage on hit foes and removing one buff\nWhen at 50% HP or more: Sacrifice HP to increase Skill Gauge for self\nWhen under 50% HP: Paralyzes and reduces Thunder resistance of hit foes",
         "dynamic/skill/atk_front",
         "true",
         "540",
@@ -5226,8 +5226,8 @@
   "waste_armor": {
     "1": [
       [
-        "アパタイト・シヴァルリー",
-        "前方に大剣を振るい、その周囲の敵に風ダメージ ／ 風属性キャラと風属性マルチボールに雷属性耐性アップ効果 ＋ 弱体効果を1つ回復",
+        "Demanding Chivalry",
+        "Swings her mighty sword in front, inflicting Wind damage on nearby foes / Increases Thunder resistance and removes 1 debuff from Wind units and Wind multiballs",
         "dynamic/skill/atk_front",
         "true",
         "550",
@@ -5254,8 +5254,8 @@
     ],
     "2": [
       [
-        "アパタイト・シヴァルリー+",
-        "前方に大剣を振るい、その周囲の敵に風ダメージ ／ 風属性キャラと風属性マルチボールに雷属性耐性アップ効果 ＋ 弱体効果を1つ回復",
+        "Demanding Chivalry+",
+        "Swings her mighty sword in front, inflicting Wind damage on nearby foes / Increases Thunder resistance and removes 1 debuff from Wind units and Wind multiballs",
         "dynamic/skill/atk_front",
         "true",
         "550",
@@ -5284,8 +5284,8 @@
   "innocent_glaiver": {
     "1": [
       [
-        "超・マジカルグレイブスラッ（略",
-        "ジェット噴射で前方に突進し、接触した敵に水ダメージ ／ 自身に攻撃力アップ効果",
+        "Super Magical Slash",
+        "Jets herself forward, inflicting Water damage on hit foes / Increases attack for self",
         "dynamic/skill/atk_front",
         "true",
         "480",
@@ -5312,8 +5312,8 @@
     ],
     "2": [
       [
-        "超・マジカルグレイブスラッ（略+",
-        "ジェット噴射で前方に突進し、接触した敵に水ダメージ ／ 自身に攻撃力アップ効果",
+        "Super Magical Slash+",
+        "Jets herself forward, inflicting Water damage on hit foes / Increases attack for self",
         "dynamic/skill/atk_front",
         "true",
         "480",
@@ -5342,8 +5342,8 @@
   "airship_captain": {
     "1": [
       [
-        "ブレイク・ア・スマッシュ",
-        "最も近い敵に向かって1歩踏み込みながら、アンカーを叩きつけ命中した敵に光ダメージ（直接攻撃ダメージ依存） ／ 自身に再生 ＋ 直接攻撃ダメージアップ効果",
+        "Dropping Anchor",
+        "Rushes the nearest foe and slams them with her weapon, inflicting Light damage on hit foes (Damage based on the direct damage stat) / Gains Recover and increases direct attack",
         "dynamic/skill/atk_nearest",
         "true",
         "570",
@@ -5370,8 +5370,8 @@
     ],
     "2": [
       [
-        "ブレイク・ア・スマッシュ+",
-        "最も近い敵に向かって1歩踏み込みながら、アンカーを叩きつけ命中した敵に光ダメージ（直接攻撃ダメージ依存） ／ 自身に再生 ＋ 直接攻撃ダメージアップ効果",
+        "Dropping Anchor+",
+        "Rushes the nearest foe and slams them with her weapon, inflicting Light damage on hit foes (Damage based on the direct damage stat) / Gains Recover and increases direct attack",
         "dynamic/skill/atk_nearest",
         "true",
         "570",
@@ -5400,8 +5400,8 @@
   "mirror_witch": {
     "1": [
       [
-        "カレイドスコープ・ロマンス",
-        "鏡を使った魔法陣を展開し、パーティとマルチボールに貫通効果 ／ 闇属性キャラと闇属性マルチボールに攻撃力アップ効果 ＋ 弱体効果を1つ回復",
+        "Kaleidoscopic Romance",
+        "Summons a magic circle from her mirrors, granting Pierce to the party and its multiballs / Increases attack of Dark units and Dark multiballs + Removes one debuff",
         "dynamic/skill/penet",
         "true",
         "550",
@@ -5428,8 +5428,8 @@
     ],
     "2": [
       [
-        "カレイドスコープ・ロマンス+",
-        "鏡を使った魔法陣を展開し、パーティとマルチボールに貫通効果 ／ 闇属性キャラと闇属性マルチボールに攻撃力アップ効果 ＋ 弱体効果を1つ回復",
+        "Kaleidoscopic Romance+",
+        "Summons a magic circle from her mirrors, granting Pierce to the party and its multiballs / Increases attack of Dark units and Dark multiballs + Removes one debuff",
         "dynamic/skill/penet",
         "true",
         "550",
@@ -5458,8 +5458,8 @@
   "long_hair_swordsman": {
     "1": [
       [
-        "ラミナ・トニトルス",
-        "自身の前方に雷をまとった剣を突き出し、当たった敵に雷ダメージ",
+        "Galvanic Thrust",
+        "Thrusts an electrically-charged blade in front, inflicting Thunder damage on hit foes",
         "dynamic/skill/atk_front",
         "true",
         "440",
@@ -5486,8 +5486,8 @@
     ],
     "2": [
       [
-        "ラミナ・トニトルス+",
-        "自身の前方に雷をまとった剣を突き出し、当たった敵に雷ダメージ",
+        "Galvanic Thrust+",
+        "Thrusts an electrically-charged blade in front, inflicting Thunder damage on hit foes",
         "dynamic/skill/atk_front",
         "true",
         "440",

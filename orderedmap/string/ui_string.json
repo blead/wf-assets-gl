@@ -3213,7 +3213,7 @@
   "field_cancel_trigger_kind_collision_member_and_enemy": [
     [
       "::trigger_count:: 回、::if !omittable::::triggerPuller::が::end::敵にぶつかる",
-      "::trigger_count:: 회, ::if !omittable::::triggerPuller::이(가) ::end::적에게 부딪친다",
+      "::trigger_count:: 회, ::if !omittable::::triggerPuller::이(가) ::end::적에게 부딪힐",
       "::if !omittable::::triggerPuller::::end:: bumps into foes ::trigger_count:: time(s)",
       "::trigger_count:: 回、::if !omittable::::triggerPuller::が::end::敵にぶつかる",
       "::trigger_count:: 回、::if !omittable::::triggerPuller::が::end::敵にぶつかる",
@@ -4799,7 +4799,7 @@
   "ability_description_instant_trigger_kind_collision_member_and_enemy": [
     [
       "::if !omittable::::triggerPuller::が::end::敵に::if hasCount:: ::count::::else::::end::ぶつか::if once::った::else::る::end::",
-      "::if !omittable::::triggerPuller::이(가) ::end::적에게 ::if hasCount:: ::count::::else::::end::부딪::if once::쳤다::else::친다::end::",
+      "::if !omittable::::triggerPuller::이(가) ::end::적에게 ::if hasCount:: ::count::::else::::end::부딪::if once::쳤을::else::힐::end::",
       "::if !omittable::::triggerPuller:: ::end::bump(s) into a foe::if hasCount:: ::count:: time(s)::::else::::end::",
       "::if !omittable::::triggerPuller::が::end::敵に::if hasCount:: ::count::::else::::end::ぶつか::if once::った::else::る::end::",
       "::if !omittable::::triggerPuller::が::end::敵に::if hasCount:: ::count::::else::::end::ぶつか::if once::った::else::る::end::",
@@ -5449,7 +5449,7 @@
   "ability_description_during_trigger_kind_fever": [
     [
       "フィーバー中::if (isBeforeInstantTrigger)::に::elseif (hasAccumulationTrigger && !isPrecondition)::の::else::、::end::",
-      "피버 중::if (isBeforeInstantTrigger)::에::elseif (hasAccumulationTrigger && !isPrecondition)::인::else::,::end::",
+      "피버 중::if (isBeforeInstantTrigger)::에 ::elseif (hasAccumulationTrigger && !isPrecondition)::인::else::,::end::",
       "while in Fever Mode::if (isBeforeInstantTrigger):: ::elseif (hasAccumulationTrigger && !isPrecondition):: ::else::, ::end::",
       "フィーバー中::if (isBeforeInstantTrigger)::に::elseif (hasAccumulationTrigger && !isPrecondition)::の::else::、::end::",
       "フィーバー中::if (isBeforeInstantTrigger)::に::elseif (hasAccumulationTrigger && !isPrecondition)::の::else::、::end::",
@@ -5462,7 +5462,7 @@
   "ability_description_during_trigger_kind_not_fever": [
     [
       "フィーバー中でない間::if (isBeforeInstantTrigger)::に::else::、::end::",
-      "피버 중이 아닌 동안::if (isBeforeInstantTrigger)::에::else::,::end::",
+      "피버 중이 아닌 동안::if (isBeforeInstantTrigger)::에 ::else::,::end::",
       "while not in Fever Mode::if (isBeforeInstantTrigger):: ::else::, ::end::",
       "フィーバー中でない間::if (isBeforeInstantTrigger)::に::else::、::end::",
       "フィーバー中でない間::if (isBeforeInstantTrigger)::に::else::、::end::",
@@ -5475,7 +5475,7 @@
   "ability_description_during_trigger_kind_multiball": [
     [
       "::if has_constraint::::constraint::の::end::マルチボールが ::count:: 個以上の間::if (isBeforeInstantTrigger)::に::else::、::end::",
-      "::if has_constraint::::constraint::의 ::end::멀티 볼이 ::count:: 개 이상인 동안::if (isBeforeInstantTrigger)::에::else::,::end::",
+      "::if has_constraint::::constraint::의 ::end::멀티 볼이 ::count:: 개 이상인 동안::if (isBeforeInstantTrigger)::에 ::else::,::end::",
       "while there are ::count:: or more ::if has_constraint::::constraint::::end:: multiballs::if (isBeforeInstantTrigger):: ::else::, ::end::",
       "::if has_constraint::::constraint::の::end::マルチボールが ::count:: 個以上の間::if (isBeforeInstantTrigger)::に::else::、::end::",
       "::if has_constraint::::constraint::の::end::マルチボールが ::count:: 個以上の間::if (isBeforeInstantTrigger)::に::else::、::end::",
@@ -36637,7 +36637,7 @@
     [
       "本日の自動連戦回数",
       "오늘의 자동 연전 횟수",
-      "Remaining Auto-Battle runs left for today",
+      "Remaining Auto-Battle today",
       "本日の自動連戦回数",
       "本日の自動連戦回数",
       "本日の自動連戦回数",
@@ -37624,14 +37624,14 @@
   "warning_payment_dialog_message": [
     [
       "월드 플리퍼는 현재 서비스 종료 시점을 검토 중에 있습니다.\n결제 상품 구입 전 신중하게 검토하시기를 권장드립니다.",
-      "월드 플리퍼는 현재 서비스 종료 시점을 검토 중에 있습니다.\n결제 상품 구입 전 신중하게 검토하시기를 권장드립니다.",
-      "World Flipper is currently finalizing its End of Service schedule.\nWe recommend you take this into consideration before making a purchase.",
+      "월드 플리퍼는 2024년 7월 25일(목) \n서비스 종료 예정입니다.\n결제 상품 구입 전 신중하게 검토하시기를 권장드립니다.\n\n결제 상품 구입 중단 예정일 : 2024년 5월 28일(화)",
+      "Purchases will no longer be available after May 28, 2024, as World Flipper is scheduled to end service on July 25, 2024.\nWe recommend you take this into consideration before making a purchase.",
       "World Flipper is currently reviewing the End of Service schedule.",
       "World Flipper is currently reviewing the End of Service schedule.",
       "World Flipper is currently reviewing the End of Service schedule.",
       "World Flipper is currently reviewing the End of Service schedule.",
       "World Flipper is currently reviewing the End of Service schedule.",
-      "ขณะนี้เวิลด์ฟลิปเปอร์กำลังพิจารณากำหนดการสิ้นสุดการให้บริการ\nเราจึงขอแนะนำให้พิจารณาอย่างรอบคอบก่อนที่จะซื้อและชำระสินค้า"
+      "เวิลด์ฟลิปเปอร์มีกำหนดการสิ้นสุดการให้บริการในวันที่ 25 กรกฎาคม 2567\nเราจึงขอแนะนำให้พิจารณาอย่างรอบคอบก่อนซื้อและชำระสินค้า\n\nวันที่ระงับการซื้อสินค้า : 28 พฤษภาคม 2567"
     ]
   ],
   "help_label_event_advent_u_collabo": [
