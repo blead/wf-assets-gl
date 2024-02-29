@@ -3718,8 +3718,8 @@
   "holysword_girl": {
     "1": [
       [
-        "ハルト・シュトラール",
-        "聖剣による攻撃で、自身の前方の敵に光ダメージ ／ 自身に攻撃力アップ ＋ スキルダメージアップ効果",
+        "Hartstrahl",
+        "Attacks with her holy sword, inflicting Light damage on foes in front of her / Increases attack for self + Increases skill damage",
         "dynamic/skill/atk_front",
         "true",
         "550",
@@ -3746,8 +3746,8 @@
     ],
     "2": [
       [
-        "ハルト・シュトラール+",
-        "聖剣による攻撃で、自身の前方の敵に光ダメージ ／ 自身に攻撃力アップ ＋ スキルダメージアップ効果",
+        "Hartstrahl+",
+        "Attacks with her holy sword, inflicting Light damage on foes in front of her / Increases attack for self + Increases skill damage",
         "dynamic/skill/atk_front",
         "true",
         "550",
@@ -3776,8 +3776,8 @@
   "little_vampire": {
     "1": [
       [
-        "ヴァンピール・ミニュイット",
-        "周囲からエナジーを集めて、自身のHPを回復 ／ 雷属性キャラにバリア効果 ／ 雷属性キャラと雷属性マルチボールに攻撃力アップ効果",
+        "Vampiric Recovery",
+        "Gathers energy from her surroundings, restoring own HP / Gives a barrier to Thunder units / Increases attack of Thunder units and multiballs",
         "dynamic/skill/heal",
         "true",
         "550",
@@ -3804,8 +3804,8 @@
     ],
     "2": [
       [
-        "ヴァンピール・ミニュイット+",
-        "周囲からエナジーを集めて、自身のHPを回復 ／ 雷属性キャラにバリア効果 ／ 雷属性キャラと雷属性マルチボールに攻撃力アップ効果",
+        "Vampiric Recovery+",
+        "Gathers energy from her surroundings, restoring own HP / Gives a barrier to Thunder units / Increases attack of Thunder units and multiballs",
         "dynamic/skill/heal",
         "true",
         "550",
@@ -3834,8 +3834,8 @@
   "marching_rival": {
     "1": [
       [
-        "スパークリング・レゾナンス",
-        "楽器を演奏して、最も近い敵に雷ダメージ ／ 雷属性キャラにスキルダメージアップ効果 ／ 平時発動した場合、追加でフィーバーゲージ増加",
+        "Sparkling Resonance",
+        "Puts on a fabulous performance, inflicting Thunder damage to the nearest foes / Increases skill damage for Thunder units / Increases Fever Gauge when activated outside of Fever Mode",
         "dynamic/skill/atk_nearest",
         "true",
         "500",
@@ -3862,8 +3862,8 @@
     ],
     "2": [
       [
-        "スパークリング・レゾナンス+",
-        "楽器を演奏して、最も近い敵に雷ダメージ ／ 雷属性キャラにスキルダメージアップ効果 ／ 平時発動した場合、追加でフィーバーゲージ増加",
+        "Sparkling Resonance+",
+        "Puts on a fabulous performance, inflicting Thunder damage to the nearest foes / Increases skill damage for Thunder units / Increases Fever Gauge when activated outside of Fever Mode",
         "dynamic/skill/atk_nearest",
         "true",
         "500",
@@ -3892,8 +3892,8 @@
   "lion_swordman_playable": {
     "1": [
       [
-        "アンガー・スクリーム",
-        "炎を纏わせた剣を振り下ろし、自身の前方の敵に火ダメージ ／ 火属性キャラと火属性マルチボールに攻撃力アップ効果",
+        "Raging Roar",
+        "Swings a flaming blade downward, inflicting Fire damage to foes in front of him / Increases attack of Fire units and multiballs",
         "dynamic/skill/atk_front",
         "true",
         "550",
@@ -3920,8 +3920,8 @@
     ],
     "2": [
       [
-        "アンガー・スクリーム+",
-        "炎を纏わせた剣を振り下ろし、自身の前方の敵に火ダメージ ／ 火属性キャラと火属性マルチボールに攻撃力アップ効果",
+        "Raging Roar+",
+        "Swings a flaming blade downward, inflicting Fire damage to foes in front of him / Increases attack of Fire units and multiballs",
         "dynamic/skill/atk_front",
         "true",
         "550",
@@ -3950,8 +3950,8 @@
   "psychic_yamikawa": {
     "1": [
       [
-        "メーデイア・エンブレイス",
-        "【操里ユカリコの思念体がいない時】『回復無効効果』を持つ思念体を召喚する ／ フィールド全体の敵の強化効果を1つ消去\n【操里ユカリコの思念体がいる時】思念体が力場を展開し、フィールド全体の敵に闇属性耐性ダウン効果 ＋ 強化効果を1つ消去 ／ さらに思念体が殴りかかり、フィールド全体の敵に闇ダメージ",
+        "Medea's Embrace",
+        "(When Yukariko Kuguri's projection is not on the field) Summons a projection afflicted with Anti-Healing and dispels a buff from all foes on the field / (When Yukariko Kuguri's projection is on the field) Creates a force field with her projection, reducing Dark resistance of all foes on the field and removing a buff / Afterwards, lashes out with her projection, inflicting Dark damage on all foes on the field",
         "dynamic/skill/multi_ball",
         "true",
         "650",
@@ -3978,8 +3978,8 @@
     ],
     "2": [
       [
-        "メーデイア・エンブレイス+",
-        "【操里ユカリコの思念体がいない時】『回復無効効果』を持つ思念体を召喚する ／ フィールド全体の敵の強化効果を1つ消去\n【操里ユカリコの思念体がいる時】思念体が力場を展開し、フィールド全体の敵に闇属性耐性ダウン効果 ＋ 強化効果を1つ消去 ／ さらに思念体が殴りかかり、フィールド全体の敵に闇ダメージ",
+        "Medea's Embrace+",
+        "(When Yukariko Kuguri's projection is not on the field) Summons a projection afflicted with Anti-Healing and dispels a buff from all foes on the field / (When Yukariko Kuguri's projection is on the field) Creates a force field with her projection, reducing Dark resistance of all foes on the field and removing a buff / Afterwards, lashes out with her projection, inflicting Dark damage on all foes on the field",
         "dynamic/skill/multi_ball",
         "true",
         "650",
@@ -4008,8 +4008,8 @@
   "ekaki_girl_playable": {
     "1": [
       [
-        "式描魅変化",
-        "描いた妖怪が体当たりし、フィールド全体の敵に風ダメージ ／ 風属性キャラにスキルダメージアップ効果",
+        "Art Given Life",
+        "Sends her painted yokai out, inflicting Wind damage on all foes on the field / Increases skill damage for Wind units",
         "dynamic/skill/atk_field",
         "true",
         "530",
@@ -4036,8 +4036,8 @@
     ],
     "2": [
       [
-        "式描魅変化+",
-        "描いた妖怪が体当たりし、フィールド全体の敵に風ダメージ ／ 風属性キャラにスキルダメージアップ効果",
+        "Art Given Life+",
+        "Sends her painted yokai out, inflicting Wind damage on all foes on the field / Increases skill damage for Wind units",
         "dynamic/skill/atk_field",
         "true",
         "530",

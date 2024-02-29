@@ -4800,7 +4800,7 @@
     [
       "::if !omittable::::triggerPuller::が::end::敵に::if hasCount:: ::count::::else::::end::ぶつか::if once::った::else::る::end::",
       "::if !omittable::::triggerPuller::이(가) ::end::적에게 ::if hasCount:: ::count::::else::::end::부딪::if once::쳤을::else::힐::end::",
-      "::if !omittable::::triggerPuller:: ::end::bump(s) into a foe::if hasCount:: ::count:: time(s)::::else::::end::",
+      "::if !omittable::::triggerPuller:: ::end::bump(s) into a foe::if hasCount:: ::count:: time(s)::else::::end::",
       "::if !omittable::::triggerPuller::が::end::敵に::if hasCount:: ::count::::else::::end::ぶつか::if once::った::else::る::end::",
       "::if !omittable::::triggerPuller::が::end::敵に::if hasCount:: ::count::::else::::end::ぶつか::if once::った::else::る::end::",
       "::if !omittable::::triggerPuller::が::end::敵に::if hasCount:: ::count::::else::::end::ぶつか::if once::った::else::る::end::",
@@ -5527,7 +5527,7 @@
   "ability_description_during_trigger_kind_condition": [
     [
       "::if !omittable::::triggerPuller::が::end::::condition::中::if (isBeforeInstantTrigger)::に::elseif (hasAccumulationTrigger && !isPrecondition)::の::else::の間、::end::",
-      "::if !omittable::::triggerPuller::이(가) ::end::::condition::중::if (isBeforeInstantTrigger)::에::elseif (hasAccumulationTrigger && !isPrecondition)::인::else:: 동안,::end::",
+      "::if !omittable::::triggerPuller::이(가) ::end::::condition:: 중::if (isBeforeInstantTrigger)::에::elseif (hasAccumulationTrigger && !isPrecondition)::인::else:: 동안,::end::",
       "while ::condition:: is active ::if !omittable:: for ::triggerPuller::::end::::if (isBeforeInstantTrigger):: ::elseif (hasAccumulationTrigger && !isPrecondition):: ::else::, ::end::",
       "::if !omittable::::triggerPuller::が::end::::condition::中::if (isBeforeInstantTrigger)::に::elseif (hasAccumulationTrigger && !isPrecondition)::の::else::の間、::end::",
       "::if !omittable::::triggerPuller::が::end::::condition::中::if (isBeforeInstantTrigger)::に::elseif (hasAccumulationTrigger && !isPrecondition)::の::else::の間、::end::",
@@ -5540,7 +5540,7 @@
   "ability_description_during_trigger_kind_condition_high_count": [
     [
       "::if !omittable::::triggerPuller::に::end::かかっているコンディションによる::condition::::sum::::count::個につき、",
-      "::if !omittable::::triggerPuller::에 ::end::걸려있는 컨디션에 따른::condition::::count::개마다,",
+      "::if !omittable::::triggerPuller::에 ::end::걸려있는 컨디션에 따른 ::condition::::count::개마다,",
       "for each ::count:: ::condition:: ::if !omittable:: ::triggerPuller:: has ::end::, ",
       "::if !omittable::::triggerPuller::に::end::かかっているコンディションによる::condition::::sum::::count::個につき、",
       "::if !omittable::::triggerPuller::に::end::かかっているコンディションによる::condition::::sum::::count::個につき、",
@@ -11286,7 +11286,7 @@
   "equipment_level": [
     [
       "覚醒Lv",
-      "각성 Lv",
+      "각성Lv",
       "Level",
       "覚醒Lv",
       "覚醒Lv",
@@ -11300,13 +11300,13 @@
     [
       "強化Lv",
       "강화Lv",
-      "Augment Level",
+      "Aug. Lv",
       "強化Lv",
       "強化Lv",
       "強化Lv",
       "強化Lv",
       "強化Lv",
-      "Lv เสริมพลัง"
+      "Aug. Lv"
     ]
   ],
   "equipment_hp": [
@@ -13360,7 +13360,7 @@
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
-      "เสริมพลังอุปกรณ์พิเศษ"
+      "อัปอุปกรณ์พิเศษ"
     ]
   ],
   "help_label_equipment_enhancement_anamnesis_weapon": [
@@ -18534,7 +18534,7 @@
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
-      "เสริมพลังอุปกรณ์พิเศษ"
+      "อัปอุปกรณ์พิเศษ"
     ]
   ],
   "mail_detail_receive": [
@@ -18950,7 +18950,7 @@
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
-      "เสริมพลังอุปกรณ์พิเศษ"
+      "อัปอุปกรณ์พิเศษ"
     ]
   ],
   "shop_top_price_count": [
@@ -19054,7 +19054,7 @@
       "マナの所持上限を超えるため購入できません",
       "マナの所持上限を超えるため購入できません",
       "マナの所持上限を超えるため購入できません",
-      "\nไม่สามารถซื้อได้เนื่องจากจะทำให้มีมานาเกินขีดจำกัด"
+      "ไม่สามารถซื้อได้เนื่องจากจะทำให้มีมานาเกินขีดจำกัด"
     ]
   ],
   "shop_list_purchase_number": [
@@ -28174,13 +28174,13 @@
     [
       "強化Lv : ::current:: / ::max::",
       "강화Lv : ::current:: / ::max::",
-      "Augment level: ::current:: / ::max::",
+      "Aug. Lv: ::current:: / ::max::",
       "強化Lv : ::current:: / ::max::",
       "強化Lv : ::current:: / ::max::",
       "強化Lv : ::current:: / ::max::",
       "強化Lv : ::current:: / ::max::",
       "強化Lv : ::current:: / ::max::",
-      "Lvเสริมพลัง: ::current:: / ::max::"
+      "Aug. Lv: ::current:: / ::max::"
     ]
   ],
   "equipment_list_protection_label_on": [
@@ -28915,13 +28915,13 @@
     [
       "強化Lv",
       "강화Lv",
-      "Augment Level",
+      "Aug. Lv",
       "強化Lv",
       "強化Lv",
       "強化Lv",
       "強化Lv",
       "強化Lv",
-      "Lvเสริมพลัง"
+      "Aug. Lv"
     ]
   ],
   "equipment_select_button_ok": [
@@ -29786,13 +29786,13 @@
     [
       "特殊装備強化",
       "특수 장비 강화",
-      "Augment Armament",
+      "Augment \nArmament",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
-      "เสริมพลังอุปกรณ์พิเศษ"
+      "อัปอุปกรณ์พิเศษ"
     ]
   ],
   "equipment_detail_dialog_awaking_level": [
@@ -29825,26 +29825,26 @@
     [
       "強化Lv::level::",
       "강화Lv::level::",
-      "Augment Level ::level::",
+      "Aug. Lv ::level::",
       "強化Lv::level::",
       "強化Lv::level::",
       "強化Lv::level::",
       "強化Lv::level::",
       "強化Lv::level::",
-      "Lvเสริมพลัง ::level::"
+      "Aug. Lv ::level::"
     ]
   ],
   "equipment_detail_dialog_unlearned_prefix_enhancement_level": [
     [
       "強化Lv::level:: : ",
       "강화Lv::level:: : ",
-      "Augment Level ::level:: :",
+      "Aug. Lv ::level:: :",
       "強化Lv::level:: : ",
       "強化Lv::level:: : ",
       "強化Lv::level:: : ",
       "強化Lv::level:: : ",
       "強化Lv::level:: : ",
-      "Lvเสริมพลัง ::level:::"
+      "Aug. Lv ::level:: :"
     ]
   ],
   "equipment_detail_dialog_reason_not_exist_enhancement_product_with_in_period": [
@@ -35518,7 +35518,7 @@
   "help_event_world_story_event_anv2": [
     [
       "歩め、闇の夢人達よ。",
-      "걸어라, 어둠의 꿈꾼이들아",
+      "나아가라, 어둠의 몽상가들이여",
       "Driven by Dreams, Guided by Darkness",
       "歩め、闇の夢人達よ。",
       "歩め、闇の夢人達よ。",
@@ -37267,7 +37267,7 @@
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
-      "เสริมพลังอุปกรณ์พิเศษ"
+      "อัปอุปกรณ์พิเศษ"
     ]
   ],
   "equipment_enhancement_how_to_get_dialog_how_to_get_button": [
@@ -37300,7 +37300,7 @@
     [
       "装備覚醒／一覧",
       "장비 각성／일람",
-      "Awaken Armaments / List",
+      "Awaken Arms / List",
       "装備覚醒／一覧",
       "装備覚醒／一覧",
       "装備覚醒／一覧",
