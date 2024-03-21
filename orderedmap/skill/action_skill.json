@@ -3370,8 +3370,8 @@
   "wind_spgirl_hw22": {
     "1": [
       [
-        "剣風解放",
-        "闇夜を纏い最も近い敵に突進し、しばらくの間ぶつかった敵に闇ダメージ（直接攻撃ダメージ依存） ／ パーティに貫通 ＋ 最大速度固定効果",
+        "Undying Tempest",
+        "Cloaks herself in darkness and rushes the nearest foe, inflicting Dark damage on hit foes for a period of time (Damage based on the direct damage stat) / Grants Pierce and a fixed maximum speed effect to the party",
         "dynamic/skill/atk_hit",
         "true",
         "550",
@@ -3398,8 +3398,8 @@
     ],
     "2": [
       [
-        "剣風解放+",
-        "闇夜を纏い最も近い敵に突進し、しばらくの間ぶつかった敵に闇ダメージ（直接攻撃ダメージ依存） ／ パーティに貫通 ＋ 最大速度固定効果",
+        "Undying Tempest+",
+        "Cloaks herself in darkness and rushes the nearest foe, inflicting Dark damage on hit foes for a period of time (Damage based on the direct damage stat) / Grants Pierce and a fixed maximum speed effect to the party",
         "dynamic/skill/atk_hit",
         "true",
         "550",
@@ -3428,8 +3428,8 @@
   "palpebra_knight_lady_hw22": {
     "1": [
       [
-        "ブラックウエディング・マーチ",
-        "花舞う雷風の剣技で前方を両断し、命中した敵に雷ダメージ ／ 自身に攻撃力アップ効果 ／ 平時発動した場合、追加でフィーバーゲージ増加",
+        "Black Dress March",
+        "Uses stormlike swordplay to slash both sides in front, inflicting Thunder damage on hit foes / Increases attack for self / Increases Fever Gauge when activated outside of Fever Mode",
         "dynamic/skill/atk_front",
         "true",
         "580",
@@ -3456,8 +3456,8 @@
     ],
     "2": [
       [
-        "ブラックウエディング・マーチ+",
-        "花舞う雷風の剣技で前方を両断し、命中した敵に雷ダメージ ／ 自身に攻撃力アップ効果 ／ 平時発動した場合、追加でフィーバーゲージ増加",
+        "Black Dress March+",
+        "Uses stormlike swordplay to slash both sides in front, inflicting Thunder damage on hit foes / Increases attack for self / Increases Fever Gauge when activated outside of Fever Mode",
         "dynamic/skill/atk_front",
         "true",
         "580",
@@ -3486,8 +3486,8 @@
   "psychic_tomboygirl_hw22": {
     "1": [
       [
-        "悪戯の言霊",
-        "悪戯の言霊でフィールド全体の敵に累積闇属性耐性ダウン ＋ 累積攻撃力ダウン効果",
+        "Binding Trick",
+        "Uses a binding trick to inflict a stackable Dark resistance debuff and stackable attack debuff on all foes on the field",
         "dynamic/skill/atk_field",
         "true",
         "510",
@@ -3514,8 +3514,8 @@
     ],
     "2": [
       [
-        "悪戯の言霊+",
-        "悪戯の言霊でフィールド全体の敵に累積闇属性耐性ダウン ＋ 累積攻撃力ダウン効果",
+        "Binding Trick+",
+        "Uses a binding trick to inflict a stackable Dark resistance debuff and stackable attack debuff on all foes on the field",
         "dynamic/skill/atk_field",
         "true",
         "510",
@@ -3544,8 +3544,8 @@
   "golemclub_captain": {
     "1": [
       [
-        "タロスくん９９号",
-        "タロスくん９９号を呼び出す ／ 火属性マルチボールに攻撃力アップ ＋ 直接攻撃ダメージアップ効果",
+        "Tharros-99",
+        "Calls in Tharros-99 / Increases attack and direct attack of Fire multiballs",
         "dynamic/skill/multi_ball",
         "true",
         "500",
@@ -3572,8 +3572,8 @@
     ],
     "2": [
       [
-        "タロスくん９９号+",
-        "タロスくん９９号を呼び出す ／ 火属性マルチボールに攻撃力アップ ＋ 直接攻撃ダメージアップ効果",
+        "Tharros-99+",
+        "Calls in Tharros-99 / Increases attack and direct attack of Fire multiballs",
         "dynamic/skill/multi_ball",
         "true",
         "500",
@@ -3602,8 +3602,8 @@
   "ghost_nymph": {
     "1": [
       [
-        "水月鏡像",
-        "神器の加護により、風属性キャラにスキルダメージアップ効果",
+        "Moonlit Reflection",
+        "Harnesses the protection of the sacred relic, increasing skill damage for Wind units",
         "dynamic/skill/skill_str_up",
         "true",
         "500",
@@ -3630,8 +3630,8 @@
     ],
     "2": [
       [
-        "水月鏡像+",
-        "神器の加護により、風属性キャラにスキルダメージアップ効果",
+        "Moonlit Reflection+",
+        "Harnesses the protection of the sacred relic, increasing skill damage for Wind units",
         "dynamic/skill/skill_str_up",
         "true",
         "500",
@@ -3660,8 +3660,8 @@
   "pirates_of_fear": {
     "1": [
       [
-        "フィアー・オブ・バッカニア",
-        "自身の前方に海賊船の錨を落とし、その周囲の敵に水ダメージ ／ 自身に攻撃力アップ効果",
+        "Blood-Curdling Buccaneer",
+        "Drops a mighty anchor in front, inflicting Water damage to nearby foes / Increases attack for self",
         "dynamic/skill/atk_front",
         "true",
         "550",
@@ -3688,8 +3688,8 @@
     ],
     "2": [
       [
-        "フィアー・オブ・バッカニア+",
-        "自身の前方に海賊船の錨を落とし、その周囲の敵に水ダメージ ／ 自身に攻撃力アップ効果",
+        "Blood-Curdling Buccaneer+",
+        "Drops a mighty anchor in front, inflicting Water damage to nearby foes / Increases attack for self",
         "dynamic/skill/atk_front",
         "true",
         "550",
