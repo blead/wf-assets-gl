@@ -2732,8 +2732,8 @@
   "tiger_treasure_hunter_xm22": {
     "1": [
       [
-        "プレゼント・ハント！",
-        "最も近い敵に向かって突進し、敵に接触した時、もしくは一定時間経過時、進行方向に爪攻撃による火ダメージ ／ プレゼントを配り、パーティにパワーフリップダメージアップ ＋ コンボブースト効果",
+        "Gift Hunt!",
+        "Charges toward the nearest foe and attacks with her claws upon contact or after a set amount of time, inflicting Fire damage on hit foes / Gives out gifts that increase Power Flip damage for your party + Combo Boost",
         "dynamic/skill/atk_nearest",
         "true",
         "450",
@@ -2760,8 +2760,8 @@
     ],
     "2": [
       [
-        "プレゼント・ハント！+",
-        "最も近い敵に向かって突進し、敵に接触した時、もしくは一定時間経過時、進行方向に爪攻撃による火ダメージ ／ プレゼントを配り、パーティにパワーフリップダメージアップ ＋ コンボブースト効果",
+        "Gift Hunt!+",
+        "Charges toward the nearest foe and attacks with her claws upon contact or after a set amount of time, inflicting Fire damage on hit foes / Gives out gifts that increase Power Flip damage for your party + Combo Boost",
         "dynamic/skill/atk_nearest",
         "true",
         "450",
@@ -2790,8 +2790,8 @@
   "compliment_oiran_xm22": {
     "1": [
       [
-        "再此聖夜花轢",
-        "聖夜の舞を披露し、 パーティキャラ・マルチボールと参戦者のパーティキャラのHPを回復【属性「光」に対して効果アップ】 ／ パーティにパワーフリップダメージアップ ＋ 貫通効果 ／ コンボ数増加",
+        "Holiday Encore",
+        "Puts on a holiday performance, restoring the HP of all units and multiballs in your party, and units in other players' parties (Effect boosted for Light units) / Increases Power Flip damage for the party + Grants Pierce / Grants Combo Bonus",
         "dynamic/skill/heal",
         "true",
         "550",
@@ -2818,8 +2818,8 @@
     ],
     "2": [
       [
-        "再此聖夜花轢+",
-        "聖夜の舞を披露し、 パーティキャラ・マルチボールと参戦者のパーティキャラのHPを回復【属性「光」に対して効果アップ】 ／ パーティにパワーフリップダメージアップ ＋ 貫通効果 ／ コンボ数増加",
+        "Holiday Encore+",
+        "Puts on a holiday performance, restoring the HP of all units and multiballs in your party, and units in other players' parties (Effect boosted for Light units) / Increases Power Flip damage for the party + Grants Pierce / Grants Combo Bonus",
         "dynamic/skill/heal",
         "true",
         "550",
@@ -2848,8 +2848,8 @@
   "herbalist_xm22": {
     "1": [
       [
-        "シンナム・アルデヒド",
-        "特製の薬を振りまいて、パーティに貫通 ＋ パワーフリップダメージアップ効果 ／ 闇属性キャラと闇属性マルチボールの弱体効果を1つ回復",
+        "Cinnam Aldehyde",
+        "Disperses a special medicine, granting Pierce to the party + Increases Power Flip damage / Removes 1 debuff from Dark units and Dark multiballs",
         "dynamic/skill/penet",
         "true",
         "580",
@@ -2876,8 +2876,8 @@
     ],
     "2": [
       [
-        "シンナム・アルデヒド+",
-        "特製の薬を振りまいて、パーティに貫通 ＋ パワーフリップダメージアップ効果 ／ 闇属性キャラと闇属性マルチボールの弱体効果を1つ回復",
+        "Cinnam Aldehyde+",
+        "Disperses a special medicine, granting Pierce to the party + Increases Power Flip damage / Removes 1 debuff from Dark units and Dark multiballs",
         "dynamic/skill/penet",
         "true",
         "580",
@@ -2906,8 +2906,8 @@
   "swallow_knight_3anv": {
     "1": [
       [
-        "疑似九剣・ナインブレイド",
-        "前方に向かって突進後、自身の周囲に浮かぶ剣で前方の敵に光ダメージ ／ さらに合体した巨大な剣で一閃し、前方の敵に光ダメージ ＋ 強化効果を1つ消去 ／ 自身に攻撃力アップ効果 ／ パーティに貫通効果",
+        "Pseudo Nouin Blade",
+        "Charges forward, inflicting Light damage on foes in front with floating blades / Combines these blades into a massive sword to slash forward, inflicting Light damage on foes in front and removing 1 buff / Increases attack / Grants Pierce to all allies",
         "dynamic/skill/atk_front",
         "true",
         "600",
@@ -2934,8 +2934,8 @@
     ],
     "2": [
       [
-        "疑似九剣・ナインブレイド+",
-        "前方に向かって突進後、自身の周囲に浮かぶ剣で前方の敵に光ダメージ ／ さらに合体した巨大な剣で一閃し、前方の敵に光ダメージ ＋ 強化効果を1つ消去 ／ 自身に攻撃力アップ効果 ／ パーティに貫通効果",
+        "Pseudo Nouin Blade+",
+        "Charges forward, inflicting Light damage on foes in front with floating blades / Combines these blades into a massive sword to slash forward, inflicting Light damage on foes in front and removing 1 buff / Increases attack / Grants Pierce to all allies",
         "dynamic/skill/atk_front",
         "true",
         "600",
@@ -2964,8 +2964,8 @@
   "veteran_hunter_3anv": {
     "1": [
       [
-        "キリングテリトリー・改",
-        "自身の感覚を鋭く研ぎ澄まし、しばらくの間、近づいた敵に闇ダメージ ／ 自身の前方に手製の爆弾を投げ、その周囲の敵に闇ダメージ ＋ 強化効果を1つ消去 ／ 自身に攻撃力アップ効果 ／ パーティに貫通効果",
+        "Hyper Killing Territory",
+        "Sharpens senses, inflicting Dark damage on nearby foes for a period of time / Tosses explosives forward, inflicting Dark damage and removing 1 buff from nearby foes / Increases attack / Grants Pierce to the party",
         "dynamic/skill/atk_surround",
         "true",
         "600",
@@ -2992,8 +2992,8 @@
     ],
     "2": [
       [
-        "キリングテリトリー・改+",
-        "自身の感覚を鋭く研ぎ澄まし、しばらくの間、近づいた敵に闇ダメージ ／ 自身の前方に手製の爆弾を投げ、その周囲の敵に闇ダメージ ＋ 強化効果を1つ消去 ／ 自身に攻撃力アップ効果 ／ パーティに貫通効果",
+        "Hyper Killing Territory+",
+        "Sharpens senses, inflicting Dark damage on nearby foes for a period of time / Tosses explosives forward, inflicting Dark damage and removing 1 buff from nearby foes / Increases attack / Grants Pierce to the party",
         "dynamic/skill/atk_surround",
         "true",
         "600",
@@ -3022,8 +3022,8 @@
   "wind_spbro_3anv": {
     "1": [
       [
-        "ヴィス・リベロ",
-        "軍勢を鼓舞しながら先陣を切り拓き、自身の前方に水ダメージ ／ 水属性キャラに攻撃力アップ効果",
+        "Vis Libero",
+        "Inspires allies by taking the lead, inflicting Water damage in front of him / Increases attack of Water units",
         "dynamic/skill/atk_front",
         "true",
         "600",
@@ -3050,8 +3050,8 @@
     ],
     "2": [
       [
-        "ヴィス・リベロ+",
-        "軍勢を鼓舞しながら先陣を切り拓き、自身の前方に水ダメージ ／ 水属性キャラに攻撃力アップ効果",
+        "Vis Libero+",
+        "Inspires allies by taking the lead, inflicting Water damage in front of him / Increases attack of Water units",
         "dynamic/skill/atk_front",
         "true",
         "600",
@@ -3080,8 +3080,8 @@
   "rector_sorcerer_playable": {
     "1": [
       [
-        "コード・ウォルンタス",
-        "魔法陣から巨大な光の槍を生み出し、前方の敵に闇ダメージ ／ 発動時に闇属性キャラのHPが50%以上の時、そのキャラにダメージ",
+        "Code Voluntas",
+        "Creates spears of light from magic circles, inflicting Dark damage on foes in front / If a Dark unit's HP is above 50% when activated, that unit receives damage",
         "dynamic/skill/atk_front",
         "true",
         "570",
@@ -3108,8 +3108,8 @@
     ],
     "2": [
       [
-        "コード・ウォルンタス+",
-        "魔法陣から巨大な光の槍を生み出し、前方の敵に闇ダメージ ／ 発動時に闇属性キャラのHPが50%以上の時、そのキャラにダメージ",
+        "Code Voluntas+",
+        "Creates spears of light from magic circles, inflicting Dark damage on foes in front / If a Dark unit's HP is above 50% when activated, that unit receives damage",
         "dynamic/skill/atk_front",
         "true",
         "570",
@@ -3138,8 +3138,8 @@
   "reformist_prince": {
     "1": [
       [
-        "王殻剣・ライトエッジ",
-        "王殻を展開しながら前方を斬り、命中した敵に光ダメージ ／ パーティキャラとマルチボールのHPを回復【属性「光」に対して効果アップ】／ パーティにパワーフリップダメージアップ効果",
+        "Lord's Aegis Blade: Light's Edge",
+        "Deploys a Lord's Aegis and slashes forward, inflicting Light damage on hit foes. / Restores the HP of all units and multiballs in your party (Effect boosted for Light units) / Increases Power Flip damage of the units in your party",
         "dynamic/skill/atk_front",
         "true",
         "600",
@@ -3166,8 +3166,8 @@
     ],
     "2": [
       [
-        "王殻剣・ライトエッジ+",
-        "王殻を展開しながら前方を斬り、命中した敵に光ダメージ ／ パーティキャラとマルチボールのHPを回復【属性「光」に対して効果アップ】／ パーティにパワーフリップダメージアップ効果",
+        "Lord's Aegis Blade: Light's Edge+",
+        "Deploys a Lord's Aegis and slashes forward, inflicting Light damage on hit foes. / Restores the HP of all units and multiballs in your party (Effect boosted for Light units) / Increases Power Flip damage of the units in your party",
         "dynamic/skill/atk_front",
         "true",
         "600",

@@ -3097,7 +3097,7 @@
     [
       "::trigger_count:: 回、::if !omittable::::triggerPuller::の::end::スキルがヒット",
       "::trigger_count:: 회, ::if !omittable::::triggerPuller::의 ::end::스킬이 명중",
-      "::if !omittable:: ::triggerPuller:::end:: land(s) ::trigger_count:: skill(s)",
+      "::if !omittable:: ::triggerPuller::::end:: land(s) ::trigger_count:: skill(s)",
       "::trigger_count:: 回、::if !omittable::::triggerPuller::の::end::スキルがヒット",
       "::trigger_count:: 回、::if !omittable::::triggerPuller::の::end::スキルがヒット",
       "::trigger_count:: 回、::if !omittable::::triggerPuller::の::end::スキルがヒット",
@@ -14264,7 +14264,7 @@
     [
       "相互フォローに公開",
       "상호 팔로우에 공개",
-      "Open to Mutual Follows",
+      "Open to \nMutual Follows",
       "相互フォローに公開",
       "相互フォローに公開",
       "相互フォローに公開",
@@ -30293,13 +30293,13 @@
     [
       "協力バトルをホストでクリア",
       "협력 배틀을 호스트로 클리어",
-      "Clear a multiplayer battle as a host.",
+      "Win a multiplayer battle as a host.",
       "協力バトルをホストでクリア",
       "協力バトルをホストでクリア",
       "協力バトルをホストでクリア",
       "協力バトルをホストでクリア",
       "協力バトルをホストでクリア",
-      "เคลียร์โหมดแบทเทิลหลายคนโดยเป็นโฮสต์"
+      "เคลียร์โหมดแบทเทิลหลายคนแบบโฮสต์"
     ]
   ],
   "quest_start_out_of_period_error": [
@@ -37644,7 +37644,7 @@
       "降臨討伐 揺らぐ彼方のニューゲート",
       "降臨討伐 揺らぐ彼方のニューゲート",
       "降臨討伐 揺らぐ彼方のニューゲート",
-      "นิวเกต ณ อีกฟากของมิติผันแปร"
+      "ประตูใหม่อีกฟากการสั่นไหว"
     ]
   ]
 }
