@@ -3240,7 +3240,7 @@
     [
       "::trigger_count:: 回、::if !omittable::::triggerPuller::の::end::スキルがヒット",
       "::trigger_count:: 회, ::if !omittable::::triggerPuller::의 ::end::스킬이 명중",
-      "::if !omittable:: ::triggerPuller:::end:: land(s) ::trigger_count:: skill(s)",
+      "::if !omittable:: ::triggerPuller::::end:: land(s) ::trigger_count:: skill(s)",
       "::trigger_count:: 回、::if !omittable::::triggerPuller::の::end::スキルがヒット",
       "::trigger_count:: 回、::if !omittable::::triggerPuller::の::end::スキルがヒット",
       "::trigger_count:: 回、::if !omittable::::triggerPuller::の::end::スキルがヒット",
@@ -8427,7 +8427,7 @@
     [
       "HP ::percent2:: 以上の ::if !withoutTarget::::target::に::end::最大HPの ::percent1:: のダメージ",
       "HP ::percent2:: 이상의 ::if !withoutTarget::::target::에 ::end::최대HP의 ::percent1:: 의 대미지",
-      "Up to ::percent2:: HP of ::if !withoutTarget::, ::target:: :end:: Damage to ::percent1:: of Max HP",
+      "Up to ::percent2:: HP of ::if !withoutTarget::, ::target:: ::end:: Damage to ::percent1:: of Max HP",
       " ",
       " ",
       " ",
@@ -11130,8 +11130,8 @@
   "element_kind_red": [
     [
       "火",
-      "불",
-      "Fire",
+      "불 ",
+      "Fire ",
       "火",
       "火",
       "火",
@@ -11143,8 +11143,8 @@
   "element_kind_blue": [
     [
       "水",
-      "물",
-      "Water",
+      "물 ",
+      "Water ",
       "水",
       "水",
       "水",
@@ -11156,8 +11156,8 @@
   "element_kind_yellow": [
     [
       "雷",
-      "번개",
-      "Thunder",
+      "번개 ",
+      "Thunder ",
       "雷",
       "雷",
       "雷",
@@ -11169,8 +11169,8 @@
   "element_kind_green": [
     [
       "風",
-      "바람",
-      "Wind",
+      "바람 ",
+      "Wind ",
       "風",
       "風",
       "風",
@@ -11182,8 +11182,8 @@
   "element_kind_white": [
     [
       "光",
-      "빛",
-      "Light",
+      "빛 ",
+      "Light ",
       "光",
       "光",
       "光",
@@ -11195,8 +11195,8 @@
   "element_kind_black": [
     [
       "闇",
-      "어둠",
-      "Dark",
+      "어둠 ",
+      "Dark ",
       "闇",
       "闇",
       "闇",
@@ -11247,8 +11247,8 @@
   "element_kind_red_full": [
     [
       "火属性",
-      "화속성",
-      "Fire",
+      "화속성 ",
+      "Fire ",
       "火属性",
       "火属性",
       "火属性",
@@ -11260,8 +11260,8 @@
   "element_kind_blue_full": [
     [
       "水属性",
-      "수속성",
-      "Water",
+      "수속성 ",
+      "Water ",
       "水属性",
       "水属性",
       "水属性",
@@ -11273,8 +11273,8 @@
   "element_kind_yellow_full": [
     [
       "雷属性",
-      "뇌속성",
-      "Thunder",
+      "뇌속성 ",
+      "Thunder ",
       "雷属性",
       "雷属性",
       "雷属性",
@@ -11286,8 +11286,8 @@
   "element_kind_green_full": [
     [
       "風属性",
-      "풍속성",
-      "Wind",
+      "풍속성 ",
+      "Wind ",
       "風属性",
       "風属性",
       "風属性",
@@ -11299,8 +11299,8 @@
   "element_kind_white_full": [
     [
       "光属性",
-      "광속성",
-      "Light",
+      "광속성 ",
+      "Light ",
       "光属性",
       "光属性",
       "光属性",
@@ -11312,8 +11312,8 @@
   "element_kind_black_full": [
     [
       "闇属性",
-      "암속성",
-      "Dark",
+      "암속성 ",
+      "Dark ",
       "闇属性",
       "闇属性",
       "闇属性",
@@ -11325,7 +11325,7 @@
   "element_kind_all_full": [
     [
       "全属性",
-      "전속성",
+      "전속성 ",
       "All Elemental",
       "全属性",
       "全属性",
@@ -11338,7 +11338,7 @@
   "element_kind_any_full": [
     [
       "無属性",
-      "무속성",
+      "무속성 ",
       "No Elemental",
       "無属性",
       "無属性",
@@ -11351,7 +11351,7 @@
   "element_kind_colorless_full": [
     [
       "無属性",
-      "무속성",
+      "무속성 ",
       "None",
       "無属性",
       "無属性",
