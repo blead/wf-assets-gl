@@ -2403,13 +2403,13 @@
     [
       "common_attack_up",
       "condition_effect_attack_power_down",
-      "(None)",
+      "condition_attack_up",
       "(None)",
       "(None)",
       "(None)",
       "common_attack_up",
       "condition_effect_attack_power_down",
-      "(None)",
+      "condition_attack_up",
       "(None)",
       "(None)",
       "(None)"
@@ -2963,13 +2963,13 @@
     [
       "common_attack_up",
       "condition_slow",
-      "(None)",
+      "powerflip_damage_up",
       "(None)",
       "(None)",
       "(None)",
       "common_attack_up",
       "condition_slow",
-      "(None)",
+      "powerflip_damage_up",
       "(None)",
       "(None)",
       "(None)"
@@ -3170,13 +3170,13 @@
   "141057": [
     [
       "common_attack_up",
-      "(None)",
+      "powerflip_damage_up",
       "(None)",
       "(None)",
       "(None)",
       "(None)",
       "common_attack_up",
-      "(None)",
+      "powerflip_damage_up",
       "(None)",
       "(None)",
       "(None)",
@@ -5647,33 +5647,17 @@
       "(None)"
     ]
   ],
-  "151004": [
-    [
-      "heal_up",
-      "condition_fever_point_up",
-      "(None)",
-      "(None)",
-      "(None)",
-      "(None)",
-      "heal_up",
-      "condition_fever_point_up",
-      "(None)",
-      "(None)",
-      "(None)",
-      "(None)"
-    ]
-  ],
   "111004": [
     [
       "common_attack_up",
       "condition_effect_red_up",
-      "(None)",
+      "skill_damage_up",
       "(None)",
       "(None)",
       "(None)",
       "common_attack_up",
       "condition_effect_red_up",
-      "(None)",
+      "skill_damage_up",
       "(None)",
       "(None)",
       "(None)"
@@ -5728,22 +5712,6 @@
     ]
   ],
   "141001": [
-    [
-      "common_attack_up",
-      "(None)",
-      "(None)",
-      "(None)",
-      "(None)",
-      "(None)",
-      "common_attack_up",
-      "(None)",
-      "(None)",
-      "(None)",
-      "(None)",
-      "(None)"
-    ]
-  ],
-  "151003": [
     [
       "common_attack_up",
       "(None)",

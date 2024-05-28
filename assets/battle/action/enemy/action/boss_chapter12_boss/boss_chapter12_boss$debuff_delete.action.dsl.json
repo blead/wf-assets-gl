@@ -1,0 +1,197 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          0,
+          51,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "DeleteCondition",
+                  0,
+                  [
+                    "DCAll",
+                    1
+                  ],
+                  99,
+                  2,
+                  "",
+                  [
+                    "Default"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          1,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "FindAllSubjects",
+                  1,
+                  51,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  [
+                    "DoNothing"
+                  ],
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          1,
+                          [
+                            [
+                              "ACToleranceOfElement",
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              254,
+                              [
+                                {
+                                  "max": -2,
+                                  "min": -2
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          false,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          1,
+                          [
+                            [
+                              "ACAttackPoint",
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -2,
+                                  "min": -2
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          false,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

@@ -3919,6 +3919,48 @@
       "summer22_helicopter_expert"
     ]
   ],
+  "steampunk_wind": [
+    [
+      "steampunk_wind_area",
+      "battle/terrain/event_quest/advent_event/steampunk_wind/steampunk_wind",
+      "steampunk_wind"
+    ]
+  ],
+  "steampunk_wind_hard": [
+    [
+      "steampunk_wind_area",
+      "battle/terrain/event_quest/advent_event/steampunk_wind/steampunk_wind",
+      "steampunk_wind_hard"
+    ]
+  ],
+  "steampunk_water": [
+    [
+      "steampunk_water_area",
+      "battle/terrain/event_quest/advent_event/steampunk_water/steampunk_water",
+      "steampunk_water"
+    ]
+  ],
+  "steampunk_water_hard": [
+    [
+      "steampunk_water_area",
+      "battle/terrain/event_quest/advent_event/steampunk_water/steampunk_water",
+      "steampunk_water_hard"
+    ]
+  ],
+  "steampunk_light": [
+    [
+      "steampunk_light_area",
+      "battle/terrain/event_quest/advent_event/steampunk_light/steampunk_light",
+      "steampunk_light"
+    ]
+  ],
+  "steampunk_light_hard": [
+    [
+      "steampunk_light_area",
+      "battle/terrain/event_quest/advent_event/steampunk_light/steampunk_light",
+      "steampunk_light_hard"
+    ]
+  ],
   "steampunk_fire_1": [
     [
       "steampunk_fire_area",
@@ -4120,6 +4162,69 @@
       "common_skill_preview",
       "battle/terrain/skill_preview/skill_preview_dress_gunner",
       "skill_preview_common"
+    ]
+  ],
+  "score_event_shark": [
+    [
+      "boss_battle_shark_area",
+      "battle/terrain/multi_normal_quest/chapter_01/boss_battle_shark",
+      "score_event_shark"
+    ]
+  ],
+  "arch_evil_thunder_single_score_event": [
+    [
+      "sea_ruins",
+      "battle/terrain/event_quest/challenge_dungeon_event/chapter_boss/arch_evil_single",
+      "arch_evil_thunder_single_score_event"
+    ]
+  ],
+  "multi_normal_1_2_1_score_event": [
+    [
+      "tree_worldtree",
+      "battle/terrain/multi_normal_quest/chapter_01/boss_battle_treant_1",
+      "multi_normal_1_2_1_score_event"
+    ]
+  ],
+  "tower_dungeon_area_10_12_3_score_event": [
+    [
+      "wind_dragon_area",
+      "battle/terrain/event_quest/tower_dungeon/area_10_12/tower_dungeon_area_10_12_3",
+      "tower_dungeon_area_10_12_3_score_event"
+    ]
+  ],
+  "multi_normal_1_16_1_score_event": [
+    [
+      "mecha_old_town",
+      "battle/terrain/multi_normal_quest/chapter_01/boss_battle_security_armour",
+      "multi_normal_1_16_1_score_event"
+    ]
+  ],
+  "tower_dungeon_area_10_5_3_score_event": [
+    [
+      "mecha_area02",
+      "battle/terrain/event_quest/tower_dungeon/area_10_05/tower_dungeon_area_10_5_3",
+      "tower_dungeon_area_10_5_3_score_event"
+    ]
+  ],
+  "rush_05_ghost_fox": [
+    [
+      "japan_shrine",
+      "battle/terrain/event_quest/combat_event/ghost_fox_rush",
+      "rush_05_ghost_fox"
+    ]
+  ],
+  "rush_05_halloween_jack": [
+    [
+      "advent_hw20_area",
+      "battle/terrain/event_quest/combat_event/advent_hw20_rush",
+      "rush_05_halloween_jack"
+    ]
+  ],
+  "rush_05_discarded_dragon_light": [
+    [
+      "light_dragon_area",
+      "battle/terrain/event_quest/combat_event/discarded_dragon_light_rush",
+      "rush_05_discarded_dragon_light"
     ]
   ],
   "rush_04_treant1": [
@@ -4344,6 +4449,34 @@
       "end_dungeon",
       "battle/terrain/multi_normal_quest/chapter_01/boss_battle_reine_rouge",
       "multi_reine_rouge_4"
+    ]
+  ],
+  "raid_alter_sheep_materia1": [
+    [
+      "light_guardian_raid",
+      "battle/terrain/event_quest/raid_event/raid_alter_sheep_materia/raid_alter_sheep_materia",
+      "raid_alter_sheep_materia1"
+    ]
+  ],
+  "raid_alter_sheep_materia2": [
+    [
+      "light_guardian_raid",
+      "battle/terrain/event_quest/raid_event/raid_alter_sheep_materia/raid_alter_sheep_materia",
+      "raid_alter_sheep_materia2"
+    ]
+  ],
+  "raid_alter_sheep_materia3": [
+    [
+      "light_guardian_raid",
+      "battle/terrain/event_quest/raid_event/raid_alter_sheep_materia/raid_alter_sheep_materia",
+      "raid_alter_sheep_materia3"
+    ]
+  ],
+  "raid_alter_sheep_materia4": [
+    [
+      "light_guardian_raid",
+      "battle/terrain/event_quest/raid_event/raid_alter_sheep_materia/raid_alter_sheep_materia",
+      "raid_alter_sheep_materia4"
     ]
   ],
   "middle_boss_anv1_raid1": [
@@ -5235,6 +5368,13 @@
       "middle_boss_dragon_smr20_raid4"
     ]
   ],
+  "middle_boss_dragon_anv1_kc": [
+    [
+      "middle_boss_dragon_anv1_kc",
+      "battle/terrain/event_quest/advent_event/advent_middle_boss_dragon_anv1_kc/advent_middle_boss_dragon_anv1_kc",
+      "middle_boss_dragon_anv1_kc"
+    ]
+  ],
   "mechanic_dragon_eater_story": [
     [
       "cyber_punk_vacant_land_battle",
@@ -5310,6 +5450,27 @@
       "haniwa_carnival_fire",
       "battle/terrain/carnival_event/haniwa_carnival/haniwa_carnival_fire",
       "haniwa_carnival_fire"
+    ]
+  ],
+  "haniwa_carnival_fire_direct": [
+    [
+      "haniwa_carnival_fire",
+      "battle/terrain/carnival_event/haniwa_carnival/haniwa_carnival_fire_direct",
+      "haniwa_carnival_fire_direct"
+    ]
+  ],
+  "haniwa_carnival_fire_pf": [
+    [
+      "haniwa_carnival_fire",
+      "battle/terrain/carnival_event/haniwa_carnival/haniwa_carnival_fire_pf",
+      "haniwa_carnival_fire_pf"
+    ]
+  ],
+  "haniwa_carnival_fire_skill": [
+    [
+      "haniwa_carnival_fire",
+      "battle/terrain/carnival_event/haniwa_carnival/haniwa_carnival_fire_skill",
+      "haniwa_carnival_fire_skill"
     ]
   ],
   "haniwa_carnival_water": [
@@ -5452,6 +5613,27 @@
       "haniwa_carnival_light_skill"
     ]
   ],
+  "halfanv3": [
+    [
+      "halfanv3",
+      "battle/terrain/event_quest/story_event/halfanv3/halfanv3",
+      "halfanv3"
+    ]
+  ],
+  "halfanv3_story": [
+    [
+      "halfanv3",
+      "battle/terrain/event_quest/story_event/halfanv3/halfanv3",
+      "halfanv3_story"
+    ]
+  ],
+  "halfanv3_expert": [
+    [
+      "halfanv3",
+      "battle/terrain/event_quest/story_event/halfanv3/halfanv3",
+      "halfanv3_expert"
+    ]
+  ],
   "halfanv25_big_boss": [
     [
       "halfanv25_big_boss",
@@ -5506,6 +5688,230 @@
       "tree_forest",
       "battle/terrain/multi_normal_quest/chapter_01/boss_battle_grizzly",
       "multi_normal_1_24_4"
+    ]
+  ],
+  "skill_preview_amulet_bosslady": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_amulet_bosslady",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_magatama_spirit": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_magatama_spirit",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_priest_prince_playable": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_priest_prince_playable",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_psychic_teleport_playable": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_psychic_teleport_playable",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_alk_3halfanv": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_alk_3halfanv",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_ruin_girl_3halfanv": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_ruin_girl_3halfanv",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_resistance_princess_3halfanv": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_resistance_princess_3halfanv",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_psychic_nao_3halfanv": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_psychic_nao_3halfanv",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_vesta_caster": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_vesta_caster",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_psychic_taichi": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_psychic_taichi",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_psychic_katana": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_psychic_katana",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_catbaby_psychicer": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_catbaby_psychicer",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_golden_dragon_jr": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_golden_dragon_jr",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_darkness_dragon": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_darkness_dragon",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_ruin_lady_meteor23": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_ruin_lady_meteor23",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_pbc_ceo_playable": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_pbc_ceo_playable",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_wind_oracle_meteor23": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_wind_oracle_meteor23",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_black_wolf_knight_wt23": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_black_wolf_knight_wt23",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_blade_dancer_wt23": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_blade_dancer_wt23",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_hero_mechanic": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_hero_mechanic",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_flame_blessgirl": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_flame_blessgirl",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_psychic_gal": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_psychic_gal",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_impostor_priest": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_impostor_priest",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_heavenly_two_vt23": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_heavenly_two_vt23",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_dark_psygirl_vt23": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_dark_psygirl_vt23",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_sleep_puppy_vt23": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_sleep_puppy_vt23",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_stella_ballot23": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_stella_ballot23",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_still_obstinator_ballot23": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_still_obstinator_ballot23",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_light_ballot23": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_light_ballot23",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_octcyborg_lady": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_octcyborg_lady",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_evilloli_master": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_evilloli_master",
+      "skill_preview_common"
+    ]
+  ],
+  "skill_preview_jiangshi_girl": [
+    [
+      "common_skill_preview",
+      "battle/terrain/skill_preview/skill_preview_jiangshi_girl",
+      "skill_preview_common"
     ]
   ],
   "skill_preview_heavenly_four": [
@@ -7200,6 +7606,41 @@
       "hell_valley",
       "battle/terrain/main_quest/chapter_08/main_chapter_08_04_02",
       "main_8_4_2"
+    ]
+  ],
+  "main_12_1_2": [
+    [
+      "main_12_1_2",
+      "battle/terrain/main_quest/chapter_12/main_chapter_12_01_02",
+      "main_12_1_2"
+    ]
+  ],
+  "main_12_2_4": [
+    [
+      "star_palace_center",
+      "battle/terrain/main_quest/chapter_12/main_chapter_12_02_04",
+      "main_12_2_4"
+    ]
+  ],
+  "main_12_3_5": [
+    [
+      "main_12_3_5",
+      "battle/terrain/main_quest/chapter_12/main_chapter_12_03_05",
+      "main_12_3_5"
+    ]
+  ],
+  "main_12_3_6": [
+    [
+      "main_12_3_5",
+      "battle/terrain/main_quest/chapter_12/main_chapter_12_03_05",
+      "main_12_3_6"
+    ]
+  ],
+  "main_12_10_01": [
+    [
+      "boss_stage_012",
+      "battle/terrain/main_quest/chapter_12/main_chapter_12_10_01",
+      "main_12_10_01"
     ]
   ],
   "main_11_2_1": [

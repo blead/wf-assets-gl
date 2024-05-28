@@ -380,7 +380,7 @@
     [
       "特殊装備強化は\nプレイヤーランクが::need_player_rank::以上になることで\n解放されます",
       "특수 장비 강화는\n플레이어 랭크가 ::need_player_rank:: 이상이 되면\n해방됩니다",
-      "Armament Augmentations unlock \nafter reaching player rank ::need_player_rank::.",
+      "Weapon Augments unlock \nafter reaching player rank ::need_player_rank::.",
       "特殊装備強化は\nプレイヤーランクが::need_player_rank::以上になることで\n解放されます",
       "特殊装備強化は\nプレイヤーランクが::need_player_rank::以上になることで\n解放されます",
       "特殊装備強化は\nプレイヤーランクが::need_player_rank::以上になることで\n解放されます",
@@ -415,6 +415,58 @@
       "ศึกตัดสินร่วมจะปลดล็อกเมื่อทำเงื่อนไขด้านล่างได้สำเร็จ\n- แรงก์ผู้เล่นตั้งแต่ ::need_player_rank:: ขึ้นไป\n- เคลียร์มิติวงกต อาณาเขตพังทลาย \"พื้นที่เผชิญหน้า อสูรจากอาบิส\"\n- เคลียร์ปราบบอสจุติ \"ทหารจักรกลแดงไฮน์ไลท์ ระดับสูงสุด\" ใน \"ทหารจักรกลริษยาแดงชาด\""
     ]
   ],
+  "system_lock_score_attack": [
+    [
+      "無限演武は\nプレイヤーランクが::need_player_rank::以上になることで\n解放されます",
+      "無限演武は\nプレイヤーランクが::need_player_rank::以上になることで\n解放されます",
+      "無限演武は\nプレイヤーランクが::need_player_rank::以上になることで\n解放されます",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "無限演武は\nプレイヤーランクが::need_player_rank::以上になることで\n解放されます"
+    ]
+  ],
+  "system_lock_hard_multi_green": [
+    [
+      "共同決戦は下記を満たすことで解放されます\n・プレイヤーランクが::need_player_rank::以上\n・揺らぎの迷宮 崩壊域「臨境域 アビスの獣」をクリア\n・降臨討伐「翠愁の機兵」の「翠機兵クラーグ 超級」をクリア",
+      "共同決戦は下記を満たすことで解放されます\n・プレイヤーランクが::need_player_rank::以上\n・揺らぎの迷宮 崩壊域「臨境域 アビスの獣」をクリア\n・降臨討伐「翠愁の機兵」の「翠機兵クラーグ 超級」をクリア",
+      "共同決戦は下記を満たすことで解放されます\n・プレイヤーランクが::need_player_rank::以上\n・揺らぎの迷宮 崩壊域「臨境域 アビスの獣」をクリア\n・降臨討伐「翠愁の機兵」の「翠機兵クラーグ 超級」をクリア",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "共同決戦は下記を満たすことで解放されます\n・プレイヤーランクが::need_player_rank::以上\n・揺らぎの迷宮 崩壊域「臨境域 アビスの獣」をクリア\n・降臨討伐「翠愁の機兵」の「翠機兵クラーグ 超級」をクリア"
+    ]
+  ],
+  "system_lock_hard_multi_blue": [
+    [
+      "共同決戦は下記を満たすことで解放されます\n・プレイヤーランクが::need_player_rank::以上\n・揺らぎの迷宮 崩壊域「臨境域 アビスの獣」をクリア\n・降臨討伐「蒼歎の機兵」の「蒼機兵ヴェルヌス 超級」をクリア",
+      "共同決戦は下記を満たすことで解放されます\n・プレイヤーランクが::need_player_rank::以上\n・揺らぎの迷宮 崩壊域「臨境域 アビスの獣」をクリア\n・降臨討伐「蒼歎の機兵」の「蒼機兵ヴェルヌス 超級」をクリア",
+      "共同決戦は下記を満たすことで解放されます\n・プレイヤーランクが::need_player_rank::以上\n・揺らぎの迷宮 崩壊域「臨境域 アビスの獣」をクリア\n・降臨討伐「蒼歎の機兵」の「蒼機兵ヴェルヌス 超級」をクリア",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "共同決戦は下記を満たすことで解放されます\n・プレイヤーランクが::need_player_rank::以上\n・揺らぎの迷宮 崩壊域「臨境域 アビスの獣」をクリア\n・降臨討伐「蒼歎の機兵」の「蒼機兵ヴェルヌス 超級」をクリア"
+    ]
+  ],
+  "system_lock_hard_multi_light": [
+    [
+      "共同決戦は下記を満たすことで解放されます\n・プレイヤーランクが::need_player_rank::以上\n・揺らぎの迷宮 崩壊域「臨境域 アビスの獣」をクリア\n・降臨討伐「閃哭の機兵」の「閃機兵アイザン 超級」をクリア",
+      "共同決戦は下記を満たすことで解放されます\n・プレイヤーランクが::need_player_rank::以上\n・揺らぎの迷宮 崩壊域「臨境域 アビスの獣」をクリア\n・降臨討伐「閃哭の機兵」の「閃機兵アイザン 超級」をクリア",
+      "共同決戦は下記を満たすことで解放されます\n・プレイヤーランクが::need_player_rank::以上\n・揺らぎの迷宮 崩壊域「臨境域 アビスの獣」をクリア\n・降臨討伐「閃哭の機兵」の「閃機兵アイザン 超級」をクリア",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "共同決戦は下記を満たすことで解放されます\n・プレイヤーランクが::need_player_rank::以上\n・揺らぎの迷宮 崩壊域「臨境域 アビスの獣」をクリア\n・降臨討伐「閃哭の機兵」の「閃機兵アイザン 超級」をクリア"
+    ]
+  ],
   "short_system_lock_boss_battle": [
     [
       "メインクエスト 1 章 4 - 2 をクリア",
@@ -439,6 +491,19 @@
       "メインクエスト 1 章 8 - 4 をクリア",
       "メインクエスト 1 章 8 - 4 をクリア",
       "เคลียร์เควสต์หลักบทที่ 1 ด่าน 8-4"
+    ]
+  ],
+  "short_system_lock_boss_epuration": [
+    [
+      "メインクエスト 11 章 10 - 3 をクリア",
+      "메인 퀘스트 11장 10 - 3 을 클리어",
+      "Clear Stage 10-3 of the Main Quest: Chapter 11",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "เคลียร์เควสต์หลักบทที่ 11 ด่าน 10-3"
     ]
   ],
   "short_system_lock_event": [
@@ -543,6 +608,19 @@
       "以下の条件をクリア",
       "以下の条件をクリア",
       "เคลียร์เงื่อนไขด้านล่าง"
+    ]
+  ],
+  "short_system_lock_score_attack": [
+    [
+      "プレイヤーランク::need_player_rank::以上",
+      "플레이어 랭크::need_player_rank::이상",
+      "Player Rank ::need_player_rank::+",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "แรงก์ผู้เล่น ::need_player_rank:: ขึ้นไป"
     ]
   ],
   "ability_board_button_label": [
@@ -1127,7 +1205,7 @@
       "有償星導石",
       "有償星導石",
       "有償星導石",
-      "จ่ายก้วดวงดาวฟรี"
+      "Paid Lodestar Beads"
     ]
   ],
   "gacha_title_end_time": [
@@ -1349,6 +1427,19 @@
       "注意事項",
       "注意事項",
       "ข้อควรระวัง"
+    ]
+  ],
+  "gacha_ratio_dialog_no_gacha": [
+    [
+      "開催中のガチャが見つかりませんでした",
+      "진행 중인 뽑기를 찾을 수 없었습니다",
+      "The Portal could not be found.",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ไม่พบกาชาที่เปิดอยู่"
     ]
   ],
   "gacha_once_per_day_description": [
@@ -2300,6 +2391,19 @@
       "คีย์เวิร์ด"
     ]
   ],
+  "character_list_setting_dialog_filter_group_reinforceable": [
+    [
+      "強化可能",
+      "강화 가능",
+      "Upgradeable",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "เสริมพลังได้"
+    ]
+  ],
   "character_list_setting_dialog_filter_group_rarity": [
     [
       "レア度",
@@ -2363,6 +2467,45 @@
       "種族",
       "種族",
       "เผ่า"
+    ]
+  ],
+  "character_list_setting_dialog_filter_reinforceable_level": [
+    [
+      "Lv強化",
+      "Lv강화",
+      "Raise Level",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "เสริมพลัง Lv"
+    ]
+  ],
+  "character_list_setting_dialog_filter_reinforceable_overlimit": [
+    [
+      "オーバーリミット",
+      "오버 리미트",
+      "Uncap",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "โอเวอร์ลิมิต"
+    ]
+  ],
+  "character_list_setting_dialog_filter_reinforceable_manaboard": [
+    [
+      "マナボード強化",
+      "마나 보드 강화",
+      "Mana Board",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "เสริมพลังมานาบอร์ด"
     ]
   ],
   "character_list_setting_dialog_order_by_rarity": [
@@ -2876,7 +3019,7 @@
     [
       "::trigger_count:: 回、ダッシュ",
       "::trigger_count:: 회, 대시",
-      "perform ::trigger_count:: dashes ",
+      "perform ::trigger_count:: dashes",
       "::trigger_count:: 回、ダッシュ",
       "::trigger_count:: 回、ダッシュ",
       "::trigger_count:: 回、ダッシュ",
@@ -2889,7 +3032,7 @@
     [
       "::trigger_count:: 回、ボールをフリップ",
       "::trigger_count:: 회, 볼을 플립",
-      "launches ::trigger_count:: balls off the flippers ",
+      "launches ::trigger_count:: balls off the flippers",
       "::trigger_count:: 回、ボールをフリップ",
       "::trigger_count:: 回、ボールをフリップ",
       "::trigger_count:: 回、ボールをフリップ",
@@ -3032,7 +3175,7 @@
     [
       "::trigger_count:: 回、::if !omittable::::triggerPuller::が::end::HP回復",
       "::trigger_count:: 회, ::if !omittable::::triggerPuller::(이)가 ::end::HP 회복",
-      "restore HP ::trigger_count:: time(s) ::if !omittable:: to ::triggerPuller::::end:: ",
+      "restore HP ::trigger_count:: time(s) ::if !omittable:: to ::triggerPuller::::end::",
       "::trigger_count:: 回、::if !omittable::::triggerPuller::が::end::HP回復",
       "::trigger_count:: 回、::if !omittable::::triggerPuller::が::end::HP回復",
       "::trigger_count:: 回、::if !omittable::::triggerPuller::が::end::HP回復",
@@ -3097,7 +3240,7 @@
     [
       "::trigger_count:: 回、::if !omittable::::triggerPuller::の::end::スキルがヒット",
       "::trigger_count:: 회, ::if !omittable::::triggerPuller::의 ::end::스킬이 명중",
-      "::if !omittable:: ::triggerPuller::::end:: land(s) ::trigger_count:: skill(s)",
+      "::if !omittable:: ::triggerPuller:::end:: land(s) ::trigger_count:: skill(s)",
       "::trigger_count:: 回、::if !omittable::::triggerPuller::の::end::スキルがヒット",
       "::trigger_count:: 回、::if !omittable::::triggerPuller::の::end::スキルがヒット",
       "::trigger_count:: 回、::if !omittable::::triggerPuller::の::end::スキルがヒット",
@@ -3428,7 +3571,7 @@
       "メインキャラに編成時、",
       "メインキャラに編成時、",
       "メインキャラに編成時、",
-      "เมื่อตั้งค่าเป็นตัวละครหลัก "
+      "เมื่อตั้งค่าเป็นตัวละครหลัก"
     ]
   ],
   "ability_description_not_unisonable_icon": [
@@ -3461,7 +3604,7 @@
     [
       "タイプ",
       "타입",
-      "Class ",
+      "Class",
       "タイプ",
       "タイプ",
       "タイプ",
@@ -3474,7 +3617,7 @@
     [
       "または",
       "또는",
-      "and ",
+      "and",
       "または",
       "または",
       "または",
@@ -3721,7 +3864,7 @@
     [
       "自身以外の::constraint::",
       "자신 이외의 ::constraint::",
-      "All other ::constraint:: ",
+      "All other ::constraint::",
       "自身以外の::constraint::",
       "自身以外の::constraint::",
       "自身以外の::constraint::",
@@ -3747,7 +3890,7 @@
     [
       "自身以外の::constraint::",
       "자신 이외의 ::constraint::",
-      "Other ::constraint:: ",
+      "Other ::constraint::",
       "自身以外の::constraint::",
       "自身以外の::constraint::",
       "自身以外の::constraint::",
@@ -3786,7 +3929,7 @@
     [
       "::index::番目のキャラ",
       "::index::번째 캐릭터",
-      "the unit in slot ::index:: ",
+      "the unit in slot ::index::",
       "::index::番目のキャラ",
       "::index::番目のキャラ",
       "::index::番目のキャラ",
@@ -3941,7 +4084,7 @@
   "ability_description_target_by_each_trigger_puller": [
     [
       "それぞれの",
-      "각각의 ",
+      "각각의",
       "each respective",
       "それぞれの",
       "それぞれの",
@@ -3955,7 +4098,7 @@
     [
       "自身の獲得EXP ::percent:: アップ",
       "자신의 획득 EXP ::percent:: 상승",
-      "::percent::% boost to EXP gained by this unit ",
+      "::percent::% boost to EXP gained by this unit",
       "自身の獲得EXP ::percent:: アップ",
       "自身の獲得EXP ::percent:: アップ",
       "自身の獲得EXP ::percent:: アップ",
@@ -3968,7 +4111,7 @@
     [
       "パーティ全体の獲得EXP ::percent:: アップ",
       "파티 전체의 획득 EXP ::percent:: 상승",
-      "::percent::% boost to EXP gained by the party ",
+      "::percent::% boost to EXP gained by the party",
       "パーティ全体の獲得EXP ::percent:: アップ",
       "パーティ全体の獲得EXP ::percent:: アップ",
       "パーティ全体の獲得EXP ::percent:: アップ",
@@ -3981,7 +4124,7 @@
     [
       "獲得マナ ::percent:: アップ",
       "획득 마나 ::percent:: 상승",
-      "::percent::% boost to Mana gained ",
+      "::percent::% boost to Mana gained",
       "獲得マナ ::percent:: アップ",
       "獲得マナ ::percent:: アップ",
       "獲得マナ ::percent:: アップ",
@@ -3993,8 +4136,8 @@
   "ability_description_instant_trigger_limit_once": [
     [
       "一度だけ",
-      "한 번만 ",
-      "the first time: ",
+      "한 번만",
+      "the first time:",
       "一度だけ",
       "一度だけ",
       "一度だけ",
@@ -4006,8 +4149,8 @@
   "ability_description_instant_trigger_limit_n_times": [
     [
       "計 ::count:: 回まで",
-      "총 ::count:: 회까지 ",
-      "the first ::count:: time(s): ",
+      "총 ::count:: 회까지",
+      "the first ::count:: time(s):",
       "計 ::count:: 回まで",
       "計 ::count:: 回まで",
       "計 ::count:: 回まで",
@@ -4020,39 +4163,39 @@
     [
       "時、",
       " 때, ",
-      " → ",
+      "→",
       "時、",
       "時、",
       "時、",
       "時、",
       "時、",
-      " → "
+      "→"
     ]
   ],
   "ability_description_instant_conjunction_trigger_limit_n_times": [
     [
       "度、",
-      " 때마다 ",
-      " → ",
+      "때마다",
+      "→",
       "度、",
       "度、",
       "度、",
       "度、",
       "度、",
-      " → "
+      "→"
     ]
   ],
   "ability_description_instant_conjunction_trigger_limit_no_limit": [
     [
       "度、",
-      " 때마다 ",
-      " → ",
+      "때마다",
+      "→",
       "度、",
       "度、",
       "度、",
       "度、",
       "度、",
-      " → "
+      "→"
     ]
   ],
   "ability_description_change_skill_ability_power_up": [
@@ -4182,7 +4325,7 @@
       "[最大 ::max_strength::&nbsp;]",
       "[最大 ::max_strength::&nbsp;]",
       "[最大 ::max_strength::&nbsp;]",
-      " [สูงสุด ::max_strength::]"
+      "[สูงสุด ::max_strength::]"
     ]
   ],
   "ability_description_instant_max_accumulation": [
@@ -4195,7 +4338,7 @@
       "[累積効果 / 最大 ::max_strength:: ]",
       "[累積効果 / 最大 ::max_strength:: ]",
       "[累積効果 / 最大 ::max_strength:: ]",
-      " [คุณสมบัติสะสม / สูงสุด ::max_strength::]"
+      "[คุณสมบัติสะสม / สูงสุด ::max_strength::]"
     ]
   ],
   "ability_description_instant_max_accumulation_count": [
@@ -4211,11 +4354,50 @@
       "[คุณสมบัติสะสม / สะสมได้สูงสุด ::count:: ครั้ง]"
     ]
   ],
+  "ability_description_multiply_trigger_accumulation": [
+    [
+      "【::trigger::追加で累積数 +::count::】",
+      "【::trigger::추가로 누적 수 +::count::】",
+      "【::trigger:: + ::count:: additional stack(s)】",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "[ผลสะสมของ ::trigger:: เพิ่ม +::count::]"
+    ]
+  ],
+  "ability_description_multiply_trigger": [
+    [
+      "【::trigger::追加で効果量 ::strength:: [最大合計 ::max_strength::&nbsp;]】",
+      "【::trigger::추가로 효과량 ::strength:: [최대 합계 ::max_strength::&nbsp;]】",
+      "【::trigger::, increase the effect by an additional ::strength:: [Max ::max_strength::&nbsp;]】",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "[ผลบัฟของ ::trigger:: เพิ่ม ::strength:: [ผลรวมสูงสุด ::max_strength::&nbsp;]]"
+    ]
+  ],
+  "ability_description_each": [
+    [
+      "ごと",
+      "마다",
+      "each",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ทุก"
+    ]
+  ],
   "ability_description_n_times": [
     [
       "::count::&nbsp;回",
-      "::count:: 회 ",
-      "every ::count:: time(s) ",
+      "::count:: 회",
+      "every ::count:: time(s)",
       "::count::&nbsp;回",
       "::count::&nbsp;回",
       "::count::&nbsp;回",
@@ -4227,8 +4409,8 @@
   "ability_description_times": [
     [
       "::strength::&nbsp;倍",
-      "::strength:: 배 ",
-      "x ::strength:: ",
+      "::strength:: 배",
+      "x ::strength::",
       "::strength::&nbsp;倍",
       "::strength::&nbsp;倍",
       "::strength::&nbsp;倍",
@@ -4306,7 +4488,7 @@
     [
       "パワーフリップ::if once::::else::する::end::",
       "파워 플립::if once::::else::할::end::",
-      "::if once::::else::::end::a unit Power Flips ",
+      "::if once::::else::::end::a unit Power Flips",
       "パワーフリップ::if once::::else::する::end::",
       "パワーフリップ::if once::::else::する::end::",
       "パワーフリップ::if once::::else::する::end::",
@@ -4319,7 +4501,7 @@
     [
       "パワーフリップLv::level::::if once::を発動::else::を発動する::end::",
       "파워 플립Lv::level::::if once::을(를) 발동할::else::을(를) 발동할::end::",
-      "::if once::::else::::end::a unit performs a Lv. ::level:: Power Flip ",
+      "::if once::::else::::end::a unit performs a Lv. ::level:: Power Flip",
       "パワーフリップLv::level::::if once::を発動::else::を発動する::end::",
       "パワーフリップLv::level::::if once::を発動::else::を発動する::end::",
       "パワーフリップLv::level::::if once::を発動::else::を発動する::end::",
@@ -4338,7 +4520,7 @@
       "パワーフリップLv::level::以上::if once::を発動::else::を発動する::end::",
       "パワーフリップLv::level::以上::if once::を発動::else::を発動する::end::",
       "パワーフリップLv::level::以上::if once::を発動::else::を発動する::end::",
-      "::if once::ใช้::else::ใช้::end::เมื่อ Lv พาวเวอร์ฟลิปมากกว่า ::level:: "
+      "::if once::ใช้::else::ใช้::end::เมื่อ Lv พาวเวอร์ฟลิปมากกว่า ::level::"
     ]
   ],
   "ability_description_instant_trigger_kind_power_flip_lv_low": [
@@ -4351,7 +4533,7 @@
       "パワーフリップLv::level::以下::if once::を発動::else::を発動する::end::",
       "パワーフリップLv::level::以下::if once::を発動::else::を発動する::end::",
       "パワーフリップLv::level::以下::if once::を発動::else::を発動する::end::",
-      "::if once::ใช้::else::ใช้::end::เมื่อ Lv พาวเวอร์ฟลิปน้อยกว่า ::level:: "
+      "::if once::ใช้::else::ใช้::end::เมื่อ Lv พาวเวอร์ฟลิปน้อยกว่า ::level::"
     ]
   ],
   "ability_description_instant_trigger_kind_continuous_power_flip_lv": [
@@ -4410,7 +4592,7 @@
     [
       "ダッシュ::if once::::else::する::end::",
       "대시::if once::::else::할::end::",
-      "::if once::::else::::end::a unit dashes ",
+      "::if once::::else::::end::a unit dashes",
       "ダッシュ::if once::::else::する::end::",
       "ダッシュ::if once::::else::する::end::",
       "ダッシュ::if once::::else::する::end::",
@@ -4423,7 +4605,7 @@
     [
       "パーティまたはマルチボールをフリップ::if once::::else::する::end::",
       "파티 또는 멀티 볼을 플립할::if once::::else::::end::",
-      "::if once::::else::::end::a party member or multiball launches off the flippers ",
+      "::if once::::else::::end::a party member or multiball launches off the flippers",
       "パーティまたはマルチボールをフリップ::if once::::else::する::end::",
       "パーティまたはマルチボールをフリップ::if once::::else::する::end::",
       "パーティまたはマルチボールをフリップ::if once::::else::する::end::",
@@ -4462,7 +4644,7 @@
     [
       "フィーバー::if once::::else::する::end::",
       "피버할::if once::::else::::end::",
-      "::if once::::else::::end::Fever is activated ",
+      "::if once::::else::::end::Fever is activated",
       "フィーバー::if once::::else::する::end::",
       "フィーバー::if once::::else::する::end::",
       "フィーバー::if once::::else::する::end::",
@@ -4488,7 +4670,7 @@
     [
       "::if has_constraint::::constraint::の::end::::if (multiball_group == null)::マルチボール::else::::multiball_group::::end::が出現::if once::::else::する::end::",
       "멀티 볼이 출현할::if once::::else::::end::",
-      "::if once::::else::::end::multiballs appear ",
+      "::if once::::else::::end::multiballs appear",
       "::if has_constraint::::constraint::の::end::::if (multiball_group == null)::マルチボール::else::::multiball_group::::end::が出現::if once::::else::する::end::",
       "::if has_constraint::::constraint::の::end::::if (multiball_group == null)::マルチボール::else::::multiball_group::::end::が出現::if once::::else::する::end::",
       "::if has_constraint::::constraint::の::end::::if (multiball_group == null)::マルチボール::else::::multiball_group::::end::が出現::if once::::else::する::end::",
@@ -4520,14 +4702,14 @@
       "バトル開始時、",
       "バトル開始時、",
       "バトル開始時、",
-      "ตอนเริ่มแบทเทิล "
+      "ตอนเริ่มแบทเทิล"
     ]
   ],
   "ability_description_instant_trigger_kind_enemy_kill": [
     [
       "敵を撃破::if once::::else::する::end::",
       "적을 격파할::if once::::else::::end::",
-      "::if once::::else::::end::this unit destroys a foe ",
+      "::if once::::else::::end::this unit destroys a foe",
       "敵を撃破::if once::::else::する::end::",
       "敵を撃破::if once::::else::する::end::",
       "敵を撃破::if once::::else::する::end::",
@@ -4553,7 +4735,7 @@
     [
       "::if !omittable::::triggerPuller::が::end::棺桶状態から復帰::if once::::else::する::end::",
       "::if !omittable:: ::triggerPuller::이(가) ::end::관 상태에서 복귀할::if once::::else::::end::",
-      "::if once::::else::::end::a player resurrects::if !omittable:: ::triggerPuller::::end:: from a Coffin ",
+      "::if once::::else::::end::a player resurrects::if !omittable:: ::triggerPuller::::end:: from a Coffin",
       "::if !omittable::::triggerPuller::が::end::棺桶状態から復帰::if once::::else::する::end::",
       "::if !omittable::::triggerPuller::が::end::棺桶状態から復帰::if once::::else::する::end::",
       "::if !omittable::::triggerPuller::が::end::棺桶状態から復帰::if once::::else::する::end::",
@@ -4566,7 +4748,7 @@
     [
       "::if !omittable::::triggerPuller::が::end::HP回復::if once::::else::する::end::",
       "::if !omittable:: ::triggerPuller::이(가) ::end::HP 회복할::if once::::else::::end::",
-      "::if once::::else::::end::HP is recovered::if !omittable:: by ::triggerPuller::::end:: ",
+      "::if once::::else::::end::HP is recovered::if !omittable:: by ::triggerPuller::::end::",
       "::if !omittable::::triggerPuller::が::end::HP回復::if once::::else::する::end::",
       "::if !omittable::::triggerPuller::が::end::HP回復::if once::::else::する::end::",
       "::if !omittable::::triggerPuller::が::end::HP回復::if once::::else::する::end::",
@@ -4579,7 +4761,7 @@
     [
       "::if !omittable::::triggerPuller::が::end::ダメージを受け::if once::た::else::る::end::",
       "::if !omittable:: ::triggerPuller::이(가) ::end::대미지를 받을::if once::::else::::end::",
-      "::if once::::else::::end::damage is taken::if !omittable:: by ::triggerPuller::::end:: ",
+      "::if once::::else::::end::damage is taken::if !omittable:: by ::triggerPuller::::end::",
       "::if !omittable::::triggerPuller::が::end::ダメージを受け::if once::た::else::る::end::",
       "::if !omittable::::triggerPuller::が::end::ダメージを受け::if once::た::else::る::end::",
       "::if !omittable::::triggerPuller::が::end::ダメージを受け::if once::た::else::る::end::",
@@ -4631,7 +4813,7 @@
     [
       "::if !omittable::::triggerPuller::が::end::直接攻撃を::if once::::else::する::end::",
       "::if !omittable:: ::triggerPuller::이(가) ::end::직접 공격을 할::if once::::else::::end::",
-      "::if once::::else::::end::a direct hit is dealt::if !omittable:: by ::triggerPuller::::end:: ",
+      "::if once::::else::::end::a direct hit is dealt::if !omittable:: by ::triggerPuller::::end::",
       "::if !omittable::::triggerPuller::が::end::直接攻撃を::if once::::else::する::end::",
       "::if !omittable::::triggerPuller::が::end::直接攻撃を::if once::::else::する::end::",
       "::if !omittable::::triggerPuller::が::end::直接攻撃を::if once::::else::する::end::",
@@ -4657,7 +4839,7 @@
     [
       "::if !omittable::::triggerPuller::が::end::スキルを発動::if once::::else::する::end::",
       "::if !omittable:: ::triggerPuller::이(가) ::end::스킬을 발동할::if once::::else::::end::",
-      "::if once::::else::::end::a skill is activated::if !omittable:: by ::triggerPuller::::end:: ",
+      "::if once::::else::::end::a skill is activated::if !omittable:: by ::triggerPuller::::end::",
       "::if !omittable::::triggerPuller::が::end::スキルを発動::if once::::else::する::end::",
       "::if !omittable::::triggerPuller::が::end::スキルを発動::if once::::else::する::end::",
       "::if !omittable::::triggerPuller::が::end::スキルを発動::if once::::else::する::end::",
@@ -4800,7 +4982,7 @@
     [
       "::if !omittable::::triggerPuller::が::end::敵に::if hasCount:: ::count::::else::::end::ぶつか::if once::った::else::る::end::",
       "::if !omittable::::triggerPuller::이(가) ::end::적에게 ::if hasCount:: ::count::::else::::end::부딪::if once::쳤을::else::힐::end::",
-      "::if !omittable::::triggerPuller:: ::end::bump(s) into a foe::if hasCount:: ::count:: time(s)::else::::end::",
+      "::if !omittable::::triggerPuller:: ::end::bump(s) into a foe::if hasCount:: ::count:: time(s)::::else::::end::",
       "::if !omittable::::triggerPuller::が::end::敵に::if hasCount:: ::count::::else::::end::ぶつか::if once::った::else::る::end::",
       "::if !omittable::::triggerPuller::が::end::敵に::if hasCount:: ::count::::else::::end::ぶつか::if once::った::else::る::end::",
       "::if !omittable::::triggerPuller::が::end::敵に::if hasCount:: ::count::::else::::end::ぶつか::if once::った::else::る::end::",
@@ -4904,7 +5086,7 @@
     [
       "::if !omittable::::triggerPuller::が::end::::condition::::if once::::else::になる::end::",
       "::if !omittable:: ::triggerPuller::이(가) ::end:: ::condition::::if once::::else::이(가) 될::end::",
-      "::if once::::else::::end::::condition:: activate(s)::if !omittable:: for ::triggerPuller::::end:: ",
+      "::if once::::else::::end::::condition:: activate(s)::if !omittable:: for ::triggerPuller::::end::",
       "::if !omittable::::triggerPuller::が::end::::condition::::if once::::else::になる::end::",
       "::if !omittable::::triggerPuller::が::end::::condition::::if once::::else::になる::end::",
       "::if !omittable::::triggerPuller::が::end::::condition::::if once::::else::になる::end::",
@@ -4982,7 +5164,7 @@
     [
       "自身が::constraint::である",
       "자신이 ::constraint::일",
-      "when this unit is a/the ::constraint:: ",
+      "when this unit is a/the ::constraint::",
       "自身が::constraint::である",
       "自身が::constraint::である",
       "自身が::constraint::である",
@@ -4995,7 +5177,7 @@
     [
       "自身が::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
       "자신이 ::constraint::::if noneOfThem::가운데 아무도 아닐::else::::end::",
-      "this unit ::if noneOfThem::is none of the following: ::else::is not ::end:: ::constraint:: ",
+      "this unit ::if noneOfThem::is none of the following: ::else::is not ::end:: ::constraint::",
       "自身が::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
       "自身が::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
       "自身が::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
@@ -5046,7 +5228,7 @@
   "ability_description_instant_trigger_kind_unison_with_main": [
     [
       "自身が::constraint::のユニゾンの",
-      "자신이 ::constraint::의 유니존의 ",
+      "자신이 ::constraint::의 유니존의",
       "is ::constraint::'s second",
       "自身が::constraint::のユニゾンの",
       "自身が::constraint::のユニゾンの",
@@ -5073,7 +5255,7 @@
     [
       "リーダーが::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
       "리더가 ::constraint::::if noneOfThem::가운데 아무도 아닐::else::::end::",
-      "the Leader ::if noneOfThem::is none of the following: ::else::is not ::end:: ::constraint:: ",
+      "the Leader ::if noneOfThem::is none of the following: ::else::is not ::end:: ::constraint::",
       "リーダーが::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
       "リーダーが::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
       "リーダーが::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
@@ -5099,7 +5281,7 @@
     [
       "2番目のキャラが::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
       "2번째 캐릭터가 ::constraint::::if noneOfThem::가운데 아무도 아닐::else::::end::",
-      "the second unit ::if noneOfThem::is none of the following: ::else::is not ::end:: ::constraint:: ",
+      "the second unit ::if noneOfThem::is none of the following: ::else::is not ::end:: ::constraint::",
       "2番目のキャラが::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
       "2番目のキャラが::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
       "2番目のキャラが::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
@@ -5125,7 +5307,7 @@
     [
       "3番目のキャラが::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
       "3번째 캐릭터가 ::constraint::::if noneOfThem::가운데 아무도 아닐::else::::end::",
-      "the third unit ::if noneOfThem::is none of the following: ::else::is not ::end:: ::constraint:: ",
+      "the third unit ::if noneOfThem::is none of the following: ::else::is not ::end:: ::constraint::",
       "3番目のキャラが::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
       "3番目のキャラが::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
       "3番目のキャラが::constraint::::if noneOfThem::のいずれでもない::else::でない::end::",
@@ -5144,7 +5326,20 @@
       "パーティに::constraint::を ::count:: 体::if once::::if is_max::::else::以上::end::編成した::else::編成する::end::",
       "パーティに::constraint::を ::count:: 体::if once::::if is_max::::else::以上::end::編成した::else::編成する::end::",
       "パーティに::constraint::を ::count:: 体::if once::::if is_max::::else::以上::end::編成した::else::編成する::end::",
-      "จัดตั้ง::constraint::::if once::มากกว่า::else::::end:: ::count:: ตัวในปาร์ตี้ "
+      "จัดตั้ง::constraint::::if once::มากกว่า::else::::end:: ::count:: ตัวในปาร์ตี้"
+    ]
+  ],
+  "ability_description_instant_trigger_kind_member_element_unified": [
+    [
+      "::element_full::共鳴",
+      "::element_full::공명",
+      "::element_full:: resonates",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ขานรับ ::element_full::"
     ]
   ],
   "ability_description_instant_trigger_kind_variety": [
@@ -5527,7 +5722,7 @@
   "ability_description_during_trigger_kind_condition": [
     [
       "::if !omittable::::triggerPuller::が::end::::condition::中::if (isBeforeInstantTrigger)::に::elseif (hasAccumulationTrigger && !isPrecondition)::の::else::の間、::end::",
-      "::if !omittable::::triggerPuller::이(가) ::end::::condition:: 중::if (isBeforeInstantTrigger)::에::elseif (hasAccumulationTrigger && !isPrecondition)::인::else:: 동안,::end::",
+      "::if !omittable::::triggerPuller::이(가) ::end::::condition::중::if (isBeforeInstantTrigger)::에::elseif (hasAccumulationTrigger && !isPrecondition)::인::else:: 동안,::end::",
       "while ::condition:: is active ::if !omittable:: for ::triggerPuller::::end::::if (isBeforeInstantTrigger):: ::elseif (hasAccumulationTrigger && !isPrecondition):: ::else::, ::end::",
       "::if !omittable::::triggerPuller::が::end::::condition::中::if (isBeforeInstantTrigger)::に::elseif (hasAccumulationTrigger && !isPrecondition)::の::else::の間、::end::",
       "::if !omittable::::triggerPuller::が::end::::condition::中::if (isBeforeInstantTrigger)::に::elseif (hasAccumulationTrigger && !isPrecondition)::の::else::の間、::end::",
@@ -5540,7 +5735,7 @@
   "ability_description_during_trigger_kind_condition_high_count": [
     [
       "::if !omittable::::triggerPuller::に::end::かかっているコンディションによる::condition::::sum::::count::個につき、",
-      "::if !omittable::::triggerPuller::에 ::end::걸려있는 컨디션에 따른 ::condition::::count::개마다,",
+      "::if !omittable::::triggerPuller::에 ::end::걸려있는 컨디션에 따른::condition::::count::개마다,",
       "for each ::count:: ::condition:: ::if !omittable:: ::triggerPuller:: has ::end::, ",
       "::if !omittable::::triggerPuller::に::end::かかっているコンディションによる::condition::::sum::::count::個につき、",
       "::if !omittable::::triggerPuller::に::end::かかっているコンディションによる::condition::::sum::::count::個につき、",
@@ -5787,8 +5982,8 @@
   "ability_description_during_trigger_kind_hp_decrease": [
     [
       "::if !omittable::::triggerPuller::の::end::残りHP::sum::が少ないほど、",
-      "::if !omittable::::triggerPuller::의 ::end::남은 HP가 적을수록,",
-      "proportionally to how low ::if !omittable:: ::triggerPuller::'s ::end:: remaining HP is, ",
+      "::if !omittable::::triggerPuller::::each::의 ::end::배수 상태에 따라,",
+      "::if !omittable:: proportionally to how low ::each:: ::triggerPuller::'s ::end:: remaining HP is, ",
       "::if !omittable::::triggerPuller::の::end::残りHP::sum::が少ないほど、",
       "::if !omittable::::triggerPuller::の::end::残りHP::sum::が少ないほど、",
       "::if !omittable::::triggerPuller::の::end::残りHP::sum::が少ないほど、",
@@ -5800,40 +5995,40 @@
   "ability_description_during_trigger_kind_hp_decrease_detail": [
     [
       "【残りHP::start_percent::から::percent::減るごとに::content::】",
-      "[남은 HP ::start_percent::에서 ::percent::줄어들 때마다 ::content::]",
-      "[For every ::percent:: lost from ::start_percent:: of remaining HP, ::content::]",
+      "【HP ::start_percent:: ~ ::limit_percent:: 에서 발동】",
+      "[Activates when HP is between ::start_percent:: to ::limit_percent::]",
       "【残りHP::start_percent::から::percent::減るごとに::content::】",
       "【残りHP::start_percent::から::percent::減るごとに::content::】",
       "【残りHP::start_percent::から::percent::減るごとに::content::】",
       "【残りHP::start_percent::から::percent::減るごとに::content::】",
       "【残りHP::start_percent::から::percent::減るごとに::content::】",
-      "[ทุกครั้งที่ HP ที่เหลือลดจาก ::start_percent:: เป็น ::percent:: ::content::]"
+      "[ทำงานเมื่อ HP ::start_percent:: - ::limit_percent::]"
     ]
   ],
   "ability_description_during_trigger_kind_hp_increase": [
     [
       "::if !omittable::::triggerPuller::の::end::残りHP::sum::が多いほど、",
-      "::if !omittable::::triggerPuller::의 ::end::남은 HP가 많을수록,",
-      "proportionally to how high ::if !omittable:: ::triggerPuller::'s ::end:: remaining HP is, ",
+      "::if !omittable::::triggerPuller::::each::의 ::end::혼신 상태에 따라,",
+      "::if !omittable:: proportionally to how high ::each:: ::triggerPuller::'s ::end:: remaining HP is, ",
       "::if !omittable::::triggerPuller::の::end::残りHP::sum::が多いほど、",
       "::if !omittable::::triggerPuller::の::end::残りHP::sum::が多いほど、",
       "::if !omittable::::triggerPuller::の::end::残りHP::sum::が多いほど、",
       "::if !omittable::::triggerPuller::の::end::残りHP::sum::が多いほど、",
       "::if !omittable::::triggerPuller::の::end::残りHP::sum::が多いほど、",
-      "เมื่อ HP ที่เหลือของ::if !omittable::::triggerPuller::::end::ยิ่งเหลือมากเท่าไร"
+      "ตอบสนองกับสถานะเลือดเยอะของ::if !omittable::::triggerPuller::::each::::end::"
     ]
   ],
   "ability_description_during_trigger_kind_hp_increase_detail": [
     [
       "【残りHP::start_percent::から::percent::増えるごとに::content::】",
-      "[남은 HP ::start_percent::에서 ::percent::늘어날 때마다 ::content::]",
-      "[For every ::percent:: healed from ::start_percent:: of remaining HP, ::content::]",
+      "【HP ::start_percent:: ~ ::limit_percent:: 에서 발동】",
+      "[Activates when HP is between ::start_percent:: to ::limit_percent::]",
       "【残りHP::start_percent::から::percent::増えるごとに::content::】",
       "【残りHP::start_percent::から::percent::増えるごとに::content::】",
       "【残りHP::start_percent::から::percent::増えるごとに::content::】",
       "【残りHP::start_percent::から::percent::増えるごとに::content::】",
       "【残りHP::start_percent::から::percent::増えるごとに::content::】",
-      "[ทุกครั้งที่ HP ที่เหลือเพิ่มจาก ::start_percent:: เป็น ::percent:: ::content::]"
+      "[ทำงานเมื่อ HP ::start_percent:: - ::limit_percent::]"
     ]
   ],
   "ability_description_during_trigger_kind_accumulation_condition_high": [
@@ -6021,53 +6216,53 @@
   "ability_description_during_trigger_kind_sum_of_party_hp_decrease": [
     [
       "パーティキャラ全員のHP合計が少ないほど、",
-      "파티 캐릭터 전원의 HP합계가 적을수록,",
+      "파티 캐릭터 전원의 배수 상태에 따라,",
       "proportionally to how low all party members' total HP is, ",
       "パーティキャラ全員のHP合計が少ないほど、",
       "パーティキャラ全員のHP合計が少ないほど、",
       "パーティキャラ全員のHP合計が少ないほど、",
       "パーティキャラ全員のHP合計が少ないほど、",
       "パーティキャラ全員のHP合計が少ないほど、",
-      "ผลรวม HP ของตัวละครทั้งหมดในปาร์ตี้ยิ่งเหลือน้อยเท่าไร"
+      "ตอบสนองกับสถานะเลือดน้อยของตัวละครในปาร์ตี้ทุกตัว"
     ]
   ],
   "ability_description_during_trigger_kind_sum_of_party_hp_decrease_detail": [
     [
       "【パーティキャラ全員のHP合計が最大値の::start_percent::から::percent::減るごとに::content::】",
-      "[파티 캐릭터 전원의 HP합계가 최대치의 ::start_percent::보다::percent::줄어들 때마다::content::]",
-      "[For every ::percent:: HP lost of all party members' total HP, ::content::]",
+      "【HP ::start_percent:: ~ ::limit_percent:: 에서 발동】",
+      "[Activates when HP is between ::start_percent:: to ::limit_percent::]",
       "【パーティキャラ全員のHP合計が最大値の::start_percent::から::percent::減るごとに::content::】",
       "【パーティキャラ全員のHP合計が最大値の::start_percent::から::percent::減るごとに::content::】",
       "【パーティキャラ全員のHP合計が最大値の::start_percent::から::percent::減るごとに::content::】",
       "【パーティキャラ全員のHP合計が最大値の::start_percent::から::percent::減るごとに::content::】",
       "【パーティキャラ全員のHP合計が最大値の::start_percent::から::percent::減るごとに::content::】",
-      "[ทุกครั้งที่ผลรวม HP ของตัวละครทั้งหมดในปาร์ตี้ลดลงจาก ::start_percent:: เป็น ::percent:: ของค่าสูงสุด ::content::]"
+      "[ทำงานเมื่อ HP ::start_percent:: - ::limit_percent::]"
     ]
   ],
   "ability_description_during_trigger_kind_sum_of_party_hp_increase": [
     [
       "パーティキャラ全員のHP合計が多いほど、",
-      "파티 캐릭터 전원의 HP합계가 많을수록,",
+      "파티 캐릭터 전원의 혼신 상태에 따라,",
       "proportionally to how high all party members' total HP is, ",
       "パーティキャラ全員のHP合計が多いほど、",
       "パーティキャラ全員のHP合計が多いほど、",
       "パーティキャラ全員のHP合計が多いほど、",
       "パーティキャラ全員のHP合計が多いほど、",
       "パーティキャラ全員のHP合計が多いほど、",
-      "ผลรวม HP ของตัวละครทั้งหมดในปาร์ตี้ยิ่งเหลือมากเท่าไร"
+      "ตอบสนองกับสถานะเลือดเยอะตัวละครในปาร์ตี้ทุกตัว"
     ]
   ],
   "ability_description_during_trigger_kind_sum_of_party_hp_increase_detail": [
     [
       "【パーティキャラ全員のHP合計が最大値の::start_percent::から::percent::増えるごとに::content::】",
-      "[파티 캐릭터 전원의 HP합계가 최대치의 ::start_percent::보다::percent::늘어날 때마다::content::]",
-      "[For every ::percent:: HP recovered of the total HP of all party members, ::content::]",
+      "【HP ::start_percent:: ~ ::limit_percent:: 에서 발동】",
+      "[Activates when HP is between ::start_percent:: to ::limit_percent::]",
       "【パーティキャラ全員のHP合計が最大値の::start_percent::から::percent::増えるごとに::content::】",
       "【パーティキャラ全員のHP合計が最大値の::start_percent::から::percent::増えるごとに::content::】",
       "【パーティキャラ全員のHP合計が最大値の::start_percent::から::percent::増えるごとに::content::】",
       "【パーティキャラ全員のHP合計が最大値の::start_percent::から::percent::増えるごとに::content::】",
       "【パーティキャラ全員のHP合計が最大値の::start_percent::から::percent::増えるごとに::content::】",
-      "[ทุกครั้งที่ผลรวม HP ของตัวละครทั้งหมดในปาร์ตี้เพิ่มจาก ::start_percent:: เป็น ::percent:: ของค่าสูงสุด ::content::]"
+      "[ทำงานเมื่อ HP ::start_percent:: - ::limit_percent::]"
     ]
   ],
   "ability_description_during_trigger_kind_count_attack_up": [
@@ -6241,15 +6436,54 @@
   ],
   "ability_description_precontent_suffix_unique_condition": [
     [
-      "レベル ::count:: ",
-      "레벨 ::count:: ",
-      "level ::count:: ",
-      "レベル ::count:: ",
-      "レベル ::count:: ",
-      "レベル ::count:: ",
-      "レベル ::count:: ",
-      "レベル ::count:: ",
+      "レベル ::count::",
+      "레벨 ::count::",
+      "level ::count::",
+      "レベル ::count::",
+      "レベル ::count::",
+      "レベル ::count::",
+      "レベル ::count::",
+      "レベル ::count::",
       "เลเวล ::count::"
+    ]
+  ],
+  "ability_description_delay": [
+    [
+      "::if (delay > 0)::::delay::&nbsp;秒後に::end::",
+      "::if (delay > 0)::::delay::&nbsp;초 후에::end::",
+      "::if (delay > 0)::::delay::&nbsp;秒後に::end::",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "::if (delay > 0)::::delay::&nbsp; วินาทีให้หลัง::end::"
+    ]
+  ],
+  "ability_description_condition_content_number": [
+    [
+      "を ::number:: 個付与",
+      "을(를) ::number:: 개 부여",
+      "x ::number::",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "มอบให้ ::number:: ครั้ง"
+    ]
+  ],
+  "ability_description_condition_content_initial_accumulation": [
+    [
+      "を ::number:: 個累積",
+      "을(를) ::number:: 개 누적",
+      "x ::number:: stack(s)",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "สะสม ::number:: ครั้ง"
     ]
   ],
   "ability_description_condition_content_summary": [
@@ -6269,7 +6503,7 @@
     [
       "::if !withoutTarget::::target::の::end::攻撃力 ::percent_up_down::",
       "::target::의 공격력 ::percent_up_down::",
-      "::percent_up_down:: to attack for ::target:: ",
+      "::percent_up_down:: to attack for ::target::",
       "::if !withoutTarget::::target::の::end::攻撃力 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::攻撃力 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::攻撃力 ::percent_up_down::",
@@ -6282,7 +6516,7 @@
     [
       "::if !withoutTarget::::target::の::end::直接攻撃ダメージ ::percent_up_down::",
       "::target::의 직접 공격 대미지 ::percent_up_down::",
-      "::percent_up_down:: to direct hit damage for ::target:: ",
+      "::percent_up_down:: to direct hit damage for ::target::",
       "::if !withoutTarget::::target::の::end::直接攻撃ダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::直接攻撃ダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::直接攻撃ダメージ ::percent_up_down::",
@@ -6295,7 +6529,7 @@
     [
       "::if !withoutTarget::::target::の::end::スキルダメージ ::percent_up_down::",
       "::target::의 스킬 대미지 ::percent_up_down::",
-      "::percent_up_down:: to skill damage for ::target:: ",
+      "::percent_up_down:: to skill damage for ::target::",
       "::if !withoutTarget::::target::の::end::スキルダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::スキルダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::スキルダメージ ::percent_up_down::",
@@ -6321,7 +6555,7 @@
     [
       "::if !withoutTarget::::target::の::end::::element::耐性 ::percent_up_down::",
       "::target::의 ::element:: 내성 ::percent_up_down::",
-      "::percent_up_down:: to ::element::resistance for ::target:: ",
+      "::percent_up_down:: to ::element::resistance for ::target::",
       "::if !withoutTarget::::target::の::end::::element::耐性 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::::element::耐性 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::::element::耐性 ::percent_up_down::",
@@ -6360,7 +6594,7 @@
     [
       "::if !withoutTarget::::target::に::end::再生効果::if withoutTarget::を付与::end::[効果 ::count:: 回復]",
       "::target::에게 재생 효과[효과 ::count:: 회복】",
-      "grant Recover to ::target:: (heal ::count:: HP) ",
+      "grant Recover to ::target:: (heal ::count:: HP)",
       "::if !withoutTarget::::target::に::end::再生効果::if withoutTarget::を付与::end::[効果 ::count:: 回復]",
       "::if !withoutTarget::::target::に::end::再生効果::if withoutTarget::を付与::end::[効果 ::count:: 回復]",
       "::if !withoutTarget::::target::に::end::再生効果::if withoutTarget::を付与::end::[効果 ::count:: 回復]",
@@ -6451,7 +6685,7 @@
     [
       "::if !withoutTarget::::target::の::end::敵へのダウンさせやすさ ::percent_up_down::",
       "::target::의 적을 손쉽게 다운시킴 ::percent_up_down::",
-      "::percent_up_down:: to the rate at which ::target:: Down(s) foes ",
+      "::percent_up_down:: to the rate at which ::target:: Down(s) foes",
       "::if !withoutTarget::::target::の::end::敵へのダウンさせやすさ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::敵へのダウンさせやすさ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::敵へのダウンさせやすさ ::percent_up_down::",
@@ -6464,7 +6698,7 @@
     [
       "::if !withoutTarget::::target::の::end::::constraint::へのダメージ ::percent_up_down::",
       "::target::의 ::constraint::에 대해 대미지 ::percent_up_down::",
-      "::percent_up_down:: to damage against ::constraint::s for ::target:: ",
+      "::percent_up_down:: to damage against ::constraint::s for ::target::",
       "::if !withoutTarget::::target::の::end::::constraint::へのダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::::constraint::へのダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::::constraint::へのダメージ ::percent_up_down::",
@@ -6477,7 +6711,7 @@
     [
       "::if !withoutTarget::::target::の::end::追い打ちダメージ ::percent_up_down::",
       "::target::이(가) 브레이크 다운 중인 적에게 주는 대미지 ::percent_up_down::",
-      "::percent_up_down:: to damage against Broken/Downed foes for ::target:: ",
+      "::percent_up_down:: to damage against Broken/Downed foes for ::target::",
       "::if !withoutTarget::::target::の::end::追い打ちダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::追い打ちダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::追い打ちダメージ ::percent_up_down::",
@@ -6684,14 +6918,14 @@
   "ability_description_condition_content_combo_boost": [
     [
       "::if !withoutTarget::::target::に::end::コンボブースト効果[コンボ + ::count::]",
-      "::if !withoutTarget::::target::에 ::end::콤보 부스트 효과[콤보 + ::count::]",
+      "::if !withoutTarget::::target::에 ::end::콤보 부스트 효과[콤보 ::count::]",
       "grant Combo Boost [+ ::count:: to Combos]::if !withoutTarget:: for ::target::::end::",
       "::if !withoutTarget::::target::に::end::コンボブースト効果[コンボ + ::count::]",
       "::if !withoutTarget::::target::に::end::コンボブースト効果[コンボ + ::count::]",
       "::if !withoutTarget::::target::に::end::コンボブースト効果[コンボ + ::count::]",
       "::if !withoutTarget::::target::に::end::コンボブースト効果[コンボ + ::count::]",
       "::if !withoutTarget::::target::に::end::コンボブースト効果[コンボ + ::count::]",
-      "บูสต์คอมโบ::if !withoutTarget::ให้::target::::end:: [คอมโบ + ::count::]"
+      "ผลบูสต์คอมโบ::if !withoutTarget::ให้::target::::end::[จำนวนคอมโบ ::count::]"
     ]
   ],
   "ability_description_condition_content_combo_restriction": [
@@ -6789,7 +7023,7 @@
     [
       "（消去不可）",
       "(소거 불가)",
-      " (Cannot be dispelled) ",
+      "(Cannot be dispelled)",
       "（消去不可）",
       "（消去不可）",
       "（消去不可）",
@@ -6815,7 +7049,7 @@
     [
       "::if !withoutTarget::::target::の::end::攻撃力 ::percent_up_down::",
       "::target::의 공격력 ::percent_up_down::",
-      "::percent_up_down:: to attack for ::target:: ",
+      "::percent_up_down:: to attack for ::target::",
       "::if !withoutTarget::::target::の::end::攻撃力 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::攻撃力 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::攻撃力 ::percent_up_down::",
@@ -6841,7 +7075,7 @@
     [
       "::if !withoutTarget::::target::の::end::直接攻撃ダメージ ::percent_up_down::",
       "::target::의 직접 공격 대미지 ::percent_up_down::",
-      "::percent_up_down:: to direct hit damage for ::target:: ",
+      "::percent_up_down:: to direct hit damage for ::target::",
       "::if !withoutTarget::::target::の::end::直接攻撃ダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::直接攻撃ダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::直接攻撃ダメージ ::percent_up_down::",
@@ -6880,7 +7114,7 @@
     [
       "::if !withoutTarget::::target::の::end::スキルダメージ ::percent_up_down::",
       "::target::의 스킬 대미지 ::percent_up_down::",
-      "::percent_up_down:: to skill damage for ::target:: ",
+      "::percent_up_down:: to skill damage for ::target::",
       "::if !withoutTarget::::target::の::end::スキルダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::スキルダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::スキルダメージ ::percent_up_down::",
@@ -6958,7 +7192,7 @@
     [
       "::if !withoutTarget::::target::の::end::スキルチャージ速度 ::percent_up_down::",
       "::target::의 스킬 차지 속도 ::percent_up_down::",
-      "::percent_up_down:: to skill charge rate for ::target:: ",
+      "::percent_up_down:: to skill charge rate for ::target::",
       "::if !withoutTarget::::target::の::end::スキルチャージ速度 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::スキルチャージ速度 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::スキルチャージ速度 ::percent_up_down::",
@@ -6984,7 +7218,7 @@
     [
       "::if !withoutTarget::::target::の::end::::element::耐性 ::percent_up_down::",
       "::target::의 ::element:: 내성 ::percent_up_down::",
-      "::percent_up_down:: to ::element::resistance for ::target:: ",
+      "::percent_up_down:: to ::element::resistance for ::target::",
       "::if !withoutTarget::::target::の::end::::element::耐性 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::::element::耐性 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::::element::耐性 ::percent_up_down::",
@@ -7192,7 +7426,7 @@
     [
       "::if !withoutTarget::::target::の::end::::constraint::へのダメージ ::percent_up_down::",
       "::target::의 ::constraint::에 대해 대미지 ::percent_up_down::",
-      "::percent_up_down:: to damage against ::constraint::s for ::target:: ",
+      "::percent_up_down:: to damage against ::constraint::s for ::target::",
       "::if !withoutTarget::::target::の::end::::constraint::へのダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::::constraint::へのダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::::constraint::へのダメージ ::percent_up_down::",
@@ -7218,7 +7452,7 @@
     [
       "::if !withoutTarget::::target::の::end::追い打ちダメージ ::percent_up_down::",
       "::target::이(가) 브레이크 다운 중인 적에게 주는 대미지 ::percent_up_down::",
-      "::percent_up_down:: to damage against Broken/Downed foes for ::target:: ",
+      "::percent_up_down:: to damage against Broken/Downed foes for ::target::",
       "::if !withoutTarget::::target::の::end::追い打ちダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::追い打ちダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::追い打ちダメージ ::percent_up_down::",
@@ -7289,7 +7523,7 @@
       "Lv::level::発動時の::if !withoutTarget::::target::の::end::パワーフリップダメージ ::percent_up_down::",
       "Lv::level::発動時の::if !withoutTarget::::target::の::end::パワーフリップダメージ ::percent_up_down::",
       "Lv::level::発動時の::if !withoutTarget::::target::の::end::パワーフリップダメージ ::percent_up_down::",
-      "เมื่อใช้ตอน Lv::level:: ความเสียหายพาวเวอร์ฟลิป::if !withoutTarget::ของ::target::::end:: ::percent_up_down:: "
+      "เมื่อใช้ตอน Lv::level:: ความเสียหายพาวเวอร์ฟลิป::if !withoutTarget::ของ::target::::end:: ::percent_up_down::"
     ]
   ],
   "ability_description_common_content_power_flip_damage_lv": [
@@ -7302,7 +7536,7 @@
       "::if !withoutTarget::::target::の::end::パワーフリップLv::level::ダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::パワーフリップLv::level::ダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::パワーフリップLv::level::ダメージ ::percent_up_down::",
-      "ความเสียหายพาวเวอร์ฟลิป Lv::level:: ::if !withoutTarget::ของ::target::::end:: ::percent_up_down:: "
+      "ความเสียหายพาวเวอร์ฟลิป Lv::level:: ::if !withoutTarget::ของ::target::::end:: ::percent_up_down::"
     ]
   ],
   "ability_description_common_content_power_flip_damage_separated_term": [
@@ -7341,7 +7575,7 @@
       "::if !withoutTarget::::target::に::end::スピードアップ効果 ::percent_up_down::",
       "::if !withoutTarget::::target::に::end::スピードアップ効果 ::percent_up_down::",
       "::if !withoutTarget::::target::に::end::スピードアップ効果 ::percent_up_down::",
-      "เพิ่มความเร็ว::if !withoutTarget::ให้::target::::end:: ::percent_up_down:: "
+      "เพิ่มความเร็ว::if !withoutTarget::ให้::target::::end:: ::percent_up_down::"
     ]
   ],
   "ability_description_common_content_speedup_summary": [
@@ -7354,7 +7588,7 @@
       "::if !withoutTarget::::target::の::end::スピード::if (strength >= 0)::アップ::else::ダウン::end::",
       "::if !withoutTarget::::target::の::end::スピード::if (strength >= 0)::アップ::else::ダウン::end::",
       "::if !withoutTarget::::target::の::end::スピード::if (strength >= 0)::アップ::else::ダウン::end::",
-      "ความเร็ว::if !withoutTarget::ของ::target::::end:::::if (strength >= 0)::เพิ่มขึ้น::else::ลดลง::end::"
+      "ความเร็ว::if !withoutTarget::ของ::target::::end::::if (strength >= 0)::เพิ่มขึ้น::else::ลดลง::end::"
     ]
   ],
   "ability_description_common_content_fixed_speed": [
@@ -7387,7 +7621,7 @@
     [
       "フィーバーモード時間 ::percent_up_down::",
       "피버 모드 시간 ::percent_up_down::",
-      "::percent_up_down:: to Fever Mode time ",
+      "::percent_up_down:: to Fever Mode time",
       "フィーバーモード時間 ::percent_up_down::",
       "フィーバーモード時間 ::percent_up_down::",
       "フィーバーモード時間 ::percent_up_down::",
@@ -7413,7 +7647,7 @@
     [
       "::if !withoutTarget::::target::の::end::受ける回復量 ::percent_up_down::",
       "::target::의 받는 회복량 ::percent_up_down::",
-      "::percent_up_down:: to Heals casted on ::target:: ",
+      "::percent_up_down:: to Heals casted on ::target::",
       "::if !withoutTarget::::target::の::end::受ける回復量 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::受ける回復量 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::受ける回復量 ::percent_up_down::",
@@ -7478,7 +7712,7 @@
     [
       "::if !withoutTarget::::target::のダメージを::end::::if (strength < 100000) :: ::percent:: ::end::かばう",
       "::target:: 대신 자신이 대미지를 받는다",
-      "take damage in place of ::target:: ",
+      "take damage in place of ::target::",
       "::if !withoutTarget::::target::のダメージを::end::::if (strength < 100000) :: ::percent:: ::end::かばう",
       "::if !withoutTarget::::target::のダメージを::end::::if (strength < 100000) :: ::percent:: ::end::かばう",
       "::if !withoutTarget::::target::のダメージを::end::::if (strength < 100000) :: ::percent:: ::end::かばう",
@@ -7543,7 +7777,7 @@
     [
       "::if !withoutTarget::::target::の::end::毒ダメージ ::percent_up_down::",
       "::target::의 독 대미지 ::percent_up_down::",
-      "::percent_up_down:: to Poison damage for ::target:: ",
+      "::percent_up_down:: to Poison damage for ::target::",
       "::if !withoutTarget::::target::の::end::毒ダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::毒ダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::毒ダメージ ::percent_up_down::",
@@ -7569,20 +7803,20 @@
     [
       "パワーフリップLv3に必要なコンボ数 ::count::",
       "파워 플립 Lv3에 필요한 콤보 수 ::count::",
-      "reach Power Flip Lv. 3 with a combo of ::count:: ",
+      "reach Power Flip Lv. 3 with a combo of ::count::",
       "パワーフリップLv3に必要なコンボ数 ::count::",
       "パワーフリップLv3に必要なコンボ数 ::count::",
       "パワーフリップLv3に必要なコンボ数 ::count::",
       "パワーフリップLv3に必要なコンボ数 ::count::",
       "パワーフリップLv3に必要なコンボ数 ::count::",
-      "จำนวนคอมโบที่จำเป็นสำหรับพาวเวอร์ฟลิป Lv3: ::count:: ครั้ง "
+      "จำนวนคอมโบที่จำเป็นสำหรับพาวเวอร์ฟลิป Lv3: ::count:: ครั้ง"
     ]
   ],
   "ability_description_common_content_power_flip_lv1_combo_count_down": [
     [
       "パワーフリップLv1に必要なコンボ数 ::count::（重複不可）",
       "파워 플립 Lv1에 필요한 콤보 수 ::count::(중복 불가)",
-      "reach Power Flip Lv. 1 with a combo of ::count:: ",
+      "reach Power Flip Lv. 1 with a combo of ::count::",
       "パワーフリップLv1に必要なコンボ数 ::count::（重複不可）",
       "パワーフリップLv1に必要なコンボ数 ::count::（重複不可）",
       "パワーフリップLv1に必要なコンボ数 ::count::（重複不可）",
@@ -7634,7 +7868,7 @@
     [
       "::if !withoutTarget::::target::が::end::その敵に与えるダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::이(가) ::end::해당 적에게 주는 대미지 ::percent_up_down::",
-      "::percent_up_down:: to damage ::if !withoutTarget:: for ::target::::end:: dealt against that/those foe(s) ",
+      "::percent_up_down:: to damage ::if !withoutTarget:: for ::target::::end:: dealt against that/those foe(s)",
       "::if !withoutTarget::::target::が::end::その敵に与えるダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::が::end::その敵に与えるダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::が::end::その敵に与えるダメージ ::percent_up_down::",
@@ -7660,7 +7894,7 @@
     [
       "::if !withoutTarget::::target::の::end::その敵に対する攻撃力 ::percent_up_down::",
       "::if !withoutTarget::::target::의 ::end::해당 적에 대한 공격력 ::percent_up_down::",
-      "::percent_up_down:: to attack ::if !withoutTarget::for ::target::::end:: against that/those foe(s) ",
+      "::percent_up_down:: to attack ::if !withoutTarget::for ::target::::end:: against that/those foe(s)",
       "::if !withoutTarget::::target::の::end::その敵に対する攻撃力 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::その敵に対する攻撃力 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::その敵に対する攻撃力 ::percent_up_down::",
@@ -7673,7 +7907,7 @@
     [
       "::if !withoutTarget::::target::の::end::その敵に対する攻撃力::if (strength >= 0)::アップ::else::ダウン::end::",
       "::if !withoutTarget::::target::의 ::end::해당 적에 대한 공격력 ::if (strength >= 0)::상승::else::하락::end::",
-      "::if (strength >= 0)::increase::else::decrease::end:: attack ::if !withoutTarget::for ::target::::end:: against that/those foe(s) ",
+      "::if (strength >= 0)::increase::else::decrease::end:: attack ::if !withoutTarget::for ::target::::end:: against that/those foe(s)",
       "::if !withoutTarget::::target::の::end::その敵に対する攻撃力::if (strength >= 0)::アップ::else::ダウン::end::",
       "::if !withoutTarget::::target::の::end::その敵に対する攻撃力::if (strength >= 0)::アップ::else::ダウン::end::",
       "::if !withoutTarget::::target::の::end::その敵に対する攻撃力::if (strength >= 0)::アップ::else::ダウン::end::",
@@ -7842,7 +8076,7 @@
     [
       "::if !withoutTarget::::target::が::end::その敵に与える直接攻撃ダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::이(가) ::end::해당 적에게 주는 직접공격 대미지 ::percent_up_down::",
-      "::percent_up_down:: Direct Hit damage ::if !withoutTarget::for ::target::::end:: dealt against that/those foe(s) ",
+      "::percent_up_down:: Direct Hit damage ::if !withoutTarget::for ::target::::end:: dealt against that/those foe(s)",
       "::if !withoutTarget::::target::が::end::その敵に与える直接攻撃ダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::が::end::その敵に与える直接攻撃ダメージ ::percent_up_down::",
       "::if !withoutTarget::::target::が::end::その敵に与える直接攻撃ダメージ ::percent_up_down::",
@@ -7855,7 +8089,7 @@
     [
       "::if !withoutTarget::::target::が::end::その敵に与える直接攻撃ダメージ::if (strength >= 0)::アップ::else::ダウン::end::",
       "::if !withoutTarget::::target::이(가) ::end::해당 적에게 주는 직접공격 대미지 ::if (strength >= 0)::상승::else::하락::end::",
-      "::if (strength >= 0)::increase::else::decrease::end:: Direct Hit damage ::if !withoutTarget::::target::::end:: deals to that/those target(s) ",
+      "::if (strength >= 0)::increase::else::decrease::end:: Direct Hit damage ::if !withoutTarget::::target::::end:: deals to that/those target(s)",
       "::if !withoutTarget::::target::が::end::その敵に与える直接攻撃ダメージ::if (strength >= 0)::アップ::else::ダウン::end::",
       "::if !withoutTarget::::target::が::end::その敵に与える直接攻撃ダメージ::if (strength >= 0)::アップ::else::ダウン::end::",
       "::if !withoutTarget::::target::が::end::その敵に与える直接攻撃ダメージ::if (strength >= 0)::アップ::else::ダウン::end::",
@@ -7985,7 +8219,7 @@
     [
       "::if !withoutTarget::::target::の::end::::condition::無効",
       "::target::의 ::condition:: 무효",
-      "::target:: gain(s) immunity to ::condition:: ",
+      "::target:: gain(s) immunity to ::condition::",
       "::if !withoutTarget::::target::の::end::::condition::無効",
       "::if !withoutTarget::::target::の::end::::condition::無効",
       "::if !withoutTarget::::target::の::end::::condition::無効",
@@ -7998,7 +8232,7 @@
     [
       "::if !withoutTarget::::target::の::end::::condition::の効果時間 ::percent_up_down::",
       "::target::의 ::condition::의 효과 시간 ::percent_up_down::",
-      "::percent_up_down:: to the time ::condition:: is/are active for ::target:: ",
+      "::percent_up_down:: to the time ::condition:: is/are active for ::target::",
       "::if !withoutTarget::::target::の::end::::condition::の効果時間 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::::condition::の効果時間 ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::::condition::の効果時間 ::percent_up_down::",
@@ -8009,14 +8243,14 @@
   ],
   "ability_description_common_content_second_skill_gauge": [
     [
-      "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down:: ",
-      "::target::의 스킬 게이지 최대치 ::percent_up_down:: ",
+      "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down::",
+      "::target::의 스킬 게이지 최대치 ::percent_up_down::",
       "::percent_up_down:: to Skill Gauge max (::target::)",
-      "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down:: ",
-      "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down:: ",
-      "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down:: ",
-      "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down:: ",
-      "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down:: ",
+      "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down::",
+      "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down::",
+      "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down::",
+      "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down::",
+      "::if !withoutTarget::::target::の::end::スキルゲージ最大値 ::percent_up_down::",
       "ค่าเกจสกิลสูงสุดของ::target:: ::percent_up_down::"
     ]
   ],
@@ -8063,7 +8297,7 @@
     [
       "::if !withoutTarget::::target::の::end::棺桶カウント ::count::",
       "::target::의 관 카운트 ::count::",
-      "::count:: to Coffin count for ::target:: ",
+      "::count:: to Coffin count for ::target::",
       "::if !withoutTarget::::target::の::end::棺桶カウント ::count::",
       "::if !withoutTarget::::target::の::end::棺桶カウント ::count::",
       "::if !withoutTarget::::target::の::end::棺桶カウント ::count::",
@@ -8102,7 +8336,7 @@
     [
       "::if !withoutTarget::::target::の::end::HP ::percent_up_down::",
       "::target::의 HP ::percent_up_down::",
-      "::percent_up_down:: to HP for ::target:: ",
+      "::percent_up_down:: to HP for ::target::",
       "::if !withoutTarget::::target::の::end::HP ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::HP ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::HP ::percent_up_down::",
@@ -8121,7 +8355,7 @@
       "::if !withoutTarget::::target::の::end::HPにユニゾンキャラのHPをさらに ::percent_up_down:: 加える",
       "::if !withoutTarget::::target::の::end::HPにユニゾンキャラのHPをさらに ::percent_up_down:: 加える",
       "::if !withoutTarget::::target::の::end::HPにユニゾンキャラのHPをさらに ::percent_up_down:: 加える",
-      "ใช้ HP ของตัวละครประสานพลังเพิ่ม HP::if !withoutTarget::ของ::target::::end:: ::percent_up_down:: "
+      "ใช้ HP ของตัวละครประสานพลังเพิ่ม HP::if !withoutTarget::ของ::target::::end:: ::percent_up_down::"
     ]
   ],
   "ability_description_instant_content_additional_unison_attack": [
@@ -8134,14 +8368,14 @@
       "::if !withoutTarget::::target::の::end::攻撃力にユニゾンキャラの攻撃力をさらに ::percent_up_down:: 加える",
       "::if !withoutTarget::::target::の::end::攻撃力にユニゾンキャラの攻撃力をさらに ::percent_up_down:: 加える",
       "::if !withoutTarget::::target::の::end::攻撃力にユニゾンキャラの攻撃力をさらに ::percent_up_down:: 加える",
-      "ใช้พลังโจมตีของตัวละครประสานพลังเพิ่มพลังโจมตี::if !withoutTarget::ของ::target::::end:: ::percent_up_down:: "
+      "ใช้พลังโจมตีของตัวละครประสานพลังเพิ่มพลังโจมตี::if !withoutTarget::ของ::target::::end:: ::percent_up_down::"
     ]
   ],
   "ability_description_instant_content_ratio_heal": [
     [
       "::if !withoutTarget::::target::を::end::最大HPの ::percent:: 回復",
       "::target::의 최대 HP ::percent:: 회복",
-      "heal ::percent:: of HP for ::target:: ",
+      "heal ::percent:: of HP for ::target::",
       "::if !withoutTarget::::target::を::end::最大HPの ::percent:: 回復",
       "::if !withoutTarget::::target::を::end::最大HPの ::percent:: 回復",
       "::if !withoutTarget::::target::を::end::最大HPの ::percent:: 回復",
@@ -8180,13 +8414,26 @@
     [
       "::if !withoutTarget::::target::に::end::最大HPの ::percent:: のダメージ",
       "::target::에게 최대 HP의 ::percent:: 대미지",
-      "deal damage totalling ::percent:: of max HP to ::target:: ",
+      "deal damage totalling ::percent:: of max HP to ::target::",
       "::if !withoutTarget::::target::に::end::最大HPの ::percent:: のダメージ",
       "::if !withoutTarget::::target::に::end::最大HPの ::percent:: のダメージ",
       "::if !withoutTarget::::target::に::end::最大HPの ::percent:: のダメージ",
       "::if !withoutTarget::::target::に::end::最大HPの ::percent:: のダメージ",
       "::if !withoutTarget::::target::に::end::最大HPの ::percent:: のダメージ",
       "สร้างดาเมจ ::percent:: ของ HP สูงสุดต่อ::target::"
+    ]
+  ],
+  "ability_description_instant_content_ratio_damage_max_hp_if_hp_high": [
+    [
+      "HP ::percent2:: 以上の ::if !withoutTarget::::target::に::end::最大HPの ::percent1:: のダメージ",
+      "HP ::percent2:: 이상의 ::if !withoutTarget::::target::에 ::end::최대HP의 ::percent1:: 의 대미지",
+      "Up to ::percent2:: HP of ::if !withoutTarget::, ::target:: :end:: Damage to ::percent1:: of Max HP",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "สร้างความเสียหาย ::percent1:: ของ HP สูงสุด ::if !withoutTarget::ให้::target::::end::ที่มี HP ::percent2:: ขึ้นไป"
     ]
   ],
   "ability_description_instant_content_fixed_damage": [
@@ -8206,7 +8453,7 @@
     [
       "::if !withoutTarget::::target::の::end::スキルゲージ ::percent_up_down::",
       "::target::의 스킬 게이지 ::percent_up_down::",
-      "::percent_up_down:: to Skill Gauge for ::target:: ",
+      "::percent_up_down:: to Skill Gauge for ::target::",
       "::if !withoutTarget::::target::の::end::スキルゲージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::スキルゲージ ::percent_up_down::",
       "::if !withoutTarget::::target::の::end::スキルゲージ ::percent_up_down::",
@@ -8245,7 +8492,7 @@
     [
       "フィーバーゲージ ::count::",
       "피버 게이지 ::count::",
-      "::count:: to Fever Gauge ",
+      "::count:: to Fever Gauge",
       "フィーバーゲージ ::count::",
       "フィーバーゲージ ::count::",
       "フィーバーゲージ ::count::",
@@ -8297,7 +8544,7 @@
     [
       "コンボ数を ::count:: にする",
       "콤보 수를 ::count:: 로 한다",
-      "set your combo count to ::count:: ",
+      "set your combo count to ::count::",
       "コンボ数を ::count:: にする",
       "コンボ数を ::count:: にする",
       "コンボ数を ::count:: にする",
@@ -8414,13 +8661,26 @@
     [
       "::if !withoutTarget::::target::の::end::弱体効果を ::count:: つ回復",
       "::if !withoutTarget::::target::의 ::end::약화 효과를 ::count:: 개 회복",
-      "heal ::count:: Debuff(s) ::if !withoutTarget::for ::target::::end:: ",
+      "heal ::count:: Debuff(s) ::if !withoutTarget::for ::target::::end::",
       "::if !withoutTarget::::target::の::end::弱体効果を ::count:: つ回復",
       "::if !withoutTarget::::target::の::end::弱体効果を ::count:: つ回復",
       "::if !withoutTarget::::target::の::end::弱体効果を ::count:: つ回復",
       "::if !withoutTarget::::target::の::end::弱体効果を ::count:: つ回復",
       "::if !withoutTarget::::target::の::end::弱体効果を ::count:: つ回復",
       "ฟื้นฟูดีบัฟของ::if !withoutTarget::::target::::end:: ::count:: อย่าง"
+    ]
+  ],
+  "ability_description_instant_content_delete_unique_condition": [
+    [
+      "::if !withoutTarget::::target::の::end::「::name::」を消去",
+      "::if !withoutTarget::::target::의 ::end::「::name::」을(를) 소거",
+      "::if !withoutTarget::::target::の::end::「::name::」を消去",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ลบ \"::name::\" ::if !withoutTarget::::target::::end::"
     ]
   ],
   "ability_description_prameter_reference_attack": [
@@ -8569,20 +8829,20 @@
   "ability_description_for_second": [
     [
       "::second::秒間",
-      "::second::초간 ",
-      "for ::second:: second(s): ",
+      "::second::초간",
+      "for ::second:: second(s):",
       "::second::秒間",
       "::second::秒間",
       "::second::秒間",
       "::second::秒間",
       "::second::秒間",
-      " ::second:: วินาที"
+      "::second:: วินาที"
     ]
   ],
   "ability_description_flip_limit_once": [
     [
       "フリップするまで",
-      "플립할 때까지 ",
+      "플립할 때까지",
       "until the next flip, ",
       "フリップするまで",
       "フリップするまで",
@@ -8595,7 +8855,7 @@
   "ability_description_flip_limit_n_times": [
     [
       "::count:: 回フリップするまで",
-      "::count:: 플립할 때까지 ",
+      "::count:: 플립할 때까지",
       "For the next ::count:: Flips",
       "::count:: 回フリップするまで",
       "::count:: 回フリップするまで",
@@ -8629,6 +8889,32 @@
       "::count:: 回パワーフリップするまで",
       "::count:: 回パワーフリップするまで",
       "จนกว่าจะพาวเวอร์ฟลิป ::count:: ครั้ง"
+    ]
+  ],
+  "ability_description_end_power_flip_limit_once": [
+    [
+      "パワーフリップLv::pfLevel::::if isOver::以上::end::が終了するまで",
+      "파워 플립Lv::pfLevel::::if isOver::이상::end::이 종료할 때까지",
+      "until Power Flip level ::pfLevel::::if isOver:: or higher::end:: ends",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "จนกว่าพาวเวอร์ฟลิป Lv ::pfLevel::::if isOver::ขึ้นไป::end::จะสิ้นสุด"
+    ]
+  ],
+  "ability_description_end_power_flip_limit_n_times": [
+    [
+      "::count:: 回パワーフリップLv::pfLevel::::if isOver::以上::end::が終了するまで",
+      "::count:: 회 파워 플립Lv::pfLevel::::if isOver::이상::end::이 종료할 때까지",
+      "until ::count:: Power Flip(s) level ::pfLevel::::if isOver:: or higher::end:: ends",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "จนกว่าพาวเวอร์ฟลิป ::count:: ครั้ง Lv ::pfLevel::::if isOver::ขึ้นไป::end::จะสิ้นสุด"
     ]
   ],
   "ability_description_variety_element": [
@@ -10220,8 +10506,8 @@
   "ability_description_target_ally": [
     [
       "キャラ",
-      " 캐릭터",
-      " unit",
+      "캐릭터",
+      "unit",
       "キャラ",
       "キャラ",
       "キャラ",
@@ -10234,7 +10520,7 @@
     [
       "の敵",
       "의 적",
-      " enemy",
+      "enemy",
       "の敵",
       "の敵",
       "の敵",
@@ -10284,14 +10570,14 @@
   ],
   "ability_description_delimiter": [
     [
-      " ／ ",
-      " / ",
-      "/ ",
-      " ／ ",
-      " ／ ",
-      " ／ ",
-      " ／ ",
-      " ／ ",
+      "／",
+      "/",
+      "/",
+      "／",
+      "／",
+      "／",
+      "／",
+      "／",
       "/"
     ]
   ],
@@ -10310,15 +10596,15 @@
   ],
   "ability_description_delimiter_content": [
     [
-      " ＆ ",
-      " & ",
-      " & ",
-      " ＆ ",
-      " ＆ ",
-      " ＆ ",
-      " ＆ ",
-      " ＆ ",
-      " & "
+      "＆",
+      "&",
+      "&",
+      "＆",
+      "＆",
+      "＆",
+      "＆",
+      "＆",
+      "&"
     ]
   ],
   "ability_disabled_reason_leader_main": [
@@ -10760,7 +11046,7 @@
       "アビリティ::slot::を1段階強化します。",
       "アビリティ::slot::を1段階強化します。",
       "アビリティ::slot::を1段階強化します。",
-      "เพิ่มระดับของอบิลิตี้ ::slot:: ขึ้น 1 ขั้น"
+      "เสริมพลังอบิลิตี้ ::slot:: 1 ขั้น"
     ]
   ],
   "mana_board_learn_window_ability_power_up_description_before_none": [
@@ -10773,7 +11059,7 @@
       "アビリティ::slot::未習得",
       "アビリティ::slot::未習得",
       "アビリティ::slot::未習得",
-      " & "
+      "&"
     ]
   ],
   "mana_board_learn_window_ability_power_up_description_before_after": [
@@ -10844,92 +11130,92 @@
   "element_kind_red": [
     [
       "火",
-      "불 ",
-      "Fire ",
+      "불",
+      "Fire",
       "火",
       "火",
       "火",
       "火",
       "火",
-      "ไฟ "
+      "ไฟ"
     ]
   ],
   "element_kind_blue": [
     [
       "水",
-      "물 ",
-      "Water ",
+      "물",
+      "Water",
       "水",
       "水",
       "水",
       "水",
       "水",
-      "น้ำ "
+      "น้ำ"
     ]
   ],
   "element_kind_yellow": [
     [
       "雷",
-      "번개 ",
-      "Thunder ",
+      "번개",
+      "Thunder",
       "雷",
       "雷",
       "雷",
       "雷",
       "雷",
-      "สายฟ้า "
+      "สายฟ้า"
     ]
   ],
   "element_kind_green": [
     [
       "風",
-      "바람 ",
-      "Wind ",
+      "바람",
+      "Wind",
       "風",
       "風",
       "風",
       "風",
       "風",
-      "ลม "
+      "ลม"
     ]
   ],
   "element_kind_white": [
     [
       "光",
-      "빛 ",
-      "Light ",
+      "빛",
+      "Light",
       "光",
       "光",
       "光",
       "光",
       "光",
-      "แสง "
+      "แสง"
     ]
   ],
   "element_kind_black": [
     [
       "闇",
-      "어둠 ",
-      "Dark ",
+      "어둠",
+      "Dark",
       "闇",
       "闇",
       "闇",
       "闇",
       "闇",
-      "มืด "
+      "มืด"
     ]
   ],
   "element_kind_any": [
     [
       "無",
-      "없음 ",
-      "No Elemental ",
+      "없음",
+      "No Elemental",
       "無",
       "無",
       "無",
       "無",
       "無",
-      "ไม่มี "
+      "ไม่มี"
     ]
   ],
   "element_kind_colorless": [
@@ -10961,105 +11247,105 @@
   "element_kind_red_full": [
     [
       "火属性",
-      "화속성 ",
-      "Fire ",
+      "화속성",
+      "Fire",
       "火属性",
       "火属性",
       "火属性",
       "火属性",
       "火属性",
-      "ธาตุไฟ "
+      "ธาตุไฟ"
     ]
   ],
   "element_kind_blue_full": [
     [
       "水属性",
-      "수속성 ",
-      "Water ",
+      "수속성",
+      "Water",
       "水属性",
       "水属性",
       "水属性",
       "水属性",
       "水属性",
-      "ธาตุน้ำ "
+      "ธาตุน้ำ"
     ]
   ],
   "element_kind_yellow_full": [
     [
       "雷属性",
-      "뇌속성 ",
-      "Thunder ",
+      "뇌속성",
+      "Thunder",
       "雷属性",
       "雷属性",
       "雷属性",
       "雷属性",
       "雷属性",
-      "ธาตุสายฟ้า "
+      "ธาตุสายฟ้า"
     ]
   ],
   "element_kind_green_full": [
     [
       "風属性",
-      "풍속성 ",
-      "Wind ",
+      "풍속성",
+      "Wind",
       "風属性",
       "風属性",
       "風属性",
       "風属性",
       "風属性",
-      "ธาตุลม "
+      "ธาตุลม"
     ]
   ],
   "element_kind_white_full": [
     [
       "光属性",
-      "광속성 ",
-      "Light ",
+      "광속성",
+      "Light",
       "光属性",
       "光属性",
       "光属性",
       "光属性",
       "光属性",
-      "ธาตุแสง "
+      "ธาตุแสง"
     ]
   ],
   "element_kind_black_full": [
     [
       "闇属性",
-      "암속성 ",
-      "Dark ",
+      "암속성",
+      "Dark",
       "闇属性",
       "闇属性",
       "闇属性",
       "闇属性",
       "闇属性",
-      "ธาตุมืด "
+      "ธาตุมืด"
     ]
   ],
   "element_kind_all_full": [
     [
       "全属性",
-      "전속성 ",
-      "All Elemental ",
+      "전속성",
+      "All Elemental",
       "全属性",
       "全属性",
       "全属性",
       "全属性",
       "全属性",
-      "ทุกธาตุ "
+      "ทุกธาตุ"
     ]
   ],
   "element_kind_any_full": [
     [
       "無属性",
-      "무속성 ",
-      "No Elemental ",
+      "무속성",
+      "No Elemental",
       "無属性",
       "無属性",
       "無属性",
       "無属性",
       "無属性",
-      "ไร้ธาตุ "
+      "ไร้ธาตุ"
     ]
   ],
   "element_kind_colorless_full": [
@@ -11286,7 +11572,7 @@
   "equipment_level": [
     [
       "覚醒Lv",
-      "각성Lv",
+      "각성 Lv",
       "Level",
       "覚醒Lv",
       "覚醒Lv",
@@ -11858,7 +12144,7 @@
   "ex_boost_notify_no_ex_ability": [
     [
       "現在習得しているEXステータス・\nアビリティはありません\n\nEXブーストするにはキャラの\n最大Lvが100である必要があります",
-      "현재 습득한 EX 스테이터스·\n어빌리티는 없습니다\n\nEX 부스트를 하기 위해서는 캐릭터의\n최대 Lv이 100이어야 합니다",
+      "현재 습득한 EX 스테이터스·\n어빌리티는 없습니다\n\nEX 부스트를 하기 위해서는 캐릭터의\n최대 Lv이 100이여야 합니다",
       "Unit does not have any EX stats or abilities.\nA unit must be level 100 to acquire EX Boosts.",
       "現在習得しているEXステータス・\nアビリティはありません\n\nEXブーストするにはキャラの\n最大Lvが100である必要があります",
       "現在習得しているEXステータス・\nアビリティはありません\n\nEXブーストするにはキャラの\n最大Lvが100である必要があります",
@@ -12144,14 +12430,14 @@
   "conversion_to_exp_notice_about_character_lost": [
     [
       "スタックが 0 の場合キャラ自身\nを経験値に変換できますが\nその場合 <font color='#EA354C'>キャラは帰還します</font>",
-      "스택이 0인 경우 캐릭터 자신을 \n경험치로 변환할 수 있지만\n그 경우 <font color='#EA354C'>캐릭터는 귀환합니다</font>",
-      "When you convert a unit with no dupes into EXP, <font color='#EA354C'>you lose that unit.</font>",
+      "스택이 0인 캐릭터는 경험치로 변환할 수 없습니다",
+      "Only dupes of a unit can be converted into EXP. If there are zero dupes available, then no EXP will be gained.",
       "スタックが 0 の場合キャラ自身\nを経験値に変換できますが\nその場合 <font color='#EA354C'>キャラは帰還します</font>",
       "スタックが 0 の場合キャラ自身\nを経験値に変換できますが\nその場合 <font color='#EA354C'>キャラは帰還します</font>",
       "スタックが 0 の場合キャラ自身\nを経験値に変換できますが\nその場合 <font color='#EA354C'>キャラは帰還します</font>",
       "スタックが 0 の場合キャラ自身\nを経験値に変換できますが\nその場合 <font color='#EA354C'>キャラは帰還します</font>",
       "スタックが 0 の場合キャラ自身\nを経験値に変換できますが\nその場合 <font color='#EA354C'>キャラは帰還します</font>",
-      "ในกรณีที่สแต็กเป็น 0 \nสามารถเปลี่ยนตัวละคร\nมาเป็นค่าประสบการณ์ได้\nแต่ว่าในกรณีนี้<font color='#EA354C'>ตัวละครจะถูกส่งกลับ</font>"
+      "ตัวละครที่สแต็กเป็น 0 \nเปลี่ยนเป็นค่าประสบการณ์ไม่ได้"
     ]
   ],
   "conversion_to_exp_notice_about_character_rejoin": [
@@ -12274,14 +12560,14 @@
   "conversion_to_exp_how_to_play": [
     [
       "不要なスタックやキャラ自身を\n経験値に変換することができます\n\nキャラ自身を経験値に変換した場合\nそのキャラは帰還してしまいます\n\nキャラが再加入した場合でも\n帰還時のステータスは引き継がれません\n\n※ガチャから登場するキャラは\n星の粒を入手できます",
-      "불필요한 스택이나 캐릭터를\n경험치로 변환할 수 있습니다\n\n캐릭터를 경험치로 변환할 경우\n해당 캐릭터는 귀환하게 됩니다\n\n캐릭터를 다시 획득한 경우에도\n귀환 당시의 스테이터스를 이어받지 않습니다",
-      "You can convert units and dupes into EXP.\n\nHowever, units converted into EXP will be lost.\n\nEven if the same unit joins you again, all their stats will be reset.",
+      "불필요한 스택을\n경험치로 변환할 수 있습니다.\n\n스택이 0인 경우, 경험치로\n변환할 수 없습니다.\n\n※뽑기에서 등장하는 캐릭터는\n별의 가루를 획득할 수 있습니다.",
+      "You can convert dupes into EXP. \n\nOnly dupes of a unit can be converted into EXP. \nIf there are zero dupes available, then no EXP will be gained.\n\nUnits from Portals can be obtained using Star Slivers.",
       "不要なスタックやキャラ自身を\n経験値に変換することができます\n\nキャラ自身を経験値に変換した場合\nそのキャラは帰還してしまいます\n\nキャラが再加入した場合でも\n帰還時のステータスは引き継がれません\n\n※ガチャから登場するキャラは\n星の粒を入手できます",
       "不要なスタックやキャラ自身を\n経験値に変換することができます\n\nキャラ自身を経験値に変換した場合\nそのキャラは帰還してしまいます\n\nキャラが再加入した場合でも\n帰還時のステータスは引き継がれません\n\n※ガチャから登場するキャラは\n星の粒を入手できます",
       "不要なスタックやキャラ自身を\n経験値に変換することができます\n\nキャラ自身を経験値に変換した場合\nそのキャラは帰還してしまいます\n\nキャラが再加入した場合でも\n帰還時のステータスは引き継がれません\n\n※ガチャから登場するキャラは\n星の粒を入手できます",
       "不要なスタックやキャラ自身を\n経験値に変換することができます\n\nキャラ自身を経験値に変換した場合\nそのキャラは帰還してしまいます\n\nキャラが再加入した場合でも\n帰還時のステータスは引き継がれません\n\n※ガチャから登場するキャラは\n星の粒を入手できます",
       "不要なスタックやキャラ自身を\n経験値に変換することができます\n\nキャラ自身を経験値に変換した場合\nそのキャラは帰還してしまいます\n\nキャラが再加入した場合でも\n帰還時のステータスは引き継がれません\n\n※ガチャから登場するキャラは\n星の粒を入手できます",
-      "สามารถนำตัวละครหรือสแต็กที่ไม่จำเป็น\nมาแลกเป็นค่าประสบการณ์ได้\n\nกรณีที่เปลี่ยนตัวละครเป็นค่าประสบการณ์\nตัวละครนั้นจะถูกส่งตัวกลับ\n\nถึงแม้จะได้รับตัวละครมาอีกครั้งหนึ่ง\nก็ไม่สามารถถ่ายโอนสเตตัสเดิมได้"
+      "เปลี่ยนสแต็กที่ไม่ต้องการ\nให้เป็นค่าประสบการณ์ได้\n\nหากสแต็กเป็น 0 จะเปลี่ยนเป็น\nค่าประสบการณ์ไม่ได้\n\n*ตัวละครที่ปรากฏตัวจากกาชา\nจะได้รับเม็ดดาว"
     ]
   ],
   "nocheck_dialog_message": [
@@ -12365,14 +12651,14 @@
   "conversion_to_exp_impossible_reason_unconvertible_character": [
     [
       "このキャラは経験値に変換できません",
-      "이 캐릭터는 경험치로 변환할 수 없습니다",
-      "This unit cannot be converted into EXP.",
+      "이 캐릭터의 스택이 0이기 때문에 경험치로 변환할 수 없습니다",
+      "This unit has no dupes available to be converted into EXP.",
       "このキャラは経験値に変換できません",
       "このキャラは経験値に変換できません",
       "このキャラは経験値に変換できません",
       "このキャラは経験値に変換できません",
       "このキャラは経験値に変換できません",
-      "ไม่สามารถแลกเปลี่ยนตัวละครนี้เป็นค่าประสบการณ์ได้"
+      "ตัวละครนี้มีสแต็กเป็น 0 จึงเปลี่ยนเป็นค่าประสบการณ์ไม่ได้"
     ]
   ],
   "expod_bulk_conversion_to_exp_dialog_title": [
@@ -12404,14 +12690,14 @@
   "expod_bulk_conversion_to_exp_dialog_notice": [
     [
       "※キャラが帰還することはありません\n※オーバーリミット上限のキャラが対象です\n※ガチャから登場するキャラは星の粒を入手できます",
-      "※ 캐릭터가 귀환하는 일은 없습니다\n※ 오버 리미트 상한인 캐릭터가 대상입니다\n※ 뽑기에서 등장하는 캐릭터는 별의 가루를 획득할 수 있습니다.",
-      "Units will be lost.\n\nSelection applies to Over Limit units.\n\nStar Specks will be received for units from Portals.",
+      "※오버 리미트 상한인 캐릭터가 대상입니다\n※뽑기에서 등장하는 캐릭터는 별의 가루를 획득할 수 있습니다",
+      "Selection applies to Over Limit units.\n\nStar Specks will be received for units from Portals.",
       "※キャラが帰還することはありません\n※オーバーリミット上限のキャラが対象です\n※ガチャから登場するキャラは星の粒を入手できます",
       "※キャラが帰還することはありません\n※オーバーリミット上限のキャラが対象です\n※ガチャから登場するキャラは星の粒を入手できます",
       "※キャラが帰還することはありません\n※オーバーリミット上限のキャラが対象です\n※ガチャから登場するキャラは星の粒を入手できます",
       "※キャラが帰還することはありません\n※オーバーリミット上限のキャラが対象です\n※ガチャから登場するキャラは星の粒を入手できます",
       "※キャラが帰還することはありません\n※オーバーリミット上限のキャラが対象です\n※ガチャから登場するキャラは星の粒を入手できます",
-      "* ตัวละครจะไม่กลับคืนมา\n* ตัวละครที่เข้าข่ายคือตัวละครที่ข้ามขีดจำกัด\n* ตัวละครที่ปรากฏที่กาชาจะสามารถรับเม็ดดาวได้"
+      "*ใช้ได้กับตัวละครที่โอเวอร์ลิมิตเกินขีดจำกัด\n*ตัวละครที่ปรากฏตัวจากกาชาจะได้รับเม็ดดาว"
     ]
   ],
   "expod_bulk_conversion_to_exp_dialog_check_message": [
@@ -13354,20 +13640,20 @@
     [
       "特殊装備強化",
       "특수 장비 강화",
-      "Armament Augmentation",
+      "Augment Armament",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
-      "อัปอุปกรณ์พิเศษ"
+      "เสริมพลังอุปกรณ์พิเศษ"
     ]
   ],
   "help_label_equipment_enhancement_anamnesis_weapon": [
     [
       "追憶装備強化",
       "추억 장비 강화",
-      "Nostalgia Armament Augmentation",
+      "Augment Nostalgia Armament",
       "追憶装備強化",
       "追憶装備強化",
       "追憶装備強化",
@@ -13380,7 +13666,7 @@
     [
       "粛清装備強化",
       "숙청 장비 강화",
-      "Purger Armament Augmentation",
+      "Augment Purge Armament",
       "粛清装備強化",
       "粛清装備強化",
       "粛清装備強化",
@@ -13393,7 +13679,7 @@
     [
       "機兵装備強化",
       "기병 장비 강화",
-      "Steambot Armament Augmentation",
+      "Augment Steambot Armament",
       "機兵装備強化",
       "機兵装備強化",
       "機兵装備強化",
@@ -13588,7 +13874,7 @@
     [
       "降臨討伐 魁雷の精霊獣",
       "강림 토벌 괴뢰의 정령수",
-      "The Descension: Thundering Spiritbeast",
+      "Thundering Spiritbeast",
       "降臨討伐 魁雷の精霊獣",
       "降臨討伐 魁雷の精霊獣",
       "降臨討伐 魁雷の精霊獣",
@@ -13601,7 +13887,7 @@
     [
       "降臨討伐 水狂の精霊獣",
       "강림 토벌 수광의 정령수",
-      "The Descension: Maelstrom Spiritbeast",
+      "Maelstrom Spiritbeast",
       "降臨討伐 水狂の精霊獣",
       "降臨討伐 水狂の精霊獣",
       "降臨討伐 水狂の精霊獣",
@@ -13666,13 +13952,52 @@
     [
       "降臨討伐 紅嫉の機兵",
       "강림 토벌 홍질의 기병",
-      "The Descension Inferno Steambot",
+      "Inferno Steambot",
       "降臨討伐 紅嫉の機兵",
       "降臨討伐 紅嫉の機兵",
       "降臨討伐 紅嫉の機兵",
       "降臨討伐 紅嫉の機兵",
       "降臨討伐 紅嫉の機兵",
       "ปราบบอสจุติ ทหารจักรกลริษยาแดงชาด"
+    ]
+  ],
+  "help_label_event_advent_steam_robot_wind": [
+    [
+      "降臨討伐 翠愁の機兵",
+      "강림 토벌 취수의 기병",
+      "강림 토벌 취수의 기병",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ปราบบอสจุติ ทหารจักรกลโศกาสีหยก"
+    ]
+  ],
+  "help_label_event_advent_steam_robot_water": [
+    [
+      "降臨討伐 蒼歎の機兵",
+      "강림 토벌 창탄의 기병",
+      "강림 토벌 창탄의 기병",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ปราบบอสจุติ ทหารจักรกลครวญคราม"
+    ]
+  ],
+  "help_label_event_advent_steam_robot_light": [
+    [
+      "降臨討伐 閃哭の機兵",
+      "강림 토벌 섬곡의 기병",
+      "강림 토벌 섬곡의 기병",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ปราบบอสจุติ ทหารจักรกลจรัสไห้"
     ]
   ],
   "help_label_event_advent_zcollab": [
@@ -13805,6 +14130,19 @@
       "ปราบบอสจุติ"
     ]
   ],
+  "help_label_event_kc_summer_2021": [
+    [
+      "クグイとリョウキの特別訓練！",
+      "쿠구이와 료키의 특별훈련!",
+      "쿠구이와 료키의 특별훈련!",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "การฝึกพิเศษของคุกุอิและเรียวคิ!"
+    ]
+  ],
   "help_label_event_boss_epuration_event_01": [
     [
       "粛清者討伐戦",
@@ -13829,6 +14167,45 @@
       "共同決戦 紅嫉の機兵",
       "共同決戦 紅嫉の機兵",
       "ศึกตัดสินร่วม ทหารจักรกลริษยาแดงชาด"
+    ]
+  ],
+  "help_label_event_hard_multi_wind": [
+    [
+      "共同決戦 翠愁の機兵",
+      "공동 결전 취수의 기병",
+      "공동 결전 취수의 기병",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ศึกตัดสินร่วม ทหารจักรกลโศกาสีหยก"
+    ]
+  ],
+  "help_label_event_hard_multi_water": [
+    [
+      "共同決戦 蒼歎の機兵",
+      "공동 결전 창탄의 기병",
+      "공동 결전 창탄의 기병",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ศึกตัดสินร่วม ทหารจักรกลครวญคราม"
+    ]
+  ],
+  "help_label_event_hard_multi_light": [
+    [
+      "共同決戦 閃哭の機兵",
+      "공동 결전 섬곡의 기병",
+      "공동 결전 섬곡의 기병",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ศึกตัดสินร่วม ทหารจักรกลจรัสไห้"
     ]
   ],
   "help_label_event_challenge": [
@@ -13990,7 +14367,7 @@
   "help_label_event_multi_special_exchange": [
     [
       "みんなでキャラチョイス",
-      "모두 함께 캐릭터 초이스",
+      "다 함께 캐릭터 초이스",
       "People's Choice Reward",
       "みんなでキャラチョイス",
       "みんなでキャラチョイス",
@@ -14004,7 +14381,7 @@
     [
       "特殊装備強化ショップ",
       "특수 장비 강화 상점",
-      "Armament Augmentation Shop",
+      "Armament Augment Shop",
       "特殊装備強化ショップ",
       "特殊装備強化ショップ",
       "特殊装備強化ショップ",
@@ -15001,6 +15378,19 @@
       "SCORE"
     ]
   ],
+  "quest_detail_time_label": [
+    [
+      "TIME",
+      "TIME",
+      "TIME",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "TIME"
+    ]
+  ],
   "quest_detail_ss_rank_label": [
     [
       "SSランク",
@@ -15486,13 +15876,13 @@
     [
       "期間限定",
       "기간 한정",
-      "Limited-Time ",
+      "Limited-Time",
       "期間限定",
       "期間限定",
       "期間限定",
       "期間限定",
       "期間限定",
-      "จำกัดเวลา "
+      "จำกัดเวลา"
     ]
   ],
   "boss_list_clear_count": [
@@ -15589,7 +15979,7 @@
   "stamina_recover_dialog_stone_count_change": [
     [
       "所持",
-      "보유  ",
+      "보유",
       "Owned",
       "所持",
       "所持",
@@ -15770,14 +16160,14 @@
   ],
   "menu_news_add": [
     [
-      "追記 ",
-      "추기 ",
+      "追記",
+      "추기",
       "Info",
-      "追記 ",
-      "追記 ",
-      "追記 ",
-      "追記 ",
-      "追記 ",
+      "追記",
+      "追記",
+      "追記",
+      "追記",
+      "追記",
       "เพิ่มเติม"
     ]
   ],
@@ -16186,14 +16576,14 @@
   ],
   "encyclopedia_keyword_details_header_character_label_separator": [
     [
-      ": ",
-      ": ",
       ":",
-      ": ",
-      ": ",
-      ": ",
-      ": ",
-      ": ",
+      ":",
+      ":",
+      ":",
+      ":",
+      ":",
+      ":",
+      ":",
       ":"
     ]
   ],
@@ -16577,7 +16967,7 @@
   "encyclopedia_character_list_setting_dialog_filter_search_placeholder": [
     [
       "キャラの名前を入力してください",
-      "캐릭터의 이름을 입력해주세요. ",
+      "캐릭터의 이름을 입력해주세요.",
       "Enter the unit's name.",
       "キャラの名前を入力してください",
       "キャラの名前を入力してください",
@@ -16590,7 +16980,7 @@
   "encyclopedia_character_list_setting_dialog_filter_search_description": [
     [
       "※最低::number::文字まで入力してください",
-      "※최저 ::number:: 문자까지 입력해주세요. ",
+      "※최저 ::number:: 문자까지 입력해주세요.",
       "Please input at least ::number:: characters.",
       "※最低::number::文字まで入力してください",
       "※最低::number::文字まで入力してください",
@@ -17187,14 +17577,14 @@
   ],
   "item_how_to_get_shop_general": [
     [
-      "取引所で手に入れる ",
+      "取引所で手に入れる",
       "거래소에서 획득",
       "The Trading Post",
-      "取引所で手に入れる ",
-      "取引所で手に入れる ",
-      "取引所で手に入れる ",
-      "取引所で手に入れる ",
-      "取引所で手に入れる ",
+      "取引所で手に入れる",
+      "取引所で手に入れる",
+      "取引所で手に入れる",
+      "取引所で手に入れる",
+      "取引所で手に入れる",
       "สามารถรับได้จากร้านแลกของ"
     ]
   ],
@@ -17572,7 +17962,7 @@
       "使用中 :",
       "使用中 :",
       "使用中 :",
-      "กำลังใช้: "
+      "กำลังใช้:"
     ]
   ],
   "ability_soul_filter_dialog_title": [
@@ -18020,7 +18410,7 @@
   "possession": [
     [
       "所持",
-      "보유  ",
+      "보유",
       "Owned",
       "所持",
       "所持",
@@ -18053,7 +18443,7 @@
       "：",
       "：",
       "：",
-      ": "
+      ":"
     ]
   ],
   "title_mail": [
@@ -18396,14 +18786,14 @@
   ],
   "shop_buy_complete_message_product": [
     [
-      "::name:: × ::count:: ",
-      "::name:: × ::count:: ",
-      "::name:: × ::count:: ",
-      "::name:: × ::count:: ",
-      "::name:: × ::count:: ",
-      "::name:: × ::count:: ",
-      "::name:: × ::count:: ",
-      "::name:: × ::count:: ",
+      "::name:: × ::count::",
+      "::name:: × ::count::",
+      "::name:: × ::count::",
+      "::name:: × ::count::",
+      "::name:: × ::count::",
+      "::name:: × ::count::",
+      "::name:: × ::count::",
+      "::name:: × ::count::",
       "::name:: × ::count::"
     ]
   ],
@@ -18528,13 +18918,13 @@
     [
       "特殊装備強化",
       "특수 장비 강화",
-      "Armament Augmentation",
+      "Augment Armament",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
-      "อัปอุปกรณ์พิเศษ"
+      "เสริมพลังอุปกรณ์พิเศษ"
     ]
   ],
   "mail_detail_receive": [
@@ -18561,6 +18951,19 @@
       "「::base_equipment::」を強化するには、::base_equipment::を入手し、覚醒Lvを::require_level::以上にする必要があります",
       "「::base_equipment::」を強化するには、::base_equipment::を入手し、覚醒Lvを::require_level::以上にする必要があります",
       "ในการเสริมพลัง \"::base_equipment::\" ต้องมี::base_equipment:: และต้องปลุกพลังให้อยู่ในระดับ ::require_level:: หรือมากกว่า"
+    ]
+  ],
+  "shop_not_have_equipment_for_enhancement_not_need_level": [
+    [
+      "「::base_equipment::」を強化するには、::base_equipment::を入手する必要があります",
+      "「::base_equipment::」을(를) 강화하려면 ::base_equipment::을(를) 획득할 필요가 있습니다",
+      "You need ::base_equipment:: to upgrade ::base_equipment::.",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ในการเสริมพลัง \"::base_equipment::\" ต้องมี ::base_equipment::"
     ]
   ],
   "shop_shortage_equipment_level": [
@@ -18878,26 +19281,26 @@
   "shop_top_list_special_character_exchange_campaign": [
     [
       "スペシャルキャラ交換",
-      "스페셜 캐릭터 교환",
-      "Scout",
+      "캐릭터 교환 티켓 기프트 CP",
+      "Scout a Unit",
       "スペシャルキャラ交換",
       "スペシャルキャラ交換",
       "スペシャルキャラ交換",
       "スペシャルキャラ交換",
       "スペシャルキャラ交換",
-      "แลกตัวละครพิเศษ"
+      "แคมเปญของขวัญตั๋วแลกตัวละคร"
     ]
   ],
   "shop_top_list_special_equipment_exchange_campaign": [
     [
-      "スペシャル装備アイテム交換 ",
+      "スペシャル装備アイテム交換",
       "스페셜 장비 아이템 교환",
       "Special Armament Shop",
-      "スペシャル装備アイテム交換 ",
-      "スペシャル装備アイテム交換 ",
-      "スペシャル装備アイテム交換 ",
-      "スペシャル装備アイテム交換 ",
-      "スペシャル装備アイテム交換 ",
+      "スペシャル装備アイテム交換",
+      "スペシャル装備アイテム交換",
+      "スペシャル装備アイテム交換",
+      "スペシャル装備アイテム交換",
+      "スペシャル装備アイテム交換",
       "แลกเปลี่ยนไอเทมอุปกรณ์พิเศษ"
     ]
   ],
@@ -18944,13 +19347,13 @@
     [
       "特殊装備強化",
       "특수 장비 강화",
-      "Armament Augmentation",
+      "Augment Armament",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
-      "อัปอุปกรณ์พิเศษ"
+      "เสริมพลังอุปกรณ์พิเศษ"
     ]
   ],
   "shop_top_price_count": [
@@ -19054,7 +19457,7 @@
       "マナの所持上限を超えるため購入できません",
       "マナの所持上限を超えるため購入できません",
       "マナの所持上限を超えるため購入できません",
-      "ไม่สามารถซื้อได้เนื่องจากจะทำให้มีมานาเกินขีดจำกัด"
+      "\nไม่สามารถซื้อได้เนื่องจากจะทำให้มีมานาเกินขีดจำกัด"
     ]
   ],
   "shop_list_purchase_number": [
@@ -19397,14 +19800,14 @@
   ],
   "event_item_exchange_shop_cell_price_count": [
     [
-      "::numer:: / ::denom:: ",
-      "::numer:: / ::denom:: ",
-      "::numer:: / ::denom:: ",
-      "::numer:: / ::denom:: ",
-      "::numer:: / ::denom:: ",
-      "::numer:: / ::denom:: ",
-      "::numer:: / ::denom:: ",
-      "::numer:: / ::denom:: ",
+      "::numer:: / ::denom::",
+      "::numer:: / ::denom::",
+      "::numer:: / ::denom::",
+      "::numer:: / ::denom::",
+      "::numer:: / ::denom::",
+      "::numer:: / ::denom::",
+      "::numer:: / ::denom::",
+      "::numer:: / ::denom::",
       "::numer:: / ::denom::"
     ]
   ],
@@ -19423,14 +19826,14 @@
   ],
   "event_item_exchange_shop_cell_limit_count": [
     [
-      "::numer:: / ::denom:: ",
-      "::numer:: / ::denom:: ",
-      "::numer:: / ::denom:: ",
-      "::numer:: / ::denom:: ",
-      "::numer:: / ::denom:: ",
-      "::numer:: / ::denom:: ",
-      "::numer:: / ::denom:: ",
-      "::numer:: / ::denom:: ",
+      "::numer:: / ::denom::",
+      "::numer:: / ::denom::",
+      "::numer:: / ::denom::",
+      "::numer:: / ::denom::",
+      "::numer:: / ::denom::",
+      "::numer:: / ::denom::",
+      "::numer:: / ::denom::",
+      "::numer:: / ::denom::",
       "::numer:: / ::denom::"
     ]
   ],
@@ -20127,7 +20530,7 @@
     [
       "<font size='24px'>在庫数</font> ::value::",
       "<font size='24px'>재고 수</font> ::value::",
-      "<font size='24px'>Stock</font>: ::value::",
+      "<font size='24px'>Current Stock</font>: ::value::",
       "<font size='24px'>在庫数</font> ::value::",
       "<font size='24px'>在庫数</font> ::value::",
       "<font size='24px'>在庫数</font> ::value::",
@@ -20151,14 +20554,14 @@
   ],
   "exchange_campaign_list_empty_character_placeholder": [
     [
-      "絞り込み条件に合うキャラが見つかりませんでした ",
+      "絞り込み条件に合うキャラが見つかりませんでした",
       "상세 검색 조건에 맞는 캐릭터를 찾지 못했습니다",
       "No matching units found.",
-      "絞り込み条件に合うキャラが見つかりませんでした ",
-      "絞り込み条件に合うキャラが見つかりませんでした ",
-      "絞り込み条件に合うキャラが見つかりませんでした ",
-      "絞り込み条件に合うキャラが見つかりませんでした ",
-      "絞り込み条件に合うキャラが見つかりませんでした ",
+      "絞り込み条件に合うキャラが見つかりませんでした",
+      "絞り込み条件に合うキャラが見つかりませんでした",
+      "絞り込み条件に合うキャラが見つかりませんでした",
+      "絞り込み条件に合うキャラが見つかりませんでした",
+      "絞り込み条件に合うキャラが見つかりませんでした",
       "ไม่พบตัวละครที่ตรงกับเงื่อนไขการกรอง"
     ]
   ],
@@ -20490,14 +20893,14 @@
   "multi_special_exchange_campaign_exchange_character_confirm_dialog_header": [
     [
       "以下内容で交換します。よろしいですか？",
-      "이하 내용을 교환합니다. 괜찮습니까?",
+      "이하 내용을 교환합니다\n괜찮습니까?",
       "Make the following exchange?",
       "以下内容で交換します。よろしいですか？",
       "以下内容で交換します。よろしいですか？",
       "以下内容で交換します。よろしいですか？",
       "以下内容で交換します。よろしいですか？",
       "以下内容で交換します。よろしいですか？",
-      "จะทำการแลกตามรายละเอียดด้านล่าง ท่านแน่ใจหรือไม่?"
+      "จะแลกกับไอเทมต่อไปนี้\nตกลงหรือไม่"
     ]
   ],
   "multi_special_exchange_campaign_exchange_character_confirm_dialog_item": [
@@ -23026,7 +23429,7 @@
     [
       "【::nickname::】",
       "[::nickname::]",
-      "(::nickname::) ",
+      "(::nickname::)",
       "【::nickname::】",
       "【::nickname::】",
       "【::nickname::】",
@@ -23271,14 +23674,14 @@
   ],
   "receive_history_description": [
     [
-      "::name:: × ::number:: ",
-      "::name:: × ::number:: ",
-      "::name:: × ::number:: ",
-      "::name:: × ::number:: ",
-      "::name:: × ::number:: ",
-      "::name:: × ::number:: ",
-      "::name:: × ::number:: ",
-      "::name:: × ::number:: ",
+      "::name:: × ::number::",
+      "::name:: × ::number::",
+      "::name:: × ::number::",
+      "::name:: × ::number::",
+      "::name:: × ::number::",
+      "::name:: × ::number::",
+      "::name:: × ::number::",
+      "::name:: × ::number::",
       "::name:: × ::number::"
     ]
   ],
@@ -23286,7 +23689,7 @@
     [
       "スタミナを回復します",
       "스태미나를 회복합니다",
-      "Restoring stamina. ",
+      "Restoring stamina.",
       "スタミナを回復します",
       "スタミナを回復します",
       "スタミナを回復します",
@@ -23344,7 +23747,7 @@
       "スタミナを ::value:: 回復する",
       "スタミナを ::value:: 回復する",
       "スタミナを ::value:: 回復する",
-      "ฟื้นฟูสตามินาจำนวน ::value:: "
+      "ฟื้นฟูสตามินาจำนวน ::value::"
     ]
   ],
   "stamina_recover_item_description_period": [
@@ -23364,13 +23767,13 @@
     [
       "スタミナ：",
       "스태미나：",
-      "Stamina: ",
+      "Stamina:",
       "スタミナ：",
       "スタミナ：",
       "スタミナ：",
       "スタミナ：",
       "スタミナ：",
-      "สตามินา: "
+      "สตามินา:"
     ]
   ],
   "stamina_recover_dialog_stamina_value": [
@@ -23552,7 +23955,7 @@
       "アビリティ::skill_slot_index::強化",
       "アビリティ::skill_slot_index::強化",
       "アビリティ::skill_slot_index::強化",
-      "เสริมอบิลิตี้ ::skill_slot_index:: "
+      "เสริมอบิลิตี้ ::skill_slot_index::"
     ]
   ],
   "ability_name_ability_aquire": [
@@ -23584,7 +23987,7 @@
   "ability_description_hp_plus": [
     [
       "HPが ::plus_value:: アップ！",
-      "HP가 ::plus_value:: 업! ",
+      "HP가 ::plus_value:: 업!",
       "HP increased by ::plus_value::!",
       "HPが ::plus_value:: アップ！",
       "HPが ::plus_value:: アップ！",
@@ -23597,7 +24000,7 @@
   "ability_description_attack_plus": [
     [
       "攻撃力が ::plus_value:: アップ！",
-      "공격력이 ::plus_value:: 업! ",
+      "공격력이 ::plus_value:: 업!",
       "Attack increased by ::plus_value::!",
       "攻撃力が ::plus_value:: アップ！",
       "攻撃力が ::plus_value:: アップ！",
@@ -23610,27 +24013,27 @@
   "ability_description_action_skill_level": [
     [
       "スキルの効果が上昇！",
-      "스킬 효과가 상승! ",
-      "Skill effect boosted! ",
+      "스킬 효과가 상승!",
+      "Skill effect boosted!",
       "スキルの効果が上昇！",
       "スキルの効果が上昇！",
       "スキルの効果が上昇！",
       "スキルの効果が上昇！",
       "スキルの効果が上昇！",
-      "สกิลมีผลเพิ่มขึ้น! "
+      "สกิลมีผลเพิ่มขึ้น!"
     ]
   ],
   "ability_description_action_skill_evolution": [
     [
       "スキルが強化！",
-      "스킬이 강화! ",
-      "Skill enhanced! ",
+      "스킬이 강화!",
+      "Skill enhanced!",
       "スキルが強化！",
       "スキルが強化！",
       "スキルが強化！",
       "スキルが強化！",
       "スキルが強化！",
-      "สกิลแข็งแกร่งขึ้น! "
+      "สกิลแข็งแกร่งขึ้น!"
     ]
   ],
   "ability_description_ability_aquire": [
@@ -23721,7 +24124,7 @@
       "\n・::upskill_text::",
       "\n・::upskill_text::",
       "\n・::upskill_text::",
-      " - ::upskill_text::"
+      "- ::upskill_text::"
     ]
   ],
   "ability_board_learn_window_skill_weight_shorten": [
@@ -23734,7 +24137,7 @@
       "\n・スキルウェイト短縮",
       "\n・スキルウェイト短縮",
       "\n・スキルウェイト短縮",
-      " - ลดเวลารอสกิล"
+      "- ลดเวลารอสกิล"
     ]
   ],
   "ability_board_learn_dialog_total_required_mana": [
@@ -23895,14 +24298,14 @@
   ],
   "item_sell_period_error": [
     [
-      "期間が終了したため、売却できません ",
-      "기간이 종료되어 판매할 수 없습니다 ",
+      "期間が終了したため、売却できません",
+      "기간이 종료되어 판매할 수 없습니다",
       "This item can no longer be sold.",
-      "期間が終了したため、売却できません ",
-      "期間が終了したため、売却できません ",
-      "期間が終了したため、売却できません ",
-      "期間が終了したため、売却できません ",
-      "期間が終了したため、売却できません ",
+      "期間が終了したため、売却できません",
+      "期間が終了したため、売却できません",
+      "期間が終了したため、売却できません",
+      "期間が終了したため、売却できません",
+      "期間が終了したため、売却できません",
       "ไม่สามารถขายได้เนื่องจากหมดเวลาแล้ว"
     ]
   ],
@@ -24181,14 +24584,14 @@
   ],
   "party_name": [
     [
-      "パーティ ",
-      "파티 ",
+      "パーティ",
+      "파티",
       "Party",
-      "パーティ ",
-      "パーティ ",
-      "パーティ ",
-      "パーティ ",
-      "パーティ ",
+      "パーティ",
+      "パーティ",
+      "パーティ",
+      "パーティ",
+      "パーティ",
       "ปาร์ตี้"
     ]
   ],
@@ -24467,14 +24870,14 @@
   ],
   "mission_phrase_count": [
     [
-      " x ::count::",
-      " x ::count::",
-      " x ::count::",
-      " x ::count::",
-      " x ::count::",
-      " x ::count::",
-      " x ::count::",
-      " x ::count::",
+      "x ::count::",
+      "x ::count::",
+      "x ::count::",
+      "x ::count::",
+      "x ::count::",
+      "x ::count::",
+      "x ::count::",
+      "x ::count::",
       "x ::count::"
     ]
   ],
@@ -24572,7 +24975,7 @@
   "collect_item_event_own_item": [
     [
       "所持",
-      "보유  ",
+      "보유",
       "Owned",
       "所持",
       "所持",
@@ -25379,7 +25782,7 @@
     [
       "ID:",
       "ID:",
-      "ID: ",
+      "ID:",
       "ID:",
       "ID:",
       "ID:",
@@ -25791,6 +26194,19 @@
       "ยังทำตามเงื่อนไขจัดทีมที่ระบุข้างบนได้ไม่ครบ\n\nกรุณาเลือกว่าจะ\nจัดทีมอัตโนมัติสำหรับเงื่อนไขจัดทีมที่ยังขาด\nหรือจัดทีมเฉพาะส่วนที่สามารถจัดทีมได้"
     ]
   ],
+  "party_copy_alternative_party_dialog_message_error": [
+    [
+      "すべてのキャラが出撃済みのため自動編成をすることができません",
+      "모든 캐릭터가 출격 완료이므로 자동 편성을 할 수 없습니다",
+      "All units have already been used, so Auto-Copy can't be used.",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ตัวละครออกปฏิบัติภารกิจครบทุกคนแล้ว จึงจัดทีมอัตโนมัติไม่ได้"
+    ]
+  ],
   "chapter_select_main_progress_rate": [
     [
       "メインクリア率",
@@ -26118,14 +26534,14 @@
   ],
   "quest_startable_condition_bullet_symbol": [
     [
-      "- ",
-      "- ",
       "-",
-      "- ",
-      "- ",
-      "- ",
-      "- ",
-      "- ",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
       "-"
     ]
   ],
@@ -26152,7 +26568,7 @@
       "::partyName::の編成は変更できません",
       "::partyName::の編成は変更できません",
       "::partyName::の編成は変更できません",
-      "ไม่สามารถเปลี่ยนการจัดตั้ง::partyName::ได้ "
+      "ไม่สามารถเปลี่ยนการจัดตั้ง::partyName::ได้"
     ]
   ],
   "rarity_with_symbol_prefix": [
@@ -27848,14 +28264,14 @@
   "character_detail_skill_weight": [
     [
       "スキルウェイト：",
-      "스킬 웨이트: ",
+      "스킬 웨이트:",
       "Skill Gauge",
       "スキルウェイト：",
       "スキルウェイト：",
       "スキルウェイト：",
       "スキルウェイト：",
       "スキルウェイト：",
-      "เวลารอสกิล: "
+      "เวลารอสกิล:"
     ]
   ],
   "character_detail_skill_level": [
@@ -27881,7 +28297,7 @@
       "／",
       "／",
       "／",
-      " / "
+      "/"
     ]
   ],
   "character_detail_skill_preview": [
@@ -28290,14 +28706,14 @@
   "equipment_list_bulk_upgrade_notice": [
     [
       "消費できるスタックが 0 になるか覚醒上限に達するまで\n自動的に覚醒されます。また、星鉄鋼は使用されません",
-      "사용할 수 있는 스택이 0이 되거나 각성 상한에 도달할 때 까지\n자동적으로 각성됩니다. 또한, 성철강은 사용하지 않습니다",
+      "사용할 수 있는 스택이 0이 되거나 각성 상한에 도달할 때까지 \n자동적으로 각성됩니다. 또한, 성철강은 사용하지 않습니다",
       "Armament dupe(s) will be awakened until no more are available or until reaching the max awakening level. \n\nStarsteel Ingots will not be used.",
       "消費できるスタックが 0 になるか覚醒上限に達するまで\n自動的に覚醒されます。また、星鉄鋼は使用されません",
       "消費できるスタックが 0 になるか覚醒上限に達するまで\n自動的に覚醒されます。また、星鉄鋼は使用されません",
       "消費できるスタックが 0 になるか覚醒上限に達するまで\n自動的に覚醒されます。また、星鉄鋼は使用されません",
       "消費できるスタックが 0 になるか覚醒上限に達するまで\n自動的に覚醒されます。また、星鉄鋼は使用されません",
       "消費できるスタックが 0 になるか覚醒上限に達するまで\n自動的に覚醒されます。また、星鉄鋼は使用されません",
-      "จะใช้สแต็กปลุกพลังอย่างต่อเนื่องโดยอัตโนมัติจนกว่าจำนวนสแต็กที่ปลุกพลังได้\nเป็น 0 หรือถึงขีดจำกัดสูงสุด เหล็กดวงดาวจะไม่ถูกใช้"
+      "จะปลุกพลังอัตโนมัติไปจนว่าสแต็กที่ใช้ได้จะเป็น 0 \nหรือถึงจีดจำกัดของการปลุกพลัง\nและใช้งานเหล็กดวงดาวไม่ได้"
     ]
   ],
   "equipment_list_bulk_sell_description": [
@@ -28497,27 +28913,27 @@
   ],
   "equipment_list_not_sellable_reason_protected": [
     [
-      "保護中の装備アイテムは分解できません ",
-      "보호 중인 장비 아이템은 분해할 수 없습니다 ",
+      "保護中の装備アイテムは分解できません",
+      "보호 중인 장비 아이템은 분해할 수 없습니다",
       "You cannot melt down locked armaments.",
-      "保護中の装備アイテムは分解できません ",
-      "保護中の装備アイテムは分解できません ",
-      "保護中の装備アイテムは分解できません ",
-      "保護中の装備アイテムは分解できません ",
-      "保護中の装備アイテムは分解できません ",
+      "保護中の装備アイテムは分解できません",
+      "保護中の装備アイテムは分解できません",
+      "保護中の装備アイテムは分解できません",
+      "保護中の装備アイテムは分解できません",
+      "保護中の装備アイテムは分解できません",
       "ไม่สามารถแยกส่วนไอเทมอุปกรณ์ที่กำลังล็อกอยู่ได้"
     ]
   ],
   "equipment_list_not_sellable_reason_occupied": [
     [
-      "装備中の装備アイテムは分解できません ",
-      "장비 중인 장비 아이템은 분해할 수 없습니다 ",
+      "装備中の装備アイテムは分解できません",
+      "장비 중인 장비 아이템은 분해할 수 없습니다",
       "You cannot melt down equipped armaments.",
-      "装備中の装備アイテムは分解できません ",
-      "装備中の装備アイテムは分解できません ",
-      "装備中の装備アイテムは分解できません ",
-      "装備中の装備アイテムは分解できません ",
-      "装備中の装備アイテムは分解できません ",
+      "装備中の装備アイテムは分解できません",
+      "装備中の装備アイテムは分解できません",
+      "装備中の装備アイテムは分解できません",
+      "装備中の装備アイテムは分解できません",
+      "装備中の装備アイテムは分解できません",
       "ไม่สามารถแยกส่วนไอเทมอุปกรณ์ที่กำลังสวมใส่อยู่ได้"
     ]
   ],
@@ -28687,7 +29103,7 @@
       "覚醒上限に達してない装備アイテムを\n選択しようとしています。\n分解しますか？",
       "覚醒上限に達してない装備アイテムを\n選択しようとしています。\n分解しますか？",
       "覚醒上限に達してない装備アイテムを\n選択しようとしています。\n分解しますか？",
-      "กำลังเลือกไอเทมอุปกรณ์\nที่ยังปลุกพลังไม่ถึงขีดจำกัด\nจะแยกส่วนหรือไม่?"
+      "กำลังเลือกไอเทมอุปกรณ์\nที่ยังไม่ถึงขีดจำกัดของการปลุกพลังได้อยู่\nต้องการจะแยกส่วนหรือไม่?"
     ]
   ],
   "equipment_list_sold_complete_message": [
@@ -29522,6 +29938,19 @@
       "\"::name::\"\n\nจะใช้ชื่อนี้หรือไม่?\n*สามารถเปลี่ยนชื่อได้ในภายหลัง"
     ]
   ],
+  "can_not_sell_because_ability_soul_is_not_enough": [
+    [
+      "4つ以上所持すると売却できます",
+      "4개 이상 소지하면 매각할 수 있습니다",
+      "Can only be sold when you own 4 or more.",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "เมื่อมี 4 ชิ้นขึ้นไปจะขายได้"
+    ]
+  ],
   "can_not_sell_because_mana_is_upper_limit": [
     [
       "マナを最大まで所持しているため\nアイテムを売却できません",
@@ -29810,14 +30239,14 @@
   ],
   "equipment_detail_dialog_unlearned_prefix_awaking_level": [
     [
-      "覚醒Lv::level:: : ",
-      "각성Lv::level:: : ",
+      "覚醒Lv::level:: :",
+      "각성Lv::level:: :",
       "Awakening Lv::level:::",
-      "覚醒Lv::level:: : ",
-      "覚醒Lv::level:: : ",
-      "覚醒Lv::level:: : ",
-      "覚醒Lv::level:: : ",
-      "覚醒Lv::level:: : ",
+      "覚醒Lv::level:: :",
+      "覚醒Lv::level:: :",
+      "覚醒Lv::level:: :",
+      "覚醒Lv::level:: :",
+      "覚醒Lv::level:: :",
       "ปลุกพลังระดับ ::level:: :"
     ]
   ],
@@ -29825,25 +30254,25 @@
     [
       "強化Lv::level::",
       "강화Lv::level::",
-      "Aug. Lv ::level::",
+      "Aug. Lv ::level:: :",
       "強化Lv::level::",
       "強化Lv::level::",
       "強化Lv::level::",
       "強化Lv::level::",
       "強化Lv::level::",
-      "Aug. Lv ::level::"
+      "Aug. Lv ::level:: :"
     ]
   ],
   "equipment_detail_dialog_unlearned_prefix_enhancement_level": [
     [
-      "強化Lv::level:: : ",
-      "강화Lv::level:: : ",
+      "強化Lv::level:: :",
+      "강화Lv::level:: :",
       "Aug. Lv ::level:: :",
-      "強化Lv::level:: : ",
-      "強化Lv::level:: : ",
-      "強化Lv::level:: : ",
-      "強化Lv::level:: : ",
-      "強化Lv::level:: : ",
+      "強化Lv::level:: :",
+      "強化Lv::level:: :",
+      "強化Lv::level:: :",
+      "強化Lv::level:: :",
+      "強化Lv::level:: :",
       "Aug. Lv ::level:: :"
     ]
   ],
@@ -29951,32 +30380,6 @@
       "อนุญาตให้ผู้ติดตามเข้าร่วมหรือไม่?"
     ]
   ],
-  "story_skip_outline": [
-    [
-      "あらすじ",
-      "줄거리",
-      "Summary",
-      "あらすじ",
-      "あらすじ",
-      "あらすじ",
-      "あらすじ",
-      "あらすじ",
-      "เรื่องย่อ"
-    ]
-  ],
-  "story_skip_notice": [
-    [
-      "<font color='#00a090'>【先に進む】</font>を押すと、ストーリーをSKIPします",
-      "<font color='#00a090'>[스킵]</font>을 누르면, 스토리를 SKIP합니다",
-      "Tap <font color='#00a090'>Proceed</font> to skip the story.",
-      "<font color='#00a090'>【先に進む】</font>を押すと、ストーリーをSKIPします",
-      "<font color='#00a090'>【先に進む】</font>を押すと、ストーリーをSKIPします",
-      "<font color='#00a090'>【先に進む】</font>を押すと、ストーリーをSKIPします",
-      "<font color='#00a090'>【先に進む】</font>を押すと、ストーリーをSKIPします",
-      "<font color='#00a090'>【先に進む】</font>を押すと、ストーリーをSKIPします",
-      "หากกด <font color='#00a090'>\"ไปต่อ\"</font> จะข้ามเนื้อเรื่อง"
-    ]
-  ],
   "quest_result_get_first_reward": [
     [
       "初回報酬を獲得しました！",
@@ -30058,14 +30461,14 @@
   "quest_unselectable_reason_message_single_ranking_event_quest_clear": [
     [
       "スコアアタックイベント『::questName::』をクリア",
-      "스코어 어택 이벤트 『::questName::』을(를) 클리어",
+      "타임 어택 이벤트 『::questName::』을(를) 클리어",
       "Clear Score Scramble: ::questName::",
       "スコアアタックイベント『::questName::』をクリア",
       "スコアアタックイベント『::questName::』をクリア",
       "スコアアタックイベント『::questName::』をクリア",
       "スコアアタックイベント『::questName::』をクリア",
       "スコアアタックイベント『::questName::』をクリア",
-      "เคลียร์อีเวนต์เควสต์ทำคะแนน \"::questName::\""
+      "เคลียร์ \"::questName::\" ของอีเวนต์ไทม์แอทแทค"
     ]
   ],
   "quest_unselectable_reason_message_single_story_event_quest_clear": [
@@ -30162,14 +30565,14 @@
   "quest_unselectable_reason_message_multi_ranking_event_quest_clear": [
     [
       "スコアアタックイベント『::questName::』をクリア",
-      "스코어 어택 이벤트 『::questName::』을(를) 클리어",
+      "타임 어택 이벤트 『::questName::』을(를) 클리어",
       "Clear Score Scramble (Multiplayer): ::questName::",
       "スコアアタックイベント『::questName::』をクリア",
       "スコアアタックイベント『::questName::』をクリア",
       "スコアアタックイベント『::questName::』をクリア",
       "スコアアタックイベント『::questName::』をクリア",
       "スコアアタックイベント『::questName::』をクリア",
-      "เคลียร์อีเวนต์เควสต์ทำคะแนน \"::questName::\""
+      "เคลียร์ \"::questName::\" ของอีเวนต์ไทม์แอทแทค"
     ]
   ],
   "quest_unselectable_reason_message_event_quest_clear": [
@@ -30289,17 +30692,30 @@
       "เคลียร์ \"::questName::\" ของอีเวนต์ไทม์แอทแทค"
     ]
   ],
+  "quest_unselectable_reason_message_score_attack_event_quest_clear": [
+    [
+      "無限演武『::questName::』をクリア",
+      "仮文言",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ]
+  ],
   "quest_sub_progress_host_clear": [
     [
       "協力バトルをホストでクリア",
       "협력 배틀을 호스트로 클리어",
-      "Win a multiplayer battle as a host.",
+      "Clear a multiplayer battle as a host.",
       "協力バトルをホストでクリア",
       "協力バトルをホストでクリア",
       "協力バトルをホストでクリア",
       "協力バトルをホストでクリア",
       "協力バトルをホストでクリア",
-      "เคลียร์โหมดแบทเทิลหลายคน (โฮสต์)"
+      "เคลียร์โหมดแบทเทิลหลายคนโดยเป็นโฮสต์"
     ]
   ],
   "quest_start_out_of_period_error": [
@@ -30357,7 +30773,7 @@
   "tower_dungeon_event_reset_dialog_no_rewards": [
     [
       "::month::月度の幽玄域のクリア状況がリセットされました！",
-      "::month::월의 유현역 클리어 상황이 초기화되었습니다! ",
+      "::month::월의 유현역 클리어 상황이 초기화되었습니다!",
       "New month, new Haunt! Your progress from ::month:: has been reset.",
       "::month::月度の幽玄域のクリア状況がリセットされました！",
       "::month::月度の幽玄域のクリア状況がリセットされました！",
@@ -30950,6 +31366,214 @@
       "イベント結果",
       "イベント結果",
       "ผลของอีเวนต์"
+    ]
+  ],
+  "score_event_best_label": [
+    [
+      "BEST",
+      "BEST",
+      "BEST",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "BEST"
+    ]
+  ],
+  "score_event_score_label": [
+    [
+      "SCORE",
+      "SCORE",
+      "SCORE",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "SCORE"
+    ]
+  ],
+  "score_event_time_label": [
+    [
+      "TIME",
+      "TIME",
+      "TIME",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "TIME"
+    ]
+  ],
+  "score_attack_event_update_high_score_dialog_title": [
+    [
+      "::name::：ハイスコア更新",
+      "::name::：ハイスコア更新",
+      "::name::：ハイスコア更新",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "::name::：ハイスコア更新"
+    ]
+  ],
+  "score_attack_event_get_reward_list_dialog_title": [
+    [
+      "獲得報酬",
+      "獲得報酬",
+      "獲得報酬",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "獲得報酬"
+    ]
+  ],
+  "score_attack_event_quest_select_next_event_date": [
+    [
+      "イベント更新まであと<font color='#ffcc1c'>::time::</font>::unit::",
+      "イベント更新まであと<font color='#ffcc1c'>::time::</font>::unit::",
+      "イベント更新まであと<font color='#ffcc1c'>::time::</font>::unit::",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "イベント更新まであと<font color='#ffcc1c'>::time::</font>::unit::"
+    ]
+  ],
+  "score_attack_event_remaining_time_label": [
+    [
+      "更新まで::time::",
+      "更新まで::time::",
+      "更新まで::time::",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "更新まで::time::"
+    ]
+  ],
+  "score_attack_event_remaining_time_unit_days_or_more": [
+    [
+      "日以上",
+      "日以上",
+      "日以上",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "日以上"
+    ]
+  ],
+  "score_attack_event_remaining_time_unit_days": [
+    [
+      "日",
+      "日",
+      "日",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "日"
+    ]
+  ],
+  "score_attack_event_remaining_time_unit_hours": [
+    [
+      "時間",
+      "時間",
+      "時間",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "時間"
+    ]
+  ],
+  "score_attack_event_remaining_time_unit_minutes": [
+    [
+      "分",
+      "分",
+      "分",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "分"
+    ]
+  ],
+  "score_attack_event_remaining_time_unit_day": [
+    [
+      "日",
+      "日",
+      "日",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "日"
+    ]
+  ],
+  "score_attack_event_remaining_time_unit_hour": [
+    [
+      "時間",
+      "時間",
+      "時間",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "時間"
+    ]
+  ],
+  "score_attack_event_remaining_time_unit_minute": [
+    [
+      "分",
+      "分",
+      "分",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "分"
+    ]
+  ],
+  "score_attack_event_history_no_data": [
+    [
+      "バトル履歴がありません",
+      "バトル履歴がありません",
+      "バトル履歴がありません",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "バトル履歴がありません"
+    ]
+  ],
+  "score_attack_event_play_caution": [
+    [
+      "このクエストは<font color=\"#ea354c\">::element::属性キャラのみの\nパーティ</font>で挑戦できます。\nクエストに挑戦するパーティを選択してください。",
+      "このクエストは<font color=\"#ea354c\">::element::属性キャラのみの\nパーティ</font>で挑戦できます。\nクエストに挑戦するパーティを選択してください。",
+      "このクエストは<font color=\"#ea354c\">::element::属性キャラのみの\nパーティ</font>で挑戦できます。\nクエストに挑戦するパーティを選択してください。",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "このクエストは<font color=\"#ea354c\">::element::属性キャラのみの\nパーティ</font>で挑戦できます。\nクエストに挑戦するパーティを選択してください。"
     ]
   ],
   "carnival_event_record_total": [
@@ -31969,8 +32593,8 @@
   "hard_multi_event_play_caution": [
     [
       "このクエストは<font color=\"#ea354c\">::element::属性キャラのみの\nパーティ</font>で挑戦できます\nクエストに挑戦するパーティを選択してください",
-      "이 퀘스트는 <font color=\"#ea354c\">::element::속성 캐릭터로 이루어진 파티</font>로만 도전할 수 있습니다\n퀘스트에 도전할 파티를 선택하세요",
-      "You can only use <font color=\"#ea354c\">::element:: element units</font> for this quest. Please select an appropriate party.",
+      "이 퀘스트는 <font color=\"#ea354c\">::element::속성 캐릭터로 이루어진 파티</font>\n로만 도전할 수 있습니다\n퀘스트에 도전할 파티를 선택하세요",
+      "You can only use <font color=\"#ea354c\">::element:: element units</font> \nfor this quest. \nPlease select an appropriate party.",
       "このクエストは<font color=\"#ea354c\">::element::属性キャラのみの\nパーティ</font>で挑戦できます\nクエストに挑戦するパーティを選択してください",
       "このクエストは<font color=\"#ea354c\">::element::属性キャラのみの\nパーティ</font>で挑戦できます\nクエストに挑戦するパーティを選択してください",
       "このクエストは<font color=\"#ea354c\">::element::属性キャラのみの\nパーティ</font>で挑戦できます\nクエストに挑戦するパーティを選択してください",
@@ -33892,14 +34516,14 @@
   ],
   "mana_shop_product_description": [
     [
-      "マナ × ::purchase_count:: ",
-      "마나 × ::purchase_count:: ",
+      "マナ × ::purchase_count::",
+      "마나 × ::purchase_count::",
       "Mana x::purchase_count::",
-      "マナ × ::purchase_count:: ",
-      "マナ × ::purchase_count:: ",
-      "マナ × ::purchase_count:: ",
-      "マナ × ::purchase_count:: ",
-      "マナ × ::purchase_count:: ",
+      "マナ × ::purchase_count::",
+      "マナ × ::purchase_count::",
+      "マナ × ::purchase_count::",
+      "マナ × ::purchase_count::",
+      "マナ × ::purchase_count::",
       "มานา × ::purchase_count::"
     ]
   ],
@@ -33931,27 +34555,27 @@
   ],
   "mana_purchase_dialog_list_notice_separator": [
     [
-      " / ",
       "/",
-      " / ",
-      " / ",
-      " / ",
-      " / ",
-      " / ",
-      " / ",
+      "/",
+      "/",
+      "/",
+      "/",
+      "/",
+      "/",
+      "/",
       "/"
     ]
   ],
   "mana_purchase_dialog_list_notice_count": [
     [
-      "あと ::count:: ",
-      "앞으로 ::count:: ",
+      "あと ::count::",
+      "앞으로 ::count::",
       "::count:: left",
-      "あと ::count:: ",
-      "あと ::count:: ",
-      "あと ::count:: ",
-      "あと ::count:: ",
-      "あと ::count:: ",
+      "あと ::count::",
+      "あと ::count::",
+      "あと ::count::",
+      "あと ::count::",
+      "あと ::count::",
       "อีก ::count::"
     ]
   ],
@@ -34408,6 +35032,45 @@
       "スタックの上限数を超えたため\n::name::は星の粒に変換されました\n星の粒 × ::count::",
       "スタックの上限数を超えたため\n::name::は星の粒に変換されました\n星の粒 × ::count::",
       "::name::ได้ถูกเปลี่ยนเป็นเม็ดดาว\nเนื่องจากจำนวนสแต็กเกินขีดจำกัด\nเม็ดดาว × ::count::"
+    ]
+  ],
+  "overflow_equipment_convert_star_grain": [
+    [
+      "スタックの上限数を超えたため\n::name::は星の粒に変換されました\n星の粒 × ::count::",
+      "스택 상한 수를 넘었기에\n::name::은(는) 별의 가루로 변환됐습니다\n별의 가루 × ::count::",
+      "Dupe limit has been reached.\n::name:: has been converted into ::count:: Star Speck(s).",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "::name::ได้ถูกเปลี่ยนเป็นเม็ดดาว\nเนื่องจากจำนวนสแต็กเกินขีดจำกัด\nเม็ดดาว × ::count::"
+    ]
+  ],
+  "overflow_equipment_convert_craft_points": [
+    [
+      "スタックの上限数を超えたため\n::name::は鍛冶玉に変換されました\n鍛冶玉 × ::count::",
+      "스택 상한 수를 넘었기에\n::name::은(는) 대장장이 구슬로 변환됐습니다\n대장장이 구슬 × ::count::",
+      "Dupe limit has been reached.\n::name:: has been converted into ::count:: Wrightpiece(s).",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "::name::ได้ถูกเปลี่ยนเป็นลูกแก้วตีเหล็ก\nเนื่องจากจำนวนสแต็กเกินขีดจำกัด\nลูกแก้วตีเหล็ก × ::count::"
+    ]
+  ],
+  "overflow_equipment_convert_ability_soul": [
+    [
+      "スタックの上限数を超えたため\n::name::はアビリティソウルに変換されました\nアビリティソウル × ::count::",
+      "스택 상한 수를 넘었기에\n::name::은(는) 어빌리티 소울로 변환됐습니다\n어빌리티 소울 × ::count::",
+      "Dupe limit has been reached.\n::name:: has been converted into ::count:: Ability Core(s).",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "::name::ได้ถูกเปลี่ยนเป็นอบิลิตี้โซล\nเนื่องจากจำนวนสแต็กเกินขีดจำกัด\nอบิลิตี้โซล × ::count::"
     ]
   ],
   "overflow_dissolve_equipment": [
@@ -35213,7 +35876,7 @@
       "::item_name:: × ::value:: が不足しています",
       "::item_name:: × ::value:: が不足しています",
       "::item_name:: × ::value:: が不足しています",
-      "ขาด ::item_name:: x ::value:: "
+      "ขาด ::item_name:: x ::value::"
     ]
   ],
   "shop_select_empty_state_placeholder": [
@@ -35258,7 +35921,7 @@
   "help_label_event_story_valen20": [
     [
       "壮絶！ヴァレント・フェス攻防戦！！",
-      "장렬! 발렌타인 페스티벌 공방전!! ",
+      "장렬! 발렌타인 페스티벌 공방전!!",
       "Valentine's Fest: All's Fair in Love and War",
       "壮絶！ヴァレント・フェス攻防戦！！",
       "壮絶！ヴァレント・フェス攻防戦！！",
@@ -35518,7 +36181,7 @@
   "help_event_world_story_event_anv2": [
     [
       "歩め、闇の夢人達よ。",
-      "나아가라, 어둠의 몽상가들이여",
+      "걸어라, 어둠의 꿈꾼이들아",
       "Driven by Dreams, Guided by Darkness",
       "歩め、闇の夢人達よ。",
       "歩め、闇の夢人達よ。",
@@ -35565,6 +36228,19 @@
       "遥かな王道、継承の騎士道",
       "遥かな王道、継承の騎士道",
       "เส้นทางราชาอันยาวไกล เส้นทางอัศวินผู้สืบทอด"
+    ]
+  ],
+  "help_label_event_world_story_anv3half": [
+    [
+      "Ceremony",
+      "Ceremony",
+      "Starlight Ceremony",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "Ceremony"
     ]
   ],
   "help_label_event_material_trader": [
@@ -35725,14 +36401,14 @@
   ],
   "world_story_expert_single_quest_formatted_quest_number_label": [
     [
-      " <font color='#ea354c'>挑戦回数あと ::number:: 回</font>",
-      " <font color='#ea354c'>도전 횟수 앞으로 ::number:: 회</font>",
-      " <font color='#ea354c'>::number:: attempts left</font>",
-      " <font color='#ea354c'>挑戦回数あと ::number:: 回</font>",
-      " <font color='#ea354c'>挑戦回数あと ::number:: 回</font>",
-      " <font color='#ea354c'>挑戦回数あと ::number:: 回</font>",
-      " <font color='#ea354c'>挑戦回数あと ::number:: 回</font>",
-      " <font color='#ea354c'>挑戦回数あと ::number:: 回</font>",
+      "<font color='#ea354c'>挑戦回数あと ::number:: 回</font>",
+      "<font color='#ea354c'>도전 횟수 앞으로 ::number:: 회</font>",
+      "<font color='#ea354c'>::number:: attempts left</font>",
+      "<font color='#ea354c'>挑戦回数あと ::number:: 回</font>",
+      "<font color='#ea354c'>挑戦回数あと ::number:: 回</font>",
+      "<font color='#ea354c'>挑戦回数あと ::number:: 回</font>",
+      "<font color='#ea354c'>挑戦回数あと ::number:: 回</font>",
+      "<font color='#ea354c'>挑戦回数あと ::number:: 回</font>",
       "<font color='#ea354c'>เหลือจำนวนครั้งในการท้าทาย ::number:: ครั้ง</font>"
     ]
   ],
@@ -35790,14 +36466,14 @@
   ],
   "quest_like_scene_drop_item_number": [
     [
-      " × ::value::",
-      " × ::value::",
-      " × ::value::",
-      " × ::value::",
-      " × ::value::",
-      " × ::value::",
-      " × ::value::",
-      " × ::value::",
+      "× ::value::",
+      "× ::value::",
+      "× ::value::",
+      "× ::value::",
+      "× ::value::",
+      "× ::value::",
+      "× ::value::",
+      "× ::value::",
       "× ::value::"
     ]
   ],
@@ -35894,14 +36570,14 @@
   ],
   "bulk_over_limit_confirm_dialog_target_character": [
     [
-      "    ・::nickname::  ::name::",
-      "    ・::nickname::  ::name::",
-      "    ・::nickname::  ::name::",
-      "    ・::nickname::  ::name::",
-      "    ・::nickname::  ::name::",
-      "    ・::nickname::  ::name::",
-      "    ・::nickname::  ::name::",
-      "    ・::nickname::  ::name::",
+      "・::nickname::  ::name::",
+      "・::nickname::  ::name::",
+      "・::nickname::  ::name::",
+      "・::nickname::  ::name::",
+      "・::nickname::  ::name::",
+      "・::nickname::  ::name::",
+      "・::nickname::  ::name::",
+      "・::nickname::  ::name::",
       "- ::nickname:: ::name::"
     ]
   ],
@@ -35973,7 +36649,7 @@
   "degree_select_range_own": [
     [
       "所持",
-      "보유  ",
+      "보유",
       "Unlocked",
       "所持",
       "所持",
@@ -36188,7 +36864,7 @@
       "::characters::は「::trigger::」を満たしていないため発動しません。",
       "::characters::は「::trigger::」を満たしていないため発動しません。",
       "::characters::は「::trigger::」を満たしていないため発動しません。",
-      "::characters::จะไม่ใช้อบิลิตี้เนื่องจากยังไม่บรรลุ \"::trigger::\""
+      "::characters::มี \"::trigger::\" ไม่เต็ม จึงไม่ทำงาน"
     ]
   ],
   "active_ability_dialog_inactive_reason_party": [
@@ -36201,7 +36877,7 @@
       "「::trigger::」を満たしていないため発動しません。",
       "「::trigger::」を満たしていないため発動しません。",
       "「::trigger::」を満たしていないため発動しません。",
-      "ไม่ใช้เนื่องจากยังไม่บรรลุ \"::trigger::\""
+      "\"::trigger::\" ไม่เต็ม จึงไม่ทำงาน"
     ]
   ],
   "help_label_tower_dungeon": [
@@ -36214,7 +36890,7 @@
       "幽玄域",
       "幽玄域",
       "幽玄域",
-      "พื้นที่ลึกลับ "
+      "พื้นที่ลึกลับ"
     ]
   ],
   "active_ability_dialog_inactive_no_abilities": [
@@ -36227,7 +36903,7 @@
       "未発動のアビリティはありません。",
       "未発動のアビリティはありません。",
       "未発動のアビリティはありません。",
-      "ไม่มีอบิลิตี้ที่ยังไม่เปิดใช้"
+      "ไม่มีอบิลิตี้ที่ไม่ทำงาน"
     ]
   ],
   "party_select_main_character_not_set": [
@@ -36279,7 +36955,7 @@
       "以下の条件を満たしていないため、マナボード ::board:: 枚目は解放されていません。",
       "以下の条件を満たしていないため、マナボード ::board:: 枚目は解放されていません。",
       "以下の条件を満たしていないため、マナボード ::board:: 枚目は解放されていません。",
-      "มานาบอร์ดหน้าที่ ::board:: ยังไม่ถูกปลดล็อกเนื่องจากยังทำตามเงื่อนไขที่กำหนดไว้ไม่ครบ"
+      "เงื่อนไขดังต่อไปนี้ไม่ครบ จึงปลดล็อกมานาบอร์ดแผ่นที่ ::board:: ไม่ได้"
     ]
   ],
   "mana_board_change_board_disabled_not_released_reason_level": [
@@ -36737,6 +37413,71 @@
       "ไม่มีประวัติแบทเทิล"
     ]
   ],
+  "battle_history_total_damage": [
+    [
+      "総合ダメージ",
+      "종합 대미지",
+      "Total Damage",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ความเสียหายรวม"
+    ]
+  ],
+  "battle_history_elapsed_time": [
+    [
+      "経過時間",
+      "경과 시간",
+      "Time",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "เวลาที่ใช้"
+    ]
+  ],
+  "battle_history_score": [
+    [
+      "スコア",
+      "스코어",
+      "Score",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "คะแนน"
+    ]
+  ],
+  "battle_history_date": [
+    [
+      "%m/%d %H:%M",
+      "%m/%d %H:%M",
+      "%m/%d %H:%M",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "%m/%d %H:%M"
+    ]
+  ],
+  "battle_history_member_damage": [
+    [
+      "与えたダメージ",
+      "부여한 대미지",
+      "Damage Dealt",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ความเสียหายที่ทำได้"
+    ]
+  ],
   "practice_history_total_damage": [
     [
       "総合ダメージ",
@@ -36877,7 +37618,7 @@
       "超バトル応援キャンペーン",
       "超バトル応援キャンペーン",
       "超バトル応援キャンペーン",
-      "แคมเปญสนับสนุนแบทเทิลสุด ๆ "
+      "แคมเปญสนับสนุนแบทเทิลสุด ๆ"
     ]
   ],
   "help_label_reward_100manyen_campaign": [
@@ -36891,6 +37632,19 @@
       "100万円キャンペーン",
       "100万円キャンペーン",
       "แคมเปญ 1 ล้านเยน"
+    ]
+  ],
+  "help_label_cheering_mainquest_campaign": [
+    [
+      "メインクエスト応援キャンペーン",
+      "메인 퀘스트 응원 캠페인",
+      "Season of Adventure",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "แคมเปญส่งเสริมเควสต์หลัก"
     ]
   ],
   "help_label_campaign": [
@@ -37257,17 +38011,56 @@
       "เหลือจำนวนครั้งในการท้าทาย ::current:: ครั้ง"
     ]
   ],
+  "score_attack_border_reward_dialog_title": [
+    [
+      "ボーダー報酬",
+      "보더 보상",
+      "ボーダー報酬",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "รางวัลสถิติ"
+    ]
+  ],
+  "score_attack_list_score_border": [
+    [
+      "報酬達成スコア ::score::",
+      "보상 달성 스코어 ::score::",
+      "報酬達成スコア ::score::",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "คะแนนที่ได้รางวัล ::score::"
+    ]
+  ],
+  "score_attack_zone_objective": [
+    [
+      "<font color=\"#FFCD1B\">最高スコア</font>を叩き出せ！",
+      "<font color=\"#FFCD1B\">최고 스코어</font>를 내라!",
+      "<font color=\"#FFCD1B\">最高スコア</font>を叩き出せ！",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "ทำ<font color=\"#FFCD1B\">คะแนนสูงสุด</font>ออกมาให้ได้!"
+    ]
+  ],
   "equipment_enhancement_top_title": [
     [
       "特殊装備強化",
       "특수 장비 강화",
-      "Armament Augmentation",
+      "Augment Armament",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
       "特殊装備強化",
-      "อัปอุปกรณ์พิเศษ"
+      "เสริมพลังอุปกรณ์พิเศษ"
     ]
   ],
   "equipment_enhancement_how_to_get_dialog_how_to_get_button": [
@@ -37332,7 +38125,7 @@
       "アカウント削除を行うと、データ連携やアカウント連携をしていてもゲームデータの復旧ができず、他の端末からも遊べなくなります。所持している星導石がある場合、すべて失効します。\n\nそれでも申請する場合、次の文章を入力してください。\n\n<font color=\"#ea354c\">::text::</font>",
       "アカウント削除を行うと、データ連携やアカウント連携をしていてもゲームデータの復旧ができず、他の端末からも遊べなくなります。所持している星導石がある場合、すべて失効します。\n\nそれでも申請する場合、次の文章を入力してください。\n\n<font color=\"#ea354c\">::text::</font>",
       "アカウント削除を行うと、データ連携やアカウント連携をしていてもゲームデータの復旧ができず、他の端末からも遊べなくなります。所持している星導石がある場合、すべて失効します。\n\nそれでも申請する場合、次の文章を入力してください。\n\n<font color=\"#ea354c\">::text::</font>",
-      "เมื่อลบบัญชีแล้ว จะไม่สามารถกู้คืนข้อมูลการเล่นได้แม้จะเชื่อมโยงข้อมูลหรือบัญชี และไม่สามารถเล่นบนอุปกรณ์อื่นได้ หากมีลูกแก้วดวงดาวอยู่ ลูกแก้วทั้งหมดจะใช้ไม่ได้อีก\n\nหากยังคงต้องการยื่นคำขอ กรุณากรอกข้อความต่อไปนี้\n\n<font color=\"#ea354c\">::text::</font>"
+      "เมื่อลบบัญชีแล้ว จะไม่สามารถกู้คืนข้อมูลการเล่นได้แม้จะเชื่อมโยงข้อมูลหรือบัญชี และไม่สามารถเล่นบนอุปกรณ์อื่นได้\nหากมีลูกแก้วดวงดาวอยู่ ลูกแก้วทั้งหมดจะใช้ไม่ได้อีก\n\nหากยังคงต้องการยื่นคำขอ กรุณากรอกข้อความต่อไปนี้\n\n<font color=\"#ea354c\">::text::</font>"
     ]
   ],
   "user_data_erase_request_text": [
@@ -37611,40 +38404,66 @@
   "warning_payment_dialog_title": [
     [
       "상품 구입 시의 주의 사항",
-      "상품 구입 시의 주의 사항",
-      "A Notice in Regards to Purchases",
+      "서비스 종료 예정에 따른 상품 구입 관련 안내",
+      "In Regards to Purchases due to EOS",
       "Precautions When Purchasing a Product",
       "Precautions When Purchasing a Product",
       "Precautions When Purchasing a Product",
       "Precautions When Purchasing a Product",
       "Precautions When Purchasing a Product",
-      "ข้อควรระวังเมื่อซื้อสินค้า"
+      "คำแนะนำเกี่ยวกับการซื้อสินค้าตามกำหนดการสิ้นสุดการให้บริการ"
     ]
   ],
   "warning_payment_dialog_message": [
     [
       "월드 플리퍼는 현재 서비스 종료 시점을 검토 중에 있습니다.\n결제 상품 구입 전 신중하게 검토하시기를 권장드립니다.",
-      "월드 플리퍼는 2024년 7월 25일(목) \n서비스 종료 예정입니다.\n결제 상품 구입 전 신중하게 검토하시기를 권장드립니다.\n\n결제 상품 구입 중단 예정일 : 2024년 5월 28일(화)",
-      "Purchases will no longer be available after May 28, 2024, as World Flipper is scheduled to end service on July 25, 2024.\nWe recommend you take this into consideration before making a purchase.",
+      "월드 플리퍼는 서비스 종료 예정이므로, \n현재 결제 상품을 구입하실 수 없습니다.\n\n서비스 종료 예정 일시 : 2024년 7월 25일(목) 15시\n\n그동안 월드 플리퍼를 아껴주신 모험자님께 \n깊은 감사의 말씀을 드립니다.\n남은 시간 동안 모험을 즐기실 수 있도록 \n최선을 다하겠습니다.",
+      "Purchases are no longer available as World Flipper is scheduled to end service.\n\nEnd of Service Date: July 25, 2024. 04:00 UTC.\n\nWe would like to express our deepest gratitude to all adventurers \nwho have loved and supported World Flipper. \nWe will endeavor to provide the best service possible until the very end.\n",
       "World Flipper is currently reviewing the End of Service schedule.",
       "World Flipper is currently reviewing the End of Service schedule.",
       "World Flipper is currently reviewing the End of Service schedule.",
       "World Flipper is currently reviewing the End of Service schedule.",
       "World Flipper is currently reviewing the End of Service schedule.",
-      "เวิลด์ฟลิปเปอร์มีกำหนดการสิ้นสุดการให้บริการในวันที่ 25 กรกฎาคม 2567\nเราจึงขอแนะนำให้พิจารณาอย่างรอบคอบก่อนซื้อและชำระสินค้า\n\nวันที่ระงับการซื้อสินค้า : 28 พฤษภาคม 2567"
+      "เนื่องจากเวิลด์ฟลิปเปอร์จะสิ้นสุดการให้บริการ จึงไม่สามารถซื้อและชำระสินค้าในปัจจุบันได้\n\nวันและเวลาสิ้นสุดการให้บริการ : (พฤหัสบดี) 25 กรกฎาคม 2567 เวลา 15:00 น. (UTC+7)\n\nขอขอบคุณนักผจญภัยทุกท่านที่ให้ความรักกับ World Flipper ตลอดเวลาที่ผ่านมา\nเราจะพยายามอย่างเต็มที่เพื่อให้ท่านสามารถเพลิดเพลินกับการผจญภัยในช่วงเวลาที่เหลือ"
     ]
   ],
   "help_label_event_advent_u_collabo": [
     [
       "降臨討伐 揺らぐ彼方のニューゲート",
-      "강림 토벌 흔들리는 저편의 뉴게이트",
-      "Shifting Tracks, Distant Worlds",
       "降臨討伐 揺らぐ彼方のニューゲート",
       "降臨討伐 揺らぐ彼方のニューゲート",
       "降臨討伐 揺らぐ彼方のニューゲート",
       "降臨討伐 揺らぐ彼方のニューゲート",
       "降臨討伐 揺らぐ彼方のニューゲート",
-      "ประตูใหม่อีกฟากการสั่นไหว"
+      "降臨討伐 揺らぐ彼方のニューゲート",
+      "降臨討伐 揺らぐ彼方のニューゲート",
+      "降臨討伐 揺らぐ彼方のニューゲート"
+    ]
+  ],
+  "help_label_event_score_attack_event": [
+    [
+      "無限演武",
+      "無限演武",
+      "無限演武",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "無限演武"
+    ]
+  ],
+  "help_label_equipment_enhancement_score_attack_event": [
+    [
+      "褒章装備強化",
+      "훈장 장비 강화",
+      "褒章装備強化",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      "เสริมพลังอุปกรณ์เหรียญตรา"
     ]
   ]
 }

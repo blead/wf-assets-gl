@@ -1,0 +1,179 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACToleranceOfElement",
+              [
+                {
+                  "max": 9999999,
+                  "min": 9999999
+                }
+              ],
+              254,
+              [
+                {
+                  "max": 0.5,
+                  "min": 0.5
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ],
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
+          [
+            "GenericConditionHitEffect"
+          ],
+          true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
+          false
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACToleranceOfElement",
+              [
+                {
+                  "max": 10000000,
+                  "min": 10000000
+                }
+              ],
+              254,
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ],
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
+          [
+            "GenericConditionHitEffect"
+          ],
+          true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
+          false
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACToleranceOfElement",
+              [
+                {
+                  "max": 10000001,
+                  "min": 10000001
+                }
+              ],
+              254,
+              [
+                {
+                  "max": 1.5,
+                  "min": 1.5
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ],
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
+          [
+            "GenericConditionHitEffect"
+          ],
+          true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
+          false
+        ]
+      ]
+    ]
+  ]
+]

@@ -1,0 +1,516 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "StopBall",
+          -18,
+          50,
+          [
+            "RestoreToSpeedBeforeActionExecution"
+          ],
+          [
+            "EF"
+          ],
+          0
+        ]
+      ],
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "デバイス",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/ruin_lady_meteor23/ruin_lady_meteor23_device"
+          ],
+          -1,
+          [
+            "SuperForesideOfCharacter"
+          ],
+          [
+            "SpecifyEffectLifetimeDirectly",
+            50
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          false,
+          false,
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "ステラバスター",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/ruin_lady_meteor23/ruin_lady_meteor23_stellabuster_ef"
+          ],
+          -1,
+          [
+            "SuperForesideOfCharacter"
+          ],
+          [
+            "SpecifyEffectLifetimeDirectly",
+            50
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          false,
+          false,
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          70,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "ShowEffect",
+                  "攻撃演出",
+                  [
+                    "SpecifyEffectDirectly",
+                    "battle/effect/skill_unique/ruin_lady_meteor23/ruin_lady_meteor23_beam"
+                  ],
+                  -1,
+                  [
+                    "SuperForesideOfCharacter"
+                  ],
+                  [
+                    "PlayOnlyFirstSequence"
+                  ],
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  0,
+                  false,
+                  false,
+                  [
+                    "None"
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateHitArea",
+                  "*",
+                  -1,
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  0,
+                  false,
+                  false,
+                  [
+                    "Rectangle",
+                    [
+                      {
+                        "max": 1500,
+                        "min": 1500
+                      }
+                    ],
+                    [
+                      {
+                        "max": 2000,
+                        "min": 2000
+                      }
+                    ]
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Single"
+                  ],
+                  [
+                    "SpecifyHitAreaLifetimeDirectly",
+                    50
+                  ],
+                  [
+                    "CalculatedUsingMaxNumOfHits",
+                    3
+                  ],
+                  [
+                    "None"
+                  ],
+                  false,
+                  true,
+                  [
+                    "None"
+                  ],
+                  0,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "ShakeCamera",
+                          3
+                        ]
+                      ]
+                    ]
+                  ],
+                  1,
+                  2,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          2,
+                          255,
+                          null,
+                          null,
+                          53,
+                          [
+                            {
+                              "max": 8,
+                              "min": 6.933333333333334
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          [
+                            {
+                              "max": 8,
+                              "min": 8
+                            }
+                          ],
+                          [
+                            {
+                              "max": 4,
+                              "min": 4
+                            }
+                          ],
+                          [
+                            "Fine"
+                          ],
+                          true
+                        ]
+                      ]
+                    ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          3,
+          113,
+          [
+            2
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  3,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 1200,
+                          "min": 1200
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.75,
+                          "min": 0.65
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "攻撃力アップ1",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  3,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 1200,
+                          "min": 1200
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.75,
+                          "min": 0.65
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "攻撃力アップ2",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          4,
+          145,
+          [
+            2
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  4,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 1200,
+                          "min": 1200
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.75,
+                          "min": 0.65
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "攻撃力アップ1",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  4,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 1200,
+                          "min": 1200
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.75,
+                          "min": 0.65
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "攻撃力アップ2",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

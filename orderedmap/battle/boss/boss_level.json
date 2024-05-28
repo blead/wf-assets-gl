@@ -1376,6 +1376,23 @@
       "54"
     ]
   ],
+  "guardian_totem_multi_80": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "125",
+      "2.7",
+      "hit_hp_correction_normal",
+      "",
+      "",
+      "atk_basic_normal",
+      "15",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "800"
+    ]
+  ],
   "guardian_totem_multi": [
     [
       "0",
@@ -1476,6 +1493,23 @@
       "atk_correction_normal",
       "tp_basic_normal",
       "18"
+    ]
+  ],
+  "kraken_multi_80": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "120",
+      "2.7",
+      "hit_hp_correction_normal",
+      "",
+      "",
+      "atk_basic_normal",
+      "18",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "800"
     ]
   ],
   "kraken_multi": [
@@ -2122,6 +2156,23 @@
       "atk_multi",
       "tp_basic_normal",
       "75"
+    ]
+  ],
+  "treant_multi_80": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "135",
+      "2.7",
+      "hit_hp_correction_normal",
+      "",
+      "",
+      "atk_basic_normal",
+      "30",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "800"
     ]
   ],
   "treant_multi": [
@@ -3178,6 +3229,108 @@
       "300"
     ]
   ],
+  "shark_score_event": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "800",
+      "2.7",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "40",
+      "1",
+      "atk_multi",
+      "tp_normal",
+      "300"
+    ]
+  ],
+  "arch_evil_thunder_single_score_event": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "145",
+      "1",
+      "hit_hp_correction_normal",
+      "",
+      "",
+      "atk_basic_normal",
+      "15",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "18"
+    ]
+  ],
+  "treant_multi_score_event": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "135",
+      "2.7",
+      "hit_hp_correction_normal",
+      "",
+      "",
+      "atk_basic_normal",
+      "30",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "36"
+    ]
+  ],
+  "discarded_dragon_wind_tower_score_event": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "630",
+      "0.23",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "24",
+      "0.9",
+      "atk_multi",
+      "tp_normal",
+      "120"
+    ]
+  ],
+  "administrator_light_single_score_event": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "100",
+      "1",
+      "hit_hp_correction_normal",
+      "",
+      "",
+      "atk_basic_normal",
+      "10",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "20"
+    ]
+  ],
+  "security_armour_multi_score_event": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "130",
+      "2.7",
+      "hit_hp_correction_normal",
+      "",
+      "",
+      "atk_basic_normal",
+      "18",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "45"
+    ]
+  ],
   "spirit_beast_water_rush_1": [
     [
       "0",
@@ -3363,6 +3516,57 @@
       "atk_single",
       "tp_normal",
       "500"
+    ]
+  ],
+  "ghost_fox_rush": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "476",
+      "1",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "21",
+      "1",
+      "atk_multi",
+      "tp_basic_normal",
+      "800"
+    ]
+  ],
+  "halloween_jack_rush": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "14062",
+      "1",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "3.8",
+      "1",
+      "atk_multi",
+      "tp_basic_normal",
+      "800"
+    ]
+  ],
+  "ghost_fox_rush_illusion": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "476",
+      "1",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "21",
+      "1",
+      "atk_multi",
+      "tp_basic_normal",
+      "800"
     ]
   ],
   "treant_rush1": [
@@ -3909,6 +4113,23 @@
       "333"
     ]
   ],
+  "middle_boss_dragon_anv1_kc": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "320",
+      "2.7",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "30",
+      "1",
+      "atk_multi",
+      "tp_normal",
+      "1000"
+    ]
+  ],
   "middle_boss_dragon_anv1_single": [
     [
       "0",
@@ -4118,6 +4339,57 @@
       "0",
       "hit_hp_basic_normal",
       "1700",
+      "1",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "18",
+      "0.5",
+      "atk_single",
+      "tp_basic_normal",
+      "60"
+    ]
+  ],
+  "haniwa_great_fire_pf": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "40000",
+      "1",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "18",
+      "0.675",
+      "atk_single",
+      "tp_basic_normal",
+      "60"
+    ]
+  ],
+  "haniwa_great_fire_direct": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "22400",
+      "1",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "18",
+      "0.45",
+      "atk_single",
+      "tp_basic_normal",
+      "60"
+    ]
+  ],
+  "haniwa_great_fire_skill": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "28500",
       "1",
       "hit_hp_boss",
       "",
@@ -5745,6 +6017,23 @@
       "18"
     ]
   ],
+  "eye_dragon_boss_ch12": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "700",
+      "1",
+      "hit_hp_correction_normal",
+      "",
+      "",
+      "atk_basic_normal",
+      "35",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "45"
+    ]
+  ],
   "epuration_boss_variant_ver_single": [
     [
       "0",
@@ -6134,6 +6423,74 @@
       "atk_single",
       "tp_normal",
       "125"
+    ]
+  ],
+  "alter_sheep_materia_raid1": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "5061",
+      "1",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "21.5",
+      "1",
+      "atk_single",
+      "tp_normal",
+      "119"
+    ]
+  ],
+  "alter_sheep_materia_raid2": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "5061",
+      "1",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "21.5",
+      "1",
+      "atk_single",
+      "tp_normal",
+      "280"
+    ]
+  ],
+  "alter_sheep_materia_raid3": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "5061",
+      "1",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "21.5",
+      "1",
+      "atk_single",
+      "tp_normal",
+      "248"
+    ]
+  ],
+  "alter_sheep_materia_raid4": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "5061",
+      "1",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "21.5",
+      "1",
+      "atk_single",
+      "tp_normal",
+      "330"
     ]
   ],
   "runaway_romero": [

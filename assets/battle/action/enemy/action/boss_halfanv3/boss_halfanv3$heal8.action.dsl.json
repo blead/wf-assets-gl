@@ -1,0 +1,44 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateRatioHeal",
+          -17,
+          2,
+          [
+            {
+              "max": 0.3,
+              "min": 0.3
+            }
+          ],
+          null,
+          [
+            {
+              "max": 0,
+              "min": 0
+            }
+          ],
+          [
+            "GenericHealHitEffect"
+          ]
+        ]
+      ]
+    ]
+  ]
+]

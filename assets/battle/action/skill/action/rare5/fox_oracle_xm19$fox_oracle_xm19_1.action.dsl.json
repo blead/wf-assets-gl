@@ -123,7 +123,7 @@
                 [
                   "FindAllSubjects",
                   0,
-                  33,
+                  113,
                   null,
                   null,
                   null,
@@ -140,6 +140,57 @@
                         [
                           "CreateRatioHeal",
                           0,
+                          2,
+                          [
+                            {
+                              "max": 0.06,
+                              "min": 0.06
+                            }
+                          ],
+                          [
+                            5
+                          ],
+                          [
+                            {
+                              "max": 0.5,
+                              "min": 0.5
+                            }
+                          ],
+                          [
+                            "SpecifyHealEffectDirectly",
+                            [
+                              "SpecifyEffectDirectly",
+                              "battle/effect/skill_unique/fox_oracle_xm19/fox_oracle_xm19_heal"
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "FindAllSubjects",
+                  1,
+                  145,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  [
+                    "DoNothing"
+                  ],
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateRatioHeal",
+                          1,
                           2,
                           [
                             {
@@ -197,6 +248,156 @@
                       "battle/effect/skill_unique/fox_oracle_xm19/fox_oracle_xm19_heal"
                     ]
                   ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          2,
+          113,
+          [
+            5
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  2,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 720,
+                          "min": 720
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.6,
+                          "min": 0.6
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          3,
+          145,
+          [
+            5
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  3,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 720,
+                          "min": 720
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.6,
+                          "min": 0.6
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
                 ]
               ]
             ]

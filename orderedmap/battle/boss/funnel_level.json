@@ -679,6 +679,23 @@
       "1"
     ]
   ],
+  "funnel_guardian_totem_multi_80": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "4",
+      "1.8",
+      "hit_hp_correction_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "44",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
   "funnel_guardian_totem_multi": [
     [
       "0",
@@ -1767,6 +1784,23 @@
       "1"
     ]
   ],
+  "funnel_treant_big_multi_80": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "6",
+      "2.7",
+      "hit_hp_correction_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "50",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
   "funnel_treant_big_multi": [
     [
       "0",
@@ -1790,6 +1824,23 @@
       "hit_hp_basic_normal",
       "6",
       "1",
+      "hit_hp_correction_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "50",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_treant_multi_80": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "3",
+      "2.7",
       "hit_hp_correction_funnel",
       "",
       "",
@@ -1931,6 +1982,40 @@
       "",
       "atk_basic_normal",
       "16",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "tentacle_left_multi_80": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "6",
+      "2.7",
+      "hit_hp_correction_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "15",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "tentacle_right_multi_80": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "6",
+      "2.7",
+      "hit_hp_correction_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "15",
       "1",
       "atk_correction_normal",
       "tp_basic_normal",
@@ -4198,6 +4283,40 @@
       "1"
     ]
   ],
+  "shark_blue_score_event": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "162",
+      "2.7",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "40",
+      "1",
+      "atk_multi",
+      "tp_normal",
+      "999999"
+    ]
+  ],
+  "shark_brown_score_event": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "82",
+      "2.7",
+      "hit_hp_boss",
+      "",
+      "",
+      "atk_basic_normal",
+      "23",
+      "1",
+      "atk_multi",
+      "tp_normal",
+      "999999"
+    ]
+  ],
   "funnel_bomb_rush": [
     [
       "0",
@@ -4260,6 +4379,125 @@
       "",
       "atk_basic_normal",
       "15",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "halloween_jack_bomb_attack_funnel_rush": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "30",
+      "1",
+      "hit_hp_correction_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "38",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "halloween_jack_bomb_attack_funnel_ex_rush": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "560",
+      "1",
+      "hit_hp_correction_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "38",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "avator_ghost_fox_avator_rush": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "39",
+      "1",
+      "hit_hp_correction_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "26",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_ghost_fox_right_rush": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "157",
+      "1",
+      "hit_hp_correction_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "26",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_ghost_fox_left_rush": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "157",
+      "1",
+      "hit_hp_correction_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "26",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_ghost_fox_bottom_rush": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "157",
+      "1",
+      "hit_hp_correction_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "26",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_ghost_fox_top_rush": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "157",
+      "1",
+      "hit_hp_correction_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "26",
       "1",
       "atk_correction_normal",
       "tp_basic_normal",
@@ -4736,6 +4974,23 @@
       "1",
       "atk_basic_normal",
       "50",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_middle_boss_dragon_anv1_kc": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "2.5",
+      "1.8",
+      "hit_hp_correction_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "70",
       "1",
       "atk_correction_normal",
       "tp_basic_normal",
@@ -5434,6 +5689,720 @@
       "atk_basic_normal",
       "20",
       "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_turretA_pf": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "400000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1.17",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_turretB_pf": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "400000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1.17",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_turretC_pf": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "400000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1.17",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_turretD_pf": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "400000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1.17",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_metal_pf": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "1",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1.17",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_strong_pf": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "10000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1.17",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_wall_pf": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "20",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1.17",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_bomb_pf": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "10",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1.17",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_weak_pf": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "150",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1.17",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_metal_a_pf": [
+    [
+      "1",
+      "fix_hp_always_multiple_one",
+      "",
+      "",
+      "",
+      "100",
+      "1",
+      "atk_basic_normal",
+      "20",
+      "1.17",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_metal_b_pf": [
+    [
+      "1",
+      "fix_hp_always_multiple_one",
+      "",
+      "",
+      "",
+      "100",
+      "1",
+      "atk_basic_normal",
+      "20",
+      "1.17",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_buff_a_pf": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "560",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1.17",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_buff_b_pf": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "560",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1.17",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_nothing_pf": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "1000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1.17",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_turretA_skill": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "200000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_turretB_skill": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "200000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_turretC_skill": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "200000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_turretD_skill": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "200000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_metal_skill": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "1",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_strong_skill": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "560",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_wall_skill": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "20",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_bomb_skill": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "10",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_weak_skill": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "225",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_metal_a_skill": [
+    [
+      "1",
+      "fix_hp_always_multiple_one",
+      "",
+      "",
+      "",
+      "100",
+      "1",
+      "atk_basic_normal",
+      "20",
+      "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_metal_b_skill": [
+    [
+      "1",
+      "fix_hp_always_multiple_one",
+      "",
+      "",
+      "",
+      "100",
+      "1",
+      "atk_basic_normal",
+      "20",
+      "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_buff_a_skill": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "560",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_buff_b_skill": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "560",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_nothing_skill": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "1000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "1",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_turretA_direct": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "200000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "0.88",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_turretB_direct": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "200000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "0.88",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_turretC_direct": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "200000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "0.88",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_turretD_direct": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "200000",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "0.88",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_metal_direct": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "1",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "0.88",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_strong_direct": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "560",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "0.88",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_wall_direct": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "20",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "0.88",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_bomb_direct": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "10",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "0.88",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_weak_direct": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "225",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "0.88",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_metal_a_direct": [
+    [
+      "1",
+      "fix_hp_always_multiple_one",
+      "",
+      "",
+      "",
+      "100",
+      "1",
+      "atk_basic_normal",
+      "20",
+      "0.88",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_metal_b_direct": [
+    [
+      "1",
+      "fix_hp_always_multiple_one",
+      "",
+      "",
+      "",
+      "100",
+      "1",
+      "atk_basic_normal",
+      "20",
+      "0.88",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_buff_a_direct": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "560",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "0.88",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_buff_b_direct": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "560",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "0.88",
+      "atk_single",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
+  "funnel_haniwa_great_fire_nothing_direct": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "10",
+      "1",
+      "hit_hp_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "20",
+      "0.88",
       "atk_single",
       "tp_basic_normal",
       "1"
@@ -13786,6 +14755,23 @@
       "1"
     ]
   ],
+  "funnel_alter_sheep_materia_raid": [
+    [
+      "0",
+      "hit_hp_basic_normal",
+      "625",
+      "1",
+      "hit_hp_correction_funnel",
+      "",
+      "",
+      "atk_basic_normal",
+      "113",
+      "1",
+      "atk_correction_normal",
+      "tp_basic_normal",
+      "1"
+    ]
+  ],
   "funnel_runaway_romero_bone": [
     [
       "0",
@@ -14542,7 +15528,7 @@
       "",
       "",
       "1000000000",
-      "1",
+      "100",
       "atk_basic_normal",
       "45",
       "1",
@@ -14559,7 +15545,7 @@
       "",
       "",
       "1000000000",
-      "1",
+      "100",
       "atk_basic_normal",
       "45",
       "1",
@@ -14576,7 +15562,7 @@
       "",
       "",
       "1000000000",
-      "4",
+      "100",
       "atk_basic_normal",
       "45",
       "1",
@@ -14593,7 +15579,7 @@
       "",
       "",
       "1000000000",
-      "4",
+      "100",
       "atk_basic_normal",
       "45",
       "1",
@@ -14610,7 +15596,7 @@
       "",
       "",
       "1000000000",
-      "1",
+      "100",
       "atk_basic_normal",
       "45",
       "1",
@@ -14627,7 +15613,7 @@
       "",
       "",
       "1000000000",
-      "1",
+      "100",
       "atk_basic_normal",
       "45",
       "1",
@@ -14644,7 +15630,7 @@
       "",
       "",
       "1000000000",
-      "1",
+      "100",
       "atk_basic_normal",
       "45",
       "1",
@@ -14661,7 +15647,7 @@
       "",
       "",
       "1000000000",
-      "1",
+      "100",
       "atk_basic_normal",
       "45",
       "1",
@@ -14678,7 +15664,7 @@
       "",
       "",
       "1000000000",
-      "1",
+      "100",
       "atk_basic_normal",
       "45",
       "1",
@@ -14695,7 +15681,7 @@
       "",
       "",
       "1000000000",
-      "1",
+      "100",
       "atk_basic_normal",
       "45",
       "1",
@@ -14712,7 +15698,7 @@
       "",
       "",
       "1000000000",
-      "1",
+      "100",
       "atk_basic_normal",
       "45",
       "1",
@@ -14729,7 +15715,7 @@
       "",
       "",
       "1000000000",
-      "1",
+      "100",
       "atk_basic_normal",
       "45",
       "1",

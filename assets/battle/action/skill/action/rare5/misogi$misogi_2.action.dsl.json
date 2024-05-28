@@ -317,8 +317,8 @@
                                               1,
                                               [
                                                 {
-                                                  "alv_max": -0.1,
-                                                  "alv_min": -0.05
+                                                  "alv_max": -0.15,
+                                                  "alv_min": -0.075
                                                 }
                                               ],
                                               [
@@ -372,6 +372,156 @@
                       ]
                     ]
                   ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          4,
+          113,
+          [
+            1
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  4,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 900,
+                          "min": 900
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.5,
+                          "min": 0.4
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          5,
+          145,
+          [
+            1
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  5,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 900,
+                          "min": 900
+                        }
+                      ],
+                      [
+                        {
+                          "max": 0.5,
+                          "min": 0.4
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
                 ]
               ]
             ]

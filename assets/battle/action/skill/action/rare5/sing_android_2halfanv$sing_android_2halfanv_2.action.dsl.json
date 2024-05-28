@@ -64,7 +64,7 @@
         [
           "FindAllSubjects",
           0,
-          33,
+          113,
           null,
           null,
           null,
@@ -111,6 +111,53 @@
         [
           "FindAllSubjects",
           1,
+          145,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateRatioHeal",
+                  1,
+                  2,
+                  [
+                    {
+                      "max": 0.1,
+                      "min": 0.08
+                    }
+                  ],
+                  [
+                    2
+                  ],
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    "GenericHealHitEffect"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          2,
           34,
           [
             1,
@@ -133,7 +180,7 @@
                 "Command",
                 [
                   "FindAllSubjects",
-                  2,
+                  3,
                   33,
                   null,
                   null,
@@ -150,7 +197,7 @@
                         "Command",
                         [
                           "CreateCondition",
-                          2,
+                          3,
                           [
                             [
                               "ACPowerFlipDamage",
@@ -210,7 +257,7 @@
         "Command",
         [
           "FindAllSubjects",
-          3,
+          4,
           34,
           [
             2
@@ -229,7 +276,7 @@
                 "Command",
                 [
                   "FindAllSubjects",
-                  4,
+                  5,
                   33,
                   null,
                   null,
@@ -246,7 +293,7 @@
                         "Command",
                         [
                           "CreateCondition",
-                          4,
+                          5,
                           [
                             [
                               "ACPowerFlipDamage",
@@ -332,7 +379,7 @@
         "Command",
         [
           "TargetMate",
-          5,
+          6,
           null,
           null,
           null,
@@ -350,7 +397,7 @@
         "Command",
         [
           "CreateCondition",
-          5,
+          6,
           [
             [
               "ACPowerFlipDamage",
@@ -402,7 +449,7 @@
         "Command",
         [
           "TargetMate",
-          6,
+          7,
           null,
           null,
           null,
@@ -416,7 +463,7 @@
         "Command",
         [
           "CreateCondition",
-          6,
+          7,
           [
             [
               "ACPowerFlipDamage",

@@ -1,0 +1,257 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "画面全体用の演出",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/enemy_unique/enemy_shot_chapter12_boss_all_miasma/enemy_shot_chapter12_boss_all_miasma"
+          ],
+          -1,
+          [
+            "ForesideOfCharacter"
+          ],
+          [
+            "PlayOnlyFirstSequence"
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          true,
+          true,
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          20,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "FindAllSubjects",
+                  0,
+                  33,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  [
+                    "DoNothing"
+                  ],
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          0,
+                          [
+                            [
+                              "ACAttackPoint",
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -1,
+                                  "min": -1
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 5,
+                                  "min": 5
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          false,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          0,
+                          [
+                            [
+                              "ACFrozen",
+                              [
+                                {
+                                  "max": 600,
+                                  "min": 600
+                                }
+                              ],
+                              true
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          false,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          0,
+                          [
+                            [
+                              "ACSilence",
+                              [
+                                {
+                                  "max": 600,
+                                  "min": 600
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          false,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          0,
+                          [
+                            [
+                              "ACParalysis",
+                              [
+                                {
+                                  "max": 600,
+                                  "min": 600
+                                }
+                              ],
+                              false
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          false,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

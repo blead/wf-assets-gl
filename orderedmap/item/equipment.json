@@ -2539,6 +2539,46 @@
       "1"
     ]
   ],
+  "5090047": [
+    [
+      "acce_0047",
+      "アロランドネモ",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/acce_0047_lv0",
+      "蒼機兵の動力部の部品を流用して作られた絶品。魔核を中心に歯車仕掛が施され、変形により出力を上げる首飾り",
+      "5",
+      "true",
+      "5090047",
+      "5",
+      "500",
+      "true",
+      "1",
+      "1"
+    ]
+  ],
+  "5100020": [
+    [
+      "gun_0020",
+      "ハリサルヴァー",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/gun_0020_lv0",
+      "閃機兵の蒸気管を流用して作られた絶品。蒸気圧で弾丸を更に加速させ、狙ったモノを蜂の巣にしてしまう機械銃",
+      "5",
+      "true",
+      "5100020",
+      "5",
+      "500",
+      "true",
+      "1",
+      "1"
+    ]
+  ],
   "5060027": [
     [
       "staff_0027_boss_unique",
@@ -3135,6 +3175,66 @@
       "5",
       "0",
       "false",
+      "1",
+      "1"
+    ]
+  ],
+  "5070043": [
+    [
+      "fist_0043",
+      "ハニツカミ",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/fist_0043",
+      "火のハニワとの激闘で得た絶品。エプロンをしたハニワから貰った、熱さを少しも感じさせない不思議な手袋",
+      "5",
+      "true",
+      "5070043",
+      "5",
+      "500",
+      "true",
+      "1",
+      "1"
+    ]
+  ],
+  "5010075": [
+    [
+      "sword_0075",
+      "ハニゾウコ",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/sword_0075",
+      "火のハニワとの激闘で得た絶品。保存庫らしき場所にたくさん突き刺さっていた、凄まじい冷気を発する剣",
+      "5",
+      "true",
+      "5010075",
+      "5",
+      "500",
+      "true",
+      "1",
+      "1"
+    ]
+  ],
+  "5040037": [
+    [
+      "bow_0037",
+      "ハニビヅツ",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/bow_0037",
+      "火のハニワとの激闘で得た絶品。矢弾ではなく火薬を内蔵した棒を撃ち出す為に生み出された大弓",
+      "5",
+      "true",
+      "5040037",
+      "5",
+      "500",
+      "true",
       "1",
       "1"
     ]
@@ -4699,6 +4799,26 @@
       "1"
     ]
   ],
+  "100012": [
+    [
+      "main_chapter_orb_12",
+      "We Walk, Not Knowing the Way",
+      "1",
+      "orb/main_chapter_orb/chapter12/fullsize",
+      "orb/main_chapter_orb/chapter12/thumbnail",
+      "We walked this path, knowing that it would end. Some day, we'll find a new one—and though we may not know the way—we'll walk it again. Together.",
+      "item/equipment/general/chapter_orb_12",
+      "A strange orb obtained upon clearing One Last Farewell.",
+      "1",
+      "true",
+      "100012",
+      "5",
+      "0",
+      "false",
+      "1",
+      "1"
+    ]
+  ],
   "100011": [
     [
       "main_chapter_orb_11",
@@ -4970,11 +5090,131 @@
       "item/equipment/general/sword_0070_epuration",
       "An exquisite piece said to bring the power of the heavens into your hands. This blade gathers energy from Purger crystals to grow incrementally stronger.",
       "1",
-      "true",
+      "false",
       "5010070",
       "5",
       "0",
       "false",
+      "1",
+      "1"
+    ]
+  ],
+  "5090048": [
+    [
+      "acce_0048",
+      "Wicked Wood Strap",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/acce_0048",
+      "An exquisite piece created from the trunk of a wicked tree. A piece of amber brimming with magic serves as the protective charm's centerpiece.",
+      "5",
+      "true",
+      "5090048",
+      "5",
+      "500",
+      "true",
+      "1",
+      "1"
+    ]
+  ],
+  "5010074": [
+    [
+      "sword_0074",
+      "Wicked Wood Edge",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/sword_0074",
+      "An exquisite piece created from the sap and branch of a wicked tree. The polished resin blade is decorated by wave-like patterns.",
+      "5",
+      "true",
+      "5010074",
+      "5",
+      "500",
+      "true",
+      "1",
+      "1"
+    ]
+  ],
+  "5100019": [
+    [
+      "gun_0019",
+      "Ancient Stick",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/gun_0019",
+      "An exquisite piece excavated from ruins under a guardian's watch. Its discoverers, ignorant of its firing capabilities, thought it to be a simple baton.",
+      "5",
+      "true",
+      "5100019",
+      "5",
+      "500",
+      "true",
+      "1",
+      "1"
+    ]
+  ],
+  "5070042": [
+    [
+      "fist_0042",
+      "Ancient Glove",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/fist_0042",
+      "An exquisite piece excavated from ruins under a guardian's watch. This gauntlet imbues its wielder with incredible physical strength, though the source of this empowerment remains a mystery.",
+      "5",
+      "true",
+      "5070042",
+      "5",
+      "500",
+      "true",
+      "1",
+      "1"
+    ]
+  ],
+  "5040036": [
+    [
+      "bow_0036",
+      "Sea Emperor's Bow",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/bow_0036",
+      "An exquisite piece forged from the remains of a mighty kraken. Its construction takes advantage of the kraken's elastic tentacles. A single shot from it is enough to part the seas.",
+      "5",
+      "true",
+      "5040036",
+      "5",
+      "500",
+      "true",
+      "1",
+      "1"
+    ]
+  ],
+  "5060045": [
+    [
+      "staff_0045",
+      "Tidal Lord",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/staff_0045",
+      "An exquisite piece forged from the remains of a mighty kraken. Named after the emperor of the seas, only one who is fit to rule may lay claim to this staff.",
+      "5",
+      "true",
+      "5060045",
+      "5",
+      "500",
+      "true",
       "1",
       "1"
     ]
@@ -5235,6 +5475,66 @@
       "3",
       "0",
       "false",
+      "1",
+      "1"
+    ]
+  ],
+  "5050039": [
+    [
+      "book_0039",
+      "Graduation Diploma",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/book_0039",
+      "An exquisite piece honoring the students participating in the joint graduation ceremony. Proof of knowledge gained and memories shared.",
+      "5",
+      "true",
+      "5050039",
+      "5",
+      "300",
+      "true",
+      "1",
+      "1"
+    ]
+  ],
+  "5090049": [
+    [
+      "acce_0049",
+      "Outstanding Achievement Award",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/acce_0049",
+      "An exquisite piece Lilie prepared to award those who went above and beyond in completing requests. \"Thank you for all you've done! Here's to many more adventures!\"",
+      "5",
+      "true",
+      "5090049",
+      "5",
+      "500",
+      "true",
+      "1",
+      "1"
+    ]
+  ],
+  "4090050": [
+    [
+      "acce_0050",
+      "Barrel of Fun (Celebratory)",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/acce_0050",
+      "A fine piece made to liven up the joint graduation ceremony. The people of Starview Village prepared this surprise to send off the grads with a bang.",
+      "5",
+      "true",
+      "4090050",
+      "4",
+      "500",
+      "true",
       "1",
       "1"
     ]
@@ -6552,6 +6852,26 @@
       "5",
       "true",
       "5010073",
+      "5",
+      "500",
+      "true",
+      "1",
+      "1"
+    ]
+  ],
+  "5020042": [
+    [
+      "axe_0042_raid",
+      "ハルボーマン",
+      "0",
+      "",
+      "",
+      "",
+      "item/equipment/general/axe_0042_raid_lv0",
+      "翠機兵の翼を流用して作られた絶品。内燃機関の稼働と空力学によって、焔風を纏う超熱斬撃を可能とした機械斧",
+      "5",
+      "true",
+      "5020042",
       "5",
       "500",
       "true",

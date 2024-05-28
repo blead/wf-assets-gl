@@ -1,0 +1,397 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "StopBall",
+          -18,
+          10,
+          [
+            "RestoreToSpeedBeforeActionExecution"
+          ],
+          [
+            "EF"
+          ],
+          0
+        ]
+      ],
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "全体演出",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/stella_ballot23/stella_ballot23"
+          ],
+          -1,
+          [
+            "SuperForesideOfCharacter"
+          ],
+          [
+            "PlayOnlyFirstSequence"
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          false,
+          false,
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          0,
+          113,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateRatioHeal",
+                  0,
+                  2,
+                  [
+                    {
+                      "max": 0.06,
+                      "min": 0.06
+                    }
+                  ],
+                  [
+                    5
+                  ],
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    "GenericHealHitEffect"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          1,
+          145,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateRatioHeal",
+                  1,
+                  2,
+                  [
+                    {
+                      "max": 0.06,
+                      "min": 0.06
+                    }
+                  ],
+                  [
+                    5
+                  ],
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    "GenericHealHitEffect"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "CreateRatioHeal",
+          -33,
+          2,
+          [
+            {
+              "max": 0.06,
+              "min": 0.06
+            }
+          ],
+          [
+            5
+          ],
+          [
+            {
+              "max": 0.5,
+              "min": 0.5
+            }
+          ],
+          [
+            "GenericHealHitEffect"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          2,
+          113,
+          [
+            5
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  2,
+                  [
+                    [
+                      "ACRegeneration",
+                      [
+                        {
+                          "max": 480,
+                          "min": 480
+                        }
+                      ],
+                      [
+                        {
+                          "max": 30,
+                          "min": 30
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          3,
+          145,
+          [
+            5
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  3,
+                  [
+                    [
+                      "ACRegeneration",
+                      [
+                        {
+                          "max": 480,
+                          "min": 480
+                        }
+                      ],
+                      [
+                        {
+                          "max": 30,
+                          "min": 30
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          4,
+          113,
+          [
+            5
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  4,
+                  [
+                    [
+                      "ACDirectDamage",
+                      [
+                        {
+                          "max": 960,
+                          "min": 960
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

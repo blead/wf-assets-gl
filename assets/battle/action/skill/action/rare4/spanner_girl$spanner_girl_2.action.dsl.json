@@ -106,8 +106,46 @@
               [
                 "Command",
                 [
-                  "CreateRatioHeal",
+                  "DeleteCondition",
                   0,
+                  [
+                    "DCAll",
+                    3
+                  ],
+                  1,
+                  0,
+                  "",
+                  [
+                    "Default"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          1,
+          113,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateRatioHeal",
+                  1,
                   2,
                   [
                     {
@@ -130,21 +168,53 @@
                     "None"
                   ]
                 ]
-              ],
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          2,
+          145,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
               [
                 "Command",
                 [
-                  "DeleteCondition",
-                  0,
+                  "CreateRatioHeal",
+                  2,
+                  2,
                   [
-                    "DCAll",
+                    {
+                      "alv_max": 0.02,
+                      "alv_min": 0.01,
+                      "max": 0.08,
+                      "min": 0.055999999999999994
+                    }
+                  ],
+                  [
                     3
                   ],
-                  1,
-                  0,
-                  "",
                   [
-                    "Default"
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    "None"
                   ]
                 ]
               ]

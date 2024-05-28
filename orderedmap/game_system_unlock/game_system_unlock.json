@@ -131,7 +131,7 @@
     [
       "condition_boss_epuration",
       "system_lock_boss_epuration",
-      "(None)",
+      "short_system_lock_boss_epuration",
       "0"
     ]
   ],
@@ -139,6 +139,38 @@
     [
       "condition_hard_multi_red",
       "system_lock_hard_multi_red",
+      "short_system_lock_hard_multi_red",
+      "1"
+    ]
+  ],
+  "score_attack": [
+    [
+      "condition_score_attack_unlock",
+      "system_lock_score_attack",
+      "short_system_lock_score_attack",
+      "0"
+    ]
+  ],
+  "hard_multi_green": [
+    [
+      "condition_hard_multi_green",
+      "system_lock_hard_multi_green",
+      "short_system_lock_hard_multi_red",
+      "1"
+    ]
+  ],
+  "hard_multi_blue": [
+    [
+      "condition_hard_multi_blue",
+      "system_lock_hard_multi_blue",
+      "short_system_lock_hard_multi_red",
+      "1"
+    ]
+  ],
+  "hard_multi_light": [
+    [
+      "condition_hard_multi_light",
+      "system_lock_hard_multi_light",
       "short_system_lock_hard_multi_red",
       "1"
     ]

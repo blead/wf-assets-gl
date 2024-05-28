@@ -1,0 +1,102 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "DeleteCondition",
+          -17,
+          [
+            "DCAttackPoint",
+            2
+          ],
+          1,
+          1,
+          "",
+          [
+            "Default"
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          10,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  -17,
+                  [
+                    [
+                      "ACPowerFlipDamageResistance",
+                      [
+                        {
+                          "max": 10000001,
+                          "min": 10000001
+                        }
+                      ],
+                      [
+                        {
+                          "max": -1,
+                          "min": -1
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  false,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

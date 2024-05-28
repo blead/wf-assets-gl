@@ -93,32 +93,6 @@
               [
                 "Command",
                 [
-                  "CreateRatioHeal",
-                  0,
-                  2,
-                  [
-                    {
-                      "max": 0.1,
-                      "min": 0.08
-                    }
-                  ],
-                  [
-                    2
-                  ],
-                  [
-                    {
-                      "max": 0.5,
-                      "min": 0.5
-                    }
-                  ],
-                  [
-                    "GenericHealHitEffect"
-                  ]
-                ]
-              ],
-              [
-                "Command",
-                [
                   "DeleteCondition",
                   0,
                   [
@@ -183,6 +157,100 @@
                     }
                   ],
                   false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          1,
+          113,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateRatioHeal",
+                  1,
+                  2,
+                  [
+                    {
+                      "max": 0.1,
+                      "min": 0.08
+                    }
+                  ],
+                  [
+                    2
+                  ],
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    "GenericHealHitEffect"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          2,
+          145,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateRatioHeal",
+                  2,
+                  2,
+                  [
+                    {
+                      "max": 0.1,
+                      "min": 0.08
+                    }
+                  ],
+                  [
+                    2
+                  ],
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    "GenericHealHitEffect"
+                  ]
                 ]
               ]
             ]

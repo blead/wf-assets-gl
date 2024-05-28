@@ -1,0 +1,395 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "StopBall",
+          -18,
+          10,
+          [
+            "RestoreToSpeedBeforeActionExecution"
+          ],
+          [
+            "EF"
+          ],
+          0
+        ]
+      ],
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "ボール演出",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/sleep_puppy_vt23/sleep_puppy_vt23_heart"
+          ],
+          -18,
+          [
+            "ForesideOfCharacter"
+          ],
+          [
+            "PlayOnlyFirstSequence"
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          true,
+          false,
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "全体演出",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/sleep_puppy_vt23/sleep_puppy_vt23_all"
+          ],
+          -1,
+          [
+            "SuperForesideOfCharacter"
+          ],
+          [
+            "PlayOnlyFirstSequence"
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          false,
+          false,
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          0,
+          113,
+          [
+            2
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  0,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 1200,
+                          "min": 1200
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1.2,
+                          "min": 1
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          1,
+          145,
+          [
+            2
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  1,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 1200,
+                          "min": 1200
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1.2,
+                          "min": 1
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          2,
+          113,
+          [
+            2
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  2,
+                  [
+                    [
+                      "ACToleranceOfElement",
+                      [
+                        {
+                          "max": 2400,
+                          "min": 2400
+                        }
+                      ],
+                      1,
+                      [
+                        {
+                          "max": 0.2,
+                          "min": 0.15
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          3,
+          145,
+          [
+            2
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  3,
+                  [
+                    [
+                      "ACToleranceOfElement",
+                      [
+                        {
+                          "max": 2400,
+                          "min": 2400
+                        }
+                      ],
+                      1,
+                      [
+                        {
+                          "max": 0.2,
+                          "min": 0.15
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

@@ -35,8 +35,46 @@
               [
                 "Command",
                 [
-                  "CreateRatioHeal",
+                  "DeleteCondition",
                   0,
+                  [
+                    "DCAll",
+                    3
+                  ],
+                  1,
+                  0,
+                  "",
+                  [
+                    "Default"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          1,
+          113,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateRatioHeal",
+                  1,
                   2,
                   [
                     {
@@ -57,21 +95,51 @@
                     "GenericHealHitEffect"
                   ]
                 ]
-              ],
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          2,
+          145,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
               [
                 "Command",
                 [
-                  "DeleteCondition",
-                  0,
+                  "CreateRatioHeal",
+                  2,
+                  2,
                   [
-                    "DCAll",
-                    3
+                    {
+                      "max": 0.06,
+                      "min": 0.05
+                    }
                   ],
-                  1,
-                  0,
-                  "",
                   [
-                    "Default"
+                    4097
+                  ],
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    "GenericHealHitEffect"
                   ]
                 ]
               ]

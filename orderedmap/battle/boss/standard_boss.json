@@ -287,6 +287,134 @@
       ]
     ]
   },
+  "steampunk_wind_multi": {
+    "20": [
+      [
+        "翠機兵クラーグ",
+        "battle/enemy/boss/steampunk_wind_multi1"
+      ]
+    ],
+    "50": [
+      [
+        "翠機兵クラーグ",
+        "battle/enemy/boss/steampunk_wind_multi2"
+      ]
+    ],
+    "70": [
+      [
+        "翠機兵クラーグ",
+        "battle/enemy/boss/steampunk_wind_multi3"
+      ]
+    ],
+    "80": [
+      [
+        "翠機兵クラーグ",
+        "battle/enemy/boss/steampunk_wind_multi4"
+      ]
+    ]
+  },
+  "steampunk_wind_hard_multi": {
+    "100": [
+      [
+        "翠機兵クラーグ",
+        "battle/enemy/boss/steampunk_wind_hard_multi"
+      ]
+    ]
+  },
+  "steampunk_water_multi": {
+    "20": [
+      [
+        "蒼機兵ヴェルヌス",
+        "battle/enemy/boss/steampunk_water_multi1"
+      ]
+    ],
+    "50": [
+      [
+        "蒼機兵ヴェルヌス",
+        "battle/enemy/boss/steampunk_water_multi2"
+      ]
+    ],
+    "70": [
+      [
+        "蒼機兵ヴェルヌス",
+        "battle/enemy/boss/steampunk_water_multi3"
+      ]
+    ],
+    "80": [
+      [
+        "蒼機兵ヴェルヌス",
+        "battle/enemy/boss/steampunk_water_multi4"
+      ]
+    ]
+  },
+  "steampunk_water_single": {
+    "20": [
+      [
+        "蒼機兵ヴェルヌス",
+        "battle/enemy/boss/steampunk_water_single1"
+      ]
+    ],
+    "50": [
+      [
+        "蒼機兵ヴェルヌス",
+        "battle/enemy/boss/steampunk_water_single2"
+      ]
+    ],
+    "70": [
+      [
+        "蒼機兵ヴェルヌス",
+        "battle/enemy/boss/steampunk_water_single3"
+      ]
+    ],
+    "80": [
+      [
+        "蒼機兵ヴェルヌス",
+        "battle/enemy/boss/steampunk_water_single4"
+      ]
+    ]
+  },
+  "steampunk_water_hard_multi": {
+    "100": [
+      [
+        "蒼機兵ヴェルヌス",
+        "battle/enemy/boss/steampunk_water_hard_multi"
+      ]
+    ]
+  },
+  "steampunk_light_multi": {
+    "20": [
+      [
+        "閃機兵アイザン",
+        "battle/enemy/boss/steampunk_light_multi1"
+      ]
+    ],
+    "50": [
+      [
+        "閃機兵アイザン",
+        "battle/enemy/boss/steampunk_light_multi2"
+      ]
+    ],
+    "70": [
+      [
+        "閃機兵アイザン",
+        "battle/enemy/boss/steampunk_light_multi3"
+      ]
+    ],
+    "80": [
+      [
+        "閃機兵アイザン",
+        "battle/enemy/boss/steampunk_light_multi4"
+      ]
+    ]
+  },
+  "steampunk_light_hard_multi": {
+    "100": [
+      [
+        "閃機兵アイザン",
+        "battle/enemy/boss/steampunk_light_hard_multi"
+      ]
+    ]
+  },
   "steampunk_fire_multi": {
     "20": [
       [
@@ -370,6 +498,12 @@
       [
         "Atmosia",
         "battle/enemy/boss/spirit_beast_wind_4"
+      ]
+    ],
+    "100": [
+      [
+        "Atmosia",
+        "battle/enemy/boss/spirit_beast_wind_5"
       ]
     ]
   },
@@ -661,6 +795,50 @@
       ]
     ]
   },
+  "halfanv3_boss_multi": {
+    "55": [
+      [
+        "Tharros Ultimate ∞",
+        "battle/enemy/boss/halfanv3_boss_multi2"
+      ]
+    ],
+    "80": [
+      [
+        "Tharros Ultimate ∞",
+        "battle/enemy/boss/halfanv3_boss_multi4"
+      ]
+    ]
+  },
+  "halfanv3_boss_single": {
+    "55": [
+      [
+        "Tharros Ultimate ∞",
+        "battle/enemy/boss/halfanv3_boss_single2"
+      ]
+    ],
+    "80": [
+      [
+        "Tharros Ultimate ∞",
+        "battle/enemy/boss/halfanv3_boss_single4"
+      ]
+    ]
+  },
+  "halfanv3_boss_expert": {
+    "100": [
+      [
+        "Tharros Ultimate ∞",
+        "battle/enemy/boss/halfanv3_boss_expert"
+      ]
+    ]
+  },
+  "halfanv3_boss_story": {
+    "100": [
+      [
+        "Tharros Ultimate ∞",
+        "battle/enemy/boss/halfanv3_boss_story"
+      ]
+    ]
+  },
   "halfanv25_big_boss_multi": {
     "60": [
       [
@@ -708,8 +886,16 @@
   "boss_epuration_boss_variant_ver_3anv": {
     "100": [
       [
-        "Modified Purger",
+        "Purger Sage",
         "battle/enemy/boss/boss_epuration_boss_variant_ver_3anv"
+      ]
+    ]
+  },
+  "epuration_boss_highest_main": {
+    "100": [
+      [
+        "Modified Purger",
+        "battle/enemy/boss/epuration_boss_highest_main"
       ]
     ]
   },
@@ -753,6 +939,14 @@
       ]
     ]
   },
+  "discarded_dragon_light_rush": {
+    "100": [
+      [
+        "Ilma Talei",
+        "battle/enemy/boss/discarded_dragon_light_rush"
+      ]
+    ]
+  },
   "discarded_dragon_light_lv80_multi": {
     "100": [
       [
@@ -766,6 +960,32 @@
       [
         "Ilma Talei",
         "battle/enemy/boss/discarded_dragon_light_single4"
+      ]
+    ]
+  },
+  "chapter12_boss_story": {
+    "20": [
+      [
+        "End Dragon",
+        "battle/enemy/boss/chapter12_boss_main"
+      ]
+    ],
+    "50": [
+      [
+        "End Dragon",
+        "battle/enemy/boss/chapter12_boss_main"
+      ]
+    ],
+    "70": [
+      [
+        "End Dragon",
+        "battle/enemy/boss/chapter12_boss_main"
+      ]
+    ],
+    "80": [
+      [
+        "End Dragon",
+        "battle/enemy/boss/chapter12_boss_main"
       ]
     ]
   },

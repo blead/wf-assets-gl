@@ -649,6 +649,24 @@
       ]
     }
   },
+  "shark_blue_score_event": {
+    "100": {
+      "skill_shot_charge": [
+        [
+          "720"
+        ]
+      ]
+    }
+  },
+  "shark_brown_score_event": {
+    "100": {
+      "skill_shot_charge": [
+        [
+          "720"
+        ]
+      ]
+    }
+  },
   "funnel_security_armour_single": {
     "100": {
       "neutral": [
@@ -944,6 +962,20 @@
     }
   },
   "funnel_middle_boss_dragon_anv1_raid4": {
+    "100": {
+      "neutral": [
+        [
+          "180"
+        ]
+      ],
+      "charge": [
+        [
+          "180"
+        ]
+      ]
+    }
+  },
+  "funnel_middle_boss_dragon_anv1_kc": {
     "100": {
       "neutral": [
         [
@@ -1949,6 +1981,63 @@
       ]
     }
   },
+  "funnel_haniwa_great_fire_bomb_skill": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "charge1": [
+        [
+          "120"
+        ]
+      ],
+      "charge2": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_haniwa_great_fire_bomb_pf": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "charge1": [
+        [
+          "120"
+        ]
+      ],
+      "charge2": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_haniwa_great_fire_bomb_direct": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "charge1": [
+        [
+          "120"
+        ]
+      ],
+      "charge2": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
   "funnel_haniwa_great_fire_bomb": {
     "100": {
       "neutral": [
@@ -2040,6 +2129,54 @@
       "charge2": [
         [
           "120"
+        ]
+      ]
+    }
+  },
+  "halloween_jack_bomb_attack_funnel_rush": {
+    "100": {
+      "neutral": [
+        [
+          "90"
+        ]
+      ],
+      "neutral2": [
+        [
+          "60"
+        ]
+      ],
+      "charge1": [
+        [
+          "60"
+        ]
+      ],
+      "charge2": [
+        [
+          "150"
+        ]
+      ]
+    }
+  },
+  "halloween_jack_bomb_attack_funnel_ex_rush": {
+    "100": {
+      "neutral": [
+        [
+          "90"
+        ]
+      ],
+      "neutral2": [
+        [
+          "180"
+        ]
+      ],
+      "charge1": [
+        [
+          "450"
+        ]
+      ],
+      "charge2": [
+        [
+          "210"
         ]
       ]
     }
@@ -2276,6 +2413,20 @@
       ]
     }
   },
+  "funnel_guardian_totem_multi_80": {
+    "100": {
+      "neutral": [
+        [
+          "200"
+        ]
+      ],
+      "charge": [
+        [
+          "90"
+        ]
+      ]
+    }
+  },
   "funnel_guardian_golem_fire_single": {
     "100": {
       "charge1": [
@@ -2441,6 +2592,78 @@
       "charge3": [
         [
           "150"
+        ]
+      ]
+    }
+  },
+  "avator_ghost_fox_avator_rush": {
+    "79": {
+      "charge": [
+        [
+          "600"
+        ]
+      ]
+    },
+    "100": {
+      "charge": [
+        [
+          "600"
+        ]
+      ]
+    }
+  },
+  "funnel_ghost_fox_right_rush": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "attack": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_ghost_fox_left_rush": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "attack": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_ghost_fox_top_rush": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "attack": [
+        [
+          "120"
+        ]
+      ]
+    }
+  },
+  "funnel_ghost_fox_bottom_rush": {
+    "100": {
+      "neutral": [
+        [
+          "120"
+        ]
+      ],
+      "attack": [
+        [
+          "120"
         ]
       ]
     }

@@ -2,7 +2,7 @@
   "1": [
     [
       "raid_event_01",
-      "레이드 이벤트 전장의 향연",
+      "Raid Event: Sagas of Conquest",
       "2023-07-25 14:00:00,2023-08-13 20:59:59,2023-08-15 13:59:59,2023-08-21 04:59:59",
       "quest/event/banner/raid_event/raid_event_banner_01_001,quest/event/banner/raid_event/raid_event_banner_01_002,quest/event/banner/raid_event/raid_event_banner_01_003",
       "quest/event/bossbattle_banner/raid_event/raid_event_bossbattle_banner_01,(None),(None)",
@@ -33,7 +33,7 @@
   "2": [
     [
       "raid_event_02",
-      "레이드 이벤트 전장의 향연",
+      "Raid Event: Sagas of Conquest",
       "2023-11-06 14:00:00,2023-11-19 20:59:59,2023-11-21 13:59:59,2023-11-28 04:59:59",
       "quest/event/banner/raid_event/raid_event_banner_02_001,quest/event/banner/raid_event/raid_event_banner_02_002,quest/event/banner/raid_event/raid_event_banner_02_003",
       "quest/event/bossbattle_banner/raid_event/raid_event_bossbattle_banner_02,(None),(None)",
@@ -49,7 +49,7 @@
       "wince",
       "dead",
       "0",
-      "2094000",
+      "100000000",
       "19",
       "1",
       "2023-11-21 13:59:59",
@@ -64,7 +64,7 @@
   "3": [
     [
       "raid_event_03",
-      "레이드 이벤트 전장의 향연",
+      "Raid Event: Sagas of Conquest",
       "2023-12-26 14:00:00,2024-01-01 20:59:59,2024-01-04 13:59:59,2024-01-11 04:59:59",
       "quest/event/banner/raid_event/raid_event_banner_03_001,quest/event/banner/raid_event/raid_event_banner_03_002,quest/event/banner/raid_event/raid_event_banner_03_003",
       "quest/event/bossbattle_banner/raid_event/raid_event_bossbattle_banner_03,(None),(None)",
@@ -80,12 +80,12 @@
       "wince",
       "dead",
       "0",
-      "1047000",
+      "50000000",
       "21",
       "1",
       "2024-01-04 13:59:59",
       "2024-01-11 04:59:59",
-      "10",
+      "0",
       "raid_event_03",
       "2023-12-26 14:00:00",
       "2024-01-01 20:59:59",
@@ -95,7 +95,7 @@
   "4": [
     [
       "raid_event_04",
-      "레이드 이벤트 전장의 향연",
+      "Raid Event: Sagas of Conquest",
       "2025-05-12 14:00:00,2025-05-18 20:59:59,2025-05-20 13:59:59,2025-05-27 04:59:59",
       "quest/event/banner/raid_event/raid_event_banner_04_001,quest/event/banner/raid_event/raid_event_banner_04_002,quest/event/banner/raid_event/raid_event_banner_04_003",
       "quest/event/bossbattle_banner/raid_event/raid_event_bossbattle_banner_04,(None),(None)",
@@ -121,6 +121,37 @@
       "2025-05-12 14:00:00",
       "2025-05-18 20:59:59",
       "2025-05-27 04:59:59"
+    ]
+  ],
+  "5": [
+    [
+      "raid_event_05",
+      "Raid Event: Sagas of Conquest",
+      "2025-10-29 14:00:00,2025-11-05 20:59:59,2025-11-09 13:59:59,2025-11-16 04:59:59",
+      "quest/event/banner/raid_event/raid_event_banner_05_001,quest/event/banner/raid_event/raid_event_banner_05_002,quest/event/banner/raid_event/raid_event_banner_05_003",
+      "quest/event/bossbattle_banner/raid_event/raid_event_bossbattle_banner_05,(None),(None)",
+      "quest/event/background/raid_event/raid_event_background_05",
+      "(None)",
+      "(None)",
+      "bgm/event/raid_event/raid_event_top",
+      "3",
+      "quest/event/boss_thumbnail/raid_event/raid_event_05/raid_event_boss_thumbnail_05",
+      "battle/boss/alter_sheep_materia/alter_sheep_materia",
+      "battle/boss/alter_sheep_materia/alter_sheep_materia_shadow",
+      "neutral",
+      "wince",
+      "dead",
+      "0",
+      "500000",
+      "26",
+      "1",
+      "2025-11-09 13:59:59",
+      "2025-11-16 04:59:59",
+      "10",
+      "raid_event_05",
+      "2025-10-29 14:00:00",
+      "2025-11-05 20:59:59",
+      "2025-11-16 04:59:59"
     ]
   ]
 }

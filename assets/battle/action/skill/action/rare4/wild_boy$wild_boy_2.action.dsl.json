@@ -102,7 +102,7 @@
         [
           "FindAllSubjects",
           0,
-          33,
+          113,
           null,
           null,
           null,
@@ -119,6 +119,53 @@
                 [
                   "CreateRatioHeal",
                   0,
+                  2,
+                  [
+                    {
+                      "max": 0.08,
+                      "min": 0.056
+                    }
+                  ],
+                  [
+                    4
+                  ],
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    "GenericHealHitEffect"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          1,
+          145,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateRatioHeal",
+                  1,
                   2,
                   [
                     {
@@ -200,7 +247,7 @@
                             "CreateImaginaryTarget",
                             -100000
                           ],
-                          1,
+                          2,
                           [
                             "Block",
                             [
@@ -211,7 +258,7 @@
                                   -18,
                                   [
                                     "GH",
-                                    1
+                                    2
                                   ],
                                   0,
                                   2,
@@ -319,13 +366,13 @@
                   [
                     "None"
                   ],
-                  2,
+                  3,
                   [
                     "Block",
                     null
                   ],
-                  3,
                   4,
+                  5,
                   [
                     "Block",
                     [
@@ -333,7 +380,7 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          4,
+                          5,
                           255,
                           null,
                           null,
@@ -480,13 +527,13 @@
                           [
                             "None"
                           ],
-                          5,
+                          6,
                           [
                             "Block",
                             null
                           ],
-                          6,
                           7,
+                          8,
                           [
                             "Block",
                             [
@@ -494,7 +541,7 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  7,
+                                  8,
                                   255,
                                   null,
                                   null,
@@ -645,13 +692,13 @@
                           [
                             "None"
                           ],
-                          8,
+                          9,
                           [
                             "Block",
                             null
                           ],
-                          9,
                           10,
+                          11,
                           [
                             "Block",
                             [
@@ -659,7 +706,7 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  10,
+                                  11,
                                   255,
                                   null,
                                   null,
@@ -810,13 +857,13 @@
                           [
                             "None"
                           ],
-                          11,
+                          12,
                           [
                             "Block",
                             null
                           ],
-                          12,
                           13,
+                          14,
                           [
                             "Block",
                             [
@@ -824,7 +871,7 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  13,
+                                  14,
                                   255,
                                   null,
                                   null,
@@ -975,13 +1022,13 @@
                           [
                             "None"
                           ],
-                          14,
+                          15,
                           [
                             "Block",
                             null
                           ],
-                          15,
                           16,
+                          17,
                           [
                             "Block",
                             [
@@ -989,7 +1036,7 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  16,
+                                  17,
                                   255,
                                   null,
                                   null,
@@ -1140,13 +1187,13 @@
                           [
                             "None"
                           ],
-                          17,
+                          18,
                           [
                             "Block",
                             null
                           ],
-                          18,
                           19,
+                          20,
                           [
                             "Block",
                             [
@@ -1154,7 +1201,7 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  19,
+                                  20,
                                   255,
                                   null,
                                   null,
@@ -1305,13 +1352,13 @@
                           [
                             "None"
                           ],
-                          20,
+                          21,
                           [
                             "Block",
                             null
                           ],
-                          21,
                           22,
+                          23,
                           [
                             "Block",
                             [
@@ -1319,7 +1366,7 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  22,
+                                  23,
                                   255,
                                   null,
                                   null,
@@ -1470,13 +1517,13 @@
                           [
                             "None"
                           ],
-                          23,
+                          24,
                           [
                             "Block",
                             null
                           ],
-                          24,
                           25,
+                          26,
                           [
                             "Block",
                             [
@@ -1484,7 +1531,7 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  25,
+                                  26,
                                   255,
                                   null,
                                   null,
@@ -1635,13 +1682,13 @@
                           [
                             "None"
                           ],
-                          26,
+                          27,
                           [
                             "Block",
                             null
                           ],
-                          27,
                           28,
+                          29,
                           [
                             "Block",
                             [
@@ -1649,7 +1696,7 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  28,
+                                  29,
                                   255,
                                   null,
                                   null,
@@ -1800,13 +1847,13 @@
                           [
                             "None"
                           ],
-                          29,
+                          30,
                           [
                             "Block",
                             null
                           ],
-                          30,
                           31,
+                          32,
                           [
                             "Block",
                             [
@@ -1814,7 +1861,7 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  31,
+                                  32,
                                   255,
                                   null,
                                   null,
@@ -1965,13 +2012,13 @@
                           [
                             "None"
                           ],
-                          32,
+                          33,
                           [
                             "Block",
                             null
                           ],
-                          33,
                           34,
+                          35,
                           [
                             "Block",
                             [
@@ -1979,7 +2026,7 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  34,
+                                  35,
                                   255,
                                   null,
                                   null,
@@ -2130,13 +2177,13 @@
                           [
                             "None"
                           ],
-                          35,
+                          36,
                           [
                             "Block",
                             null
                           ],
-                          36,
                           37,
+                          38,
                           [
                             "Block",
                             [
@@ -2144,7 +2191,7 @@
                                 "Command",
                                 [
                                   "CreateNormalAttack",
-                                  37,
+                                  38,
                                   255,
                                   null,
                                   null,

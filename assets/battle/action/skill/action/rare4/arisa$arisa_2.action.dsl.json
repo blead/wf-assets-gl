@@ -147,7 +147,7 @@
                         [
                           "FindAllSubjects",
                           0,
-                          33,
+                          113,
                           null,
                           null,
                           null,
@@ -164,6 +164,53 @@
                                 [
                                   "CreateRatioHeal",
                                   0,
+                                  2,
+                                  [
+                                    {
+                                      "max": 0.006,
+                                      "min": 0.0048
+                                    }
+                                  ],
+                                  [
+                                    8196
+                                  ],
+                                  [
+                                    {
+                                      "max": 0.5,
+                                      "min": 0.5
+                                    }
+                                  ],
+                                  [
+                                    "GenericHealHitEffect"
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "FindAllSubjects",
+                          1,
+                          145,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          [
+                            "DoNothing"
+                          ],
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateRatioHeal",
+                                  1,
                                   2,
                                   [
                                     {
@@ -249,7 +296,7 @@
                                   [
                                     "None"
                                   ],
-                                  1,
+                                  2,
                                   [
                                     "Block",
                                     [
@@ -262,7 +309,7 @@
                                             "SpecifyEffectDirectly",
                                             "battle/effect/skill_unique/arisa/arisa"
                                           ],
-                                          1,
+                                          2,
                                           [
                                             "ForesideOfCharacter"
                                           ],
@@ -287,7 +334,7 @@
                                         "Command",
                                         [
                                           "MoveHitArea",
-                                          1,
+                                          2,
                                           [
                                             "CD"
                                           ],
@@ -300,8 +347,8 @@
                                       ]
                                     ]
                                   ],
-                                  2,
                                   3,
+                                  4,
                                   [
                                     "Block",
                                     [
@@ -309,7 +356,7 @@
                                         "Command",
                                         [
                                           "CreateNormalAttack",
-                                          3,
+                                          4,
                                           255,
                                           null,
                                           null,

@@ -66,67 +66,6 @@
         ]
       ],
       [
-        "Command",
-        [
-          "FindAllSubjects",
-          0,
-          33,
-          null,
-          null,
-          null,
-          null,
-          null,
-          [
-            "DoNothing"
-          ],
-          [
-            "Block",
-            [
-              [
-                "Command",
-                [
-                  "CreateCondition",
-                  0,
-                  [
-                    [
-                      "ACHealRejection",
-                      [
-                        {
-                          "max": 900,
-                          "min": 900
-                        }
-                      ]
-                    ]
-                  ],
-                  [
-                    {
-                      "max": 1,
-                      "min": 1
-                    }
-                  ],
-                  [
-                    "GenericConditionHitEffect"
-                  ],
-                  false,
-                  false,
-                  "",
-                  null,
-                  false,
-                  3,
-                  [
-                    {
-                      "max": 1,
-                      "min": 1
-                    }
-                  ],
-                  false
-                ]
-              ]
-            ]
-          ]
-        ]
-      ],
-      [
         "Event",
         [
           "Wait",
@@ -180,15 +119,15 @@
                     30
                   ],
                   [
-                    "CalculatedUsingMaxNumOfHits",
-                    1
+                    "SpecifyMinHitIntervalDirectly",
+                    3
                   ],
                   [
                     "Some",
                     [
                       {
-                        "max": 1,
-                        "min": 1
+                        "max": 6,
+                        "min": 6
                       }
                     ]
                   ],
@@ -197,7 +136,7 @@
                   [
                     "None"
                   ],
-                  1,
+                  0,
                   [
                     "Block",
                     [
@@ -214,7 +153,7 @@
                                 "Command",
                                 [
                                   "MoveHitArea",
-                                  1,
+                                  0,
                                   [
                                     "CD"
                                   ],
@@ -266,8 +205,8 @@
                       ]
                     ]
                   ],
+                  1,
                   2,
-                  3,
                   [
                     "Block",
                     [
@@ -275,15 +214,15 @@
                         "Command",
                         [
                           "CreateNormalAttack",
-                          3,
+                          2,
                           255,
                           null,
                           null,
-                          173,
+                          33,
                           [
                             {
-                              "max": 17.3,
-                              "min": 17.3
+                              "max": 3.3333333333333335,
+                              "min": 3.3333333333333335
                             }
                           ],
                           [
@@ -299,14 +238,14 @@
                           false,
                           [
                             {
-                              "max": 30,
-                              "min": 30
+                              "max": 5,
+                              "min": 5
                             }
                           ],
                           [
                             {
-                              "max": 10,
-                              "min": 10
+                              "max": 1.6666666666666667,
+                              "min": 1.6666666666666667
                             }
                           ],
                           [
@@ -319,7 +258,7 @@
                         "Command",
                         [
                           "CreateCondition",
-                          3,
+                          2,
                           [
                             [
                               "ACAttackPoint",

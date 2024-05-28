@@ -1,0 +1,56 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "CreateBarrier",
+          -17,
+          [
+            {
+              "max": 0.05,
+              "min": 0.05
+            }
+          ],
+          [
+            "GenericBarrierHitEffect"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "EliminateFunnel",
+          [
+            "StandardFunnel",
+            "steampunk_wind_funnel_core_hard_multi"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "EliminateFunnel",
+          [
+            "StandardFunnel",
+            "steampunk_wind_funnel_core_multi"
+          ]
+        ]
+      ]
+    ]
+  ]
+]

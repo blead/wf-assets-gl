@@ -1,0 +1,213 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "StartModifierField",
+          9999999,
+          [
+            [
+              "SkillGaugeCharging",
+              -0.25
+            ]
+          ],
+          [
+            "Fever",
+            1
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_fire_turretA_pf"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            10
+          ],
+          [
+            [
+              "ACPowerFlipDamageResistance",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_fire_turretB_pf"
+          ],
+          1,
+          [
+            "FunnelGroup",
+            10
+          ],
+          [
+            [
+              "ACPowerFlipDamageResistance",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ],
+              [
+                {
+                  "max": -2,
+                  "min": -2
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "SpawnFunnel",
+          [
+            "Funnel",
+            "funnel_haniwa_great_fire_nothing_pf"
+          ],
+          4,
+          [
+            "FunnelGroup",
+            8
+          ],
+          [
+            [
+              "ACInvincible",
+              [
+                {
+                  "max": 999999,
+                  "min": 999999
+                }
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          0,
+          49,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  0,
+                  [
+                    [
+                      "ACToleranceOfElement",
+                      [
+                        {
+                          "max": 9999999,
+                          "min": 9999999
+                        }
+                      ],
+                      254,
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  false,
+                  false,
+                  "",
+                  null,
+                  false,
+                  3,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

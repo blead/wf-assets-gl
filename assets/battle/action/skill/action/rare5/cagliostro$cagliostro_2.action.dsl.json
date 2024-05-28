@@ -600,7 +600,7 @@
         [
           "FindAllSubjects",
           13,
-          33,
+          113,
           null,
           null,
           null,
@@ -617,6 +617,53 @@
                 [
                   "CreateRatioHeal",
                   13,
+                  2,
+                  [
+                    {
+                      "max": 0.1,
+                      "min": 0.08
+                    }
+                  ],
+                  [
+                    3
+                  ],
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    "GenericHealHitEffect"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          14,
+          145,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateRatioHeal",
+                  14,
                   2,
                   [
                     {

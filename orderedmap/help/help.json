@@ -237,7 +237,7 @@
       "1",
       "1",
       "rich_text/help_reward_campaign_2ndanv",
-      "2024-07-25 14:00:00",
+      "2024-07-25 15:00:00",
       "2024-08-11 13:59:59"
     ]
   ],
@@ -292,8 +292,19 @@
       "1",
       "1",
       "rich_text/help_reward_100manyen_campaign",
-      "2024-07-25 14:00:00",
+      "2024-07-25 15:00:00",
       "2024-09-01 23:59:59"
+    ]
+  ],
+  "help_cheering_mainquest_campaign": [
+    [
+      "help_label_cheering_mainquest_campaign",
+      "Campaign",
+      "1",
+      "1",
+      "rich_text/help_cheering_mainquest_campaign",
+      "2024-11-08 14:00:00",
+      "2024-12-17 20:59:59"
     ]
   ],
   "Character": [
@@ -391,7 +402,7 @@
       "1",
       "0",
       "",
-      "2024-02-29 14:00:00",
+      "2024-03-18 14:00:00",
       "(None)"
     ]
   ],
@@ -446,7 +457,7 @@
       "1",
       "1",
       "rich_text/help_other_comeback_bonus",
-      "2023-07-25 05:00:00",
+      "2023-05-31 05:00:00",
       "(None)"
     ]
   ],
@@ -468,7 +479,7 @@
       "1",
       "1",
       "rich_text/help_event_side_story",
-      "2023-04-09 14:00:00",
+      "2023-02-13 14:00:00",
       "(None)"
     ]
   ],
@@ -492,6 +503,17 @@
       "rich_text/help_event_world_story_event_yokai_emaki_01",
       "2022-05-28 14:00:00",
       "2022-06-19 04:59:59"
+    ]
+  ],
+  "event_vt22_re01": [
+    [
+      "help_label_event_world_story_vt22",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_world_story_event_vt22_re01",
+      "2024-08-10 14:00:00",
+      "2024-09-01 04:59:59"
     ]
   ],
   "event_world_story_vt22": [
@@ -534,8 +556,8 @@
       "1",
       "1",
       "rich_text/help_event_treasure_hunt_quest",
-      "2025-05-18 14:00:00",
-      "2025-06-02 20:59:59"
+      "2024-05-18 14:00:00",
+      "2024-05-28 13:59:59"
     ]
   ],
   "treasure_cave_quest": [
@@ -681,6 +703,17 @@
       "(None)"
     ]
   ],
+  "event_score_attack_event": [
+    [
+      "help_label_event_score_attack_event",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_score_attack_event",
+      "2024-08-17 14:00:00",
+      "(None)"
+    ]
+  ],
   "combat_diver_01": [
     [
       "help_label_event_rush_event",
@@ -721,8 +754,19 @@
       "1",
       "1",
       "rich_text/help_event_rush_event",
-      "2024-07-12 14:00:00",
-      "2024-08-03 04:59:59"
+      "2025-07-12 14:00:00",
+      "2025-08-03 04:59:59"
+    ]
+  ],
+  "combat_diver_05": [
+    [
+      "help_label_event_rush_event",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_rush_event",
+      "2025-07-19 14:00:00",
+      "2025-08-11 04:59:59"
     ]
   ],
   "event_raid_event": [
@@ -765,8 +809,19 @@
       "1",
       "1",
       "rich_text/help_event_raid_event_04",
-      "2024-07-28 14:00:00",
-      "2024-07-30 04:59:59"
+      "2024-05-12 14:00:00",
+      "2024-05-27 04:59:59"
+    ]
+  ],
+  "event_raid_event_05": [
+    [
+      "help_label_event_raid_event",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_raid_event_05",
+      "2024-10-29 14:00:00",
+      "2024-11-16 04:59:59"
     ]
   ],
   "multi_special_exchange_01": [
@@ -787,8 +842,52 @@
       "1",
       "1",
       "rich_text/help_event_multi_special_exchange_02",
-      "2024-07-25 14:00:00",
-      "2024-08-19 13:59:59"
+      "2024-04-28 14:00:00",
+      "2024-05-23 13:59:59"
+    ]
+  ],
+  "multi_special_exchange_03": [
+    [
+      "help_label_event_multi_special_exchange",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_multi_special_exchange_03",
+      "2024-05-28 14:00:00",
+      "2024-06-09 13:59:59"
+    ]
+  ],
+  "multi_special_exchange_04": [
+    [
+      "help_label_event_multi_special_exchange",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_multi_special_exchange_04",
+      "2024-06-11 14:00:00",
+      "2024-06-23 13:59:59"
+    ]
+  ],
+  "multi_special_exchange_05": [
+    [
+      "help_label_event_multi_special_exchange",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_multi_special_exchange_05",
+      "2024-06-25 14:00:00",
+      "2024-07-07 13:59:59"
+    ]
+  ],
+  "multi_special_exchange_06": [
+    [
+      "help_label_event_multi_special_exchange",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_multi_special_exchange_06",
+      "2024-07-09 14:00:00",
+      "2024-07-21 13:59:59"
     ]
   ],
   "Event_material_trader": [
@@ -802,6 +901,28 @@
       "2023-11-07 20:59:59"
     ]
   ],
+  "event_kc_summer_2021": [
+    [
+      "help_label_event_kc_summer_2021",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_kc_summer_2021",
+      "2024-09-14 14:00:00",
+      "2024-10-08 04:59:59"
+    ]
+  ],
+  "event_kc_anv1": [
+    [
+      "help_label_event_kc_summer_2021",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_kc_anv1",
+      "2024-10-15 14:00:00",
+      "2024-11-05 04:59:59"
+    ]
+  ],
   "event_hard_multi_fire": [
     [
       "help_label_event_hard_multi_fire",
@@ -810,7 +931,51 @@
       "1",
       "rich_text/help_event_hard_multi_steam_robot_fire",
       "2024-05-28 14:00:00",
-      "2024-07-25 14:59:59"
+      "2024-06-15 04:59:59"
+    ]
+  ],
+  "event_hard_multi_wind": [
+    [
+      "help_label_event_hard_multi_wind",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_hard_multi_steam_robot_wind",
+      "2024-08-31 14:00:00",
+      "2024-09-22 04:59:59"
+    ]
+  ],
+  "event_hard_multi_water": [
+    [
+      "help_label_event_hard_multi_water",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_hard_multi_steam_robot_water",
+      "2024-10-01 14:00:00",
+      "2024-10-23 04:59:59"
+    ]
+  ],
+  "Help_haniwa_carnival_thunder_20230407_20230421": [
+    [
+      "help_label_event_haniwa_carnival",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_haniwa_carnival",
+      "2024-10-08 14:00:00",
+      "2024-10-30 04:59:59"
+    ]
+  ],
+  "Help_haniwa_carnival_fire_20230630_20230714": [
+    [
+      "help_label_event_haniwa_carnival",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_haniwa_carnival",
+      "2024-12-31 14:00:00",
+      "2025-01-22 04:59:59"
     ]
   ],
   "Event_haniwa_carnival": [
@@ -901,6 +1066,17 @@
       "2024-04-29 04:59:59"
     ]
   ],
+  "Event_haniwa_carnival_09": [
+    [
+      "help_label_event_haniwa_carnival",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_haniwa_carnival",
+      "2024-08-03 14:00:00",
+      "2024-08-25 04:59:59"
+    ]
+  ],
   "event_world_story_fakeprincess01_re01": [
     [
       "help_label_event_world_story_fakeprincess01",
@@ -952,7 +1128,7 @@
       "1",
       "1",
       "rich_text/help_character_ex_boost",
-      "2023-10-12 14:00:00",
+      "(None)",
       "(None)"
     ]
   ],
@@ -996,7 +1172,18 @@
       "1",
       "1",
       "rich_text/help_equipment_enhancement_steam_robot_weapon",
-      "2024-05-28 14:00:00",
+      "2024-05-18 14:00:00",
+      "(None)"
+    ]
+  ],
+  "Equipment_Enhancement_Score_Attack_Event": [
+    [
+      "help_label_equipment_enhancement_score_attack_event",
+      "Equipment_Enhancement_List",
+      "1",
+      "1",
+      "rich_text/help_equipment_enhancement_score_attack_event",
+      "2024-08-17 14:00:00",
       "(None)"
     ]
   ],
@@ -1097,6 +1284,17 @@
       "rich_text/help_campaign_battle",
       "2022-10-26 14:00:00",
       "2022-11-04 13:59:59"
+    ]
+  ],
+  "event_boss_epuration_event_02": [
+    [
+      "help_label_event_boss_epuration_event_01",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_boss_epuration_event_01",
+      "2024-09-07 14:00:00",
+      "2024-09-29 04:59:59"
     ]
   ],
   "event_boss_epuration_event_01": [
@@ -1205,8 +1403,52 @@
       "1",
       "1",
       "rich_text/help_event_boss_battle_multi_pickup",
-      "2024-05-07 14:00:00",
-      "2024-05-19 20:59:59"
+      "2024-04-21 14:00:00",
+      "2024-04-28 20:59:59"
+    ]
+  ],
+  "boss_battle_multi_pickup_event23": [
+    [
+      "help_event_boss_battle_multi_pickup",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_boss_battle_multi_pickup",
+      "2024-05-28 14:00:00",
+      "2024-07-25 14:59:59"
+    ]
+  ],
+  "boss_battle_advent_multi_pickup_event_3": [
+    [
+      "help_event_boss_battle_multi_pickup",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_boss_battle_multi_pickup",
+      "2024-09-22 14:00:00",
+      "2024-10-01 20:59:59"
+    ]
+  ],
+  "boss_battle_multi_light_water_orochi_pickup_20230623_20230630": [
+    [
+      "help_event_boss_battle_multi_pickup",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_boss_battle_multi_pickup",
+      "2024-12-24 14:00:00",
+      "2024-12-31 20:59:59"
+    ]
+  ],
+  "boss_battle_multi_light_fire_thunder_dark_pickup_20230421_20230428": [
+    [
+      "help_event_boss_battle_multi_pickup",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_boss_battle_multi_pickup",
+      "2024-10-22 14:00:00",
+      "2024-10-29 20:59:59"
     ]
   ],
   "event_world_story_event_anv_story_01": [
@@ -1229,6 +1471,17 @@
       "rich_text/help_event_world_story_event_anv_re01",
       "2023-07-09 14:00:00",
       "2023-07-25 04:59:59"
+    ]
+  ],
+  "event_anv3half": [
+    [
+      "help_label_event_world_story_anv3half",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_anv3half",
+      "2024-05-28 14:00:00",
+      "2024-07-25 14:59:59"
     ]
   ],
   "event_anv3": [
@@ -1275,6 +1528,105 @@
       "2024-09-03 04:59:59"
     ]
   ],
+  "Help_advent_steam_robot_light_20230531_20230616": [
+    [
+      "help_label_event_advent_steam_robot_light",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_advent_steam_robot_light",
+      "2024-12-01 14:00:00",
+      "2024-12-25 04:59:59"
+    ]
+  ],
+  "Help_hard_multi_advent_steam_robot_light_20230531_20230616": [
+    [
+      "help_label_event_hard_multi_light",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_hard_multi_steam_robot_light",
+      "2024-12-01 14:00:00",
+      "2024-12-25 04:59:59"
+    ]
+  ],
+  "event_advent_spirit_beast_thunder4": [
+    [
+      "help_label_event_advent_spirit_beast_thunder",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_advent_spirit_beast_thunder4",
+      "2024-08-17 14:00:00",
+      "2024-09-08 04:59:59"
+    ]
+  ],
+  "Help_advent_spirit_beast_storm_20230608_20230622": [
+    [
+      "help_label_event_advent_spirit_beast_storm",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_advent_spirit_beast_storm_template",
+      "2024-12-09 14:00:00",
+      "2024-12-31 04:59:59"
+    ]
+  ],
+  "Help_advent_spirit_beast_light_20230616_20230630": [
+    [
+      "help_label_event_advent_spirit_beast_light",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_advent_spirit_beast_light_template",
+      "2024-12-17 14:00:00",
+      "2025-01-08 04:59:59"
+    ]
+  ],
+  "Help_advent_spirit_beast_light_20230414_20230428": [
+    [
+      "help_label_event_advent_spirit_beast_light",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_advent_spirit_beast_light_template",
+      "2024-10-15 14:00:00",
+      "2024-11-06 04:59:59"
+    ]
+  ],
+  "event_advent_spirit_beast_light3": [
+    [
+      "help_label_event_advent_spirit_beast_light",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_advent_spirit_beast_light3",
+      "2024-08-03 14:00:00",
+      "2024-08-25 04:59:59"
+    ]
+  ],
+  "Help_advent_spirit_beast_fire_20230515_20230531": [
+    [
+      "help_label_event_advent_spirit_beast_fire",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_advent_spirit_beast_fire_template",
+      "2024-11-15 14:00:00",
+      "2024-12-09 04:59:59"
+    ]
+  ],
+  "event_advent_spirit_beast_fire3": [
+    [
+      "help_label_event_advent_spirit_beast_fire",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_advent_spirit_beast_fire3",
+      "2024-09-07 14:00:00",
+      "2024-09-29 04:59:59"
+    ]
+  ],
   "event_advent_spirit_beast_dark2": [
     [
       "help_label_event_advent_spirit_beast_dark",
@@ -1282,8 +1634,8 @@
       "1",
       "1",
       "rich_text/help_event_advent_spirit_beast_dark2",
-      "2024-08-02 14:00:00",
-      "2024-08-19 04:59:59"
+      "2024-05-28 14:00:00",
+      "2024-07-25 14:59:59"
     ]
   ],
   "Event_Advent_light": [
@@ -1558,7 +1910,7 @@
       "1",
       "rich_text/help_event_advent_spirit_beast_storm2",
       "2024-05-28 14:00:00",
-      "2024-07-25 04:59:59"
+      "2024-07-25 14:59:59"
     ]
   ],
   "event_advent_spirit_beast_water2": [
@@ -1569,7 +1921,7 @@
       "1",
       "rich_text/help_event_advent_spirit_beast_water2",
       "2024-05-28 14:00:00",
-      "2024-07-25 04:59:59"
+      "2024-07-25 14:59:59"
     ]
   ],
   "event_advent_spirit_beast_fire2": [
@@ -1580,7 +1932,7 @@
       "1",
       "rich_text/help_event_advent_spirit_beast_fire2",
       "2024-05-28 14:00:00",
-      "2024-07-25 04:59:59"
+      "2024-07-25 14:59:59"
     ]
   ],
   "event_advent_spirit_beast_thunder3": [
@@ -1589,9 +1941,9 @@
       "Event",
       "1",
       "1",
-      "rich_text/help_event_advent_spirit_beast_thunder3",
+      "rich_text/help_event_advent_spirit_beast_thunder2",
       "2024-05-28 14:00:00",
-      "2024-07-25 04:59:59"
+      "2024-07-25 14:59:59"
     ]
   ],
   "event_advent_hw22": [
@@ -1613,7 +1965,7 @@
       "1",
       "rich_text/help_event_advent_spirit_beast_light2",
       "2024-05-28 14:00:00",
-      "2024-07-25 04:59:59"
+      "2024-07-25 14:59:59"
     ]
   ],
   "event_advent_steam_robot_fire": [
@@ -1624,7 +1976,51 @@
       "1",
       "rich_text/help_event_advent_steam_robot_fire",
       "2024-05-28 14:00:00",
-      "2024-07-25 14:59:59"
+      "2024-06-15 04:59:59"
+    ]
+  ],
+  "event_advent_spirit_beast_water3": [
+    [
+      "help_label_event_advent_spirit_beast_water",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_advent_spirit_beast_water3",
+      "2024-07-28 15:00:00",
+      "2024-08-11 04:59:59"
+    ]
+  ],
+  "event_advent_steam_robot_wind": [
+    [
+      "help_label_event_advent_steam_robot_wind",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_advent_steam_robot_wind",
+      "2024-08-31 14:00:00",
+      "2024-09-22 04:59:59"
+    ]
+  ],
+  "event_advent_steam_robot_water": [
+    [
+      "help_label_event_advent_steam_robot_water",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_advent_steam_robot_water",
+      "2024-10-01 14:00:00",
+      "2024-10-23 04:59:59"
+    ]
+  ],
+  "Help_advent_boss_epuration_20230515_20230531": [
+    [
+      "help_label_event_boss_epuration_event_01",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_boss_epuration_event_01",
+      "2024-11-15 14:00:00",
+      "2024-12-09 04:59:59"
     ]
   ],
   "event_story_valen20": [
@@ -1658,6 +2054,17 @@
       "rich_text/help_event_story_event_xm19",
       "2021-08-12 14:00:00",
       "2021-09-03 13:59:59"
+    ]
+  ],
+  "event_2halfanv_re01": [
+    [
+      "help_label_event_world_story_2halfanv",
+      "Event",
+      "1",
+      "1",
+      "rich_text/help_event_2halfanv_re01_temporary",
+      "2024-11-05 14:00:00",
+      "2024-11-27 04:59:59"
     ]
   ],
   "event_world_story_2halfanv": [

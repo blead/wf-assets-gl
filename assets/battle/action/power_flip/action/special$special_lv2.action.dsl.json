@@ -23,6 +23,26 @@
         ]
       ],
       [
+        "Event",
+        [
+          "Wait",
+          90,
+          "ヒット判定",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "NotifyPowerflipEnd",
+                  -18
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
         "Command",
         [
           "ShowEffect",
@@ -81,6 +101,33 @@
                 [
                   "SetPowerFilpSuppress",
                   30
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "RemoveEvent",
+                  "ヒット判定"
+                ]
+              ],
+              [
+                "Event",
+                [
+                  "Wait",
+                  28,
+                  "*",
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "NotifyPowerflipEnd",
+                          -18
+                        ]
+                      ]
+                    ]
+                  ]
                 ]
               ],
               [

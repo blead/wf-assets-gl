@@ -1,0 +1,418 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "StopBall",
+          -18,
+          30,
+          [
+            "RestoreToSpeedBeforeActionExecution"
+          ],
+          [
+            "EF"
+          ],
+          0
+        ]
+      ],
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "水エフェクト",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/amulet_bosslady/amulet_bosslady_water"
+          ],
+          -18,
+          [
+            "BacksideOfCharacter"
+          ],
+          [
+            "SpecifyEffectLifetimeDirectly",
+            690
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          true,
+          false,
+          [
+            "Some",
+            [
+              {
+                "max": 1,
+                "min": 1
+              }
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "札エフェクト",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/amulet_bosslady/amulet_bosslady_ohuda"
+          ],
+          -18,
+          [
+            "ForesideOfCharacter"
+          ],
+          [
+            "SpecifyEffectLifetimeDirectly",
+            690
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          true,
+          false,
+          [
+            "Some",
+            [
+              {
+                "max": 1,
+                "min": 1
+              }
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          20,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateHitArea",
+                  "*",
+                  -18,
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  0,
+                  true,
+                  false,
+                  [
+                    "Circle",
+                    [
+                      {
+                        "max": 200,
+                        "min": 200
+                      }
+                    ]
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Single"
+                  ],
+                  [
+                    "SpecifyHitAreaLifetimeDirectly",
+                    720
+                  ],
+                  [
+                    "SpecifyMinHitIntervalDirectly",
+                    60
+                  ],
+                  [
+                    "Some",
+                    [
+                      {
+                        "max": 12,
+                        "min": 12
+                      }
+                    ]
+                  ],
+                  false,
+                  true,
+                  [
+                    "None"
+                  ],
+                  0,
+                  [
+                    "Block",
+                    null
+                  ],
+                  1,
+                  2,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "ShakeCamera",
+                          1
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          2,
+                          255,
+                          null,
+                          null,
+                          16,
+                          [
+                            {
+                              "max": 1.6666666666666667,
+                              "min": 1.6666666666666667
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "Fine"
+                          ],
+                          true
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          2,
+                          [
+                            [
+                              "ACAttackPoint",
+                              [
+                                {
+                                  "max": 3000,
+                                  "min": 3000
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -0.05,
+                                  "min": -0.05
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 3,
+                                  "min": 3
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          2,
+                          [
+                            [
+                              "ACToleranceOfElement",
+                              [
+                                {
+                                  "max": 3000,
+                                  "min": 3000
+                                }
+                              ],
+                              2,
+                              [
+                                {
+                                  "max": -0.04,
+                                  "min": -0.04
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 3,
+                                  "min": 3
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "耐性ダウン1",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "ConditionalsChangeSkillFlag",
+                          1,
+                          [
+                            "Block",
+                            [
+                              [
+                                "Command",
+                                [
+                                  "CreateCondition",
+                                  2,
+                                  [
+                                    [
+                                      "ACToleranceOfElement",
+                                      [
+                                        {
+                                          "alv_max": 3900,
+                                          "alv_min": 3900
+                                        }
+                                      ],
+                                      2,
+                                      [
+                                        {
+                                          "alv_max": -0.05,
+                                          "alv_min": -0.025
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "max": 3,
+                                          "min": 3
+                                        }
+                                      ]
+                                    ]
+                                  ],
+                                  [
+                                    {
+                                      "alv_max": 1,
+                                      "alv_min": 1
+                                    }
+                                  ],
+                                  [
+                                    "GenericConditionHitEffect"
+                                  ],
+                                  true,
+                                  false,
+                                  "耐性ダウン2",
+                                  null,
+                                  false,
+                                  3,
+                                  [
+                                    {
+                                      "max": 1,
+                                      "min": 1
+                                    }
+                                  ],
+                                  false
+                                ]
+                              ]
+                            ]
+                          ],
+                          [
+                            "Block",
+                            null
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

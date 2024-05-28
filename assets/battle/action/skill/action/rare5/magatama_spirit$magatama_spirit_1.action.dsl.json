@@ -1,0 +1,340 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "StopBall",
+          -18,
+          10,
+          [
+            "RestoreToSpeedBeforeActionExecution"
+          ],
+          [
+            "EF"
+          ],
+          0
+        ]
+      ],
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "全体演出",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/magatama_spirit/magatama_spirit_all"
+          ],
+          -1,
+          [
+            "SuperForesideOfCharacter"
+          ],
+          [
+            "PlayOnlyFirstSequence"
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          false,
+          false,
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          0,
+          113,
+          [
+            5
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  0,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 960,
+                          "min": 960
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1.3,
+                          "min": 1.3
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  0,
+                  [
+                    [
+                      "ACRegeneration",
+                      [
+                        {
+                          "max": 720,
+                          "min": 720
+                        }
+                      ],
+                      [
+                        {
+                          "max": 50,
+                          "min": 50
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "DeleteCondition",
+                  0,
+                  [
+                    "DCAll",
+                    3
+                  ],
+                  2,
+                  0,
+                  "",
+                  [
+                    "Default"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          1,
+          145,
+          [
+            5
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  1,
+                  [
+                    [
+                      "ACAttackPoint",
+                      [
+                        {
+                          "max": 960,
+                          "min": 960
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1.3,
+                          "min": 1.3
+                        }
+                      ],
+                      [
+                        {
+                          "max": 1,
+                          "min": 1
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "CreateCondition",
+                  1,
+                  [
+                    [
+                      "ACRegeneration",
+                      [
+                        {
+                          "max": 720,
+                          "min": 720
+                        }
+                      ],
+                      [
+                        {
+                          "max": 50,
+                          "min": 50
+                        }
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  [
+                    "GenericConditionHitEffect"
+                  ],
+                  true,
+                  false,
+                  "",
+                  null,
+                  false,
+                  1,
+                  [
+                    {
+                      "max": 1,
+                      "min": 1
+                    }
+                  ],
+                  false
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "DeleteCondition",
+                  1,
+                  [
+                    "DCAll",
+                    3
+                  ],
+                  2,
+                  0,
+                  "",
+                  [
+                    "Default"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

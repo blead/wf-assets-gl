@@ -2,7 +2,7 @@
   "1": [
     [
       "collect_item_event_001",
-      "Treasure Hunt Mission",
+      "트레저 헌터 미션",
       "(None)",
       "0",
       "(None)",
@@ -34,7 +34,7 @@
   "2": [
     [
       "collect_item_event_002",
-      "Treasure Hunt Mission",
+      "트레저 헌터 미션",
       "(None)",
       "0",
       "(None)",
@@ -66,8 +66,8 @@
   "10001": [
     [
       "half_anniversary_event",
-      "Event Mission",
-      "Event Mission",
+      "이벤트 미션",
+      "이벤트 미션",
       "2",
       "3",
       "第1弾,第2弾,第3弾",
@@ -98,7 +98,7 @@
   "3": [
     [
       "collect_item_event_003",
-      "Treasure Hunt Mission",
+      "트레저 헌터 미션",
       "(None)",
       "0",
       "(None)",
@@ -130,8 +130,8 @@
   "10002": [
     [
       "summer_campaign_mission",
-      "Promo Mission",
-      "Promo Mission",
+      "캠페인 미션",
+      "캠페인 미션",
       "2",
       "3",
       "第1弾,第2弾,第3弾",
@@ -162,8 +162,8 @@
   "10003": [
     [
       "zcollab_campaign_mission",
-      "Promo Mission",
-      "Promo Mission",
+      "캠페인 미션",
+      "캠페인 미션",
       "2",
       "2",
       "第1弾,第2弾",
@@ -194,7 +194,7 @@
   "4": [
     [
       "collect_item_event_004",
-      "Treasure Hunt Mission",
+      "트레저 헌터 미션",
       "(None)",
       "1",
       "(None)",
@@ -226,7 +226,7 @@
   "5": [
     [
       "collect_item_event_005",
-      "Treasure Hunt Mission",
+      "트레저 헌터 미션",
       "(None)",
       "1",
       "(None)",
@@ -258,7 +258,7 @@
   "6": [
     [
       "collect_item_event_006",
-      "Treasure Hunt Mission",
+      "트레저 헌터 미션",
       "(None)",
       "1",
       "(None)",
@@ -290,7 +290,7 @@
   "7": [
     [
       "collect_item_event_007",
-      "Treasure Hunt Mission",
+      "트레저 헌터 미션",
       "(None)",
       "1",
       "(None)",
@@ -322,7 +322,7 @@
   "8": [
     [
       "collect_item_event_008",
-      "Treasure Hunt Mission",
+      "트레저 헌트 미션",
       "(None)",
       "1",
       "(None)",
@@ -354,7 +354,7 @@
   "9": [
     [
       "collect_item_event_009",
-      "Treasure Hunt Mission",
+      "트레저 헌트 미션",
       "(None)",
       "1",
       "(None)",
@@ -386,7 +386,7 @@
   "10": [
     [
       "collect_item_event_010",
-      "Treasure Hunt Mission",
+      "트레저 헌트 미션",
       "(None)",
       "1",
       "(None)",
@@ -418,7 +418,7 @@
   "11": [
     [
       "collect_item_event_fall_2021",
-      "秋のキノコハントミッション",
+      "트레저 헌트 미션",
       "(None)",
       "1",
       "(None)",
@@ -450,7 +450,7 @@
   "12": [
     [
       "collect_item_event_011",
-      "Treasure Hunt Mission",
+      "트레저 헌트 미션",
       "(None)",
       "1",
       "(None)",
@@ -482,7 +482,7 @@
   "13": [
     [
       "collect_item_event_012",
-      "Treasure Hunt Mission",
+      "트레저 헌트 미션",
       "(None)",
       "1",
       "(None)",
@@ -514,7 +514,7 @@
   "14": [
     [
       "collect_item_event_013",
-      "Treasure Hunt Mission",
+      "트레저 헌트 미션",
       "(None)",
       "1",
       "(None)",
@@ -546,7 +546,7 @@
   "15": [
     [
       "collect_item_event_014",
-      "Treasure Hunt Mission",
+      "트레저 헌트 미션",
       "(None)",
       "1",
       "(None)",
@@ -605,6 +605,38 @@
       "",
       "",
       "(None)"
+    ]
+  ],
+  "100001": [
+    [
+      "treasure_hunt_01_20230505_20230519",
+      "Treasure Hunt Mission",
+      "(None)",
+      "1",
+      "(None)",
+      "",
+      "80115",
+      "item_icon/materials/event/target_item_drop_event/sizuku_icon",
+      "80215",
+      "item_icon/materials/event/target_item_drop_event/kesshou_icon",
+      "(None)",
+      "(None)",
+      "quest/event/banner/collect_item_event/collect_item_event_003",
+      "(None)",
+      "(None)",
+      "quest/event/banner/collect_item_event/shop_banner",
+      "quest/event/banner/collect_item_event/collect_item_event_001_shop",
+      "collect_item_event_title_how_to_play",
+      "rich_text/help_event_treasure_hunt_quest",
+      "1",
+      "2024-11-05 14:00:00",
+      "2024-11-19 20:59:59",
+      "2024-11-27 04:59:59",
+      "0",
+      "1",
+      "4",
+      "2",
+      "1004002"
     ]
   ],
   "10017": [
@@ -735,6 +767,38 @@
       "(None)"
     ]
   ],
+  "10021": [
+    [
+      "spring23_campaign_mission",
+      "Promo Mission",
+      "(None)",
+      "2",
+      "3",
+      "Beginner,Intermediate,Advanced",
+      "(None)",
+      "(None)",
+      "(None)",
+      "(None)",
+      "(None)",
+      "(None)",
+      "(None)",
+      "quest/event/background/collect_item_event/spring23_mission_event_background",
+      "quest/event/banner/collect_item_event/spring22_mission_event",
+      "(None)",
+      "(None)",
+      "(None)",
+      "",
+      "1",
+      "2024-10-01 14:00:00",
+      "2024-10-15 20:59:59",
+      "(None)",
+      "(None)",
+      "",
+      "",
+      "",
+      "(None)"
+    ]
+  ],
   "10014": [
     [
       "spring22_campaign_mission",
@@ -802,11 +866,11 @@
   "10013": [
     [
       "rcollab_revival_campaign_mission",
-      "キャンペーンミッション",
+      "Promo Missions",
       "(None)",
       "2",
       "3",
-      "初級,中級,上級",
+      "Beginner,Intermediate,Advanced",
       "(None)",
       "(None)",
       "(None)",
@@ -853,8 +917,8 @@
       "(None)",
       "",
       "1",
-      "2024-05-15 14:00:00",
-      "2024-05-28 13:59:59",
+      "2024-05-01 14:00:00",
+      "2024-05-17 20:59:59",
       "(None)",
       "(None)",
       "",
@@ -882,7 +946,7 @@
       "(None)",
       "quest/event/banner/collect_item_event/material_trader_shop_banner",
       "quest/event/banner/collect_item_event/material_trader_shop",
-      "material_trader_title_how_to_play",
+      "collect_item_event_title_how_to_play",
       "rich_text/help_event_material_trader",
       "1",
       "2023-10-26 14:00:00",
@@ -983,6 +1047,70 @@
       "1",
       "2023-12-26 14:00:00",
       "2024-01-05 20:59:59",
+      "(None)",
+      "(None)",
+      "",
+      "",
+      "",
+      "(None)"
+    ]
+  ],
+  "100003": [
+    [
+      "campaign_mission_halfanv_20230531_20230616",
+      "Promo Missions",
+      "(None)",
+      "2",
+      "3",
+      "Beginner,Intermediate,Advanced",
+      "(None)",
+      "(None)",
+      "(None)",
+      "(None)",
+      "(None)",
+      "(None)",
+      "(None)",
+      "quest/event/background/collect_item_event/3halfanv_mission_event_background",
+      "quest/event/banner/collect_item_event/3halfanv_mission_event",
+      "(None)",
+      "(None)",
+      "(None)",
+      "",
+      "1",
+      "2024-12-01 14:00:00",
+      "2024-12-17 20:59:59",
+      "(None)",
+      "(None)",
+      "",
+      "",
+      "",
+      "(None)"
+    ]
+  ],
+  "100000": [
+    [
+      "campaign_mission_gw_20230428_20230507",
+      "Promo Missions",
+      "(None)",
+      "2",
+      "3",
+      "Beginner,Intermediate,Advanced",
+      "(None)",
+      "(None)",
+      "(None)",
+      "(None)",
+      "(None)",
+      "(None)",
+      "(None)",
+      "quest/event/background/collect_item_event/gw23_mission_event_background",
+      "quest/event/banner/collect_item_event/gw22_mission_event",
+      "(None)",
+      "(None)",
+      "(None)",
+      "",
+      "1",
+      "2024-10-29 14:00:00",
+      "2024-11-07 20:59:59",
       "(None)",
       "(None)",
       "",

@@ -1,0 +1,358 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "StopBall",
+          -18,
+          10,
+          [
+            "RestoreToSpeedBeforeActionExecution"
+          ],
+          [
+            "EF"
+          ],
+          0
+        ]
+      ],
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "攻撃演出",
+          [
+            "SpecifyEffectDirectly",
+            "battle/effect/skill_unique/catbaby_psychicer/catbaby_psychicer_rock"
+          ],
+          -18,
+          [
+            "ForesideOfCharacter"
+          ],
+          [
+            "SpecifyEffectLifetimeSLv",
+            [
+              {
+                "alv_max": 280,
+                "alv_min": 140,
+                "max": 610,
+                "min": 610
+              }
+            ]
+          ],
+          [
+            "AB"
+          ],
+          0,
+          40,
+          0,
+          true,
+          false,
+          [
+            "Some",
+            [
+              {
+                "max": 4.4,
+                "min": 4.4
+              }
+            ]
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          10,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateHitArea",
+                  "*",
+                  -18,
+                  [
+                    "AB"
+                  ],
+                  0,
+                  0,
+                  0,
+                  true,
+                  false,
+                  [
+                    "Circle",
+                    [
+                      {
+                        "max": 200,
+                        "min": 200
+                      }
+                    ]
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Center"
+                  ],
+                  [
+                    "Single"
+                  ],
+                  [
+                    "SpecifyHitAreaLifetimeSLv",
+                    [
+                      {
+                        "alv_max": 280,
+                        "alv_min": 140,
+                        "max": 600,
+                        "min": 600
+                      }
+                    ]
+                  ],
+                  [
+                    "SpecifyMinHitIntervalDirectly",
+                    40
+                  ],
+                  [
+                    "Some",
+                    [
+                      {
+                        "alv_max": 7,
+                        "alv_min": 7,
+                        "max": 15,
+                        "min": 15
+                      }
+                    ]
+                  ],
+                  false,
+                  true,
+                  [
+                    "None"
+                  ],
+                  0,
+                  [
+                    "Block",
+                    null
+                  ],
+                  1,
+                  2,
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          2,
+                          255,
+                          null,
+                          null,
+                          10,
+                          [
+                            {
+                              "max": 1.5,
+                              "min": 1.3
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            {
+                              "max": 2,
+                              "min": 2
+                            }
+                          ],
+                          [
+                            "SpecifyHitEffectDirectly",
+                            [
+                              "SpecifyEffectDirectly",
+                              "battle/effect/skill_unique/catbaby_psychicer/catbaby_psychicer_hit"
+                            ],
+                            true
+                          ],
+                          true
+                        ]
+                      ]
+                    ]
+                  ],
+                  0,
+                  0,
+                  [
+                    "None"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          3,
+          34,
+          [
+            1
+          ],
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "FindAllSubjects",
+                  4,
+                  97,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  [
+                    "DoNothing"
+                  ],
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          4,
+                          [
+                            [
+                              "ACPiercing",
+                              [
+                                {
+                                  "max": 810,
+                                  "min": 720
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          2,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          4,
+                          [
+                            [
+                              "ACPowerFlipDamage",
+                              [
+                                {
+                                  "max": 1200,
+                                  "min": 1200
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 0.85
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 1,
+                                  "min": 1
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          2,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

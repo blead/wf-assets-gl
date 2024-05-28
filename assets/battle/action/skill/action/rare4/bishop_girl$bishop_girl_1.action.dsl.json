@@ -35,36 +35,6 @@
               [
                 "Command",
                 [
-                  "CreateRatioHeal",
-                  0,
-                  2,
-                  [
-                    {
-                      "max": 0.048,
-                      "min": 0.048
-                    }
-                  ],
-                  [
-                    2
-                  ],
-                  [
-                    {
-                      "max": 0.5,
-                      "min": 0.5
-                    }
-                  ],
-                  [
-                    "SpecifyHealEffectDirectly",
-                    [
-                      "SpecifyEffectDirectly",
-                      "battle/effect/skill_unique/bishop_girl/heal_bishop_girl"
-                    ]
-                  ]
-                ]
-              ],
-              [
-                "Command",
-                [
                   "CreateCondition",
                   0,
                   [
@@ -112,6 +82,108 @@
                     }
                   ],
                   false
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          1,
+          113,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateRatioHeal",
+                  1,
+                  2,
+                  [
+                    {
+                      "max": 0.048,
+                      "min": 0.048
+                    }
+                  ],
+                  [
+                    2
+                  ],
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    "SpecifyHealEffectDirectly",
+                    [
+                      "SpecifyEffectDirectly",
+                      "battle/effect/skill_unique/bishop_girl/heal_bishop_girl"
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "Command",
+        [
+          "FindAllSubjects",
+          2,
+          145,
+          null,
+          null,
+          null,
+          null,
+          null,
+          [
+            "DoNothing"
+          ],
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "CreateRatioHeal",
+                  2,
+                  2,
+                  [
+                    {
+                      "max": 0.048,
+                      "min": 0.048
+                    }
+                  ],
+                  [
+                    2
+                  ],
+                  [
+                    {
+                      "max": 0.5,
+                      "min": 0.5
+                    }
+                  ],
+                  [
+                    "SpecifyHealEffectDirectly",
+                    [
+                      "SpecifyEffectDirectly",
+                      "battle/effect/skill_unique/bishop_girl/heal_bishop_girl"
+                    ]
+                  ]
                 ]
               ]
             ]

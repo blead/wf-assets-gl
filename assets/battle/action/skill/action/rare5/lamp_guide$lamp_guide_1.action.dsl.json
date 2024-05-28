@@ -159,8 +159,46 @@
                       [
                         "Command",
                         [
-                          "CreateRatioHeal",
+                          "DeleteCondition",
                           1,
+                          [
+                            "DCAll",
+                            3
+                          ],
+                          2,
+                          0,
+                          "",
+                          [
+                            "Default"
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "FindAllSubjects",
+                  2,
+                  113,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  [
+                    "DoNothing"
+                  ],
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateRatioHeal",
+                          2,
                           2,
                           [
                             {
@@ -181,21 +219,51 @@
                             "GenericHealHitEffect"
                           ]
                         ]
-                      ],
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "Command",
+                [
+                  "FindAllSubjects",
+                  3,
+                  145,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  [
+                    "DoNothing"
+                  ],
+                  [
+                    "Block",
+                    [
                       [
                         "Command",
                         [
-                          "DeleteCondition",
-                          1,
-                          [
-                            "DCAll",
-                            3
-                          ],
+                          "CreateRatioHeal",
+                          3,
                           2,
-                          0,
-                          "",
                           [
-                            "Default"
+                            {
+                              "max": 0.04,
+                              "min": 0.04
+                            }
+                          ],
+                          [
+                            5
+                          ],
+                          [
+                            {
+                              "max": 0.5,
+                              "min": 0.5
+                            }
+                          ],
+                          [
+                            "GenericHealHitEffect"
                           ]
                         ]
                       ]

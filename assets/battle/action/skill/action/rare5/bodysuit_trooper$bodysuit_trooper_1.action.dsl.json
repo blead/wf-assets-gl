@@ -369,6 +369,58 @@
             ]
           ]
         ]
+      ],
+      [
+        "Command",
+        [
+          "CreateCondition",
+          -17,
+          [
+            [
+              "ACAttackPoint",
+              [
+                {
+                  "max": 480,
+                  "min": 480
+                }
+              ],
+              [
+                {
+                  "max": 0.8,
+                  "min": 0.8
+                }
+              ],
+              [
+                {
+                  "max": 1,
+                  "min": 1
+                }
+              ]
+            ]
+          ],
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
+          [
+            "GenericConditionHitEffect"
+          ],
+          true,
+          false,
+          "",
+          null,
+          false,
+          3,
+          [
+            {
+              "max": 1,
+              "min": 1
+            }
+          ],
+          false
+        ]
       ]
     ]
   ]

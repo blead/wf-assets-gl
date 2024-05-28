@@ -1,0 +1,233 @@
+[
+  "ActionDsl",
+  1,
+  [
+    "None"
+  ],
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  0,
+  [
+    "Block",
+    [
+      [
+        "Command",
+        [
+          "ShowEffect",
+          "画面全体用の演出",
+          [
+            "ResolveByElement",
+            "battle/effect/enemy_general/enemy_shot_overall_attack",
+            7
+          ],
+          -1,
+          [
+            "ForesideOfCharacter"
+          ],
+          [
+            "PlayOnlyFirstSequence"
+          ],
+          [
+            "AB"
+          ],
+          0,
+          0,
+          0,
+          true,
+          true,
+          [
+            "None"
+          ]
+        ]
+      ],
+      [
+        "Event",
+        [
+          "Wait",
+          45,
+          "*",
+          [
+            "Block",
+            [
+              [
+                "Command",
+                [
+                  "FindAllSubjects",
+                  0,
+                  33,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  [
+                    "DoNothing"
+                  ],
+                  [
+                    "Block",
+                    [
+                      [
+                        "Command",
+                        [
+                          "CreateNormalAttack",
+                          0,
+                          255,
+                          null,
+                          null,
+                          0,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 0,
+                              "min": 0
+                            }
+                          ],
+                          false,
+                          false,
+                          false,
+                          false,
+                          false,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "None"
+                          ],
+                          true
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          0,
+                          [
+                            [
+                              "ACToleranceOfElement",
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              2,
+                              [
+                                {
+                                  "max": -0.2,
+                                  "min": -0.2
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 99,
+                                  "min": 99
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          true,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ],
+                      [
+                        "Command",
+                        [
+                          "CreateCondition",
+                          0,
+                          [
+                            [
+                              "ACAttackPoint",
+                              [
+                                {
+                                  "max": 9999999,
+                                  "min": 9999999
+                                }
+                              ],
+                              [
+                                {
+                                  "max": -3,
+                                  "min": -3
+                                }
+                              ],
+                              [
+                                {
+                                  "max": 99,
+                                  "min": 99
+                                }
+                              ]
+                            ]
+                          ],
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          [
+                            "GenericConditionHitEffect"
+                          ],
+                          false,
+                          false,
+                          "",
+                          null,
+                          false,
+                          3,
+                          [
+                            {
+                              "max": 1,
+                              "min": 1
+                            }
+                          ],
+                          false
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
