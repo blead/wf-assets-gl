@@ -4175,7 +4175,7 @@
   "ability_description_instant_conjunction_trigger_limit_n_times": [
     [
       "度、",
-      "때마다",
+      " 때마다 ",
       "→",
       "度、",
       "度、",
@@ -4188,7 +4188,7 @@
   "ability_description_instant_conjunction_trigger_limit_no_limit": [
     [
       "度、",
-      "때마다",
+      " 때마다 ",
       "→",
       "度、",
       "度、",
@@ -4396,7 +4396,7 @@
   "ability_description_n_times": [
     [
       "::count::&nbsp;回",
-      "::count:: 회",
+      "::count:: 회 ",
       "every ::count:: time(s)",
       "::count::&nbsp;回",
       "::count::&nbsp;回",
@@ -4409,7 +4409,7 @@
   "ability_description_times": [
     [
       "::strength::&nbsp;倍",
-      "::strength:: 배",
+      "::strength:: 배 ",
       "x ::strength::",
       "::strength::&nbsp;倍",
       "::strength::&nbsp;倍",
@@ -4513,7 +4513,7 @@
   "ability_description_instant_trigger_kind_power_flip_lv_high": [
     [
       "パワーフリップLv::level::以上::if once::を発動::else::を発動する::end::",
-      "파워 플립Lv::level::이상::if once::을 발동::else::을 발동한다::end::",
+      "파워 플립Lv::level::이상::if once::을 발동::else::을(를) 발동할::end::",
       "activate a Power Flip level ::level:: or higher.",
       "パワーフリップLv::level::以上::if once::を発動::else::を発動する::end::",
       "パワーフリップLv::level::以上::if once::を発動::else::を発動する::end::",
@@ -4526,7 +4526,7 @@
   "ability_description_instant_trigger_kind_power_flip_lv_low": [
     [
       "パワーフリップLv::level::以下::if once::を発動::else::を発動する::end::",
-      "파워 플립Lv::level::이하::if once::를 발동::else::을 발동한다::end::",
+      "파워 플립Lv::level::이하::if once::를 발동::else::을(를) 발동할::end::",
       "activate a Power Flip level ::level:: or lower.",
       "パワーフリップLv::level::以下::if once::を発動::else::を発動する::end::",
       "パワーフリップLv::level::以下::if once::を発動::else::を発動する::end::",
@@ -4552,7 +4552,7 @@
   "ability_description_instant_trigger_kind_power_flip_hit_lv_high_count": [
     [
       "パワーフリップLv::level::::if (level <= 2)::以上::end::が::if hasCount:: ::count::::else::::end::::if once::ヒット::else::ヒットする::end::",
-      "파워 플립 Lv::level::::if (level <= 2):: 이상 ::end::(이)가 ::if hasCount:: ::count::::else::::end::::if once::명중::else:: 명중한 ::end::",
+      "파워 플립 Lv::level::::if (level <= 2):: 이상::end::(이)가 ::if hasCount:: ::count::::else::::end::::if once::명중::else:: 명중한 ::end::",
       "every time you hit a foe with ::if hasCount:: ::count:: ::else::::end::  Lv. ::level::::if (level <= 2):: or higher ::end:: Power Flip(s), ",
       "パワーフリップLv::level::::if (level <= 2)::以上::end::が::if hasCount:: ::count::::else::::end::::if once::ヒット::else::ヒットする::end::",
       "パワーフリップLv::level::::if (level <= 2)::以上::end::が::if hasCount:: ::count::::else::::end::::if once::ヒット::else::ヒットする::end::",
@@ -4565,7 +4565,7 @@
   "ability_description_instant_trigger_kind_one_of_enemy_power_flip_count": [
     [
       "1体の敵にパワーフリップが::if hasCount:: ::count:: 回::else::::end::ヒットする度、",
-      "하나의 적에게 파워 플립이 ::if hasCount:: ::count::회 ::else::::end::적중할 때마다,",
+      "하나의 적에게 파워 플립이 ::if hasCount:: ::count::회 ::else::::end::적중할 때마다, ",
       "every time you hit a foe with ::if hasCount:: ::count:: ::else::::end:: Power Flip(s), ",
       "1体の敵にパワーフリップが::if hasCount:: ::count:: 回::else::::end::ヒットする度、",
       "1体の敵にパワーフリップが::if hasCount:: ::count:: 回::else::::end::ヒットする度、",
@@ -4578,7 +4578,7 @@
   "ability_description_instant_trigger_kind_one_of_enemy_power_flip_lv_count": [
     [
       "1体の敵にパワーフリップLv::level:: が::if hasCount:: ::count:: 回::else::::end::ヒットする度、",
-      "하나의 적에게 파워 플립Lv::level::이 ::if hasCount:: ::count::회 ::else::::end::적중할 때마다,",
+      "하나의 적에게 파워 플립Lv::level::이 ::if hasCount:: ::count::회 ::else::::end::적중할 때마다, ",
       "every time you hit a foe with ::if hasCount:: ::count:: ::else::::end:: Lv. ::level:: Power Flip(s), ",
       "1体の敵にパワーフリップLv::level:: が::if hasCount:: ::count:: 回::else::::end::ヒットする度、",
       "1体の敵にパワーフリップLv::level:: が::if hasCount:: ::count:: 回::else::::end::ヒットする度、",
@@ -4604,7 +4604,7 @@
   "ability_description_instant_trigger_kind_ball_flip": [
     [
       "パーティまたはマルチボールをフリップ::if once::::else::する::end::",
-      "파티 또는 멀티 볼을 플립할::if once::::else::::end::",
+      "파티 또는 멀티 볼을 플립할 ::if once::::else::::end::",
       "::if once::::else::::end::a party member or multiball launches off the flippers",
       "パーティまたはマルチボールをフリップ::if once::::else::する::end::",
       "パーティまたはマルチボールをフリップ::if once::::else::する::end::",
@@ -4617,7 +4617,7 @@
   "ability_description_instant_trigger_kind_ball_flip_with_combo_high": [
     [
       "コンボ数が::count::以上の状態でパーティまたはマルチボールをフリップする度、",
-      "콤보 수가 ::count::이상인 상태에서 파티 또는 멀티 볼을 플립할 때마다,",
+      "콤보 수가 ::count::이상인 상태에서 파티 또는 멀티 볼을 플립할 때마다, ",
       "every time a party member or multiball launches off the flippers while you have a combo of ::count:: or more, ",
       "コンボ数が::count::以上の状態でパーティまたはマルチボールをフリップする度、",
       "コンボ数が::count::以上の状態でパーティまたはマルチボールをフリップする度、",
@@ -4630,7 +4630,7 @@
   "ability_description_instant_trigger_kind_ball_flip_with_combo_low": [
     [
       "コンボ数が::count::以下の状態でパーティまたはマルチボールをフリップする度、",
-      "콤보 수가 ::count::이하인 상태에서 파티 또는 멀티 볼을 플립할 때마다,",
+      "콤보 수가 ::count::이하인 상태에서 파티 또는 멀티 볼을 플립할 때마다, ",
       "every time a party member or multiball launches off the flippers while you have a combo of ::count:: or less, ",
       "コンボ数が::count::以下の状態でパーティまたはマルチボールをフリップする度、",
       "コンボ数が::count::以下の状態でパーティまたはマルチボールをフリップする度、",
@@ -4682,7 +4682,7 @@
   "ability_description_instant_trigger_kind_multiball_remove": [
     [
       "::if has_constraint::::constraint::の::end::::if (multiball_group == null)::召喚系マルチボール::else::::multiball_group::::end::が消滅::if once::::else::する::end::",
-      "::if has_constraint::::constraint::의 ::end::::if (multiball_group == null)::소환계 멀티 볼 ::else::::multiball_group::::end::(이)가 소멸 ::if once::::else::한 ::end::",
+      "::if has_constraint::::constraint::의 ::end::::if (multiball_group == null)::소환계 멀티 볼 ::else::::multiball_group::::end::(이)가 소멸::if once::::else::할 ::end::",
       "::if has_constraint:: ::constraint:: ::end:: ::if (multiball_group == null):: summonable multiball ::else:: ::multiball_group:: ::end:: goes away ::if once:: ::else:: ::end::",
       "::if has_constraint::::constraint::の::end::::if (multiball_group == null)::召喚系マルチボール::else::::multiball_group::::end::が消滅::if once::::else::する::end::",
       "::if has_constraint::::constraint::の::end::::if (multiball_group == null)::召喚系マルチボール::else::::multiball_group::::end::が消滅::if once::::else::する::end::",
@@ -4994,7 +4994,7 @@
   "ability_description_instant_trigger_kind_myself_flip": [
     [
       "パーティをフリップ::if once::::else::する::end::",
-      "파티를 플립::if once::::else::한다::end::",
+      "파티를 플립::if once::::else::할::end::",
       "Perform a Power Flip with your party",
       "パーティをフリップ::if once::::else::する::end::",
       "パーティをフリップ::if once::::else::する::end::",
@@ -5046,7 +5046,7 @@
   "ability_description_instant_trigger_kind_fever_frame": [
     [
       "フィーバーモード時間が ::second:: 秒経過::if once::::else::する::end::",
-      "피버 모드 시간이 ::second:: 초 경과::if once::::else::한다::end::",
+      "피버 모드 시간이 ::second:: 초 경과::if once::::else::할::end::",
       "::second:: second(s) elapse while in Fever Mode",
       "フィーバーモード時間が ::second:: 秒経過::if once::::else::する::end::",
       "フィーバーモード時間が ::second:: 秒経過::if once::::else::する::end::",
@@ -5124,7 +5124,7 @@
   "ability_description_instant_trigger_kind_condition_keep_frame": [
     [
       "::if !omittable::::triggerPuller::の::end::::condition::::if (count > 1)::が ::count:: 個以上の状態::end::を ::second:: 秒間維持::if once::した::else::する::end::",
-      "::if !omittable::::triggerPuller::의 ::end::::condition::::if (count > 1)::이(가) ::count:: 개 이상인 상태::end::를 ::second:: 초간 유지::if once::했다::else::한다::end::",
+      "::if !omittable::::triggerPuller::의 ::end::::condition::::if (count > 1)::이(가) ::count:: 개 이상인 상태::end::를 ::second:: 초간 유지::if once::했을::else::할 ::end::",
       "maintain ::count:: or more stacks of ::condition::::if !omittable:: on ::triggerPuller::::end:: for ::second:: seconds",
       "::if !omittable::::triggerPuller::の::end::::condition::::if (count > 1)::が ::count:: 個以上の状態::end::を ::second:: 秒間維持::if once::した::else::する::end::",
       "::if !omittable::::triggerPuller::の::end::::condition::::if (count > 1)::が ::count:: 個以上の状態::end::を ::second:: 秒間維持::if once::した::else::する::end::",
@@ -5722,7 +5722,7 @@
   "ability_description_during_trigger_kind_condition": [
     [
       "::if !omittable::::triggerPuller::が::end::::condition::中::if (isBeforeInstantTrigger)::に::elseif (hasAccumulationTrigger && !isPrecondition)::の::else::の間、::end::",
-      "::if !omittable::::triggerPuller::이(가) ::end::::condition::중::if (isBeforeInstantTrigger)::에::elseif (hasAccumulationTrigger && !isPrecondition)::인::else:: 동안,::end::",
+      "::if !omittable::::triggerPuller::이(가) ::end::::condition::중인 ::if (isBeforeInstantTrigger)::동안에 ::elseif (hasAccumulationTrigger && !isPrecondition)::::else:: 동안,::end::",
       "while ::condition:: is active ::if !omittable:: for ::triggerPuller::::end::::if (isBeforeInstantTrigger):: ::elseif (hasAccumulationTrigger && !isPrecondition):: ::else::, ::end::",
       "::if !omittable::::triggerPuller::が::end::::condition::中::if (isBeforeInstantTrigger)::に::elseif (hasAccumulationTrigger && !isPrecondition)::の::else::の間、::end::",
       "::if !omittable::::triggerPuller::が::end::::condition::中::if (isBeforeInstantTrigger)::に::elseif (hasAccumulationTrigger && !isPrecondition)::の::else::の間、::end::",
