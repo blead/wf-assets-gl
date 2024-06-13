@@ -1,3 +1,4 @@
+name: wfax
 on:
   repository_dispatch:
     types: [wf-assets-gl-cron]

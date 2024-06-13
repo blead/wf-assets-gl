@@ -1,0 +1,22 @@
+name: wf-assets-th
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: [wfax]
+    types: [completed]
+
+jobs:
+  wf-assets-th:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    steps:
+    - id: token
+      uses: actions/create-github-app-token@v1
+      with:
+        app_id: ${{ secrets.GH_APP_ID }}
+        private_key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+        repositories: "wf-assets-th"
+    - name: dispatch
+      env:
+        GH_TOKEN: ${{ steps.token.outputs.token }}
+      run: gh workflow run wfax -R blead/wf-assets-th -r master
