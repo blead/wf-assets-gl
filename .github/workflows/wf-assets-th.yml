@@ -19,4 +19,4 @@ jobs:
     - name: dispatch
       env:
         GH_TOKEN: ${{ steps.token.outputs.token }}
-      run: gh workflow run wfax -R blead/wf-assets-th -F version=null -F full_extract=false -r master
+      run: gh workflow run wfax -R blead/wf-assets-th -F version="" -F full_extract=false -r master
