@@ -1,4 +1,4 @@
-name: wf-assets-th
+name: wf-assets-th-kr
 on:
   workflow_dispatch:
   workflow_run:
@@ -15,8 +15,12 @@ jobs:
       with:
         app_id: ${{ secrets.GH_APP_ID }}
         private_key: ${{ secrets.GH_APP_PRIVATE_KEY }}
-        repositories: "wf-assets-th"
-    - name: dispatch
+        repositories: "wf-assets-th,wf-assets-kr"
+    - name: dispatch-th
       env:
         GH_TOKEN: ${{ steps.token.outputs.token }}
       run: gh workflow run wfax -R blead/wf-assets-th -F version=null -F full_extract=false -r master
+    - name: dispatch-kr
+      env:
+        GH_TOKEN: ${{ steps.token.outputs.token }}
+      run: gh workflow run wfax -R blead/wf-assets-kr -F version=null -F full_extract=false -r master
