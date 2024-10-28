@@ -249,8 +249,8 @@
                                           "CreateNormalAttack",
                                           3,
                                           255,
-                                          null,
-                                          null,
+                                          [],
+                                          [],
                                           3,
                                           [
                                             {
@@ -457,7 +457,7 @@
                                           4,
                                           [
                                             "Block",
-                                            null
+                                            []
                                           ],
                                           5,
                                           6,
@@ -470,8 +470,8 @@
                                                   "CreateNormalAttack",
                                                   6,
                                                   255,
-                                                  null,
-                                                  null,
+                                                  [],
+                                                  [],
                                                   40,
                                                   [
                                                     {
@@ -848,8 +848,8 @@
                                           "CreateNormalAttack",
                                           10,
                                           255,
-                                          null,
-                                          null,
+                                          [],
+                                          [],
                                           3,
                                           [
                                             {
@@ -1056,7 +1056,7 @@
                                           11,
                                           [
                                             "Block",
-                                            null
+                                            []
                                           ],
                                           12,
                                           13,
@@ -1069,8 +1069,8 @@
                                                   "CreateNormalAttack",
                                                   13,
                                                   255,
-                                                  null,
-                                                  null,
+                                                  [],
+                                                  [],
                                                   40,
                                                   [
                                                     {
@@ -1447,8 +1447,8 @@
                                           "CreateNormalAttack",
                                           17,
                                           255,
-                                          null,
-                                          null,
+                                          [],
+                                          [],
                                           3,
                                           [
                                             {
@@ -1655,7 +1655,7 @@
                                           18,
                                           [
                                             "Block",
-                                            null
+                                            []
                                           ],
                                           19,
                                           20,
@@ -1668,8 +1668,8 @@
                                                   "CreateNormalAttack",
                                                   20,
                                                   255,
-                                                  null,
-                                                  null,
+                                                  [],
+                                                  [],
                                                   40,
                                                   [
                                                     {
@@ -1836,10 +1836,10 @@
           [
             1
           ],
-          null,
-          null,
-          null,
-          null,
+          [],
+          [],
+          [],
+          [],
           [
             "DoNothing"
           ],

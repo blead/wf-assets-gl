@@ -21,11 +21,11 @@
           "FindAllSubjects",
           0,
           51,
-          null,
-          null,
-          null,
-          null,
-          null,
+          [],
+          [],
+          [],
+          [],
+          [],
           [
             "CreateImaginaryTarget",
             -1000000
@@ -146,11 +146,11 @@
                                   "FindAllSubjects",
                                   4,
                                   51,
-                                  null,
-                                  null,
-                                  null,
-                                  null,
-                                  null,
+                                  [],
+                                  [],
+                                  [],
+                                  [],
+                                  [],
                                   [
                                     "CreateImaginaryTarget",
                                     -1000000
@@ -301,11 +301,11 @@
                                           "FindAllSubjects",
                                           8,
                                           51,
-                                          null,
-                                          null,
-                                          null,
-                                          null,
-                                          null,
+                                          [],
+                                          [],
+                                          [],
+                                          [],
+                                          [],
                                           [
                                             "DoNothing"
                                           ],
@@ -389,7 +389,7 @@
                                   7,
                                   [
                                     "Block",
-                                    null
+                                    []
                                   ],
                                   0,
                                   0,
@@ -408,7 +408,7 @@
                   3,
                   [
                     "Block",
-                    null
+                    []
                   ],
                   0,
                   0,

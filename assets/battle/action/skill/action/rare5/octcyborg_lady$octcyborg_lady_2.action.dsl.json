@@ -125,7 +125,7 @@
                   0,
                   [
                     "Block",
-                    null
+                    []
                   ],
                   1,
                   2,
@@ -145,8 +145,8 @@
                           "CreateNormalAttack",
                           2,
                           255,
-                          null,
-                          null,
+                          [],
+                          [],
                           6,
                           [
                             {
@@ -202,11 +202,11 @@
           "FindAllSubjects",
           3,
           97,
-          null,
-          null,
-          null,
-          null,
-          null,
+          [],
+          [],
+          [],
+          [],
+          [],
           [
             "DoNothing"
           ],
@@ -278,10 +278,10 @@
           [
             3
           ],
-          null,
-          null,
-          null,
-          null,
+          [],
+          [],
+          [],
+          [],
           [
             "DoNothing"
           ],
@@ -318,10 +318,10 @@
           [
             3
           ],
-          null,
-          null,
-          null,
-          null,
+          [],
+          [],
+          [],
+          [],
           [
             "DoNothing"
           ],

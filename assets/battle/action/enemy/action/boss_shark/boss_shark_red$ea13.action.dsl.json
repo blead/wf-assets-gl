@@ -155,11 +155,11 @@
                   "FindAllSubjects",
                   3,
                   83,
-                  null,
-                  null,
-                  null,
-                  null,
-                  null,
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
                   [
                     "DoNothing"
                   ],
@@ -267,11 +267,11 @@
                                   "FindAllSubjects",
                                   7,
                                   83,
-                                  null,
-                                  null,
-                                  null,
-                                  null,
-                                  null,
+                                  [],
+                                  [],
+                                  [],
+                                  [],
+                                  [],
                                   [
                                     "DoNothing"
                                   ],
@@ -372,8 +372,8 @@
                                                   "CreateNormalAttack",
                                                   7,
                                                   255,
-                                                  null,
-                                                  null,
+                                                  [],
+                                                  [],
                                                   0,
                                                   [
                                                     {
@@ -416,7 +416,7 @@
                                           10,
                                           [
                                             "Block",
-                                            null
+                                            []
                                           ],
                                           0,
                                           0,

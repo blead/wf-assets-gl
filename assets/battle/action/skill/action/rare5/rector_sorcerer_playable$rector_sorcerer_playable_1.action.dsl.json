@@ -260,8 +260,8 @@
                                   "CreateNormalAttack",
                                   3,
                                   255,
-                                  null,
-                                  null,
+                                  [],
+                                  [],
                                   40,
                                   [
                                     {
@@ -324,10 +324,10 @@
           [
             6
           ],
-          null,
-          null,
-          null,
-          null,
+          [],
+          [],
+          [],
+          [],
           [
             "DoNothing"
           ],
@@ -361,7 +361,7 @@
                   ],
                   [
                     "Block",
-                    null
+                    []
                   ]
                 ]
               ]

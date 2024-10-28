@@ -181,8 +181,8 @@
                           "CreateNormalAttack",
                           3,
                           255,
-                          null,
-                          null,
+                          [],
+                          [],
                           133,
                           [
                             {
@@ -241,10 +241,10 @@
           [
             3
           ],
-          null,
-          null,
-          null,
-          null,
+          [],
+          [],
+          [],
+          [],
           [
             "DoNothing"
           ],
@@ -313,7 +313,7 @@
           "ConditionalsFeverMode",
           [
             "Block",
-            null
+            []
           ],
           [
             "Block",

@@ -38,7 +38,7 @@
             1610871,
             1610872
           ],
-          null,
+          [],
           1,
           [
             "Block",
@@ -52,10 +52,10 @@
                   [
                     6
                   ],
-                  null,
-                  null,
-                  null,
-                  null,
+                  [],
+                  [],
+                  [],
+                  [],
                   [
                     "DoNothing"
                   ],
@@ -234,8 +234,8 @@
                                   "CreateNormalAttack",
                                   3,
                                   255,
-                                  null,
-                                  null,
+                                  [],
+                                  [],
                                   200,
                                   [
                                     {
@@ -497,7 +497,7 @@
                                                   8,
                                                   [
                                                     "Block",
-                                                    null
+                                                    []
                                                   ],
                                                   9,
                                                   10,
@@ -517,8 +517,8 @@
                                                           "CreateNormalAttack",
                                                           10,
                                                           255,
-                                                          null,
-                                                          null,
+                                                          [],
+                                                          [],
                                                           67,
                                                           [
                                                             {

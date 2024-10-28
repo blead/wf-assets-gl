@@ -137,8 +137,8 @@
                   "CreateNormalAttack",
                   2,
                   255,
-                  null,
-                  null,
+                  [],
+                  [],
                   1,
                   [
                     {
@@ -219,11 +219,11 @@
           "ConditionalsNumCoffins",
           [
             "Block",
-            null
+            []
           ],
           [
             "Block",
-            null
+            []
           ],
           [
             "Block",
@@ -234,11 +234,11 @@
                   "FindAllSubjects",
                   3,
                   65,
-                  null,
-                  null,
-                  null,
-                  null,
-                  null,
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
                   [
                     "DoNothing"
                   ],
@@ -279,11 +279,11 @@
                   "FindAllSubjects",
                   4,
                   113,
-                  null,
-                  null,
-                  null,
-                  null,
-                  null,
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
                   [
                     "DoNothing"
                   ],
@@ -295,11 +295,11 @@
                         [
                           "BindCoffinRevivalCountVariable",
                           113,
-                          null,
-                          null,
-                          null,
-                          null,
-                          null,
+                          [],
+                          [],
+                          [],
+                          [],
+                          [],
                           5,
                           1,
                           4
@@ -322,7 +322,7 @@
                               "mul": 5
                             }
                           ],
-                          null,
+                          [],
                           [
                             {
                               "max": 0,
@@ -344,11 +344,11 @@
                   "FindAllSubjects",
                   6,
                   145,
-                  null,
-                  null,
-                  null,
-                  null,
-                  null,
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
                   [
                     "DoNothing"
                   ],
@@ -360,11 +360,11 @@
                         [
                           "BindCoffinRevivalCountVariable",
                           113,
-                          null,
-                          null,
-                          null,
-                          null,
-                          null,
+                          [],
+                          [],
+                          [],
+                          [],
+                          [],
                           7,
                           1,
                           4
@@ -387,7 +387,7 @@
                               "mul": 7
                             }
                           ],
-                          null,
+                          [],
                           [
                             {
                               "max": 0,
